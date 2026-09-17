@@ -36,7 +36,9 @@ data/
    (infobox, `why-matters` line, body, timeline, sources). Keep the same
    `<head>` structure (title/description/canonical/JSON-LD) updated for the
    new entity.
-5. If the entry has explicitly dated milestones, they'll also want to
+5. Run `python3 scripts/update_home_counts.py` to refresh the per-type
+   counters on the homepage (they are hardcoded in `index.html`).
+6. If the entry has explicitly dated milestones, they'll also want to
    appear in `/timeline/` — that page is generated from every entity's
    `timeline` array, so make sure dates match what's in the JSON record.
 
