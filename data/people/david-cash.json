@@ -1,12 +1,72 @@
 {
-  "id":"david-cash", "type":"person", "title":"David Cash", "slug":"david-cash", "name":"David Cash", "born":null, "died":null, "era":"2000s-Present",
-  "tags":["cryptography","encrypted-search","post-quantum-cryptography","computer-security","research"],
-  "summary":"Cryptographer and University of Chicago professor whose work includes encrypted data search, quantum-secure cryptography, and computer security.",
-  "whyThisMatters":"Encryption is only useful at scale when systems can still retrieve and use protected information safely. Cash's work studies cryptographic methods for navigating encrypted data and the security assumptions behind them.",
-  "knownFor":["Encrypted search","Post-quantum cryptography","Theoretical and applied cryptography"],
-  "sections":{"overview":"<p>David Cash is a University of Chicago computer scientist working in cryptography, computer security, and theoretical computer science.</p><h2>Encrypted data</h2><p>His faculty profile describes work on securely navigating encrypted data, quantum-secure cryptography, and foundational cryptographic results. These subjects address the tension between useful data systems and confidentiality.</p><h2>University work</h2><p>Cash joined the University of Chicago computer-science faculty in 2018. The department describes his work as spanning public-key encryption, post-quantum cryptography, encrypted databases and search.</p><h2>Security relevance</h2><p>Research on encrypted search and data access helps identify both what encrypted services can safely offer and the metadata or leakage risks that system designers must consider.</p>"},
-  "timeline":[{"date":"2010","event":"Receives a Eurocrypt Best Paper Award, as listed by the University of Chicago."},{"date":"2011","event":"Receives another Eurocrypt Best Paper Award, as listed by the University of Chicago."},{"date":"2018","event":"Joins the University of Chicago computer-science faculty."}],
-  "relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],
-  "sources":[{"title":"University of Chicago: David Cash", "url":"https://cs.uchicago.edu/people/david-cash/"},{"title":"Cryptography and Cybersecurity Expert David Cash Joins CS Faculty", "url":"https://cs.uchicago.edu/news/cryptography-and-cybersecurity-expert-david-cash-joins-cs-faculty/"},{"title":"David Cash curriculum vitae", "url":"https://people.cs.uchicago.edu/~davidcash/cv.pdf"},{"title":"David Cash academic home page", "url":"https://people.cs.uchicago.edu/~davidcash/"}],
-  "editorial":{"verified":true,"sourcesCount":4,"lastReviewed":"2026-09-03","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-03"}
+  "id": "david-cash",
+  "type": "person",
+  "title": "David Cash",
+  "slug": "david-cash",
+  "name": "David Cash",
+  "born": null,
+  "died": null,
+  "era": "2000s-Present",
+  "tags": [
+    "cryptography",
+    "encrypted-search",
+    "post-quantum-cryptography",
+    "computer-security",
+    "research"
+  ],
+  "summary": "Cryptographer and University of Chicago professor whose work includes encrypted data search, quantum-secure cryptography, and computer security.",
+  "whyThisMatters": "Encryption is only useful at scale when systems can still retrieve and use protected information safely. Cash's work studies cryptographic methods for navigating encrypted data and the security assumptions behind them.",
+  "knownFor": [
+    "Encrypted search",
+    "Post-quantum cryptography",
+    "Theoretical and applied cryptography"
+  ],
+  "sections": {
+    "overview": "<p>David Cash is a University of Chicago computer scientist working in cryptography, computer security, and theoretical computer science.</p><h2>Encrypted data</h2><p>His faculty profile describes work on securely navigating encrypted data, quantum-secure cryptography, and foundational cryptographic results. These subjects address the tension between useful data systems and confidentiality.</p><h2>University work</h2><p>Cash joined the University of Chicago computer-science faculty in 2018. The department describes his work as spanning public-key encryption, post-quantum cryptography, encrypted databases and search.</p><h2>Security relevance</h2><p>Research on encrypted search and data access helps identify both what encrypted services can safely offer and the metadata or leakage risks that system designers must consider.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2010",
+      "event": "Receives a Eurocrypt Best Paper Award, as listed by the University of Chicago."
+    },
+    {
+      "date": "2011",
+      "event": "Receives another Eurocrypt Best Paper Award, as listed by the University of Chicago."
+    },
+    {
+      "date": "2018",
+      "event": "Joins the University of Chicago computer-science faculty."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "University of Chicago: David Cash",
+      "url": "https://cs.uchicago.edu/people/david-cash/"
+    },
+    {
+      "title": "Cryptography and Cybersecurity Expert David Cash Joins CS Faculty",
+      "url": "https://cs.uchicago.edu/news/cryptography-and-cybersecurity-expert-david-cash-joins-cs-faculty/"
+    },
+    {
+      "title": "David Cash curriculum vitae",
+      "url": "https://people.cs.uchicago.edu/~davidcash/cv.pdf"
+    },
+    {
+      "title": "David Cash academic home page",
+      "url": "https://people.cs.uchicago.edu/~davidcash/"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

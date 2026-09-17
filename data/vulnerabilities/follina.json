@@ -4,18 +4,41 @@
   "title": "Follina (CVE-2022-30190)",
   "slug": "follina",
   "era": "2022",
-  "tags": ["windows", "microsoft-office", "msdt", "zero-day", "remote-code-execution", "url-protocol-handler", "2022"],
+  "tags": [
+    "windows",
+    "microsoft-office",
+    "msdt",
+    "zero-day",
+    "remote-code-execution",
+    "url-protocol-handler",
+    "2022"
+  ],
   "summary": "Follina (CVE-2022-30190) is a remote code execution vulnerability in the Microsoft Windows Support Diagnostic Tool (MSDT), triggered via the ms-msdt URL protocol handler from malicious Microsoft Office documents, publicly disclosed in May 2022.",
   "whyThisMatters": "Follina demonstrated that a widely deployed Windows component could be weaponized without macros, exploiting a URL protocol handler invoked from Office documents to bypass many existing mitigations and detection heuristics. It was actively exploited in the wild by multiple threat actors, including suspected state-sponsored groups, before a patch existed, making it one of the more significant zero-day disclosures of 2022 and prompting Microsoft to issue emergency mitigation guidance ahead of an official fix.",
   "sections": {
     "overview": "<h2>Background</h2><p>Follina is the informal name given to CVE-2022-30190, a remote code execution vulnerability affecting the Microsoft Windows Support Diagnostic Tool (MSDT). MSDT is a legacy Windows utility that allows Microsoft technical support agents to collect diagnostic data remotely for troubleshooting. The vulnerability involves the way MSDT is invoked through the ms-msdt URL protocol handler, which can be triggered from within Microsoft Office documents such as Word files.</p><h2>Discovery and disclosure</h2><p>The vulnerability was publicly surfaced on May 27, 2022, after the security research group nao_sec identified and shared a malicious Word document that had been uploaded to VirusTotal from an IP address in Belarus. The document, purportedly related to Russia's war against Ukraine, used a remote template feature in Word to fetch an HTML file that then invoked the ms-msdt protocol handler to execute PowerShell code, without requiring macros to be enabled. Security researchers, including those tracking the sample, gave the vulnerability the nickname \"Follina\" after a postal code referenced in the sample's file metadata. Microsoft assigned the identifier CVE-2022-30190 on May 30, 2022.</p><h2>How the exploit works</h2><p>According to Microsoft's own advisory, the vulnerability exists when MSDT is invoked using the URL protocol from a calling application such as Word. An attacker who successfully exploits the vulnerability can run arbitrary code with the privileges of the calling application, which in typical Office scenarios means code execution in the context of the user who opened the document. Because the exploit relies on the ms-msdt URL scheme rather than on Office macros or scripting, it evaded many macro-focused detection and mitigation controls that organizations had put in place after years of macro-based malware campaigns. Notably, the malicious code could reportedly execute even with macros disabled and, in some analyses, without the document needing to be fully opened, depending on the preview and rendering behavior of the host application.</p><h2>Exploitation in the wild</h2><p>Before an official patch was available, Follina was actively exploited by multiple threat actors. Researchers reported exploitation attempts against targets in Russia and Belarus beginning around April 2022, predating the public disclosure. Separately, security researchers linked suspected Chinese state-sponsored activity to attacks using the Follina exploit against the Tibetan government-in-exile, based in Dharamshala, India, in campaigns themed around Tibetan cultural and political topics. The relative ease of weaponizing the exploit, combined with the lack of an immediate patch, led to rapid adoption of the technique by additional cybercriminal groups following public disclosure.</p><h2>Microsoft's response and patch</h2><p>Microsoft initially downplayed early private reports of the underlying MSDT behavior, but after nao_sec's public disclosure and subsequent widespread attention, the company issued a security advisory and interim mitigation guidance on May 30, 2022, before a formal patch was ready. The recommended workaround involved manually deleting the ms-msdt registry key (using a command such as \"reg delete HKEY_CLASSES_ROOT\\ms-msdt /f\") to disable the URL protocol handler, which prevented the exploit while still preserving other MSDT functionality such as the Get Help app and Windows Settings troubleshooters. Microsoft released an official fix as part of its June 14, 2022 Patch Tuesday updates (including KB5015805), and later shipped a defense-in-depth fix for a related variant in its July 12, 2022 cumulative updates.</p><h2>Significance and legacy</h2><p>Follina is frequently cited as an example of how legacy Windows utilities with URL protocol handlers can be repurposed as initial-access vectors, independent of the macro-based delivery methods that had dominated Office-based attacks for years. Its disclosure prompted renewed scrutiny of MSDT and similar diagnostic tools, and it remains a commonly referenced case study in vulnerability research and incident response training regarding zero-day disclosure timelines, coordinated (or uncoordinated) vulnerability reporting, and the effectiveness of registry-based interim mitigations ahead of vendor patches.</p>"
   },
   "timeline": [
-    { "date": "2022-04", "event": "Exploitation of the underlying MSDT flaw reportedly begins against targets in Russia and Belarus, predating public disclosure." },
-    { "date": "2022-05-27", "event": "Security research group nao_sec publicly discloses a malicious Word document exploiting the flaw, and the vulnerability is nicknamed \"Follina.\"" },
-    { "date": "2022-05-30", "event": "Microsoft assigns the identifier CVE-2022-30190 and publishes advisory guidance with an interim registry-based workaround." },
-    { "date": "2022-06-14", "event": "Microsoft releases an official patch (including update KB5015805) as part of its June Patch Tuesday cumulative updates." },
-    { "date": "2022-07-12", "event": "Microsoft ships an additional defense-in-depth fix addressing a related variant in its July cumulative updates." }
+    {
+      "date": "2022-04",
+      "event": "Exploitation of the underlying MSDT flaw reportedly begins against targets in Russia and Belarus, predating public disclosure."
+    },
+    {
+      "date": "2022-05-27",
+      "event": "Security research group nao_sec publicly discloses a malicious Word document exploiting the flaw, and the vulnerability is nicknamed \"Follina.\""
+    },
+    {
+      "date": "2022-05-30",
+      "event": "Microsoft assigns the identifier CVE-2022-30190 and publishes advisory guidance with an interim registry-based workaround."
+    },
+    {
+      "date": "2022-06-14",
+      "event": "Microsoft releases an official patch (including update KB5015805) as part of its June Patch Tuesday cumulative updates."
+    },
+    {
+      "date": "2022-07-12",
+      "event": "Microsoft ships an additional defense-in-depth fix addressing a related variant in its July cumulative updates."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -23,15 +46,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Follina (security vulnerability) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Follina_(security_vulnerability)" },
-    { "title": "Microsoft Support Diagnostic Tool - Wikipedia", "url": "https://en.wikipedia.org/wiki/Microsoft_Support_Diagnostic_Tool" },
-    { "title": "Guidance for CVE-2022-30190 Microsoft Support Diagnostic Tool Vulnerability - Microsoft MSRC Blog", "url": "https://www.microsoft.com/en-us/msrc/blog/2022/05/guidance-for-cve-2022-30190-microsoft-support-diagnostic-tool-vulnerability" }
+    {
+      "title": "Follina (security vulnerability) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Follina_(security_vulnerability)"
+    },
+    {
+      "title": "Microsoft Support Diagnostic Tool - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Support_Diagnostic_Tool"
+    },
+    {
+      "title": "Guidance for CVE-2022-30190 Microsoft Support Diagnostic Tool Vulnerability - Microsoft MSRC Blog",
+      "url": "https://www.microsoft.com/en-us/msrc/blog/2022/05/guidance-for-cve-2022-30190-microsoft-support-diagnostic-tool-vulnerability"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -4,20 +4,51 @@
   "title": "Impacket",
   "slug": "impacket",
   "era": "2013-Present",
-  "tags": ["python", "network-protocols", "penetration-testing", "red-team", "active-directory", "smb", "kerberos", "lateral-movement", "open-source"],
+  "tags": [
+    "python",
+    "network-protocols",
+    "penetration-testing",
+    "red-team",
+    "active-directory",
+    "smb",
+    "kerberos",
+    "lateral-movement",
+    "open-source"
+  ],
   "summary": "Impacket is an open-source collection of Python classes providing low-level, object-oriented access to network protocols such as SMB, MSRPC, NTLM, Kerberos, LDAP, and TDS, originally created by SecureAuth and now maintained by Fortra's Core Security.",
   "whyThisMatters": "Impacket's scriptable protocol implementations underpin a large share of modern Windows and Active Directory attack tooling, including widely used utilities for remote command execution, credential extraction, and NTLM relay. Because its component scripts (such as secretsdump.py, wmiexec.py, and ntlmrelayx.py) are simultaneously staples of legitimate penetration testing and documented tools of nation-state and ransomware intrusion sets, the library sits at the center of the dual-use debate in offensive security tooling and appears repeatedly in government and industry threat-intelligence reporting.",
   "sections": {
     "overview": "<h2>Background</h2><p>Impacket is a collection of Python classes designed to give developers and security researchers low-level, programmatic access to network packets and protocol stacks. Rather than shelling out to external binaries, Impacket lets a script construct packets from scratch or parse them from raw data using an object-oriented interface, making it a building block for tools that need to speak Windows networking protocols directly. The library was originally created by SecureAuth and is now maintained by Fortra's Core Security, which distributes it as open source under a modified Apache Software License. Its earliest publicly archived releases on the Python Package Index date to 2013, and the project has continued under active development since, with SMBv1 and NetBIOS support built on the earlier Pysmb project by Michael Teo.</p><h2>Protocol Coverage</h2><p>Impacket implements a broad range of protocols used in enterprise Windows environments: Ethernet, IP, TCP, UDP, ICMP, ARP, and both IPv4 and IPv6 at the network layer, alongside SMB1, SMB2, and SMB3, NetBIOS, and multiple Microsoft RPC (MSRPC) transport bindings over TCP, SMB, and HTTP. It also provides NTLM and Kerberos authentication handling, and partial implementations of LDAP and the Tabular Data Stream (TDS) protocol used by Microsoft SQL Server. This coverage lets developers script authentication, directory queries, and remote service interactions against Windows domain infrastructure without relying on native Windows APIs.</p><h2>Example Tools</h2><p>The Impacket repository ships a set of example scripts that demonstrate the library's capabilities and have themselves become widely recognized utilities in security assessments. These include secretsdump.py, which extracts credential material from the SAM, LSA secrets, NTDS.dit, or LSASS memory; wmiexec.py and psexec.py, which perform remote command execution over WMI and SMB respectively; GetUserSPNs.py, used to perform Kerberoasting against service accounts; ticketer.py and getST.py, which craft or request Kerberos tickets; and ntlmrelayx.py, which relays captured NTLM authentication to other services. These scripts are commonly used together in Active Directory penetration tests to demonstrate credential exposure and lateral movement paths.</p><h2>Adoption in Offensive Security</h2><p>Because Impacket's scripts are free, well documented, and cover core steps of a Windows intrusion, they were adopted quickly by both penetration testers and malicious actors. MITRE's ATT&CK knowledge base catalogs Impacket as tracked adversary software (entry S0357, first added in January 2019), describing its use for remote service execution, Kerberos ticket manipulation, Windows credential dumping, packet sniffing, and SMB relay attacks. ATT&CK documents dozens of distinct threat groups observed using Impacket-based tooling in real intrusions, spanning state-sponsored espionage operations and financially motivated ransomware affiliates.</p><h2>Corporate Stewardship</h2><p>Impacket's ownership has changed hands as its parent organizations were bought and sold. It was originally created and released by SecureAuth before responsibility for the project passed to Core Security, a security research firm with roots dating to the 1990s; Core Security's assets and products were subsequently acquired by HelpSystems, which was rebranded as Fortra in 2022. Under Fortra, the Core Security team continues to publish new Impacket releases, with versions in the 0.9.x through 0.13.x series issued between 2013 and 2026 and Python 3.9 through 3.13 supported in the current stable line.</p><h2>Significance and Legacy</h2><p>Impacket is one of the most consequential open-source libraries in Windows-focused offensive security tooling. Its protocol implementations are reused, wrapped, or reimplemented across a large ecosystem of downstream tools and frameworks used for Active Directory security testing, and its example scripts are referenced routinely in penetration-test methodologies, red-team playbooks, and incident-response investigations. The library's continued maintenance, its documented use by numerous threat actors tracked by government and industry researchers, and its foundational role in techniques such as Kerberoasting, NTLM relay, and remote service execution have made it a recurring reference point in discussions of dual-use security software.</p>"
   },
   "timeline": [
-    { "date": "2013-05", "event": "Earliest archived Impacket release (version 0.9.10) published on the Python Package Index." },
-    { "date": "2019-01", "event": "MITRE ATT&CK adds Impacket as tracked adversary software (entry S0357)." },
-    { "date": "2022", "event": "Parent company HelpSystems, which had acquired Core Security's products, rebrands as Fortra; Fortra's Core Security continues maintaining Impacket." },
-    { "date": "2023-07", "event": "Impacket version 0.11.0 released." },
-    { "date": "2024-09", "event": "Impacket version 0.12.0 released." },
-    { "date": "2025-10", "event": "Impacket version 0.13.0 released." },
-    { "date": "2026-05", "event": "Impacket version 0.13.1 released as the current stable release." }
+    {
+      "date": "2013-05",
+      "event": "Earliest archived Impacket release (version 0.9.10) published on the Python Package Index."
+    },
+    {
+      "date": "2019-01",
+      "event": "MITRE ATT&CK adds Impacket as tracked adversary software (entry S0357)."
+    },
+    {
+      "date": "2022",
+      "event": "Parent company HelpSystems, which had acquired Core Security's products, rebrands as Fortra; Fortra's Core Security continues maintaining Impacket."
+    },
+    {
+      "date": "2023-07",
+      "event": "Impacket version 0.11.0 released."
+    },
+    {
+      "date": "2024-09",
+      "event": "Impacket version 0.12.0 released."
+    },
+    {
+      "date": "2025-10",
+      "event": "Impacket version 0.13.0 released."
+    },
+    {
+      "date": "2026-05",
+      "event": "Impacket version 0.13.1 released as the current stable release."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -25,16 +56,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "fortra/impacket – GitHub repository", "url": "https://github.com/fortra/impacket" },
-    { "title": "impacket · PyPI", "url": "https://pypi.org/project/impacket/" },
-    { "title": "Impacket, Software S0357 – MITRE ATT&CK", "url": "https://attack.mitre.org/software/S0357/" },
-    { "title": "fortra/impacket – Tags (release history)", "url": "https://github.com/fortra/impacket/tags" }
+    {
+      "title": "fortra/impacket – GitHub repository",
+      "url": "https://github.com/fortra/impacket"
+    },
+    {
+      "title": "impacket · PyPI",
+      "url": "https://pypi.org/project/impacket/"
+    },
+    {
+      "title": "Impacket, Software S0357 – MITRE ATT&CK",
+      "url": "https://attack.mitre.org/software/S0357/"
+    },
+    {
+      "title": "fortra/impacket – Tags (release history)",
+      "url": "https://github.com/fortra/impacket/tags"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

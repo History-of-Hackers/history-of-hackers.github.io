@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["cryptography", "clipper chip", "key escrow", "wiretapping", "surveillance", "voting security", "lock picking", "academic security research"],
+  "tags": [
+    "cryptography",
+    "clipper chip",
+    "key escrow",
+    "wiretapping",
+    "surveillance",
+    "voting security",
+    "lock picking",
+    "academic security research"
+  ],
   "summary": "Matt Blaze is an American cryptographer and computer scientist known for discovering a critical 1994 protocol flaw in the U.S. government's Clipper Chip key-escrow system, and for subsequent research on wiretapping, electronic voting security, and mechanical lock security.",
   "whyThisMatters": "Blaze's 1994 discovery that the Clipper Chip's escrow mechanism could be defeated undermined the technical justification for the Escrowed Encryption Standard and contributed to the U.S. government's eventual abandonment of mandatory key escrow, a pivotal moment in the 1990s \"Crypto Wars\" over the public's right to strong encryption. His later work applying rigorous security analysis to voting machines, wiretap systems, and physical locks helped establish adversarial, public-interest security research as a recognized academic discipline and informed public policy debates on surveillance and election security.",
   "knownFor": [
@@ -22,15 +31,42 @@
     "overview": "<h2>Background</h2><p>Matt Blaze is an American computer scientist and cryptographer whose research has spanned cryptographic systems, communications surveillance, and physical security. He earned a B.S. in computer science from Hunter College, an M.S. from Columbia University, and an M.A. and Ph.D. in computer science from Princeton University, completing his doctoral dissertation on caching in large-scale distributed file systems in 1993. From 1992 to 2003 he worked as a researcher at AT&T Bell Laboratories (later AT&T Labs Research), where he conducted much of his early cryptographic work, including development of the Cryptographic File System (CFS), an early system enabling transparent encryption of Unix file systems.</p><h2>The Clipper Chip and the 1994 Key-Escrow Flaw</h2><p>In the early 1990s, the U.S. government promoted the Clipper Chip, a hardware encryption device built around the classified Skipjack cipher, as part of the Escrowed Encryption Standard (EES). The scheme was designed so that every encrypted communication carried a Law Enforcement Access Field (LEAF) containing information that would allow government agencies holding escrowed keys to decrypt the communication when legally authorized. In May 1994, Blaze published a paper titled \"Protocol Failure in the Escrowed Encryption Standard,\" demonstrating that the LEAF checksum used to validate the field was too short and could be defeated: a user could transmit a bogus LEAF that would pass the receiving Clipper device's checks while preventing government agencies from recovering the escrowed key, all while the encrypted communication itself remained intact between the two parties. The attack meant someone could use Clipper hardware for strong encryption while disabling the very escrow mechanism the government relied on for lawful access. The finding was widely covered in the press and became one of the most cited technical arguments against the viability of mandatory key escrow.</p><h2>Role in the Crypto Wars</h2><p>Blaze's discovery arrived during the broader \"Crypto Wars\" of the 1990s, in which the U.S. government sought to limit the spread of strong, unescrowed encryption on national security and law enforcement grounds, while cryptographers, civil liberties groups, and industry argued that escrow schemes were both technically flawed and a threat to privacy and security. The Clipper Chip proposal was effectively abandoned by the government by the late 1990s, and Blaze's protocol-failure paper is frequently cited by historians of cryptography policy as a key technical event that undercut confidence in the key-escrow approach. Blaze continued to publish influential cryptographic research through the 1990s, including work (with others) on estimating minimum key lengths needed for adequate commercial security against brute-force attacks.</p><h2>Wiretapping and Surveillance Research</h2><p>Beyond Clipper, Blaze conducted extensive research into the security of law enforcement wiretapping systems themselves, identifying vulnerabilities in the Communications Assistance for Law Enforcement Act (CALEA) wiretap architecture that could allow targets to detect or evade surveillance, or that could be exploited by unauthorized parties. He has testified before the U.S. Congress on the security implications of government surveillance and encryption policy.</p><h2>Voting Machine and Election Security</h2><p>Blaze became a prominent researcher in the security of electronic voting systems, studying direct-recording electronic (DRE) machines such as Diebold's AccuVote line and identifying ways that malicious software could alter vote tallies without leaving detectable evidence, given the machines' lack of voter-verifiable paper audit trails. He has testified before Congress on election infrastructure security and has been a long-running voice for stronger security standards and auditability in U.S. elections, including organizing and participating in the DEF CON Voting Village, which conducts public security testing of voting equipment.</p><h2>Physical Security and Academic Career</h2><p>Blaze also extended cryptographic and adversarial-analysis thinking to mechanical security. In a widely cited 2003 paper, \"Rights Amplification in Master-Keyed Mechanical Locks,\" he described practical attacks allowing someone with access to a single master-keyed lock and its associated key to derive a working master key for an entire keying system, using only blank keys and a metal file. After leaving AT&T, Blaze joined the University of Pennsylvania as a professor of computer and information science in 2004, where he led the Distributed Systems Lab. In 2019 he moved to Georgetown University, taking a joint appointment as the McDevitt Chair of Computer Science and Law at Georgetown Law and the Department of Computer Science. He has also served on the board of the Tor Project.</p><h2>Legacy</h2><p>Blaze's career has been marked by a consistent method: applying rigorous, adversarial security analysis to systems that combine technology and public policy, from national cryptographic standards to voting machines, wiretap infrastructure, and physical locks. His work is frequently cited as an early and influential example of independent academic security research directly shaping government technology policy, and he remains an active commentator and expert witness on cryptography, surveillance, and election security.</p>"
   },
   "timeline": [
-    { "date": "1993", "event": "Completes Ph.D. in computer science at Princeton University; develops the Cryptographic File System (CFS) while at AT&T Bell Laboratories." },
-    { "date": "1994-05", "event": "Publishes \"Protocol Failure in the Escrowed Encryption Standard,\" revealing a flaw in the Clipper Chip's LEAF mechanism that could defeat government key escrow." },
-    { "date": "1996", "event": "Co-authors a widely cited report on minimum key lengths required for adequate commercial encryption security." },
-    { "date": "2003", "event": "Publishes \"Rights Amplification in Master-Keyed Mechanical Locks,\" detailing practical attacks against master-keyed pin tumbler lock systems." },
-    { "date": "2004", "event": "Joins the University of Pennsylvania as a professor of computer and information science." },
-    { "date": "2007-2010", "event": "Publishes research identifying security vulnerabilities in CALEA-mandated law enforcement wiretapping systems." },
-    { "date": "2018-07", "event": "Sells the crypto.com domain name, which he had registered in 1993, to the company later known as Crypto.com." },
-    { "date": "2019", "event": "Moves to Georgetown University as the McDevitt Chair of Computer Science and Law." },
-    { "date": "2020-01", "event": "Testifies before the U.S. House of Representatives on election infrastructure security." }
+    {
+      "date": "1993",
+      "event": "Completes Ph.D. in computer science at Princeton University; develops the Cryptographic File System (CFS) while at AT&T Bell Laboratories."
+    },
+    {
+      "date": "1994-05",
+      "event": "Publishes \"Protocol Failure in the Escrowed Encryption Standard,\" revealing a flaw in the Clipper Chip's LEAF mechanism that could defeat government key escrow."
+    },
+    {
+      "date": "1996",
+      "event": "Co-authors a widely cited report on minimum key lengths required for adequate commercial encryption security."
+    },
+    {
+      "date": "2003",
+      "event": "Publishes \"Rights Amplification in Master-Keyed Mechanical Locks,\" detailing practical attacks against master-keyed pin tumbler lock systems."
+    },
+    {
+      "date": "2004",
+      "event": "Joins the University of Pennsylvania as a professor of computer and information science."
+    },
+    {
+      "date": "2007-2010",
+      "event": "Publishes research identifying security vulnerabilities in CALEA-mandated law enforcement wiretapping systems."
+    },
+    {
+      "date": "2018-07",
+      "event": "Sells the crypto.com domain name, which he had registered in 1993, to the company later known as Crypto.com."
+    },
+    {
+      "date": "2019",
+      "event": "Moves to Georgetown University as the McDevitt Chair of Computer Science and Law."
+    },
+    {
+      "date": "2020-01",
+      "event": "Testifies before the U.S. House of Representatives on election infrastructure security."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,19 +74,41 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Matt Blaze - Wikipedia", "url": "https://en.wikipedia.org/wiki/Matt_Blaze" },
-    { "title": "On the Clipper Chip's Birthday, Looking Back on Decades of Key Escrow Failures - Electronic Frontier Foundation", "url": "https://www.eff.org/deeplinks/2015/04/clipper-chips-birthday-looking-back-22-years-key-escrow-failures" },
-    { "title": "Protocol Failure in the Escrowed Encryption Standard (Matt Blaze, 1994)", "url": "https://www.mattblaze.org/papers/eesproto.pdf" },
-    { "title": "Rights Amplification in Master-Keyed Mechanical Locks", "url": "https://www.mattblaze.org/papers/mk.pdf" },
-    { "title": "One of World's Leading Computer and Network Security Experts Joins Georgetown Faculty - Georgetown Law", "url": "https://www.law.georgetown.edu/news/one-of-worlds-leading-cryptographers-to-join-georgetown-faculty/" },
-    { "title": "Matt Blaze warns of election security challenges amid COVID-19 - TechTarget", "url": "https://www.techtarget.com/searchsecurity/news/252487241/Matt-Blaze-warns-of-election-security-challenges-amid-COVID-19" },
-    { "title": "Crypto Visa card company Monaco just spent millions to buy Crypto.com - TechCrunch", "url": "https://techcrunch.com/2018/07/05/crypto-com-mco/" }
+    {
+      "title": "Matt Blaze - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Matt_Blaze"
+    },
+    {
+      "title": "On the Clipper Chip's Birthday, Looking Back on Decades of Key Escrow Failures - Electronic Frontier Foundation",
+      "url": "https://www.eff.org/deeplinks/2015/04/clipper-chips-birthday-looking-back-22-years-key-escrow-failures"
+    },
+    {
+      "title": "Protocol Failure in the Escrowed Encryption Standard (Matt Blaze, 1994)",
+      "url": "https://www.mattblaze.org/papers/eesproto.pdf"
+    },
+    {
+      "title": "Rights Amplification in Master-Keyed Mechanical Locks",
+      "url": "https://www.mattblaze.org/papers/mk.pdf"
+    },
+    {
+      "title": "One of World's Leading Computer and Network Security Experts Joins Georgetown Faculty - Georgetown Law",
+      "url": "https://www.law.georgetown.edu/news/one-of-worlds-leading-cryptographers-to-join-georgetown-faculty/"
+    },
+    {
+      "title": "Matt Blaze warns of election security challenges amid COVID-19 - TechTarget",
+      "url": "https://www.techtarget.com/searchsecurity/news/252487241/Matt-Blaze-warns-of-election-security-challenges-amid-COVID-19"
+    },
+    {
+      "title": "Crypto Visa card company Monaco just spent millions to buy Crypto.com - TechCrunch",
+      "url": "https://techcrunch.com/2018/07/05/crypto-com-mco/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 7,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

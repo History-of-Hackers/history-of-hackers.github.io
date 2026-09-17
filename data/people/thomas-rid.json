@@ -1,1 +1,68 @@
-{"id":"thomas-rid","type":"person","title":"Thomas Rid","slug":"thomas-rid","name":"Thomas Rid","born":null,"died":null,"era":"2013-Present","tags":["author","academic","cyberwar","cybernetics","books"],"summary":"Scholar and author whose books examine cyberwar, cybernetics, and the historical relationship between technology and conflict.","whyThisMatters":"Rid connects technical history to policy and conflict studies, giving readers a researched framework for interpreting claims about cyberwar and security.","knownFor":["Rise of the Machines","Cyber War Will Not Take Place","History of cybernetics and cyber conflict"],"sections":{"overview":"<p>Thomas Rid is a scholar and author who has written on cyber conflict, cybernetics, and information operations. His work joins historical research to analysis of the claims made about technology in warfare.</p><h2>Cybernetics and cyber conflict</h2><p><em>Rise of the Machines</em> follows the intellectual and technological history of cybernetics, while Rid’s other work addresses cyberwar and information operations. Together, these books offer context for security history beyond individual incidents or tools.</p>"},"timeline":[{"date":"2013","event":"Publishes Cyber War Will Not Take Place."},{"date":"2016","event":"Publishes Rise of the Machines: A Cybernetic History."},{"date":"2026","event":"Maintains an author bibliography that includes books on cybernetics and information operations."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Thomas Rid: Books","url":"https://ridt.co/books/"},{"title":"Macmillan: Thomas Rid","url":"https://us.macmillan.com/author/thomasrid"},{"title":"Penguin Random House: Rise of the Machines","url":"https://www.penguinrandomhouse.ca/books/541007/rise-of-the-machines-by-thomas-rid/9780393286007"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "thomas-rid",
+  "type": "person",
+  "title": "Thomas Rid",
+  "slug": "thomas-rid",
+  "name": "Thomas Rid",
+  "born": null,
+  "died": null,
+  "era": "2013-Present",
+  "tags": [
+    "author",
+    "academic",
+    "cyberwar",
+    "cybernetics",
+    "books"
+  ],
+  "summary": "Scholar and author whose books examine cyberwar, cybernetics, and the historical relationship between technology and conflict.",
+  "whyThisMatters": "Rid connects technical history to policy and conflict studies, giving readers a researched framework for interpreting claims about cyberwar and security.",
+  "knownFor": [
+    "Rise of the Machines",
+    "Cyber War Will Not Take Place",
+    "History of cybernetics and cyber conflict"
+  ],
+  "sections": {
+    "overview": "<p>Thomas Rid is a scholar and author who has written on cyber conflict, cybernetics, and information operations. His work joins historical research to analysis of the claims made about technology in warfare.</p><h2>Cybernetics and cyber conflict</h2><p><em>Rise of the Machines</em> follows the intellectual and technological history of cybernetics, while Rid’s other work addresses cyberwar and information operations. Together, these books offer context for security history beyond individual incidents or tools.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2013",
+      "event": "Publishes Cyber War Will Not Take Place."
+    },
+    {
+      "date": "2016",
+      "event": "Publishes Rise of the Machines: A Cybernetic History."
+    },
+    {
+      "date": "2026",
+      "event": "Maintains an author bibliography that includes books on cybernetics and information operations."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Thomas Rid: Books",
+      "url": "https://ridt.co/books/"
+    },
+    {
+      "title": "Macmillan: Thomas Rid",
+      "url": "https://us.macmillan.com/author/thomasrid"
+    },
+    {
+      "title": "Penguin Random House: Rise of the Machines",
+      "url": "https://www.penguinrandomhouse.ca/books/541007/rise-of-the-machines-by-thomas-rid/9780393286007"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

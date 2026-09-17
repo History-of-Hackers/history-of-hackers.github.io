@@ -4,22 +4,58 @@
   "title": "ProxyLogon (CVE-2021-26855 and related)",
   "slug": "proxylogon",
   "era": "2021",
-  "tags": ["exchange server", "zero-day", "microsoft", "hafnium", "web shell", "pre-auth rce", "china", "2021"],
+  "tags": [
+    "exchange server",
+    "zero-day",
+    "microsoft",
+    "hafnium",
+    "web shell",
+    "pre-auth rce",
+    "china",
+    "2021"
+  ],
   "summary": "ProxyLogon is the name given to a chain of Microsoft Exchange Server vulnerabilities, led by the pre-authentication server-side request forgery flaw CVE-2021-26855, discovered by Orange Tsai of DEVCORE and exploited at mass scale by the Chinese state-sponsored group HAFNIUM in early 2021.",
   "whyThisMatters": "ProxyLogon was one of the largest and most consequential enterprise software incidents of the 2020s, leading to the compromise of an estimated 250,000 Exchange servers worldwide, including roughly 30,000 small businesses, local governments, hospitals, and other organizations in the United States alone. It demonstrated how a single pre-authenticated remote code execution chain in widely deployed on-premises software could be weaponized by a state-sponsored actor and then rapidly adopted by opportunistic criminal groups, including ransomware operators, once technical details became public. The incident also triggered an unusually direct diplomatic response, with the United States, United Kingdom, European Union, and NATO formally attributing the exploitation campaign to China's Ministry of State Security in July 2021.",
   "sections": {
     "overview": "<h2>Background</h2><p>ProxyLogon is the informal name for a chain of vulnerabilities affecting on-premises deployments of Microsoft Exchange Server 2013, 2016, and 2019. The name, coined by researcher Orange Tsai, reflects that the exploit chain abuses Exchange's front-end proxy architecture together with its logon and authentication mechanisms to achieve remote code execution without valid credentials. The most critical flaw in the chain, CVE-2021-26855, is a server-side request forgery (SSRF) vulnerability that allows an unauthenticated attacker to send arbitrary HTTP requests and authenticate as the Exchange server itself.</p><h2>Discovery</h2><p>The vulnerability chain was discovered by Orange Tsai, a researcher at the Taiwanese security firm DEVCORE, during research into Exchange's proxy logic. DEVCORE reports that it identified the initial CVE-2021-26855 issue in December 2020 and had developed a complete pre-authentication remote code execution chain, combining the SSRF bug with a post-authentication arbitrary file-write vulnerability (CVE-2021-27065), by the end of that month. DEVCORE privately reported the chain to Microsoft on January 5, 2021, through Microsoft's responsible disclosure process, rather than releasing it publicly. Separately, the cybersecurity firm Volexity says it detected what it describes as the first known real-world exploitation and breach of an Exchange server using these techniques on January 6, 2021, indicating that at least one threat actor was already exploiting the flaws before Microsoft's advisory.</p><h2>The vulnerability chain</h2><p>Microsoft's security advisory, published March 2, 2021, described four distinct zero-day vulnerabilities used together in attacks: CVE-2021-26855, a server-side request forgery bug in Exchange's client access service; CVE-2021-26857, an insecure deserialization flaw in the Unified Messaging service allowing code execution as SYSTEM; and CVE-2021-26858 and CVE-2021-27065, both post-authentication arbitrary file-write vulnerabilities. Chained together, these flaws let an attacker with only network access to an Exchange server's HTTPS port (443) authenticate as an administrator, write a file (typically a web shell) to the server, and execute arbitrary code, all without needing any valid account credentials.</p><h2>Exploitation by HAFNIUM and mass scanning</h2><p>Microsoft attributed the initial, targeted exploitation of these vulnerabilities to a group it named HAFNIUM, which it assessed to be a state-sponsored actor operating out of China. According to Microsoft's Threat Intelligence Center, HAFNIUM primarily targeted U.S.-based entities across sectors including infectious disease research, law firms, higher education, defense contractors, policy think tanks, and NGOs, operating from leased virtual private servers located in the United States to obscure its origin. Once Microsoft released patches and published technical details on March 2, 2021, the vulnerabilities were rapidly reverse-engineered, and other threat actors, including additional Chinese-linked groups and financially motivated criminals, began mass-scanning the internet for vulnerable Exchange servers, planting web shells for later access even on systems that were subsequently patched.</p><h2>Impact and response</h2><p>The scale of exploitation was described by security researchers as historically large for a single vulnerability chain, with estimates of roughly 250,000 Exchange servers compromised globally, including an estimated 30,000 organizations in the United States, disproportionately affecting small businesses, local governments, and other entities with limited IT security resources. On March 12, 2021, security researchers observed the DearCry ransomware being deployed against unpatched, previously compromised Exchange servers, illustrating how the initial espionage-focused intrusion set was followed by opportunistic criminal exploitation. The U.S. Cybersecurity and Infrastructure Security Agency issued emergency directives requiring federal agencies to patch or disconnect vulnerable servers, and Microsoft released a one-click mitigation tool for organizations unable to immediately apply full patches.</p><h2>Attribution and legacy</h2><p>On July 19, 2021, the United States, joined by the United Kingdom, the European Union, and NATO, formally attributed the Exchange Server exploitation campaign to actors affiliated with China's Ministry of State Security, marking one of the first instances of a coordinated multinational public attribution of a major cyber campaign to a state intelligence service. ProxyLogon, alongside the related ProxyShell vulnerability chain disclosed later in 2021, is frequently cited in security industry retrospectives as a turning point that accelerated enterprise migration away from on-premises Exchange servers toward cloud-hosted email and renewed scrutiny of vendor patch-disclosure timelines for widely deployed enterprise software.</p>"
   },
   "timeline": [
-    { "date": "2020-12", "event": "Orange Tsai of DEVCORE identifies the initial CVE-2021-26855 SSRF flaw in Exchange Server's proxy architecture and, by month's end, develops a complete pre-authentication remote code execution chain." },
-    { "date": "2021-01-05", "event": "DEVCORE privately reports the vulnerability chain to Microsoft through responsible disclosure." },
-    { "date": "2021-01-06", "event": "Cybersecurity firm Volexity detects what it describes as the first known real-world breach of an Exchange server using the technique." },
-    { "date": "2021-02-28", "event": "Attackers, later attributed to HAFNIUM, begin more broadly planting web shells on vulnerable Exchange servers ahead of public disclosure." },
-    { "date": "2021-03-02", "event": "Microsoft publishes a security advisory and out-of-band patches for CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, and CVE-2021-27065, and publicly attributes initial exploitation to the group HAFNIUM." },
-    { "date": "2021-03-05", "event": "Mass scanning and exploitation by additional threat actors surges, with security researchers reporting thousands of servers compromised per hour; CISA and other agencies issue emergency guidance." },
-    { "date": "2021-03-12", "event": "Security researchers observe DearCry ransomware being deployed against previously compromised, unpatched Exchange servers." },
-    { "date": "2021-08-06", "event": "Full technical details of the ProxyLogon exploit chain are publicly disclosed by DEVCORE and Orange Tsai." },
-    { "date": "2021-07-19", "event": "The United States, United Kingdom, European Union, and NATO formally attribute the Exchange Server exploitation campaign to China's Ministry of State Security." }
+    {
+      "date": "2020-12",
+      "event": "Orange Tsai of DEVCORE identifies the initial CVE-2021-26855 SSRF flaw in Exchange Server's proxy architecture and, by month's end, develops a complete pre-authentication remote code execution chain."
+    },
+    {
+      "date": "2021-01-05",
+      "event": "DEVCORE privately reports the vulnerability chain to Microsoft through responsible disclosure."
+    },
+    {
+      "date": "2021-01-06",
+      "event": "Cybersecurity firm Volexity detects what it describes as the first known real-world breach of an Exchange server using the technique."
+    },
+    {
+      "date": "2021-02-28",
+      "event": "Attackers, later attributed to HAFNIUM, begin more broadly planting web shells on vulnerable Exchange servers ahead of public disclosure."
+    },
+    {
+      "date": "2021-03-02",
+      "event": "Microsoft publishes a security advisory and out-of-band patches for CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, and CVE-2021-27065, and publicly attributes initial exploitation to the group HAFNIUM."
+    },
+    {
+      "date": "2021-03-05",
+      "event": "Mass scanning and exploitation by additional threat actors surges, with security researchers reporting thousands of servers compromised per hour; CISA and other agencies issue emergency guidance."
+    },
+    {
+      "date": "2021-03-12",
+      "event": "Security researchers observe DearCry ransomware being deployed against previously compromised, unpatched Exchange servers."
+    },
+    {
+      "date": "2021-08-06",
+      "event": "Full technical details of the ProxyLogon exploit chain are publicly disclosed by DEVCORE and Orange Tsai."
+    },
+    {
+      "date": "2021-07-19",
+      "event": "The United States, United Kingdom, European Union, and NATO formally attribute the Exchange Server exploitation campaign to China's Ministry of State Security."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -27,16 +63,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "ProxyLogon - Wikipedia", "url": "https://en.wikipedia.org/wiki/ProxyLogon" },
-    { "title": "ProxyLogon - Official technical writeup by DEVCORE / Orange Tsai", "url": "https://proxylogon.com/" },
-    { "title": "HAFNIUM targeting Exchange Servers with 0-day exploits - Microsoft Security Blog", "url": "https://www.microsoft.com/en-us/security/blog/2021/03/02/hafnium-targeting-exchange-servers/" },
-    { "title": "At Least 30,000 U.S. Organizations Newly Hacked Via Holes in Microsoft's Email Software - Krebs on Security", "url": "https://krebsonsecurity.com/2021/03/at-least-30000-u-s-organizations-newly-hacked-via-holes-in-microsofts-email-software/" }
+    {
+      "title": "ProxyLogon - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ProxyLogon"
+    },
+    {
+      "title": "ProxyLogon - Official technical writeup by DEVCORE / Orange Tsai",
+      "url": "https://proxylogon.com/"
+    },
+    {
+      "title": "HAFNIUM targeting Exchange Servers with 0-day exploits - Microsoft Security Blog",
+      "url": "https://www.microsoft.com/en-us/security/blog/2021/03/02/hafnium-targeting-exchange-servers/"
+    },
+    {
+      "title": "At Least 30,000 U.S. Organizations Newly Hacked Via Holes in Microsoft's Email Software - Krebs on Security",
+      "url": "https://krebsonsecurity.com/2021/03/at-least-30000-u-s-organizations-newly-hacked-via-holes-in-microsofts-email-software/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

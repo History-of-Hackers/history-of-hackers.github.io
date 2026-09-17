@@ -4,20 +4,49 @@
   "title": "BlueKeep (CVE-2019-0708)",
   "slug": "bluekeep",
   "era": "2019",
-  "tags": ["rdp", "windows", "wormable", "remote-code-execution", "microsoft", "patch-tuesday", "critical-infrastructure"],
+  "tags": [
+    "rdp",
+    "windows",
+    "wormable",
+    "remote-code-execution",
+    "microsoft",
+    "patch-tuesday",
+    "critical-infrastructure"
+  ],
   "summary": "BlueKeep (CVE-2019-0708) is a critical, wormable remote code execution vulnerability in Microsoft's Remote Desktop Services affecting older Windows versions, disclosed and patched by Microsoft in May 2019.",
   "whyThisMatters": "BlueKeep was one of the first vulnerabilities since the WannaCry and NotPetya outbreaks to prompt public warnings from Microsoft, the U.S. NSA, and other national cybersecurity agencies about the risk of a self-propagating worm. It drove an unusual step by Microsoft: issuing patches for out-of-support systems such as Windows XP and Server 2003. The eventual public release of a working Metasploit exploit module also became a widely cited case study in coordinated vulnerability disclosure, patch-gap risk, and internet-wide scanning for unpatched RDP endpoints.",
   "sections": {
     "overview": "<h2>Background</h2><p>CVE-2019-0708, popularly known as \"BlueKeep,\" is a critical remote code execution vulnerability in Microsoft's Remote Desktop Services (formerly Terminal Services) on older versions of Windows, including Windows 2000, Windows XP, Windows Server 2003, Windows Vista, Windows 7, and Windows Server 2008 and 2008 R2. The flaw is a use-after-free condition triggered when the Remote Desktop Protocol (RDP) server binds a special internal communication channel named \"MS_T120\" incorrectly, allowing an unauthenticated remote attacker to send specially crafted RDP requests that corrupt memory and execute arbitrary code with system-level privileges.</p><h2>Discovery and Disclosure</h2><p>The vulnerability was reported to Microsoft by the United Kingdom's National Cyber Security Centre (NCSC). Microsoft publicly disclosed and patched the flaw on May 14, 2019, as part of its regular Patch Tuesday release. Because the affected protocol required no user authentication and no user interaction to exploit, and because the flaw was assessed as \"wormable\" — capable of spreading automatically between vulnerable systems in a manner similar to the 2017 WannaCry ransomware outbreak, which itself exploited a different RDP/SMB-related weakness — Microsoft took the unusual step of also releasing patches for several operating systems that had already reached end of support, including Windows XP, Windows Server 2003, and Windows Vista.</p><h2>Public Warnings</h2><p>Following disclosure, Microsoft published a security blog post explicitly warning customers to patch immediately, drawing direct comparisons to WannaCry. On June 4, 2019, the U.S. National Security Agency (NSA) took the rare step of issuing its own advisory urging organizations to patch affected systems, disable Remote Desktop Services if not required, block the RDP port (TCP 3389) at the network perimeter, and enable Network Level Authentication (NLA) as a mitigating control. Numerous other national CERTs and agencies, including the UK's NCSC, issued similar warnings.</p><h2>Exploit Development</h2><p>In the months following disclosure, security researchers worked on proof-of-concept exploit code without releasing fully weaponized tools, citing concerns over a potential worm outbreak. Security firm Sophos published research demonstrating exploitability around July 2019, and researchers at organizations including McAfee and Check Point separately demonstrated working exploits. On September 6, 2019, the Metasploit Project publicly released an exploit module for BlueKeep, enabling remote code execution against vulnerable Windows 7 and Server 2008 R2 systems, though the initial module's reliability was limited and known to crash target systems.</p><h2>Exploitation in the Wild</h2><p>Mass scanning for internet-exposed, unpatched RDP endpoints began soon after disclosure, with hundreds of thousands of vulnerable systems identified by researchers at organizations such as the SANS Internet Storm Center and BinaryEdge. The first confirmed mass exploitation was reported around November 2, 2019, when researcher Kevin Beaumont and others observed BlueKeep being used in the wild, primarily to install cryptocurrency-mining malware on compromised hosts rather than to conduct a self-propagating worm attack of the scale initially feared.</p><h2>Related Vulnerabilities and Legacy</h2><p>In August 2019, Microsoft disclosed a related set of RDP vulnerabilities dubbed \"DejaBlue\" (including CVE-2019-1181 and CVE-2019-1182), which extended similar wormable remote-code-execution risk to newer Windows versions, including Windows 10 and Server 2019. BlueKeep is widely cited in cybersecurity education and industry retrospectives as a case study in patch-gap risk, the persistence of legacy internet-facing infrastructure, and the value of coordinated vulnerability disclosure between national security agencies and software vendors. It remains listed in the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) Known Exploited Vulnerabilities catalog.</p>"
   },
   "timeline": [
-    { "date": "2019-05-14", "event": "Microsoft publicly discloses CVE-2019-0708 (\"BlueKeep\") and releases patches, including for out-of-support systems such as Windows XP and Server 2003, as part of its May Patch Tuesday." },
-    { "date": "2019-05-30", "event": "Microsoft publishes a security blog post urging customers to patch, explicitly comparing the risk to the 2017 WannaCry outbreak." },
-    { "date": "2019-06-04", "event": "The U.S. National Security Agency (NSA) issues a rare public advisory urging organizations to patch systems against BlueKeep." },
-    { "date": "2019-07", "event": "Security firm Sophos publishes research demonstrating exploitability of the vulnerability." },
-    { "date": "2019-08", "event": "Microsoft discloses a related set of wormable RDP vulnerabilities, dubbed \"DejaBlue,\" affecting newer Windows versions including Windows 10." },
-    { "date": "2019-09-06", "event": "The Metasploit Project publicly releases a working exploit module for BlueKeep." },
-    { "date": "2019-11-02", "event": "Researchers report the first confirmed mass-scale exploitation of BlueKeep in the wild, primarily to deploy cryptocurrency-mining malware." }
+    {
+      "date": "2019-05-14",
+      "event": "Microsoft publicly discloses CVE-2019-0708 (\"BlueKeep\") and releases patches, including for out-of-support systems such as Windows XP and Server 2003, as part of its May Patch Tuesday."
+    },
+    {
+      "date": "2019-05-30",
+      "event": "Microsoft publishes a security blog post urging customers to patch, explicitly comparing the risk to the 2017 WannaCry outbreak."
+    },
+    {
+      "date": "2019-06-04",
+      "event": "The U.S. National Security Agency (NSA) issues a rare public advisory urging organizations to patch systems against BlueKeep."
+    },
+    {
+      "date": "2019-07",
+      "event": "Security firm Sophos publishes research demonstrating exploitability of the vulnerability."
+    },
+    {
+      "date": "2019-08",
+      "event": "Microsoft discloses a related set of wormable RDP vulnerabilities, dubbed \"DejaBlue,\" affecting newer Windows versions including Windows 10."
+    },
+    {
+      "date": "2019-09-06",
+      "event": "The Metasploit Project publicly releases a working exploit module for BlueKeep."
+    },
+    {
+      "date": "2019-11-02",
+      "event": "Researchers report the first confirmed mass-scale exploitation of BlueKeep in the wild, primarily to deploy cryptocurrency-mining malware."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -25,16 +54,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "BlueKeep - Wikipedia", "url": "https://en.wikipedia.org/wiki/BlueKeep" },
-    { "title": "CVE-2019-0708 Detail - National Vulnerability Database (NIST)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0708" },
-    { "title": "CVE-2019-0708 - CISA Known Exploited Vulnerabilities Catalog", "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-0708" },
-    { "title": "Security Update Guide - CVE-2019-0708 - Microsoft Security Response Center", "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708" }
+    {
+      "title": "BlueKeep - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BlueKeep"
+    },
+    {
+      "title": "CVE-2019-0708 Detail - National Vulnerability Database (NIST)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0708"
+    },
+    {
+      "title": "CVE-2019-0708 - CISA Known Exploited Vulnerabilities Catalog",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2019-0708"
+    },
+    {
+      "title": "Security Update Guide - CVE-2019-0708 - Microsoft Security Response Center",
+      "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

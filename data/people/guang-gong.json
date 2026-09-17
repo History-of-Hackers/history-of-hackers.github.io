@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2010s-Present",
-  "tags": ["android security", "exploit development", "qihoo 360", "bug bounty", "china", "mobile security", "chrome exploitation", "black hat speaker"],
+  "tags": [
+    "android security",
+    "exploit development",
+    "qihoo 360",
+    "bug bounty",
+    "china",
+    "mobile security",
+    "chrome exploitation",
+    "black hat speaker"
+  ],
   "summary": "Guang Gong is a Chinese security researcher and the lead of the Alpha Team (Alpha Lab) at Qihoo 360's Internet Security Center, known for record-setting Android and Chrome exploit chains submitted to Google's vulnerability reward programs.",
   "whyThisMatters": "Guang Gong's exploit chains against Google Pixel devices set repeated records for the largest single payouts in Google's Android and Chrome bug bounty programs, helping expose how deep, chained vulnerabilities could defeat modern mobile hardening. His career also illustrates the rise of large, well-resourced corporate vulnerability research teams inside Chinese security companies such as Qihoo 360, which have become dominant contributors to major vendors' bug bounty leaderboards. His 2020 Pwnie Award for Epic Achievement recognized his exploit chain as one of the most technically significant Android research efforts of its time.",
   "knownFor": [
@@ -21,12 +30,30 @@
     "overview": "<h2>Background</h2><p>Guang Gong is a Chinese security researcher who works for Qihoo 360, one of China's largest internet security companies. He leads the company's Alpha Team, also referred to as Alpha Lab, part of 360's Internet Security Center, a group specializing in offensive security research against Android, Chrome, and related mobile software stacks. Public reporting and his own conference biographies identify him consistently by the single professional name \"Guang Gong,\" and he has spoken at security conferences including Black Hat USA under that name and the handle \"oldfresher.\"</p><h2>PwnFest 2016 and the Google Pixel</h2><p>In November 2016, at the PwnFest hacking contest held alongside the POC2016 security conference in Seoul, South Korea, a Qihoo 360 team led by Guang Gong successfully compromised a newly released Google Pixel/Pixel XL device using a zero-day remote code execution vulnerability, displaying a \"Pwned by 360 Alpha Team\" message on the phone. The demonstration, completed in roughly a minute, earned the team a $120,000 prize, one of the largest payouts of the event, and underscored how quickly a brand-new flagship Android device could be broken by a dedicated exploit team.</p><h2>Record Google bug bounty for a Pixel exploit chain</h2><p>In August 2017, Guang Gong submitted a remote exploit chain against the Google Pixel to Google's Android Security Rewards program. The chain combined a Chrome remote code execution vulnerability reachable through malicious HTML (CVE-2017-5116) with a separate flaw that allowed escape from Chrome's sandbox (CVE-2017-14904), together enabling an attacker to remotely inject arbitrary code into the Pixel's system_server process if a victim visited a malicious URL. Google patched the issues in its December 2017 security update and awarded Guang Gong $112,500, at the time the largest single payout made under the program, reflecting both the severity of full remote compromise and the technical difficulty of chaining a browser exploit with a privileged sandbox escape.</p><h2>The TiYunZong exploit chain</h2><p>Continuing this line of research, Guang Gong developed an exploit chain he named \"TiYunZong,\" after a technique from Chinese martial arts fiction that lets a practitioner move upward as if climbing stairs made of clouds. Documented in a Black Hat USA 2020 paper subtitled \"Pwn Android phones from 2015 to 2020,\" the chain combined three vulnerabilities discovered in 2019: a Chrome/V8 remote code execution bug (CVE-2019-5877), a Mojo IPC elevation-of-privilege flaw (CVE-2019-5870), and a root-level flaw in the Qualcomm KGSL graphics driver (CVE-2019-10567). Guang Gong's paper describes the result as the first publicly reported one-click remote root exploit chain against Pixel devices, achieved without relying on return-oriented programming, and states that it won the largest reward paid for a single exploit chain across Google's vulnerability reward programs to that point.</p><h2>Recognition and standing in the field</h2><p>Guang Gong and the Alpha Team he leads have been credited with holding a significant share of all Android-related exploits ever accepted onto Google's public rewards leaderboard, and analyses of Google's Android bug bounty submissions have found that within the Alpha Team, nearly all vulnerabilities credited to the group between 2017 and 2020 were reported by Guang Gong personally. In 2020, he received the Pwnie Award for Epic Achievement for \"Remotely Rooting Modern Android Devices,\" one of the security industry's better-known peer-recognition prizes, awarded annually at the Black Hat USA conference.</p><h2>Significance</h2><p>Guang Gong's work is frequently cited as an example of how deeply chained, multi-vulnerability exploits are required to defeat modern Android hardening on flagship devices such as the Google Pixel, and how bug bounty economics can incentivize exactly that kind of sustained, high-difficulty research. His career also reflects the broader emergence of large, corporate-backed Chinese vulnerability research teams, such as those at Qihoo 360 and other domestic security firms, which by the late 2010s had become some of the most prolific reporters of vulnerabilities to Google, Apple, and other major platform vendors.</p>"
   },
   "timeline": [
-    { "date": "2016-11", "event": "Leads a Qihoo 360 Alpha Team exploit of a newly released Google Pixel/Pixel XL at the PwnFest contest in Seoul, South Korea, winning $120,000." },
-    { "date": "2017-08", "event": "Submits a Chrome remote code execution and sandbox-escape exploit chain (CVE-2017-5116, CVE-2017-14904) against the Google Pixel to Google's Android Security Rewards program." },
-    { "date": "2017-12", "event": "Google ships a security update patching the vulnerabilities used in Guang Gong's Pixel exploit chain and pays a record $112,500 bounty." },
-    { "date": "2019", "event": "Discovers and chains three new vulnerabilities (CVE-2019-5877, CVE-2019-5870, CVE-2019-10567) into the \"TiYunZong\" one-click remote root exploit for Qualcomm-based Android devices." },
-    { "date": "2020-08", "event": "Presents the TiYunZong exploit chain at Black Hat USA 2020 in the paper \"TiYunZong: An Exploit Chain to Remotely Root Modern Android Devices.\"" },
-    { "date": "2020", "event": "Receives the Pwnie Award for Epic Achievement for \"Remotely Rooting Modern Android Devices.\"" }
+    {
+      "date": "2016-11",
+      "event": "Leads a Qihoo 360 Alpha Team exploit of a newly released Google Pixel/Pixel XL at the PwnFest contest in Seoul, South Korea, winning $120,000."
+    },
+    {
+      "date": "2017-08",
+      "event": "Submits a Chrome remote code execution and sandbox-escape exploit chain (CVE-2017-5116, CVE-2017-14904) against the Google Pixel to Google's Android Security Rewards program."
+    },
+    {
+      "date": "2017-12",
+      "event": "Google ships a security update patching the vulnerabilities used in Guang Gong's Pixel exploit chain and pays a record $112,500 bounty."
+    },
+    {
+      "date": "2019",
+      "event": "Discovers and chains three new vulnerabilities (CVE-2019-5877, CVE-2019-5870, CVE-2019-10567) into the \"TiYunZong\" one-click remote root exploit for Qualcomm-based Android devices."
+    },
+    {
+      "date": "2020-08",
+      "event": "Presents the TiYunZong exploit chain at Black Hat USA 2020 in the paper \"TiYunZong: An Exploit Chain to Remotely Root Modern Android Devices.\""
+    },
+    {
+      "date": "2020",
+      "event": "Receives the Pwnie Award for Epic Achievement for \"Remotely Rooting Modern Android Devices.\""
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -34,18 +61,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Google awards record $112,500 bug bounty for Android exploit chain - CyberScoop", "url": "https://cyberscoop.com/google-awards-record-112500-bug-bounty-for-android-exploit-chain/" },
-    { "title": "Qihoo360's Bug-Hunting Team Claims USD112,500 for Discovering Exploit on Google's Pixel Smartphone - Yicai Global", "url": "https://www.yicaiglobal.com/news/qihoo360-bug-hunting-team-claims-usd112500-for-discovering-exploit-on-google-pixel-smartphone" },
-    { "title": "Qihoo 360 Team hacked Google Pixel in 60 seconds at PwnFest - 360 Total Security Blog", "url": "https://blog.360totalsecurity.com/en/qihoo-360-team-hacked-google-pixel-60-secs-pwnfest/" },
-    { "title": "Pwnie Awards - Wikipedia (2020 Epic Achievement award)", "url": "https://en.wikipedia.org/wiki/Pwnie_Awards" },
-    { "title": "Guang Gong, \"TiYunZong: An Exploit Chain to Remotely Root Modern Android Devices\" - Black Hat USA 2020 white paper", "url": "https://i.blackhat.com/USA-20/Thursday/us-20-Gong-TiYunZong-An-Exploit-Chain-To-Remotely-Root-Modern-Android-Devices-wp.pdf" },
-    { "title": "How China's Cyber Ecosystem Feeds Off Its Superstar Hackers - Lawfare", "url": "https://www.lawfaremedia.org/article/how-china-s-cyber-ecosystem-feeds-off-its-superstar-hackers" }
+    {
+      "title": "Google awards record $112,500 bug bounty for Android exploit chain - CyberScoop",
+      "url": "https://cyberscoop.com/google-awards-record-112500-bug-bounty-for-android-exploit-chain/"
+    },
+    {
+      "title": "Qihoo360's Bug-Hunting Team Claims USD112,500 for Discovering Exploit on Google's Pixel Smartphone - Yicai Global",
+      "url": "https://www.yicaiglobal.com/news/qihoo360-bug-hunting-team-claims-usd112500-for-discovering-exploit-on-google-pixel-smartphone"
+    },
+    {
+      "title": "Qihoo 360 Team hacked Google Pixel in 60 seconds at PwnFest - 360 Total Security Blog",
+      "url": "https://blog.360totalsecurity.com/en/qihoo-360-team-hacked-google-pixel-60-secs-pwnfest/"
+    },
+    {
+      "title": "Pwnie Awards - Wikipedia (2020 Epic Achievement award)",
+      "url": "https://en.wikipedia.org/wiki/Pwnie_Awards"
+    },
+    {
+      "title": "Guang Gong, \"TiYunZong: An Exploit Chain to Remotely Root Modern Android Devices\" - Black Hat USA 2020 white paper",
+      "url": "https://i.blackhat.com/USA-20/Thursday/us-20-Gong-TiYunZong-An-Exploit-Chain-To-Remotely-Root-Modern-Android-Devices-wp.pdf"
+    },
+    {
+      "title": "How China's Cyber Ecosystem Feeds Off Its Superstar Hackers - Lawfare",
+      "url": "https://www.lawfaremedia.org/article/how-china-s-cyber-ecosystem-feeds-off-its-superstar-hackers"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

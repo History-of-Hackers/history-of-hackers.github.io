@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CANONICAL = ROOT / "people" / "marcus-hutchins-wannacry.html"
+ISSUES_URL = "https://github.com/History-of-Hackers/history-of-hackers.github.io/issues/new"
 
 
 def esc(value):
@@ -34,6 +35,11 @@ def article(data):
     if data.get("tags"):
         details.append(("Tags", ", ".join(data["tags"])))
     infobox = "".join(f"<dt>{esc(label)}</dt><dd>{esc(value)}</dd>" for label, value in details)
+    created_by = data.get("editorial", {}).get("createdBy") or "the History of Hackers community"
+    credit = (
+        f'<div class="page-credit">Created by <strong>{esc(created_by)}</strong> &middot; Something wrong or want it removed? '
+        f'<a href="{ISSUES_URL}" target="_blank" rel="noopener noreferrer">Open an issue</a>.</div>'
+    )
     return f'''\n<div class="breadcrumbs"><a href="../">Home</a> &raquo; <a href="./">People</a> &raquo; {esc(data["title"])}</div>
 <article class="entity">
 <div class="entity-layout">
@@ -46,6 +52,7 @@ def article(data):
 </div>
 <div><div class="infobox"><div class="infobox-title">{esc(data["title"])}</div><dl>{infobox}</dl></div></div>
 </div>
+{credit}
 </article>
 '''
 

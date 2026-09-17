@@ -4,25 +4,69 @@
   "title": "HOPE (Hackers On Planet Earth)",
   "slug": "hope-hackers-on-planet-earth",
   "era": "1994-Present",
-  "tags": ["hacker conference", "2600 magazine", "new york", "hope", "emmanuel goldstein", "whistleblowers", "hacker culture"],
+  "tags": [
+    "hacker conference",
+    "2600 magazine",
+    "new york",
+    "hope",
+    "emmanuel goldstein",
+    "whistleblowers",
+    "hacker culture"
+  ],
   "summary": "HOPE (Hackers On Planet Earth) is a hacker conference organized by 2600: The Hacker Quarterly, first held in 1994 in New York City and traditionally staged every two summers since.",
   "whyThisMatters": "HOPE is one of the longest-running hacker conferences in the world, providing a recurring public venue where hacker culture, digital-rights activism, and mainstream technology journalism intersect. Its keynote lineups, which have included whistleblowers such as Edward Snowden and Daniel Ellsberg alongside pioneers like Steve Wozniak and Kevin Mitnick, illustrate the conference's role as a barometer for shifting relationships between hackers, government surveillance, and the press. Incidents at HOPE, such as the on-site FBI arrest of a speaker in 2006, have also made the event a recurring case study in the tension between hacker gatherings and law enforcement.",
   "sections": {
     "overview": "<h2>Origins</h2><p>HOPE, an acronym for \"Hackers On Planet Earth,\" is a hacker conference created by the publishers of 2600: The Hacker Quarterly. The first conference was held August 13-14, 1994, at the Hotel Pennsylvania in Midtown Manhattan, timed to coincide with the tenth anniversary of 2600 magazine's founding. The inaugural event drew more than 1,000 attendees and established the format that later editions would follow: talks, panels, workshops, and informal gathering space for hackers, security researchers, journalists, and hobbyists. The conference's chief organizer has been Eric Corley, better known by his pen name Emmanuel Goldstein (a reference to a character in George Orwell's novel Nineteen Eighty-Four), who founded 2600 magazine in 1984 and also hosts the radio programs Off The Hook and Off The Wall.</p><h2>Schedule and Venues</h2><p>For most of its history HOPE was held biennially in the summer. Sixteen numbered conferences took place between 1994 and 2025 under names such as HOPE Number Six, The Last HOPE, HOPE X, and The Circle of HOPE, with the series moving toward an annual cadence starting in 2025. The Hotel Pennsylvania in Manhattan served as the conference's home venue for most of its run, with a single exception in 1997 when Beyond HOPE was hosted at the Puck Building, also in Manhattan. After the Hotel Pennsylvania was slated for demolition, the conference relocated, later using St. John's University in Queens and, for HOPE 26 in August 2026, the New Yorker Hotel in Manhattan. In early 2026 the organization behind the conference, HOPE On Planet Earth, was formally established as a 501(c)(3) nonprofit.</p><h2>Notable Speakers and Editions</h2><p>Over three decades HOPE has featured a mix of hacker and hardware pioneers, security researchers, and political dissidents. The Fifth HOPE in 2004 featured Apple co-founder Steve Wozniak and hacker-turned-consultant Kevin Mitnick alongside punk musician and activist Jello Biafra, who has appeared at the conference multiple times. The Last HOPE in 2008 included journalist Steven Levy and Adam Savage of MythBusters, and doubled as an occasion to protest the planned demolition of the Hotel Pennsylvania. HOPE X in 2014 was keynoted remotely by NSA whistleblower Edward Snowden together with Pentagon Papers source Daniel Ellsberg, reflecting the conference's growing focus on surveillance and government secrecy following Snowden's 2013 disclosures. Other recurring speakers have included cryptographer and privacy advocate Richard Stallman and former NSA official turned whistleblower William Binney.</p><h2>Controversies</h2><p>HOPE has occasionally intersected with law enforcement and political controversy. At HOPE Number Six in 2006, private investigator Steve Rambam was arrested by federal agents minutes before he was scheduled to deliver a talk on invasive surveillance techniques; charges against him were later dropped. At HOPE Number Nine in 2012, security researcher Chris Kubecka said her employer, Unisys, threatened her with termination over a planned talk about censorship, a dispute that drew wider press attention. The Circle of HOPE in 2018 saw protests connected to alt-right activism outside the venue. In 2025, St. John's University, which had hosted the conference since 2020, banned HOPE from its campus over promotional material it characterized as anti-police, prompting the conference's move to the New Yorker Hotel for its 2026 edition.</p><h2>Significance</h2><p>As one of the oldest continuously run hacker gatherings, alongside events like DEF CON and the Chaos Communication Congress, HOPE has functioned both as a community meeting point for hackers and makers and as a stage where debates over surveillance, whistleblowing, and digital rights have played out in public. Its long association with 2600 magazine ties it directly to one of the most durable institutions of American hacker culture, and its recurring conflicts with venues and law enforcement have made it a recurring reference point in discussions of how hacker communities are perceived by institutions and the state.</p>"
   },
   "timeline": [
-    { "date": "1994-08-13", "event": "The first HOPE conference opens at the Hotel Pennsylvania in Manhattan, organized by 2600 magazine to mark its tenth anniversary." },
-    { "date": "1997-08", "event": "Beyond HOPE is held at the Puck Building in Manhattan, the only edition not hosted at the Hotel Pennsylvania during that era." },
-    { "date": "2004-07", "event": "The Fifth HOPE features speakers including Steve Wozniak, Kevin Mitnick, and Jello Biafra." },
-    { "date": "2006-07", "event": "At HOPE Number Six, private investigator Steve Rambam is arrested by the FBI shortly before his scheduled talk; charges are later dismissed." },
-    { "date": "2008-07", "event": "The Last HOPE is held at the Hotel Pennsylvania, coinciding with efforts to protest the hotel's planned demolition." },
-    { "date": "2012-07", "event": "At HOPE Number Nine, security researcher Chris Kubecka reports being threatened with termination by her employer over a censorship-related talk." },
-    { "date": "2014-07", "event": "HOPE X is keynoted remotely by NSA whistleblower Edward Snowden alongside Daniel Ellsberg." },
-    { "date": "2018-07", "event": "The Circle of HOPE takes place amid protests linked to alt-right activism." },
-    { "date": "2020", "event": "HOPE moves to a virtual format and begins holding events at St. John's University in Queens in subsequent in-person years." },
-    { "date": "2025", "event": "St. John's University bans the HOPE conference from its campus over promotional material it deems anti-police; the conference plans a move to Manhattan." },
-    { "date": "2026-01", "event": "HOPE On Planet Earth is formally established as a 501(c)(3) nonprofit organization." },
-    { "date": "2026-08-14", "event": "HOPE 26 is held at the New Yorker Hotel in Manhattan, described by organizers as the seventeenth HOPE event." }
+    {
+      "date": "1994-08-13",
+      "event": "The first HOPE conference opens at the Hotel Pennsylvania in Manhattan, organized by 2600 magazine to mark its tenth anniversary."
+    },
+    {
+      "date": "1997-08",
+      "event": "Beyond HOPE is held at the Puck Building in Manhattan, the only edition not hosted at the Hotel Pennsylvania during that era."
+    },
+    {
+      "date": "2004-07",
+      "event": "The Fifth HOPE features speakers including Steve Wozniak, Kevin Mitnick, and Jello Biafra."
+    },
+    {
+      "date": "2006-07",
+      "event": "At HOPE Number Six, private investigator Steve Rambam is arrested by the FBI shortly before his scheduled talk; charges are later dismissed."
+    },
+    {
+      "date": "2008-07",
+      "event": "The Last HOPE is held at the Hotel Pennsylvania, coinciding with efforts to protest the hotel's planned demolition."
+    },
+    {
+      "date": "2012-07",
+      "event": "At HOPE Number Nine, security researcher Chris Kubecka reports being threatened with termination by her employer over a censorship-related talk."
+    },
+    {
+      "date": "2014-07",
+      "event": "HOPE X is keynoted remotely by NSA whistleblower Edward Snowden alongside Daniel Ellsberg."
+    },
+    {
+      "date": "2018-07",
+      "event": "The Circle of HOPE takes place amid protests linked to alt-right activism."
+    },
+    {
+      "date": "2020",
+      "event": "HOPE moves to a virtual format and begins holding events at St. John's University in Queens in subsequent in-person years."
+    },
+    {
+      "date": "2025",
+      "event": "St. John's University bans the HOPE conference from its campus over promotional material it deems anti-police; the conference plans a move to Manhattan."
+    },
+    {
+      "date": "2026-01",
+      "event": "HOPE On Planet Earth is formally established as a 501(c)(3) nonprofit organization."
+    },
+    {
+      "date": "2026-08-14",
+      "event": "HOPE 26 is held at the New Yorker Hotel in Manhattan, described by organizers as the seventeenth HOPE event."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -30,15 +74,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Hackers on Planet Earth - Wikipedia", "url": "https://en.wikipedia.org/wiki/Hackers_on_Planet_Earth" },
-    { "title": "2600: The Hacker Quarterly - Wikipedia", "url": "https://en.wikipedia.org/wiki/2600:_The_Hacker_Quarterly" },
-    { "title": "HOPE Conference official site", "url": "https://hope.net/" }
+    {
+      "title": "Hackers on Planet Earth - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hackers_on_Planet_Earth"
+    },
+    {
+      "title": "2600: The Hacker Quarterly - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2600:_The_Hacker_Quarterly"
+    },
+    {
+      "title": "HOPE Conference official site",
+      "url": "https://hope.net/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

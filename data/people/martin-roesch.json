@@ -1,0 +1,67 @@
+{
+  "id": "martin-roesch",
+  "type": "person",
+  "title": "Martin Roesch",
+  "slug": "martin-roesch",
+  "name": "Martin Roesch",
+  "born": null,
+  "died": null,
+  "era": "1990s-present",
+  "tags": [
+    "snort",
+    "intrusion-detection",
+    "open-source",
+    "sourcefire",
+    "network-security"
+  ],
+  "summary": "American security engineer who wrote Snort, the open-source network intrusion detection system, and founded Sourcefire.",
+  "whyThisMatters": "Snort made signature-based network intrusion detection freely available and became the de facto standard rule language for the industry.",
+  "knownFor": [
+    "Snort (1998)",
+    "Founding Sourcefire (2001)"
+  ],
+  "sections": {
+    "overview": "<p>Martin Roesch is an American software engineer and entrepreneur. In December 1998 he released Snort, initially described as a lightweight packet sniffer and logger, which quickly grew into a full network intrusion detection system with a rule language for describing malicious traffic.</p><h2>Sourcefire</h2><p>In 2001 Roesch founded Sourcefire to commercialize Snort while keeping the engine open source. The company went public in 2007 and was acquired by Cisco in 2013 for about US$2.7 billion; Snort remains maintained by Cisco Talos.</p><h2>Later work</h2><p>Roesch has continued to work in network security, founding Netography in 2018.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1998-12",
+      "event": "Releases the first version of Snort."
+    },
+    {
+      "date": "2001",
+      "event": "Founds Sourcefire."
+    },
+    {
+      "date": "2013-07",
+      "event": "Cisco announces the acquisition of Sourcefire for about US$2.7 billion."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Martin Roesch, 'Snort - Lightweight Intrusion Detection for Networks' (LISA 1999)",
+      "url": "https://www.usenix.org/legacy/publications/library/proceedings/lisa99/full_papers/roesch/roesch.pdf"
+    },
+    {
+      "title": "Cisco: Cisco completes acquisition of Sourcefire (2013)",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2013/m10/cisco-completes-acquisition-of-sourcefire.html"
+    },
+    {
+      "title": "Wikipedia: Martin Roesch",
+      "url": "https://en.wikipedia.org/wiki/Martin_Roesch"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

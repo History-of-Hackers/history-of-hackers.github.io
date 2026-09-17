@@ -1,0 +1,76 @@
+{
+  "id": "ian-goldberg",
+  "type": "person",
+  "title": "Ian Goldberg",
+  "slug": "ian-goldberg",
+  "name": "Ian Goldberg",
+  "born": 1973,
+  "died": null,
+  "era": "1990s-present",
+  "tags": [
+    "cryptography",
+    "privacy",
+    "otr",
+    "ssl",
+    "academic-research"
+  ],
+  "summary": "Canadian cryptographer who exposed the Netscape SSL random-number flaw in 1995 and co-created Off-the-Record Messaging.",
+  "whyThisMatters": "Goldberg's work bridged practical attacks on deployed crypto and the design of usable privacy tools.",
+  "knownFor": [
+    "Netscape SSL PRNG break (1995)",
+    "Off-the-Record Messaging",
+    "Research at the University of Waterloo"
+  ],
+  "sections": {
+    "overview": "<p>Ian Avrum Goldberg is a Canadian cryptographer and privacy researcher. As a Berkeley graduate student in September 1995 he and David Wagner showed that Netscape Navigator seeded its SSL session keys from predictable values such as the time and process ID, allowing keys to be recovered in seconds. In 1997 he solved the 40-bit RSA challenge in about three and a half hours, demonstrating the weakness of export-grade encryption.</p><h2>Privacy tools</h2><p>Goldberg was chief scientist at Zero-Knowledge Systems, developer of the Freedom Network anonymity service. In 2004, with Nikita Borisov and Eric Brewer, he introduced Off-the-Record Messaging, which brought forward secrecy and deniable authentication to instant messaging and influenced later protocols such as Signal.</p><h2>Academic career</h2><p>He is a professor at the University of Waterloo, where he leads the Cryptography, Security, and Privacy research group and has contributed to Tor's onion-service and circuit designs.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1973-03-31",
+      "event": "Born in Canada."
+    },
+    {
+      "date": "1995-09",
+      "event": "With David Wagner, breaks Netscape's SSL implementation by exploiting its weak random-number seeding."
+    },
+    {
+      "date": "1997-01",
+      "event": "Solves the 40-bit RSA export-strength challenge in about 3.5 hours."
+    },
+    {
+      "date": "2004",
+      "event": "Introduces Off-the-Record Messaging with Nikita Borisov and Eric Brewer."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Goldberg and Wagner, 'Randomness and the Netscape Browser' (Dr. Dobb's Journal, 1996)",
+      "url": "https://people.eecs.berkeley.edu/~daw/papers/ddj-netscape.html"
+    },
+    {
+      "title": "Borisov, Goldberg, Brewer: Off-the-Record Communication, or, Why Not To Use PGP (2004)",
+      "url": "https://otr.cypherpunks.ca/otr-wpes.pdf"
+    },
+    {
+      "title": "University of Waterloo: Ian Goldberg",
+      "url": "https://cs.uwaterloo.ca/~iang/"
+    },
+    {
+      "title": "Wikipedia: Ian Goldberg",
+      "url": "https://en.wikipedia.org/wiki/Ian_Goldberg"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

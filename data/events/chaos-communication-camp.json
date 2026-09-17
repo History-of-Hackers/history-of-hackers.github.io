@@ -4,20 +4,49 @@
   "title": "Chaos Communication Camp",
   "slug": "chaos-communication-camp",
   "era": "1999-Present",
-  "tags": ["ccc", "hacker camp", "germany", "hacker culture", "conference", "privacy", "open air"],
+  "tags": [
+    "ccc",
+    "hacker camp",
+    "germany",
+    "hacker culture",
+    "conference",
+    "privacy",
+    "open air"
+  ],
   "summary": "The Chaos Communication Camp (CCCamp) is an international outdoor hacker gathering organized by the Chaos Computer Club (CCC), held roughly every four years in Germany since 1999.",
   "whyThisMatters": "As the open-air counterpart to the CCC's winter Chaos Communication Congress, the Camp has served for over two decades as one of the largest recurring in-person gatherings of the international hacker and digital-rights community, combining technical talks, workshops, and a temporary self-built infrastructure (network, power, village camps) on a scale rarely attempted outside dedicated hacker events. Its recurring, quadrennial format and consistent German venues have made it a fixture in hacker culture comparable in scope to DEF CON, while its explicit focus on privacy, freedom of information, and data security reflects the CCC's broader political and civil-liberties mission.",
   "sections": {
     "overview": "<h2>Background</h2><p>The Chaos Communication Camp is an international outdoor meeting of hackers organized by the Chaos Computer Club (CCC), Europe's largest association of hackers. Unlike the CCC's flagship winter event, the Chaos Communication Congress, which is held indoors at the end of each year, the Camp is a multi-day open-air gathering held during the summer, typically in August. It is often described as a temporary \"tent city\" for hackers, where attendees pitch tents in themed village camps organized by hacker groups, projects, or national communities, and connect to a purpose-built high-speed network and power infrastructure erected specifically for the event.</p><h2>Origins and Founding</h2><p>The first Chaos Communication Camp took place in August 1999 at Freizeithof Paulshof near Altlandsberg, a location outside Berlin, Germany. It grew out of the CCC's existing tradition of the Chaos Communication Congress and was conceived as a way to bring the international hacker community together in a relaxed, outdoor setting conducive to informal technical exchange, in contrast to the more formal indoor conference format. From its inception, the event combined technical lectures and workshops with a strong social and DIY infrastructure component, requiring participants and volunteer teams to build networking, power, and sanitation systems from scratch on an open field.</p><h2>Recurrence and Venues</h2><p>The Camp has been held roughly every four years since 1999, with editions in 1999, 2003, 2007, 2011, 2015, 2019, and 2023. All editions have taken place within the general Berlin area of Germany. The earliest camps, in 1999 and 2003, were hosted at Freizeithof Paulshof near Altlandsberg. The 2007 and 2011 editions moved to the Luftfahrtmuseum (Aviation Museum) in Finowfurt, taking advantage of the site's large open runway areas. Since 2015, the event has been held at Ziegeleipark Mildenberg, a former brickworks park north of Berlin, which hosted the 2015, 2019, and 2023 editions.</p><h2>Format and Content</h2><p>Each Camp runs over roughly five days and features lectures and workshops delivered in both English and German, held in large tents and open-air stages, alongside informal talks, art installations, and technology demonstrations organized by attending groups. Topics have historically spanned computer security, cryptography, privacy and surveillance, telecommunications and radio, open hardware, and broader societal and political questions around data protection and freedom of information. As with the CCC's Congress, talks at the Camp are typically recorded and made publicly available online afterward through the CCC's media and streaming infrastructure.</p><h2>Scale and Growth</h2><p>Attendance has grown substantially over the event's history, from a smaller founding gathering in 1999 to several thousand participants at later editions; the 2023 Camp at Ziegeleipark Mildenberg drew an estimated 6,000 attendees from across Europe and beyond. The event's growth has paralleled the broader expansion of the CCC and of international hacker and maker culture, and it regularly draws attendees and village camps representing hackerspaces, CTF teams, and digital-rights organizations from many countries.</p><h2>Significance and Legacy</h2><p>The Chaos Communication Camp is one of the longest-running recurring outdoor hacker gatherings in the world and a notable fixture of German and European hacker culture, occupying a niche distinct from indoor, hotel-based hacker conferences such as DEF CON or Black Hat. Its emphasis on self-organized infrastructure, open technical exchange, and explicit engagement with privacy and civil-liberties issues reflects the CCC's broader identity as both a technical community and a political advocacy organization. The event's consistency over more than two decades, and its role as a quadrennial complement to the annual Chaos Communication Congress, have made it a recurring reference point in histories of European hacker culture.</p>"
   },
   "timeline": [
-    { "date": "1999-08", "event": "First Chaos Communication Camp held at Freizeithof Paulshof near Altlandsberg, Germany, organized by the Chaos Computer Club." },
-    { "date": "2003-08", "event": "Second Camp held again at Freizeithof Paulshof near Altlandsberg." },
-    { "date": "2007-08", "event": "Camp moves to the Luftfahrtmuseum (Aviation Museum) in Finowfurt, Germany." },
-    { "date": "2011-08", "event": "Camp held again at the Luftfahrtmuseum Finowfurt." },
-    { "date": "2015-08", "event": "Camp relocates to Ziegeleipark Mildenberg, a former brickworks park north of Berlin." },
-    { "date": "2019-08", "event": "Camp held again at Ziegeleipark Mildenberg." },
-    { "date": "2023-08", "event": "Camp held at Ziegeleipark Mildenberg, drawing an estimated 6,000 attendees." }
+    {
+      "date": "1999-08",
+      "event": "First Chaos Communication Camp held at Freizeithof Paulshof near Altlandsberg, Germany, organized by the Chaos Computer Club."
+    },
+    {
+      "date": "2003-08",
+      "event": "Second Camp held again at Freizeithof Paulshof near Altlandsberg."
+    },
+    {
+      "date": "2007-08",
+      "event": "Camp moves to the Luftfahrtmuseum (Aviation Museum) in Finowfurt, Germany."
+    },
+    {
+      "date": "2011-08",
+      "event": "Camp held again at the Luftfahrtmuseum Finowfurt."
+    },
+    {
+      "date": "2015-08",
+      "event": "Camp relocates to Ziegeleipark Mildenberg, a former brickworks park north of Berlin."
+    },
+    {
+      "date": "2019-08",
+      "event": "Camp held again at Ziegeleipark Mildenberg."
+    },
+    {
+      "date": "2023-08",
+      "event": "Camp held at Ziegeleipark Mildenberg, drawing an estimated 6,000 attendees."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -25,16 +54,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Chaos Communication Camp - Wikipedia", "url": "https://en.wikipedia.org/wiki/Chaos_Communication_Camp" },
-    { "title": "Camp - CCC Events", "url": "https://events.ccc.de/camp/" },
-    { "title": "Chaos Computer Club - Wikipedia", "url": "https://en.wikipedia.org/wiki/Chaos_Computer_Club" },
-    { "title": "Chaos Communication Congress - Wikipedia", "url": "https://en.wikipedia.org/wiki/Chaos_Communication_Congress" }
+    {
+      "title": "Chaos Communication Camp - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chaos_Communication_Camp"
+    },
+    {
+      "title": "Camp - CCC Events",
+      "url": "https://events.ccc.de/camp/"
+    },
+    {
+      "title": "Chaos Computer Club - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chaos_Computer_Club"
+    },
+    {
+      "title": "Chaos Communication Congress - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chaos_Communication_Congress"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

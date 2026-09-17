@@ -4,19 +4,45 @@
   "title": "OWASP ZAP",
   "slug": "owasp-zap",
   "era": "2010s-Present",
-  "tags": ["web security", "vulnerability scanner", "penetration testing", "open source", "dast", "proxy", "owasp"],
+  "tags": [
+    "web security",
+    "vulnerability scanner",
+    "penetration testing",
+    "open source",
+    "dast",
+    "proxy",
+    "owasp"
+  ],
   "summary": "OWASP ZAP (Zed Attack Proxy) is a free and open-source web application security scanner, originally forked from Paros Proxy and first released in 2010, that became one of the world's most widely used dynamic application security testing (DAST) tools.",
   "whyThisMatters": "ZAP helped popularize free, community-maintained tooling for web application penetration testing at a time when comparable capability existed mainly in commercial scanners. Its growth into an OWASP flagship project made it a common entry point for people learning web security and a standard component of many organizations' security testing and CI/CD pipelines. Its transition from a volunteer OWASP project to backing by the Linux Foundation and later Checkmarx illustrates the broader trend of open-source security tools professionalizing while remaining free to use.",
   "sections": {
     "overview": "<h2>Background</h2><p>OWASP ZAP, short for Zed Attack Proxy, is a free and open-source web application security scanner. It is designed to help find security vulnerabilities in web applications during development and testing, and is also used by experienced penetration testers for manual security assessments. ZAP operates as an intercepting proxy, sitting between a tester's browser and a target web application so that requests and responses can be inspected, modified, and automatically scanned for common vulnerability classes such as SQL injection and cross-site scripting.</p><h2>Origins</h2><p>ZAP originated as a fork of Paros Proxy, an earlier Java-based web proxy and vulnerability scanner developed by Chinotec Technologies. An initial build of ZAP was announced publicly on the Bugtraq mailing list in September 2010. Later that year, the project was adopted under the Open Web Application Security Project (OWASP), which provided it with a governance structure, branding, and a community of contributors. Simon Bennetts became the project lead and, over the following years, oversaw a substantial rewrite of the codebase; by around 2014 the majority of the original Paros-derived code had reportedly been replaced.</p><h2>Development and Growth</h2><p>Written primarily in Java and released under the Apache License, ZAP is cross-platform, running on Linux, Windows, and macOS, and has been translated into numerous languages. Over the 2010s, it grew into one of OWASP's flagship projects and one of the most actively developed open-source security tools on GitHub, accumulating an extensive add-on marketplace that extends its core scanning, fuzzing, and automation capabilities. It supports both a traditional graphical interface aimed at newcomers to security testing and a headless/automation mode intended for integration into continuous integration and continuous delivery (CI/CD) pipelines, reflecting a broader industry shift toward automated security testing (DevSecOps).</p><h2>Recognition</h2><p>ZAP's prominence within the open-source security community was reflected in industry recognition, including an InfoWorld Bossie Award in 2015 for best open-source networking and security software. It has consistently been cited as among the most widely used web application security scanners, valued both for being free to use and for its extensibility through community-built add-ons.</p><h2>Governance Changes and Legacy</h2><p>In August 2023, the core ZAP development team moved the project's stewardship to the Linux Foundation's Software Security Project umbrella, aiming to place its long-term sustainability on a more formal institutional footing while keeping it open source. In September 2024, the main ZAP developers joined the application security company Checkmarx as employees, and the project was rebranded as \"ZAP by Checkmarx,\" while remaining a freely available, community-driven open-source tool under the Apache license. Today, ZAP remains widely cited in security training, bug bounty methodology, and DevSecOps pipelines as a standard, no-cost option for dynamic web application security testing, and its long history of iterative rewrites and governance transitions makes it a notable case study in how open-source security tooling can mature over more than a decade while remaining free and community accessible.</p>"
   },
   "timeline": [
-    { "date": "2010-09", "event": "An initial build of ZAP, forked from Paros Proxy, is announced publicly on the Bugtraq mailing list." },
-    { "date": "2010", "event": "ZAP is adopted as a project of the Open Web Application Security Project (OWASP)." },
-    { "date": "2014", "event": "By this point, an estimated 80% of ZAP's original Paros-derived codebase has been rewritten under project lead Simon Bennetts." },
-    { "date": "2015", "event": "ZAP receives an InfoWorld Bossie Award for best open-source networking and security software." },
-    { "date": "2023-08", "event": "The core ZAP development team moves project stewardship to the Linux Foundation's Software Security Project." },
-    { "date": "2024-09", "event": "ZAP's main developers join Checkmarx as employees; the project is rebranded as \"ZAP by Checkmarx\" while remaining free and open source." }
+    {
+      "date": "2010-09",
+      "event": "An initial build of ZAP, forked from Paros Proxy, is announced publicly on the Bugtraq mailing list."
+    },
+    {
+      "date": "2010",
+      "event": "ZAP is adopted as a project of the Open Web Application Security Project (OWASP)."
+    },
+    {
+      "date": "2014",
+      "event": "By this point, an estimated 80% of ZAP's original Paros-derived codebase has been rewritten under project lead Simon Bennetts."
+    },
+    {
+      "date": "2015",
+      "event": "ZAP receives an InfoWorld Bossie Award for best open-source networking and security software."
+    },
+    {
+      "date": "2023-08",
+      "event": "The core ZAP development team moves project stewardship to the Linux Foundation's Software Security Project."
+    },
+    {
+      "date": "2024-09",
+      "event": "ZAP's main developers join Checkmarx as employees; the project is rebranded as \"ZAP by Checkmarx\" while remaining free and open source."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -24,15 +50,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "OWASP ZAP - Wikipedia", "url": "https://en.wikipedia.org/wiki/OWASP_ZAP" },
-    { "title": "ZAP - The world's most widely used web app scanner (official site)", "url": "https://www.zaproxy.org/" },
-    { "title": "zaproxy/zaproxy - GitHub repository", "url": "https://github.com/zaproxy/zaproxy" }
+    {
+      "title": "OWASP ZAP - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OWASP_ZAP"
+    },
+    {
+      "title": "ZAP - The world's most widely used web app scanner (official site)",
+      "url": "https://www.zaproxy.org/"
+    },
+    {
+      "title": "zaproxy/zaproxy - GitHub repository",
+      "url": "https://github.com/zaproxy/zaproxy"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

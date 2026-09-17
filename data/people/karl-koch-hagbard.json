@@ -1,0 +1,72 @@
+{
+  "id": "karl-koch-hagbard",
+  "type": "person",
+  "title": "Karl Koch (Hagbard)",
+  "slug": "karl-koch-hagbard",
+  "name": "Karl Koch (Hagbard)",
+  "born": 1965,
+  "died": 1989,
+  "era": "1980s",
+  "tags": [
+    "germany",
+    "kgb-hack",
+    "espionage",
+    "chaos-computer-club",
+    "cold-war"
+  ],
+  "summary": "German hacker known as Hagbard who took part in the 1980s KGB hack, selling access to Western military and research systems to Soviet intelligence.",
+  "whyThisMatters": "The KGB hack was one of the first documented cases of computer intrusion used for state espionage, and Koch's death made it a cautionary tale.",
+  "knownFor": [
+    "KGB hack (1985-1989)",
+    "Hannover hacker scene",
+    "Subject of the film '23'"
+  ],
+  "sections": {
+    "overview": "<p>Karl Werner Lothar Koch was a German hacker from Hannover who used the handle Hagbard, after a character in the <em>Illuminatus!</em> trilogy. In the mid-1980s he became part of a group that broke into Western military, research, and corporate computers over X.25 networks and the ARPANET.</p><h2>The KGB hack</h2><p>Between roughly 1985 and 1988 Koch, Markus Hess, Hans Hübner (Pengo), and others sold information and access obtained from these intrusions to the KGB through intermediaries in East Berlin. The activity intersected with the intrusions Clifford Stoll traced from Lawrence Berkeley Laboratory. In 1989 the case became public when German television reported the espionage; Koch and Hübner had cooperated with authorities.</p><h2>Death</h2><p>Koch, who struggled with drug addiction and paranoia, was found burned to death in a forest near Celle in May 1989. The death was ruled a suicide, though the circumstances have been questioned. His story was dramatized in the 1998 German film <em>23</em>.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1965-07-22",
+      "event": "Born in Hannover, Germany."
+    },
+    {
+      "date": "1986",
+      "event": "Begins selling hacked material to the KGB with Markus Hess and others."
+    },
+    {
+      "date": "1989-03-02",
+      "event": "German television reports the KGB hack; arrests follow."
+    },
+    {
+      "date": "1989-06-01",
+      "event": "Found burned to death near Celle; death ruled a suicide."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Clifford Stoll, 'Stalking the Wily Hacker' (Communications of the ACM, 1988)",
+      "url": "https://dl.acm.org/doi/10.1145/42411.42412"
+    },
+    {
+      "title": "Der Spiegel: 'Hacker: Die Spione aus dem Kinderzimmer' (1989)",
+      "url": "https://www.spiegel.de/politik/die-spione-aus-dem-kinderzimmer-a-3c6a5a7e-0002-0001-0000-000013495404"
+    },
+    {
+      "title": "Wikipedia: Karl Koch (hacker)",
+      "url": "https://en.wikipedia.org/wiki/Karl_Koch_(hacker)"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

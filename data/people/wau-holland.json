@@ -1,0 +1,72 @@
+{
+  "id": "wau-holland",
+  "type": "person",
+  "title": "Wau Holland",
+  "slug": "wau-holland",
+  "name": "Wau Holland",
+  "born": 1951,
+  "died": 2001,
+  "era": "1980s-2000s",
+  "tags": [
+    "chaos-computer-club",
+    "germany",
+    "hacker-ethics",
+    "btx-hack",
+    "activism"
+  ],
+  "summary": "German journalist and activist who co-founded the Chaos Computer Club and shaped the European hacker ethic.",
+  "whyThisMatters": "Holland turned hacking in Germany into a public, political practice: demonstrate the flaw, publish it, and argue for the citizen's right to information.",
+  "knownFor": [
+    "Co-founding the Chaos Computer Club (1981)",
+    "Btx hack (1984)",
+    "Hacker ethics advocacy"
+  ],
+  "sections": {
+    "overview": "<p>Herwart Holland-Moritz, known as Wau Holland, was a German computer activist and journalist. On 12 September 1981 he and others met at the Berlin offices of the newspaper <em>die tageszeitung</em> to found what became the Chaos Computer Club, one of the world's largest and oldest hacker organizations.</p><h2>The Btx hack</h2><p>In November 1984 Holland and Steffen Wernéry demonstrated a flaw in the German post office's Bildschirmtext online service by having it credit the CCC roughly 134,000 Deutsche Marks from a Hamburg savings bank account overnight. They returned the money the next day in front of the press, establishing the club's pattern of public, documented demonstration.</p><h2>Ethics</h2><p>Holland extended the hacker ethic with principles such as \"use public data, protect private data\" and argued for free access to information as a civil right. He died in July 2001; the Wau Holland Foundation was created in his memory and later became a funding channel for projects including WikiLeaks.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1951-12-20",
+      "event": "Born in Kassel, Germany."
+    },
+    {
+      "date": "1981-09-12",
+      "event": "Co-founds the Chaos Computer Club at the taz offices in Berlin."
+    },
+    {
+      "date": "1984-11",
+      "event": "Btx hack with Steffen Wernéry exposes a flaw in the German post office's online service."
+    },
+    {
+      "date": "2001-07-29",
+      "event": "Dies in Bielefeld, Germany."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Chaos Computer Club: Wau Holland",
+      "url": "https://www.ccc.de/de/wau-holland"
+    },
+    {
+      "title": "Wau Holland Foundation",
+      "url": "https://wauland.de/"
+    },
+    {
+      "title": "Wikipedia: Wau Holland",
+      "url": "https://en.wikipedia.org/wiki/Wau_Holland"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

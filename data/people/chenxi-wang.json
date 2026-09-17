@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["venture capital", "industry analyst", "code obfuscation", "cloud security", "container security", "women in security", "carnegie mellon"],
+  "tags": [
+    "venture capital",
+    "industry analyst",
+    "code obfuscation",
+    "cloud security",
+    "container security",
+    "women in security",
+    "carnegie mellon"
+  ],
   "summary": "Chenxi Wang is a computer scientist, security industry analyst and executive who founded Rain Capital, an early-stage venture fund focused on cybersecurity. Her doctoral research at the University of Virginia produced an early description of control-flow flattening, an obfuscation technique later nicknamed \"chenxification\".",
   "whyThisMatters": "Wang is one of the few figures whose career spans academic security research, industry analysis, vendor strategy and venture investing. Her dissertation work on obstructing static analysis of programs became a reference point in the software obfuscation and reverse-engineering literature, where the flattening transform is still informally called \"chenxification\". As a Forrester analyst and later a vendor executive she helped shape how enterprises framed cloud and container security, and through Rain Capital she became an early institutional backer of security startups while advocating for wider participation of women in the field.",
   "knownFor": [
@@ -22,12 +30,30 @@
     "overview": "<h2>Education and early research</h2><p>Chenxi Wang holds a Ph.D. in computer science from the University of Virginia and a bachelor's degree from Lock Haven University. Her doctoral work, carried out in the university's dependability and security research group, addressed the protection of software-based survivability mechanisms: how to keep security and fault-tolerance code inside a program from being located, understood and disabled by an adversary with full access to the binary.</p><p>The best known product of that research is a program transformation that dismantles a function's ordinary control-flow structure and reassembles the resulting basic blocks inside a single large dispatch loop, so that the order of execution is decided at run time by a switch statement rather than being visible in the static structure of the code. The technique was presented in her thesis and in the paper \"Protection of Software-Based Survivability Mechanisms\", written with Jonathan Hill, John C. Knight and Jack W. Davidson and published at the International Conference on Dependable Systems and Networks (DSN) in 2001. University of Arizona professor Christian Collberg, a central figure in obfuscation research, later coined the informal name \"chenxification\" for the transformation in recognition of that early description; the term is still used by reverse engineers discussing control-flow flattening and its removal.</p><h2>Carnegie Mellon and Forrester</h2><p>Wang began her professional career in academia as a faculty member in electrical and computer engineering at Carnegie Mellon University, where she was involved in the establishment of the university's cybersecurity laboratory. In 2005 she co-founded Women@INI (WINI) with Dena Haritos Tsamitis, director of Carnegie Mellon's Information Networking Institute, as a programme to support gender diversity among students in the institute's degree programmes.</p><p>She subsequently left academia for industry analysis, serving as a vice president of research at Forrester Research, where she covered enterprise security and privacy. Analyst work of this kind shaped procurement and architecture decisions at large enterprises during a period when application security, mobile device management and early cloud adoption were becoming mainstream board-level concerns.</p><h2>Vendor executive roles</h2><p>After Forrester, Wang held a succession of strategy roles at security vendors: vice president of strategy at Intel Security, vice president of cloud security and strategy at the cloud data protection company CipherCloud, and Chief Strategy Officer at Twistlock, one of the first companies to build a security platform specifically for containers and Kubernetes workloads. She also served as Vice-Chair of the global board of directors of the OWASP Foundation, and was programme co-chair for the security and privacy track of the Grace Hopper Celebration in 2016 and 2017.</p><h2>Rain Capital</h2><p>In June 2018 Wang launched Rain Capital, a Silicon Valley venture fund investing at the pre-seed, seed and Series A stages in cybersecurity companies, initially co-headed with operating partner Amena Zhang. The fund was positioned as a women-owned firm that would actively seek out founders rather than wait for inbound pitches, with a stated intent to lower barriers for women and minority entrepreneurs in an industry where they were sparsely represented among venture-backed founders. Its early investment thesis centred on cloud-native security architectures.</p><p>Rain Capital's portfolio has included the industrial and OT security company Claroty, the Linux runtime security startup Capsule8, Altitude Networks and the asset-management company JupiterOne, and later expanded to cover identity, exposure management and security for AI systems. Several portfolio companies were acquired, including runZero by Accenture and Astrix Security by Cisco.</p><h2>Public role and recognition</h2><p>Wang was elected to the board of directors of MDU Resources Group (NYSE: MDU), a Fortune 500 company, at its 2019 annual meeting of stockholders, serving on the audit and the environmental and sustainability committees; the company cited her background in cybersecurity and information technology practice. She has written as a Forbes contributor and a columnist for Dark Reading, and founded the Forte Group, a non-profit advocacy organisation for women in technology.</p><p>Her recognitions include being named a Women of Influence by SC Magazine in 2016 and being named Woman Investor by the Cyber Risk Alliance and Women Tech Founders in 2019 and 2021. In May 2022 she delivered the commencement keynote at Carnegie Mellon's Information Networking Institute diploma ceremony.</p><h2>Legacy</h2><p>Wang's significance rests on two distinct contributions. In technical terms, her thesis work supplied one of the earliest published treatments of control-flow flattening, a transform that became standard equipment in commercial protectors, malware packers and defensive obfuscation alike, and that continues to drive research into automated deobfuscation. In institutional terms, she is an example of a researcher who moved into analyst, executive and investor roles and used those positions to influence which security technologies received attention and funding, while working publicly on the industry's gender imbalance.</p>"
   },
   "timeline": [
-    { "date": "2001", "event": "Publishes \"Protection of Software-Based Survivability Mechanisms\" with Hill, Knight and Davidson at DSN, describing control-flow flattening." },
-    { "date": "2005", "event": "Co-founds Women@INI at Carnegie Mellon University with INI director Dena Haritos Tsamitis." },
-    { "date": "2016", "event": "Named a Women of Influence by SC Magazine; serves as security and privacy programme co-chair for the Grace Hopper Celebration in 2016 and 2017." },
-    { "date": "2018-06", "event": "Launches Rain Capital, an early-stage cybersecurity venture fund, after executive roles at Forrester, Intel Security, CipherCloud and Twistlock." },
-    { "date": "2019-05", "event": "Elected to the board of directors of MDU Resources Group (NYSE: MDU) at the company's annual stockholders meeting." },
-    { "date": "2022-05-15", "event": "Delivers the commencement keynote at Carnegie Mellon's Information Networking Institute diploma ceremony." }
+    {
+      "date": "2001",
+      "event": "Publishes \"Protection of Software-Based Survivability Mechanisms\" with Hill, Knight and Davidson at DSN, describing control-flow flattening."
+    },
+    {
+      "date": "2005",
+      "event": "Co-founds Women@INI at Carnegie Mellon University with INI director Dena Haritos Tsamitis."
+    },
+    {
+      "date": "2016",
+      "event": "Named a Women of Influence by SC Magazine; serves as security and privacy programme co-chair for the Grace Hopper Celebration in 2016 and 2017."
+    },
+    {
+      "date": "2018-06",
+      "event": "Launches Rain Capital, an early-stage cybersecurity venture fund, after executive roles at Forrester, Intel Security, CipherCloud and Twistlock."
+    },
+    {
+      "date": "2019-05",
+      "event": "Elected to the board of directors of MDU Resources Group (NYSE: MDU) at the company's annual stockholders meeting."
+    },
+    {
+      "date": "2022-05-15",
+      "event": "Delivers the commencement keynote at Carnegie Mellon's Information Networking Institute diploma ceremony."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -35,23 +61,57 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Rain Capital - Team", "url": "https://raincap.vc/new-page-62" },
-    { "title": "Rain Capital - official site", "url": "https://raincap.vc/" },
-    { "title": "MDU Resources Announces Change in Board Leadership, New Director (PR Newswire, 2019)", "url": "https://www.prnewswire.com/news-releases/mdu-resources-announces-change-in-board-leadership-new-director-300846690.html" },
-    { "title": "Dr. Chenxi Wang to deliver INI commencement address - Carnegie Mellon University", "url": "https://www.cmu.edu/ini/news/2022/chenxiwang-grad2022.html" },
-    { "title": "Chenxi Wang - Project Olympus Advisory Board, Swartz Center for Entrepreneurship, Carnegie Mellon University", "url": "https://www.cmu.edu/swartz-center-for-entrepreneurship/mentorship-and-programs/project-olympus/advisory-board/chenxi-wang.html" },
-    { "title": "Rain Capital: Venture fund seeks to back cybersecurity companies led by women and minorities (Help Net Security, 2018)", "url": "https://www.helpnetsecurity.com/2018/07/17/rain-capital/" },
-    { "title": "Dr. Chenxi Wang - Technical Advisory Board, Secure Code Warrior", "url": "https://www.securecodewarrior.com/about-us/chenxi-wang" },
-    { "title": "Chenxi Wang - ISSA International speaker biography", "url": "https://issa.org/speaker/chenxi-wang/" },
-    { "title": "Control-flow unflattening in the wild (PNF Software / JEB in Action)", "url": "https://www.pnfsoftware.com/blog/control-flow-unflattening-in-the-wild/" },
-    { "title": "Protection of Software-Based Survivability Mechanisms - DSN 2001 (DBLP)", "url": "https://dblp.org/rec/conf/dsn/WangHKD01.html" },
-    { "title": "Rain Capital Founder Chenxi Wang on the State of Security, Funding and Gender Diversity (Mission North)", "url": "https://www.missionnorth.com/dispatches/rain-capital-founder-chenxi-wang-on-the-state-of-security-funding-and-gender-diversity" }
+    {
+      "title": "Rain Capital - Team",
+      "url": "https://raincap.vc/new-page-62"
+    },
+    {
+      "title": "Rain Capital - official site",
+      "url": "https://raincap.vc/"
+    },
+    {
+      "title": "MDU Resources Announces Change in Board Leadership, New Director (PR Newswire, 2019)",
+      "url": "https://www.prnewswire.com/news-releases/mdu-resources-announces-change-in-board-leadership-new-director-300846690.html"
+    },
+    {
+      "title": "Dr. Chenxi Wang to deliver INI commencement address - Carnegie Mellon University",
+      "url": "https://www.cmu.edu/ini/news/2022/chenxiwang-grad2022.html"
+    },
+    {
+      "title": "Chenxi Wang - Project Olympus Advisory Board, Swartz Center for Entrepreneurship, Carnegie Mellon University",
+      "url": "https://www.cmu.edu/swartz-center-for-entrepreneurship/mentorship-and-programs/project-olympus/advisory-board/chenxi-wang.html"
+    },
+    {
+      "title": "Rain Capital: Venture fund seeks to back cybersecurity companies led by women and minorities (Help Net Security, 2018)",
+      "url": "https://www.helpnetsecurity.com/2018/07/17/rain-capital/"
+    },
+    {
+      "title": "Dr. Chenxi Wang - Technical Advisory Board, Secure Code Warrior",
+      "url": "https://www.securecodewarrior.com/about-us/chenxi-wang"
+    },
+    {
+      "title": "Chenxi Wang - ISSA International speaker biography",
+      "url": "https://issa.org/speaker/chenxi-wang/"
+    },
+    {
+      "title": "Control-flow unflattening in the wild (PNF Software / JEB in Action)",
+      "url": "https://www.pnfsoftware.com/blog/control-flow-unflattening-in-the-wild/"
+    },
+    {
+      "title": "Protection of Software-Based Survivability Mechanisms - DSN 2001 (DBLP)",
+      "url": "https://dblp.org/rec/conf/dsn/WangHKD01.html"
+    },
+    {
+      "title": "Rain Capital Founder Chenxi Wang on the State of Security, Funding and Gender Diversity (Mission North)",
+      "url": "https://www.missionnorth.com/dispatches/rain-capital-founder-chenxi-wang-on-the-state-of-security-funding-and-gender-diversity"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 11,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

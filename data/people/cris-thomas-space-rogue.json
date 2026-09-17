@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["l0pht", "space-rogue", "senate-testimony", "vulnerability-disclosure", "atstake", "hacker-news-network", "white-hat", "infosec-history"],
+  "tags": [
+    "l0pht",
+    "space-rogue",
+    "senate-testimony",
+    "vulnerability-disclosure",
+    "atstake",
+    "hacker-news-network",
+    "white-hat",
+    "infosec-history"
+  ],
   "summary": "Cris Thomas, known by the handle Space Rogue, is an American security researcher and a founding member of the hacker think tank L0pht Heavy Industries, best known for testifying before the US Senate in 1998 and for later work at @stake, Trustwave, Tenable, and IBM X-Force Red.",
   "whyThisMatters": "Thomas was one of seven L0pht members who told the US Senate in 1998 that they could take down the internet in thirty minutes, a moment widely cited as an early turning point in public and government awareness of computer security. He was also the founder of the Hacker News Network, one of the first dedicated security news outlets, and he was the last of the L0pht members to publicly reveal his real identity, having operated under the Space Rogue handle for years afterward. His 2023 book on L0pht's history added a firsthand primary-source account of the group to the historical record.",
   "knownFor": [
@@ -23,12 +32,30 @@
     "overview": "<h2>Background</h2><p>Cris Thomas is an American security researcher who has used the handle \"Space Rogue\" since the 1990s. He grew up in Maine and, like many members of his generation of hackers, first encountered computer networks and hacking culture through bulletin board systems (BBSes) in the years before the commercial internet became widespread. He became one of the founding members of L0pht Heavy Industries, a Boston-area hacker collective and self-described \"hacker think tank\" that formed in the early-to-mid 1990s and grew into one of the most influential security research groups of its era.</p><h2>L0pht Heavy Industries</h2><p>As a member of L0pht, Thomas participated in the group's public vulnerability research and disclosure work, which included publishing security advisories on flaws in widely used commercial software at a time when vendors frequently downplayed or dismissed such findings. L0pht's members, operating under handles rather than legal names, built a reputation for combining hands-on hacker curiosity with rigorous technical documentation, and the group's L0phtCrack password-auditing tool, released in 1997, became one of the best-known security tools to come out of the 1990s hacker scene.</p><h2>Senate testimony</h2><p>On May 19, 1998, Thomas was one of seven L0pht members — alongside Mudge, Weld Pond, Brian Oblivion, Kingpin, Tan, and Stefan — who testified before the US Senate Committee on Governmental Affairs at a hearing titled \"Weak Computer Security in Government: Is the Public at Risk?\" The group testified under their hacker handles, telling senators that vulnerabilities in commercial software and government networks were serious enough that a small group of motivated attackers could disrupt large portions of the internet. The hearing is widely regarded as a landmark moment in bringing computer security concerns to the attention of the US government and the broader public, and it was notable for allowing witnesses who were not under a formal witness-protection arrangement to testify under assumed names.</p><h2>Hacker News Network and later career</h2><p>Separately from his L0pht work, Thomas founded and served as editor-in-chief of the Hacker News Network, an early security-focused news and information site, and he also created the Whacked Mac Archives, a large FTP-hosted repository of tools related to Apple Macintosh security research. When L0pht merged with the startup @stake in 2000, Thomas was reportedly the first of the group's members to leave the resulting company, even though he remained one of the last to publicly disclose his real name. In the years that followed, he continued to work in the security industry in various research and strategy roles, including positions at Trustwave's SpiderLabs research team and at the vulnerability-management company Tenable, before becoming the Global Strategy Lead for IBM's X-Force Red offensive security team.</p><h2>Later projects and writing</h2><p>In 2013, Thomas created CyberSquirrel1, a tongue-in-cheek project that tracked and mapped power outages caused by animals such as squirrels coming into contact with electrical infrastructure, using the tally as a satirical counterpoint to inflated claims about the scale of \"cyberwarfare\" damage. In February 2023, he published a memoir, \"Space Rogue: How the Hackers Known as L0pht Changed the World,\" recounting his childhood in Maine, his introduction to hacking through BBSes, his time with L0pht, the group's Senate testimony, and its broader impact on the security industry. The book was recognized with a 2023 National Indie Excellence Award.</p><h2>Legacy</h2><p>Thomas's career spans the transition of computer hacking from a fringe subculture largely unknown to policymakers into a recognized profession embedded in government and corporate security strategy. As a firsthand participant in the L0pht's Senate testimony and later as an author documenting that history, he is regarded as both a primary actor in, and a chronicler of, one of the formative episodes in the public history of computer security disclosure.</p>"
   },
   "timeline": [
-    { "date": "1990s", "event": "Cris Thomas, using the handle Space Rogue, becomes a founding member of the hacker collective L0pht Heavy Industries in the Boston area." },
-    { "date": "1997", "event": "L0pht releases L0phtCrack, a Windows NT password-auditing tool, as part of the group's public vulnerability disclosure work." },
-    { "date": "1998-05-19", "event": "Space Rogue testifies alongside six other L0pht members before the US Senate Committee on Governmental Affairs at the hearing \"Weak Computer Security in Government: Is the Public at Risk?\"" },
-    { "date": "2000", "event": "L0pht merges with the security startup @stake; Thomas is the first L0pht member to later leave the resulting company." },
-    { "date": "2013", "event": "Thomas creates CyberSquirrel1, a satirical project tracking animal-caused power outages as a counterpoint to cyberwarfare hype." },
-    { "date": "2023-02-16", "event": "Thomas publishes the memoir \"Space Rogue: How the Hackers Known as L0pht Changed the World.\"" }
+    {
+      "date": "1990s",
+      "event": "Cris Thomas, using the handle Space Rogue, becomes a founding member of the hacker collective L0pht Heavy Industries in the Boston area."
+    },
+    {
+      "date": "1997",
+      "event": "L0pht releases L0phtCrack, a Windows NT password-auditing tool, as part of the group's public vulnerability disclosure work."
+    },
+    {
+      "date": "1998-05-19",
+      "event": "Space Rogue testifies alongside six other L0pht members before the US Senate Committee on Governmental Affairs at the hearing \"Weak Computer Security in Government: Is the Public at Risk?\""
+    },
+    {
+      "date": "2000",
+      "event": "L0pht merges with the security startup @stake; Thomas is the first L0pht member to later leave the resulting company."
+    },
+    {
+      "date": "2013",
+      "event": "Thomas creates CyberSquirrel1, a satirical project tracking animal-caused power outages as a counterpoint to cyberwarfare hype."
+    },
+    {
+      "date": "2023-02-16",
+      "event": "Thomas publishes the memoir \"Space Rogue: How the Hackers Known as L0pht Changed the World.\""
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -36,17 +63,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Cris Thomas - Wikipedia", "url": "https://en.wikipedia.org/wiki/Cris_Thomas" },
-    { "title": "Hacker Conversations: Cris Thomas (AKA Space Rogue) From Lopht Heavy Industries - SecurityWeek", "url": "https://www.securityweek.com/hacker-conversations-cris-thomas-aka-space-rogue-from-lopht-heavy-industries/" },
-    { "title": "Full Committee Hearing - Weak Computer Security in Government: Is the Public at Risk? (US Senate Committee on Homeland Security and Governmental Affairs)", "url": "https://www.hsgac.senate.gov/hearings/weak-computer-security-in-government-is-the-public-at-risk-" },
-    { "title": "These hackers warned the Internet would become a security disaster. Nobody listened. - The Washington Post", "url": "https://www.washingtonpost.com/sf/business/2015/06/22/net-of-insecurity-part-3/" },
-    { "title": "Hacker Space Rogue to Release Book on Hacking Group L0pht Heavy Industries in February - Dark Reading", "url": "https://www.darkreading.com/vulnerabilities-threats/hacker-space-rogue-to-release-book-on-hacking-group-l0pht-heavy-industries-in-february" }
+    {
+      "title": "Cris Thomas - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cris_Thomas"
+    },
+    {
+      "title": "Hacker Conversations: Cris Thomas (AKA Space Rogue) From Lopht Heavy Industries - SecurityWeek",
+      "url": "https://www.securityweek.com/hacker-conversations-cris-thomas-aka-space-rogue-from-lopht-heavy-industries/"
+    },
+    {
+      "title": "Full Committee Hearing - Weak Computer Security in Government: Is the Public at Risk? (US Senate Committee on Homeland Security and Governmental Affairs)",
+      "url": "https://www.hsgac.senate.gov/hearings/weak-computer-security-in-government-is-the-public-at-risk-"
+    },
+    {
+      "title": "These hackers warned the Internet would become a security disaster. Nobody listened. - The Washington Post",
+      "url": "https://www.washingtonpost.com/sf/business/2015/06/22/net-of-insecurity-part-3/"
+    },
+    {
+      "title": "Hacker Space Rogue to Release Book on Hacking Group L0pht Heavy Industries in February - Dark Reading",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/hacker-space-rogue-to-release-book-on-hacking-group-l0pht-heavy-industries-in-february"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

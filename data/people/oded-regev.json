@@ -1,12 +1,72 @@
 {
-  "id": "oded-regev", "type": "person", "title": "Oded Regev", "slug": "oded-regev", "name": "Oded Regev", "born": null, "died": null, "era": "2000s-Present",
-  "tags": ["cryptography", "lattices", "post-quantum-cryptography", "learning-with-errors", "research"],
+  "id": "oded-regev",
+  "type": "person",
+  "title": "Oded Regev",
+  "slug": "oded-regev",
+  "name": "Oded Regev",
+  "born": null,
+  "died": null,
+  "era": "2000s-Present",
+  "tags": [
+    "cryptography",
+    "lattices",
+    "post-quantum-cryptography",
+    "learning-with-errors",
+    "research"
+  ],
   "summary": "Computer scientist whose work on lattice-based cryptography, including the Learning With Errors problem, helped establish mathematical foundations used in post-quantum cryptography.",
   "whyThisMatters": "Regev's lattice work connects hard computational problems with public-key cryptography. The Learning With Errors formulation became a major reference point for constructions designed to remain secure against known quantum attacks.",
-  "knownFor": ["Learning With Errors", "Lattice-based cryptography", "Post-quantum foundations"],
-  "sections": {"overview": "<p>Oded Regev is a computer scientist at New York University's Courant Institute whose research includes lattice-based cryptography, quantum computation, and theoretical computer science.</p><h2>Learning With Errors</h2><p>His work introduced the Learning With Errors (LWE) problem in cryptography. LWE has become a widely used hardness assumption for lattice-based constructions and is important to the study of post-quantum cryptography.</p><h2>Research record</h2><p>Regev's academic work also addresses lattice problems and quantum computation. His NYU research page describes lattice cryptography as a main focus and records the 2018 Gödel Prize among his honors.</p><h2>Security significance</h2><p>His work is relevant to the security community because modern encryption designs need assumptions that can be evaluated against changing computational capabilities, including quantum computation.</p>"},
-  "timeline": [{"date":"2001","event":"Receives a Ph.D. in computer science from Tel Aviv University."},{"date":"2005","event":"Publishes work introducing the Learning With Errors problem in lattice-based cryptography."},{"date":"2018","event":"Receives the Gödel Prize, as recorded by NYU."}],
-  "relatedPeople": [], "relatedGroups": [], "relatedTools": [], "relatedVulnerabilities": [], "relatedEvents": [],
-  "sources": [{"title":"NYU Courant faculty profile", "url":"https://cims.nyu.edu/people/profiles/REGEV_Oded.html"},{"title":"Oded Regev research page", "url":"https://cs.nyu.edu/~regev/"},{"title":"New Lattice Based Cryptographic Constructions", "url":"https://arxiv.org/abs/cs/0309051"},{"title":"Lattice-based Cryptography", "url":"https://cims.nyu.edu/~regev/papers/crypto2006.pdf"}],
-  "editorial": {"verified": true, "sourcesCount": 4, "lastReviewed":"2026-09-03", "reviewStatus":"PUBLISHED", "reviewer":"codex-2026-09-03"}
+  "knownFor": [
+    "Learning With Errors",
+    "Lattice-based cryptography",
+    "Post-quantum foundations"
+  ],
+  "sections": {
+    "overview": "<p>Oded Regev is a computer scientist at New York University's Courant Institute whose research includes lattice-based cryptography, quantum computation, and theoretical computer science.</p><h2>Learning With Errors</h2><p>His work introduced the Learning With Errors (LWE) problem in cryptography. LWE has become a widely used hardness assumption for lattice-based constructions and is important to the study of post-quantum cryptography.</p><h2>Research record</h2><p>Regev's academic work also addresses lattice problems and quantum computation. His NYU research page describes lattice cryptography as a main focus and records the 2018 Gödel Prize among his honors.</p><h2>Security significance</h2><p>His work is relevant to the security community because modern encryption designs need assumptions that can be evaluated against changing computational capabilities, including quantum computation.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2001",
+      "event": "Receives a Ph.D. in computer science from Tel Aviv University."
+    },
+    {
+      "date": "2005",
+      "event": "Publishes work introducing the Learning With Errors problem in lattice-based cryptography."
+    },
+    {
+      "date": "2018",
+      "event": "Receives the Gödel Prize, as recorded by NYU."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "NYU Courant faculty profile",
+      "url": "https://cims.nyu.edu/people/profiles/REGEV_Oded.html"
+    },
+    {
+      "title": "Oded Regev research page",
+      "url": "https://cs.nyu.edu/~regev/"
+    },
+    {
+      "title": "New Lattice Based Cryptographic Constructions",
+      "url": "https://arxiv.org/abs/cs/0309051"
+    },
+    {
+      "title": "Lattice-based Cryptography",
+      "url": "https://cims.nyu.edu/~regev/papers/crypto2006.pdf"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

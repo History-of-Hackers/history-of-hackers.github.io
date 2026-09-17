@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["firewall", "network security", "check point", "netscreen", "palo alto networks", "intrusion prevention", "israel", "unit 8200"],
+  "tags": [
+    "firewall",
+    "network security",
+    "check point",
+    "netscreen",
+    "palo alto networks",
+    "intrusion prevention",
+    "israel",
+    "unit 8200"
+  ],
   "summary": "Nir Zuk is an Israeli-American security engineer and entrepreneur who helped develop early stateful-inspection firewall technology at Check Point in the 1990s and later founded Palo Alto Networks in 2005, where he pioneered the next-generation firewall concept as the company's CTO.",
   "whyThisMatters": "Zuk's early work at Check Point contributed to stateful inspection, one of the foundational techniques of modern network firewalls, and his subsequent intrusion-prevention work at OneSecure helped define that product category. His founding of Palo Alto Networks introduced the \"next-generation firewall,\" which combined application awareness, user identification, and content inspection into a single device, reshaping how enterprises approached perimeter security in the 2000s and 2010s. His career traces a throughline from Israeli military signals-intelligence training through several of the most consequential companies in commercial network security.",
   "knownFor": [
@@ -21,16 +30,46 @@
     "overview": "<h2>Background</h2><p>Nir Zuk is an Israeli-born security engineer and entrepreneur best known as the founder and longtime Chief Technology Officer of Palo Alto Networks. He grew up in Rehovot, Israel, and was largely self-taught in computer science, acquiring his first computer as a teenager and beginning to program commercially in his youth. During his mandatory service in the Israeli military, he worked in a specialized unit that recruited programming talent — commonly identified in profiles of Zuk as Unit 8200, a branch of Israeli military intelligence — while also pursuing university studies in mathematics, which he did not complete.</p><h2>Check Point and stateful inspection</h2><p>In the mid-1990s Zuk joined Check Point Software Technologies as one of the company's earliest employees, at a time when the Israeli firm was still small. At Check Point he worked on the development of stateful inspection technology, an approach to filtering network traffic based on the state of active connections rather than examining packets in isolation, which became a foundational technique used across the firewall industry. He relocated to the United States in January 1997 to help lead the company's development efforts there. After roughly five years at Check Point, Zuk left in March 1999, reportedly frustrated by increasing corporate bureaucracy and by the company's decision to shelve a bandwidth-optimization product he had worked on.</p><h2>OneSecure and NetScreen</h2><p>After leaving Check Point, Zuk co-founded OneSecure, a company that began as a managed security services provider before pivoting to build what has been described as one of the first commercial intrusion prevention system (IPS) appliances, designed to complement traditional firewalls by detecting and blocking attacks in real time. OneSecure was acquired by NetScreen Technologies in 2002, and Zuk joined NetScreen as Chief Technology Officer. NetScreen, a maker of ASIC-based firewall and VPN appliances, was itself acquired by Juniper Networks in 2004 in a deal valued at roughly four billion dollars. Zuk stayed on at Juniper following the acquisition but departed after the company declined to pursue his proposal for a new kind of firewall platform.</p><h2>Founding Palo Alto Networks</h2><p>In 2005 Zuk founded Palo Alto Networks, raising approximately $9.4 million in initial venture financing and recruiting a number of former NetScreen colleagues to join him. As the company's CTO, Zuk is credited with pioneering the \"next-generation firewall,\" a product category that combined traditional packet filtering with application-level visibility and control, user identification, and integrated intrusion prevention in a single platform — intended to address the limitations of firewalls that could only inspect traffic by port and protocol rather than by the actual application or content in use. Over the following two decades, Palo Alto Networks grew into one of the largest cybersecurity companies in the world, expanding its platform to cover cloud security, endpoint protection, and security operations in addition to its original firewall business.</p><h2>Later career and recognition</h2><p>Zuk continued to serve as CTO and a board member of Palo Alto Networks for more than twenty years, during which time he was described as having pursued a long-term vision of building a unified cybersecurity platform spanning multiple defensive categories for enterprise customers. On August 18, 2025, Palo Alto Networks announced Zuk's retirement, reported around the same time as the company's announcement of its intent to acquire the identity security firm CyberArk. Later that year, Cybercrime Magazine named Zuk its \"2025 Cybersecurity Person of the Year\" in recognition of his contributions to the network security industry across Check Point, NetScreen, and Palo Alto Networks.</p><h2>Significance</h2><p>Zuk's career spans several of the formative moments in commercial network security: the emergence of the stateful-inspection firewall in the 1990s, the rise of dedicated intrusion prevention appliances in the early 2000s, and the shift toward application-aware, unified security platforms in the 2000s and beyond. Because his work sits at the intersection of defensive network security engineering and company-building rather than offensive hacking, he is best known as an industry-shaping engineer and entrepreneur whose products directly influenced how organizations detect and block network-based attacks.</p>"
   },
   "timeline": [
-    { "date": "1994", "event": "Nir Zuk joins Check Point Software Technologies as one of its earliest employees, contributing to the development of stateful inspection firewall technology." },
-    { "date": "1997-01", "event": "Zuk relocates to the United States to help lead Check Point's U.S. development efforts." },
-    { "date": "1999-03", "event": "Zuk leaves Check Point after roughly five years." },
-    { "date": "1999", "event": "Zuk co-founds OneSecure, initially a managed security services company that pivots to building an early intrusion prevention system (IPS) appliance." },
-    { "date": "2002", "event": "NetScreen Technologies acquires OneSecure; Zuk joins NetScreen as Chief Technology Officer." },
-    { "date": "2004-04-16", "event": "Juniper Networks completes its acquisition of NetScreen Technologies for approximately $4 billion." },
-    { "date": "2005-03-01", "event": "Zuk founds Palo Alto Networks after Juniper declines to pursue his proposal for a new firewall platform, raising about $9.4 million in initial funding." },
-    { "date": "2005", "event": "Palo Alto Networks develops and later brings to market the next-generation firewall, combining application awareness, user identification, and intrusion prevention in one platform." },
-    { "date": "2025-08-18", "event": "Palo Alto Networks announces Nir Zuk's retirement after more than two decades as the company's CTO." },
-    { "date": "2025", "event": "Cybercrime Magazine names Zuk its 2025 Cybersecurity Person of the Year." }
+    {
+      "date": "1994",
+      "event": "Nir Zuk joins Check Point Software Technologies as one of its earliest employees, contributing to the development of stateful inspection firewall technology."
+    },
+    {
+      "date": "1997-01",
+      "event": "Zuk relocates to the United States to help lead Check Point's U.S. development efforts."
+    },
+    {
+      "date": "1999-03",
+      "event": "Zuk leaves Check Point after roughly five years."
+    },
+    {
+      "date": "1999",
+      "event": "Zuk co-founds OneSecure, initially a managed security services company that pivots to building an early intrusion prevention system (IPS) appliance."
+    },
+    {
+      "date": "2002",
+      "event": "NetScreen Technologies acquires OneSecure; Zuk joins NetScreen as Chief Technology Officer."
+    },
+    {
+      "date": "2004-04-16",
+      "event": "Juniper Networks completes its acquisition of NetScreen Technologies for approximately $4 billion."
+    },
+    {
+      "date": "2005-03-01",
+      "event": "Zuk founds Palo Alto Networks after Juniper declines to pursue his proposal for a new firewall platform, raising about $9.4 million in initial funding."
+    },
+    {
+      "date": "2005",
+      "event": "Palo Alto Networks develops and later brings to market the next-generation firewall, combining application awareness, user identification, and intrusion prevention in one platform."
+    },
+    {
+      "date": "2025-08-18",
+      "event": "Palo Alto Networks announces Nir Zuk's retirement after more than two decades as the company's CTO."
+    },
+    {
+      "date": "2025",
+      "event": "Cybercrime Magazine names Zuk its 2025 Cybersecurity Person of the Year."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,18 +77,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "2025 Cybersecurity Person Of The Year: Nir Zuk, Palo Alto Networks Founder & CTO - Cybersecurity Ventures", "url": "https://cybersecurityventures.com/2025-cybersecurity-person-of-the-year-nir-zuk-palo-alto-networks-founder-cto/" },
-    { "title": "Techie turned tycoon Nir Zuk still restless - Globes English", "url": "https://en.globes.co.il/en/article-techie-turned-tycoon-nir-zuk-still-restless-1001434879" },
-    { "title": "How I Got Here: Nir Zuk, CTO, Palo Alto Networks - Computerworld", "url": "https://www.computerworld.com/article/1515006/how-i-got-here-nir-zuk-cto-palo-alto-networks.html" },
-    { "title": "Palo Alto Networks - Wikipedia", "url": "https://en.wikipedia.org/wiki/Palo_Alto_Networks" },
-    { "title": "NetScreen Technologies - Wikipedia", "url": "https://en.wikipedia.org/wiki/NetScreen_Technologies" },
-    { "title": "Nir Zuk - Forbes Profile", "url": "https://www.forbes.com/profile/nir-zuk/" }
+    {
+      "title": "2025 Cybersecurity Person Of The Year: Nir Zuk, Palo Alto Networks Founder & CTO - Cybersecurity Ventures",
+      "url": "https://cybersecurityventures.com/2025-cybersecurity-person-of-the-year-nir-zuk-palo-alto-networks-founder-cto/"
+    },
+    {
+      "title": "Techie turned tycoon Nir Zuk still restless - Globes English",
+      "url": "https://en.globes.co.il/en/article-techie-turned-tycoon-nir-zuk-still-restless-1001434879"
+    },
+    {
+      "title": "How I Got Here: Nir Zuk, CTO, Palo Alto Networks - Computerworld",
+      "url": "https://www.computerworld.com/article/1515006/how-i-got-here-nir-zuk-cto-palo-alto-networks.html"
+    },
+    {
+      "title": "Palo Alto Networks - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Palo_Alto_Networks"
+    },
+    {
+      "title": "NetScreen Technologies - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NetScreen_Technologies"
+    },
+    {
+      "title": "Nir Zuk - Forbes Profile",
+      "url": "https://www.forbes.com/profile/nir-zuk/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["project zero", "google", "chrome security", "vulnerability research", "bug bounty", "vsftpd", "hackerone"],
+  "tags": [
+    "project zero",
+    "google",
+    "chrome security",
+    "vulnerability research",
+    "bug bounty",
+    "vsftpd",
+    "hackerone"
+  ],
   "summary": "Chris Evans is a British computer security researcher who created the vsftpd FTP server, led Google's Chrome security team and its Chromium Vulnerability Reward Program, and in 2014 founded Google Project Zero, a team dedicated to finding zero-day vulnerabilities across all software.",
   "whyThisMatters": "Evans helped popularize large-scale vendor bug bounty programs through his work on the Chromium Security Rewards program, one of the first major browser bounty schemes. As the founding lead of Google Project Zero, he shaped an influential model of well-resourced, vendor-agnostic vulnerability research that publicly discloses findings on a fixed timeline, a practice that has significantly influenced how the security industry handles zero-day disclosure and vendor accountability.",
   "knownFor": [
@@ -22,11 +30,26 @@
     "overview": "<h2>Background</h2><p>Chris Evans, known online by the handle \"scarybeasts,\" is a British computer security researcher and engineer who studied at the University of Oxford before building a career in software security. Early in his career he wrote vsftpd (\"very secure FTP daemon\"), a free and open-source FTP server for Unix-like systems designed from the ground up with security as its primary goal. Vsftpd became one of the most widely deployed FTP servers on Linux distributions, valued for its small, security-audited codebase.</p><h2>Chrome Security and the Chromium Vulnerability Reward Program</h2><p>Evans joined Google and became head of the Chrome security team, where he worked on hardening the Chrome and Chromium browser codebase against exploitation and on building out the browser's sandboxing and vulnerability-response processes. In this role he helped launch and run the Chromium Security Rewards program, a bug bounty scheme that paid external researchers for responsibly disclosed vulnerabilities in Chromium. The program, along with the related Pwnium competition for Chrome exploits, became a widely cited model for vendor bug bounties and paid out well over a million dollars in rewards to researchers over its early years.</p><h2>Founding Project Zero</h2><p>On July 15, 2014, Evans announced the formation of Google Project Zero on the Google Online Security Blog, identifying himself in the post as \"Researcher Herder.\" Project Zero was created as a dedicated, full-time team of security researchers tasked with finding zero-day vulnerabilities in any software, not only Google's own products, with the stated goal of significantly reducing the number of people harmed by targeted attacks. Evans served as the team's first head, building its early culture of technical rigor and its policy of publishing detailed vulnerability writeups on a disclosure deadline. Project Zero went on to uncover and disclose vulnerabilities in operating systems, browsers, and other widely used software from many vendors, and its disclosure practices sparked ongoing industry debate over responsible-disclosure timelines.</p><h2>Later Career</h2><p>After his tenure leading Project Zero, Evans moved on to lead security efforts elsewhere in the industry. He joined Tesla Motors to lead security for the company's vehicle software, network infrastructure, and corporate IT systems, and later held the top security position at Dropbox. In December 2021, HackerOne announced that Evans had been appointed as the company's Chief Information Security Officer, and he additionally holds the title of Chief Hacking Officer, working on initiatives that connect external security researchers with organizations seeking to find and fix vulnerabilities.</p><h2>Significance and Legacy</h2><p>Evans's work sits at the intersection of defensive engineering and offensive vulnerability research: his early work on vsftpd emphasized secure-by-design software construction, his Chrome security work helped establish large-scale vendor bug bounty programs as a mainstream practice, and his founding leadership of Project Zero created one of the most influential in-house vulnerability research teams in the technology industry. The disclosure norms and research culture established under his leadership at Project Zero continue to shape how major software vendors and independent researchers interact around zero-day vulnerabilities.</p>"
   },
   "timeline": [
-    { "date": "2000s", "event": "Chris Evans creates vsftpd, a security-focused FTP server for Unix-like systems." },
-    { "date": "2010", "event": "Evans leads Google's Chrome security team and helps establish the Chromium Vulnerability Reward Program (bug bounty)." },
-    { "date": "2014-07-15", "event": "Evans announces the formation of Google Project Zero on the Google Online Security Blog and becomes its first head." },
-    { "date": "2015", "event": "Evans leaves Google to join Tesla Motors to lead security." },
-    { "date": "2021-12-08", "event": "HackerOne appoints Evans as Chief Information Security Officer and Chief Hacking Officer." }
+    {
+      "date": "2000s",
+      "event": "Chris Evans creates vsftpd, a security-focused FTP server for Unix-like systems."
+    },
+    {
+      "date": "2010",
+      "event": "Evans leads Google's Chrome security team and helps establish the Chromium Vulnerability Reward Program (bug bounty)."
+    },
+    {
+      "date": "2014-07-15",
+      "event": "Evans announces the formation of Google Project Zero on the Google Online Security Blog and becomes its first head."
+    },
+    {
+      "date": "2015",
+      "event": "Evans leaves Google to join Tesla Motors to lead security."
+    },
+    {
+      "date": "2021-12-08",
+      "event": "HackerOne appoints Evans as Chief Information Security Officer and Chief Hacking Officer."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -34,19 +57,41 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Project Zero - Wikipedia", "url": "https://en.wikipedia.org/wiki/Project_Zero" },
-    { "title": "Announcing Project Zero - Google Online Security Blog", "url": "https://security.googleblog.com/2014/07/announcing-project-zero.html" },
-    { "title": "Announcing Project Zero - Project Zero blog", "url": "https://projectzero.google/2014/07/announcing-project-zero.html" },
-    { "title": "HackerOne Appoints Chris Evans as Chief Information Security Officer", "url": "https://www.hackerone.com/press-release/hackerone-appoints-chris-evans-chief-information-security-officer" },
-    { "title": "HackerOne Appoints Chris Evans as Chief Information Security Officer (Business Wire)", "url": "https://www.businesswire.com/news/home/20211208005739/en/HackerOne-Appoints-Chris-Evans-as-Chief-Information-Security-Officer" },
-    { "title": "Vsftpd - Wikipedia", "url": "https://en.wikipedia.org/wiki/Vsftpd" },
-    { "title": "Chris Evans - Security (LinkedIn profile)", "url": "https://www.linkedin.com/in/scarybeast/" }
+    {
+      "title": "Project Zero - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Project_Zero"
+    },
+    {
+      "title": "Announcing Project Zero - Google Online Security Blog",
+      "url": "https://security.googleblog.com/2014/07/announcing-project-zero.html"
+    },
+    {
+      "title": "Announcing Project Zero - Project Zero blog",
+      "url": "https://projectzero.google/2014/07/announcing-project-zero.html"
+    },
+    {
+      "title": "HackerOne Appoints Chris Evans as Chief Information Security Officer",
+      "url": "https://www.hackerone.com/press-release/hackerone-appoints-chris-evans-chief-information-security-officer"
+    },
+    {
+      "title": "HackerOne Appoints Chris Evans as Chief Information Security Officer (Business Wire)",
+      "url": "https://www.businesswire.com/news/home/20211208005739/en/HackerOne-Appoints-Chris-Evans-as-Chief-Information-Security-Officer"
+    },
+    {
+      "title": "Vsftpd - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vsftpd"
+    },
+    {
+      "title": "Chris Evans - Security (LinkedIn profile)",
+      "url": "https://www.linkedin.com/in/scarybeast/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 7,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

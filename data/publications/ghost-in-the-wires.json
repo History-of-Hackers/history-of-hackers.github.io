@@ -4,20 +4,49 @@
   "title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker",
   "slug": "ghost-in-the-wires",
   "era": "2011",
-  "tags": ["memoir", "social engineering", "kevin mitnick", "fugitive", "phone phreaking", "computer crime", "biography"],
+  "tags": [
+    "memoir",
+    "social engineering",
+    "kevin mitnick",
+    "fugitive",
+    "phone phreaking",
+    "computer crime",
+    "biography"
+  ],
   "summary": "\"Ghost in the Wires\" is a 2011 memoir by Kevin Mitnick, co-written with William L. Simon, recounting Mitnick's years as a computer intruder and phone phreaker, his time as a federal fugitive, and his 1995 arrest.",
   "whyThisMatters": "The book is one of the most widely read first-person accounts of 1980s-1990s computer intrusion and social engineering, written by a figure whose 1995 manhunt and arrest became a landmark case in the early history of computer crime prosecution. Because it is told from the intruder's own perspective, it is frequently cited alongside earlier third-party accounts of the same events (such as \"Takedown\" and \"Cyberpunk\") as a primary source for understanding social engineering tradecraft and the media narrative around 1990s hacking. It also contributed to Mitnick's later career as a security consultant and public speaker, illustrating how a notorious hacking case could be transformed into a commercial security-industry credential.",
   "sections": {
     "overview": "<h2>Background</h2><p>\"Ghost in the Wires: My Adventures as the World's Most Wanted Hacker\" is a memoir by Kevin Mitnick, published by Little, Brown and Company on August 15, 2011. It was co-written with William L. Simon, who had previously collaborated with Mitnick on two earlier books about social engineering and computer intrusion, \"The Art of Deception\" (2002) and \"The Art of Intrusion\" (2005). The hardcover edition runs 384 pages and carries the ISBN 978-0-316-03770-9. The book is a first-person retelling of Mitnick's activities as a computer intruder and phone phreaker from his teenage years in the late 1970s through his arrest by the FBI in February 1995 and subsequent imprisonment.</p><h2>Content</h2><p>The narrative opens with Mitnick's early interest in phone systems and his introduction, as a teenager in the Los Angeles area, to phone phreaking and amateur radio hobbyist circles. It describes his unauthorized access to Digital Equipment Corporation's computer systems, an intrusion that led to his 1988 conviction and a one-year prison sentence. Much of the book focuses on the methods Mitnick describes using to gain access to corporate and telecommunications networks, which he characterizes primarily as \"social engineering\" — persuading employees, through phone calls and impersonation, to divulge passwords, account information, or internal procedures — rather than relying solely on technical exploits.</p><h2>The fugitive period</h2><p>A central section of the memoir covers the roughly two-and-a-half years Mitnick spent as a fugitive after a 1992 warrant was issued in connection with his access to Pacific Bell voicemail systems. During this period, as recounted in the book, he used cloned cellular phones and false identities to evade capture while continuing to access computer networks and telecommunications systems around the United States. The memoir describes his eventual capture by the FBI in Raleigh, North Carolina, on February 15, 1995, an arrest that was widely reported in the press at the time and had previously been documented by journalists Tsutomu Shimomura and John Markoff in their 1996 book \"Takedown.\"</p><h2>Reception</h2><p>\"Ghost in the Wires\" received generally favorable reviews from mainstream outlets and trade publications, which noted its brisk, conversational storytelling and its detailed depiction of social engineering tactics. Publishers Weekly, reviewing the book, wrote that \"the book's heart is his 'social engineering' — his preternatural ability to schmooze and manipulate,\" and highlighted the narrative's portrayal of large corporate and government bureaucracies as vulnerable to a determined and personable con artist. Reviewers frequently placed the book in contrast with earlier accounts of the same events written from the perspective of Mitnick's pursuers, since it presents the case from the defendant's own point of view.</p><h2>Significance and legacy</h2><p>The book followed Mitnick's release from federal prison in 2000, after he served five years having pleaded guilty to multiple counts of wire fraud and unlawful interception of communications, and a subsequent period of supervised release during which his access to computers and telecommunications equipment was restricted by court order. \"Ghost in the Wires\" consolidated Mitnick's public reinvention as a security consultant, author, and conference speaker, building on the earlier co-authored titles \"The Art of Deception\" and \"The Art of Intrusion.\" It remains widely cited in discussions of social engineering and is frequently recommended alongside other primary and secondary accounts of Mitnick's case, including \"Takedown\" and Katie Hafner and John Markoff's earlier book \"Cyberpunk,\" as source material for understanding both the technical and human dimensions of 1980s and 1990s computer intrusion.</p>"
   },
   "timeline": [
-    { "date": "1988", "event": "Kevin Mitnick is convicted for unauthorized access to Digital Equipment Corporation's computer systems and sentenced to one year in prison, an episode later recounted in the memoir." },
-    { "date": "1992", "event": "A federal warrant is issued for Mitnick related to alleged access of Pacific Bell voicemail systems, prompting him to become a fugitive." },
-    { "date": "1995-02-15", "event": "Mitnick is arrested by the FBI in Raleigh, North Carolina, ending roughly two and a half years as a fugitive." },
-    { "date": "1999", "event": "Mitnick pleads guilty to multiple counts of wire fraud and unlawful interception of communications." },
-    { "date": "2000", "event": "Mitnick is released from federal prison after serving five years, entering a period of supervised release with restrictions on computer and telecommunications use." },
-    { "date": "2002", "event": "Mitnick and William L. Simon publish their first co-authored book, \"The Art of Deception,\" on social engineering." },
-    { "date": "2011-08-15", "event": "\"Ghost in the Wires: My Adventures as the World's Most Wanted Hacker,\" co-written by Mitnick and William L. Simon, is published by Little, Brown and Company." }
+    {
+      "date": "1988",
+      "event": "Kevin Mitnick is convicted for unauthorized access to Digital Equipment Corporation's computer systems and sentenced to one year in prison, an episode later recounted in the memoir."
+    },
+    {
+      "date": "1992",
+      "event": "A federal warrant is issued for Mitnick related to alleged access of Pacific Bell voicemail systems, prompting him to become a fugitive."
+    },
+    {
+      "date": "1995-02-15",
+      "event": "Mitnick is arrested by the FBI in Raleigh, North Carolina, ending roughly two and a half years as a fugitive."
+    },
+    {
+      "date": "1999",
+      "event": "Mitnick pleads guilty to multiple counts of wire fraud and unlawful interception of communications."
+    },
+    {
+      "date": "2000",
+      "event": "Mitnick is released from federal prison after serving five years, entering a period of supervised release with restrictions on computer and telecommunications use."
+    },
+    {
+      "date": "2002",
+      "event": "Mitnick and William L. Simon publish their first co-authored book, \"The Art of Deception,\" on social engineering."
+    },
+    {
+      "date": "2011-08-15",
+      "event": "\"Ghost in the Wires: My Adventures as the World's Most Wanted Hacker,\" co-written by Mitnick and William L. Simon, is published by Little, Brown and Company."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -25,15 +54,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Ghost in the Wires - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ghost_in_the_Wires" },
-    { "title": "Kevin Mitnick - Wikipedia", "url": "https://en.wikipedia.org/wiki/Kevin_Mitnick" },
-    { "title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker - Publishers Weekly", "url": "https://www.publishersweekly.com/9780316037709" }
+    {
+      "title": "Ghost in the Wires - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ghost_in_the_Wires"
+    },
+    {
+      "title": "Kevin Mitnick - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Mitnick"
+    },
+    {
+      "title": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker - Publishers Weekly",
+      "url": "https://www.publishersweekly.com/9780316037709"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

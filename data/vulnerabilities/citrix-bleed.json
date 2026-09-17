@@ -4,19 +4,46 @@
   "title": "Citrix Bleed (CVE-2023-4966)",
   "slug": "citrix-bleed",
   "era": "2023",
-  "tags": ["citrix", "netscaler", "session-hijacking", "information-disclosure", "ransomware", "lockbit", "credential-theft", "edge-device"],
+  "tags": [
+    "citrix",
+    "netscaler",
+    "session-hijacking",
+    "information-disclosure",
+    "ransomware",
+    "lockbit",
+    "credential-theft",
+    "edge-device"
+  ],
   "summary": "Citrix Bleed (CVE-2023-4966) is a critical information-disclosure vulnerability in Citrix NetScaler ADC and NetScaler Gateway appliances that let remote attackers steal valid session tokens from device memory and hijack authenticated sessions, bypassing passwords and multi-factor authentication.",
   "whyThisMatters": "Citrix Bleed was one of the most widely and rapidly exploited edge-device vulnerabilities of 2023, weaponized within weeks of disclosure by ransomware affiliates including LockBit 3.0 against organizations such as Boeing Distribution Inc. It underscored how session-token theft can defeat MFA entirely and persist even after patching, pushing incident responders to pair patch deployment with active session termination as standard remediation for similar flaws.",
   "sections": {
     "overview": "<h2>Overview</h2><p>Citrix Bleed, formally tracked as CVE-2023-4966, is a critical information-disclosure vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway appliances (formerly marketed as Citrix ADC and Citrix Gateway) when configured as a gateway — for a VPN virtual server, ICA Proxy, CVPN, or RDP Proxy — or as an AAA virtual server. The flaw allowed a remote attacker to send a specially crafted HTTP request that caused a vulnerable appliance to leak a portion of its own memory, which could contain valid session tokens belonging to legitimate, already-authenticated users.</p><h2>Technical details</h2><p>The vulnerability was triggered by sending an HTTP GET request containing a crafted Host header to a vulnerable NetScaler appliance. The appliance responded by returning a segment of system memory that could include a valid NetScaler AAA session cookie. Because session cookies persist independently of a user's password or multi-factor authentication (MFA) status, an attacker who obtained one could hijack the corresponding session outright, appearing to the appliance as the legitimate user without ever supplying credentials. This meant that patching the appliance alone did not revoke access already obtained through a stolen session; administrators were advised to also terminate all active ICA and PCoIP sessions after updating.</p><h2>Disclosure and patch</h2><p>Citrix publicly disclosed CVE-2023-4966 on October 10, 2023, in a security bulletin describing the affected versions and providing patched builds. Vulnerable configurations included NetScaler ADC and NetScaler Gateway 14.1 before 14.1-8.50, 13.1 before 13.1-49.15, 13.0 before 13.0-92.19, 13.1-FIPS before 13.1-37.163, 12.1-FIPS and 12.1-NDcPP before 12.1-55.300, and the end-of-life 12.1 branch. The U.S. National Vulnerability Database assigned the flaw a base CVSS score of 7.5 (High), while Citrix's own advisory rated it 9.4 (Critical) given how easily it could be exploited and the sensitivity of the data it exposed.</p><h2>Exploitation</h2><p>According to a later joint advisory from CISA, the FBI, the Multi-State Information Sharing and Analysis Center (MS-ISAC), and the Australian Signals Directorate's Australian Cyber Security Centre (ASD's ACSC), exploitation activity against the flaw was identified as early as August 2023, roughly two months before Citrix's public disclosure. After disclosure, security researchers published proof-of-concept exploit code in late October 2023, and the vulnerability-monitoring service Shadowserver reported thousands of internet-facing NetScaler appliances still unpatched by October 30, 2023. Multiple threat groups, including affiliates of the LockBit 3.0 ransomware operation, began mass-exploiting internet-facing appliances to steal session cookies, bypass MFA, move laterally inside victim networks, and harvest credentials. Boeing Distribution Inc., a Boeing subsidiary, was named in the joint government advisory as an organization that voluntarily shared incident data after LockBit 3.0 affiliates used the flaw to gain initial access to a segregated part of its network.</p><h2>Response and coordinated advisory</h2><p>On November 21, 2023, CISA, the FBI, MS-ISAC, and ASD's ACSC jointly published Cybersecurity Advisory AA23-325A, titled \"#StopRansomware: LockBit 3.0 Ransomware Affiliates Exploit CVE-2023-4966 Citrix Bleed Vulnerability.\" The advisory detailed the exploitation chain — including a PowerShell dropper that assembled and executed a malicious DLL via rundll32 — alongside indicators of compromise and recommended mitigations such as isolating NetScaler ADC and Gateway appliances, applying Citrix's patches, and killing existing sessions. CISA had already added CVE-2023-4966 to its Known Exploited Vulnerabilities catalog based on evidence of active, in-the-wild exploitation.</p><h2>Legacy</h2><p>Citrix Bleed became one of the most widely exploited edge-device vulnerabilities of 2023, showing how a single flaw in widely deployed remote-access infrastructure could be leveraged by both opportunistic ransomware affiliates and more targeted intrusion sets within weeks of disclosure. Its reliance on session-token theft rather than credential theft alone highlighted a broader shift in attacker tradecraft toward abusing authentication artifacts that outlive a patch, reinforcing guidance that vulnerability remediation for similar flaws must include active session invalidation, not patching alone.</p>"
   },
   "timeline": [
-    { "date": "2023-08", "event": "Exploitation activity against the flaw later underlying CVE-2023-4966 is identified as early as this month, according to the CISA/FBI/MS-ISAC/ACSC joint advisory, predating Citrix's public disclosure." },
-    { "date": "2023-10-10", "event": "Citrix publicly discloses CVE-2023-4966 (\"Citrix Bleed\") and releases patched builds for NetScaler ADC and NetScaler Gateway." },
-    { "date": "2023-10-24", "event": "Citrix urges customers to patch immediately as proof-of-concept exploit code begins circulating publicly." },
-    { "date": "2023-10-30", "event": "Shadowserver reports thousands of internet-facing NetScaler appliances remain unpatched and exposed to Citrix Bleed." },
-    { "date": "2023-10-31", "event": "Security researchers report mass exploitation of Citrix Bleed in the wild, with multiple ransomware groups actively targeting vulnerable appliances." },
-    { "date": "2023-11-21", "event": "CISA, the FBI, MS-ISAC, and Australia's ACSC jointly publish Cybersecurity Advisory AA23-325A detailing LockBit 3.0 affiliates' exploitation of Citrix Bleed, including incident data voluntarily shared by Boeing." }
+    {
+      "date": "2023-08",
+      "event": "Exploitation activity against the flaw later underlying CVE-2023-4966 is identified as early as this month, according to the CISA/FBI/MS-ISAC/ACSC joint advisory, predating Citrix's public disclosure."
+    },
+    {
+      "date": "2023-10-10",
+      "event": "Citrix publicly discloses CVE-2023-4966 (\"Citrix Bleed\") and releases patched builds for NetScaler ADC and NetScaler Gateway."
+    },
+    {
+      "date": "2023-10-24",
+      "event": "Citrix urges customers to patch immediately as proof-of-concept exploit code begins circulating publicly."
+    },
+    {
+      "date": "2023-10-30",
+      "event": "Shadowserver reports thousands of internet-facing NetScaler appliances remain unpatched and exposed to Citrix Bleed."
+    },
+    {
+      "date": "2023-10-31",
+      "event": "Security researchers report mass exploitation of Citrix Bleed in the wild, with multiple ransomware groups actively targeting vulnerable appliances."
+    },
+    {
+      "date": "2023-11-21",
+      "event": "CISA, the FBI, MS-ISAC, and Australia's ACSC jointly publish Cybersecurity Advisory AA23-325A detailing LockBit 3.0 affiliates' exploitation of Citrix Bleed, including incident data voluntarily shared by Boeing."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -24,16 +51,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "CISA/FBI/MS-ISAC/ACSC Cybersecurity Advisory AA23-325A: #StopRansomware: LockBit 3.0 Ransomware Affiliates Exploit CVE-2023-4966 Citrix Bleed Vulnerability", "url": "https://www.ic3.gov/CSA/2023/231121.pdf" },
-    { "title": "NVD - CVE-2023-4966", "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4966" },
-    { "title": "'Mass exploitation' of Citrix Bleed as ransomware moves in - The Register", "url": "https://www.theregister.com/2023/10/31/mass_exploitation_citrix_bleed/" },
-    { "title": "NetScaler - Wikipedia", "url": "https://en.wikipedia.org/wiki/NetScaler" }
+    {
+      "title": "CISA/FBI/MS-ISAC/ACSC Cybersecurity Advisory AA23-325A: #StopRansomware: LockBit 3.0 Ransomware Affiliates Exploit CVE-2023-4966 Citrix Bleed Vulnerability",
+      "url": "https://www.ic3.gov/CSA/2023/231121.pdf"
+    },
+    {
+      "title": "NVD - CVE-2023-4966",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4966"
+    },
+    {
+      "title": "'Mass exploitation' of Citrix Bleed as ransomware moves in - The Register",
+      "url": "https://www.theregister.com/2023/10/31/mass_exploitation_citrix_bleed/"
+    },
+    {
+      "title": "NetScaler - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NetScaler"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -1,12 +1,72 @@
 {
-  "id":"kobbi-nissim", "type":"person", "title":"Kobbi Nissim", "slug":"kobbi-nissim", "name":"Kobbi Nissim", "born":null, "died":null, "era":"2000s-Present",
-  "tags":["privacy","differential-privacy","cryptography","privacy-law","research"],
-  "summary":"Computer scientist whose work examines rigorous privacy practices at the intersection of cryptography, data analysis, and privacy policy.",
-  "whyThisMatters":"Security and privacy are not only implementation problems; they also need precise definitions that withstand changing datasets and adversaries. Nissim's work contributes to formal approaches for protecting information in computation.",
-  "knownFor":["Differential privacy research","Privacy in computation","Cryptography and privacy policy"],
-  "sections":{"overview":"<p>Kobbi Nissim is a professor of computer science at Georgetown University and an affiliate professor at Georgetown Law. His work focuses on rigorous practices for privacy in computation.</p><h2>Privacy research</h2><p>Nissim's research connects privacy with cryptography, machine learning, algorithms, statistics, databases, and privacy law and policy. He has worked on formal models intended to make privacy claims testable rather than merely aspirational.</p><h2>Academic appointments</h2><p>Before Georgetown, he was at Ben-Gurion University and visited Harvard's Center for Research on Computation and Society from 2012 to 2017.</p><h2>Security significance</h2><p>Privacy technologies are central to responsible handling of personal data. Formal privacy research clarifies tradeoffs between data utility, disclosure risk, and system design.</p>"},
-  "timeline":[{"date":"2006","event":"Co-authors foundational work on a formal definition of differential privacy."},{"date":"2012","event":"Begins a visiting appointment at Harvard's Center for Research on Computation and Society."},{"date":"2017","event":"Completes the Harvard visiting appointment, according to Georgetown materials."}],
-  "relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],
-  "sources":[{"title":"Kobbi Nissim — Georgetown homepage", "url":"https://people.cs.georgetown.edu/~kobbi/"},{"title":"Harvard CRCS profile", "url":"https://crcs.seas.harvard.edu/people/kobbi-nissim"},{"title":"Georgetown CS faculty directory", "url":"https://cs.georgetown.edu/people/kobbi-nissim/"},{"title":"Differential Privacy", "url":"https://link.springer.com/chapter/10.1007/11681878_14"}],
-  "editorial":{"verified":true,"sourcesCount":4,"lastReviewed":"2026-09-03","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-03"}
+  "id": "kobbi-nissim",
+  "type": "person",
+  "title": "Kobbi Nissim",
+  "slug": "kobbi-nissim",
+  "name": "Kobbi Nissim",
+  "born": null,
+  "died": null,
+  "era": "2000s-Present",
+  "tags": [
+    "privacy",
+    "differential-privacy",
+    "cryptography",
+    "privacy-law",
+    "research"
+  ],
+  "summary": "Computer scientist whose work examines rigorous privacy practices at the intersection of cryptography, data analysis, and privacy policy.",
+  "whyThisMatters": "Security and privacy are not only implementation problems; they also need precise definitions that withstand changing datasets and adversaries. Nissim's work contributes to formal approaches for protecting information in computation.",
+  "knownFor": [
+    "Differential privacy research",
+    "Privacy in computation",
+    "Cryptography and privacy policy"
+  ],
+  "sections": {
+    "overview": "<p>Kobbi Nissim is a professor of computer science at Georgetown University and an affiliate professor at Georgetown Law. His work focuses on rigorous practices for privacy in computation.</p><h2>Privacy research</h2><p>Nissim's research connects privacy with cryptography, machine learning, algorithms, statistics, databases, and privacy law and policy. He has worked on formal models intended to make privacy claims testable rather than merely aspirational.</p><h2>Academic appointments</h2><p>Before Georgetown, he was at Ben-Gurion University and visited Harvard's Center for Research on Computation and Society from 2012 to 2017.</p><h2>Security significance</h2><p>Privacy technologies are central to responsible handling of personal data. Formal privacy research clarifies tradeoffs between data utility, disclosure risk, and system design.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2006",
+      "event": "Co-authors foundational work on a formal definition of differential privacy."
+    },
+    {
+      "date": "2012",
+      "event": "Begins a visiting appointment at Harvard's Center for Research on Computation and Society."
+    },
+    {
+      "date": "2017",
+      "event": "Completes the Harvard visiting appointment, according to Georgetown materials."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Kobbi Nissim — Georgetown homepage",
+      "url": "https://people.cs.georgetown.edu/~kobbi/"
+    },
+    {
+      "title": "Harvard CRCS profile",
+      "url": "https://crcs.seas.harvard.edu/people/kobbi-nissim"
+    },
+    {
+      "title": "Georgetown CS faculty directory",
+      "url": "https://cs.georgetown.edu/people/kobbi-nissim/"
+    },
+    {
+      "title": "Differential Privacy",
+      "url": "https://link.springer.com/chapter/10.1007/11681878_14"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2010s-Present",
-  "tags": ["ios security", "project zero", "vulnerability research", "kernel exploitation", "apple", "zero-click exploits", "mobile security"],
+  "tags": [
+    "ios security",
+    "project zero",
+    "vulnerability research",
+    "kernel exploitation",
+    "apple",
+    "zero-click exploits",
+    "mobile security"
+  ],
   "summary": "Ian Beer is a British security researcher on Google's Project Zero team, widely regarded as one of the most accomplished iOS vulnerability researchers, known for discovering and publicly detailing dozens of critical remote and zero-click exploits against Apple's operating systems.",
   "whyThisMatters": "Beer's research repeatedly demonstrated that iPhones could be fully compromised remotely with no user interaction, forcing Apple to rewrite significant portions of the iOS and macOS kernel to close entire classes of bugs. His public, deeply technical write-ups on exploits such as the AWDL radio-proximity attack, FORCEDENTRY, and BLASTPASS gave defenders and the wider security community rare visibility into how nation-state-grade mobile spyware, including NSO Group's Pegasus, actually worked. His outspoken criticism of Apple's bug bounty program also helped shape public debate over how much technology companies should pay and disclose to independent researchers who find their most dangerous flaws.",
   "knownFor": [
@@ -23,14 +31,38 @@
     "overview": "<h2>Background</h2><p>Ian Beer is a British computer security researcher and self-described white-hat hacker who has worked for years as part of Google's Project Zero, the company's team dedicated to finding and analyzing zero-day vulnerabilities in widely used software. Beer has been based in Switzerland while working for Google and has focused his research almost exclusively on Apple's operating systems, particularly iOS. He is frequently described in industry coverage as one of the most skilled and prolific iOS security researchers publicly known.</p><h2>Early Project Zero work</h2><p>Beer was among the first researchers to publish findings under the \"Project Zero\" name in the spring of 2014, before Google publicly unveiled the team. Over the following years he built a reputation for finding deep, exploitable bugs in the iOS kernel and surrounding frameworks. Between 2016 and 2018 alone, Beer discovered more than 30 vulnerabilities in Apple's mobile operating system, a body of work that industry observers noted would have been worth millions of dollars had it been sold on the exploit broker market rather than reported to Apple. Some of the underlying bug classes he documented were closely related to vulnerabilities later used in the \"Trident\" exploit chain that powered NSO Group's Pegasus spyware, including issues in the Mach kernel and IOSurface subsystems.</p><h2>The AWDL zero-click radio-proximity exploit</h2><p>In December 2020, Beer published \"An iOS zero-click radio proximity exploit odyssey\" on the Project Zero blog, describing an exploit he had spent roughly six months developing. The bug was a buffer overflow in the kernel's parsing of Apple Wireless Direct Link (AWDL), the proprietary peer-to-peer protocol underlying features like AirDrop. By exploiting a single memory-corruption flaw, without chaining multiple bugs, Beer demonstrated that an attacker could gain complete control over any nearby iPhone with no user interaction at all, reading photos, emails, and private messages. He described it as a \"wormable radio-proximity exploit,\" and reported it to Apple before the company shipped COVID-19 contact-tracing features in mid-2020. The work drew praise from figures such as former NSA official Rob Joyce and researcher Patrick Wardle, who called it \"a work of art.\"</p><h2>FORCEDENTRY and BLASTPASS: exposing NSO Group's exploits</h2><p>Beer later turned his research toward reverse-engineering real-world zero-click exploits used by commercial spyware vendors. In December 2021, he published an extensive technical write-up of FORCEDENTRY, a zero-click iMessage exploit that NSO Group's Pegasus spyware had used to compromise iPhones without any interaction from the victim, exploiting a maliciously crafted image file processed by Apple's image-rendering libraries. In 2023, Apple patched a related zero-click chain dubbed BLASTPASS (CVE-2023-41064 and CVE-2023-41061), which combined a WebP image-parsing flaw with a PassKit attachment delivered over iMessage; Beer, working with data supplied by Amnesty International's Security Lab, published a detailed technical analysis of how the exploit chain achieved memory corruption and eventual code execution while bypassing Apple's Pointer Authentication Code mitigations.</p><h2>Advocacy and public criticism of Apple</h2><p>Beyond his technical findings, Beer became known for publicly criticizing Apple's handling of vulnerability disclosure and its bug bounty program, arguing that payouts were inadequate relative to the severity of bugs researchers found and that Apple was not sufficiently transparent with users about the security content of its updates. He raised these concerns directly, including in public exchanges referencing Apple chief executive Tim Cook.</p><h2>Significance and legacy</h2><p>Beer's research is widely credited with pushing Apple to substantially rework parts of the iOS and macOS kernel to eliminate entire classes of memory-corruption bugs rather than patching individual flaws. His willingness to publish exhaustive, reproducible technical detail on both his own discoveries and on exploits developed by commercial spyware makers gave the broader security community, journalists, and human-rights researchers concrete evidence of how such tools functioned, informing public debate over the surveillance industry and mobile platform security more broadly.</p>"
   },
   "timeline": [
-    { "date": "2014", "event": "Among the first researchers to publish findings under the Project Zero name, ahead of the team's official public launch." },
-    { "date": "2016", "event": "Reports iOS kernel and Mach-related vulnerabilities to Apple, in a bug class later connected to the Trident exploit chain used in Pegasus spyware." },
-    { "date": "2016-2018", "event": "Discovers more than 30 vulnerabilities in iOS as part of Project Zero research." },
-    { "date": "2017-12", "event": "Project Zero publishes an iOS 11 exploit chain from Beer that enables the first public iOS 11 jailbreak-style research tooling." },
-    { "date": "2020-12-01", "event": "Publishes \"An iOS zero-click radio proximity exploit odyssey,\" detailing a wormable AWDL-based exploit allowing complete takeover of nearby iPhones with no user interaction." },
-    { "date": "2021-12", "event": "Publishes an in-depth technical analysis of FORCEDENTRY, NSO Group's zero-click iMessage exploit used to deploy Pegasus spyware." },
-    { "date": "2023-09-07", "event": "Apple patches the BLASTPASS zero-click iMessage/PassKit/WebP exploit chain (CVE-2023-41064, CVE-2023-41061) that had been used in the wild by NSO Group." },
-    { "date": "2025-03-26", "event": "Publishes \"Blasting Past WebP,\" a detailed retrospective technical analysis of the BLASTPASS exploit chain on the Project Zero blog." }
+    {
+      "date": "2014",
+      "event": "Among the first researchers to publish findings under the Project Zero name, ahead of the team's official public launch."
+    },
+    {
+      "date": "2016",
+      "event": "Reports iOS kernel and Mach-related vulnerabilities to Apple, in a bug class later connected to the Trident exploit chain used in Pegasus spyware."
+    },
+    {
+      "date": "2016-2018",
+      "event": "Discovers more than 30 vulnerabilities in iOS as part of Project Zero research."
+    },
+    {
+      "date": "2017-12",
+      "event": "Project Zero publishes an iOS 11 exploit chain from Beer that enables the first public iOS 11 jailbreak-style research tooling."
+    },
+    {
+      "date": "2020-12-01",
+      "event": "Publishes \"An iOS zero-click radio proximity exploit odyssey,\" detailing a wormable AWDL-based exploit allowing complete takeover of nearby iPhones with no user interaction."
+    },
+    {
+      "date": "2021-12",
+      "event": "Publishes an in-depth technical analysis of FORCEDENTRY, NSO Group's zero-click iMessage exploit used to deploy Pegasus spyware."
+    },
+    {
+      "date": "2023-09-07",
+      "event": "Apple patches the BLASTPASS zero-click iMessage/PassKit/WebP exploit chain (CVE-2023-41064, CVE-2023-41061) that had been used in the wild by NSO Group."
+    },
+    {
+      "date": "2025-03-26",
+      "event": "Publishes \"Blasting Past WebP,\" a detailed retrospective technical analysis of the BLASTPASS exploit chain on the Project Zero blog."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,19 +70,41 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Ian Beer (hacker) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ian_Beer_(hacker)" },
-    { "title": "An iOS zero-click radio proximity exploit odyssey - Project Zero", "url": "https://projectzero.google/2020/12/an-ios-zero-click-radio-proximity.html" },
-    { "title": "Blasting Past Webp - Project Zero", "url": "https://projectzero.google/2025/03/blasting-past-webp.html" },
-    { "title": "An iOS exploit that enables iPhone takeover is described in cybersecurity researcher's 'work of art' - CyberScoop", "url": "https://cyberscoop.com/iphone-takeover-apple-hack-ios-ian-beer-google/" },
-    { "title": "Google Security Researcher Develops 'Zero-Click' Exploit for iOS Flaw - Dark Reading", "url": "https://www.darkreading.com/mobile-security/google-security-researcher-develops-zero-click-exploit-for-ios-flaw" },
-    { "title": "Ian Beer publishes in-depth analysis of BLASTPASS zero-click iMessage exploit from 2023 - iDownloadBlog", "url": "https://www.idownloadblog.com/2025/03/27/ian-beer-analysis-of-nso-blastpass-imessage-exploit-ios-16/" },
-    { "title": "Ian Beer publishes extensive write-up on FORCEDENTRY zero-click iMessage exploit used by NSO Group in Pegasus spyware - iDownloadBlog", "url": "https://www.idownloadblog.com/2021/12/15/ian-beer-forcedentry-exploit-pegasus-spyware/" }
+    {
+      "title": "Ian Beer (hacker) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ian_Beer_(hacker)"
+    },
+    {
+      "title": "An iOS zero-click radio proximity exploit odyssey - Project Zero",
+      "url": "https://projectzero.google/2020/12/an-ios-zero-click-radio-proximity.html"
+    },
+    {
+      "title": "Blasting Past Webp - Project Zero",
+      "url": "https://projectzero.google/2025/03/blasting-past-webp.html"
+    },
+    {
+      "title": "An iOS exploit that enables iPhone takeover is described in cybersecurity researcher's 'work of art' - CyberScoop",
+      "url": "https://cyberscoop.com/iphone-takeover-apple-hack-ios-ian-beer-google/"
+    },
+    {
+      "title": "Google Security Researcher Develops 'Zero-Click' Exploit for iOS Flaw - Dark Reading",
+      "url": "https://www.darkreading.com/mobile-security/google-security-researcher-develops-zero-click-exploit-for-ios-flaw"
+    },
+    {
+      "title": "Ian Beer publishes in-depth analysis of BLASTPASS zero-click iMessage exploit from 2023 - iDownloadBlog",
+      "url": "https://www.idownloadblog.com/2025/03/27/ian-beer-analysis-of-nso-blastpass-imessage-exploit-ios-16/"
+    },
+    {
+      "title": "Ian Beer publishes extensive write-up on FORCEDENTRY zero-click iMessage exploit used by NSO Group in Pegasus spyware - iDownloadBlog",
+      "url": "https://www.idownloadblog.com/2021/12/15/ian-beer-forcedentry-exploit-pegasus-spyware/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 7,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

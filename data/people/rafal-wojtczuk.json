@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["virtualization security", "xen", "hypervisor escape", "exploit development", "kernel security", "invisible things lab", "bromium", "poland"],
+  "tags": [
+    "virtualization security",
+    "xen",
+    "hypervisor escape",
+    "exploit development",
+    "kernel security",
+    "invisible things lab",
+    "bromium",
+    "poland"
+  ],
   "summary": "Rafal Wojtczuk is a Polish computer security researcher known for pioneering work on Xen hypervisor and virtualization-escape vulnerabilities, and for earlier foundational research on Linux/BSD kernel exploitation and buffer-overflow exploitation techniques.",
   "whyThisMatters": "Wojtczuk's late-1990s and early-2000s research on stack-protection bypasses and return-into-libc exploitation influenced how the security community understood memory-corruption exploitation on hardened systems. His subsequent work with Invisible Things Lab on Xen hypervisor rootkits and hypervisor subversion, and his later research at Bromium into Linux kernel and virtualization-escape flaws such as CVE-2014-9322 (BadIRET), helped establish virtualization and hypervisor security as a distinct field of offensive and defensive research.",
   "knownFor": [
@@ -21,17 +30,50 @@
     "overview": "<h2>Background</h2><p>Rafal Wojtczuk is a computer security researcher from Poland who holds a master's degree in computer science from the University of Warsaw. He began publishing security research in the late 1990s, at a time when memory-corruption exploitation techniques and kernel-level vulnerabilities were an active frontier of offensive security research.</p><h2>Early Exploitation Research</h2><p>Wojtczuk's early work focused on defeating operating system exploit mitigations and finding kernel-level flaws. Around 1998 he published research on defeating Solar Designer's non-executable stack patch for Linux, one of the earliest widely deployed anti-exploitation defenses. He went on to identify a BSD procfs vulnerability (2000) and a Linux ptrace vulnerability (2001), and in 2002 he published an influential paper on \"advanced return-into-lib(c)\" exploitation, extending return-oriented exploitation techniques used to bypass non-executable stack protections. In 2003 he reported a vulnerability in SELinux, and in 2005 he authored a tool for automatic discovery of integer-overflow bugs in Win32 binaries. During this period he also authored libnids, a low-level network packet reassembly library used in intrusion-detection tooling.</p><h2>Move into Virtualization Security</h2><p>Prior to 2008, Wojtczuk worked at McAfee's Avert Labs, where he continued research into kernel and OS security. In July 2008 he joined Invisible Things Lab (ITL), a boutique research and consulting firm founded by Joanna Rutkowska that specialized in operating-system and virtualization security. At ITL, Wojtczuk shifted his research focus to hypervisor and virtual-machine-monitor (VMM) security, an area that was, at the time, largely unexplored from an offensive-security perspective.</p><h2>The Xen 0wning Trilogy</h2><p>In August 2008, Wojtczuk co-presented a three-part Black Hat USA briefing known as the \"Xen 0wning Trilogy,\" alongside Joanna Rutkowska and Alexander Tereshkin. In the first part, \"Subverting the Xen Hypervisor,\" Wojtczuk demonstrated reliable and portable DMA-based attacks that could escalate access from a Xen management domain (Dom0) into hypervisor memory, and introduced \"Xen Loadable Modules,\" a mechanism for loading arbitrary code modules into a running Xen hypervisor. Using this technique, he presented what were described as the first working Xen hypervisor rootkits. In the second part, \"Detecting and Preventing the Xen Hypervisor Subversions,\" presented jointly with Rutkowska, Wojtczuk examined how Intel VT-d technology was used in Xen 3.3 to protect the hypervisor from such attacks, and demonstrated ways to bypass VT-d protections on certain motherboards. This body of work is widely cited as foundational research in hypervisor rootkit and virtualization-escape security.</p><h2>Bromium and Later Research</h2><p>Wojtczuk later became a Security Architect at Bromium, a virtualization-based endpoint security company, where he continued researching vulnerabilities in operating system kernels and virtualization platforms including Xen, VMware, and Microsoft's virtualization products. In 2015, writing for the Bromium Labs blog, he published a detailed technical analysis of CVE-2014-9322, nicknamed \"BadIRET,\" a Linux kernel privilege-escalation vulnerability arising from improper handling of a stack-segment fault during an IRET instruction. His writeup detailed how the flaw could be exploited to gain kernel-mode code execution and examined which contemporary CPU mitigations, such as SMEP and SMAP, could block exploitation. He also continued to present research at Black Hat conferences (including Black Hat USA 2014 and 2016), maintaining a public profile as a specialist in virtualization and low-level kernel exploitation.</p><h2>Significance and Legacy</h2><p>Wojtczuk's career spans two distinct but connected eras of offensive security research: the early-2000s development of memory-corruption exploitation techniques against hardened operating systems, and the later emergence of virtualization and hypervisor security as attackers and defenders began to take VM-escape threats seriously. His Xen hypervisor rootkit research with Invisible Things Lab is frequently cited as some of the earliest practical demonstration that hypervisors themselves could be subverted, influencing subsequent hardware and hypervisor security features such as improved IOMMU/VT-d protections. His later work at Bromium extended this focus into kernel privilege-escalation research relevant to both cloud and endpoint security.</p>"
   },
   "timeline": [
-    { "date": "1998", "event": "Published research on defeating Solar Designer's non-executable stack patch for Linux." },
-    { "date": "2000", "event": "Identified a vulnerability in BSD procfs." },
-    { "date": "2001", "event": "Identified a Linux ptrace vulnerability." },
-    { "date": "2002", "event": "Published the \"Advanced return-into-lib(c)\" paper on exploitation techniques." },
-    { "date": "2003", "event": "Reported a vulnerability in SELinux; libnids TCP reassembly flaw (CVE-2003-0850) was also disclosed this year." },
-    { "date": "2005", "event": "Authored a tool for automatic integer-overflow discovery in Win32 binaries." },
-    { "date": "2008-07", "event": "Joined Invisible Things Lab after previously working at McAfee Avert Labs." },
-    { "date": "2008-08", "event": "Co-presented the \"Xen 0wning Trilogy\" at Black Hat USA with Joanna Rutkowska and Alexander Tereshkin, demonstrating Xen hypervisor rootkits." },
-    { "date": "2014", "event": "Presented research at Black Hat USA 2014 while working in virtualization/kernel security." },
-    { "date": "2015-02", "event": "Published, as Bromium Security Architect, a technical analysis of the CVE-2014-9322 (\"BadIRET\") Linux kernel privilege-escalation vulnerability." },
-    { "date": "2016", "event": "Presented research at Black Hat USA 2016." }
+    {
+      "date": "1998",
+      "event": "Published research on defeating Solar Designer's non-executable stack patch for Linux."
+    },
+    {
+      "date": "2000",
+      "event": "Identified a vulnerability in BSD procfs."
+    },
+    {
+      "date": "2001",
+      "event": "Identified a Linux ptrace vulnerability."
+    },
+    {
+      "date": "2002",
+      "event": "Published the \"Advanced return-into-lib(c)\" paper on exploitation techniques."
+    },
+    {
+      "date": "2003",
+      "event": "Reported a vulnerability in SELinux; libnids TCP reassembly flaw (CVE-2003-0850) was also disclosed this year."
+    },
+    {
+      "date": "2005",
+      "event": "Authored a tool for automatic integer-overflow discovery in Win32 binaries."
+    },
+    {
+      "date": "2008-07",
+      "event": "Joined Invisible Things Lab after previously working at McAfee Avert Labs."
+    },
+    {
+      "date": "2008-08",
+      "event": "Co-presented the \"Xen 0wning Trilogy\" at Black Hat USA with Joanna Rutkowska and Alexander Tereshkin, demonstrating Xen hypervisor rootkits."
+    },
+    {
+      "date": "2014",
+      "event": "Presented research at Black Hat USA 2014 while working in virtualization/kernel security."
+    },
+    {
+      "date": "2015-02",
+      "event": "Published, as Bromium Security Architect, a technical analysis of the CVE-2014-9322 (\"BadIRET\") Linux kernel privilege-escalation vulnerability."
+    },
+    {
+      "date": "2016",
+      "event": "Presented research at Black Hat USA 2016."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -39,18 +81,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Black Hat USA 2009: Virtualization (In)Security by Rafal Wojtczuk & Joanna Rutkowska", "url": "https://www.blackhat.com/html/bh-usa-09/train-bh-usa-09-jrk-virt.html" },
-    { "title": "Rafal Wojtczuk joins Invisible Things Lab | The Invisible Things Blog", "url": "https://blog.invisiblethings.org/2008/07/01/rafal-wojtczuk-joins-invisible-things.html" },
-    { "title": "0wning Xen in Vegas! | The Invisible Things Blog", "url": "https://blog.invisiblethings.org/2008/07/07/0wning-xen-in-vegas.html" },
-    { "title": "Resources | Invisible Things Lab", "url": "https://invisiblethingslab.com/resources/" },
-    { "title": "Exploiting \"BadIRET\" vulnerability (CVE-2014-9322, Linux kernel privilege escalation) | Bromium Labs", "url": "https://bromiumlabs.wordpress.com/2015/02/02/exploiting-badiret-vulnerability-cve-2014-9322-linux-kernel-privilege-escalation/" },
-    { "title": "Rafal Wojtczuk - Security Architect @ Bromium - Crunchbase Person Profile", "url": "https://www.crunchbase.com/person/rafal-wojtczuk" }
+    {
+      "title": "Black Hat USA 2009: Virtualization (In)Security by Rafal Wojtczuk & Joanna Rutkowska",
+      "url": "https://www.blackhat.com/html/bh-usa-09/train-bh-usa-09-jrk-virt.html"
+    },
+    {
+      "title": "Rafal Wojtczuk joins Invisible Things Lab | The Invisible Things Blog",
+      "url": "https://blog.invisiblethings.org/2008/07/01/rafal-wojtczuk-joins-invisible-things.html"
+    },
+    {
+      "title": "0wning Xen in Vegas! | The Invisible Things Blog",
+      "url": "https://blog.invisiblethings.org/2008/07/07/0wning-xen-in-vegas.html"
+    },
+    {
+      "title": "Resources | Invisible Things Lab",
+      "url": "https://invisiblethingslab.com/resources/"
+    },
+    {
+      "title": "Exploiting \"BadIRET\" vulnerability (CVE-2014-9322, Linux kernel privilege escalation) | Bromium Labs",
+      "url": "https://bromiumlabs.wordpress.com/2015/02/02/exploiting-badiret-vulnerability-cve-2014-9322-linux-kernel-privilege-escalation/"
+    },
+    {
+      "title": "Rafal Wojtczuk - Security Architect @ Bromium - Crunchbase Person Profile",
+      "url": "https://www.crunchbase.com/person/rafal-wojtczuk"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

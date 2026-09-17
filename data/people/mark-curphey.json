@@ -7,7 +7,14 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["owasp", "application security", "appsec", "open source", "software supply chain", "startup founder"],
+  "tags": [
+    "owasp",
+    "application security",
+    "appsec",
+    "open source",
+    "software supply chain",
+    "startup founder"
+  ],
   "summary": "Mark Curphey is a software and security practitioner who started the Open Web Application Security Project (OWASP) in 2001, the open community effort that became one of the most widely referenced sources of web application security guidance. He later founded the software composition analysis company SourceClear and co-founded Crash Override.",
   "whyThisMatters": "OWASP emerged at a point when web applications were being deployed far faster than defensive practice could keep up, and most published security material focused on networks and operating systems rather than application code. By organising the effort as an open, volunteer-driven project rather than a commercial product, Curphey helped establish a body of freely available application security documentation, tooling and terminology that development teams, auditors and standards bodies still draw on. His later companies extended the same focus on developer-facing security into open source dependency and software supply chain analysis.",
   "knownFor": [
@@ -20,14 +27,38 @@
     "overview": "<h2>Background</h2><p>Mark Curphey is a software developer and security practitioner whose work has centred on application security: the discipline concerned with flaws in software itself rather than in the networks or operating systems that host it. He is best known for starting the Open Web Application Security Project, generally referred to as OWASP, and for subsequently founding companies focused on giving software developers security tooling suited to how they actually build and ship code.</p><h2>Founding OWASP</h2><p>According to accounts of the project's origins, Curphey started OWASP on 9 September 2001. The OWASP Foundation's own history records that the effort came online as a public website on 1 December 2001. At the time, published security guidance was dominated by network and infrastructure concerns, while the rapid growth of web applications was producing a class of defects—injection flaws, broken authentication, session handling errors and similar issues—that existing material addressed only indirectly.</p><p>OWASP was organised as an open community effort. Its documents, checklists, testing guides and tools were released for free reuse, and contributions came from volunteers working in consultancies, vendors, enterprises and academia rather than from a single sponsoring company. That structure allowed the project to expand into local chapters and independent sub-projects without central commercial control.</p><h2>The OWASP Foundation</h2><p>The community's growth was formalised when OWASP was established as a not-for-profit charitable organisation in the United States on 21 April 2004. The OWASP Foundation exists to support the project's infrastructure, chapters and individual projects, which in turn are maintained by volunteer leaders. Over the following two decades, OWASP material became a common reference point in secure development training, procurement requirements and compliance frameworks, and the organisation grew well beyond the scale of the effort Curphey originally launched.</p><h2>SourceClear</h2><p>In 2013, Curphey founded SourceClear in Seattle. The company built tooling in the area now generally called software composition analysis: identifying the open source libraries a codebase depends on and flagging known vulnerabilities and risky code paths within them. Curphey described the company as \"the only company on the planet 100% dedicated to building security tools for software developers,\" a framing that reflected a broader shift in the field toward tools designed for engineers rather than for auditors.</p><p>SourceClear raised a seed round of roughly $1.5 million in June 2014 and a Series A of about $10 million in October 2015 from Index Ventures and Storm Ventures. In 2018 the company was acquired by CA Technologies and integrated into Veracode's application security product line, where its command line scanner continued to be offered as part of the larger platform.</p><h2>Later work</h2><p>Curphey later co-founded Crash Override with John Viega, another long-standing figure in application security and cryptography. The company's public material describes work on software engineering and open source problems at the level of the development pipeline, and identifies Curphey as the person who created OWASP and founded SourceClear. Outside of security work, he describes himself as a cyclist and sailor.</p><h2>Significance</h2><p>Curphey's principal contribution is organisational as much as technical. OWASP demonstrated that a body of security knowledge could be built and maintained as an open commons, updated by practitioners in the field, and adopted by industry without being owned by any single vendor. The model has been imitated repeatedly in security and adjacent fields, and the project he started remains one of the standard entry points for developers encountering application security for the first time.</p>"
   },
   "timeline": [
-    { "date": "2001-09-09", "event": "Curphey starts the Open Web Application Security Project (OWASP)." },
-    { "date": "2001-12-01", "event": "The OWASP Foundation website comes online." },
-    { "date": "2004-04-21", "event": "OWASP is established as a not-for-profit charitable organisation in the United States." },
-    { "date": "2013", "event": "Curphey founds SourceClear in Seattle, focused on security tooling for software developers." },
-    { "date": "2014-06", "event": "SourceClear announces a seed round of approximately $1.5 million." },
-    { "date": "2015-10", "event": "SourceClear raises an approximately $10 million Series A led by Index Ventures with Storm Ventures." },
-    { "date": "2018", "event": "CA Technologies acquires SourceClear; the technology is integrated into Veracode." },
-    { "date": "2022", "event": "Curphey co-founds Crash Override with John Viega." }
+    {
+      "date": "2001-09-09",
+      "event": "Curphey starts the Open Web Application Security Project (OWASP)."
+    },
+    {
+      "date": "2001-12-01",
+      "event": "The OWASP Foundation website comes online."
+    },
+    {
+      "date": "2004-04-21",
+      "event": "OWASP is established as a not-for-profit charitable organisation in the United States."
+    },
+    {
+      "date": "2013",
+      "event": "Curphey founds SourceClear in Seattle, focused on security tooling for software developers."
+    },
+    {
+      "date": "2014-06",
+      "event": "SourceClear announces a seed round of approximately $1.5 million."
+    },
+    {
+      "date": "2015-10",
+      "event": "SourceClear raises an approximately $10 million Series A led by Index Ventures with Storm Ventures."
+    },
+    {
+      "date": "2018",
+      "event": "CA Technologies acquires SourceClear; the technology is integrated into Veracode."
+    },
+    {
+      "date": "2022",
+      "event": "Curphey co-founds Crash Override with John Viega."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -35,17 +66,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "OWASP - Wikipedia", "url": "https://en.wikipedia.org/wiki/OWASP" },
-    { "title": "About the OWASP Foundation", "url": "https://owasp.org/about/" },
-    { "title": "About OWASP - OWASP Wiki", "url": "https://wiki.owasp.org/index.php/About_OWASP" },
-    { "title": "SourceClear - Wikipedia", "url": "https://en.wikipedia.org/wiki/SourceClear" },
-    { "title": "Crash Override - About", "url": "https://crashoverride.com/about" }
+    {
+      "title": "OWASP - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OWASP"
+    },
+    {
+      "title": "About the OWASP Foundation",
+      "url": "https://owasp.org/about/"
+    },
+    {
+      "title": "About OWASP - OWASP Wiki",
+      "url": "https://wiki.owasp.org/index.php/About_OWASP"
+    },
+    {
+      "title": "SourceClear - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SourceClear"
+    },
+    {
+      "title": "Crash Override - About",
+      "url": "https://crashoverride.com/about"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

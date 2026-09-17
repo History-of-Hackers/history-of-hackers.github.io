@@ -1,1 +1,68 @@
-{"id":"james-bamford","type":"person","title":"James Bamford","slug":"james-bamford","name":"James Bamford","born":null,"died":null,"era":"1982-Present","tags":["author","journalism","signals-intelligence","nsa","books"],"summary":"Investigative journalist and author whose books, including The Puzzle Palace and Body of Secrets, document the National Security Agency and signals intelligence.","whyThisMatters":"Bamford’s reporting provides important context for the institutional history behind surveillance, cryptography, and the security state that surrounds modern computer security.","knownFor":["The Puzzle Palace","Body of Secrets","Investigative reporting on the NSA"],"sections":{"overview":"<p>James Bamford is an investigative journalist and author known for book-length reporting on the National Security Agency and United States signals intelligence. He has also worked as an investigative producer and written for major magazines.</p><h2>Security institutions in public view</h2><p>Bamford’s books make intelligence institutions and their technical capabilities legible to a general audience. That history is relevant to hacker culture because security research, cryptography, surveillance, and state power repeatedly intersect.</p>"},"timeline":[{"date":"1982","event":"Publishes The Puzzle Palace, a book on the National Security Agency."},{"date":"2002","event":"Publishes Body of Secrets, expanding his reporting on the NSA and intelligence history."},{"date":"2025","event":"Simon & Schuster lists Bamford as author of five books, including The Puzzle Palace and Body of Secrets."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Penguin Random House: Body of Secrets","url":"https://www.penguinrandomhouse.com/books/8094/body-of-secrets-by-james-bamford/9780385499088/"},{"title":"Simon & Schuster: James Bamford","url":"https://www.simonandschuster.com/authors/James-Bamford/233685828"},{"title":"British National Bibliography: Body of Secrets","url":"https://obnb.uk/p7405085-body-of-secrets-how-americas-nsa-and-britains-gchq-eavesdrop-on-the-world"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "james-bamford",
+  "type": "person",
+  "title": "James Bamford",
+  "slug": "james-bamford",
+  "name": "James Bamford",
+  "born": null,
+  "died": null,
+  "era": "1982-Present",
+  "tags": [
+    "author",
+    "journalism",
+    "signals-intelligence",
+    "nsa",
+    "books"
+  ],
+  "summary": "Investigative journalist and author whose books, including The Puzzle Palace and Body of Secrets, document the National Security Agency and signals intelligence.",
+  "whyThisMatters": "Bamford’s reporting provides important context for the institutional history behind surveillance, cryptography, and the security state that surrounds modern computer security.",
+  "knownFor": [
+    "The Puzzle Palace",
+    "Body of Secrets",
+    "Investigative reporting on the NSA"
+  ],
+  "sections": {
+    "overview": "<p>James Bamford is an investigative journalist and author known for book-length reporting on the National Security Agency and United States signals intelligence. He has also worked as an investigative producer and written for major magazines.</p><h2>Security institutions in public view</h2><p>Bamford’s books make intelligence institutions and their technical capabilities legible to a general audience. That history is relevant to hacker culture because security research, cryptography, surveillance, and state power repeatedly intersect.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1982",
+      "event": "Publishes The Puzzle Palace, a book on the National Security Agency."
+    },
+    {
+      "date": "2002",
+      "event": "Publishes Body of Secrets, expanding his reporting on the NSA and intelligence history."
+    },
+    {
+      "date": "2025",
+      "event": "Simon & Schuster lists Bamford as author of five books, including The Puzzle Palace and Body of Secrets."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Penguin Random House: Body of Secrets",
+      "url": "https://www.penguinrandomhouse.com/books/8094/body-of-secrets-by-james-bamford/9780385499088/"
+    },
+    {
+      "title": "Simon & Schuster: James Bamford",
+      "url": "https://www.simonandschuster.com/authors/James-Bamford/233685828"
+    },
+    {
+      "title": "British National Bibliography: Body of Secrets",
+      "url": "https://obnb.uk/p7405085-body-of-secrets-how-americas-nsa-and-britains-gchq-eavesdrop-on-the-world"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

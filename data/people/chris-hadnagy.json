@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["social engineering", "phishing", "def con", "security training", "author", "penetration testing", "human hacking"],
+  "tags": [
+    "social engineering",
+    "phishing",
+    "def con",
+    "security training",
+    "author",
+    "penetration testing",
+    "human hacking"
+  ],
   "summary": "Christopher Hadnagy is an American information security consultant known for popularizing social engineering as a formal discipline within cybersecurity, founding the DEF CON Social Engineering Capture the Flag contest, and authoring several widely referenced books on the subject.",
   "whyThisMatters": "Hadnagy helped move social engineering from an informal hacker skill into a structured, teachable discipline with its own frameworks, conferences, and vocabulary used across the security industry. His DEF CON Social Engineering Capture the Flag contest, run for over a decade, became one of the most closely watched annual demonstrations of how easily employees at major companies disclose sensitive information over the phone. His 2022 permanent ban from DEF CON over code-of-conduct violations, and the subsequent unsuccessful defamation lawsuit against the conference and organizer Jeff Moss, became a widely covered dispute within the hacker community about accountability and due process at security conferences.",
   "knownFor": [
@@ -22,16 +30,46 @@
     "overview": "<h2>Background</h2><p>Christopher James Hadnagy is an American information security consultant who built much of his career around social engineering: the practice of manipulating people, rather than technical systems, into divulging sensitive information or granting unauthorized access. Before founding his own company, he worked in various technology, sales, and training roles, including a stint as operations manager at the penetration-testing firm Offensive Security. He has described himself professionally as the \"Chief Human Hacker\" of the company he founded.</p><h2>Social-Engineer, LLC and the social engineering framework</h2><p>Hadnagy founded Social-Engineer, LLC, a consulting firm that performs social engineering penetration tests, phishing assessments, and employee security-awareness training for corporate clients. Alongside the company, he built Social-Engineer.Org, an educational website, podcast, and newsletter devoted to the subject. He is credited with developing one of the earliest formal \"social engineering frameworks,\" an attempt to catalog and systematize the psychological tactics, pretexting methods, and influence techniques used in social engineering attacks so they could be taught, measured, and defended against rather than treated as an ad hoc art.</p><h2>The DEF CON Social Engineering Capture the Flag contest</h2><p>In 2009, Hadnagy helped create the Social Engineering Capture the Flag (SECTF) contest at DEF CON, the large annual hacker conference held in Las Vegas. In the contest, competitors research a target company using open-source intelligence and then attempt to extract predetermined pieces of sensitive information from employees during live phone calls made in front of an audience. The contest ran for over a decade and became one of the most closely watched events at DEF CON, regularly generating public reports on how easily employees at well-known companies disclosed information such as software versions, internal procedures, or physical security details. Hadnagy also founded the associated Social Engineering Village (SEVillage), a dedicated space for social engineering talks, workshops, and contests at DEF CON and, separately, at the DerbyCon conference.</p><h2>Books and public teaching</h2><p>Hadnagy is the author of several books that became standard references in the field, including \"Social Engineering: The Art of Human Hacking\" (2010), later revised and reissued as \"Social Engineering: The Science of Human Hacking\" (2018), \"Unmasking the Social Engineer: The Human Element of Security\" (2014), the co-authored \"Phishing Dark Waters: The Offensive and Defensive Sides of Malicious Emails\" (2015), and \"Human Hacking: Win Friends, Influence People, and Leave Them Better Off for Having Met You\" (2021). He also served for a time as an adjunct professor of social engineering at the University of Arizona's NSA-designated Center of Academic Excellence in Cyber Operations, and lectured on the subject at security conferences internationally.</p><h2>Innocent Lives Foundation</h2><p>In 2017, Hadnagy founded the Innocent Lives Foundation, a nonprofit that uses open-source intelligence techniques to help identify individuals suspected of online child exploitation, passing findings to law enforcement agencies. The organization drew on the same OSINT and social-engineering skill set that Hadnagy taught in his commercial and conference work.</p><h2>2022 DEF CON ban and defamation lawsuit</h2><p>In February 2022, DEF CON organizers permanently banned Hadnagy from the conference, citing violations of the event's code of conduct. Hadnagy publicly disputed the allegations and, in August 2022, filed a defamation lawsuit against DEF CON Communications and conference founder Jeff Moss (known by the handle \"The Dark Tangent\"), arguing that the ban was based on fabricated accusations and had caused severe reputational and business harm. The case proceeded through discovery, during which DEF CON filed court documents detailing the harassment allegations behind the ban. In May 2025, a federal district judge dismissed Hadnagy's lawsuit with prejudice, finding that he could not show the statements made about him were false, since truth is a complete defense to a defamation claim under the applicable law.</p><h2>Significance and legacy</h2><p>Hadnagy is widely credited within the security industry with helping to formalize social engineering as a discipline distinct from purely technical hacking, giving it dedicated conferences, competitions, training curricula, and a body of published literature. The SECTF contest he co-created is frequently cited in security-awareness discussions as evidence that human factors, rather than software vulnerabilities alone, remain a primary avenue for real-world intrusions. His removal from DEF CON and the unsuccessful lawsuit that followed also became a notable case study in conference governance and accountability within the hacker and information-security community.</p>"
   },
   "timeline": [
-    { "date": "2009", "event": "Hadnagy helps create the Social Engineering Capture the Flag (SECTF) contest at DEF CON." },
-    { "date": "2010", "event": "Publishes his first book, 'Social Engineering: The Art of Human Hacking'." },
-    { "date": "2014", "event": "Publishes 'Unmasking the Social Engineer: The Human Element of Security'." },
-    { "date": "2015", "event": "Co-authors 'Phishing Dark Waters: The Offensive and Defensive Sides of Malicious Emails'." },
-    { "date": "2017", "event": "Founds the Innocent Lives Foundation, an anti-child-exploitation OSINT nonprofit." },
-    { "date": "2018", "event": "Publishes a revised edition of his flagship book under the title 'Social Engineering: The Science of Human Hacking'." },
-    { "date": "2021", "event": "Publishes 'Human Hacking: Win Friends, Influence People, and Leave Them Better Off for Having Met You'." },
-    { "date": "2022-02", "event": "DEF CON permanently bans Hadnagy from the conference, citing code-of-conduct violations." },
-    { "date": "2022-08", "event": "Hadnagy files a defamation lawsuit against DEF CON Communications and organizer Jeff Moss." },
-    { "date": "2025-05", "event": "A federal judge dismisses Hadnagy's defamation lawsuit with prejudice." }
+    {
+      "date": "2009",
+      "event": "Hadnagy helps create the Social Engineering Capture the Flag (SECTF) contest at DEF CON."
+    },
+    {
+      "date": "2010",
+      "event": "Publishes his first book, 'Social Engineering: The Art of Human Hacking'."
+    },
+    {
+      "date": "2014",
+      "event": "Publishes 'Unmasking the Social Engineer: The Human Element of Security'."
+    },
+    {
+      "date": "2015",
+      "event": "Co-authors 'Phishing Dark Waters: The Offensive and Defensive Sides of Malicious Emails'."
+    },
+    {
+      "date": "2017",
+      "event": "Founds the Innocent Lives Foundation, an anti-child-exploitation OSINT nonprofit."
+    },
+    {
+      "date": "2018",
+      "event": "Publishes a revised edition of his flagship book under the title 'Social Engineering: The Science of Human Hacking'."
+    },
+    {
+      "date": "2021",
+      "event": "Publishes 'Human Hacking: Win Friends, Influence People, and Leave Them Better Off for Having Met You'."
+    },
+    {
+      "date": "2022-02",
+      "event": "DEF CON permanently bans Hadnagy from the conference, citing code-of-conduct violations."
+    },
+    {
+      "date": "2022-08",
+      "event": "Hadnagy files a defamation lawsuit against DEF CON Communications and organizer Jeff Moss."
+    },
+    {
+      "date": "2025-05",
+      "event": "A federal judge dismisses Hadnagy's defamation lawsuit with prejudice."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -39,17 +77,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Christopher Hadnagy - Wikipedia", "url": "https://en.wikipedia.org/wiki/Christopher_Hadnagy" },
-    { "title": "Christopher Hadnagy sues DEF CON, Jeff Moss over permanent ban - Fortune", "url": "https://fortune.com/2022/08/19/christopher-hadnagy-sues-def-con-jeff-moss-over-permanent-ban" },
-    { "title": "Social Engineering: The Science of Human Hacking, 2nd Edition - Wiley", "url": "https://www.wiley.com/en-us/Social+Engineering:+The+Science+of+Human+Hacking,+2nd+Edition-p-9781119433750" },
-    { "title": "DEF CON defeats Chris Hadnagy's defamation lawsuit - The Register", "url": "https://www.theregister.com/2025/05/16/def_con_defamation_dismissed/" },
-    { "title": "The 2019 Social Engineering Capture the Flag Report - social-engineer.org", "url": "https://www.social-engineer.org/wp-content/uploads/2019/11/SECTF-DEFCON27-SECOM-2019.pdf" }
+    {
+      "title": "Christopher Hadnagy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Christopher_Hadnagy"
+    },
+    {
+      "title": "Christopher Hadnagy sues DEF CON, Jeff Moss over permanent ban - Fortune",
+      "url": "https://fortune.com/2022/08/19/christopher-hadnagy-sues-def-con-jeff-moss-over-permanent-ban"
+    },
+    {
+      "title": "Social Engineering: The Science of Human Hacking, 2nd Edition - Wiley",
+      "url": "https://www.wiley.com/en-us/Social+Engineering:+The+Science+of+Human+Hacking,+2nd+Edition-p-9781119433750"
+    },
+    {
+      "title": "DEF CON defeats Chris Hadnagy's defamation lawsuit - The Register",
+      "url": "https://www.theregister.com/2025/05/16/def_con_defamation_dismissed/"
+    },
+    {
+      "title": "The 2019 Social Engineering Capture the Flag Report - social-engineer.org",
+      "url": "https://www.social-engineer.org/wp-content/uploads/2019/11/SECTF-DEFCON27-SECOM-2019.pdf"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

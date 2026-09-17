@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["stuxnet", "malware-analysis", "virusblokada", "kaspersky", "belarus", "ics-security", "rootkit-discovery"],
+  "tags": [
+    "stuxnet",
+    "malware-analysis",
+    "virusblokada",
+    "kaspersky",
+    "belarus",
+    "ics-security",
+    "rootkit-discovery"
+  ],
   "summary": "Sergey Ulasen is a Belarusian malware analyst who, while working at the Minsk-based antivirus firm VirusBlokAda, led the team that first identified the Stuxnet worm in June 2010, a discovery that exposed the world's first publicly documented cyberweapon aimed at industrial control systems.",
   "whyThisMatters": "Ulasen's investigation of a client's rebooting Windows machines in Iran surfaced the first known malware to exploit a zero-day vulnerability to sabotage physical industrial equipment, later revealed to have targeted Iran's Natanz nuclear enrichment facility. His team's decision to publish findings about drivers signed with stolen digital certificates forced Microsoft, Realtek, and the broader security industry to confront supply-chain trust failures in code-signing. The episode is widely cited as the moment cybersecurity research pivoted toward treating malware as a tool of state-level sabotage against critical infrastructure, not merely criminal fraud.",
   "knownFor": [
@@ -21,13 +29,34 @@
     "overview": "<h2>Background</h2><p>Sergey Ulasen is a Belarusian computer security researcher who rose to international attention in 2010 for his role in uncovering the Stuxnet worm. He graduated in 2006 from the Belarusian State Technical University with a degree in software development and began his career at VirusBlokAda, a small antivirus vendor based in Minsk, Belarus. Starting as a programmer, Ulasen worked his way onto the team that engineered the company's antivirus scanning engine and became a team leader within that group by 2008, eventually helping manage a department of engineers focused on the company's AV kernel technology.</p><h2>Discovery of Stuxnet</h2><p>In June 2010, VirusBlokAda received a request for technical assistance from a customer whose computers in Iran were caught in an unexplained cycle of crashes and reboots. Ulasen, working with colleague Oleg Kupreev, examined the files involved and quickly suspected something more serious than a routine software conflict or false positive. Because the timing coincided with a weekend and Ulasen was attending a family event away from Minsk, part of the initial analysis was coordinated remotely with a contact in Iran; by the following Monday the team had confirmed the sample was unusually large compared to typical malware, used rootkit techniques to hide itself, and propagated in an atypical way.</p><h2>Public Disclosure</h2><p>On July 12, 2010, VirusBlokAda published a warning describing the malware as \"very dangerous\" and capable of uncontrolled spread, an announcement that is widely credited as the first public disclosure of what later became known as Stuxnet. Ulasen's team also identified that the malware installed kernel-mode drivers, later named mrxcls.sys and mrxnet.sys, which had been digitally signed using a certificate belonging to Realtek Semiconductor Corporation — a certificate that had evidently been stolen, since the signature otherwise passed as legitimate under Microsoft's code-signing checks. VirusBlokAda attempted to notify Microsoft and Realtek about the abused certificate before going public, but received little response, which factored into the decision to publish. A second stolen certificate, from JMicron Technology Corporation, was later found in use as well, and both certificates were subsequently revoked by VeriSign.</p><h2>Significance of the Find</h2><p>Subsequent analysis by researchers at Kaspersky Lab, Symantec, and other firms built on VirusBlokAda's initial report to reveal that the worm — which came to be called Stuxnet after strings found in its code — exploited multiple Windows zero-day vulnerabilities, including a previously unknown flaw in how Windows handled shortcut (.LNK) files, to spread via USB drives even across air-gapped networks. Deeper reverse engineering over the following months showed that Stuxnet's ultimate payload targeted Siemens programmable logic controllers used to run uranium-enrichment centrifuges, most notably at Iran's Natanz facility, marking it as the first malware widely understood to have been engineered to cause physical damage to industrial equipment. Ulasen's discovery is generally regarded as the trigger that set this chain of research in motion.</p><h2>Later Career</h2><p>Ulasen's prominence following the Stuxnet disclosure led to broader recognition within the security industry. In August 2011 he joined Kaspersky Lab, moving into a role within the company's threat research infrastructure, where he later directed a large team of engineers and analysts supporting Kaspersky's global malware research operations. He has since spoken publicly, including in an interview published on Kaspersky co-founder Eugene Kaspersky's official blog, about the circumstances of the Stuxnet find and its effect on his career.</p><h2>Legacy</h2><p>Ulasen is remembered primarily as the analyst whose routine technical-support investigation uncovered what is considered the first publicly confirmed cyberweapon designed to physically sabotage industrial control systems. The Stuxnet case reshaped how governments, vendors, and the security industry think about digital-certificate trust, zero-day vulnerability disclosure, and the potential for malware to be used as an instrument of state-directed sabotage.</p>"
   },
   "timeline": [
-    { "date": "2006", "event": "Ulasen graduates from Belarusian State Technical University with a degree in software development and begins working at VirusBlokAda." },
-    { "date": "2008", "event": "Ulasen becomes team leader of VirusBlokAda's antivirus engine development group." },
-    { "date": "2010-06", "event": "Ulasen and colleague Oleg Kupreev investigate reboot-loop reports from a VirusBlokAda customer in Iran and identify a sophisticated, previously unknown malware sample later named Stuxnet." },
-    { "date": "2010-07-12", "event": "VirusBlokAda publishes a public warning describing the newly found malware as very dangerous, marking the first public disclosure of Stuxnet." },
-    { "date": "2010-07", "event": "VirusBlokAda's findings that Stuxnet used drivers signed with a stolen Realtek Semiconductor certificate draw wide security-industry attention; a second stolen certificate from JMicron is later found." },
-    { "date": "2011-08", "event": "Ulasen joins Kaspersky Lab's threat research infrastructure team." },
-    { "date": "2011-11", "event": "Ulasen is profiled in an interview published on Eugene Kaspersky's official company blog, discussing the Stuxnet discovery." }
+    {
+      "date": "2006",
+      "event": "Ulasen graduates from Belarusian State Technical University with a degree in software development and begins working at VirusBlokAda."
+    },
+    {
+      "date": "2008",
+      "event": "Ulasen becomes team leader of VirusBlokAda's antivirus engine development group."
+    },
+    {
+      "date": "2010-06",
+      "event": "Ulasen and colleague Oleg Kupreev investigate reboot-loop reports from a VirusBlokAda customer in Iran and identify a sophisticated, previously unknown malware sample later named Stuxnet."
+    },
+    {
+      "date": "2010-07-12",
+      "event": "VirusBlokAda publishes a public warning describing the newly found malware as very dangerous, marking the first public disclosure of Stuxnet."
+    },
+    {
+      "date": "2010-07",
+      "event": "VirusBlokAda's findings that Stuxnet used drivers signed with a stolen Realtek Semiconductor certificate draw wide security-industry attention; a second stolen certificate from JMicron is later found."
+    },
+    {
+      "date": "2011-08",
+      "event": "Ulasen joins Kaspersky Lab's threat research infrastructure team."
+    },
+    {
+      "date": "2011-11",
+      "event": "Ulasen is profiled in an interview published on Eugene Kaspersky's official company blog, discussing the Stuxnet discovery."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -35,16 +64,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Interview with Sergey Ulasen, The Man Who Found The Stuxnet Worm - Nota Bene: Eugene Kaspersky's Official Blog", "url": "https://eugene.kaspersky.com/2011/11/02/the-man-who-found-stuxnet-sergey-ulasen-in-the-spotlight/" },
-    { "title": "Possible New Rootkit Has Drivers Signed by Realtek - Threatpost", "url": "https://threatpost.com/possible-new-rootkit-has-drivers-signed-realtek-071510/74217/" },
-    { "title": "Stuxnet signed certificates frequently asked questions - Securelist", "url": "https://securelist.com/stuxnet-signed-certificates-frequently-asked-questions/29725/" },
-    { "title": "Stuxnet Facts Report - A Technical and Strategic Analysis (CCDCOE)", "url": "https://ccdcoe.org/uploads/2018/10/Falco2012_StuxnetFactsReport.pdf" }
+    {
+      "title": "Interview with Sergey Ulasen, The Man Who Found The Stuxnet Worm - Nota Bene: Eugene Kaspersky's Official Blog",
+      "url": "https://eugene.kaspersky.com/2011/11/02/the-man-who-found-stuxnet-sergey-ulasen-in-the-spotlight/"
+    },
+    {
+      "title": "Possible New Rootkit Has Drivers Signed by Realtek - Threatpost",
+      "url": "https://threatpost.com/possible-new-rootkit-has-drivers-signed-realtek-071510/74217/"
+    },
+    {
+      "title": "Stuxnet signed certificates frequently asked questions - Securelist",
+      "url": "https://securelist.com/stuxnet-signed-certificates-frequently-asked-questions/29725/"
+    },
+    {
+      "title": "Stuxnet Facts Report - A Technical and Strategic Analysis (CCDCOE)",
+      "url": "https://ccdcoe.org/uploads/2018/10/Falco2012_StuxnetFactsReport.pdf"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

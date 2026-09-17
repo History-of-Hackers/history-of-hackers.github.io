@@ -13,7 +13,7 @@
   "summary": "How the term 'hack' and the foundational principles of the hacker ethic emerged from a student club at MIT dedicated to model trains.",
   "whyThisMatters": "How the term 'hack' and the foundational principles of the hacker ethic emerged from a student club at MIT dedicated to model trains.",
   "sections": {
-    "overview": "<p>The origins of the term <strong>'hacker'</strong> in a computing context trace back to MIT's <strong>Tech Model Railroad Club (TMRC)</strong> in the late 1950s. The club built an immensely complex model railroad system, wired with hundreds of relays and switches. Members who created clever, elegant, and efficient solutions to complex electrical and software problems were said to have made a 'hack'.</p>\n<p>This culture, documented by journalist Steven Levy in his 1984 book <em>'Hackers: Heroes of the Computer Revolution'</em>, was built on a set of principles that became known as the <strong>Hacker Ethic</strong>:</p>\n<ul>\n<li>Access to computers \u2014 and anything which might teach you something about the way the world works \u2014 should be unlimited and total. Always yield to the Hands-On Imperative!</li>\n<li>All information should be free.</li>\n<li>Mistrust authority \u2014 promote decentralization.</li>\n<li>Hackers should be judged by their hacking, not bogus criteria such as degrees, age, race, or position.</li>\n<li>You can create art and beauty on a computer.</li>\n<li>Computers can change your life for the better.</li>\n</ul>\n<p>This philosophy was foundational to the development of the early internet, open-source software, and the personal computer revolution.</p>"
+    "overview": "<p>The origins of the term <strong>'hacker'</strong> in a computing context trace back to MIT's <strong>Tech Model Railroad Club (TMRC)</strong> in the late 1950s. The club built an immensely complex model railroad system, wired with hundreds of relays and switches. Members who created clever, elegant, and efficient solutions to complex electrical and software problems were said to have made a 'hack'.</p>\n<p>This culture, documented by journalist Steven Levy in his 1984 book <em>'Hackers: Heroes of the Computer Revolution'</em>, was built on a set of principles that became known as the <strong>Hacker Ethic</strong>:</p>\n<ul>\n<li>Access to computers — and anything which might teach you something about the way the world works — should be unlimited and total. Always yield to the Hands-On Imperative!</li>\n<li>All information should be free.</li>\n<li>Mistrust authority — promote decentralization.</li>\n<li>Hackers should be judged by their hacking, not bogus criteria such as degrees, age, race, or position.</li>\n<li>You can create art and beauty on a computer.</li>\n<li>Computers can change your life for the better.</li>\n</ul>\n<p>This philosophy was foundational to the development of the early internet, open-source software, and the personal computer revolution.</p>"
   },
   "timeline": [
     {
@@ -52,6 +52,7 @@
     "sourcesCount": 3,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   }
 }

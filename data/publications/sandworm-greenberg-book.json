@@ -4,21 +4,54 @@
   "title": "Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers",
   "slug": "sandworm-greenberg-book",
   "era": "2019",
-  "tags": ["book", "notpetya", "sandworm", "gru", "russia", "cyberwar", "ukraine", "journalism"],
+  "tags": [
+    "book",
+    "notpetya",
+    "sandworm",
+    "gru",
+    "russia",
+    "cyberwar",
+    "ukraine",
+    "journalism"
+  ],
   "summary": "\"Sandworm\" is a 2019 nonfiction book by American journalist Andy Greenberg, published by Doubleday, that chronicles the investigation into a Russian military-intelligence hacking group and its escalating cyberattacks, culminating in the 2017 NotPetya malware outbreak.",
   "whyThisMatters": "The book was among the first mainstream, deeply reported accounts to connect a series of destructive cyberattacks against Ukraine's power grid and other infrastructure to a single state-sponsored actor later confirmed by governments and courts to be Russia's GRU military intelligence service. It brought the NotPetya attack, one of the costliest cyberattacks in history, to a general audience and helped popularize the term \"Sandworm\" for the group. Its reporting anticipated findings later confirmed in the U.S. Department of Justice's 2020 indictment of six GRU officers.",
   "sections": {
     "overview": "<h2>Background</h2><p>\"Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers\" is a nonfiction book by Andy Greenberg, a senior writer at Wired magazine, published by Doubleday on November 5, 2019. The book grew out of Greenberg's years of reporting on cybersecurity for Wired, including his award-winning 2017 feature investigating the NotPetya malware attack, titled \"The Untold Story of NotPetya, the Most Devastating Cyberattack in History.\" The book expands that reporting into a broader narrative tracing the activities of a hacking group that cybersecurity researchers designated \"Sandworm.\"</p><h2>Subject: the Sandworm hacking group</h2><p>The book's central subject is a hacking group publicly tracked since roughly 2014 under names including Sandworm, Voodoo Bear, Telebots, and Iron Viking (and later APT44 and Seashell Blizzard). Greenberg's reporting, corroborated by security firms such as iSight Partners and ESET and later by government attribution, ties the group to Unit 74455 of the GRU, Russia's military intelligence agency. The book describes the group's operations against Ukrainian targets, including cyberattacks on Ukraine's power grid in December 2015 and December 2016 that caused blackouts affecting hundreds of thousands of people, described as the first confirmed blackouts caused by a cyberattack.</p><h2>The NotPetya attack</h2><p>A central set piece of the book is the June 2017 NotPetya attack, a piece of malware disguised as ransomware but designed as a destructive wiper. Distributed initially through a compromised update mechanism of Ukrainian accounting software, NotPetya spread uncontrollably to multinational companies including Maersk, Merck, FedEx's TNT Express subsidiary, and Saint-Gobain, along with numerous Ukrainian government and corporate systems. Greenberg's account, drawing on interviews with incident responders and company employees, describes the scale of the damage, later estimated by a White House assessment at more than ten billion dollars, and situates it as an act of cyberwar rather than criminal extortion.</p><h2>Structure and reporting approach</h2><p>The book is structured as a work of narrative journalism, following investigators, incident responders, and security researchers across multiple countries as they worked to identify the actors behind the attacks. Greenberg conducted interviews with cybersecurity analysts at firms including iSight Partners, ESET, and Cisco's Talos group, as well as officials and engineers in Ukraine directly affected by the attacks. The narrative also situates the events within the broader context of the Russia-Ukraine conflict following Russia's 2014 annexation of Crimea, describing Ukraine as a proving ground for cyberwarfare tactics later capable of being deployed more broadly.</p><h2>Reception and significance</h2><p>The book received positive reviews from outlets including Kirkus Reviews, which called it \"a credible, breathless account of the discovery and defeat (perhaps) of major Russian computer cyberattacks,\" and was widely discussed in cybersecurity and foreign-policy circles. It has been credited with helping popularize public understanding of state-sponsored destructive cyberattacks and of the specific Sandworm group. In October 2020, the U.S. Department of Justice indicted six officers of GRU Unit 74455 on charges including conspiracy and computer fraud in connection with NotPetya, the Ukrainian power grid attacks, and other operations, corroborating attributions the book had presented from journalistic and private-sector sources rather than official government findings.</p><h2>Legacy</h2><p>\"Sandworm\" is frequently cited in subsequent journalism, academic writing, and policy discussion on cyberwarfare as a reference work explaining the origins and evolution of one of the most consequential state-linked hacking groups publicly documented. The book's title has become closely associated in public discourse with the group itself, and its account of NotPetya remains a widely cited case study in discussions of cyberattack spillover effects, critical-infrastructure risk, and attribution of state-sponsored cyber operations.</p>"
   },
   "timeline": [
-    { "date": "2014", "event": "Cybersecurity researchers at iSight Partners identify a hacking group later named Sandworm, reporting on its use of a Microsoft Windows zero-day vulnerability." },
-    { "date": "2015-12", "event": "Sandworm is linked to a cyberattack on Ukrainian power companies that causes a blackout affecting roughly 230,000 people, described as the first confirmed cyberattack-induced power outage." },
-    { "date": "2016-12", "event": "A second attack on Ukraine's power grid, attributed to the group, briefly cuts power in part of Kyiv using malware known as Industroyer/CrashOverride." },
-    { "date": "2017-06-27", "event": "The NotPetya malware attack begins, spreading from a compromised Ukrainian accounting software update to cause an estimated $10 billion in global damage." },
-    { "date": "2017-08", "event": "Andy Greenberg publishes a Wired feature, \"The Untold Story of NotPetya, the Most Devastating Cyberattack in History,\" laying groundwork for the book." },
-    { "date": "2018-02-15", "event": "The Trump administration formally and publicly attributes the NotPetya attack to Russia." },
-    { "date": "2019-11-05", "event": "Doubleday publishes Andy Greenberg's book \"Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers.\"" },
-    { "date": "2020-10-19", "event": "The U.S. Department of Justice indicts six officers of Russia's GRU Unit 74455 for computer fraud and related charges connected to NotPetya, the Ukraine power grid attacks, and other operations described in the book." }
+    {
+      "date": "2014",
+      "event": "Cybersecurity researchers at iSight Partners identify a hacking group later named Sandworm, reporting on its use of a Microsoft Windows zero-day vulnerability."
+    },
+    {
+      "date": "2015-12",
+      "event": "Sandworm is linked to a cyberattack on Ukrainian power companies that causes a blackout affecting roughly 230,000 people, described as the first confirmed cyberattack-induced power outage."
+    },
+    {
+      "date": "2016-12",
+      "event": "A second attack on Ukraine's power grid, attributed to the group, briefly cuts power in part of Kyiv using malware known as Industroyer/CrashOverride."
+    },
+    {
+      "date": "2017-06-27",
+      "event": "The NotPetya malware attack begins, spreading from a compromised Ukrainian accounting software update to cause an estimated $10 billion in global damage."
+    },
+    {
+      "date": "2017-08",
+      "event": "Andy Greenberg publishes a Wired feature, \"The Untold Story of NotPetya, the Most Devastating Cyberattack in History,\" laying groundwork for the book."
+    },
+    {
+      "date": "2018-02-15",
+      "event": "The Trump administration formally and publicly attributes the NotPetya attack to Russia."
+    },
+    {
+      "date": "2019-11-05",
+      "event": "Doubleday publishes Andy Greenberg's book \"Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers.\""
+    },
+    {
+      "date": "2020-10-19",
+      "event": "The U.S. Department of Justice indicts six officers of Russia's GRU Unit 74455 for computer fraud and related charges connected to NotPetya, the Ukraine power grid attacks, and other operations described in the book."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -26,16 +59,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Sandworm (hacking group) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sandworm_(hacker_group)" },
-    { "title": "NotPetya - Wikipedia", "url": "https://en.wikipedia.org/wiki/NotPetya" },
-    { "title": "Sandworm by Andy Greenberg - Kirkus Reviews", "url": "https://www.kirkusreviews.com/book-reviews/andy-greenberg/sandworm/" },
-    { "title": "Six Russian GRU Officers Charged in Connection with Worldwide Deployment of Destructive Malware and Other Disruptive Actions in Cyberspace - U.S. Department of Justice", "url": "https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware-and" }
+    {
+      "title": "Sandworm (hacking group) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sandworm_(hacker_group)"
+    },
+    {
+      "title": "NotPetya - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NotPetya"
+    },
+    {
+      "title": "Sandworm by Andy Greenberg - Kirkus Reviews",
+      "url": "https://www.kirkusreviews.com/book-reviews/andy-greenberg/sandworm/"
+    },
+    {
+      "title": "Six Russian GRU Officers Charged in Connection with Worldwide Deployment of Destructive Malware and Other Disruptive Actions in Cyberspace - U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware-and"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

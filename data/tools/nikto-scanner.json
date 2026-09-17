@@ -4,17 +4,37 @@
   "title": "Nikto",
   "slug": "nikto-scanner",
   "era": "2001-Present",
-  "tags": ["web security", "vulnerability scanner", "open source", "penetration testing", "perl", "cgi scanner", "web server"],
+  "tags": [
+    "web security",
+    "vulnerability scanner",
+    "open source",
+    "penetration testing",
+    "perl",
+    "cgi scanner",
+    "web server"
+  ],
   "summary": "Nikto is an open-source command-line web server scanner, originally authored by Chris Sullo, that checks servers for thousands of potentially dangerous files, outdated software versions, and common misconfigurations.",
   "whyThisMatters": "First released in 2001, Nikto became one of the earliest widely adopted open-source web server vulnerability scanners and has remained in active use by penetration testers and system administrators for over two decades. Its plugin-based, continually updated database of known-dangerous files and version signatures made automated web server auditing accessible outside of expensive commercial tools. Nikto is frequently bundled into security-focused Linux distributions such as Kali Linux and is commonly cited in professional and educational penetration testing material as a baseline reconnaissance tool for web infrastructure.",
   "sections": {
     "overview": "<h2>Background</h2><p>Nikto is a free, open-source command-line vulnerability scanner for web servers. It was originally written by Chris Sullo and first released as version 1.00 on December 27, 2001. The tool is written in Perl and designed to run on Unix-like operating systems, though it has also been used on other platforms via Perl interpreters. Nikto is licensed under the GNU General Public License (early versions under GPLv2, later versions under GPLv3), while its underlying vulnerability and signature database files carry separate distribution terms managed through the CIRT.net project.</p><h2>Purpose and Functionality</h2><p>Nikto scans web servers for dangerous files or CGI programs, outdated versions of more than a thousand server software packages, and version-specific problems across hundreds of servers. The tool checks for insecure or default files, server misconfigurations, and outdated software banners, and it attempts to identify installed web server software and modules through response headers and content analysis. Over time the tool's database grew to reference thousands of potentially dangerous files and CGIs, with the official project page describing checks against over 8,000 such items in later releases.</p><h2>Development and Distribution</h2><p>Nikto has been maintained publicly through the CIRT.net website and, since being moved to a public code repository, through the GitHub project \"sullo/nikto,\" which Chris Sullo continues to maintain alongside contributor David Lodge and others. The successor codebase is often referred to as Nikto2. Later versions of the tool added support for multiple output formats including JSON, HTML, CSV, XML, and SQL, evasion techniques intended to bypass certain intrusion detection systems, tuning options to focus scans on specific vulnerability classes such as cross-site scripting, SQL injection, or command execution, IPv4 and IPv6 support, TLS fingerprinting, and Docker-based deployment.</p><h2>Adoption and Reception</h2><p>Nikto has been included in numerous security-focused software distributions, including Kali Linux, and is commonly referenced in penetration testing methodologies and educational materials as a basic tool for web server reconnaissance and vulnerability triage. The security tools ranking site SecTools.org has listed Nikto among notable network security tools, with users describing it as one of the more thorough web server scanners available and noting that it frequently identifies poorly configured servers that other tools may miss. A macOS graphical front end named MacNikto, built using AppleScript, was also released under the GPL to provide a GUI wrapper around a subset of the command-line tool's functionality.</p><h2>Significance and Legacy</h2><p>As one of the longest continuously maintained open-source web vulnerability scanners, Nikto occupies a notable place in the early history of freely available web application security tooling. Its long operational history—spanning from the early 2000s into current releases such as version 2.6.x—illustrates the durability of simple, signature-based scanning approaches in a field that has since produced many more specialized and automated web scanning tools. Nikto remains widely cited as an entry-level or baseline tool for identifying low-hanging web server misconfigurations and outdated software during security assessments.</p>"
   },
   "timeline": [
-    { "date": "2001-12-27", "event": "Nikto version 1.00 is released by Chris Sullo as a free, open-source web server scanner." },
-    { "date": "2011-02", "event": "SecTools.org lists Nikto among its ranked network security tools, noting its continued community usage despite its age." },
-    { "date": "2020s", "event": "Development of Nikto continues publicly on GitHub under the sullo/nikto repository, with the codebase referred to as Nikto2 adding features such as JSON/HTML/XML output, TLS fingerprinting, and Docker support." },
-    { "date": "2026-07-31", "event": "Nikto version 2.6.1 is listed as the current stable release on its Wikipedia entry." }
+    {
+      "date": "2001-12-27",
+      "event": "Nikto version 1.00 is released by Chris Sullo as a free, open-source web server scanner."
+    },
+    {
+      "date": "2011-02",
+      "event": "SecTools.org lists Nikto among its ranked network security tools, noting its continued community usage despite its age."
+    },
+    {
+      "date": "2020s",
+      "event": "Development of Nikto continues publicly on GitHub under the sullo/nikto repository, with the codebase referred to as Nikto2 adding features such as JSON/HTML/XML output, TLS fingerprinting, and Docker support."
+    },
+    {
+      "date": "2026-07-31",
+      "event": "Nikto version 2.6.1 is listed as the current stable release on its Wikipedia entry."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -22,16 +42,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Nikto (vulnerability scanner) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Nikto_(vulnerability_scanner)" },
-    { "title": "sullo/nikto GitHub repository", "url": "https://github.com/sullo/nikto" },
-    { "title": "CIRT.net - Nikto2", "url": "http://cirt.net/nikto" },
-    { "title": "SecTools.org - Nikto listing", "url": "https://sectools.org/tool/nikto/" }
+    {
+      "title": "Nikto (vulnerability scanner) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nikto_(vulnerability_scanner)"
+    },
+    {
+      "title": "sullo/nikto GitHub repository",
+      "url": "https://github.com/sullo/nikto"
+    },
+    {
+      "title": "CIRT.net - Nikto2",
+      "url": "http://cirt.net/nikto"
+    },
+    {
+      "title": "SecTools.org - Nikto listing",
+      "url": "https://sectools.org/tool/nikto/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

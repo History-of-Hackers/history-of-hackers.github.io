@@ -1,0 +1,72 @@
+{
+  "id": "nick-szabo",
+  "type": "person",
+  "title": "Nick Szabo",
+  "slug": "nick-szabo",
+  "name": "Nick Szabo",
+  "born": null,
+  "died": null,
+  "era": "1990s-present",
+  "tags": [
+    "cypherpunks",
+    "smart-contracts",
+    "bit-gold",
+    "cryptography",
+    "digital-currency"
+  ],
+  "summary": "Computer scientist and legal scholar who coined the term 'smart contract' and designed the bit gold digital-currency proposal.",
+  "whyThisMatters": "Szabo's smart-contract concept and bit gold design anticipated the mechanisms later used by Bitcoin and Ethereum.",
+  "knownFor": [
+    "Coining 'smart contract' (1990s)",
+    "Bit gold proposal",
+    "Essays on trusted third parties as security holes"
+  ],
+  "sections": {
+    "overview": "<p>Nick Szabo is a computer scientist, legal scholar, and cryptographer. In the mid-1990s he published essays introducing the idea of smart contracts: computer protocols that embed contractual clauses in hardware and software so that breach is expensive for the attacker.</p><h2>Bit gold</h2><p>Szabo designed bit gold, a proposal for a decentralized digital currency based on proof-of-work strings and a Byzantine-fault-tolerant registry of ownership. He described it as originating in 1998 and published the design on his blog in 2005. It is widely cited as a direct precursor of Bitcoin.</p><h2>Essays</h2><p>His 2001 essay <em>Trusted Third Parties Are Security Holes</em> argued that protocol designers should minimize reliance on trusted intermediaries, an argument echoed throughout later cryptocurrency and secure-protocol design.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1996",
+      "event": "Publishes 'Smart Contracts: Building Blocks for Digital Markets'."
+    },
+    {
+      "date": "2001",
+      "event": "Publishes 'Trusted Third Parties Are Security Holes'."
+    },
+    {
+      "date": "2005-12",
+      "event": "Publishes the bit gold design on his blog, Unenumerated."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Nick Szabo, 'Smart Contracts: Building Blocks for Digital Markets' (1996)",
+      "url": "https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart_contracts_2.html"
+    },
+    {
+      "title": "Nick Szabo, 'Bit gold' (Unenumerated, 2005)",
+      "url": "https://unenumerated.blogspot.com/2005/12/bit-gold.html"
+    },
+    {
+      "title": "Nick Szabo, 'Trusted Third Parties Are Security Holes' (2001)",
+      "url": "https://nakamotoinstitute.org/library/trusted-third-parties/"
+    },
+    {
+      "title": "Wikipedia: Nick Szabo",
+      "url": "https://en.wikipedia.org/wiki/Nick_Szabo"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

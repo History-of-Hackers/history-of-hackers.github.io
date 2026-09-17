@@ -7,7 +7,16 @@
   "born": "1991-10-19",
   "died": "2017-07-12",
   "era": "2010s",
-  "tags": ["dark web", "darknet market", "alphabay", "drug trafficking", "operation bayonet", "canada", "thailand", "opsec failure"],
+  "tags": [
+    "dark web",
+    "darknet market",
+    "alphabay",
+    "drug trafficking",
+    "operation bayonet",
+    "canada",
+    "thailand",
+    "opsec failure"
+  ],
   "summary": "Alexandre Cazes was a Canadian citizen who, under the online alias \"Alpha02,\" created and administered AlphaBay, which grew into the largest dark web marketplace for drugs, stolen data, and other illegal goods before its 2017 takedown. He was arrested in Bangkok, Thailand in July 2017 and died in Thai police custody days later, in what Thai authorities described as an apparent suicide.",
   "whyThisMatters": "AlphaBay was, at the time of its shutdown, the largest known dark web marketplace, reportedly hosting hundreds of thousands of listings and facilitating hundreds of thousands of dollars in daily transactions before it was taken down in the coordinated international law enforcement action known as Operation Bayonet. Cazes's case is frequently cited as a cautionary example of operational security failure, since investigators identified him in part through routine personal email addresses and unencrypted records tied to his real identity, despite running a marketplace built around anonymity. His death in custody, days after his arrest and before facing extradition to the United States, also made the case a widely discussed episode in the history of dark web law enforcement operations.",
   "knownFor": [
@@ -21,11 +30,26 @@
     "overview": "<h2>Background</h2><p>Alexandre Cazes was a Canadian citizen, born October 19, 1991, who by his mid-twenties had relocated to Bangkok, Thailand, where he lived with his wife. Online, he operated under aliases including \"Alpha02\" and \"Pimp_Alex_91,\" identities under which he built and ran one of the most significant criminal marketplaces on the dark web.</p><h2>Founding AlphaBay</h2><p>Cazes is identified as the creator of AlphaBay, a dark web marketplace accessible only through the Tor anonymity network that launched around late 2014. AlphaBay allowed vendors and buyers to trade illegal drugs, stolen financial and personal data, counterfeit goods, malware, and other illicit items using cryptocurrencies such as Bitcoin. Under Cazes's administration, the site grew rapidly, and by the time of its shutdown in July 2017 it had reportedly attracted more than 400,000 registered users and hosted roughly 250,000 to 300,000 listings, with estimated total revenue in the tens of millions of dollars and daily transaction volumes reported in the hundreds of thousands of dollars.</p><h2>Scale and Significance of the Marketplace</h2><p>AlphaBay's growth made it, at its peak, the largest dark web marketplace then in operation, having eclipsed earlier markets such as the original Silk Road in scale. It functioned as a hub not only for drug sales but also for stolen credit card data, hacking tools, and fraud-related services, drawing sustained attention from law enforcement agencies in multiple countries, including the United States, Canada, and Thailand.</p><h2>Investigation and Arrest</h2><p>Investigators from the U.S. Federal Bureau of Investigation, Drug Enforcement Administration, and other agencies, working with Thai authorities in an operation later publicly referred to as \"Operation Bayonet,\" traced AlphaBay's infrastructure and Cazes's real identity in part through operational security mistakes, including the reported use of a personal email address in early site communications that linked back to his identity. On July 5, 2017, Thai police arrested Cazes at his residence in Bangkok. Authorities reported finding unencrypted financial records on his laptop detailing assets held across multiple jurisdictions.</p><h2>Death in Custody</h2><p>On July 12, 2017, days after his arrest and while awaiting extradition proceedings to the United States, Cazes was found dead in his cell at the Narcotics Suppression Bureau headquarters in Bangkok. Thai police described the death as an apparent suicide by hanging. His death occurred before he could be extradited or face trial in the United States.</p><h2>Aftermath and Legacy</h2><p>Following Cazes's arrest and death, law enforcement agencies coordinated to seize AlphaBay's servers and shut the marketplace down, announcing the takedown publicly around July 20, 2017, alongside the related seizure of the Hansa marketplace. Cazes's wife was later charged in connection with laundering proceeds from the marketplace. The case remains a frequently referenced example in discussions of dark web law enforcement operations and of how operational security lapses, rather than breaks in cryptographic anonymity tools themselves, have led to the identification of dark web market operators.</p>"
   },
   "timeline": [
-    { "date": "1991-10-19", "event": "Alexandre Cazes is born in Canada." },
-    { "date": "2014", "event": "AlphaBay dark web marketplace launches, created and administered by Cazes under the alias \"Alpha02.\"" },
-    { "date": "2017-07-05", "event": "Cazes is arrested by Thai police at his residence in Bangkok, Thailand, as part of the multinational Operation Bayonet." },
-    { "date": "2017-07-12", "event": "Cazes is found dead in his cell at the Narcotics Suppression Bureau in Bangkok in what Thai police described as an apparent suicide." },
-    { "date": "2017-07-20", "event": "Law enforcement agencies publicly announce the takedown of AlphaBay, alongside the related seizure of the Hansa marketplace." }
+    {
+      "date": "1991-10-19",
+      "event": "Alexandre Cazes is born in Canada."
+    },
+    {
+      "date": "2014",
+      "event": "AlphaBay dark web marketplace launches, created and administered by Cazes under the alias \"Alpha02.\""
+    },
+    {
+      "date": "2017-07-05",
+      "event": "Cazes is arrested by Thai police at his residence in Bangkok, Thailand, as part of the multinational Operation Bayonet."
+    },
+    {
+      "date": "2017-07-12",
+      "event": "Cazes is found dead in his cell at the Narcotics Suppression Bureau in Bangkok in what Thai police described as an apparent suicide."
+    },
+    {
+      "date": "2017-07-20",
+      "event": "Law enforcement agencies publicly announce the takedown of AlphaBay, alongside the related seizure of the Hansa marketplace."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -33,9 +57,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Alexandre Cazes - Wikipedia", "url": "https://en.wikipedia.org/wiki/Alexandre_Cazes" },
-    { "title": "AlphaBay - Wikipedia", "url": "https://en.wikipedia.org/wiki/AlphaBay" },
-    { "title": "Canadian dark web boss found dead in cell - Bangkok Post", "url": "https://www.bangkokpost.com/thailand/general/1291167/canadian-dark-web-boss-found-dead-in-cell" }
+    {
+      "title": "Alexandre Cazes - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexandre_Cazes"
+    },
+    {
+      "title": "AlphaBay - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AlphaBay"
+    },
+    {
+      "title": "Canadian dark web boss found dead in cell - Bangkok Post",
+      "url": "https://www.bangkokpost.com/thailand/general/1291167/canadian-dark-web-boss-found-dead-in-cell"
+    }
   ],
-  "editorial": { "verified": true, "sourcesCount": 3, "lastReviewed": "2026-08-31", "reviewStatus": "PUBLISHED", "reviewer": "claude-taskforce-wave2-2026-08-31" }
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-08-31",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
+  }
 }

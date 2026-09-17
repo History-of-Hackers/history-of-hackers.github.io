@@ -7,7 +7,15 @@
   "born": "1987-12-17",
   "died": null,
   "era": "2000s-Present",
-  "tags": ["whistleblower", "wikileaks", "military-intelligence", "espionage-act", "activist", "transgender-rights", "government-secrecy"],
+  "tags": [
+    "whistleblower",
+    "wikileaks",
+    "military-intelligence",
+    "espionage-act",
+    "activist",
+    "transgender-rights",
+    "government-secrecy"
+  ],
   "summary": "Chelsea Manning is a former United States Army intelligence analyst who, in 2010, disclosed hundreds of thousands of classified military and diplomatic documents to WikiLeaks, resulting in a court-martial conviction and a 35-year prison sentence that was later commuted by President Barack Obama.",
   "whyThisMatters": "Manning's disclosures constituted one of the largest unauthorized releases of classified information in United States history and fueled global debate over government secrecy, whistleblower protections, and the ethics of war reporting. The case became a landmark test of Espionage Act prosecutions in the digital age and of how leaked primary-source documents, distributed via an online platform, could reshape public understanding of the Iraq and Afghanistan wars. Manning's subsequent gender transition while incarcerated also made the case a focal point in debates over transgender rights within the U.S. military and prison systems.",
   "knownFor": [
@@ -22,20 +30,62 @@
     "overview": "<h2>Early Life and Military Service</h2><p>Chelsea Elizabeth Manning was born Bradley Edward Manning on December 17, 1987, in Oklahoma City, Oklahoma. After a childhood marked by family instability, she moved with her mother to Haverfordwest, Wales, where she attended secondary school before returning to the United States. Following a brief period of college study and various jobs, Manning enlisted in the United States Army in September 2007. She trained as an intelligence analyst at Fort Huachuca, Arizona, and in October 2009 was deployed to Forward Operating Base Hammer near Baghdad, Iraq, where her duties gave her access to classified military and diplomatic networks and databases.</p><h2>Disclosures to WikiLeaks</h2><p>While deployed, Manning downloaded a large volume of classified and sensitive material, including hundreds of thousands of Iraq and Afghanistan war-related field reports (widely referred to as the \"Iraq War Logs\" and the \"Afghan War Diary\"), a 2007 video of a U.S. helicopter attack in Baghdad that killed civilians and journalists (published by WikiLeaks under the title \"Collateral Murder\"), a cache of Guantanamo Bay detainee assessment files, and roughly 251,000 U.S. State Department diplomatic cables that became known as \"Cablegate.\" In early 2010, Manning transmitted this material to the anti-secrecy organization WikiLeaks, which published much of it over the following months in collaboration with several international news organizations.</p><h2>Arrest and Court-Martial</h2><p>Manning was arrested by U.S. Army authorities on May 27, 2010, after discussing the disclosures in online chat logs with a former hacker, Adrian Lamo, who reported her to federal authorities. She was held in military custody, including a period of solitary confinement at the Marine Corps Brig in Quantico, Virginia, that drew criticism from human rights organizations and a United Nations special rapporteur. Manning was ultimately charged with 22 offenses, including violations of the Espionage Act and, most seriously, \"aiding the enemy.\" In February 2013, she pleaded guilty to a subset of lesser charges. Her court-martial took place from June through July 2013; on July 30, 2013, a military judge convicted her of espionage, theft, and computer fraud charges but acquitted her of aiding the enemy. On August 21, 2013, Manning was sentenced to 35 years in prison, at the time the longest sentence ever given in the United States for a leak conviction.</p><h2>Gender Transition and Imprisonment</h2><p>The day after her sentencing, Manning announced that she had a female gender identity, stated she wished to be known as Chelsea Manning, and requested hormone therapy, which the military ultimately provided while she was incarcerated at the U.S. Disciplinary Barracks at Fort Leavenworth, Kansas. Her case became a prominent point of reference in debates over transgender health care access within the U.S. military and federal prison systems.</p><h2>Commutation and Release</h2><p>On January 17, 2017, in one of his final acts in office, President Barack Obama commuted the remaining portion of Manning's sentence, citing the severity of the original term relative to sentences in comparable cases; the commutation did not overturn her conviction. Manning was released from custody on May 17, 2017, having served approximately seven years of her sentence.</p><h2>Later Activism and Legal Battles</h2><p>After her release, Manning became a public commentator on surveillance, government secrecy, and transgender rights, and in 2018 ran unsuccessfully in the Democratic primary for a U.S. Senate seat from Maryland. In March 2019, she was jailed for civil contempt after refusing to testify before a federal grand jury investigating WikiLeaks and its founder, Julian Assange; she was fined and held for roughly a year, including a brief second detention, before being released in March 2020 as the grand jury's term expired.</p><h2>Significance</h2><p>Manning's disclosures remain one of the largest unauthorized releases of classified government material in U.S. history and significantly shaped public and journalistic access to primary-source documentation of the Iraq and Afghanistan wars and U.S. diplomacy. Her prosecution set precedents for how the Espionage Act has been applied to digital-age leaks, and her personal story intersected national debates over whistleblower protection, prison conditions, and transgender rights.</p>"
   },
   "timeline": [
-    { "date": "1987-12-17", "event": "Born Bradley Edward Manning in Oklahoma City, Oklahoma." },
-    { "date": "2007-09", "event": "Enlists in the United States Army and trains as an intelligence analyst." },
-    { "date": "2009-10", "event": "Deployed to Forward Operating Base Hammer near Baghdad, Iraq, with access to classified networks." },
-    { "date": "2010-01", "event": "Begins transmitting classified military and diplomatic documents to WikiLeaks." },
-    { "date": "2010-05-27", "event": "Arrested by U.S. Army authorities after chat logs with Adrian Lamo are reported to the FBI." },
-    { "date": "2013-02-28", "event": "Pleads guilty to 10 of 22 charges in a military court-martial." },
-    { "date": "2013-07-30", "event": "Convicted of espionage, theft, and computer fraud; acquitted of 'aiding the enemy.'" },
-    { "date": "2013-08-21", "event": "Sentenced to 35 years in military prison." },
-    { "date": "2013-08-22", "event": "Announces female gender identity and the name Chelsea Manning." },
-    { "date": "2017-01-17", "event": "President Barack Obama commutes the remainder of Manning's sentence." },
-    { "date": "2017-05-17", "event": "Released from custody at Fort Leavenworth." },
-    { "date": "2018", "event": "Runs in the Democratic primary for U.S. Senate in Maryland; loses to incumbent Ben Cardin." },
-    { "date": "2019-03-08", "event": "Jailed for civil contempt after refusing to testify before a grand jury investigating WikiLeaks." },
-    { "date": "2020-03-12", "event": "Released from custody as the grand jury's term expires." }
+    {
+      "date": "1987-12-17",
+      "event": "Born Bradley Edward Manning in Oklahoma City, Oklahoma."
+    },
+    {
+      "date": "2007-09",
+      "event": "Enlists in the United States Army and trains as an intelligence analyst."
+    },
+    {
+      "date": "2009-10",
+      "event": "Deployed to Forward Operating Base Hammer near Baghdad, Iraq, with access to classified networks."
+    },
+    {
+      "date": "2010-01",
+      "event": "Begins transmitting classified military and diplomatic documents to WikiLeaks."
+    },
+    {
+      "date": "2010-05-27",
+      "event": "Arrested by U.S. Army authorities after chat logs with Adrian Lamo are reported to the FBI."
+    },
+    {
+      "date": "2013-02-28",
+      "event": "Pleads guilty to 10 of 22 charges in a military court-martial."
+    },
+    {
+      "date": "2013-07-30",
+      "event": "Convicted of espionage, theft, and computer fraud; acquitted of 'aiding the enemy.'"
+    },
+    {
+      "date": "2013-08-21",
+      "event": "Sentenced to 35 years in military prison."
+    },
+    {
+      "date": "2013-08-22",
+      "event": "Announces female gender identity and the name Chelsea Manning."
+    },
+    {
+      "date": "2017-01-17",
+      "event": "President Barack Obama commutes the remainder of Manning's sentence."
+    },
+    {
+      "date": "2017-05-17",
+      "event": "Released from custody at Fort Leavenworth."
+    },
+    {
+      "date": "2018",
+      "event": "Runs in the Democratic primary for U.S. Senate in Maryland; loses to incumbent Ben Cardin."
+    },
+    {
+      "date": "2019-03-08",
+      "event": "Jailed for civil contempt after refusing to testify before a grand jury investigating WikiLeaks."
+    },
+    {
+      "date": "2020-03-12",
+      "event": "Released from custody as the grand jury's term expires."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -43,16 +93,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Chelsea Manning - Wikipedia", "url": "https://en.wikipedia.org/wiki/Chelsea_Manning" },
-    { "title": "Obama largely commutes sentence of Chelsea Manning, U.S. soldier convicted for leaking classified information - The Washington Post", "url": "https://www.washingtonpost.com/world/national-security/obama-largely-commutes-sentence-of-chelsea-manning-us-soldier-convicted-for-leaking-classified-information/2017/01/17/f3205a1a-dcf8-11e6-ad42-f3375f271c9c_story.html" },
-    { "title": "President Obama Commutes Chelsea Manning's Prison Sentence - NPR", "url": "https://www.npr.org/sections/thetwo-way/2017/01/17/510307055/president-obama-commutes-chelsea-mannings-prison-sentence" },
-    { "title": "The Chelsea Manning Case: A Timeline - American Civil Liberties Union", "url": "https://www.aclu.org/news/free-speech/chelsea-manning-case-timeline" }
+    {
+      "title": "Chelsea Manning - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chelsea_Manning"
+    },
+    {
+      "title": "Obama largely commutes sentence of Chelsea Manning, U.S. soldier convicted for leaking classified information - The Washington Post",
+      "url": "https://www.washingtonpost.com/world/national-security/obama-largely-commutes-sentence-of-chelsea-manning-us-soldier-convicted-for-leaking-classified-information/2017/01/17/f3205a1a-dcf8-11e6-ad42-f3375f271c9c_story.html"
+    },
+    {
+      "title": "President Obama Commutes Chelsea Manning's Prison Sentence - NPR",
+      "url": "https://www.npr.org/sections/thetwo-way/2017/01/17/510307055/president-obama-commutes-chelsea-mannings-prison-sentence"
+    },
+    {
+      "title": "The Chelsea Manning Case: A Timeline - American Civil Liberties Union",
+      "url": "https://www.aclu.org/news/free-speech/chelsea-manning-case-timeline"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

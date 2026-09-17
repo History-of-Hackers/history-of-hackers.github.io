@@ -1,0 +1,84 @@
+{
+  "id": "vint-cerf",
+  "type": "person",
+  "title": "Vint Cerf",
+  "slug": "vint-cerf",
+  "name": "Vint Cerf",
+  "born": 1943,
+  "died": null,
+  "era": "1970s-present",
+  "tags": [
+    "internet",
+    "tcp-ip",
+    "arpanet",
+    "protocols",
+    "internet-governance"
+  ],
+  "summary": "American computer scientist who co-designed TCP/IP with Bob Kahn and is widely described as one of the 'fathers of the Internet'.",
+  "whyThisMatters": "The TCP/IP architecture Cerf co-designed is the substrate every later network attack and defense runs on.",
+  "knownFor": [
+    "Co-designing TCP/IP",
+    "Founding president of the Internet Society",
+    "Turing Award (2004)"
+  ],
+  "sections": {
+    "overview": "<p>Vinton Gray Cerf is an American computer scientist. While at Stanford in the early 1970s he worked with Robert Kahn on the problem of connecting heterogeneous packet networks, and in May 1974 the two published <em>A Protocol for Packet Network Intercommunication</em>, the paper that introduced the Transmission Control Program later split into TCP and IP.</p><h2>From ARPANET to the Internet</h2><p>Cerf had earlier worked on the ARPANET Network Control Program as a UCLA graduate student. From 1976 to 1982 he managed internetworking research at DARPA, where TCP/IP was refined and standardized ahead of the January 1983 ARPANET cutover. He later led MCI's development of MCI Mail, one of the first commercial email services connected to the Internet.</p><h2>Stewardship</h2><p>Cerf was founding president of the Internet Society in 1992 and chaired ICANN from 2000 to 2007. He joined Google in 2005 as vice president and chief Internet evangelist. With Kahn he received the ACM Turing Award in 2004 and the U.S. Presidential Medal of Freedom in 2005.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1943-06-23",
+      "event": "Born in New Haven, Connecticut."
+    },
+    {
+      "date": "1974-05",
+      "event": "Publishes 'A Protocol for Packet Network Intercommunication' with Robert Kahn, introducing TCP."
+    },
+    {
+      "date": "1983-01-01",
+      "event": "ARPANET switches to TCP/IP, the protocol suite Cerf co-designed."
+    },
+    {
+      "date": "1992",
+      "event": "Becomes founding president of the Internet Society."
+    },
+    {
+      "date": "2004",
+      "event": "Receives the ACM Turing Award with Robert Kahn."
+    },
+    {
+      "date": "2005",
+      "event": "Joins Google as vice president and chief Internet evangelist."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "ACM A.M. Turing Award: Vinton G. Cerf",
+      "url": "https://amturing.acm.org/award_winners/cerf_1083211.cfm"
+    },
+    {
+      "title": "Cerf and Kahn, 'A Protocol for Packet Network Intercommunication' (IEEE Transactions on Communications, 1974)",
+      "url": "https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf"
+    },
+    {
+      "title": "Internet Hall of Fame: Vint Cerf",
+      "url": "https://www.internethalloffame.org/inductee/vint-cerf/"
+    },
+    {
+      "title": "Wikipedia: Vint Cerf",
+      "url": "https://en.wikipedia.org/wiki/Vint_Cerf"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

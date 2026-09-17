@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["journalist", "cybersecurity", "stuxnet", "wired", "investigative-reporting", "nsa-surveillance", "election-security", "author"],
+  "tags": [
+    "journalist",
+    "cybersecurity",
+    "stuxnet",
+    "wired",
+    "investigative-reporting",
+    "nsa-surveillance",
+    "election-security",
+    "author"
+  ],
   "summary": "Kim Zetter is an American investigative journalist who has covered cybersecurity, hacking, and national security since 1999, best known as a longtime Wired senior reporter and as the author of \"Countdown to Zero Day,\" a definitive account of the Stuxnet cyberweapon.",
   "whyThisMatters": "Zetter is widely regarded as one of the most influential journalists covering the hacker underground, digital espionage, and cyberwarfare, translating highly technical security research for a general audience over a career spanning more than two decades. Her reporting on Stuxnet, NSA surveillance, and electronic voting security shaped public and policy understanding of state-sponsored cyberattacks and critical-infrastructure vulnerabilities. \"Countdown to Zero Day\" remains one of the most cited popular accounts of the world's first known military-grade cyberweapon, and her work has been credited with pushing both industry and government toward greater transparency on cybersecurity issues.",
   "knownFor": [
@@ -22,14 +31,38 @@
     "overview": "<h2>Background</h2><p>Kim Zetter is an American journalist who has specialized in cybersecurity, hacking, and national security reporting since 1999. Before focusing on the security beat, she began her journalism career in Israel, writing for the Jerusalem Post, and later worked as a writer and editor at PC World. She subsequently joined Wired, where she spent roughly thirteen years as a staff reporter covering the hacker underground, cybercrime, and digital security before transitioning to freelance and independent reporting for outlets including the New York Times Magazine, Politico, the Washington Post, the Guardian, Motherboard/Vice, and the Intercept.</p><h2>Covering the hacker underground and digital espionage</h2><p>Over her career, Zetter has reported on a wide range of major cybersecurity stories. In the mid-2000s she covered revelations about National Security Agency mass-surveillance activity conducted with the cooperation of telecommunications carriers, and in 2007 she wrote an extensive series examining organized hacking and cybercrime forums. She also reported on the 2010 arrest of Chelsea Manning and the WikiLeaks disclosures, and has written extensively about state-sponsored hacking operations, including Russian-linked attacks on Ukraine's electrical grid in 2016 and 2017.</p><h2>Reporting on Stuxnet</h2><p>Zetter became one of the earliest and most prolific journalists to cover Stuxnet, the computer worm discovered in June 2010 that was later revealed to have sabotaged centrifuges at Iran's Natanz nuclear enrichment facility. Working from technical analyses published by security researchers, she produced some of the most comprehensive public reporting on the worm's design, propagation, and apparent targeting of industrial control systems, helping establish Stuxnet as the first widely documented example of a cyberweapon causing physical damage to infrastructure.</p><h2>Countdown to Zero Day</h2><p>In 2014, Zetter published \"Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon,\" a book-length investigation into the discovery of Stuxnet and the covert operation attributed to the United States and Israel, reportedly with assistance from Dutch intelligence, to damage Iran's nuclear program. The book drew on interviews with security researchers, intelligence sources, and Zetter's own prior reporting to reconstruct how the worm was built, deployed, and ultimately uncovered by antivirus researchers, and it is frequently cited as one of the most detailed public accounts of the Stuxnet operation.</p><h2>Election security and later work</h2><p>Zetter has also become known as a leading journalist on election security, reporting on vulnerabilities in electronic voting machines and the broader integrity of U.S. election infrastructure, including a 2018 New York Times Magazine cover story on the election security crisis. She has continued to report on topics such as expanded government cyberattack authorities and the intelligence history behind Stuxnet, and she publishes ongoing security reporting through her own newsletter in addition to bylines at major publications.</p><h2>Recognition and legacy</h2><p>Zetter has been named among the top ten security journalists in the United States multiple times by peers in journalism and the security industry, and her work has received recognition including Maggie Awards from the Western Publications Association and recognition from Investigative Reporters and Editors. She is frequently sought as a media commentator on cybersecurity issues, appearing on outlets including NPR, CNN, MSNBC, and PBS NewsHour. Her body of work is widely credited with bringing rigorous, technically grounded reporting on hacking, cyberwarfare, and digital security to a mainstream audience.</p>"
   },
   "timeline": [
-    { "date": "1999", "event": "Begins covering hackers, cybercrime, and computer security as a journalist." },
-    { "date": "2006", "event": "Reports on revelations of NSA mass-surveillance activity conducted with telecommunications carrier cooperation." },
-    { "date": "2007", "event": "Publishes an extensive series investigating organized hacking and cybercrime underground forums." },
-    { "date": "2010", "event": "Reports on the discovery of the Stuxnet worm and covers the arrest of Chelsea Manning and the WikiLeaks disclosures." },
-    { "date": "2013", "event": "Leaves her staff position at Wired after roughly thirteen years to pursue independent and freelance reporting." },
-    { "date": "2014", "event": "Publishes \"Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon.\"" },
-    { "date": "2016", "event": "Reports on Russian-linked cyberattacks against Ukraine's electrical power grid." },
-    { "date": "2018", "event": "Writes a New York Times Magazine cover story on the U.S. election security crisis." }
+    {
+      "date": "1999",
+      "event": "Begins covering hackers, cybercrime, and computer security as a journalist."
+    },
+    {
+      "date": "2006",
+      "event": "Reports on revelations of NSA mass-surveillance activity conducted with telecommunications carrier cooperation."
+    },
+    {
+      "date": "2007",
+      "event": "Publishes an extensive series investigating organized hacking and cybercrime underground forums."
+    },
+    {
+      "date": "2010",
+      "event": "Reports on the discovery of the Stuxnet worm and covers the arrest of Chelsea Manning and the WikiLeaks disclosures."
+    },
+    {
+      "date": "2013",
+      "event": "Leaves her staff position at Wired after roughly thirteen years to pursue independent and freelance reporting."
+    },
+    {
+      "date": "2014",
+      "event": "Publishes \"Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon.\""
+    },
+    {
+      "date": "2016",
+      "event": "Reports on Russian-linked cyberattacks against Ukraine's electrical power grid."
+    },
+    {
+      "date": "2018",
+      "event": "Writes a New York Times Magazine cover story on the U.S. election security crisis."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,16 +70,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Kim Zetter - Wikipedia", "url": "https://en.wikipedia.org/wiki/Kim_Zetter" },
-    { "title": "About the Author - Kim Zetter (Zero Day)", "url": "https://www.zetter-zeroday.com/about-the-author/" },
-    { "title": "Countdown to Zero Day by Kim Zetter - Penguin Random House", "url": "https://www.penguinrandomhouse.com/books/219931/countdown-to-zero-day-by-kim-zetter/" },
-    { "title": "Kim Zetter's Profile - Muck Rack", "url": "https://muckrack.com/kim-zetter" }
+    {
+      "title": "Kim Zetter - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kim_Zetter"
+    },
+    {
+      "title": "About the Author - Kim Zetter (Zero Day)",
+      "url": "https://www.zetter-zeroday.com/about-the-author/"
+    },
+    {
+      "title": "Countdown to Zero Day by Kim Zetter - Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/books/219931/countdown-to-zero-day-by-kim-zetter/"
+    },
+    {
+      "title": "Kim Zetter's Profile - Muck Rack",
+      "url": "https://muckrack.com/kim-zetter"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

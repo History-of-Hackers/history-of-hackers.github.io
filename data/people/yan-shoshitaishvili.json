@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2010s-Present",
-  "tags": ["binary analysis", "symbolic execution", "angr", "shellphish", "ctf", "academia", "security education", "cyber grand challenge"],
+  "tags": [
+    "binary analysis",
+    "symbolic execution",
+    "angr",
+    "shellphish",
+    "ctf",
+    "academia",
+    "security education",
+    "cyber grand challenge"
+  ],
   "summary": "Yan Shoshitaishvili, known online as Zardus, is a computer security researcher and associate professor at Arizona State University who co-created the open-source binary analysis framework angr. He is a long-time member and captain emeritus of the Shellphish CTF team, helped build the autonomous hacking system Shellphish entered in the DARPA Cyber Grand Challenge, and founded the pwn.college security education platform.",
   "whyThisMatters": "Shoshitaishvili's work sits at the point where academic program analysis, competitive hacking, and security education converge. The angr framework he co-created turned symbolic execution and automated binary analysis into tooling that researchers and practitioners could actually run, and it became a foundation for both academic work and autonomous vulnerability-finding systems. Through Shellphish, the Order of the Overflow, and pwn.college he also shaped how a generation of practitioners learn offensive security, moving capture-the-flag technique from folklore into documented, teachable curriculum.",
   "knownFor": [
@@ -22,15 +31,42 @@
     "overview": "<h2>Background</h2><p>Yan Shoshitaishvili is a computer security researcher who works under the handle Zardus. He completed his doctorate in the Computer Security Lab at the University of California, Santa Barbara, under professors Christopher Kruegel and Giovanni Vigna, submitting a 2017 dissertation titled <em>Building a Base for Cyber-autonomy</em>. He subsequently joined Arizona State University, where he is an associate professor affiliated with SEFCOM, the Laboratory of Security Engineering for Future Computing, a lab whose research spans program analysis, vulnerability detection, exploitation mitigation, and network and mobile security.</p><p>His research centers on automated program analysis and vulnerability detection, with a broader interest in systems security. Much of that work has been carried out jointly between the UC Santa Barbara security lab and SEFCOM, and it has consistently been informed by competitive hacking practice rather than kept separate from it.</p><h2>Shellphish and competitive hacking</h2><p>Shoshitaishvili is a long-standing member of Shellphish, the capture-the-flag team founded in 2005 at UC Santa Barbara by Giovanni Vigna as a way to involve graduate students in DEF CON CTF. The team describes itself as \"hackademic\" and states that it has participated in more DEF CON CTF competitions than any other team in the world. Shoshitaishvili describes himself as captain emeritus of the group.</p><p>The team's competitive work fed directly into its research output. Tools written to solve CTF challenges were generalized into reusable analysis components, and those components in turn became the basis for published research and for the team's entries in large-scale automated security competitions.</p><h2>angr</h2><p>Shoshitaishvili is a co-creator of angr, an open-source binary analysis platform written in Python that combines static and dynamic symbolic analysis. angr provides symbolic execution, control-flow graph recovery, disassembly, lifting, data-dependency and value-set analysis, and decompilation across multiple processor architectures, and is distributed under the BSD-2-Clause license. It is maintained by researchers at the Computer Security Lab at UC Santa Barbara and SEFCOM at Arizona State University together with members of Shellphish and the wider open-source community.</p><p>The framework was introduced to the academic community in the paper \"SOK: (State of) The Art of War: Offensive Techniques in Binary Analysis,\" presented at the IEEE Symposium on Security and Privacy in 2016, on which Shoshitaishvili was the first author alongside Ruoyu Wang, Christopher Salls, Nick Stephens, Mario Polino, Andrew Dutcher, John Grosen, Siji Feng, Christophe Hauser, Christopher Kruegel, and Giovanni Vigna. Related work includes \"Firmalice - Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware,\" which he first-authored at NDSS in 2015, and \"Driller: Augmenting Fuzzing Through Selective Symbolic Execution,\" an NDSS 2016 paper on combining fuzzing with symbolic execution that he co-authored.</p><h2>The DARPA Cyber Grand Challenge</h2><p>In 2016 Shoshitaishvili led Shellphish's participation in the DARPA Cyber Grand Challenge, a competition in which fully autonomous systems had to find, exploit, and patch software vulnerabilities without human intervention. The championship event was held on 4 August 2016 in Las Vegas, where seven automated systems competed for nearly twelve hours in what DARPA billed as the world's first all-machine cyber hacking tournament, scored on how well each system defended its hosts, probed the network, and preserved the correct behavior of the software it patched.</p><p>Shellphish's cyber reasoning system, the Mechanical Phish, used angr as one of its underpinnings and finished third in the final round. The team subsequently released the system publicly, describing it as the first publicly available system of its kind, which made a complete autonomous attack-and-defense pipeline available for study rather than leaving it as a closed competition artifact.</p><h2>Security education and community work</h2><p>Shoshitaishvili co-founded the Order of the Overflow, the group that organized the DEF CON CTF competition from 2018 through 2021, taking over one of the most prominent events in the hacking calendar. He is also a co-host of the CTF RadiOOO podcast.</p><p>He created pwn.college, a hands-on cybersecurity education platform maintained by a team at Arizona State University that structures its material around a belt-ranking progression and underpins much of ASU's cybersecurity curriculum. The platform's development and outcomes were documented in \"Open Cybersecurity Education: Five Years of pwn.college,\" published at SIGCSE in 2026, alongside a companion paper on the associated Linux Luminarium course material.</p><h2>Later work and significance</h2><p>Shoshitaishvili's more recent publications continue to focus on binary analysis and its intersection with machine learning, including work on Rust decompilation at the IEEE Symposium on Security and Privacy in 2026, an empirical study of human and large-language-model teaming in reverse engineering at NDSS in 2026, and ARVO, a dataset of reproducible vulnerabilities in open-source software, at EuroS&amp;P in 2026.</p><p>Taken together, his contributions illustrate a particular model of security research in which competitive hacking, open-source tooling, and academic publication reinforce one another. angr in particular has been widely adopted as infrastructure for vulnerability research, and the release of the Mechanical Phish and of pwn.college reflects a consistent practice of publishing the tools and the training material rather than retaining them as competitive advantages.</p>"
   },
   "timeline": [
-    { "date": "2005", "event": "Shellphish is founded at UC Santa Barbara by Giovanni Vigna to compete in DEF CON CTF." },
-    { "date": "2015", "event": "Shoshitaishvili is first author of the Firmalice paper on automatic detection of authentication bypass vulnerabilities in binary firmware, presented at NDSS." },
-    { "date": "2016", "event": "The angr systematization paper, \"SOK: (State of) The Art of War: Offensive Techniques in Binary Analysis,\" is presented at the IEEE Symposium on Security and Privacy with Shoshitaishvili as first author." },
-    { "date": "2016", "event": "The Driller paper on augmenting fuzzing with selective symbolic execution is presented at NDSS." },
-    { "date": "2016-08-04", "event": "The DARPA Cyber Grand Challenge final is held in Las Vegas; Shellphish's Mechanical Phish, which Shoshitaishvili helped lead, finishes third." },
-    { "date": "2017", "event": "Shoshitaishvili completes his doctoral dissertation, \"Building a Base for Cyber-autonomy.\"" },
-    { "date": "2018", "event": "The Order of the Overflow, which Shoshitaishvili co-founded, begins organizing the DEF CON CTF competition." },
-    { "date": "2021", "event": "The Order of the Overflow concludes its run organizing DEF CON CTF." },
-    { "date": "2026", "event": "\"Open Cybersecurity Education: Five Years of pwn.college\" is published at SIGCSE, documenting the education platform he created at Arizona State University." }
+    {
+      "date": "2005",
+      "event": "Shellphish is founded at UC Santa Barbara by Giovanni Vigna to compete in DEF CON CTF."
+    },
+    {
+      "date": "2015",
+      "event": "Shoshitaishvili is first author of the Firmalice paper on automatic detection of authentication bypass vulnerabilities in binary firmware, presented at NDSS."
+    },
+    {
+      "date": "2016",
+      "event": "The angr systematization paper, \"SOK: (State of) The Art of War: Offensive Techniques in Binary Analysis,\" is presented at the IEEE Symposium on Security and Privacy with Shoshitaishvili as first author."
+    },
+    {
+      "date": "2016",
+      "event": "The Driller paper on augmenting fuzzing with selective symbolic execution is presented at NDSS."
+    },
+    {
+      "date": "2016-08-04",
+      "event": "The DARPA Cyber Grand Challenge final is held in Las Vegas; Shellphish's Mechanical Phish, which Shoshitaishvili helped lead, finishes third."
+    },
+    {
+      "date": "2017",
+      "event": "Shoshitaishvili completes his doctoral dissertation, \"Building a Base for Cyber-autonomy.\""
+    },
+    {
+      "date": "2018",
+      "event": "The Order of the Overflow, which Shoshitaishvili co-founded, begins organizing the DEF CON CTF competition."
+    },
+    {
+      "date": "2021",
+      "event": "The Order of the Overflow concludes its run organizing DEF CON CTF."
+    },
+    {
+      "date": "2026",
+      "event": "\"Open Cybersecurity Education: Five Years of pwn.college\" is published at SIGCSE, documenting the education platform he created at Arizona State University."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,20 +74,45 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Yan Shoshitaishvili - personal website", "url": "https://www.yancomm.net/" },
-    { "title": "angr - binary analysis platform", "url": "https://angr.io/" },
-    { "title": "angr on GitHub", "url": "https://github.com/angr/angr" },
-    { "title": "DBLP: Yan Shoshitaishvili publication record", "url": "https://dblp.org/pid/119/7712.html" },
-    { "title": "Shellphish", "url": "https://shellphish.net/" },
-    { "title": "pwn.college", "url": "https://pwn.college/" },
-    { "title": "DARPA Cyber Grand Challenge", "url": "https://www.darpa.mil/research/programs/cyber-grand-challenge" },
-    { "title": "SEFCOM - Laboratory of Security Engineering for Future Computing, Arizona State University", "url": "https://sefcom.asu.edu/" }
+    {
+      "title": "Yan Shoshitaishvili - personal website",
+      "url": "https://www.yancomm.net/"
+    },
+    {
+      "title": "angr - binary analysis platform",
+      "url": "https://angr.io/"
+    },
+    {
+      "title": "angr on GitHub",
+      "url": "https://github.com/angr/angr"
+    },
+    {
+      "title": "DBLP: Yan Shoshitaishvili publication record",
+      "url": "https://dblp.org/pid/119/7712.html"
+    },
+    {
+      "title": "Shellphish",
+      "url": "https://shellphish.net/"
+    },
+    {
+      "title": "pwn.college",
+      "url": "https://pwn.college/"
+    },
+    {
+      "title": "DARPA Cyber Grand Challenge",
+      "url": "https://www.darpa.mil/research/programs/cyber-grand-challenge"
+    },
+    {
+      "title": "SEFCOM - Laboratory of Security Engineering for Future Computing, Arizona State University",
+      "url": "https://sefcom.asu.edu/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 8,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -1,1 +1,68 @@
-{"id":"john-markoff","type":"person","title":"John Markoff","slug":"john-markoff","name":"John Markoff","born":null,"died":null,"era":"1985-Present","tags":["author","journalism","hacker-culture","cybersecurity","books"],"summary":"Technology journalist and co-author of Cyberpunk: Outlaws and Hackers on the Computer Frontier, a book-length account of early hacker culture.","whyThisMatters":"Markoff helped bring the social history of hacking, network intrusion, and computer security to a broad readership through sustained technology reporting and books.","knownFor":["Cyberpunk: Outlaws and Hackers on the Computer Frontier","Technology journalism","Internet and cybersecurity reporting"],"sections":{"overview":"<p>John Markoff is a technology journalist and author. His reporting for <em>The New York Times</em> covered the Internet, cybersecurity, science, and technology, and he co-wrote <em>Cyberpunk: Outlaws and Hackers on the Computer Frontier</em> with Katie Hafner.</p><h2>Recording hacker culture</h2><p><em>Cyberpunk</em> documented prominent computer-intrusion cases and the surrounding culture in the late twentieth century. Markoff’s work is useful as contemporary journalism and as a book-length record of how hacking and computer security entered public debate.</p>"},"timeline":[{"date":"1988","event":"Becomes The New York Times national computer writer."},{"date":"1991","event":"Co-authors Cyberpunk with Katie Hafner."},{"date":"2017","event":"Concludes his New York Times career after reporting on technology, the Internet, cybersecurity, and science."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"John Markoff: About","url":"https://johnmarkoff.net/about"},{"title":"British National Bibliography: Cyberpunk","url":"https://obnb.uk/p9423363-cyberpunk-outlaws-and-hackers-on-the-computer-frontier"},{"title":"Google Books: Cyberpunk","url":"https://books.google.com/books/about/Cyberpunk.html?hl=en&id=lq8ZAQAAIAAJ&output=html_text"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "john-markoff",
+  "type": "person",
+  "title": "John Markoff",
+  "slug": "john-markoff",
+  "name": "John Markoff",
+  "born": null,
+  "died": null,
+  "era": "1985-Present",
+  "tags": [
+    "author",
+    "journalism",
+    "hacker-culture",
+    "cybersecurity",
+    "books"
+  ],
+  "summary": "Technology journalist and co-author of Cyberpunk: Outlaws and Hackers on the Computer Frontier, a book-length account of early hacker culture.",
+  "whyThisMatters": "Markoff helped bring the social history of hacking, network intrusion, and computer security to a broad readership through sustained technology reporting and books.",
+  "knownFor": [
+    "Cyberpunk: Outlaws and Hackers on the Computer Frontier",
+    "Technology journalism",
+    "Internet and cybersecurity reporting"
+  ],
+  "sections": {
+    "overview": "<p>John Markoff is a technology journalist and author. His reporting for <em>The New York Times</em> covered the Internet, cybersecurity, science, and technology, and he co-wrote <em>Cyberpunk: Outlaws and Hackers on the Computer Frontier</em> with Katie Hafner.</p><h2>Recording hacker culture</h2><p><em>Cyberpunk</em> documented prominent computer-intrusion cases and the surrounding culture in the late twentieth century. Markoff’s work is useful as contemporary journalism and as a book-length record of how hacking and computer security entered public debate.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1988",
+      "event": "Becomes The New York Times national computer writer."
+    },
+    {
+      "date": "1991",
+      "event": "Co-authors Cyberpunk with Katie Hafner."
+    },
+    {
+      "date": "2017",
+      "event": "Concludes his New York Times career after reporting on technology, the Internet, cybersecurity, and science."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "John Markoff: About",
+      "url": "https://johnmarkoff.net/about"
+    },
+    {
+      "title": "British National Bibliography: Cyberpunk",
+      "url": "https://obnb.uk/p9423363-cyberpunk-outlaws-and-hackers-on-the-computer-frontier"
+    },
+    {
+      "title": "Google Books: Cyberpunk",
+      "url": "https://books.google.com/books/about/Cyberpunk.html?hl=en&id=lq8ZAQAAIAAJ&output=html_text"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

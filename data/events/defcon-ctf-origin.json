@@ -47,7 +47,9 @@
   "relatedGroups": [],
   "relatedTools": [],
   "relatedVulnerabilities": [],
-  "relatedEvents": ["defcon-hacker-conference"],
+  "relatedEvents": [
+    "defcon-hacker-conference"
+  ],
   "sources": [
     {
       "title": "Wikipedia: DEF CON",
@@ -67,6 +69,7 @@
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

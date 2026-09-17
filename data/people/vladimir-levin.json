@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "1990s",
-  "tags": ["bank fraud", "wire transfer fraud", "citibank hack", "russia", "1990s cybercrime", "extradition case", "financial cybercrime"],
+  "tags": [
+    "bank fraud",
+    "wire transfer fraud",
+    "citibank hack",
+    "russia",
+    "1990s cybercrime",
+    "extradition case",
+    "financial cybercrime"
+  ],
   "summary": "Vladimir Levin is a Russian former biochemistry graduate and computer programmer convicted for orchestrating a scheme that fraudulently transferred approximately $10.7 million out of Citibank corporate accounts in 1994, in one of the earliest publicized international bank-network computer fraud cases.",
   "whyThisMatters": "The Citibank case was among the first major demonstrations that a remote intruder could reach into a bank's core funds-transfer systems and move real money across borders, rather than merely accessing information. It became a widely cited early example of international cybercrime cooperation, since it required coordinated investigation and arrests by U.S., U.K., and Russian authorities and a high-profile extradition fight through the British courts. The case pushed financial institutions to reassess the security of dial-up and networked wire-transfer systems and remains a frequently referenced case study in the history of banking cybersecurity.",
   "knownFor": [
@@ -20,11 +28,26 @@
     "overview": "<h2>Background</h2><p>Vladimir Leonidovich Levin is a Russian man from St. Petersburg who, according to contemporaneous press accounts, held a degree in biochemistry and mathematics from the Saint Petersburg State Institute of Technology (also referred to in some sources as St. Petersburg Technological University). He reportedly worked as a computer programmer for a St. Petersburg-based computer company. He became internationally known in the mid-1990s after being accused of masterminding a scheme to fraudulently move millions of dollars out of Citibank corporate accounts using remote computer access.</p><h2>The Citibank Intrusion</h2><p>Between mid-1994 and later that year, unauthorized transactions were made against the accounts of several large corporate customers of Citibank through the bank's dial-up, X.25-network-based wire-transfer service, known at the time as the Financial Institutions Citibank Cash Manager. Using obtained customer codes and passwords, the intruder logged into the system on multiple occasions&mdash;reported as 18 separate sessions over a period of weeks&mdash;and initiated wire transfers to accounts that had been opened by accomplices in the United States, Finland, the Netherlands, Germany, and Israel. Citibank stated the attempted fraudulent transfers totaled approximately $10.7 million, of which around $3.7 million was actually moved through completed transfers before the scheme was detected and disrupted.</p><h2>Investigation and Arrest</h2><p>Citibank detected the irregular transfers and worked with law enforcement, including the U.S. Federal Bureau of Investigation, to trace the transactions and identify the accomplices who had opened the receiving accounts in multiple countries. Levin was identified as a central figure in the scheme. In March 1995, he was apprehended by Scotland Yard officers at Stansted Airport near London while making a connecting flight originating from Moscow.</p><h2>Extradition Fight</h2><p>Levin contested extradition to the United States for roughly two and a half years, pursuing appeals through the British court system, including to the House of Lords, which rejected his final appeal in mid-1997. In September 1997 he was extradited and transferred into U.S. custody to face trial in the U.S. District Court for the Southern District of New York.</p><h2>Conviction and Sentence</h2><p>As part of a plea agreement, Levin pleaded guilty to a single count of conspiracy to defraud, admitting responsibility for the $3.7 million actually transferred rather than the full $10.7 million Citibank had reported as targeted. In February 1998 he was sentenced to three years in prison and ordered to pay Citibank restitution of $240,015. Several accomplices who had opened or controlled the receiving accounts in different countries were separately prosecuted and pleaded guilty to related conspiracy charges. Citibank stated that it ultimately recovered all but about $400,000 of the stolen funds.</p><h2>Legacy</h2><p>The Citibank case is frequently cited as one of the earliest large-scale, internationally prosecuted cases of computer-based bank fraud, and it is sometimes referenced informally as an early example of a remote \"online bank robbery.\" Later technical accounts and retrospectives have noted some ambiguity and dispute over exactly how the initial access credentials were obtained and how much of the intrusion work was Levin's own versus that of other St. Petersburg-based individuals, but the prosecution, extradition, and conviction of Levin himself are well documented in court and press records. The case is commonly discussed in histories of banking cybersecurity as an early illustration of the risks posed by remote access to funds-transfer systems and of the jurisdictional complexity involved in prosecuting cross-border computer fraud.</p>"
   },
   "timeline": [
-    { "date": "1994", "event": "Unauthorized wire transfers begin against corporate customer accounts on Citibank's dial-up Cash Manager funds-transfer system, eventually totaling roughly $10.7 million attempted and about $3.7 million completed." },
-    { "date": "1995-03", "event": "Levin is arrested by Scotland Yard at Stansted Airport, London, while transiting from Moscow." },
-    { "date": "1997-06", "event": "The House of Lords rejects Levin's final appeal against extradition to the United States." },
-    { "date": "1997-09", "event": "Levin is extradited to the United States to face trial in the Southern District of New York." },
-    { "date": "1998-02", "event": "Levin pleads guilty to conspiracy to defraud and is sentenced to three years in prison, plus $240,015 in restitution to Citibank." }
+    {
+      "date": "1994",
+      "event": "Unauthorized wire transfers begin against corporate customer accounts on Citibank's dial-up Cash Manager funds-transfer system, eventually totaling roughly $10.7 million attempted and about $3.7 million completed."
+    },
+    {
+      "date": "1995-03",
+      "event": "Levin is arrested by Scotland Yard at Stansted Airport, London, while transiting from Moscow."
+    },
+    {
+      "date": "1997-06",
+      "event": "The House of Lords rejects Levin's final appeal against extradition to the United States."
+    },
+    {
+      "date": "1997-09",
+      "event": "Levin is extradited to the United States to face trial in the Southern District of New York."
+    },
+    {
+      "date": "1998-02",
+      "event": "Levin pleads guilty to conspiracy to defraud and is sentenced to three years in prison, plus $240,015 in restitution to Citibank."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -32,17 +55,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Vladimir Levin (hacker) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Vladimir_Levin_(hacker)" },
-    { "title": "Vladimir Levin - Hacker | LivingInternet", "url": "https://www.livinginternet.com/i/ia_hackers_levin.htm" },
-    { "title": "Vladimir Levin - Wikidata", "url": "https://www.wikidata.org/wiki/Q2447705" },
-    { "title": "A Byte Out of History: $10 Million Hack | Federal Bureau of Investigation", "url": "https://www.fbi.gov/news/stories/a-byte-out-of-history-10-million-hack" },
-    { "title": "#CISSP30: The CitiBank Cyber Heist 30 Years On | ISC2", "url": "https://www.isc2.org/Insights/2024/03/CISSP30-The-CitiBank-Cyber-Heist-30-Years-On" }
+    {
+      "title": "Vladimir Levin (hacker) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vladimir_Levin_(hacker)"
+    },
+    {
+      "title": "Vladimir Levin - Hacker | LivingInternet",
+      "url": "https://www.livinginternet.com/i/ia_hackers_levin.htm"
+    },
+    {
+      "title": "Vladimir Levin - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q2447705"
+    },
+    {
+      "title": "A Byte Out of History: $10 Million Hack | Federal Bureau of Investigation",
+      "url": "https://www.fbi.gov/news/stories/a-byte-out-of-history-10-million-hack"
+    },
+    {
+      "title": "#CISSP30: The CitiBank Cyber Heist 30 Years On | ISC2",
+      "url": "https://www.isc2.org/Insights/2024/03/CISSP30-The-CitiBank-Cyber-Heist-30-Years-On"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

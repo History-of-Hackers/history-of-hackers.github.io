@@ -7,7 +7,16 @@
   "born": "1966",
   "died": null,
   "era": "1990s-Present",
-  "tags": ["firewall", "cybersecurity entrepreneur", "check point", "imperva", "cato networks", "unit 8200", "israeli tech", "sase"],
+  "tags": [
+    "firewall",
+    "cybersecurity entrepreneur",
+    "check point",
+    "imperva",
+    "cato networks",
+    "unit 8200",
+    "israeli tech",
+    "sase"
+  ],
   "summary": "Shlomo Kramer is an Israeli information technology entrepreneur and investor who co-founded Check Point Software Technologies, Imperva (originally WebCohort), and Cato Networks, three companies central to the development of the commercial firewall, web application firewall, and secure access service edge (SASE) markets.",
   "whyThisMatters": "Kramer is one of the few individuals to have co-founded multiple companies that each became major, publicly traded or highly valued players within the cybersecurity industry, spanning three successive eras of network defense technology: perimeter firewalls in the 1990s, web application firewalls in the 2000s, and cloud-delivered network security (SASE) in the 2010s-2020s. His work at Check Point helped establish the commercial firewall as a foundational category of enterprise security software, and his later ventures extended that trajectory into web application protection and cloud networking. He is also a prolific angel investor in Israeli cybersecurity startups, including Palo Alto Networks and Trusteer, contributing to Israel's emergence as a major hub of the global cybersecurity industry.",
   "knownFor": [
@@ -21,18 +30,54 @@
     "overview": "<h2>Background</h2><p>Shlomo Kramer is an Israeli information technology entrepreneur and investor, born in 1966. He served in the Israel Defense Forces' Unit 8200, a signals intelligence unit whose alumni have gone on to found numerous Israeli technology and cybersecurity companies. Kramer later earned a bachelor's degree in Mathematics and Computer Science from Tel Aviv University and a master's degree in Computer Science from the Hebrew University of Jerusalem.</p><h2>Check Point and the commercial firewall</h2><p>In 1993, Kramer co-founded Check Point Software Technologies in Ramat Gan, Israel, together with Gil Shwed and Marius Nacht, with initial funding of approximately $250,000 from the venture capital fund BRM Group. Shwed had conceived the underlying technology, later known as stateful inspection, while serving in Unit 8200. This technology became the basis for the company's first product, FireWall-1, which is widely credited as one of the first commercial firewall products brought to market. Check Point went on to develop VPN-1, among the first commercial VPN products, secured OEM and distribution agreements with companies such as Sun Microsystems and HP in the mid-1990s, and by 1996 was named the worldwide firewall market leader by IDC with roughly 40 percent market share. Check Point completed its initial public offering on NASDAQ in June 1996. Kramer left Check Point in 1998 to pursue other ventures.</p><h2>WebCohort and Imperva</h2><p>In 2002, Kramer co-founded WebCohort together with Amichai Shulman and Mickey Boodaei. The company released its first product, SecureSphere, a web application and database firewall, in 2003, and was renamed Imperva in 2004. Imperva went public on the New York Stock Exchange in November 2011. The company was later acquired by the private equity firm Thoma Bravo in 2019 and subsequently purchased by the French defense and technology group Thales for approximately $3.6 billion in a deal that closed in December 2023.</p><h2>Cato Networks</h2><p>In 2015, Kramer co-founded Cato Networks in Tel Aviv together with Gur Shatz, a co-founder of the earlier security company Incapsula. Cato Networks develops a cloud-based platform combining SD-WAN, network security, and global backbone connectivity, a category that came to be known as Secure Access Service Edge (SASE). The company launched publicly in February 2016 after raising a $20 million Series A round from U.S. Venture Partners and Aspect Ventures. Kramer has served as Cato Networks' chief executive officer since its founding. The company reached unicorn status in 2020 with a valuation exceeding $1 billion, and by 2021 had raised further funding at a valuation of roughly $2.5 billion. As of 2025, Cato Networks reported more than $300 million in annual recurring revenue and an estimated valuation exceeding $4.8 billion.</p><h2>Investing and recognition</h2><p>Beyond his own founding ventures, Kramer has been an active early-stage investor in Israeli technology companies, with a portfolio concentrated in data and network security. Notable investments include Palo Alto Networks, Trusteer, Exabeam, WatchDox, Aryaka, and LightCyber. He has been described in industry commentary as \"the godfather of Israeli cybersecurity\" for his role in founding and funding a succession of companies that helped establish Israel as a global center of the cybersecurity industry. As of March 2026, Forbes estimated his net worth at approximately $2.4 billion, placing him among the wealthiest individuals in Israel.</p><h2>Significance</h2><p>Kramer's career illustrates the evolution of commercial network security across three decades: from the creation of the first widely deployed commercial firewalls at Check Point, to the emergence of web application firewalls at Imperva, to the cloud-native, converged security-and-networking architecture pioneered by Cato Networks. His repeated success in founding companies that reached significant scale or public-market valuation in the cybersecurity sector is unusual even within an industry noted for serial entrepreneurship, and his angel investments have extended his influence to other prominent security vendors.</p>"
   },
   "timeline": [
-    { "date": "1966", "event": "Born in Israel." },
-    { "date": "1993", "event": "Co-founds Check Point Software Technologies with Gil Shwed and Marius Nacht in Ramat Gan, Israel." },
-    { "date": "1996-06", "event": "Check Point completes its initial public offering on NASDAQ." },
-    { "date": "1998", "event": "Kramer departs Check Point." },
-    { "date": "2002", "event": "Co-founds WebCohort with Amichai Shulman and Mickey Boodaei." },
-    { "date": "2004", "event": "WebCohort is renamed Imperva." },
-    { "date": "2011-11", "event": "Imperva completes its initial public offering on the New York Stock Exchange." },
-    { "date": "2015", "event": "Co-founds Cato Networks with Gur Shatz in Tel Aviv." },
-    { "date": "2016-02", "event": "Cato Networks officially launches its SASE platform." },
-    { "date": "2019", "event": "Imperva is acquired by private equity firm Thoma Bravo." },
-    { "date": "2020", "event": "Cato Networks reaches unicorn status with a valuation exceeding $1 billion." },
-    { "date": "2023-12", "event": "Thales Group completes its acquisition of Imperva from Thoma Bravo for approximately $3.6 billion." }
+    {
+      "date": "1966",
+      "event": "Born in Israel."
+    },
+    {
+      "date": "1993",
+      "event": "Co-founds Check Point Software Technologies with Gil Shwed and Marius Nacht in Ramat Gan, Israel."
+    },
+    {
+      "date": "1996-06",
+      "event": "Check Point completes its initial public offering on NASDAQ."
+    },
+    {
+      "date": "1998",
+      "event": "Kramer departs Check Point."
+    },
+    {
+      "date": "2002",
+      "event": "Co-founds WebCohort with Amichai Shulman and Mickey Boodaei."
+    },
+    {
+      "date": "2004",
+      "event": "WebCohort is renamed Imperva."
+    },
+    {
+      "date": "2011-11",
+      "event": "Imperva completes its initial public offering on the New York Stock Exchange."
+    },
+    {
+      "date": "2015",
+      "event": "Co-founds Cato Networks with Gur Shatz in Tel Aviv."
+    },
+    {
+      "date": "2016-02",
+      "event": "Cato Networks officially launches its SASE platform."
+    },
+    {
+      "date": "2019",
+      "event": "Imperva is acquired by private equity firm Thoma Bravo."
+    },
+    {
+      "date": "2020",
+      "event": "Cato Networks reaches unicorn status with a valuation exceeding $1 billion."
+    },
+    {
+      "date": "2023-12",
+      "event": "Thales Group completes its acquisition of Imperva from Thoma Bravo for approximately $3.6 billion."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -40,16 +85,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Shlomo Kramer - Wikipedia", "url": "https://en.wikipedia.org/wiki/Shlomo_Kramer" },
-    { "title": "Check Point - Wikipedia", "url": "https://en.wikipedia.org/wiki/Check_Point" },
-    { "title": "Imperva - Wikipedia", "url": "https://en.wikipedia.org/wiki/Imperva" },
-    { "title": "Cato Networks - Wikipedia", "url": "https://en.wikipedia.org/wiki/Cato_Networks" }
+    {
+      "title": "Shlomo Kramer - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shlomo_Kramer"
+    },
+    {
+      "title": "Check Point - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Check_Point"
+    },
+    {
+      "title": "Imperva - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Imperva"
+    },
+    {
+      "title": "Cato Networks - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cato_Networks"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

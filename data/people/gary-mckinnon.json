@@ -7,7 +7,16 @@
   "born": "1966-02",
   "died": null,
   "era": "2000s-2010s",
-  "tags": ["hacking", "military", "nasa", "extradition", "ufo", "uk", "cybercrime", "asperger's"],
+  "tags": [
+    "hacking",
+    "military",
+    "nasa",
+    "extradition",
+    "ufo",
+    "uk",
+    "cybercrime",
+    "asperger's"
+  ],
   "summary": "Gary McKinnon is a Scottish computer systems administrator who, using the online alias \"Solo,\" gained unauthorized access to 97 United States military and NASA computers between February 2001 and March 2002, and who subsequently fought a decade-long legal battle against extradition to the United States.",
   "whyThisMatters": "McKinnon's intrusions were, at the time, described by U.S. prosecutors as the \"biggest military computer hack of all time,\" drawing public attention to the poor state of network security on sensitive government systems in the early 2000s. His ten-year extradition fight became a landmark case in UK-US extradition law and in debates over how the justice system should treat defendants with autism spectrum conditions, ultimately contributing to reforms of the UK Extradition Act. The case remains a widely cited reference point in discussions of hacker motivation, mental health, and disproportionate prosecution.",
   "knownFor": [
@@ -20,15 +29,42 @@
     "overview": "<h2>Background</h2><p>Gary McKinnon was born in February 1966 in Glasgow, Scotland, and later worked as a computer systems administrator in London. A self-taught hacker who used the online handle \"Solo,\" McKinnon developed a strong personal interest in UFO phenomena and claims of government cover-ups of free energy technology, a fascination that would directly motivate his later actions. He has since been diagnosed with Asperger's syndrome, a diagnosis that became a central element of his legal case.</p><h2>The Intrusions</h2><p>Between February 2001 and March 2002, McKinnon used a home computer and a dial-up modem connection to scan U.S. government networks for machines running Windows with blank or default administrator passwords. Using this simple technique, he gained access to a reported 97 computers belonging to the U.S. Army, Navy, Air Force, Department of Defense, and NASA, including systems tied to the Military District of Washington, the Earle Naval Weapons Station, and the Johnson Space Center. McKinnon said he was searching for evidence that the U.S. government was suppressing information about extraterrestrial life and free energy technology. U.S. authorities alleged that he also deleted critical files and logs, copied data, and disrupted network operations, causing significant financial damage; McKinnon disputed the extent of the damage. He left taunting messages on some compromised systems, including one reading \"Your security is crap.\"</p><h2>Indictment and Arrest</h2><p>McKinnon was first interviewed by UK police in March 2002 and again in August 2002 as part of a joint investigation with U.S. authorities. In November 2002, a U.S. federal grand jury in the Eastern District of Virginia indicted him on seven counts of computer-related crime, each carrying a potential ten-year prison sentence, after the U.S. Department of Justice announced charges against him for accessing military computers. He was later arrested in the United Kingdom in 2005 under the Extradition Act 2003 pursuant to a formal U.S. extradition request.</p><h2>Extradition Battle</h2><p>What followed was one of the most prolonged extradition disputes in modern British legal history. McKinnon's lawyers pursued appeals through the UK courts, including the House of Lords and the European Court of Human Rights, arguing that extradition would violate his human rights given his Asperger's diagnosis and associated risk of suicide. The case attracted broad public and political attention in the UK, including support from journalists, mental health advocates, and members of Parliament across party lines. Coverage in 2009 described McKinnon as suicidal amid the prolonged uncertainty of the case.</p><h2>Resolution</h2><p>On 16 October 2012, UK Home Secretary Theresa May blocked McKinnon's extradition to the United States, citing the risk to his life posed by his Asperger's syndrome and depressive illness under human rights grounds. On 14 December 2012, the UK Director of Public Prosecutions, Keir Starmer, announced that McKinnon would not face prosecution in the United Kingdom either, concluding that the evidential and practical difficulties of pursuing a UK case were insurmountable given the evidence was held in the United States. The decade-long case was thereby closed without McKinnon ever standing trial.</p><h2>Legacy</h2><p>The Gary McKinnon case is frequently cited as a turning point in UK debates over extradition procedure and the treatment of vulnerable defendants, and contributed to subsequent government review of the Extradition Act. It also remains one of the most widely discussed cases of an individual hacker penetrating U.S. military networks, illustrating both the security weaknesses of government systems in the early 2000s and the disproportionate legal consequences that can follow unauthorized access, regardless of motive.</p>"
   },
   "timeline": [
-    { "date": "2001-02", "event": "Gary McKinnon begins accessing U.S. military and NASA computer networks from a home computer in London using the alias \"Solo.\"" },
-    { "date": "2002-03", "event": "McKinnon's intrusion campaign, which reportedly touched 97 U.S. government computers, ends." },
-    { "date": "2002-03-19", "event": "McKinnon is first interviewed by UK police as part of the joint UK-US investigation." },
-    { "date": "2002-08-08", "event": "McKinnon is interviewed by UK police a second time." },
-    { "date": "2002-11", "event": "A U.S. federal grand jury in the Eastern District of Virginia indicts McKinnon on seven counts of computer-related crime." },
-    { "date": "2005", "event": "McKinnon is arrested in the UK under the Extradition Act 2003 pursuant to the U.S. extradition request." },
-    { "date": "2009-10", "event": "Media reports describe McKinnon as suicidal amid the prolonged extradition proceedings." },
-    { "date": "2012-10-16", "event": "UK Home Secretary Theresa May blocks McKinnon's extradition to the United States on human rights grounds." },
-    { "date": "2012-12-14", "event": "UK Director of Public Prosecutions Keir Starmer announces McKinnon will not be prosecuted in the UK, closing the case." }
+    {
+      "date": "2001-02",
+      "event": "Gary McKinnon begins accessing U.S. military and NASA computer networks from a home computer in London using the alias \"Solo.\""
+    },
+    {
+      "date": "2002-03",
+      "event": "McKinnon's intrusion campaign, which reportedly touched 97 U.S. government computers, ends."
+    },
+    {
+      "date": "2002-03-19",
+      "event": "McKinnon is first interviewed by UK police as part of the joint UK-US investigation."
+    },
+    {
+      "date": "2002-08-08",
+      "event": "McKinnon is interviewed by UK police a second time."
+    },
+    {
+      "date": "2002-11",
+      "event": "A U.S. federal grand jury in the Eastern District of Virginia indicts McKinnon on seven counts of computer-related crime."
+    },
+    {
+      "date": "2005",
+      "event": "McKinnon is arrested in the UK under the Extradition Act 2003 pursuant to the U.S. extradition request."
+    },
+    {
+      "date": "2009-10",
+      "event": "Media reports describe McKinnon as suicidal amid the prolonged extradition proceedings."
+    },
+    {
+      "date": "2012-10-16",
+      "event": "UK Home Secretary Theresa May blocks McKinnon's extradition to the United States on human rights grounds."
+    },
+    {
+      "date": "2012-12-14",
+      "event": "UK Director of Public Prosecutions Keir Starmer announces McKinnon will not be prosecuted in the UK, closing the case."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -36,17 +72,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Gary McKinnon - Wikipedia", "url": "https://en.wikipedia.org/wiki/Gary_McKinnon" },
-    { "title": "London, England Hacker Indicted Under Computer Fraud and Abuse Act For Accessing Military Computers", "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/mckinnonIndict.htm" },
-    { "title": "Pentagon hacker 'suicidal' following U.S. 'bullying' - CNN.com", "url": "https://www.cnn.com/2009/WORLD/europe/10/09/british.hacker.mckinnon/index.html" },
-    { "title": "Extraditing an autistic hacker - The Week", "url": "https://theweek.com/articles/502957/extraditing-autistic-hacker" },
-    { "title": "The hacker who breached NASA to prove that UFOs exist - Cybernews", "url": "https://cybernews.com/tech/hacker-who-breached-nasa-trying-prove-ufo-existence/" }
+    {
+      "title": "Gary McKinnon - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gary_McKinnon"
+    },
+    {
+      "title": "London, England Hacker Indicted Under Computer Fraud and Abuse Act For Accessing Military Computers",
+      "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/mckinnonIndict.htm"
+    },
+    {
+      "title": "Pentagon hacker 'suicidal' following U.S. 'bullying' - CNN.com",
+      "url": "https://www.cnn.com/2009/WORLD/europe/10/09/british.hacker.mckinnon/index.html"
+    },
+    {
+      "title": "Extraditing an autistic hacker - The Week",
+      "url": "https://theweek.com/articles/502957/extraditing-autistic-hacker"
+    },
+    {
+      "title": "The hacker who breached NASA to prove that UFOs exist - Cybernews",
+      "url": "https://cybernews.com/tech/hacker-who-breached-nasa-trying-prove-ufo-existence/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

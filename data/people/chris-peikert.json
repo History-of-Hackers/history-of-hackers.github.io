@@ -1,12 +1,72 @@
 {
-  "id":"chris-peikert", "type":"person", "title":"Chris Peikert", "slug":"chris-peikert", "name":"Chris Peikert", "born":null, "died":null, "era":"2000s-Present",
-  "tags":["cryptography","lattices","post-quantum-cryptography","ring-lwe","research"],
-  "summary":"Cryptographer whose research on lattice-based constructions and the Learning With Errors family of assumptions contributed to post-quantum cryptography.",
-  "whyThisMatters":"Lattice assumptions are a major basis for cryptographic designs intended to withstand known quantum algorithms. Peikert's research has helped develop, explain, and analyze constructions based on those assumptions.",
-  "knownFor":["Lattice-based cryptography","Ring-LWE research","Post-quantum cryptography"],
-  "sections":{"overview":"<p>Chris Peikert is a cryptographer whose research includes lattices, coding theory, algorithms, and computational complexity. His academic materials identify lattice-based cryptographic schemes as a particular focus.</p><h2>Lattices and security</h2><p>Peikert's work studies cryptosystems whose security is based on the apparent difficulty of lattice problems. His publications include work on Learning With Errors and ring-based variants.</p><h2>Research and teaching</h2><p>He received a Ph.D. from MIT in 2006 and has taught and published in cryptography and information security. His research record includes collaborations on foundational lattice constructions.</p><h2>Enduring relevance</h2><p>As standards and implementations consider post-quantum migration, lattice cryptography has become an important subject for both theoretical analysis and practical engineering.</p>"},
-  "timeline":[{"date":"2006","event":"Receives a Ph.D. from MIT, according to his academic profile."},{"date":"2010","event":"Co-authors work on ideal lattices and Learning With Errors over rings."},{"date":"2014","event":"Presents a tutorial on lattice cryptography for the Internet at PQCrypto."}],
-  "relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],
-  "sources":[{"title":"Chris Peikert academic profile", "url":"https://sites.cc.gatech.edu/fac/cpeikert/"},{"title":"Chris Peikert curriculum vitae", "url":"https://web.eecs.umich.edu/~cpeikert/peikert-cv.pdf"},{"title":"On Ideal Lattices and Learning with Errors Over Rings", "url":"https://cims.nyu.edu/~regev/papers/ideal-lwe.pdf"},{"title":"NIST: Post-Quantum Cryptography migration research challenges", "url":"https://arxiv.org/abs/1909.07353"}],
-  "editorial":{"verified":true,"sourcesCount":4,"lastReviewed":"2026-09-03","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-03"}
+  "id": "chris-peikert",
+  "type": "person",
+  "title": "Chris Peikert",
+  "slug": "chris-peikert",
+  "name": "Chris Peikert",
+  "born": null,
+  "died": null,
+  "era": "2000s-Present",
+  "tags": [
+    "cryptography",
+    "lattices",
+    "post-quantum-cryptography",
+    "ring-lwe",
+    "research"
+  ],
+  "summary": "Cryptographer whose research on lattice-based constructions and the Learning With Errors family of assumptions contributed to post-quantum cryptography.",
+  "whyThisMatters": "Lattice assumptions are a major basis for cryptographic designs intended to withstand known quantum algorithms. Peikert's research has helped develop, explain, and analyze constructions based on those assumptions.",
+  "knownFor": [
+    "Lattice-based cryptography",
+    "Ring-LWE research",
+    "Post-quantum cryptography"
+  ],
+  "sections": {
+    "overview": "<p>Chris Peikert is a cryptographer whose research includes lattices, coding theory, algorithms, and computational complexity. His academic materials identify lattice-based cryptographic schemes as a particular focus.</p><h2>Lattices and security</h2><p>Peikert's work studies cryptosystems whose security is based on the apparent difficulty of lattice problems. His publications include work on Learning With Errors and ring-based variants.</p><h2>Research and teaching</h2><p>He received a Ph.D. from MIT in 2006 and has taught and published in cryptography and information security. His research record includes collaborations on foundational lattice constructions.</p><h2>Enduring relevance</h2><p>As standards and implementations consider post-quantum migration, lattice cryptography has become an important subject for both theoretical analysis and practical engineering.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2006",
+      "event": "Receives a Ph.D. from MIT, according to his academic profile."
+    },
+    {
+      "date": "2010",
+      "event": "Co-authors work on ideal lattices and Learning With Errors over rings."
+    },
+    {
+      "date": "2014",
+      "event": "Presents a tutorial on lattice cryptography for the Internet at PQCrypto."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Chris Peikert academic profile",
+      "url": "https://sites.cc.gatech.edu/fac/cpeikert/"
+    },
+    {
+      "title": "Chris Peikert curriculum vitae",
+      "url": "https://web.eecs.umich.edu/~cpeikert/peikert-cv.pdf"
+    },
+    {
+      "title": "On Ideal Lattices and Learning with Errors Over Rings",
+      "url": "https://cims.nyu.edu/~regev/papers/ideal-lwe.pdf"
+    },
+    {
+      "title": "NIST: Post-Quantum Cryptography migration research challenges",
+      "url": "https://arxiv.org/abs/1909.07353"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

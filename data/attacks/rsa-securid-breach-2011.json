@@ -4,18 +4,41 @@
   "title": "The RSA SecurID Breach",
   "slug": "rsa-securid-breach-2011",
   "era": "2011",
-  "tags": ["apt", "spear-phishing", "two-factor-authentication", "supply-chain-risk", "china-linked", "cyber-espionage", "defense-industry"],
+  "tags": [
+    "apt",
+    "spear-phishing",
+    "two-factor-authentication",
+    "supply-chain-risk",
+    "china-linked",
+    "cyber-espionage",
+    "defense-industry"
+  ],
   "summary": "In March 2011, RSA Security disclosed that intruders had breached its network through a spear-phishing campaign and stolen data tied to its SecurID two-factor authentication tokens, information that was later used in an attempted intrusion at defense contractor Lockheed Martin.",
   "whyThisMatters": "The RSA breach exposed how a single compromise at a widely trusted security vendor could ripple outward to weaken authentication systems used across banks, governments, and defense contractors worldwide. It became one of the most-cited early examples of a targeted, patient advanced persistent threat (APT) intrusion built on simple spear-phishing rather than exotic exploitation, and it forced RSA's parent company EMC into a costly global token-replacement effort. The incident remains a standard case study in supply-chain and vendor-trust risk in enterprise security.",
   "sections": {
     "overview": "<h2>Background</h2><p>RSA Security, a subsidiary of the U.S. technology company EMC Corporation, was one of the world's best-known vendors of two-factor authentication technology. Its SecurID hardware and software tokens generated constantly changing numeric codes that, combined with a user's password, were used by tens of millions of employees at banks, government agencies, and defense contractors to log into sensitive networks. The security of the system depended on a database of secret \"seed\" values, each uniquely tied to a token's serial number, which RSA kept under tight control.</p><h2>The Attack</h2><p>On March 17, 2011, RSA disclosed that it had suffered what it called an extremely sophisticated cyberattack. According to RSA's own account and subsequent reporting, the intrusion began when a small number of RSA employees received spear-phishing emails, one bearing the subject line \"2011 Recruitment Plan,\" that carried a malicious Microsoft Excel attachment. When opened, the spreadsheet exploited a then-unknown (zero-day) vulnerability in Adobe Flash Player embedded in the file, allowing the attackers to install the Poison Ivy remote access trojan on the victim's machine and gain a foothold inside RSA's corporate network.</p><h2>What Was Compromised</h2><p>From that initial foothold, the attackers moved through RSA's systems and ultimately extracted information related to the SecurID product, widely reported to include data from the database mapping token serial numbers to their secret seed values. RSA did not publicly disclose the full technical details of what was taken, but the company acknowledged that the theft could reduce the effectiveness of SecurID two-factor authentication deployments and urged customers to tighten related security practices, such as protecting token serial numbers and hardening other authentication factors.</p><h2>The Lockheed Martin Intrusion Attempt</h2><p>In May 2011, reports emerged that defense contractor Lockheed Martin had detected an intrusion attempt against its network that investigators linked to the stolen RSA SecurID data. Lockheed Martin stated that its security team's rapid response prevented any loss of customer, program, or employee data, and it temporarily suspended remote access for employees as a precaution. Other RSA SecurID customers, including defense contractor L-3 Communications, were also reported to have faced related attack attempts around the same period, underscoring that the stolen seed data was being actively used against high-value targets beyond RSA itself.</p><h2>RSA's Response and the Token Replacement Program</h2><p>Facing mounting pressure over the scope of the breach, RSA announced on June 6, 2011, that it would offer token replacements or free security monitoring services to essentially all of its SecurID customers, a program that ultimately reached tens of thousands of corporate clients. RSA executive chairman Art Coviello maintained publicly that \"we believe and still believe that the customers are protected,\" even as the company undertook the costly remediation. EMC later disclosed that the breach and its aftermath, including the token-replacement program, cost the company approximately $66.3 million.</p><h2>Attribution and Legacy</h2><p>RSA characterized the intrusion as an advanced persistent threat resembling other contemporary espionage-style campaigns of the period, such as the Sykipot and Night Dragon attacks. In the weeks following the Lockheed Martin incident, several news reports cited unnamed investigators and security researchers linking the follow-on attacks to China-based actors, although no U.S. government agency issued a formal, named attribution at the time. The breach was later recognized at the 2011 Pwnie Awards, an industry event that highlights notable security successes and failures, where the RSA SecurID compromise received the \"Lamest Vendor Response\" award. The incident is now widely taught as an early, influential example of how a narrowly targeted phishing attack against a handful of employees can cascade into a global authentication-security crisis.</p>"
   },
   "timeline": [
-    { "date": "2011-03", "event": "RSA employees receive spear-phishing emails, including one titled \"2011 Recruitment Plan,\" carrying a malicious Excel attachment with a Flash zero-day exploit." },
-    { "date": "2011-03-17", "event": "RSA publicly discloses that it suffered an \"extremely sophisticated\" cyberattack affecting its SecurID two-factor authentication products." },
-    { "date": "2011-05", "event": "Defense contractor Lockheed Martin detects and repels an intrusion attempt linked to data stolen in the RSA breach; remote employee access is temporarily suspended." },
-    { "date": "2011-06-06", "event": "RSA announces it will offer SecurID token replacements or free monitoring to affected customers." },
-    { "date": "2011-08", "event": "The RSA SecurID compromise receives the \"Lamest Vendor Response\" award at the annual Pwnie Awards." }
+    {
+      "date": "2011-03",
+      "event": "RSA employees receive spear-phishing emails, including one titled \"2011 Recruitment Plan,\" carrying a malicious Excel attachment with a Flash zero-day exploit."
+    },
+    {
+      "date": "2011-03-17",
+      "event": "RSA publicly discloses that it suffered an \"extremely sophisticated\" cyberattack affecting its SecurID two-factor authentication products."
+    },
+    {
+      "date": "2011-05",
+      "event": "Defense contractor Lockheed Martin detects and repels an intrusion attempt linked to data stolen in the RSA breach; remote employee access is temporarily suspended."
+    },
+    {
+      "date": "2011-06-06",
+      "event": "RSA announces it will offer SecurID token replacements or free monitoring to affected customers."
+    },
+    {
+      "date": "2011-08",
+      "event": "The RSA SecurID compromise receives the \"Lamest Vendor Response\" award at the annual Pwnie Awards."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -23,18 +46,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "RSA SecurID - Wikipedia", "url": "https://en.wikipedia.org/wiki/RSA_SecurID" },
-    { "title": "RSA Security - Wikipedia", "url": "https://en.wikipedia.org/wiki/RSA_Security" },
-    { "title": "Social engineering (security) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Social_engineering_(security)" },
-    { "title": "Lockheed Martin - Wikipedia", "url": "https://en.wikipedia.org/wiki/Lockheed_Martin" },
-    { "title": "Pwnie Awards - Wikipedia", "url": "https://en.wikipedia.org/wiki/Pwnie_Awards" },
-    { "title": "RSA Security LLC - Form 8-K exhibit (open letter to customers), U.S. SEC EDGAR", "url": "https://www.sec.gov/Archives/edgar/data/790070/000119312511070159/dex991.htm" }
+    {
+      "title": "RSA SecurID - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RSA_SecurID"
+    },
+    {
+      "title": "RSA Security - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RSA_Security"
+    },
+    {
+      "title": "Social engineering (security) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Social_engineering_(security)"
+    },
+    {
+      "title": "Lockheed Martin - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lockheed_Martin"
+    },
+    {
+      "title": "Pwnie Awards - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pwnie_Awards"
+    },
+    {
+      "title": "RSA Security LLC - Form 8-K exhibit (open letter to customers), U.S. SEC EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/790070/000119312511070159/dex991.htm"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -4,25 +4,70 @@
   "title": "The Yahoo Data Breaches",
   "slug": "yahoo-data-breaches",
   "era": "2013-2017",
-  "tags": ["data breach", "yahoo", "state-sponsored", "fsb", "russia", "credential theft", "mega-breach", "2010s"],
+  "tags": [
+    "data breach",
+    "yahoo",
+    "state-sponsored",
+    "fsb",
+    "russia",
+    "credential theft",
+    "mega-breach",
+    "2010s"
+  ],
   "summary": "Between 2013 and 2014, attackers linked to Russia's FSB intelligence service compromised the entirety of Yahoo's user account database, affecting all three billion accounts; Yahoo did not publicly disclose the intrusions until 2016 and 2017, making it one of the largest data breaches in history.",
   "whyThisMatters": "The Yahoo breaches remain the largest known compromise of user accounts by number of records, and they exposed how a private technology company's user database could be targeted and exploited by a nation-state intelligence service for espionage rather than pure financial gain. The delayed disclosure led to the first-ever SEC penalty against a public company specifically for failing to timely report a cybersecurity incident, and the breach materially reduced the price Verizon paid to acquire Yahoo's core business. The case also produced one of the few criminal indictments in which sitting Russian FSB officers were formally charged by the United States for a cybercrime, illustrating the blurred line between state intelligence operations and cybercriminal activity.",
   "sections": {
     "overview": "<h2>Background</h2><p>Yahoo was, for much of the 2000s and early 2010s, one of the world's largest web portals and email providers, with billions of user accounts accumulated over nearly two decades of operation. By the mid-2010s the company was in commercial decline and in the process of negotiating a sale of its core internet business to Verizon Communications. It was during this period that the scale of historical security failures inside Yahoo's infrastructure came to light.</p><h2>The Intrusions</h2><p>Yahoo later determined that its network had been compromised on at least two separate occasions. The first intrusion began in August 2013 and resulted in the theft of data associated with all Yahoo user accounts then in existence, a figure the company eventually revised to three billion accounts. A second, related intrusion occurred in late 2014 and was attributed by Yahoo and U.S. prosecutors to hackers acting on behalf of Russia's Federal Security Service (FSB). In this incident, attackers used forged cookies and stolen proprietary source code to gain access to user accounts without needing passwords, ultimately affecting more than 500 million accounts. The information exposed in the breaches included names, email addresses, telephone numbers, dates of birth, hashed passwords (using the weak MD5 algorithm in many cases), and, for some accounts, encrypted or unencrypted security questions and answers.</p><h2>Disclosure Timeline</h2><p>Yahoo did not disclose either intrusion when it occurred. The company first revealed the 2014 breach publicly on September 22, 2016, stating that at least 500 million accounts had been affected, while it was in the midst of the pending Verizon acquisition. In December 2016, Yahoo disclosed a separate, earlier breach dating to August 2013, initially estimating it had affected around one billion accounts. In October 2017, following further investigation aided by outside forensic experts, Yahoo (by then operating as Altaba after the sale of its core business to Verizon) announced that the 2013 breach had in fact compromised all three billion Yahoo accounts that existed at the time, tripling the earlier estimate.</p><h2>Attribution and Prosecution</h2><p>On March 15, 2017, the U.S. Department of Justice unsealed an indictment charging four individuals in connection with the 2014 intrusion: Dmitry Dokuchaev and Igor Sushchin, officers of Russia's FSB; Alexsey Belan, a Russian hacker already wanted by the FBI for prior intrusions into U.S. companies; and Karim Baratov, a Canadian and Kazakhstani national. Prosecutors alleged that the FSB officers had protected, directed, and facilitated Belan's criminal hacking activity and used the access it produced for their own intelligence purposes, including targeting the accounts of journalists, government officials, and business executives. Baratov, who used information obtained from the breach to access individual webmail accounts on a for-hire basis, was extradited from Canada, pleaded guilty in 2017, and was sentenced in May 2018 to five years in prison and ordered to pay over $2 million in restitution. The FSB officers and Belan, who remained in Russia, were not brought into U.S. custody.</p><h2>Corporate and Regulatory Consequences</h2><p>The breaches had significant commercial and regulatory repercussions for Yahoo. Verizon, which had agreed in July 2016 to acquire Yahoo's core internet business for approximately $4.83 billion, renegotiated the deal after the breaches were disclosed, ultimately closing the acquisition in June 2017 for about $4.48 billion, roughly $350 million less than the original price. In April 2018, the U.S. Securities and Exchange Commission fined Altaba (Yahoo's successor entity) $35 million for failing to disclose the 2014 breach to investors in a timely manner, marking the first SEC enforcement action of its kind against a public company over delayed breach disclosure. Separately, Yahoo/Altaba agreed in 2019 to a $117.5 million class-action settlement to resolve consumer litigation stemming from the breaches, along with commitments to fund credit monitoring services for affected users.</p><h2>Significance and Legacy</h2><p>The Yahoo breaches are frequently cited as the largest data breach in history by number of user accounts affected, and they remain a benchmark case study in cybersecurity, corporate disclosure law, and nation-state cyber operations. The incident demonstrated that intelligence services could co-opt criminal hackers to conduct espionage operations at massive scale while blending state and non-state motives, and it helped drive greater regulatory scrutiny of how and when companies must disclose cybersecurity incidents to shareholders and the public.</p>"
   },
   "timeline": [
-    { "date": "2013-08", "event": "Attackers compromise Yahoo's network, eventually stealing data associated with all Yahoo accounts in existence." },
-    { "date": "2014-12", "event": "A second intrusion, later attributed to hackers linked to Russia's FSB, compromises more than 500 million Yahoo accounts using forged cookies." },
-    { "date": "2016-07", "event": "Verizon agrees to acquire Yahoo's core internet business for approximately $4.83 billion." },
-    { "date": "2016-09-22", "event": "Yahoo publicly discloses the 2014 breach, stating at least 500 million accounts were affected." },
-    { "date": "2016-12", "event": "Yahoo discloses the separate 2013 breach, initially estimating about one billion accounts affected." },
-    { "date": "2017-02", "event": "Verizon and Yahoo agree to reduce the acquisition price by roughly $350 million following the breach disclosures." },
-    { "date": "2017-03-15", "event": "U.S. Department of Justice unseals indictment charging two FSB officers and two hackers, including Alexsey Belan and Karim Baratov, over the 2014 breach." },
-    { "date": "2017-06-13", "event": "Verizon completes its acquisition of Yahoo's core business for about $4.48 billion." },
-    { "date": "2017-10-03", "event": "Yahoo (as Altaba) reveals that the 2013 breach in fact affected all three billion Yahoo accounts, tripling its prior estimate." },
-    { "date": "2018-05", "event": "Karim Baratov is sentenced to five years in prison and ordered to pay over $2 million in restitution." },
-    { "date": "2018-04", "event": "The SEC fines Altaba $35 million for failing to timely disclose the 2014 breach to investors." },
-    { "date": "2019-04", "event": "Yahoo/Altaba agrees to a $117.5 million class-action settlement with affected users." }
+    {
+      "date": "2013-08",
+      "event": "Attackers compromise Yahoo's network, eventually stealing data associated with all Yahoo accounts in existence."
+    },
+    {
+      "date": "2014-12",
+      "event": "A second intrusion, later attributed to hackers linked to Russia's FSB, compromises more than 500 million Yahoo accounts using forged cookies."
+    },
+    {
+      "date": "2016-07",
+      "event": "Verizon agrees to acquire Yahoo's core internet business for approximately $4.83 billion."
+    },
+    {
+      "date": "2016-09-22",
+      "event": "Yahoo publicly discloses the 2014 breach, stating at least 500 million accounts were affected."
+    },
+    {
+      "date": "2016-12",
+      "event": "Yahoo discloses the separate 2013 breach, initially estimating about one billion accounts affected."
+    },
+    {
+      "date": "2017-02",
+      "event": "Verizon and Yahoo agree to reduce the acquisition price by roughly $350 million following the breach disclosures."
+    },
+    {
+      "date": "2017-03-15",
+      "event": "U.S. Department of Justice unseals indictment charging two FSB officers and two hackers, including Alexsey Belan and Karim Baratov, over the 2014 breach."
+    },
+    {
+      "date": "2017-06-13",
+      "event": "Verizon completes its acquisition of Yahoo's core business for about $4.48 billion."
+    },
+    {
+      "date": "2017-10-03",
+      "event": "Yahoo (as Altaba) reveals that the 2013 breach in fact affected all three billion Yahoo accounts, tripling its prior estimate."
+    },
+    {
+      "date": "2018-05",
+      "event": "Karim Baratov is sentenced to five years in prison and ordered to pay over $2 million in restitution."
+    },
+    {
+      "date": "2018-04",
+      "event": "The SEC fines Altaba $35 million for failing to timely disclose the 2014 breach to investors."
+    },
+    {
+      "date": "2019-04",
+      "event": "Yahoo/Altaba agrees to a $117.5 million class-action settlement with affected users."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -30,15 +75,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Yahoo! data breaches - Wikipedia", "url": "https://en.wikipedia.org/wiki/Yahoo!_data_breaches" },
-    { "title": "Alexsey Belan - Wikipedia", "url": "https://en.wikipedia.org/wiki/Alexsey_Belan" },
-    { "title": "Verizon Communications - Wikipedia (Yahoo acquisition details)", "url": "https://en.wikipedia.org/wiki/Verizon_Communications" }
+    {
+      "title": "Yahoo! data breaches - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yahoo!_data_breaches"
+    },
+    {
+      "title": "Alexsey Belan - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexsey_Belan"
+    },
+    {
+      "title": "Verizon Communications - Wikipedia (Yahoo acquisition details)",
+      "url": "https://en.wikipedia.org/wiki/Verizon_Communications"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

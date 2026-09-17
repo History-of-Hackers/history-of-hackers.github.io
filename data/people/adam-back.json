@@ -1,0 +1,80 @@
+{
+  "id": "adam-back",
+  "type": "person",
+  "title": "Adam Back",
+  "slug": "adam-back",
+  "name": "Adam Back",
+  "born": 1970,
+  "died": null,
+  "era": "1990s-present",
+  "tags": [
+    "cypherpunks",
+    "hashcash",
+    "proof-of-work",
+    "cryptography",
+    "bitcoin"
+  ],
+  "summary": "British cryptographer who invented Hashcash, the proof-of-work scheme cited in the Bitcoin whitepaper.",
+  "whyThisMatters": "Hashcash's proof-of-work idea became the foundation of Bitcoin mining and of anti-spam and anti-abuse rate limiting.",
+  "knownFor": [
+    "Hashcash (1997)",
+    "Blockstream co-founder",
+    "Cypherpunk activism against export controls"
+  ],
+  "sections": {
+    "overview": "<p>Adam Back is a British cryptographer and cypherpunk. He earned a PhD in computer science from the University of Exeter and was an active participant in the cypherpunks mailing list in the 1990s.</p><h2>Hashcash</h2><p>In 1997 Back proposed Hashcash, a scheme in which a sender proves it has spent CPU time by finding a partial hash collision. Intended to throttle email spam and denial-of-service, it was later cited by Satoshi Nakamoto's Bitcoin whitepaper as the basis of Bitcoin's proof-of-work mining.</p><h2>Export-control activism</h2><p>Back was among the cypherpunks who protested U.S. cryptography export rules by circulating a three-line Perl implementation of RSA, printed on T-shirts and email signatures as a \"munition.\" In 2014 he co-founded Blockstream, where he serves as CEO.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1970-07",
+      "event": "Born in London."
+    },
+    {
+      "date": "1997-03",
+      "event": "Announces Hashcash on the cypherpunks mailing list."
+    },
+    {
+      "date": "2002",
+      "event": "Publishes 'Hashcash - A Denial of Service Counter-Measure'."
+    },
+    {
+      "date": "2008-10-31",
+      "event": "Hashcash is cited in the Bitcoin whitepaper."
+    },
+    {
+      "date": "2014",
+      "event": "Co-founds Blockstream."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Adam Back, 'Hashcash - A Denial of Service Counter-Measure' (2002)",
+      "url": "http://www.hashcash.org/papers/hashcash.pdf"
+    },
+    {
+      "title": "Hashcash.org",
+      "url": "http://www.hashcash.org/"
+    },
+    {
+      "title": "Satoshi Nakamoto, 'Bitcoin: A Peer-to-Peer Electronic Cash System' (cites Hashcash)",
+      "url": "https://bitcoin.org/bitcoin.pdf"
+    },
+    {
+      "title": "Wikipedia: Adam Back",
+      "url": "https://en.wikipedia.org/wiki/Adam_Back"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

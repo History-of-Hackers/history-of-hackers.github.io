@@ -4,24 +4,64 @@
   "title": "Core Security Technologies",
   "slug": "core-security-technologies",
   "era": "1996-Present",
-  "tags": ["penetration-testing", "argentina", "exploit-development", "core-impact", "impacket", "vulnerability-research"],
+  "tags": [
+    "penetration-testing",
+    "argentina",
+    "exploit-development",
+    "core-impact",
+    "impacket",
+    "vulnerability-research"
+  ],
   "summary": "Core Security Technologies is an information-security company founded in 1996 in Buenos Aires, Argentina, best known for creating the commercial penetration-testing platform Core Impact and for its long association with the open-source network-protocol toolkit Impacket.",
   "whyThisMatters": "Core Security was one of the first companies to productize automated penetration testing, helping establish exploit-development and \"attack simulation\" as a legitimate commercial security discipline rather than a purely underground activity. Its research arm, CoreLabs, published influential vulnerability advisories for years, and Impacket became (and remains) a foundational library used across the offensive-security and red-team community for working with Windows network protocols such as SMB and MSRPC. The company's Argentine origins also made it a notable example of Latin American talent shaping the global security-tools industry.",
   "sections": {
     "overview": "<h2>Background</h2><p>Core Security Technologies was founded in 1996 in Buenos Aires, Argentina, growing out of a research group of local security researchers before establishing a formal U.S. commercial presence a few years later. Company co-founders included Emiliano Kargieman and Gerardo Richarte, part of a wave of Argentine security researchers who moved from independent vulnerability research into building commercial security products. The company's internal research group, CoreLabs, was established in 1997 to conduct vulnerability research and publish security advisories, and the company performed one of its first U.S.-based penetration-testing engagements in 1998.</p><h2>Core Impact and Commercial Growth</h2><p>Core Security's flagship product, Core Impact, was developed as a commercial penetration-testing and exploit-development platform, allowing security teams to safely simulate real-world multi-stage attacks against their own networks, endpoints, and web applications rather than relying solely on manual testing or vulnerability scanning. Core Impact Pro was released in 2002, the same year the company received a $1.5 million investment from Morgan Stanley, helping fund its expansion. The company opened its first United States office in New York in 2000 and later relocated its headquarters to Boston, Massachusetts, in 2003, reflecting its growing focus on the North American enterprise security market while maintaining a substantial research and development presence in Argentina.</p><h2>Impacket</h2><p>Core Security is closely associated with Impacket, a widely used open-source collection of Python classes for constructing and parsing network protocol packets, with particular depth in Windows-centric protocols such as SMB (versions 1 through 3), MSRPC, and Kerberos. Impacket has become a staple tool in penetration testing and red-team tradecraft for interacting directly with Windows network services at a low level. According to the project's own documentation, Impacket was originally created by SecureAuth (a company that spun out of Core Security in the mid-2010s) and is today maintained by Fortra's Core Security, reflecting the tool's roots within the broader Core Security research lineage even as its formal corporate ownership has changed over time.</p><h2>Corporate Changes and Later History</h2><p>Over the following two decades, Core Security expanded into adjacent areas of vulnerability management and identity governance. In 2015 the company was acquired by Courion, an identity and access management vendor, which subsequently rebranded itself as Core Security in 2016. Under that banner, Core Security made additional acquisitions, including threat-intelligence company Damballa in 2016 and a merger with identity-security firm SecureAuth in 2017. In 2019, Core Security's product lines were acquired by HelpSystems, which itself was rebranded as Fortra in 2022; Core Security's tools, including Core Impact and Impacket, continue to be developed and sold under the Fortra umbrella.</p><h2>Significance and Legacy</h2><p>Core Security Technologies is historically notable as one of the earliest companies to turn offensive security research and exploit development into a sustained commercial product line, at a time when \"penetration testing\" was still an emerging discipline for most enterprises and governments. Its Buenos Aires origins made it a prominent example of Argentine and broader Latin American expertise feeding directly into the global information-security industry, alongside other researchers and groups that emerged from the same regional hacking and security-research scene. Tools associated with the company, especially Impacket, remain in active, everyday use by penetration testers, red teams, and, at times, malicious actors, underscoring the dual-use nature of the offensive security tooling the company pioneered.</p>"
   },
   "timeline": [
-    { "date": "1996", "event": "Core Security Technologies is founded in Buenos Aires, Argentina, by a group of security researchers including Emiliano Kargieman and Gerardo Richarte." },
-    { "date": "1997", "event": "CoreLabs, the company's vulnerability research arm, is established." },
-    { "date": "1998", "event": "Core Security conducts one of its first penetration-testing engagements in the United States." },
-    { "date": "2000", "event": "The company opens its first U.S. office, in New York." },
-    { "date": "2002", "event": "Core Impact Pro, the company's flagship automated penetration-testing platform, is released; Morgan Stanley invests $1.5 million in the company." },
-    { "date": "2003", "event": "Core Security relocates its corporate headquarters to Boston, Massachusetts." },
-    { "date": "2015", "event": "Core Security is acquired by identity-management company Courion." },
-    { "date": "2016", "event": "Courion rebrands under the Core Security name; the company acquires threat-intelligence vendor Damballa." },
-    { "date": "2017", "event": "Core Security merges with identity-security firm SecureAuth, the company later credited as Impacket's original creator." },
-    { "date": "2019", "event": "Core Security's product portfolio is acquired by HelpSystems." },
-    { "date": "2022", "event": "HelpSystems rebrands as Fortra, which continues to develop and maintain Core Impact and Impacket under its Core Security business." }
+    {
+      "date": "1996",
+      "event": "Core Security Technologies is founded in Buenos Aires, Argentina, by a group of security researchers including Emiliano Kargieman and Gerardo Richarte."
+    },
+    {
+      "date": "1997",
+      "event": "CoreLabs, the company's vulnerability research arm, is established."
+    },
+    {
+      "date": "1998",
+      "event": "Core Security conducts one of its first penetration-testing engagements in the United States."
+    },
+    {
+      "date": "2000",
+      "event": "The company opens its first U.S. office, in New York."
+    },
+    {
+      "date": "2002",
+      "event": "Core Impact Pro, the company's flagship automated penetration-testing platform, is released; Morgan Stanley invests $1.5 million in the company."
+    },
+    {
+      "date": "2003",
+      "event": "Core Security relocates its corporate headquarters to Boston, Massachusetts."
+    },
+    {
+      "date": "2015",
+      "event": "Core Security is acquired by identity-management company Courion."
+    },
+    {
+      "date": "2016",
+      "event": "Courion rebrands under the Core Security name; the company acquires threat-intelligence vendor Damballa."
+    },
+    {
+      "date": "2017",
+      "event": "Core Security merges with identity-security firm SecureAuth, the company later credited as Impacket's original creator."
+    },
+    {
+      "date": "2019",
+      "event": "Core Security's product portfolio is acquired by HelpSystems."
+    },
+    {
+      "date": "2022",
+      "event": "HelpSystems rebrands as Fortra, which continues to develop and maintain Core Impact and Impacket under its Core Security business."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -29,16 +69,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Core Security Technologies - Wikipedia", "url": "https://en.wikipedia.org/wiki/Core_Security_Technologies" },
-    { "title": "Emiliano Kargieman - Wikipedia (Spanish)", "url": "https://es.wikipedia.org/wiki/Emiliano_Kargieman" },
-    { "title": "Impacket (fortra/impacket) - GitHub repository and README", "url": "https://github.com/fortra/impacket" },
-    { "title": "Satellogic - Wikipedia", "url": "https://en.wikipedia.org/wiki/Satellogic" }
+    {
+      "title": "Core Security Technologies - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Core_Security_Technologies"
+    },
+    {
+      "title": "Emiliano Kargieman - Wikipedia (Spanish)",
+      "url": "https://es.wikipedia.org/wiki/Emiliano_Kargieman"
+    },
+    {
+      "title": "Impacket (fortra/impacket) - GitHub repository and README",
+      "url": "https://github.com/fortra/impacket"
+    },
+    {
+      "title": "Satellogic - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Satellogic"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -15,14 +15,14 @@
     "academic-research"
   ],
   "summary": "American computer scientist and network architect associated with the end-to-end argument and early internet protocol work.",
-  "whyThisMatters": "Reed\u2019s work articulated architectural principles that shaped the open internet, including where reliability and security functions belong in a networked system.",
+  "whyThisMatters": "Reed’s work articulated architectural principles that shaped the open internet, including where reliability and security functions belong in a networked system.",
   "knownFor": [
     "End-to-end argument",
     "Internet architecture",
     "Distributed systems"
   ],
   "sections": {
-    "overview": "<p>David P. Reed is an American computer scientist whose work spans computer networking, distributed systems, and internet architecture. He co-authored the end-to-end argument, a highly influential account of how functions should be placed in layered communication systems.</p><h2>Architectural legacy</h2><p>The end-to-end argument informed the design of internet protocols and remains a reference point in debates about security, reliability, privacy, and control in networked systems. Reed\u2019s career also included work on early network protocols and interactive computing.</p>"
+    "overview": "<p>David P. Reed is an American computer scientist whose work spans computer networking, distributed systems, and internet architecture. He co-authored the end-to-end argument, a highly influential account of how functions should be placed in layered communication systems.</p><h2>Architectural legacy</h2><p>The end-to-end argument informed the design of internet protocols and remains a reference point in debates about security, reliability, privacy, and control in networked systems. Reed’s career also included work on early network protocols and interactive computing.</p>"
   },
   "timeline": [
     {
@@ -74,6 +74,7 @@
     "sourcesCount": 3,
     "lastReviewed": "2026-09-03",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "codex-2026-09-03"
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
   }
 }

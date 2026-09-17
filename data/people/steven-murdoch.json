@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["tor", "anonymity", "chip-and-pin", "emv-security", "banking-security", "academic-research", "uk", "privacy"],
+  "tags": [
+    "tor",
+    "anonymity",
+    "chip-and-pin",
+    "emv-security",
+    "banking-security",
+    "academic-research",
+    "uk",
+    "privacy"
+  ],
   "summary": "Steven J. Murdoch is a British computer scientist and Professor of Security Engineering at University College London, known for research on the Tor anonymity network and for exposing critical vulnerabilities in the UK's Chip and PIN (EMV) banking card system.",
   "whyThisMatters": "Murdoch's academic security research bridged the gap between theoretical cryptographic weaknesses and real-world consumer harm, most notably by demonstrating that banks' Chip and PIN system could be defeated to authorize fraudulent transactions without knowledge of a card's PIN. His \"Chip and PIN is Broken\" and related EMV protocol research forced banks and payment networks to reconsider security assumptions used to deny fraud victims refunds, and his work as a Tor Project contributor helped shape widely used anonymity and censorship-circumvention technology. He has also served as an expert witness in UK legal cases involving disputed electronic evidence, including matters connected to the Post Office Horizon scandal.",
   "knownFor": [
@@ -22,12 +31,30 @@
     "overview": "<h2>Background</h2><p>Steven J. Murdoch is a British computer scientist specializing in security engineering, privacy-enhancing technologies, and anonymous communication systems. He completed his PhD at the University of Cambridge's Computer Laboratory in 2008, supervised by Markus Kuhn, with a dissertation on covert channel vulnerabilities in anonymity systems. His doctoral work was recognized with the 2008 ERCIM Security and Trust Management Working Group Award. He went on to hold a Royal Society University Research Fellowship starting in 2012 and became a bye-fellow of Christ's College, Cambridge, before later joining University College London (UCL), where he is a Professor of Security Engineering in the Department of Computer Science and leads work within its Information Security Research Group.</p><h2>Tor Project and Anonymous Communication Research</h2><p>Murdoch has been a long-standing member of and contributor to the Tor Project, the organization behind the Tor anonymity network and Tor Browser. His research in this area has focused on traffic analysis attacks against anonymity systems, the usability and latency trade-offs of mix networks, and techniques for resisting internet censorship. This work situates him among the academic researchers whose findings have directly influenced the design and hardening of widely deployed privacy tools used by journalists, activists, and ordinary users seeking to resist surveillance.</p><h2>Exposing Chip and PIN / EMV Vulnerabilities</h2><p>Murdoch became widely known outside academic circles for research conducted with colleagues at the University of Cambridge's Security Group — including Saar Drimer, Ross Anderson, and Mike Bond — into the EMV protocol underlying the UK's \"Chip and PIN\" bank card payment system. In 2010, the team published a paper, popularly summarized as \"Chip and PIN is Broken,\" presented at the IEEE Symposium on Security and Privacy, describing what became known as the \"no-PIN\" or \"wedge\" attack. The attack used a small electronic device inserted between a stolen chip card and a payment terminal to intercept and falsify the PIN verification step, tricking the terminal into believing the correct PIN had been entered even though it had not. Critically, the resulting transaction record would falsely show that PIN verification had succeeded, a fact that had previously been used by banks to deny reimbursement to fraud victims on the assumption that a successfully PIN-verified transaction proved cardholder negligence. The research was first shared privately with the banking industry in late 2009 before formal academic publication and drew significant media coverage, including from the BBC's Newsnight program.</p><h2>Further Banking Security Research</h2><p>In related work, Murdoch, Drimer, and Anderson also examined the security of Chip Authentication Program (CAP) card readers used for UK online banking authentication, publishing findings in a paper titled \"Optimised to Fail: Card Readers for Online Banking.\" That research identified design weaknesses in CAP readers and cards, including scenarios where zero-value \"test\" transactions could be manipulated by fraudsters to extract valid authentication codes from unsuspecting victims. The findings contributed to subsequent security improvements in later generations of CAP devices.</p><h2>Legal and Public-Interest Work</h2><p>Beyond academic publication, Murdoch has applied his technical expertise in legal contexts, serving as an expert witness in UK court cases involving disputed banking fraud claims and the reliability of electronic evidence. He has also been recognized as an expert commentator on the Post Office Horizon scandal, in which flawed accounting software was used to wrongfully prosecute subpostmasters, drawing on his background in evaluating the trustworthiness of computer-generated evidence. He has served on the board of the Open Rights Group, a UK digital rights organization, since March 2022, and has held program and general chair roles for security conferences including the Privacy Enhancing Technologies Symposium (PETS) and Financial Cryptography and Data Security.</p><h2>Significance and Legacy</h2><p>Murdoch's career illustrates how academic cryptographic and security research can have immediate consumer-protection consequences: his Chip and PIN findings undercut a widely used justification banks had relied on to reject fraud disputes, and his broader body of work connects theoretical anonymity research to the practical privacy tools relied on by millions of Tor users worldwide. He remains an active figure in both the academic security research community and public discourse on digital evidence, banking fraud, and privacy technology in the UK.</p>"
   },
   "timeline": [
-    { "date": "2008", "event": "Completed PhD at the University of Cambridge Computer Laboratory on covert channel vulnerabilities in anonymity systems; received the ERCIM Security and Trust Management Working Group Award for the thesis." },
-    { "date": "2009-12", "event": "Cambridge researchers privately disclosed the EMV 'no-PIN' Chip and PIN vulnerability to the UK banking industry." },
-    { "date": "2010", "event": "Co-authored and presented 'Chip and PIN is Broken' at the IEEE Symposium on Security and Privacy, detailing the no-PIN wedge attack on EMV bank cards." },
-    { "date": "2012", "event": "Awarded a Royal Society University Research Fellowship." },
-    { "date": "2011", "event": "Served as General Chair for the Financial Cryptography and Data Security conference." },
-    { "date": "2022-03", "event": "Joined the board of the Open Rights Group." }
+    {
+      "date": "2008",
+      "event": "Completed PhD at the University of Cambridge Computer Laboratory on covert channel vulnerabilities in anonymity systems; received the ERCIM Security and Trust Management Working Group Award for the thesis."
+    },
+    {
+      "date": "2009-12",
+      "event": "Cambridge researchers privately disclosed the EMV 'no-PIN' Chip and PIN vulnerability to the UK banking industry."
+    },
+    {
+      "date": "2010",
+      "event": "Co-authored and presented 'Chip and PIN is Broken' at the IEEE Symposium on Security and Privacy, detailing the no-PIN wedge attack on EMV bank cards."
+    },
+    {
+      "date": "2012",
+      "event": "Awarded a Royal Society University Research Fellowship."
+    },
+    {
+      "date": "2011",
+      "event": "Served as General Chair for the Financial Cryptography and Data Security conference."
+    },
+    {
+      "date": "2022-03",
+      "event": "Joined the board of the Open Rights Group."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -35,16 +62,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Steven J. Murdoch - Wikipedia", "url": "https://en.wikipedia.org/wiki/Steven_J._Murdoch" },
-    { "title": "Chip & PIN (EMV) Relay Attacks - University of Cambridge Computer Laboratory", "url": "https://www.cl.cam.ac.uk/research/security/banking/nopin/" },
-    { "title": "Professor Steven J. Murdoch - Personal Website", "url": "https://www.murdoch.is/" },
-    { "title": "Chip Authentication Program - Wikipedia", "url": "https://en.wikipedia.org/wiki/Chip_Authentication_Program" }
+    {
+      "title": "Steven J. Murdoch - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Steven_J._Murdoch"
+    },
+    {
+      "title": "Chip & PIN (EMV) Relay Attacks - University of Cambridge Computer Laboratory",
+      "url": "https://www.cl.cam.ac.uk/research/security/banking/nopin/"
+    },
+    {
+      "title": "Professor Steven J. Murdoch - Personal Website",
+      "url": "https://www.murdoch.is/"
+    },
+    {
+      "title": "Chip Authentication Program - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chip_Authentication_Program"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -42,15 +42,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "OllyDbg - Wikipedia", "url": "https://en.wikipedia.org/wiki/OllyDbg" },
-    { "title": "OllyDbg official site", "url": "http://www.ollydbg.de/" },
-    { "title": "Malware Unicorn RE101 Workshop - Debuggers overview", "url": "https://malwareunicorn.org/workshops/re101.html" }
+    {
+      "title": "OllyDbg - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OllyDbg"
+    },
+    {
+      "title": "OllyDbg official site",
+      "url": "http://www.ollydbg.de/"
+    },
+    {
+      "title": "Malware Unicorn RE101 Workshop - Debuggers overview",
+      "url": "https://malwareunicorn.org/workshops/re101.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

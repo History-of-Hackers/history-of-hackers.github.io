@@ -1,0 +1,72 @@
+{
+  "id": "markus-hess",
+  "type": "person",
+  "title": "Markus Hess",
+  "slug": "markus-hess",
+  "name": "Markus Hess",
+  "born": 1960,
+  "died": null,
+  "era": "1980s",
+  "tags": [
+    "germany",
+    "kgb-hack",
+    "espionage",
+    "cuckoos-egg",
+    "cold-war"
+  ],
+  "summary": "German hacker whose intrusions into U.S. military and research networks were traced by Clifford Stoll, as told in 'The Cuckoo's Egg'.",
+  "whyThisMatters": "Hess was the intruder in the first well-documented international computer-espionage investigation, which established many incident-response practices.",
+  "knownFor": [
+    "Intruder in 'The Cuckoo's Egg'",
+    "KGB hack",
+    "Espionage conviction (1990)"
+  ],
+  "sections": {
+    "overview": "<p>Markus Hess is a German hacker from Hannover. From 1986 he used dial-up and X.25 connections to reach Lawrence Berkeley National Laboratory in California and, from there, to attack roughly 400 U.S. military computers, including systems at the Pentagon, MITRE, and military bases in the U.S., Germany, and Japan.</p><h2>The Cuckoo's Egg</h2><p>A 75-cent accounting discrepancy led LBL system administrator Clifford Stoll to notice the intruder. Over ten months Stoll logged Hess's sessions with printers, built a honeypot of fake SDI documents, and worked with telephone companies and the FBI to trace the connection to Hannover. Hess was arrested in June 1987.</p><h2>Trial</h2><p>The investigation revealed that Hess had sold material to the KGB alongside Karl Koch and others. In 1990 he was convicted of espionage and given a suspended sentence of one year and eight months.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1986-08",
+      "event": "Clifford Stoll notices a 75-cent accounting error at LBL that leads to Hess's sessions."
+    },
+    {
+      "date": "1987-06",
+      "event": "Arrested in Hannover after the trace from LBL."
+    },
+    {
+      "date": "1989",
+      "event": "Clifford Stoll publishes 'The Cuckoo's Egg' about the investigation."
+    },
+    {
+      "date": "1990-02",
+      "event": "Convicted of espionage in Celle and given a suspended sentence."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Clifford Stoll, 'Stalking the Wily Hacker' (Communications of the ACM, 1988)",
+      "url": "https://dl.acm.org/doi/10.1145/42411.42412"
+    },
+    {
+      "title": "Clifford Stoll, 'The Cuckoo's Egg' (1989)",
+      "url": "https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book)"
+    },
+    {
+      "title": "Wikipedia: Markus Hess",
+      "url": "https://en.wikipedia.org/wiki/Markus_Hess"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

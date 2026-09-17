@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["core security", "argentina", "penetration testing", "exploit development", "latin america", "core impact", "quarkslab"],
+  "tags": [
+    "core security",
+    "argentina",
+    "penetration testing",
+    "exploit development",
+    "latin america",
+    "core impact",
+    "quarkslab"
+  ],
   "summary": "Ivan Arce is an Argentine security researcher who co-founded Core Security Technologies in Buenos Aires in 1996 and served as its Chief Technology Officer, later becoming Chief Research Officer and CTO at the French security firm Quarkslab.",
   "whyThisMatters": "Arce helped build one of Latin America's first internationally recognized offensive-security companies at a time when commercial exploit development and automated penetration testing were nearly nonexistent as a market category. Core Security's CORE IMPACT product, developed under his technical direction, was among the first commercial platforms to automate penetration testing using real exploit code, influencing how the broader industry approached vulnerability validation. His career also illustrates the emergence of Argentina and the wider Latin American region as a significant source of exploit-development and offensive-security talent from the late 1990s onward.",
   "knownFor": [
@@ -21,15 +29,42 @@
     "overview": "<h2>Background</h2><p>Ivan Arce is an Argentine information security researcher and executive best known as a co-founder of Core Security Technologies, a Buenos Aires-founded computer security company. He is frequently described in industry profiles as an infosec industry veteran with several decades of experience, spanning the growth of the commercial penetration-testing and exploit-development market from its earliest days through its maturation into a recognized cybersecurity discipline.</p><h2>Core Security Technologies</h2><p>Core Security (originally Core SDI) was founded in 1996 in Buenos Aires, Argentina, with its research arm CoreLabs established the following year and publishing its first security advisory in 1997. The company performed one of its first U.S.-based penetration tests in 1998 and opened a New York City office in 2000 before later relocating its headquarters to Boston. Arce served as the company's Chief Technology Officer, a role in which, according to a 2003 interview, he was responsible for \"setting the technical direction\" of the company and overseeing the development, testing, and deployment of its products.</p><h2>CORE IMPACT and technical work</h2><p>Under Arce's technical direction, Core Security developed CORE IMPACT, described in company materials of the era as the first comprehensive commercial penetration-testing solution, intended to replace slower, purely manual assessment work with automated, cross-platform exploitation and validation. The company also produced CORE FORCE, an endpoint security tool. Arce is credited with multiple technology patents connected to this work and was, during this period, a frequent speaker at security industry events and a contributor to technical security publications.</p><h2>Industry standing and later career</h2><p>Arce has held recognized positions within the broader security community, including serving as an Associate Editor of IEEE Security & Privacy Magazine and as a project advisor to an open web application testing effort. Core Security itself went through several ownership changes in later years, being acquired by Courion in 2015 (with the combined company retaining the Core Security name from 2016), then acquired by HelpSystems in 2019, which was rebranded as Fortra in 2022. Arce subsequently moved on to become Chief Technology Officer, and later Chief Research Officer, at Quarkslab, a French information security firm, where he has led cross-functional security research teams and spoken publicly about topics including Android ecosystem security and the historical concentration of offensive-security talent in Argentina.</p><h2>Significance</h2><p>Arce's career traces the arc of commercial exploit development and automated penetration testing from a niche, largely manual practice in the mid-1990s to an established product category. His role at Core Security placed him at the center of one of the first Latin American companies to compete internationally in the offensive-security tooling market, and his continued public commentary on the region's hacking talent has helped document Argentina's disproportionate contribution to the field.</p>"
   },
   "timeline": [
-    { "date": "1996", "event": "Core Security (Core SDI) is founded in Buenos Aires, Argentina; Ivan Arce is among its co-founders." },
-    { "date": "1997", "event": "Core Security's research division, CoreLabs, is established and publishes its first security advisory." },
-    { "date": "1998", "event": "Core Security conducts one of its first penetration tests for a U.S.-based client." },
-    { "date": "2000", "event": "Core Security opens a New York City office as it expands into the U.S. market." },
-    { "date": "2002", "event": "Core Security releases the first versions of CORE IMPACT, its automated penetration testing product." },
-    { "date": "2003", "event": "Ivan Arce is interviewed as CTO of Core Security Technologies by Help Net Security, describing the company's technical direction and products." },
-    { "date": "2015", "event": "Core Security is acquired by Courion; the combined company later retakes the Core Security name in 2016." },
-    { "date": "2019", "event": "HelpSystems acquires Core Security (rebranded Fortra in 2022)." },
-    { "date": "2020s", "event": "Ivan Arce serves as Chief Technology Officer and later Chief Research Officer at Quarkslab, a French security research and products firm." }
+    {
+      "date": "1996",
+      "event": "Core Security (Core SDI) is founded in Buenos Aires, Argentina; Ivan Arce is among its co-founders."
+    },
+    {
+      "date": "1997",
+      "event": "Core Security's research division, CoreLabs, is established and publishes its first security advisory."
+    },
+    {
+      "date": "1998",
+      "event": "Core Security conducts one of its first penetration tests for a U.S.-based client."
+    },
+    {
+      "date": "2000",
+      "event": "Core Security opens a New York City office as it expands into the U.S. market."
+    },
+    {
+      "date": "2002",
+      "event": "Core Security releases the first versions of CORE IMPACT, its automated penetration testing product."
+    },
+    {
+      "date": "2003",
+      "event": "Ivan Arce is interviewed as CTO of Core Security Technologies by Help Net Security, describing the company's technical direction and products."
+    },
+    {
+      "date": "2015",
+      "event": "Core Security is acquired by Courion; the combined company later retakes the Core Security name in 2016."
+    },
+    {
+      "date": "2019",
+      "event": "HelpSystems acquires Core Security (rebranded Fortra in 2022)."
+    },
+    {
+      "date": "2020s",
+      "event": "Ivan Arce serves as Chief Technology Officer and later Chief Research Officer at Quarkslab, a French security research and products firm."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,16 +72,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Core Security Technologies - Wikipedia", "url": "https://en.wikipedia.org/wiki/Core_Security_Technologies" },
-    { "title": "Interview with Ivan Arce, CTO of Core Security Technologies - Help Net Security", "url": "https://www.helpnetsecurity.com/2003/05/29/interview-with-ivan-arce-cto-of-core-security-technologies/" },
-    { "title": "Ivan Arce, CTO at Quarkslab - Security Conversations (Three Buddy Problem podcast)", "url": "https://securityconversations.com/episode/ivan-arce-cto-at-quarkslab/" },
-    { "title": "Ivan Arce | USENIX 15th USENIX Security Symposium speaker listing", "url": "https://www.usenix.org/conference/15th-usenix-security-symposium/speaker-or-organizer/ivan-arce-core-security-technologies" }
+    {
+      "title": "Core Security Technologies - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Core_Security_Technologies"
+    },
+    {
+      "title": "Interview with Ivan Arce, CTO of Core Security Technologies - Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2003/05/29/interview-with-ivan-arce-cto-of-core-security-technologies/"
+    },
+    {
+      "title": "Ivan Arce, CTO at Quarkslab - Security Conversations (Three Buddy Problem podcast)",
+      "url": "https://securityconversations.com/episode/ivan-arce-cto-at-quarkslab/"
+    },
+    {
+      "title": "Ivan Arce | USENIX 15th USENIX Security Symposium speaker listing",
+      "url": "https://www.usenix.org/conference/15th-usenix-security-symposium/speaker-or-organizer/ivan-arce-core-security-technologies"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

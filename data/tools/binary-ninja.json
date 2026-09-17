@@ -4,17 +4,38 @@
   "title": "Binary Ninja",
   "slug": "binary-ninja",
   "era": "2016-Present",
-  "tags": ["reverse-engineering", "disassembler", "decompiler", "binary-analysis", "vector-35", "malware-analysis", "vulnerability-research", "commercial-tool"],
+  "tags": [
+    "reverse-engineering",
+    "disassembler",
+    "decompiler",
+    "binary-analysis",
+    "vector-35",
+    "malware-analysis",
+    "vulnerability-research",
+    "commercial-tool"
+  ],
   "summary": "Binary Ninja is a commercial interactive disassembler, decompiler, and binary analysis platform developed by Vector 35, first released publicly in July 2016 as an alternative to IDA Pro for reverse engineers.",
   "whyThisMatters": "Binary Ninja helped break the long-standing near-monopoly of IDA Pro in the commercial disassembler market by offering a modern, scriptable analysis platform with multiple intermediate-language representations and an accessible Python/C++/Rust API. Its plugin ecosystem and academic/CTF-friendly licensing made advanced binary analysis and automated decompilation more accessible to security researchers, students, and malware analysts. Over its first decade the tool became a standard fixture alongside IDA Pro and Ghidra in vulnerability research, exploit development, and reverse-engineering education.",
   "sections": {
     "overview": "<h2>Background</h2><p>Binary Ninja is a reverse-engineering platform for disassembling, analyzing, and decompiling compiled binary code. It was created by Vector 35 Inc., a company founded by Jordan Wiens, Rusty Wagner, and Peter LaFosse, and based in Melbourne, Florida. The founders had backgrounds in competitive capture-the-flag (CTF) hacking competitions and originally built an internal binary-analysis tool for their own CTF team before deciding to develop it into a commercial product for the broader reverse-engineering community.</p><h2>Public Release</h2><p>Vector 35 publicly released Binary Ninja in July 2016. At the time, the commercial disassembler market was dominated almost entirely by IDA Pro, and Binary Ninja was positioned as a modern alternative aimed at reverse engineers, malware analysts, and vulnerability researchers. Early versions did not include a decompiler; a full decompiler back end was added later as the product matured, alongside a graph-based and linear code visualization interface.</p><h2>Technical Design</h2><p>Binary Ninja's analysis pipeline is built around multiple layers of intermediate representation, commonly referred to as the Low Level IL (LLIL), Medium Level IL (MLIL), and High Level IL (HLIL) &mdash; the last of which powers the tool's decompiler output as pseudo-C code. The platform performs automated analysis such as function boundary detection, type inference, and jump-table resolution, and supports binary patching and shellcode compilation. It exposes an extensible application programming interface in Python, C++, and Rust, which enabled a large ecosystem of community-contributed plugins for tasks ranging with architecture support to specialized malware-unpacking workflows. Binary Ninja runs on Windows, macOS, and Linux, and Vector 35 later introduced a browser-based cloud version alongside the native desktop application.</p><h2>Licensing and Editions</h2><p>Binary Ninja has been distributed under several commercial licensing tiers over time, including non-commercial/personal, commercial, and higher-end \"Ultimate\" and Enterprise tiers that add features such as real-time multi-user collaboration and expanded firmware/architecture analysis capabilities. Unlike subscription-based competitors, Vector 35 has marketed its licenses as perpetual, meaning a purchased license does not expire even though renewals are required to receive ongoing updates and support. The company also maintains a public GitHub organization hosting its official API, a debugger component, and community plugin and theme repositories.</p><h2>Adoption and Ecosystem</h2><p>Since its release, Binary Ninja has been widely adopted by security researchers, exploit developers, and malware analysts as an alternative or complement to IDA Pro and the free, NSA-developed Ghidra. Its scriptable API and lower entry cost relative to IDA Pro made it popular in CTF communities, academic reverse-engineering courses, and among individual researchers, while its Enterprise and collaboration features have been adopted by security teams and consultancies performing binary analysis at scale.</p><h2>Significance and Legacy</h2><p>Binary Ninja is considered one of the small handful of mainstream interactive disassembler/decompiler platforms used in professional vulnerability research and malware reverse engineering, alongside IDA Pro and Ghidra. By 2026 Vector 35 marked the tool's tenth anniversary, describing a customer base of tens of thousands of users and a decade of continuous development spanning the introduction of its decompiler, a dark-themed interface overhaul, expanded architecture and file-format support, and AI-assisted analysis features. The tool's trajectory reflects a broader shift in the reverse-engineering tooling market toward more accessible, scriptable, and collaboratively developed alternatives to the previously dominant closed ecosystem of legacy disassemblers.</p>"
   },
   "timeline": [
-    { "date": "2016-07", "event": "Vector 35, founded by Jordan Wiens, Rusty Wagner, and Peter LaFosse, publicly releases Binary Ninja as a commercial interactive disassembler and binary analysis platform." },
-    { "date": "2019", "event": "Binary Ninja adds a native decompiler, generating pseudo-C High Level IL output for analyzed functions." },
-    { "date": "2026-07", "event": "Vector 35 publishes a retrospective marking ten years of Binary Ninja, citing tens of thousands of customers and a decade of feature development." },
-    { "date": "2026-08", "event": "Vector 35 announces pricing and licensing changes coinciding with the release of Binary Ninja 6.0 (\"Krypton\")." }
+    {
+      "date": "2016-07",
+      "event": "Vector 35, founded by Jordan Wiens, Rusty Wagner, and Peter LaFosse, publicly releases Binary Ninja as a commercial interactive disassembler and binary analysis platform."
+    },
+    {
+      "date": "2019",
+      "event": "Binary Ninja adds a native decompiler, generating pseudo-C High Level IL output for analyzed functions."
+    },
+    {
+      "date": "2026-07",
+      "event": "Vector 35 publishes a retrospective marking ten years of Binary Ninja, citing tens of thousands of customers and a decade of feature development."
+    },
+    {
+      "date": "2026-08",
+      "event": "Vector 35 announces pricing and licensing changes coinciding with the release of Binary Ninja 6.0 (\"Krypton\")."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -22,17 +43,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Binary Ninja - Wikipedia", "url": "https://en.wikipedia.org/wiki/Binary_Ninja" },
-    { "title": "Binary Ninja (official site)", "url": "https://binary.ninja/" },
-    { "title": "Vector35 GitHub organization", "url": "https://github.com/Vector35" },
-    { "title": "10 Years of Binary Ninja", "url": "https://binary.ninja/2026/07/22/10-years-of-binary-ninja.html" },
-    { "title": "Pricing Changes with 6.0", "url": "https://binary.ninja/2026/07/28/pricing-changes.html" }
+    {
+      "title": "Binary Ninja - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Binary_Ninja"
+    },
+    {
+      "title": "Binary Ninja (official site)",
+      "url": "https://binary.ninja/"
+    },
+    {
+      "title": "Vector35 GitHub organization",
+      "url": "https://github.com/Vector35"
+    },
+    {
+      "title": "10 Years of Binary Ninja",
+      "url": "https://binary.ninja/2026/07/22/10-years-of-binary-ninja.html"
+    },
+    {
+      "title": "Pricing Changes with 6.0",
+      "url": "https://binary.ninja/2026/07/28/pricing-changes.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

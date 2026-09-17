@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["hardware reverse engineering", "embedded systems", "usb", "open source hardware", "firmware", "led art", "documentation"],
+  "tags": [
+    "hardware reverse engineering",
+    "embedded systems",
+    "usb",
+    "open source hardware",
+    "firmware",
+    "led art",
+    "documentation"
+  ],
   "summary": "Micah Elizabeth Scott, known online as scanlime, is an American engineer and artist who works on hardware reverse engineering, embedded firmware and open source hardware. She is the creator of the Fadecandy LED controller, a co-author of the Fyre rendering program, the developer of the Virtual USB Analyzer at VMware, and the author of a long-running video series documenting her reverse engineering work.",
   "whyThisMatters": "Scott's work sits at the intersection of reverse engineering practice and public technical education. Rather than publishing only finished results, she recorded and released the exploratory process of probing closed hardware, which gave a wide audience an unusually detailed view of how embedded reverse engineering is actually carried out. Her open source tools, including the Virtual USB Analyzer and the Fadecandy controller, were adopted well beyond her own projects, and techniques she published such as Tucoplexing entered general reference literature on microcontroller I/O.",
   "knownFor": [
@@ -22,12 +30,30 @@
     "overview": "<h2>Background</h2><p>Micah Elizabeth Scott is an American engineer, artist and reverse engineer who publishes under the handle scanlime. Her personal site describes its subject matter as \"improvisational forward/reverse engineering, and cat\", a summary that reflects a body of work spanning graphics software, USB protocol analysis, embedded firmware, LED art hardware and consumer-device teardowns. Material published under her name dates from the mid-2000s onward, and covers both software released as part of professional work and independent hardware projects.</p><h2>Early software work</h2><p>One of Scott's earliest widely distributed projects is Fyre, a cross-platform tool for producing artwork from histograms of iterated chaotic functions, principally the Peter de Jong map. Originally named de Jong Explorer, the program was written with David Trowbridge and distributed under the GNU General Public License; version 1.0.1 was released on 9 October 2006. Fyre renders images by accumulating a probability map over successive iterations, so that image quality improves the longer a render is allowed to run.</p><p>While working at VMware, Scott developed the Virtual USB Analyzer, a tool for visualising logs of USB packets captured by hardware or software sniffers. It was built as an internal debugging aid for VMware's USB virtualisation stack and subsequently released publicly under the MIT license, with the project page noting that it was offered as-is and without official VMware support. The tool presented USB traffic graphically alongside raw hex dumps and protocol decoding, and became a common utility for developers debugging USB devices and drivers.</p><h2>Fadecandy and LED art</h2><p>In 2013 Scott developed Fadecandy, a small USB-connected controller for WS2811 and WS2812 addressable LEDs, produced in collaboration with Adafruit Industries. A single Fadecandy board drives up to 512 LEDs arranged as eight strips of 64, and its firmware applies dithering and colour correction intended to make smooth fades and subtle lighting possible rather than the coarse effects typical of simple LED drivers. The project includes server software for Windows, Linux, macOS and the Raspberry Pi, libraries for Python and Processing, and support for the Open Pixel Control protocol. Early versions of the firmware were used on the Ardent Mobile Cloud Platform art installation at Burning Man, where five boards drove roughly 2,500 LEDs. Fadecandy was subsequently adopted by numerous independent LED art projects.</p><h2>Reverse engineering projects</h2><p>Beginning in 2014, Scott worked on coastermelt, an attempt to develop open source firmware for Blu-ray recorder drives so that a BD-R drive could be used to burn patterns other than standard Blu-ray data onto disc media. The project involved extracting and analysing the drive's proprietary firmware and building tooling to explore and patch it interactively. Other reverse engineering subjects documented on her site include graphics tablets, RFID tags and readers, gimbal and camera hardware, and FPGA development work.</p><p>Between roughly 2016 and 2021 Scott published a numbered video series under the scanlime name, running to more than fifty episodes, in which reverse engineering and electronics work was recorded and narrated as it happened. The format emphasised the uncertain, exploratory character of hardware analysis, including dead ends, rather than presenting only completed results.</p><h2>Tuco Flyer and later hardware</h2><p>From 2017 Scott built the Tuco Flyer, a cable-suspended camera system named after her cat. Motorised winch modules mounted at fixed points in a room tensioned cords that positioned a camera gimbal, allowing the camera both to film her workbench sessions and to interact with the cat. Each winch module used a Texas Instruments TM4C1294 microcontroller, chosen for its speed, cost and integrated 100BASE-T Ethernet. A notable engineering problem was mechanical noise, because vibration travelling along the tensioned cords reached the microphone mounted on the moving platform.</p><p>In 2019 Scott published Tucoplexing, also named after the same cat. The technique extends Charlieplexing so that three wires can drive four individually controllable LEDs while simultaneously reading four switches, using the charging behaviour of capacitors at the remote end to distinguish between button presses without requiring a separate power supply there. The method was covered by Hackaday and is cited in general reference material on Charlieplexing.</p><h2>Significance</h2><p>Scott's contributions are notable less for any single disclosure than for the combination of usable open tools and unusually transparent documentation of reverse engineering method. The Virtual USB Analyzer gave developers a practical means of reading USB captures; Fadecandy supplied art and installation builders with a controller whose output quality had previously required custom engineering; and the recorded scanlime sessions served as an accessible record of how embedded systems are examined in practice. Her work is frequently referenced within the hardware hacking and open source hardware communities.</p>"
   },
   "timeline": [
-    { "date": "2006-10-09", "event": "Fyre 1.0.1, a renderer for histograms of iterated chaotic functions co-authored with David Trowbridge, is released under the GPL." },
-    { "date": "2013", "event": "Fadecandy, a USB controller for addressable WS2811/WS2812 LEDs, is developed and produced in collaboration with Adafruit." },
-    { "date": "2014", "event": "Work begins on coastermelt, an effort to build open source firmware for Blu-ray recorder drives." },
-    { "date": "2016", "event": "Publication begins of the numbered scanlime video series documenting reverse engineering and electronics sessions." },
-    { "date": "2017-09", "event": "The Tuco Flyer cable-suspended camera system and its winch modules are publicly documented." },
-    { "date": "2019-03-23", "event": "Hackaday publishes an account of Tucoplexing, a three-wire technique for driving four LEDs and reading four switches." }
+    {
+      "date": "2006-10-09",
+      "event": "Fyre 1.0.1, a renderer for histograms of iterated chaotic functions co-authored with David Trowbridge, is released under the GPL."
+    },
+    {
+      "date": "2013",
+      "event": "Fadecandy, a USB controller for addressable WS2811/WS2812 LEDs, is developed and produced in collaboration with Adafruit."
+    },
+    {
+      "date": "2014",
+      "event": "Work begins on coastermelt, an effort to build open source firmware for Blu-ray recorder drives."
+    },
+    {
+      "date": "2016",
+      "event": "Publication begins of the numbered scanlime video series documenting reverse engineering and electronics sessions."
+    },
+    {
+      "date": "2017-09",
+      "event": "The Tuco Flyer cable-suspended camera system and its winch modules are publicly documented."
+    },
+    {
+      "date": "2019-03-23",
+      "event": "Hackaday publishes an account of Tucoplexing, a three-wire technique for driving four LEDs and reading four switches."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -35,20 +61,45 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "scanlime.org - project and video index", "url": "https://scanlime.org/" },
-    { "title": "Fyre (software) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Fyre_(software)" },
-    { "title": "Charlieplexing - Wikipedia (Tucoplexing)", "url": "https://en.wikipedia.org/wiki/Charlieplexing" },
-    { "title": "Virtual USB Analyzer - project site", "url": "https://vusb-analyzer.sourceforge.net/" },
-    { "title": "Adafruit FadeCandy - Dithering USB-Controlled Driver for RGB NeoPixels", "url": "https://www.adafruit.com/product/1689" },
-    { "title": "Winch Bot Records Hacks And Cats - Hackaday", "url": "https://hackaday.com/2017/09/14/winch-bot-records-hacks-and-cats/" },
-    { "title": "Tucoplexing: A New Charliplex For Buttons And Switches - Hackaday", "url": "https://hackaday.com/2019/03/23/tucoplexing-a-new-charliplex-for-buttons-and-switches/" },
-    { "title": "coastermelt - project repository mirror on GitHub", "url": "https://github.com/johnjohnsp1/coastermelt" }
+    {
+      "title": "scanlime.org - project and video index",
+      "url": "https://scanlime.org/"
+    },
+    {
+      "title": "Fyre (software) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fyre_(software)"
+    },
+    {
+      "title": "Charlieplexing - Wikipedia (Tucoplexing)",
+      "url": "https://en.wikipedia.org/wiki/Charlieplexing"
+    },
+    {
+      "title": "Virtual USB Analyzer - project site",
+      "url": "https://vusb-analyzer.sourceforge.net/"
+    },
+    {
+      "title": "Adafruit FadeCandy - Dithering USB-Controlled Driver for RGB NeoPixels",
+      "url": "https://www.adafruit.com/product/1689"
+    },
+    {
+      "title": "Winch Bot Records Hacks And Cats - Hackaday",
+      "url": "https://hackaday.com/2017/09/14/winch-bot-records-hacks-and-cats/"
+    },
+    {
+      "title": "Tucoplexing: A New Charliplex For Buttons And Switches - Hackaday",
+      "url": "https://hackaday.com/2019/03/23/tucoplexing-a-new-charliplex-for-buttons-and-switches/"
+    },
+    {
+      "title": "coastermelt - project repository mirror on GitHub",
+      "url": "https://github.com/johnjohnsp1/coastermelt"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 8,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

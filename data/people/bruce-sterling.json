@@ -1,0 +1,72 @@
+{
+  "id": "bruce-sterling",
+  "type": "person",
+  "title": "Bruce Sterling",
+  "slug": "bruce-sterling",
+  "name": "Bruce Sterling",
+  "born": 1954,
+  "died": null,
+  "era": "1980s-present",
+  "tags": [
+    "author",
+    "hacker-crackdown",
+    "cyberpunk",
+    "journalism",
+    "hacker-culture"
+  ],
+  "summary": "American science-fiction author whose non-fiction book 'The Hacker Crackdown' documented the 1990 U.S. crackdown on the hacker underground.",
+  "whyThisMatters": "'The Hacker Crackdown' is the standard first-hand account of Operation Sundevil, the E911 case, and the birth of the EFF.",
+  "knownFor": [
+    "The Hacker Crackdown (1992)",
+    "Cyberpunk fiction",
+    "Mirrorshades anthology (1986)"
+  ],
+  "sections": {
+    "overview": "<p>Michael Bruce Sterling is an American author and journalist, one of the founders of the cyberpunk movement in science fiction. He edited the 1986 anthology <em>Mirrorshades</em> and wrote novels including <em>Islands in the Net</em> and, with William Gibson, <em>The Difference Engine</em>.</p><h2>The Hacker Crackdown</h2><p>In 1992 Sterling published <em>The Hacker Crackdown: Law and Disorder on the Electronic Frontier</em>, a non-fiction account of the 1990 U.S. law-enforcement campaign against the hacker underground. It covered the AT&amp;T crash of January 1990, Operation Sundevil, the raid on Steve Jackson Games, the Craig Neidorf E911 trial, and the founding of the Electronic Frontier Foundation. In 1994 Sterling released the book's full text online for free, an early example of an author doing so.</p><h2>Later work</h2><p>Sterling has continued to write on technology, design, and security, including a long-running column for Wired.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1954-04-14",
+      "event": "Born in Brownsville, Texas."
+    },
+    {
+      "date": "1986",
+      "event": "Edits the cyberpunk anthology 'Mirrorshades'."
+    },
+    {
+      "date": "1992",
+      "event": "Publishes 'The Hacker Crackdown'."
+    },
+    {
+      "date": "1994-01",
+      "event": "Releases 'The Hacker Crackdown' as a free electronic text."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Bruce Sterling, 'The Hacker Crackdown' (Project Gutenberg)",
+      "url": "https://www.gutenberg.org/ebooks/101"
+    },
+    {
+      "title": "Wikipedia: Bruce Sterling",
+      "url": "https://en.wikipedia.org/wiki/Bruce_Sterling"
+    },
+    {
+      "title": "Wikipedia: The Hacker Crackdown",
+      "url": "https://en.wikipedia.org/wiki/The_Hacker_Crackdown"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

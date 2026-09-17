@@ -7,29 +7,72 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["software-security", "secure-development", "static-analysis", "cryptography", "author"],
+  "tags": [
+    "software-security",
+    "secure-development",
+    "static-analysis",
+    "cryptography",
+    "author"
+  ],
   "summary": "Software-security author and practitioner known for early secure-development guidance, security-analysis tools, and work on cryptographic and application-security engineering.",
   "whyThisMatters": "Viega helped make secure software construction a subject developers could learn and practice systematically, through books, tools, standards work, and conference teaching.",
-  "knownFor": ["Building Secure Software", "ITS4 static vulnerability scanner", "Secure Software"],
+  "knownFor": [
+    "Building Secure Software",
+    "ITS4 static vulnerability scanner",
+    "Secure Software"
+  ],
   "sections": {
     "overview": "<p>John Viega is a software-security author, engineer, and entrepreneur. His work includes secure-development guidance, static analysis, cryptography, and application-security tools.</p><h2>Secure development as an engineering practice</h2><p>Viega co-authored <em>Building Secure Software</em> with Gary McGraw. The book gave developers practical guidance on security risk, code auditing, buffer overflows, design decisions, and the process of building software that can withstand malicious use.</p><h2>Tools, standards, and community</h2><p>His work has included the ITS4 static vulnerability scanner, Secure Software, security books, and technical standards activity. These strands show how application security grows through research, tools, documentation, and practitioners sharing what works.</p>"
   },
   "timeline": [
-    {"date": "2000", "event": "ACSAC biography describes Viega as a Reliable Software Technologies researcher and software-security group co-founder."},
-    {"date": "2001", "event": "Co-authors <em>Building Secure Software</em> with Gary McGraw."},
-    {"date": "2000s", "event": "Founds Secure Software and works on application-security tools and programs."},
-    {"date": "Present", "event": "Continues work in software security and security technology."}
+    {
+      "date": "2000",
+      "event": "ACSAC biography describes Viega as a Reliable Software Technologies researcher and software-security group co-founder."
+    },
+    {
+      "date": "2001",
+      "event": "Co-authors <em>Building Secure Software</em> with Gary McGraw."
+    },
+    {
+      "date": "2000s",
+      "event": "Founds Secure Software and works on application-security tools and programs."
+    },
+    {
+      "date": "Present",
+      "event": "Continues work in software security and security technology."
+    }
   ],
-  "relatedPeople": ["gary-mcgraw"],
+  "relatedPeople": [
+    "gary-mcgraw"
+  ],
   "relatedGroups": [],
   "relatedTools": [],
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    {"title": "O'Reilly: John Viega", "url": "https://www.oreilly.com/pub/au/902"},
-    {"title": "ACSAC 2000: John Viega biography", "url": "https://www.acsac.org/2000/tutorials.html"},
-    {"title": "O'Reilly: Building Secure Software", "url": "https://www.oreilly.com/library/view/building-secure-software/9780672334092/"},
-    {"title": "RSA Conference: John Viega", "url": "https://www.rsaconference.com/experts/john-viega"}
+    {
+      "title": "O'Reilly: John Viega",
+      "url": "https://www.oreilly.com/pub/au/902"
+    },
+    {
+      "title": "ACSAC 2000: John Viega biography",
+      "url": "https://www.acsac.org/2000/tutorials.html"
+    },
+    {
+      "title": "O'Reilly: Building Secure Software",
+      "url": "https://www.oreilly.com/library/view/building-secure-software/9780672334092/"
+    },
+    {
+      "title": "RSA Conference: John Viega",
+      "url": "https://www.rsaconference.com/experts/john-viega"
+    }
   ],
-  "editorial": {"verified": true, "sourcesCount": 4, "lastReviewed": "2026-09-02", "reviewStatus": "PUBLISHED", "reviewer": "codex-2026-09-02"}
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
 }

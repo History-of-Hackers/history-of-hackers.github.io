@@ -4,22 +4,58 @@
   "title": "Mandiant",
   "slug": "mandiant",
   "era": "2004-Present",
-  "tags": ["incident response", "threat intelligence", "apt1", "china", "cyber espionage", "attribution", "fireeye", "google cloud"],
+  "tags": [
+    "incident response",
+    "threat intelligence",
+    "apt1",
+    "china",
+    "cyber espionage",
+    "attribution",
+    "fireeye",
+    "google cloud"
+  ],
   "summary": "Mandiant is a cybersecurity firm specializing in incident response and threat intelligence, founded in 2004 by Kevin Mandia, best known for its 2013 \"APT1\" report publicly attributing years of cyber espionage against U.S. and other organizations to a Chinese military unit.",
   "whyThisMatters": "Mandiant's APT1 report was one of the first instances of a private company publicly and in detail attributing a sustained cyber-espionage campaign to a specific nation-state military unit, using named victims, tactics, and infrastructure. It shifted industry practice toward public attribution and named threat-actor tracking (APT naming conventions), and helped shape the U.S. government's subsequent 2014 criminal indictment of PLA officers. Mandiant's incident-response and threat-intelligence work, later folded into FireEye and then Google Cloud, remains a reference point for how commercial firms investigate and disclose state-linked hacking.",
   "sections": {
     "overview": "<h2>Background</h2><p>Mandiant is an American cybersecurity company specializing in incident response, digital forensics, and threat intelligence. It was founded in 2004 by Kevin Mandia, a former U.S. Air Force officer with a background in computer security investigations, initially operating under the name Red Cliff Consulting before rebranding as Mandiant in 2006. The firm built its early reputation responding to corporate data breaches and network intrusions, and in 2011 received venture funding from Kleiner Perkins Caufield & Byers and One Equity Partners to expand its operations.</p><h2>The APT1 Report</h2><p>In February 2013, Mandiant published a report titled \"APT1: Exposing One of China's Cyber Espionage Units.\" The report presented detailed evidence linking a persistent hacking group Mandiant designated \"APT1\" to People's Liberation Army (PLA) Unit 61398, a unit operating under the 2nd Bureau of the PLA General Staff Department's Third Department and based in Shanghai's Pudong district. Mandiant documented that the group had targeted at least 141 organizations across 20 industries, primarily in English-speaking countries, stealing intellectual property and other sensitive data going back to at least 2006. The group was also known in the security community by nicknames such as \"Comment Crew\" and \"Comment Panda,\" derived from its use of compromised website comment features as a foothold for intrusions.</p><h2>Impact and Government Response</h2><p>The APT1 report drew widespread international attention because it was among the first public, evidence-based reports by a private company to attribute a large-scale cyber-espionage campaign directly to a specific foreign military unit, complete with details on infrastructure, tactics, and alleged operators. The Chinese government denied the allegations. On May 19, 2014, the U.S. Department of Justice announced criminal indictments against five PLA Unit 61398 officers—Wang Dong, Sun Kailiang, Wen Xinyu, Huang Zhenyu, and Gu Chunhui—on charges including theft of trade secrets and computer fraud, marking one of the first U.S. criminal cases against state-affiliated hackers.</p><h2>Corporate History</h2><p>In December 2013, network security company FireEye acquired Mandiant in a deal valued at roughly $1 billion, combining Mandiant's incident-response and threat-intelligence expertise with FireEye's security products. In June 2021, FireEye sold its products business to Symphony Technology Group and retained the Mandiant name and services as a standalone threat-intelligence and incident-response company. In March 2022, Google announced it would acquire Mandiant for approximately $5.4 billion, and the deal closed in September 2022, after which Mandiant was integrated into Google Cloud while continuing to operate under its own brand.</p><h2>Legacy</h2><p>Mandiant's work, particularly the APT1 report, helped popularize the practice of publicly naming and profiling state-sponsored hacking groups and contributed to the broader adoption of \"Advanced Persistent Threat\" (APT) naming conventions used across the cybersecurity industry. The firm has continued to publish widely cited threat-intelligence research and to lead incident-response investigations into major breaches, and its research and consulting arm remains active as part of Google Cloud's security offerings.</p>"
   },
   "timeline": [
-    { "date": "2004", "event": "Kevin Mandia founds the company as Red Cliff Consulting." },
-    { "date": "2006", "event": "Red Cliff Consulting is rebranded as Mandiant." },
-    { "date": "2011", "event": "Mandiant receives venture funding from Kleiner Perkins Caufield & Byers and One Equity Partners." },
-    { "date": "2013-02", "event": "Mandiant publishes the \"APT1\" report, attributing a long-running cyber-espionage campaign to PLA Unit 61398." },
-    { "date": "2013-12", "event": "FireEye acquires Mandiant for approximately $1 billion." },
-    { "date": "2014-05-19", "event": "The U.S. Department of Justice indicts five PLA Unit 61398 officers on hacking-related charges, drawing on findings consistent with the APT1 report." },
-    { "date": "2021-06", "event": "FireEye sells its products business to Symphony Technology Group and retains the Mandiant name for its threat-intelligence and incident-response business." },
-    { "date": "2022-03", "event": "Google announces plans to acquire Mandiant for about $5.4 billion." },
-    { "date": "2022-09", "event": "Google completes its acquisition of Mandiant, integrating it into Google Cloud." }
+    {
+      "date": "2004",
+      "event": "Kevin Mandia founds the company as Red Cliff Consulting."
+    },
+    {
+      "date": "2006",
+      "event": "Red Cliff Consulting is rebranded as Mandiant."
+    },
+    {
+      "date": "2011",
+      "event": "Mandiant receives venture funding from Kleiner Perkins Caufield & Byers and One Equity Partners."
+    },
+    {
+      "date": "2013-02",
+      "event": "Mandiant publishes the \"APT1\" report, attributing a long-running cyber-espionage campaign to PLA Unit 61398."
+    },
+    {
+      "date": "2013-12",
+      "event": "FireEye acquires Mandiant for approximately $1 billion."
+    },
+    {
+      "date": "2014-05-19",
+      "event": "The U.S. Department of Justice indicts five PLA Unit 61398 officers on hacking-related charges, drawing on findings consistent with the APT1 report."
+    },
+    {
+      "date": "2021-06",
+      "event": "FireEye sells its products business to Symphony Technology Group and retains the Mandiant name for its threat-intelligence and incident-response business."
+    },
+    {
+      "date": "2022-03",
+      "event": "Google announces plans to acquire Mandiant for about $5.4 billion."
+    },
+    {
+      "date": "2022-09",
+      "event": "Google completes its acquisition of Mandiant, integrating it into Google Cloud."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -27,15 +63,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Mandiant - Wikipedia", "url": "https://en.wikipedia.org/wiki/Mandiant" },
-    { "title": "PLA Unit 61398 - Wikipedia", "url": "https://en.wikipedia.org/wiki/PLA_Unit_61398" },
-    { "title": "Mandiant Services - Google Cloud", "url": "https://cloud.google.com/security/consulting/mandiant-services" }
+    {
+      "title": "Mandiant - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mandiant"
+    },
+    {
+      "title": "PLA Unit 61398 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/PLA_Unit_61398"
+    },
+    {
+      "title": "Mandiant Services - Google Cloud",
+      "url": "https://cloud.google.com/security/consulting/mandiant-services"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

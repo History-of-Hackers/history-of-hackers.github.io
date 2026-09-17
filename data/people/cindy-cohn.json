@@ -29,45 +29,131 @@
     "overview": "<h2>Background and education</h2><p>Cindy Cohn is an American attorney whose practice has centered on Internet law, free expression and privacy. She did her undergraduate studies at the University of Iowa and the London School of Economics, and earned a Doctor of Jurisprudence from the University of Michigan. In the 1990s she practiced at the San Mateo, California firm McGlashan &amp; Sarrail, from which she took on the encryption export case that would define the first half of her career.</p><h2>The Bernstein case and the crypto wars</h2><p>In 1995 Daniel J. Bernstein, then a mathematics graduate student at the University of California, Berkeley, sued the United States government over export rules that classified encryption software as a munition and required a license before he could publish his &quot;Snuffle&quot; cipher and its source code. The Electronic Frontier Foundation backed the case and retained Cohn as outside counsel; she served as lead attorney and argued the appeal.</p><p>Judge Marilyn Hall Patel of the Northern District of California ruled for Bernstein in 1996, treating the licensing scheme as an unconstitutional prior restraint on speech. On May 6, 1999, a panel of the U.S. Court of Appeals for the Ninth Circuit affirmed in <em>Bernstein v. United States Department of Justice</em>, 176 F.3d 1132, with Judge Betty Binns Fletcher writing that encryption source code was speech protected by the First Amendment. The court record for that appeal lists Cindy A. Cohn as the arguing attorney for the plaintiff-appellee. On September 30, 1999 the Ninth Circuit granted rehearing en banc and withdrew the panel opinion, and the case was ultimately dismissed in 2003 after the government revised the regulations. Even without a surviving binding precedent, the litigation is widely credited as one of the decisive pressures that ended the U.S. government's attempt to control cryptography through export law during the period known as the crypto wars.</p><h2>Electronic Frontier Foundation</h2><p>Cohn joined EFF's staff as legal director and general counsel, a position she held for fifteen years before becoming the organization's executive director in 2015. During her time as legal director EFF moved from a small litigation shop into one of the principal American organizations bringing affirmative cases against surveillance and against legal threats aimed at technologists.</p><p>In <em>DVD Copy Control Association v. Bunner</em>, Cohn's team defended Andrew Bunner's right to republish the DeCSS program he had found circulating online; the California Supreme Court ruled on the trade secret and First Amendment questions in 2003, and the California Court of Appeal dissolved the injunction against Bunner in 2004. In <em>Online Policy Group v. Diebold, Inc.</em>, decided September 30, 2004 in the Northern District of California, the court held Diebold liable for sending baseless takedown notices to Internet service providers in an attempt to suppress discussion of flaws in its electronic voting machines. EFF also brought a class action over the digital rights management software Sony BMG shipped on audio CDs, which installed rootkit-like components on customers' computers.</p><h2>Surveillance litigation</h2><p>On January 31, 2006, following disclosures by former AT&amp;T technician Mark Klein about a secret room in the company's San Francisco facility, EFF filed <em>Hepting v. AT&amp;T</em>, a class action alleging that the carrier had assisted the National Security Agency in unlawfully monitoring Americans' communications. Congress granted telecommunications carriers retroactive immunity in the FISA Amendments Act of 2008; the district court dismissed the case in 2009, the Ninth Circuit affirmed in 2011, and the Supreme Court declined review in 2012.</p><p>EFF filed a companion suit against the government itself, <em>Jewel v. NSA</em>, in 2008. That case survived an early standing dismissal when the Ninth Circuit reversed in 2011, and in 2013 the district court rejected the government's state secrets argument, but the plaintiffs were repeatedly held to lack standing to challenge the surveillance. The Ninth Circuit affirmed dismissal in 2021 and the Supreme Court denied certiorari in 2022.</p><h2>Recognition and later work</h2><p><em>California Lawyer</em> named Cohn a Lawyer of the Year in 1997 for the Bernstein litigation. <em>The National Law Journal</em> listed her among the 100 most influential lawyers in America in 2006 and again in 2013, and in November 2018 <em>Forbes</em> included her in its &quot;America's Top 50 Women In Tech&quot; feature. She has served on the boards of the nonprofit organizations Human Rights Advocates and the Verified Voting Foundation, and hosted EFF's podcast <em>How to Fix the Internet</em>.</p><h2>Departure from EFF</h2><p>In September 2025 Cohn announced that she would step down as EFF's executive director by mid-2026. In March 2026 the organization named Nicole Ozer as her successor, effective June 1, 2026. In 2026 MIT Press published Cohn's memoir <em>Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance</em>.</p>"
   },
   "timeline": [
-    { "date": "1995", "event": "Daniel J. Bernstein sues the U.S. government over encryption export controls; EFF retains Cindy Cohn as lead counsel." },
-    { "date": "1996", "event": "Judge Marilyn Hall Patel of the Northern District of California rules for Bernstein, treating the export licensing scheme as a prior restraint on speech." },
-    { "date": "1997", "event": "Named a Lawyer of the Year by California Lawyer for her work on the Bernstein case." },
-    { "date": "1999-05-06", "event": "A Ninth Circuit panel holds in Bernstein v. United States Department of Justice, 176 F.3d 1132, that encryption source code is speech protected by the First Amendment; Cohn argued the appeal." },
-    { "date": "1999-09-30", "event": "The Ninth Circuit grants rehearing en banc and withdraws the panel opinion (192 F.3d 1308)." },
-    { "date": "2000", "event": "Begins a fifteen-year tenure as legal director and general counsel of the Electronic Frontier Foundation." },
-    { "date": "2003", "event": "The California Supreme Court decides DVD Copy Control Association v. Bunner, in which Cohn's team defended republication of the DeCSS program." },
-    { "date": "2003", "event": "The Bernstein case is dismissed after the government revises its encryption export regulations." },
-    { "date": "2004-09-30", "event": "Online Policy Group v. Diebold, Inc. is decided in the Northern District of California, holding Diebold liable for baseless takedown notices over its voting machine flaws." },
-    { "date": "2006-01-31", "event": "EFF files Hepting v. AT&T, a class action over the carrier's assistance to NSA communications surveillance." },
-    { "date": "2006", "event": "Named one of the 100 most influential lawyers in America by The National Law Journal." },
-    { "date": "2008", "event": "EFF files Jewel v. NSA, challenging the government's dragnet communications surveillance directly." },
-    { "date": "2013", "event": "Again named one of the 100 most influential lawyers in America by The National Law Journal." },
-    { "date": "2015", "event": "Becomes executive director of the Electronic Frontier Foundation." },
-    { "date": "2018-11", "event": "Featured in Forbes' \"America's Top 50 Women In Tech\"." },
-    { "date": "2025-09", "event": "Announces that she will step down as EFF executive director by mid-2026." },
-    { "date": "2026", "event": "MIT Press publishes her memoir Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance." },
-    { "date": "2026-06-01", "event": "Nicole Ozer succeeds her as EFF executive director." }
+    {
+      "date": "1995",
+      "event": "Daniel J. Bernstein sues the U.S. government over encryption export controls; EFF retains Cindy Cohn as lead counsel."
+    },
+    {
+      "date": "1996",
+      "event": "Judge Marilyn Hall Patel of the Northern District of California rules for Bernstein, treating the export licensing scheme as a prior restraint on speech."
+    },
+    {
+      "date": "1997",
+      "event": "Named a Lawyer of the Year by California Lawyer for her work on the Bernstein case."
+    },
+    {
+      "date": "1999-05-06",
+      "event": "A Ninth Circuit panel holds in Bernstein v. United States Department of Justice, 176 F.3d 1132, that encryption source code is speech protected by the First Amendment; Cohn argued the appeal."
+    },
+    {
+      "date": "1999-09-30",
+      "event": "The Ninth Circuit grants rehearing en banc and withdraws the panel opinion (192 F.3d 1308)."
+    },
+    {
+      "date": "2000",
+      "event": "Begins a fifteen-year tenure as legal director and general counsel of the Electronic Frontier Foundation."
+    },
+    {
+      "date": "2003",
+      "event": "The California Supreme Court decides DVD Copy Control Association v. Bunner, in which Cohn's team defended republication of the DeCSS program."
+    },
+    {
+      "date": "2003",
+      "event": "The Bernstein case is dismissed after the government revises its encryption export regulations."
+    },
+    {
+      "date": "2004-09-30",
+      "event": "Online Policy Group v. Diebold, Inc. is decided in the Northern District of California, holding Diebold liable for baseless takedown notices over its voting machine flaws."
+    },
+    {
+      "date": "2006-01-31",
+      "event": "EFF files Hepting v. AT&T, a class action over the carrier's assistance to NSA communications surveillance."
+    },
+    {
+      "date": "2006",
+      "event": "Named one of the 100 most influential lawyers in America by The National Law Journal."
+    },
+    {
+      "date": "2008",
+      "event": "EFF files Jewel v. NSA, challenging the government's dragnet communications surveillance directly."
+    },
+    {
+      "date": "2013",
+      "event": "Again named one of the 100 most influential lawyers in America by The National Law Journal."
+    },
+    {
+      "date": "2015",
+      "event": "Becomes executive director of the Electronic Frontier Foundation."
+    },
+    {
+      "date": "2018-11",
+      "event": "Featured in Forbes' \"America's Top 50 Women In Tech\"."
+    },
+    {
+      "date": "2025-09",
+      "event": "Announces that she will step down as EFF executive director by mid-2026."
+    },
+    {
+      "date": "2026",
+      "event": "MIT Press publishes her memoir Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance."
+    },
+    {
+      "date": "2026-06-01",
+      "event": "Nicole Ozer succeeds her as EFF executive director."
+    }
   ],
-  "relatedPeople": ["daniel-j-bernstein", "jennifer-granick", "philip-zimmermann", "edward-snowden"],
-  "relatedGroups": ["cypherpunks-mailing-list"],
+  "relatedPeople": [
+    "daniel-j-bernstein",
+    "jennifer-granick",
+    "philip-zimmermann",
+    "edward-snowden"
+  ],
+  "relatedGroups": [
+    "cypherpunks-mailing-list"
+  ],
   "relatedTools": [],
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Cindy Cohn - Wikipedia", "url": "https://en.wikipedia.org/wiki/Cindy_Cohn" },
-    { "title": "Bernstein v. United States - Wikipedia", "url": "https://en.wikipedia.org/wiki/Bernstein_v._United_States" },
-    { "title": "Bernstein v. United States Department of Justice, 176 F.3d 1132 (9th Cir. 1999) - CourtListener", "url": "https://www.courtlistener.com/opinion/764117/bernstein-v-united-states-department-of-justice/" },
-    { "title": "Online Policy Group v. Diebold, Inc., 337 F. Supp. 2d 1195 (N.D. Cal. 2004) - CourtListener", "url": "https://www.courtlistener.com/opinion/2470092/online-policy-group-v-diebold-inc/" },
-    { "title": "Hepting v. AT&T - Wikipedia", "url": "https://en.wikipedia.org/wiki/Hepting_v._AT%26T" },
-    { "title": "Jewel v. NSA - Wikipedia", "url": "https://en.wikipedia.org/wiki/Jewel_v._NSA" },
-    { "title": "Electronic Frontier Foundation - Wikipedia", "url": "https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation" },
-    { "title": "Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance - Open Library", "url": "https://openlibrary.org/works/OL45020075W" }
+    {
+      "title": "Cindy Cohn - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cindy_Cohn"
+    },
+    {
+      "title": "Bernstein v. United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bernstein_v._United_States"
+    },
+    {
+      "title": "Bernstein v. United States Department of Justice, 176 F.3d 1132 (9th Cir. 1999) - CourtListener",
+      "url": "https://www.courtlistener.com/opinion/764117/bernstein-v-united-states-department-of-justice/"
+    },
+    {
+      "title": "Online Policy Group v. Diebold, Inc., 337 F. Supp. 2d 1195 (N.D. Cal. 2004) - CourtListener",
+      "url": "https://www.courtlistener.com/opinion/2470092/online-policy-group-v-diebold-inc/"
+    },
+    {
+      "title": "Hepting v. AT&T - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hepting_v._AT%26T"
+    },
+    {
+      "title": "Jewel v. NSA - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jewel_v._NSA"
+    },
+    {
+      "title": "Electronic Frontier Foundation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation"
+    },
+    {
+      "title": "Privacy's Defender: My Thirty-Year Fight Against Digital Surveillance - Open Library",
+      "url": "https://openlibrary.org/works/OL45020075W"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 8,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

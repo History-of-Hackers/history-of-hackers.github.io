@@ -4,21 +4,53 @@
   "title": "The Bangladesh Bank Heist",
   "slug": "bangladesh-bank-heist",
   "era": "2016",
-  "tags": ["swift", "banking-fraud", "lazarus-group", "north-korea", "financial-crime", "insider-threat", "money-laundering"],
+  "tags": [
+    "swift",
+    "banking-fraud",
+    "lazarus-group",
+    "north-korea",
+    "financial-crime",
+    "insider-threat",
+    "money-laundering"
+  ],
   "summary": "In February 2016, attackers used stolen SWIFT credentials to issue fraudulent transfer instructions from Bangladesh Bank's account at the Federal Reserve Bank of New York, attempting to steal nearly $1 billion and successfully diverting $101 million, of which $81 million was routed through casinos in the Philippines and never recovered.",
   "whyThisMatters": "Security researchers and the U.S. Department of Justice attributed the operation to North Korea's Lazarus Group, making it one of the most cited examples of a nation-state using cybercrime for direct financial theft rather than espionage or sabotage. The heist exposed systemic weaknesses in how banks secured their SWIFT terminals and led the SWIFT network itself to introduce a mandatory Customer Security Programme (CSP) and Customer Security Controls Framework (CSCF) for member institutions. It also remains a textbook case study in incident response, cross-border financial forensics, and the intersection of cybercrime with money laundering through casinos.",
   "sections": {
     "overview": "<h2>Background</h2><p>Bangladesh Bank, the central bank of Bangladesh, held a U.S. dollar account at the Federal Reserve Bank of New York that it used to settle international transactions. Access to that account, like that of thousands of other financial institutions worldwide, depended on the SWIFT (Society for Worldwide Interbank Financial Telecommunication) messaging network, which banks use to authenticate and route payment instructions. Investigators later determined that attackers had compromised Bangladesh Bank's internal network months before the theft, reportedly gaining an initial foothold as early as January 2016 and using that access to study the bank's payment procedures and install malware capable of manipulating SWIFT transaction records.</p><h2>The February 2016 Heist</h2><p>On the night of February 4-5, 2016, during a weekend closure in Bangladesh, the attackers used compromised SWIFT credentials to issue thirty-five fraudulent payment instructions directing the Federal Reserve Bank of New York to transfer just under $1 billion out of Bangladesh Bank's account to accounts in the Philippines and Sri Lanka. Most of the requests were blocked or flagged, in part because one instruction misspelled the recipient \"Shalika Foundation\" as \"Shalika Fandation,\" which prompted a routing bank to seek clarification and led to roughly $850 million in transfers being halted. Despite this, five transactions totaling $101 million went through: $81 million was wired to accounts at Rizal Commercial Banking Corporation (RCBC) in the Philippines, and $20 million was sent to Sri Lanka, where a further spelling anomaly in a beneficiary name helped a Sri Lankan bank flag and freeze that transfer.</p><h2>Laundering the Funds</h2><p>The $81 million that reached the Philippines was quickly withdrawn from RCBC accounts and funneled through the Philippine casino industry, which at the time was exempt from the country's anti-money-laundering regulations. Funds were converted into casino chips, gambled, and cashed out through junket operators, making the money extremely difficult to trace or recover. Bangladesh Bank did not detect the fraud until February 8, 2016, when the bank's Dhaka office reopened after the weekend, by which point most of the diverted funds had already been laundered. Ultimately only a small fraction, around $15 million, was ever recovered from the Philippines, while the full $20 million intercepted en route to Sri Lanka was returned.</p><h2>Investigation and Attribution</h2><p>The incident triggered investigations by Bangladeshi authorities, the FBI, and private security firms including Symantec and BAE Systems, which identified code overlaps between the malware used in the heist and tools previously linked to the 2014 Sony Pictures hack and other intrusions attributed to North Korea's Lazarus Group. In September 2018, the U.S. Department of Justice unsealed a criminal complaint charging North Korean programmer Park Jin Hyok with conspiracy to commit computer fraud and related offenses, tying him to a broader pattern of Lazarus Group activity that included the Sony Pictures hack, the WannaCry ransomware outbreak, and attempted SWIFT fraud against multiple banks, including Bangladesh Bank. The Philippine central bank, Bangko Sentral ng Pilipinas, separately fined RCBC roughly 1 billion pesos in 2016 for anti-money-laundering violations connected to handling the stolen funds, and a former RCBC branch manager, Maia Santos Deguito, was convicted of money laundering in relation to the case in 2019.</p><h2>Significance and Legacy</h2><p>The Bangladesh Bank heist is widely regarded as the first publicly documented case of a state-linked actor using a cyberattack to attempt large-scale theft directly from the global banking system, rather than for espionage, sabotage, or ideological disruption. It demonstrated that the SWIFT network's security was only as strong as the weakest member bank's internal defenses, prompting SWIFT to launch its Customer Security Programme in 2016, which introduced mandatory security controls, attestation requirements, and information-sharing obligations for member institutions. The case also became a reference point for how nation-states, particularly North Korea, have used financially motivated cyber operations to circumvent international sanctions, a pattern security researchers have since tracked across numerous subsequent SWIFT-related bank intrusions and cryptocurrency thefts attributed to the same group.</p>"
   },
   "timeline": [
-    { "date": "2016-01", "event": "Attackers reportedly gain initial access to Bangladesh Bank's internal network and begin surveilling SWIFT payment procedures." },
-    { "date": "2016-02-04", "event": "Thirty-five fraudulent SWIFT instructions are issued attempting to transfer nearly $1 billion from Bangladesh Bank's Federal Reserve account." },
-    { "date": "2016-02-05", "event": "Five transactions totaling $101 million are executed, sending $81 million to the Philippines and $20 million to Sri Lanka; a misspelling halts roughly $850 million in further transfers." },
-    { "date": "2016-02-08", "event": "Bangladesh Bank's Dhaka office reopens after the weekend and discovers the fraudulent transfers." },
-    { "date": "2016-03", "event": "Bangladesh Bank Governor Atiur Rahman resigns amid fallout from the heist." },
-    { "date": "2016-08", "event": "Philippine central bank fines Rizal Commercial Banking Corporation (RCBC) roughly 1 billion pesos for anti-money-laundering violations tied to the case." },
-    { "date": "2018-09", "event": "U.S. Department of Justice unseals a criminal complaint charging North Korean programmer Park Jin Hyok in connection with the heist and other Lazarus Group operations." },
-    { "date": "2019-01", "event": "Former RCBC branch manager Maia Santos Deguito is convicted of money laundering in relation to the stolen funds." }
+    {
+      "date": "2016-01",
+      "event": "Attackers reportedly gain initial access to Bangladesh Bank's internal network and begin surveilling SWIFT payment procedures."
+    },
+    {
+      "date": "2016-02-04",
+      "event": "Thirty-five fraudulent SWIFT instructions are issued attempting to transfer nearly $1 billion from Bangladesh Bank's Federal Reserve account."
+    },
+    {
+      "date": "2016-02-05",
+      "event": "Five transactions totaling $101 million are executed, sending $81 million to the Philippines and $20 million to Sri Lanka; a misspelling halts roughly $850 million in further transfers."
+    },
+    {
+      "date": "2016-02-08",
+      "event": "Bangladesh Bank's Dhaka office reopens after the weekend and discovers the fraudulent transfers."
+    },
+    {
+      "date": "2016-03",
+      "event": "Bangladesh Bank Governor Atiur Rahman resigns amid fallout from the heist."
+    },
+    {
+      "date": "2016-08",
+      "event": "Philippine central bank fines Rizal Commercial Banking Corporation (RCBC) roughly 1 billion pesos for anti-money-laundering violations tied to the case."
+    },
+    {
+      "date": "2018-09",
+      "event": "U.S. Department of Justice unseals a criminal complaint charging North Korean programmer Park Jin Hyok in connection with the heist and other Lazarus Group operations."
+    },
+    {
+      "date": "2019-01",
+      "event": "Former RCBC branch manager Maia Santos Deguito is convicted of money laundering in relation to the stolen funds."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -26,15 +58,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Bangladesh Bank robbery - Wikipedia", "url": "https://en.wikipedia.org/wiki/Bangladesh_Bank_robbery" },
-    { "title": "Lazarus Group - Wikipedia", "url": "https://en.wikipedia.org/wiki/Lazarus_Group" },
-    { "title": "SWIFT - Wikipedia", "url": "https://en.wikipedia.org/wiki/SWIFT" }
+    {
+      "title": "Bangladesh Bank robbery - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladesh_Bank_robbery"
+    },
+    {
+      "title": "Lazarus Group - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lazarus_Group"
+    },
+    {
+      "title": "SWIFT - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SWIFT"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

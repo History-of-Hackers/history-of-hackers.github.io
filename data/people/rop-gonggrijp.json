@@ -7,7 +7,16 @@
   "born": "1968-02-14",
   "died": null,
   "era": "1980s-Present",
-  "tags": ["hacker", "netherlands", "isp", "hacktic", "xs4all", "e-voting", "wikileaks", "activism"],
+  "tags": [
+    "hacker",
+    "netherlands",
+    "isp",
+    "hacktic",
+    "xs4all",
+    "e-voting",
+    "wikileaks",
+    "activism"
+  ],
   "summary": "Rop Gonggrijp (born Robbert Valentijn Gonggrijp) is a Dutch hacker and entrepreneur who founded the hacker magazine Hack-Tic in 1989 and co-founded the Dutch internet provider XS4ALL in 1993. He later became known for exposing security flaws in electronic voting machines used in Dutch elections and for assisting WikiLeaks with the 2010 'Collateral Murder' video release.",
   "whyThisMatters": "Gonggrijp helped shape the early European hacker scene by founding Hack-Tic and organizing the Galactic Hacker Party in 1989, a precursor to the recurring Dutch outdoor hacker camps (HEU, HIP, HAL) held every four years. XS4ALL, which grew out of his hacker network, became one of the first Dutch ISPs to offer ordinary citizens internet access, playing a significant role in the consumerization of the internet in the Netherlands. His later work demonstrating vulnerabilities in Nedap voting computers directly contributed to the Netherlands abandoning electronic voting machines in favor of paper ballots, making him a notable figure in the history of electronic-voting security research. His assistance to WikiLeaks in preparing the 'Collateral Murder' video also placed him at the center of one of the most consequential leaks in the platform's history.",
   "knownFor": [
@@ -23,15 +32,42 @@
     "overview": "<h2>Early Life and Background</h2><p>Rop Gonggrijp, born Robbert Valentijn Gonggrijp on 14 February 1968 in Amsterdam, is a Dutch hacker, entrepreneur, and activist. He became active in the Dutch computer underground and hacker scene in the 1980s, at a time when hobbyist computing and telephone networks were becoming accessible to a growing community of technically curious young people across Europe.</p><h2>Hack-Tic Magazine and the Galactic Hacker Party</h2><p>In January 1989, Gonggrijp founded Hack-Tic, a Dutch-language hacker magazine inspired by the German Chaos Computer Club's publications and the American 2600: The Hacker Quarterly. In the magazine's masthead he listed himself with the tongue-in-cheek title of \"hoofdverdachte\" (\"prime suspect\"), a wry reference to how authorities viewed him. Hack-Tic was published from 1989 until 1993. That same year the magazine launched, in August 1989, Gonggrijp co-organized the Galactic Hacker Party together with Caroline Nevejan and Patrice Riemens, held at the Paradiso venue in Amsterdam. The event is regarded as the first in a recurring series of large outdoor and indoor Dutch hacker gatherings held roughly every four years, later continuing as Hacking at the End of the Universe (HEU, 1993), Hacking In Progress (HIP, 1997), and Hackers at Large (HAL, 2001).</p><h2>Founding XS4ALL</h2><p>Out of the Hack-Tic community grew Hacktic Netwerk, whose infrastructure and mailing culture laid the groundwork, starting around 1991, for what became XS4ALL, one of the first internet service providers in the Netherlands to offer ordinary members of the public access to the internet. XS4ALL launched commercially in 1993 and became a significant and influential Dutch ISP, known for its early support of internet freedom and privacy. Gonggrijp was involved with the company in its early years; XS4ALL was eventually sold to the Dutch telecommunications company KPN in 1998.</p><h2>ITSX and the Cryptophone</h2><p>Gonggrijp went on to found ITSX, a computer security evaluation and penetration-testing company, which was later acquired by the security firm Madison Gurkha. Starting around 2001, he was also involved in developing the Cryptophone, a mobile telephone designed to provide strong end-to-end encrypted voice communication, reflecting his continuing interest in practical applied cryptography and secure communications.</p><h2>Electronic Voting Machine Security Research</h2><p>In 2006, Gonggrijp founded the campaign group \"Wij vertrouwen stemcomputers niet\" (\"We do not trust voting computers\"). In October 2006, together with fellow researchers, he publicly demonstrated on Dutch television that Nedap voting computers used in Dutch elections could be tampered with, including replacing internal chips to alter vote counts and using electromagnetic emissions to eavesdrop on which candidate a voter had selected. The demonstrations, along with a critical report by the Netherlands' Interior Ministry, contributed to Dutch authorities decertifying the Nedap machines and to the Netherlands subsequently moving away from electronic voting computers back toward paper ballots and red pencils in national elections.</p><h2>WikiLeaks and Later Work</h2><p>In 2010, Gonggrijp assisted WikiLeaks in preparing the \"Collateral Murder\" video, leaked footage of a 2007 U.S. military Apache helicopter attack in Baghdad that killed a number of civilians, including two Reuters news staff. Gonggrijp has described doing extensive production and verification work on the footage, examining it in detail alongside journalists to corroborate the events shown before its public release in April 2010. His work connected him to the broader WikiLeaks network at a time when the organization's disclosures were prompting significant international attention and legal scrutiny, including from United States authorities.</p><h2>Significance and Legacy</h2><p>Gonggrijp is regarded as one of the influential figures of the early Dutch and European hacker scene, bridging the hobbyist hacking culture of the 1980s with later professional computer security work and digital-rights activism. His trajectory from underground hacker magazine publisher to ISP co-founder, security researcher, and WikiLeaks collaborator illustrates how figures from the early hacker community went on to shape internet infrastructure, election security debates, and transparency activism in subsequent decades.</p>"
   },
   "timeline": [
-    { "date": "1968-02-14", "event": "Born Robbert Valentijn Gonggrijp in Amsterdam, Netherlands." },
-    { "date": "1989-01", "event": "Founded the Dutch hacker magazine Hack-Tic." },
-    { "date": "1989-08", "event": "Co-organized the Galactic Hacker Party at Paradiso in Amsterdam with Caroline Nevejan and Patrice Riemens." },
-    { "date": "1991", "event": "Hacktic Netwerk laid the groundwork for what would become the ISP XS4ALL." },
-    { "date": "1993", "event": "Co-founded XS4ALL, one of the first Dutch internet service providers for private individuals; Hack-Tic magazine ceased publication." },
-    { "date": "1998", "event": "XS4ALL was sold to Dutch telecom operator KPN." },
-    { "date": "2001", "event": "Began work on the Cryptophone encrypted mobile telephone project." },
-    { "date": "2006", "event": "Founded 'Wij vertrouwen stemcomputers niet' and, with colleagues, publicly demonstrated security vulnerabilities in Nedap voting computers on Dutch television, contributing to their decertification." },
-    { "date": "2010-04", "event": "Assisted WikiLeaks with production and verification work on the 'Collateral Murder' video prior to its release." }
+    {
+      "date": "1968-02-14",
+      "event": "Born Robbert Valentijn Gonggrijp in Amsterdam, Netherlands."
+    },
+    {
+      "date": "1989-01",
+      "event": "Founded the Dutch hacker magazine Hack-Tic."
+    },
+    {
+      "date": "1989-08",
+      "event": "Co-organized the Galactic Hacker Party at Paradiso in Amsterdam with Caroline Nevejan and Patrice Riemens."
+    },
+    {
+      "date": "1991",
+      "event": "Hacktic Netwerk laid the groundwork for what would become the ISP XS4ALL."
+    },
+    {
+      "date": "1993",
+      "event": "Co-founded XS4ALL, one of the first Dutch internet service providers for private individuals; Hack-Tic magazine ceased publication."
+    },
+    {
+      "date": "1998",
+      "event": "XS4ALL was sold to Dutch telecom operator KPN."
+    },
+    {
+      "date": "2001",
+      "event": "Began work on the Cryptophone encrypted mobile telephone project."
+    },
+    {
+      "date": "2006",
+      "event": "Founded 'Wij vertrouwen stemcomputers niet' and, with colleagues, publicly demonstrated security vulnerabilities in Nedap voting computers on Dutch television, contributing to their decertification."
+    },
+    {
+      "date": "2010-04",
+      "event": "Assisted WikiLeaks with production and verification work on the 'Collateral Murder' video prior to its release."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -39,17 +75,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Rop Gonggrijp - Wikipedia", "url": "https://en.wikipedia.org/wiki/Rop_Gonggrijp" },
-    { "title": "Hack-Tic - Wikipedia", "url": "https://en.wikipedia.org/wiki/Hack-Tic" },
-    { "title": "Nederlander werkte mee aan WikiLeaks-video - NOS", "url": "https://nos.nl/artikel/148768-nederlander-werkte-mee-aan-wikileaks-video.html" },
-    { "title": "No Secrets - The New Yorker", "url": "https://www.newyorker.com/magazine/2010/06/07/no-secrets" },
-    { "title": "We do not trust voting computers (archived) - wijvertrouwenstemcomputersniet.nl", "url": "https://web.archive.org/web/20210620192324/http://wijvertrouwenstemcomputersniet.nl/English" }
+    {
+      "title": "Rop Gonggrijp - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rop_Gonggrijp"
+    },
+    {
+      "title": "Hack-Tic - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hack-Tic"
+    },
+    {
+      "title": "Nederlander werkte mee aan WikiLeaks-video - NOS",
+      "url": "https://nos.nl/artikel/148768-nederlander-werkte-mee-aan-wikileaks-video.html"
+    },
+    {
+      "title": "No Secrets - The New Yorker",
+      "url": "https://www.newyorker.com/magazine/2010/06/07/no-secrets"
+    },
+    {
+      "title": "We do not trust voting computers (archived) - wijvertrouwenstemcomputersniet.nl",
+      "url": "https://web.archive.org/web/20210620192324/http://wijvertrouwenstemcomputersniet.nl/English"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

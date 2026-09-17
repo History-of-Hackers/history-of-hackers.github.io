@@ -75,7 +75,8 @@
     "sourcesCount": 4,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
   "name": "Linus Torvalds",
   "born": "1969-12-28",

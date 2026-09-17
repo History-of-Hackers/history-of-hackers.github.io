@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["L0pht", "Cult of the Dead Cow", "Back Orifice 2000", "Veracode", "application security", "buffer overflows", "Veilid", "binary analysis"],
+  "tags": [
+    "L0pht",
+    "Cult of the Dead Cow",
+    "Back Orifice 2000",
+    "Veracode",
+    "application security",
+    "buffer overflows",
+    "Veilid",
+    "binary analysis"
+  ],
   "summary": "Christien Rioux, known by the handle DilDog, is an American computer security researcher who was a member of L0pht Heavy Industries and the Cult of the Dead Cow, wrote the original code for the Back Orifice 2000 remote administration tool, and co-founded the application security company Veracode.",
   "whyThisMatters": "Rioux is one of the clearest examples of the 1990s hacker-collective researcher who carried underground technical practice into commercial security engineering. His writing on Windows buffer overflows helped codify exploitation technique for a platform that dominated corporate desktops, and Back Orifice 2000 forced a public argument about the line between remote administration software and malware. His later work at @stake and Veracode helped move automated binary and static analysis of software into mainstream enterprise practice, and his role in the Veilid framework shows the same skills applied to privacy infrastructure decades later.",
   "knownFor": [
@@ -23,15 +32,42 @@
     "overview": "<h2>Background</h2><p>Christien Rioux, who uses the handle DilDog, is an American computer programmer and security researcher educated at the Massachusetts Institute of Technology. He came to prominence in the second half of the 1990s through membership in two of the most visible groups in the American hacker scene of that period: the Boston-area research collective L0pht Heavy Industries and the Texas-founded hacktivist group Cult of the Dead Cow. His published year of birth is not recorded in standard reference sources.</p><p>L0pht Heavy Industries was founded in 1992 around a shared loft space in Boston's South End and became known for publishing security advisories and building tools that demonstrated weaknesses in widely deployed commercial software. Rioux appears in the group's membership roster under the handle Dildog. He was not among the seven L0pht members who testified before a U.S. Senate committee on 19 May 1998, an appearance that made the group nationally known.</p><h2>Buffer overflow research</h2><p>One of Rioux's earliest widely circulated technical works was <em>The Tao of Windows Buffer Overflow</em>, published under the DilDog handle as issue #351 of the Cult of the Dead Cow text file series in 1998. Written in a deliberately informal, aphoristic style, the piece walked through the mechanics of exploiting stack-based buffer overflows on Microsoft Windows at a time when most published overflow material targeted Unix systems. The text was subsequently cited in academic literature on return-address protection and buffer overflow defenses, an unusual trajectory for an underground e-zine article.</p><h2>Back Orifice 2000</h2><p>Rioux is best known publicly as the author of the original code for Back Orifice 2000, generally abbreviated BO2k. The tool was released by the Cult of the Dead Cow on 10 July 1999 at DEF CON 7 in Las Vegas, following the original Back Orifice that the group had debuted at DEF CON 6 on 1 August 1998. Unlike its predecessor, BO2k was published as free software under the GNU General Public License and supported the Windows NT family in addition to the consumer Windows releases.</p><p>BO2k provided remote file management, registry editing, desktop streaming, keyboard and mouse control, an extensible plugin architecture with encryption options, and the ability to run without notifying the machine's user. That last property drove a sustained dispute: antivirus vendors classified the program as malware and noted that it was frequently installed through trojan horses without the owner's knowledge, while the cDc argued that commercial remote administration products offered comparable silent-install capabilities and that the double standard was a marketing position rather than a technical one. The initial distribution was itself contaminated, having shipped with the CIH virus present in some copies. Later releases continued under a separate BO2k development team, with version 1.1.6 for Windows released on 21 March 2007.</p><h2>@stake and Veracode</h2><p>In January 2000, L0pht Heavy Industries merged into the venture-funded security consultancy @stake, and Rioux moved with it. At @stake he searched for weaknesses in commercial software and led development of the Smart Risk Analyzer, an automated code analysis product. He also co-authored two of the firm's best-known tools: the Windows password auditor L0phtCrack, later marketed as @stake LC, and AntiSniff, which detected network interfaces placed in promiscuous mode. @stake was later acquired by Symantec.</p><p>In 2006 Rioux co-founded Veracode with fellow L0pht and @stake alumnus Chris Wysopal. Based in Burlington, Massachusetts, the company built a cloud-delivered application security testing service combining static analysis of compiled binaries, dynamic testing, and software composition analysis. Rioux serves as the company's chief scientist and is its principal named inventor on patents. Veracode was acquired by CA Technologies in March 2017 for approximately $614 million; following Broadcom's purchase of CA in November 2018, Thoma Bravo acquired Veracode for $950 million, and TA Associates bought the company at a reported $2.5 billion valuation in March 2022.</p><h2>Veilid</h2><p>Rioux returned to public hacker-community work with Veilid, an open-source peer-to-peer application framework for encrypted, anonymous communication that the Cult of the Dead Cow released on 11 August 2023 at DEF CON 31. Rioux and Katelyn \"Medus4\" Bowden presented the launch. Written in Rust and licensed under the Mozilla Public License 2.0, Veilid is designed so that a participant's only visible identifier is a 256-bit public key, with IP addresses and other metadata concealed by routing through the node network. The project has been described by its authors as an attempt to give developers a privacy substrate for ordinary applications rather than for browsing alone, and a companion secure messenger, VeilidChat, was built on the framework.</p><h2>Significance</h2><p>Rioux's career traces the path taken by a portion of the 1990s American hacker scene from adversarial disclosure toward commercial defensive engineering, without the abandonment of the original community. The buffer overflow writing and BO2k belong to a period when demonstrating a weakness publicly was the principal lever available for forcing vendors to respond; the Veracode work belongs to a later period in which the same analysis techniques were productized and sold to the vendors themselves. Veilid places him back in the hacktivist register that the Cult of the Dead Cow has occupied since it coined the term hacktivism in 1996.</p>"
   },
   "timeline": [
-    { "date": "1992", "event": "L0pht Heavy Industries is founded in Boston; Rioux later joins under the handle Dildog." },
-    { "date": "1998", "event": "Publishes \"The Tao of Windows Buffer Overflow\" as Cult of the Dead Cow text file issue #351." },
-    { "date": "1998-08-01", "event": "Cult of the Dead Cow debuts the original Back Orifice at DEF CON 6." },
-    { "date": "1999-07-10", "event": "Back Orifice 2000, written originally by Rioux, is released at DEF CON 7 in Las Vegas under the GPL." },
-    { "date": "2000-01", "event": "L0pht Heavy Industries merges into the security consultancy @stake." },
-    { "date": "2006", "event": "Co-founds Veracode with Chris Wysopal in Burlington, Massachusetts, serving as chief scientist." },
-    { "date": "2007-03-21", "event": "Back Orifice 2000 version 1.1.6 for Windows is released by the BO2k development team." },
-    { "date": "2017-03", "event": "CA Technologies acquires Veracode for approximately $614 million." },
-    { "date": "2023-08-11", "event": "Presents the launch of the Veilid peer-to-peer privacy framework with Katelyn Bowden at DEF CON 31." }
+    {
+      "date": "1992",
+      "event": "L0pht Heavy Industries is founded in Boston; Rioux later joins under the handle Dildog."
+    },
+    {
+      "date": "1998",
+      "event": "Publishes \"The Tao of Windows Buffer Overflow\" as Cult of the Dead Cow text file issue #351."
+    },
+    {
+      "date": "1998-08-01",
+      "event": "Cult of the Dead Cow debuts the original Back Orifice at DEF CON 6."
+    },
+    {
+      "date": "1999-07-10",
+      "event": "Back Orifice 2000, written originally by Rioux, is released at DEF CON 7 in Las Vegas under the GPL."
+    },
+    {
+      "date": "2000-01",
+      "event": "L0pht Heavy Industries merges into the security consultancy @stake."
+    },
+    {
+      "date": "2006",
+      "event": "Co-founds Veracode with Chris Wysopal in Burlington, Massachusetts, serving as chief scientist."
+    },
+    {
+      "date": "2007-03-21",
+      "event": "Back Orifice 2000 version 1.1.6 for Windows is released by the BO2k development team."
+    },
+    {
+      "date": "2017-03",
+      "event": "CA Technologies acquires Veracode for approximately $614 million."
+    },
+    {
+      "date": "2023-08-11",
+      "event": "Presents the launch of the Veilid peer-to-peer privacy framework with Katelyn Bowden at DEF CON 31."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -39,21 +75,49 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Christien Rioux - Wikipedia", "url": "https://en.wikipedia.org/wiki/Christien_Rioux" },
-    { "title": "Back Orifice 2000 - Wikipedia", "url": "https://en.wikipedia.org/wiki/Back_Orifice_2000" },
-    { "title": "L0pht - Wikipedia", "url": "https://en.wikipedia.org/wiki/L0pht" },
-    { "title": "Cult of the Dead Cow - Wikipedia", "url": "https://en.wikipedia.org/wiki/Cult_of_the_Dead_Cow" },
-    { "title": "Veracode - Wikipedia", "url": "https://en.wikipedia.org/wiki/Veracode" },
-    { "title": "Veilid - Wikipedia", "url": "https://en.wikipedia.org/wiki/Veilid" },
-    { "title": "Veilid - Official project site", "url": "https://veilid.com/" },
-    { "title": "veilid/veilid - GitLab repository", "url": "https://gitlab.com/veilid/veilid" },
-    { "title": "DilDog, \"The Tao of Windows Buffer Overflow\", cDc text file #351", "url": "http://www.cultdeadcow.com/cDc_files/cDc-351/" }
+    {
+      "title": "Christien Rioux - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Christien_Rioux"
+    },
+    {
+      "title": "Back Orifice 2000 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Back_Orifice_2000"
+    },
+    {
+      "title": "L0pht - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/L0pht"
+    },
+    {
+      "title": "Cult of the Dead Cow - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cult_of_the_Dead_Cow"
+    },
+    {
+      "title": "Veracode - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Veracode"
+    },
+    {
+      "title": "Veilid - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Veilid"
+    },
+    {
+      "title": "Veilid - Official project site",
+      "url": "https://veilid.com/"
+    },
+    {
+      "title": "veilid/veilid - GitLab repository",
+      "url": "https://gitlab.com/veilid/veilid"
+    },
+    {
+      "title": "DilDog, \"The Tao of Windows Buffer Overflow\", cDc text file #351",
+      "url": "http://www.cultdeadcow.com/cDc_files/cDc-351/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 9,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

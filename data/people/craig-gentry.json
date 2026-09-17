@@ -1,12 +1,72 @@
 {
-  "id":"craig-gentry", "type":"person", "title":"Craig Gentry", "slug":"craig-gentry", "name":"Craig Gentry", "born":null, "died":null, "era":"2000s-Present",
-  "tags":["cryptography","fully-homomorphic-encryption","privacy","encrypted-computation","research"],
-  "summary":"Cryptographer known for introducing a plausible fully homomorphic encryption scheme in 2009, a major development in privacy-preserving computation.",
-  "whyThisMatters":"Fully homomorphic encryption addresses the problem of computing on protected data without first revealing it. Gentry's 2009 construction made this goal a practical research direction rather than only a theoretical aspiration.",
-  "knownFor":["Fully homomorphic encryption","Encrypted computation","Privacy-preserving cryptography"],
-  "sections":{"overview":"<p>Craig Gentry is a cryptographer known for work on fully homomorphic encryption (FHE), a technique for performing computations on encrypted data.</p><h2>A 2009 breakthrough</h2><p>IBM Research identifies Gentry's 2009 scheme as the first plausible fully homomorphic encryption scheme. It addressed a longstanding obstacle: the accumulation of noise during encrypted computation.</p><h2>Applications and limits</h2><p>FHE has motivated research on privacy-preserving cloud computation, data analysis, and machine learning. Its deployment requires careful attention to performance, parameters, and threat models.</p><h2>Security legacy</h2><p>Gentry's work helped establish encrypted computation as an active technical field and informed subsequent work on practical FHE schemes.</p>"},
-  "timeline":[{"date":"2009","event":"Introduces a plausible fully homomorphic encryption scheme while at IBM Research."},{"date":"2010","event":"Receives the ACM Doctoral Dissertation Award for the work, as recorded by IBM."},{"date":"2023","event":"RSAC Conference lists him as CTO of TripleBlind and a pioneer of FHE."}],
-  "relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],
-  "sources":[{"title":"IBM Research: Fully Homomorphic Encryption", "url":"https://research.ibm.com/topics/fully-homomorphic-encryption"},{"title":"RSAC Conference: Craig Gentry", "url":"https://www.rsaconference.com/experts/craig-gentry"},{"title":"Fully Homomorphic Encryption Using Ideal Lattices", "url":"https://dl.acm.org/doi/10.1145/1536414.1536440"},{"title":"IBM Research: Craig Gentry receives ACM award", "url":"https://research.ibm.com/blog/craig-gentry-acm-doctoral-dissertation-award"}],
-  "editorial":{"verified":true,"sourcesCount":4,"lastReviewed":"2026-09-03","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-03"}
+  "id": "craig-gentry",
+  "type": "person",
+  "title": "Craig Gentry",
+  "slug": "craig-gentry",
+  "name": "Craig Gentry",
+  "born": null,
+  "died": null,
+  "era": "2000s-Present",
+  "tags": [
+    "cryptography",
+    "fully-homomorphic-encryption",
+    "privacy",
+    "encrypted-computation",
+    "research"
+  ],
+  "summary": "Cryptographer known for introducing a plausible fully homomorphic encryption scheme in 2009, a major development in privacy-preserving computation.",
+  "whyThisMatters": "Fully homomorphic encryption addresses the problem of computing on protected data without first revealing it. Gentry's 2009 construction made this goal a practical research direction rather than only a theoretical aspiration.",
+  "knownFor": [
+    "Fully homomorphic encryption",
+    "Encrypted computation",
+    "Privacy-preserving cryptography"
+  ],
+  "sections": {
+    "overview": "<p>Craig Gentry is a cryptographer known for work on fully homomorphic encryption (FHE), a technique for performing computations on encrypted data.</p><h2>A 2009 breakthrough</h2><p>IBM Research identifies Gentry's 2009 scheme as the first plausible fully homomorphic encryption scheme. It addressed a longstanding obstacle: the accumulation of noise during encrypted computation.</p><h2>Applications and limits</h2><p>FHE has motivated research on privacy-preserving cloud computation, data analysis, and machine learning. Its deployment requires careful attention to performance, parameters, and threat models.</p><h2>Security legacy</h2><p>Gentry's work helped establish encrypted computation as an active technical field and informed subsequent work on practical FHE schemes.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "event": "Introduces a plausible fully homomorphic encryption scheme while at IBM Research."
+    },
+    {
+      "date": "2010",
+      "event": "Receives the ACM Doctoral Dissertation Award for the work, as recorded by IBM."
+    },
+    {
+      "date": "2023",
+      "event": "RSAC Conference lists him as CTO of TripleBlind and a pioneer of FHE."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "IBM Research: Fully Homomorphic Encryption",
+      "url": "https://research.ibm.com/topics/fully-homomorphic-encryption"
+    },
+    {
+      "title": "RSAC Conference: Craig Gentry",
+      "url": "https://www.rsaconference.com/experts/craig-gentry"
+    },
+    {
+      "title": "Fully Homomorphic Encryption Using Ideal Lattices",
+      "url": "https://dl.acm.org/doi/10.1145/1536414.1536440"
+    },
+    {
+      "title": "IBM Research: Craig Gentry receives ACM award",
+      "url": "https://research.ibm.com/blog/craig-gentry-acm-doctoral-dissertation-award"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

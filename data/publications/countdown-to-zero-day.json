@@ -4,19 +4,46 @@
   "title": "Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon",
   "slug": "countdown-to-zero-day",
   "era": "2014",
-  "tags": ["stuxnet", "malware", "book", "journalism", "cyberwarfare", "industrial-control-systems", "iran", "nation-state"],
+  "tags": [
+    "stuxnet",
+    "malware",
+    "book",
+    "journalism",
+    "cyberwarfare",
+    "industrial-control-systems",
+    "iran",
+    "nation-state"
+  ],
   "summary": "\"Countdown to Zero Day\" is a 2014 nonfiction book by American investigative journalist Kim Zetter, published by Crown, that chronicles the discovery and technical analysis of the Stuxnet computer worm and its sabotage of Iran's Natanz uranium-enrichment facility.",
   "whyThisMatters": "The book is widely regarded as the most detailed public account of Stuxnet, synthesizing years of technical research from antivirus firms and independent researchers into a single narrative for a general audience. It documented, in close detail, how a piece of malware could cross from the digital realm into physical destruction of industrial equipment, helping establish \"cyberweapon\" as a mainstream concept in security, policy, and journalism. Zetter's reporting is frequently cited as a secondary source in encyclopedic and journalistic accounts of Stuxnet, Duqu, and related nation-state malware.",
   "sections": {
     "overview": "<h2>Background</h2><p>\"Countdown to Zero Day: Stuxnet and the Launch of the World's First Digital Weapon\" is a nonfiction book by Kim Zetter, an American investigative journalist who covered cybersecurity and national security, most notably as a longtime staff reporter for Wired. The book was published by Crown in November 2014. It grew out of years of Zetter's reporting on the Stuxnet worm, a piece of malware discovered in 2010 that came to be understood as a sophisticated, nation-state-built cyberweapon aimed at physical industrial equipment rather than data theft.</p><h2>Subject matter</h2><p>The book reconstructs how a small Belarusian antivirus company, VirusBlokAda, first stumbled on the malware in mid-2010 after being contacted about unexplained computer crashes in Iran, and how researchers at firms including Symantec and Kaspersky Lab, along with independent industrial-control-systems expert Ralph Langner, gradually pieced together what the code actually did. Zetter details the forensic process by which analysts determined that the worm, which came to be called Stuxnet, was designed to specifically target Siemens Step7 industrial control software running programmable logic controllers (PLCs) used to operate centrifuges at Iran's Natanz uranium-enrichment plant.</p><h2>Key events and findings covered</h2><p>The book describes how Stuxnet exploited multiple then-unknown \"zero-day\" vulnerabilities in Windows to spread, used stolen digital certificates to appear trustworthy, and was engineered to alter the speed of centrifuge rotors while feeding false readings back to plant operators, causing physical damage while masking its own effects. Zetter connects the worm's likely origin to a broader covert program, reported elsewhere as \"Operation Olympic Games,\" describing a joint United States and Israeli effort against Iran's nuclear program that began under the George W. Bush administration and continued under the Obama administration, while noting that neither government has officially acknowledged involvement.</p><h2>Reception and significance</h2><p>\"Countdown to Zero Day\" was released to substantial attention from technology and security press as the most comprehensive public account of Stuxnet's discovery and analysis to date, drawing on interviews with the researchers who first dissected the code. It is regularly cited as a reference work in subsequent journalism, academic writing, and encyclopedic material covering Stuxnet and related malware families such as Duqu and Flame, and it contributed to shaping public and policy discussion of cyberweapons as tools capable of causing physical, kinetic-style damage rather than purely informational harm.</p><h2>Legacy</h2><p>The book is frequently listed among the defining works of cybersecurity journalism and is cited in the reference sections of encyclopedic articles on Stuxnet and adjacent topics. Zetter's account remains a primary popular-history reference point for how a digital weapon was built, deployed, discovered, and unraveled by a loosely connected, international group of security researchers.</p>"
   },
   "timeline": [
-    { "date": "2005", "event": "Development of what would later be identified as Stuxnet is believed to have begun, according to research the book documents." },
-    { "date": "2010-06-17", "event": "Belarusian antivirus firm VirusBlokAda first uncovers the malware later named Stuxnet." },
-    { "date": "2010-07-15", "event": "Journalist Brian Krebs publishes one of the first widely read reports on the worm." },
-    { "date": "2010-09", "event": "Industrial-control-systems researcher Ralph Langner publicly identifies that Stuxnet specifically targets PLCs and speculates about a nation-state, possibly Israeli, origin." },
-    { "date": "2012-06-01", "event": "The New York Times reports that Stuxnet was part of a US-Israeli covert program known as Operation Olympic Games." },
-    { "date": "2014-11", "event": "Kim Zetter's \"Countdown to Zero Day\" is published by Crown, consolidating years of reporting on Stuxnet's discovery and analysis." }
+    {
+      "date": "2005",
+      "event": "Development of what would later be identified as Stuxnet is believed to have begun, according to research the book documents."
+    },
+    {
+      "date": "2010-06-17",
+      "event": "Belarusian antivirus firm VirusBlokAda first uncovers the malware later named Stuxnet."
+    },
+    {
+      "date": "2010-07-15",
+      "event": "Journalist Brian Krebs publishes one of the first widely read reports on the worm."
+    },
+    {
+      "date": "2010-09",
+      "event": "Industrial-control-systems researcher Ralph Langner publicly identifies that Stuxnet specifically targets PLCs and speculates about a nation-state, possibly Israeli, origin."
+    },
+    {
+      "date": "2012-06-01",
+      "event": "The New York Times reports that Stuxnet was part of a US-Israeli covert program known as Operation Olympic Games."
+    },
+    {
+      "date": "2014-11",
+      "event": "Kim Zetter's \"Countdown to Zero Day\" is published by Crown, consolidating years of reporting on Stuxnet's discovery and analysis."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -24,16 +51,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Kim Zetter - Wikipedia", "url": "https://en.wikipedia.org/wiki/Kim_Zetter" },
-    { "title": "Stuxnet - Wikipedia", "url": "https://en.wikipedia.org/wiki/Stuxnet" },
-    { "title": "Wikipedia search results for \"Countdown to Zero Day Zetter\"", "url": "https://en.wikipedia.org/w/index.php?search=Countdown+to+Zero+Day+Zetter&title=Special:Search" },
-    { "title": "Duqu - Wikipedia (cites Countdown to Zero Day)", "url": "https://en.wikipedia.org/wiki/Duqu" }
+    {
+      "title": "Kim Zetter - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kim_Zetter"
+    },
+    {
+      "title": "Stuxnet - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stuxnet"
+    },
+    {
+      "title": "Wikipedia search results for \"Countdown to Zero Day Zetter\"",
+      "url": "https://en.wikipedia.org/w/index.php?search=Countdown+to+Zero+Day+Zetter&title=Special:Search"
+    },
+    {
+      "title": "Duqu - Wikipedia (cites Countdown to Zero Day)",
+      "url": "https://en.wikipedia.org/wiki/Duqu"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

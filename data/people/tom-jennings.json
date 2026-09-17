@@ -7,7 +7,16 @@
   "born": "1955",
   "died": null,
   "era": "1980s-Present",
-  "tags": ["fidonet", "bbs", "store-and-forward", "networking", "diy culture", "zines", "queercore", "internet history"],
+  "tags": [
+    "fidonet",
+    "bbs",
+    "store-and-forward",
+    "networking",
+    "diy culture",
+    "zines",
+    "queercore",
+    "internet history"
+  ],
   "summary": "Tom Jennings is an American programmer and artist who wrote the Fido bulletin board system software in 1983–1984 and then created FidoNet, the store-and-forward messaging network that linked dial-up BBSes worldwide during the 1980s and early 1990s. He was also an early internet service provider operator through The Little Garden and a publisher of the queercore zine Homocore.",
   "whyThisMatters": "FidoNet gave hobbyist bulletin board systems a working method for exchanging mail and files without any central operator, years before most people had access to the internet. At its height the network listed tens of thousands of systems and served millions of users, making it the largest amateur computer network ever built. Its addressing scheme, nodelist, and Echomail conferences shaped how a generation of technically inclined users first experienced online community and distributed messaging. Jennings's insistence on local autonomy and minimal hierarchy also became a reference point in later arguments about how decentralized networks should be governed.",
   "knownFor": [
@@ -21,21 +30,66 @@
     "overview": "<h2>Background</h2><p>Thomas Daniel Jennings was born in 1955 in Boston, Massachusetts. He had been using bulletin board systems since the mid-1970s, and by the early 1980s was working as a programmer on IBM PC-compatible software during the period when the personal computer clone market was taking shape. He later described himself as coming out of punk and anarchist milieus as much as out of the computer industry, a combination that shaped both his technical work and the way he wrote about it.</p><h2>Fido and the origins of FidoNet</h2><p>Jennings began work on a bulletin board program around Christmas 1983 and set the system up in San Francisco in early 1984. The software was named Fido because the hardware it ran on was assembled from mismatched parts — in his account, “a real mongrel.” Fido became one of the first widely used MS-DOS bulletin board programs.</p><p>The networking component followed shortly after. John Madill, who was running a similar system in Baltimore, became an early correspondent, and the two machines were connected so that messages could be passed automatically between them overnight. Jennings kept an informal list of participating systems and their telephone numbers, assigning himself node 1 and Madill node 2. He released the initial FidoNet mail-exchanging software in June 1984. The first official nodelist was published on 21 September 1984.</p><h2>Growth and reorganization</h2><p>The network expanded quickly. Roughly thirty systems appeared in the nodelist by August 1984 and about fifty by that September; by January 1985 there were more than 160 nodes. The original flat addressing scheme was designed around a limit of 250 nodes, and by spring 1985 the network was approaching it. At a meeting of coordinators in St. Louis on 11 April 1985, a hierarchical network-and-node addressing scheme was adopted, and version 10C of the software implementing it was released on 12 June 1985.</p><p>In February 1986 Jeff Rush introduced Echomail, a store-and-forward system of public message conferences carried over FidoNet links, comparable in function to Usenet newsgroups. Echomail broadened FidoNet from a private mail system into a public discussion network and drove much of its subsequent growth. By April 1993 FidoNet carried more than 20,000 systems and an estimated four million users; at its peak it listed roughly 39,000 systems.</p><h2>Later technical and cultural work</h2><p>Jennings's own Fido software dominated the network only through about 1985, after which other authors wrote competing programs implementing the same protocols; by 1990 his code accounted for a small fraction of the installed base while the protocol standards persisted. He edited FidoNews, the network's weekly newsletter, from 1984 to 1985 and again from 1991 to 1993, and stepped back from active involvement in the network during the mid-1990s. From 1986 onward he wrote explicitly about applying anarchist principles to FidoNet's design and governance — local control, self-organization, and the absence of intrinsic hierarchy — while acknowledging that the effort came too late to correct flaws already built into the network.</p><p>Between 1992 and 1996 Jennings ran The Little Garden with several business partners, an early regional internet service provider in the San Francisco Bay Area that began as a shared connection between a handful of pioneer businesses and was later incorporated as TLGnet before being sold. In the late 1980s and early 1990s he also published and co-edited Homocore, one of the earliest queercore zines, whose seven issues appeared between 1989 and 1991 in San Francisco. He has since worked as an artist in Los Angeles, and maintains an archive of his projects at a personal site that operated as wps.com from 1994 before being reorganized as Sensitive Research in 2014. The domain name came from World Power Systems, the name of a late-1970s mail-order computer scam that Jennings appropriated for his own use.</p><h2>Legacy</h2><p>FidoNet remains the standard example of a large, functioning amateur network built and administered entirely by volunteers on ordinary telephone lines. It was platform-independent and could be used by any BBS written to support its protocols, which allowed it to spread far beyond Jennings's own software. Jennings was among the figures interviewed for Jason Scott's <em>BBS: The Documentary</em>, released in 2005. A residual FidoNet continues to operate at a much reduced scale, and its conference structure survives in part through gateways to Usenet and other systems.</p>"
   },
   "timeline": [
-    { "date": "1955", "event": "Born Thomas Daniel Jennings in Boston, Massachusetts." },
-    { "date": "1983-12", "event": "Begins writing the Fido bulletin board system software." },
-    { "date": "1984", "event": "Sets up the Fido system in San Francisco in early 1984." },
-    { "date": "1984-06", "event": "Releases the first FidoNet software capable of exchanging mail between systems." },
-    { "date": "1984-09-21", "event": "First official FidoNet nodelist published." },
-    { "date": "1985-01", "event": "FidoNet passes 160 nodes." },
-    { "date": "1985-04-11", "event": "Coordinators meeting in St. Louis adopts the network/node hierarchical addressing scheme." },
-    { "date": "1985-06-12", "event": "FidoNet version 10C released, implementing the new addressing scheme." },
-    { "date": "1986-02", "event": "Jeff Rush introduces Echomail, adding public conference messaging to FidoNet." },
-    { "date": "1989", "event": "Begins publishing the queercore zine Homocore in San Francisco; seven issues appear through 1991." },
-    { "date": "1992", "event": "Co-founds The Little Garden, an early Bay Area internet service provider, later TLGnet." },
-    { "date": "1993-04", "event": "FidoNet carries more than 20,000 systems and an estimated four million users." },
-    { "date": "1996", "event": "TLGnet is sold." },
-    { "date": "2005", "event": "Appears in Jason Scott's BBS: The Documentary." },
-    { "date": "2014", "event": "Reorganizes his long-running wps.com website as Sensitive Research." }
+    {
+      "date": "1955",
+      "event": "Born Thomas Daniel Jennings in Boston, Massachusetts."
+    },
+    {
+      "date": "1983-12",
+      "event": "Begins writing the Fido bulletin board system software."
+    },
+    {
+      "date": "1984",
+      "event": "Sets up the Fido system in San Francisco in early 1984."
+    },
+    {
+      "date": "1984-06",
+      "event": "Releases the first FidoNet software capable of exchanging mail between systems."
+    },
+    {
+      "date": "1984-09-21",
+      "event": "First official FidoNet nodelist published."
+    },
+    {
+      "date": "1985-01",
+      "event": "FidoNet passes 160 nodes."
+    },
+    {
+      "date": "1985-04-11",
+      "event": "Coordinators meeting in St. Louis adopts the network/node hierarchical addressing scheme."
+    },
+    {
+      "date": "1985-06-12",
+      "event": "FidoNet version 10C released, implementing the new addressing scheme."
+    },
+    {
+      "date": "1986-02",
+      "event": "Jeff Rush introduces Echomail, adding public conference messaging to FidoNet."
+    },
+    {
+      "date": "1989",
+      "event": "Begins publishing the queercore zine Homocore in San Francisco; seven issues appear through 1991."
+    },
+    {
+      "date": "1992",
+      "event": "Co-founds The Little Garden, an early Bay Area internet service provider, later TLGnet."
+    },
+    {
+      "date": "1993-04",
+      "event": "FidoNet carries more than 20,000 systems and an estimated four million users."
+    },
+    {
+      "date": "1996",
+      "event": "TLGnet is sold."
+    },
+    {
+      "date": "2005",
+      "event": "Appears in Jason Scott's BBS: The Documentary."
+    },
+    {
+      "date": "2014",
+      "event": "Reorganizes his long-running wps.com website as Sensitive Research."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -43,18 +97,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Tom Jennings — Wikipedia", "url": "https://en.wikipedia.org/wiki/Tom_Jennings" },
-    { "title": "FidoNet — Wikipedia", "url": "https://en.wikipedia.org/wiki/FidoNet" },
-    { "title": "Bulletin board system — Wikipedia", "url": "https://en.wikipedia.org/wiki/Bulletin_board_system" },
-    { "title": "Fido and FidoNet — Tom Jennings, Sensitive Research archive", "url": "https://www.sensitiveresearch.com/Archive/FidoNet/index.html" },
-    { "title": "Archive index — Sensitive Research (Tom Jennings)", "url": "https://www.sensitiveresearch.com/Archive/index.html" },
-    { "title": "BBS: The Documentary (Jason Scott, 2005) — Internet Archive", "url": "https://archive.org/details/BBS.The.Documentary" }
+    {
+      "title": "Tom Jennings — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tom_Jennings"
+    },
+    {
+      "title": "FidoNet — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FidoNet"
+    },
+    {
+      "title": "Bulletin board system — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bulletin_board_system"
+    },
+    {
+      "title": "Fido and FidoNet — Tom Jennings, Sensitive Research archive",
+      "url": "https://www.sensitiveresearch.com/Archive/FidoNet/index.html"
+    },
+    {
+      "title": "Archive index — Sensitive Research (Tom Jennings)",
+      "url": "https://www.sensitiveresearch.com/Archive/index.html"
+    },
+    {
+      "title": "BBS: The Documentary (Jason Scott, 2005) — Internet Archive",
+      "url": "https://archive.org/details/BBS.The.Documentary"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

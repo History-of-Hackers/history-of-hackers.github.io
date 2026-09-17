@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2010s-Present",
-  "tags": ["pwn2own", "browser exploitation", "sandbox escape", "keen lab", "tencent", "ios jailbreak", "china", "vulnerability research"],
+  "tags": [
+    "pwn2own",
+    "browser exploitation",
+    "sandbox escape",
+    "keen lab",
+    "tencent",
+    "ios jailbreak",
+    "china",
+    "vulnerability research"
+  ],
   "summary": "Liang Chen is a Chinese security researcher and co-founder of Tencent Keen Security Lab (formerly Keen Team), known for leading its browser and mobile exploitation research and for repeated wins at Pwn2Own and Mobile Pwn2Own competitions.",
   "whyThisMatters": "Liang Chen and his Keen Team/Keen Lab colleagues were among the first Chinese researchers to achieve sustained international prominence at Pwn2Own, helping establish Tencent Keen Security Lab as one of the world's leading offensive security teams. His team's repeated defeats of Safari, Chrome, and Android/iOS mobile stacks demonstrated that browser and mobile sandbox security, widely assumed to be robust, remained penetrable by well-resourced research teams, influencing subsequent hardening work by Apple, Google, and Microsoft. His work also illustrates the broader rise of Chinese security research teams as major forces in international vulnerability-discovery competitions during the 2010s.",
   "knownFor": [
@@ -23,12 +32,30 @@
     "overview": "<h2>Background</h2><p>Liang Chen is a Chinese computer security researcher who holds an undergraduate degree from Shanghai Jiao Tong University and a master's degree from Fudan University. He is a co-founder and senior security researcher at Tencent Keen Security Lab (KeenLab), a Shenzhen-based offensive security research team that operated for years under the name Keen Team before its acquisition by Tencent. His research has focused primarily on software vulnerability discovery and exploitation, with particular attention to web browser security on both desktop and mobile platforms, and to sandbox escape techniques used to break out of the restricted execution environments that protect modern operating systems.</p><h2>Rise at Pwn2Own</h2><p>Chen and his colleagues at Keen Team first drew wide attention after winning the iPhone Safari category at Mobile Pwn2Own in 2013. The team followed this in March 2014 by defeating Apple's Safari browser running on OS X Mavericks at the main Pwn2Own contest in Vancouver, earning $65,000 using a heap-overflow-and-sandbox-bypass exploit chain that Chen said took roughly three months to develop. In press interviews at the time, Chen described locking himself away for weeks of preparation and praised the strength of Apple's underlying security architecture even as his exploit defeated it. In the same 2014 contest, other Keen Team members separately defeated Adobe Flash on Windows 8.1, reinforcing the team's reputation as one of the most capable non-Western entrants in the competition's history.</p><h2>Leadership at Keen Lab</h2><p>Following Tencent's acquisition of Keen Team, Chen continued as a lead researcher and project leader for Pwn2Own efforts inside the renamed Tencent Keen Security Lab. In March 2016 he led Tencent Security Team Sniper to the \"Master of Pwn\" title at Pwn2Own, and later that year led a team, working alongside researchers including Marco Grassi, Wayne Liang, and Yubin Fu, to a Master of Pwn win at Mobile Pwn2Own 2016. That contest saw the team install a rogue application on a Nexus 6P running Android Nougat and separately compromise an iPhone 6S running iOS 10.1 by chaining a use-after-free bug in the browser renderer with a memory-corruption bug in the sandbox, working overnight after Apple released an unexpected iOS update the day before the event. The team earned roughly $215,000 across its exploits that year. Chen's team went on to take Master of Pwn again at Mobile Pwn2Own 2017.</p><h2>Other Research and Legacy</h2><p>Beyond competition work, Chen contributed to the development of the Keen Jailbreak tools for iOS 10.3.2 and iOS 11.1.1, and has presented research at security conferences including XCON, Black Hat USA and Europe, CanSecWest, REcon, and POC. Within Keen Team and later Keen Lab, members described their motivation less in terms of the term \"hacker\" and more as defensive research intended, in their words, to \"better safeguard the system.\" Chen's sustained record of browser and mobile exploitation over multiple years helped establish Tencent Keen Security Lab as a globally recognized vulnerability research organization and contributed to a broader wave of Chinese teams becoming dominant forces at Pwn2Own through the mid-to-late 2010s.</p>"
   },
   "timeline": [
-    { "date": "2013", "event": "Wins the iPhone Safari category at Mobile Pwn2Own 2013 as a member of Keen Team." },
-    { "date": "2014-03", "event": "Wins the Mavericks Safari category at Pwn2Own 2014 in Vancouver, earning $65,000 with a heap-overflow-and-sandbox-bypass exploit chain." },
-    { "date": "2016-03", "event": "Leads Tencent Security Team Sniper to the \"Master of Pwn\" title at Pwn2Own 2016." },
-    { "date": "2016-10", "event": "Leads Tencent Keen Security Lab to \"Master of Pwn\" at Mobile Pwn2Own 2016, exploiting a Nexus 6P and an iPhone 6S running iOS 10.1." },
-    { "date": "2017", "event": "Leads Tencent Keen Security Lab's team to \"Master of Pwn\" at Mobile Pwn2Own 2017." },
-    { "date": "2018", "event": "Speaks at Black Hat USA 2018 as a representative of Tencent Keen Security Lab." }
+    {
+      "date": "2013",
+      "event": "Wins the iPhone Safari category at Mobile Pwn2Own 2013 as a member of Keen Team."
+    },
+    {
+      "date": "2014-03",
+      "event": "Wins the Mavericks Safari category at Pwn2Own 2014 in Vancouver, earning $65,000 with a heap-overflow-and-sandbox-bypass exploit chain."
+    },
+    {
+      "date": "2016-03",
+      "event": "Leads Tencent Security Team Sniper to the \"Master of Pwn\" title at Pwn2Own 2016."
+    },
+    {
+      "date": "2016-10",
+      "event": "Leads Tencent Keen Security Lab to \"Master of Pwn\" at Mobile Pwn2Own 2016, exploiting a Nexus 6P and an iPhone 6S running iOS 10.1."
+    },
+    {
+      "date": "2017",
+      "event": "Leads Tencent Keen Security Lab's team to \"Master of Pwn\" at Mobile Pwn2Own 2017."
+    },
+    {
+      "date": "2018",
+      "event": "Speaks at Black Hat USA 2018 as a representative of Tencent Keen Security Lab."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -36,17 +63,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Black Hat USA 2018 | Liang Chen (speaker profile)", "url": "https://www.blackhat.com/us-18/speakers/Liang-Chen.html" },
-    { "title": "Liang Chen - REcon 2016 speaker profile", "url": "https://www.recon.cx/2016/speakers/liang_chen.html" },
-    { "title": "Keen Lab Takes Down iPhone 6S, Nexus 6P, at Mobile Pwn2Own - Threatpost", "url": "https://threatpost.com/keen-lab-takes-down-iphone-6s-nexus-6p-at-mobile-pwn2own/121607/" },
-    { "title": "Chinese hacker cracks Safari, wins $62.5K, praises Apple's security - Fortune", "url": "https://fortune.com/2014/03/14/chinese-hacker-cracks-safari-wins-62-5k-praises-apples-security" },
-    { "title": "The Keen Team: Chinese Hacker Group Reveals Their Identities - The Hacker News", "url": "https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html" }
+    {
+      "title": "Black Hat USA 2018 | Liang Chen (speaker profile)",
+      "url": "https://www.blackhat.com/us-18/speakers/Liang-Chen.html"
+    },
+    {
+      "title": "Liang Chen - REcon 2016 speaker profile",
+      "url": "https://www.recon.cx/2016/speakers/liang_chen.html"
+    },
+    {
+      "title": "Keen Lab Takes Down iPhone 6S, Nexus 6P, at Mobile Pwn2Own - Threatpost",
+      "url": "https://threatpost.com/keen-lab-takes-down-iphone-6s-nexus-6p-at-mobile-pwn2own/121607/"
+    },
+    {
+      "title": "Chinese hacker cracks Safari, wins $62.5K, praises Apple's security - Fortune",
+      "url": "https://fortune.com/2014/03/14/chinese-hacker-cracks-safari-wins-62-5k-praises-apples-security"
+    },
+    {
+      "title": "The Keen Team: Chinese Hacker Group Reveals Their Identities - The Hacker News",
+      "url": "https://thehackernews.com/2014/04/the-keen-team-chinese-hacker-group.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

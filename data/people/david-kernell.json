@@ -14,7 +14,7 @@
     "computer-crime",
     "doj"
   ],
-  "summary": "University student convicted for unauthorized access to Sarah Palin\u2019s Yahoo email account in 2008.",
+  "summary": "University student convicted for unauthorized access to Sarah Palin’s Yahoo email account in 2008.",
   "whyThisMatters": "A federal jury convicted Kernell in 2010 of misdemeanor unauthorized access and obstruction of justice. The DOJ recorded a sentence of one year and one day.",
   "knownFor": [
     "unauthorized-access",
@@ -22,7 +22,7 @@
     "sarah-palin"
   ],
   "sections": {
-    "overview": "<p>David Kernell was a University of Tennessee student involved in the 2008 access to Sarah Palin\u2019s Yahoo email account.</p><h2>Prosecution</h2><p>A federal jury convicted Kernell in April 2010 of misdemeanor unauthorized access and obstruction of justice.</p><p>The DOJ said evidence showed he learned of a possible FBI investigation after the access.</p><h2>Legacy</h2><p>The case received national attention during the 2008 presidential campaign and later federal proceedings.</p>"
+    "overview": "<p>David Kernell was a University of Tennessee student involved in the 2008 access to Sarah Palin’s Yahoo email account.</p><h2>Prosecution</h2><p>A federal jury convicted Kernell in April 2010 of misdemeanor unauthorized access and obstruction of justice.</p><p>The DOJ said evidence showed he learned of a possible FBI investigation after the access.</p><h2>Legacy</h2><p>The case received national attention during the 2008 presidential campaign and later federal proceedings.</p>"
   },
   "timeline": [
     {
@@ -50,6 +50,7 @@
     "sourcesCount": 2,
     "lastReviewed": "2026-09-01",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "codex-2026-09-01"
+    "reviewer": "codex-2026-09-01",
+    "createdBy": "Joas A Santos"
   }
 }

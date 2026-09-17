@@ -4,18 +4,41 @@
   "title": "PowerShell Empire",
   "slug": "powershell-empire",
   "era": "2015-Present",
-  "tags": ["post-exploitation", "command-and-control", "powershell", "red-team", "adversary-emulation", "open-source", "penetration-testing"],
+  "tags": [
+    "post-exploitation",
+    "command-and-control",
+    "powershell",
+    "red-team",
+    "adversary-emulation",
+    "open-source",
+    "penetration-testing"
+  ],
   "summary": "PowerShell Empire is an open-source post-exploitation and command-and-control framework, originally built around pure PowerShell agents for Windows, that was later merged with the Python-based EmPyre project and, after the original project went dormant, revived and continued by the security firm BC Security.",
   "whyThisMatters": "Empire helped popularize the use of PowerShell as a stealthy, \"living off the land\" post-exploitation vector, influencing both offensive tradecraft and the defensive techniques (such as AMSI and enhanced PowerShell logging) developed to counter it. It was formally named alongside four other widely abused tools in a 2018 joint advisory from Five Eyes cybersecurity agencies, and it has since been documented in use by numerous nation-state and financially motivated threat actors, making it one of the most consequential open-source red-team frameworks of the 2010s and 2020s.",
   "sections": {
     "overview": "<h2>Background</h2><p>PowerShell Empire is a post-exploitation and command-and-control (C2) framework designed to help red teams and penetration testers simulate advanced adversary behavior after an initial foothold has been gained on a target system. The original PowerShell Empire project was created by a group of security researchers credited on the project as @harmj0y, @sixdub, @enigma0x3, rvrsh3ll, @killswitch_gui, and @xorrior, and it was first publicly presented at BSidesLV in 2015. A companion Linux/macOS-focused project written in Python, called EmPyre, was separately debuted at HackMiami in 2016 before the two efforts were later merged under the Empire name.</p><h2>Design and capabilities</h2><p>Empire's core innovation was enabling PowerShell-based agents to run entirely in memory on Windows hosts, without needing to drop a traditional executable to disk, which at the time helped operators evade many antivirus products that inspected files rather than in-memory script execution. The framework used a client/server model with encrypted command-and-control communications and a modular library of post-exploitation modules covering credential harvesting, lateral movement, privilege escalation, and persistence. Later versions of the project, following the merger with EmPyre and continued development, expanded beyond PowerShell to support additional agent types including Python 3, C#, IronPython, and Go, alongside multiple listener types such as HTTP/S and SMB.</p><h2>Adoption by red teams and abuse by threat actors</h2><p>Because Empire was free, open-source, and effective at emulating realistic attacker tradecraft, it was quickly adopted not only by legitimate red teams and penetration testers but also by real-world malicious actors, who could use the same publicly available code to attack production networks. This dual-use nature led cybersecurity agencies from the Five Eyes alliance (including the UK's National Cyber Security Centre) to jointly name Empire among five publicly available tools flagged for widespread malicious use in a 2018 advisory on hacking tools. Threat intelligence tracking subsequently documented Empire being used by a wide range of groups, including state-linked actors such as APT33, APT41, MuddyWater, Turla, and Sandworm Team, as well as ransomware-affiliated operators including Wizard Spider and Indrik Spider.</p><h2>Discontinuation and revival by BC Security</h2><p>Development of the original EmpireProject/Empire repository slowed and the project was ultimately archived by its maintainers on GitHub on January 29, 2020, marking it as read-only and no longer actively supported. Recognizing the continued value of the framework to the offensive security community, the firm BC Security subsequently forked the project and took over its maintenance, releasing updated versions, adding new agent languages and evasion capabilities, and building a companion web-based graphical interface called Starkiller to make the framework more accessible to operators who preferred a GUI over the command line.</p><h2>Legacy</h2><p>PowerShell Empire is widely regarded as one of the tools that mainstreamed abuse of native Windows scripting engines for stealthy post-exploitation activity, contributing to the broader industry shift toward \"living off the land\" attack techniques. Its continued maintenance under BC Security, along with its inclusion in MITRE ATT&CK as tracked software (also referenced under the alias EmPyre) and its documented use across numerous real-world intrusions, has cemented its place as a long-running fixture of both red-team tooling and cataloged adversary tradecraft well over a decade after its original debut.</p>"
   },
   "timeline": [
-    { "date": "2015", "event": "PowerShell Empire is first publicly presented at BSidesLV by a team of researchers including harmj0y, sixdub, enigma0x3, rvrsh3ll, killswitch_gui, and xorrior." },
-    { "date": "2016", "event": "The companion Python-based EmPyre project debuts at HackMiami before later merging with Empire into a single cross-platform framework." },
-    { "date": "2018", "event": "Empire is named alongside four other tools in a joint advisory from Five Eyes cybersecurity agencies, including the UK's NCSC, on publicly available hacking tools being widely used by adversaries." },
-    { "date": "2020-01-29", "event": "The original EmpireProject/Empire GitHub repository is archived by its owners and marked read-only, ending active development under the original team." },
-    { "date": "2020", "event": "BC Security forks the project and begins maintaining and updating Empire, later adding the Starkiller graphical interface and additional agent languages." }
+    {
+      "date": "2015",
+      "event": "PowerShell Empire is first publicly presented at BSidesLV by a team of researchers including harmj0y, sixdub, enigma0x3, rvrsh3ll, killswitch_gui, and xorrior."
+    },
+    {
+      "date": "2016",
+      "event": "The companion Python-based EmPyre project debuts at HackMiami before later merging with Empire into a single cross-platform framework."
+    },
+    {
+      "date": "2018",
+      "event": "Empire is named alongside four other tools in a joint advisory from Five Eyes cybersecurity agencies, including the UK's NCSC, on publicly available hacking tools being widely used by adversaries."
+    },
+    {
+      "date": "2020-01-29",
+      "event": "The original EmpireProject/Empire GitHub repository is archived by its owners and marked read-only, ending active development under the original team."
+    },
+    {
+      "date": "2020",
+      "event": "BC Security forks the project and begins maintaining and updating Empire, later adding the Starkiller graphical interface and additional agent languages."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -23,17 +46,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "BC-SECURITY/Empire (GitHub repository)", "url": "https://github.com/BC-SECURITY/Empire" },
-    { "title": "EmpireProject/Empire (original, archived GitHub repository)", "url": "https://github.com/EmpireProject/Empire" },
-    { "title": "MITRE ATT&CK - Software: Empire, S0363", "url": "https://attack.mitre.org/software/S0363/" },
-    { "title": "NCSC - Joint report on publicly available hacking tools", "url": "https://www.ncsc.gov.uk/report/joint-report-on-publicly-available-hacking-tools" },
-    { "title": "BC Security (GitHub organization profile)", "url": "https://github.com/BC-SECURITY" }
+    {
+      "title": "BC-SECURITY/Empire (GitHub repository)",
+      "url": "https://github.com/BC-SECURITY/Empire"
+    },
+    {
+      "title": "EmpireProject/Empire (original, archived GitHub repository)",
+      "url": "https://github.com/EmpireProject/Empire"
+    },
+    {
+      "title": "MITRE ATT&CK - Software: Empire, S0363",
+      "url": "https://attack.mitre.org/software/S0363/"
+    },
+    {
+      "title": "NCSC - Joint report on publicly available hacking tools",
+      "url": "https://www.ncsc.gov.uk/report/joint-report-on-publicly-available-hacking-tools"
+    },
+    {
+      "title": "BC Security (GitHub organization profile)",
+      "url": "https://github.com/BC-SECURITY"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

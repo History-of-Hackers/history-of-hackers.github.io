@@ -4,19 +4,44 @@
   "title": "Black Hat Briefings",
   "slug": "black-hat-briefings",
   "era": "1997-Present",
-  "tags": ["conference", "information security", "vulnerability disclosure", "hacker culture", "corporate security", "las vegas"],
+  "tags": [
+    "conference",
+    "information security",
+    "vulnerability disclosure",
+    "hacker culture",
+    "corporate security",
+    "las vegas"
+  ],
   "summary": "Black Hat Briefings is an information security conference founded in 1997 by Jeff Moss as a more corporate and professional counterpart to his hacker convention DEF CON, bringing together researchers, vendors, and government agencies to discuss vulnerabilities and hacking techniques.",
   "whyThisMatters": "Black Hat helped legitimize computer security research as a professional discipline, creating a venue where independent hackers, corporate security teams, and government representatives could interact on shared footing. Its Briefings have served as a primary public disclosure venue for major vulnerabilities, and its conflicts with vendors over disclosure, most notably the 2005 Cisco/Michael Lynn incident, shaped ongoing industry debates about responsible disclosure. The conference's growth into a global, corporately-owned event also illustrates the broader commercialization of hacker culture since the late 1990s.",
   "sections": {
     "overview": "<h2>Background</h2><p>Black Hat Briefings is an information security conference that was founded in 1997 by Jeff Moss, known in hacker circles by the handle \"Dark Tangent.\" Moss had earlier created the DEF CON hacker convention in 1993 as an informal gathering for members of a FidoNet-affiliated hacking network. Black Hat was conceived as a complementary, more professional and corporate-facing event: while DEF CON retained its underground, countercultural atmosphere, Black Hat was designed to give security vendors, corporate engineers, and government personnel structured, formal access to the same technical research and hacker perspectives showcased at DEF CON.</p><h2>Founding and Early Structure</h2><p>The inaugural Black Hat Briefings was held in Las Vegas in July 1997, presented in association with Cambridge Technology Partners and DEF CON Communications. From the outset, the conference combined technical \"Briefings\" (talks on vulnerabilities, exploitation techniques, and defensive research) with paid \"Trainings\" delivered by security vendors and independent instructors. This structure distinguished Black Hat from purely community-run hacker conferences and allowed it to charge substantial admission and training fees, funding a professional operation while still drawing on the same pool of independent researchers who spoke at DEF CON.</p><h2>Growth and Commercialization</h2><p>Over time, Black Hat expanded from a single annual U.S. event into a global series, adding editions in Europe and Asia. In 2005, Jeff Moss sold Black Hat to CMP Media (later part of United Business Media) for a reported sum of approximately 13.9 million dollars, while retaining ownership of DEF CON, which was not included in the sale. Ownership subsequently passed through several corporate parents, and as of the mid-2020s the conference is organized by Informa Tech (via Informa Festivals), following Informa's 2018 acquisition of UBM. In 2010, Black Hat added \"Arsenal,\" a track dedicated to live demonstrations of open-source security tools by their developers.</p><h2>Notable Incidents and Controversies</h2><p>Black Hat's Briefings have repeatedly served as flashpoints in disputes over vulnerability disclosure. The best-known incident occurred in July 2005, when researcher Michael Lynn, then employed by Internet Security Systems, presented details of a serious vulnerability in Cisco's IOS router software. Cisco had already shipped a patch but objected to public disclosure of exploitation details; when Lynn proceeded with a modified version of his talk, Cisco and ISS pursued legal action against him and the conference, and the dispute was ultimately resolved through a court-ordered injunction restricting further disclosure, an episode that became widely known in the security community as \"Ciscogate.\" Later editions of the conference saw other high-profile incidents, including reports of attendees intercepting unencrypted traffic on the venue's own network and, in 2009, a case in which a USB drive handed out at the conference was found to be infected with the Conficker worm.</p><h2>Significance and Legacy</h2><p>Black Hat Briefings occupies a distinctive position in the history of computer security as one of the first conferences to formalize a bridge between the hacker community and the corporate and government security establishment. Alongside DEF CON, which continues to run in the same city in the same week each summer, Black Hat has become one of the two flagship events of the annual \"hacker summer camp\" in Las Vegas. Its evolution from a Moss-run startup event into a corporately owned, multinational conference franchise mirrors the broader professionalization and commercialization of information security as an industry over the past three decades.</p>"
   },
   "timeline": [
-    { "date": "1993", "event": "Jeff Moss founds DEF CON as an informal hacker convention in Las Vegas." },
-    { "date": "1997-07", "event": "Jeff Moss launches the first Black Hat Briefings in Las Vegas, presented with Cambridge Technology Partners and DEF CON Communications." },
-    { "date": "2005-07", "event": "Researcher Michael Lynn discloses a Cisco IOS vulnerability at Black Hat, prompting legal action from Cisco and Internet Security Systems in the incident known as 'Ciscogate'." },
-    { "date": "2005", "event": "Jeff Moss sells Black Hat to CMP Media for a reported approximately 13.9 million dollars, retaining ownership of DEF CON separately." },
-    { "date": "2010", "event": "Black Hat introduces 'Arsenal,' a track for live open-source security tool demonstrations." },
-    { "date": "2018", "event": "Informa acquires UBM, bringing Black Hat under Informa Tech's ownership." }
+    {
+      "date": "1993",
+      "event": "Jeff Moss founds DEF CON as an informal hacker convention in Las Vegas."
+    },
+    {
+      "date": "1997-07",
+      "event": "Jeff Moss launches the first Black Hat Briefings in Las Vegas, presented with Cambridge Technology Partners and DEF CON Communications."
+    },
+    {
+      "date": "2005-07",
+      "event": "Researcher Michael Lynn discloses a Cisco IOS vulnerability at Black Hat, prompting legal action from Cisco and Internet Security Systems in the incident known as 'Ciscogate'."
+    },
+    {
+      "date": "2005",
+      "event": "Jeff Moss sells Black Hat to CMP Media for a reported approximately 13.9 million dollars, retaining ownership of DEF CON separately."
+    },
+    {
+      "date": "2010",
+      "event": "Black Hat introduces 'Arsenal,' a track for live open-source security tool demonstrations."
+    },
+    {
+      "date": "2018",
+      "event": "Informa acquires UBM, bringing Black Hat under Informa Tech's ownership."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -24,16 +49,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Black Hat Briefings - Wikipedia", "url": "https://en.wikipedia.org/wiki/Black_Hat_Briefings" },
-    { "title": "Jeff Moss (hacker) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Jeff_Moss_(hacker)" },
-    { "title": "Cisco IOS - Wikipedia (Security issues / Michael Lynn incident)", "url": "https://en.wikipedia.org/wiki/Cisco_IOS" },
-    { "title": "DEF CON - Wikipedia", "url": "https://en.wikipedia.org/wiki/DEF_CON" }
+    {
+      "title": "Black Hat Briefings - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_Hat_Briefings"
+    },
+    {
+      "title": "Jeff Moss (hacker) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jeff_Moss_(hacker)"
+    },
+    {
+      "title": "Cisco IOS - Wikipedia (Security issues / Michael Lynn incident)",
+      "url": "https://en.wikipedia.org/wiki/Cisco_IOS"
+    },
+    {
+      "title": "DEF CON - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DEF_CON"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

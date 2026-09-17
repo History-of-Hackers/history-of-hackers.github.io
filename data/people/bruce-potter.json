@@ -7,7 +7,14 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["shmoo group", "shmoocon", "ciso", "wireless security", "conference founder", "author"],
+  "tags": [
+    "shmoo group",
+    "shmoocon",
+    "ciso",
+    "wireless security",
+    "conference founder",
+    "author"
+  ],
   "summary": "Bruce Potter is an American computer security researcher who founded The Shmoo Group, a collective of security, cryptography, and privacy professionals, and co-founded the ShmooCon hacker convention held annually in Washington, D.C. from 2005 to 2025.",
   "whyThisMatters": "The Shmoo Group and ShmooCon shaped the East Coast hacker and information security conference scene, providing a smaller, community-oriented alternative to larger commercial conferences and giving many first-time speakers their initial platform. Potter's later career as an author, CISO, and startup founder illustrates the trajectory of hacker-community figures into mainstream enterprise security leadership.",
   "knownFor": [
@@ -22,15 +29,42 @@
     "overview": "<h2>Background</h2><p>Bruce Potter is an American security researcher whose career spans over three decades, beginning in the mid-1990s. Early in his career he worked on bringing Internet service to remote parts of Alaska, and he has described this period as formative to his hands-on approach to networking and security. According to his own account, the name \"Shmoo\" originated from an inside joke during this early sysadmin period: a colleague's girlfriend wrote \"For my little shmooey-kins\" on a lunch bag, and the colleague became known as \"Shmoo,\" a nickname the group later adopted as its identity, partly, as Potter has joked, because they \"couldn't afford another name\" for a domain.</p><h2>Founding The Shmoo Group</h2><p>Potter founded The Shmoo Group, an informal, invite-only collective of security, cryptography, and privacy professionals who collaborate on open-source projects and research. The group's members have historically included figures well known in the wireless security, cryptography, and vulnerability research communities. The Shmoo Group's public presence, centered on the domain shmoo.com, became a hub for security tool releases and community discussion in the late 1990s and 2000s.</p><h2>Founding ShmooCon</h2><p>Together with a co-founder known by the handle \"Beetle,\" Potter conceived of ShmooCon after attending a Black Hat conference where they felt a security presentation went unchallenged; their reaction, by Potter's account, was \"If we ran our own conference, we would never let that stand.\" Beetle reportedly secured venue funding by taking out a second mortgage on his house. The first ShmooCon was held in 2005, and the convention became an annual fixture in Washington, D.C., typically held at the Washington Hilton, running for twenty consecutive years until its final edition in 2025. Attendance grew from roughly 400 people at the inaugural event to more than 2,000 in its later years. The conference featured around 40 talks on computer security and cyberculture topics each year, alongside recurring programs such as Ghost in the Shellcode, Hack Fortress, and Shmooganography, and it supported charities including the Electronic Frontier Foundation and Hackers for Charity.</p><h2>Writing and industry contributions</h2><p>Potter co-authored several technical security books, including '802.11 Security,' 'Aggressive Network Self-Defense,' and 'Host Integrity Monitoring,' contributing to the technical literature on wireless network security and defensive security engineering. He has been a frequent speaker at major security conferences including DEF CON, Black Hat, DerbyCon, and BSides events, as well as O'Reilly Security conferences, typically discussing wireless and mobile security, application security, penetration testing, and risk management.</p><h2>Corporate and government roles</h2><p>Beyond his community work, Potter held a series of security leadership roles in industry. He worked as a security consultant at Cigital, co-founded Ponte Technologies (later acquired by KeyW Corporation), and served as Chief Technology Officer at KeyW for two years. He subsequently served as Chief Information Security Officer at organizations including Expel and Clear Street. He also served as a senior technical advisor to members of the U.S. Commission on Enhancing National Cybersecurity, a body convened under the Obama administration.</p><h2>Later career: Turngate</h2><p>In the mid-2020s, Potter founded Turngate, a SaaS audit-log analysis company, serving as its CEO. He has described the company as building the investigative tool he wished had existed during his years working as a CISO, and the company secured seed funding led by Paladin Capital Group. Following the conclusion of ShmooCon in 2025, Potter continued working in cybersecurity products while a ShmooCon co-organizer, Heidi, launched a successor events venture called Moose Meet focused on smaller hacker gatherings.</p><h2>Legacy</h2><p>Bruce Potter's most enduring public legacy is ShmooCon, which for two decades served as a distinctive, community-driven hacker conference in the Washington, D.C. area, known for favoring first-time speakers and defensive security research over commercial polish. Alongside his writing and CISO work, Potter is regarded as a long-standing figure connecting the informal hacker-community tradition of groups like The Shmoo Group with mainstream enterprise and government cybersecurity practice.</p>"
   },
   "timeline": [
-    { "date": "1990s", "event": "Began working in computer networking and security, including work bringing Internet service to remote parts of Alaska." },
-    { "date": "1990s", "event": "Founded The Shmoo Group, a collective of security, cryptography, and privacy professionals." },
-    { "date": "2005", "event": "Co-founded and helped launch the first ShmooCon hacker convention in Washington, D.C., alongside co-founder \"Beetle\"." },
-    { "date": "2000s", "event": "Co-authored the book '802.11 Security,' addressing wireless network security." },
-    { "date": "2010s", "event": "Served as Chief Technology Officer of KeyW Corporation following its acquisition of Ponte Technologies, which Potter co-founded." },
-    { "date": "2016", "event": "Served as senior technical advisor to members of the U.S. Commission on Enhancing National Cybersecurity under the Obama administration." },
-    { "date": "2010s-2020s", "event": "Served as Chief Information Security Officer at Expel and later at Clear Street." },
-    { "date": "2025", "event": "ShmooCon held its final annual event after twenty consecutive years." },
-    { "date": "2025", "event": "Founded Turngate, a SaaS audit-log analysis company, and serves as its CEO." }
+    {
+      "date": "1990s",
+      "event": "Began working in computer networking and security, including work bringing Internet service to remote parts of Alaska."
+    },
+    {
+      "date": "1990s",
+      "event": "Founded The Shmoo Group, a collective of security, cryptography, and privacy professionals."
+    },
+    {
+      "date": "2005",
+      "event": "Co-founded and helped launch the first ShmooCon hacker convention in Washington, D.C., alongside co-founder \"Beetle\"."
+    },
+    {
+      "date": "2000s",
+      "event": "Co-authored the book '802.11 Security,' addressing wireless network security."
+    },
+    {
+      "date": "2010s",
+      "event": "Served as Chief Technology Officer of KeyW Corporation following its acquisition of Ponte Technologies, which Potter co-founded."
+    },
+    {
+      "date": "2016",
+      "event": "Served as senior technical advisor to members of the U.S. Commission on Enhancing National Cybersecurity under the Obama administration."
+    },
+    {
+      "date": "2010s-2020s",
+      "event": "Served as Chief Information Security Officer at Expel and later at Clear Street."
+    },
+    {
+      "date": "2025",
+      "event": "ShmooCon held its final annual event after twenty consecutive years."
+    },
+    {
+      "date": "2025",
+      "event": "Founded Turngate, a SaaS audit-log analysis company, and serves as its CEO."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,17 +72,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "ShmooCon - Wikipedia", "url": "https://en.wikipedia.org/wiki/ShmooCon" },
-    { "title": "Bruce Potter Discusses ShmooCon, DevOps, and the CISO Role - IEEE Security & Privacy", "url": "https://publications.computer.org/security-and-privacy/2017/12/28/bruce-potter-discusses-shmoocon-devops-ciso-role/" },
-    { "title": "Building a Hacker Conference from Scratch: The Wild Origins of ShmooCon - DomainTools Podcast", "url": "https://www.domaintools.com/podcasts/building-a-hacker-conference-from-scratch-the-wild-origins-of-shmoocon" },
-    { "title": "RVAsec 14 Speaker Feature: Bruce Potter", "url": "https://rvasec.com/rvasec-14-speaker-feature-bruce-potter/" },
-    { "title": "Bruce Potter - CEO & Founder @ Turngate - Crunchbase", "url": "https://www.crunchbase.com/person/bruce-potter-6bcc" }
+    {
+      "title": "ShmooCon - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ShmooCon"
+    },
+    {
+      "title": "Bruce Potter Discusses ShmooCon, DevOps, and the CISO Role - IEEE Security & Privacy",
+      "url": "https://publications.computer.org/security-and-privacy/2017/12/28/bruce-potter-discusses-shmoocon-devops-ciso-role/"
+    },
+    {
+      "title": "Building a Hacker Conference from Scratch: The Wild Origins of ShmooCon - DomainTools Podcast",
+      "url": "https://www.domaintools.com/podcasts/building-a-hacker-conference-from-scratch-the-wild-origins-of-shmoocon"
+    },
+    {
+      "title": "RVAsec 14 Speaker Feature: Bruce Potter",
+      "url": "https://rvasec.com/rvasec-14-speaker-feature-bruce-potter/"
+    },
+    {
+      "title": "Bruce Potter - CEO & Founder @ Turngate - Crunchbase",
+      "url": "https://www.crunchbase.com/person/bruce-potter-6bcc"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

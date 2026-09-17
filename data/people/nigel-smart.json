@@ -1,12 +1,72 @@
 {
-  "id":"nigel-smart", "type":"person", "title":"Nigel Smart", "slug":"nigel-smart", "name":"Nigel Smart", "born":null, "died":null, "era":"1990s-Present",
-  "tags":["cryptography","multi-party-computation","homomorphic-encryption","cryptographic-protocols","research"],
-  "summary":"Cryptographer at KU Leuven's COSIC group whose research connects public-key cryptography, cryptographic protocols, multi-party computation, and homomorphic encryption.",
-  "whyThisMatters":"Practical security protocols need both mathematical rigor and deployable engineering. Smart's work examines how public-key and multi-party techniques can move from theoretical constructions into real systems.",
-  "knownFor":["Cryptographic protocols","Multi-party computation","Real World Cryptography conference"],
-  "sections":{"overview":"<p>Nigel Smart is a full professor at KU Leuven's COSIC, the university's Computer Security and Industrial Cryptography group.</p><h2>From theory to practice</h2><p>Smart describes his research as work at the interface of public-key cryptography and cryptographic protocols, with an emphasis on turning theoretical constructions into practical solutions.</p><h2>Research areas</h2><p>His work has included elliptic-curve and pairing-based cryptography, key agreement, post-quantum cryptography, multi-party computation, and fully homomorphic encryption.</p><h2>Community work</h2><p>Smart co-founded the Real World Cryptography conference series, which brings applied and theoretical cryptography communities together around practical deployment concerns.</p>"},
-  "timeline":[{"date":"1992","event":"Receives a Ph.D. from the University of Kent at Canterbury."},{"date":"2000","event":"Begins a faculty appointment at the University of Bristol."},{"date":"2018","event":"Joins KU Leuven's COSIC group."}],
-  "relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],
-  "sources":[{"title":"KU Leuven COSIC: Nigel Smart", "url":"https://www.esat.kuleuven.be/cosic/static_people/nigel-smart.html"},{"title":"KU Leuven Who's Who: Nigel Smart", "url":"https://www.kuleuven.be/wieiswie/en/person/00118789"},{"title":"KU Leuven cybersecurity curriculum vitae", "url":"https://wms.cs.kuleuven.be/cs/studeren/master-of-cybersecurity/cs-master-1/masterofcybersecurity-annexes-may11-2021-distribut.pdf"},{"title":"Real World Cryptography", "url":"https://rwc.iacr.org/"}],
-  "editorial":{"verified":true,"sourcesCount":4,"lastReviewed":"2026-09-03","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-03"}
+  "id": "nigel-smart",
+  "type": "person",
+  "title": "Nigel Smart",
+  "slug": "nigel-smart",
+  "name": "Nigel Smart",
+  "born": null,
+  "died": null,
+  "era": "1990s-Present",
+  "tags": [
+    "cryptography",
+    "multi-party-computation",
+    "homomorphic-encryption",
+    "cryptographic-protocols",
+    "research"
+  ],
+  "summary": "Cryptographer at KU Leuven's COSIC group whose research connects public-key cryptography, cryptographic protocols, multi-party computation, and homomorphic encryption.",
+  "whyThisMatters": "Practical security protocols need both mathematical rigor and deployable engineering. Smart's work examines how public-key and multi-party techniques can move from theoretical constructions into real systems.",
+  "knownFor": [
+    "Cryptographic protocols",
+    "Multi-party computation",
+    "Real World Cryptography conference"
+  ],
+  "sections": {
+    "overview": "<p>Nigel Smart is a full professor at KU Leuven's COSIC, the university's Computer Security and Industrial Cryptography group.</p><h2>From theory to practice</h2><p>Smart describes his research as work at the interface of public-key cryptography and cryptographic protocols, with an emphasis on turning theoretical constructions into practical solutions.</p><h2>Research areas</h2><p>His work has included elliptic-curve and pairing-based cryptography, key agreement, post-quantum cryptography, multi-party computation, and fully homomorphic encryption.</p><h2>Community work</h2><p>Smart co-founded the Real World Cryptography conference series, which brings applied and theoretical cryptography communities together around practical deployment concerns.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1992",
+      "event": "Receives a Ph.D. from the University of Kent at Canterbury."
+    },
+    {
+      "date": "2000",
+      "event": "Begins a faculty appointment at the University of Bristol."
+    },
+    {
+      "date": "2018",
+      "event": "Joins KU Leuven's COSIC group."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "KU Leuven COSIC: Nigel Smart",
+      "url": "https://www.esat.kuleuven.be/cosic/static_people/nigel-smart.html"
+    },
+    {
+      "title": "KU Leuven Who's Who: Nigel Smart",
+      "url": "https://www.kuleuven.be/wieiswie/en/person/00118789"
+    },
+    {
+      "title": "KU Leuven cybersecurity curriculum vitae",
+      "url": "https://wms.cs.kuleuven.be/cs/studeren/master-of-cybersecurity/cs-master-1/masterofcybersecurity-annexes-may11-2021-distribut.pdf"
+    },
+    {
+      "title": "Real World Cryptography",
+      "url": "https://rwc.iacr.org/"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

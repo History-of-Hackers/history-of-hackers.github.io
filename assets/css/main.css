@@ -227,6 +227,8 @@ article.entity h1 {
 .sources ol { padding-left: 22px; }
 .sources li { margin-bottom: 4px; }
 
+.page-credit { margin-top: 18px; padding-top: 10px; border-top: 1px solid var(--border-light); font-size: 12.5px; color: var(--muted); }
+
 .divider { height: 1px; background: var(--border); margin: 16px 0; }
 
 footer.site-footer {

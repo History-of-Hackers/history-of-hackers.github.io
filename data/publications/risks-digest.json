@@ -4,17 +4,37 @@
   "title": "The RISKS Digest",
   "slug": "risks-digest",
   "era": "1985-Present",
-  "tags": ["mailing list", "computer safety", "software reliability", "usenet", "acm", "risk analysis", "moderated forum"],
+  "tags": [
+    "mailing list",
+    "computer safety",
+    "software reliability",
+    "usenet",
+    "acm",
+    "risk analysis",
+    "moderated forum"
+  ],
   "summary": "The RISKS Digest, formally the \"Forum On Risks to the Public in Computers and Related Systems,\" is a moderated mailing list and Usenet newsgroup (comp.risks) documenting failures, vulnerabilities, and unintended consequences of computer systems, moderated by Peter G. Neumann since its founding on August 1, 1985.",
   "whyThisMatters": "RISKS is one of the longest continuously running venues for reporting and analyzing computer-related failures, predating the modern security industry and much of the public internet. Its archive constitutes one of the largest and oldest curated collections of documented software and systems failures, cited by researchers, engineers, and policymakers studying reliability and safety engineering. By treating security bugs, safety-critical software failures, and poorly designed automation as a single continuum of \"risk,\" it shaped how the computing field talks about systemic failure long before terms like \"infosec\" or \"cybersecurity\" were common.",
   "sections": {
     "overview": "<h2>Background</h2><p>The RISKS Digest, officially titled the \"Forum On Risks to the Public in Computers and Related Systems,\" is a moderated online forum sponsored by the Association for Computing Machinery's Committee on Computers and Public Policy (CCPP). It was established at the request of then-ACM president Adele Goldberg and launched its first issue on August 1, 1985, under the moderation of computer scientist Peter G. Neumann of SRI International. Neumann, who had earlier contributed to the Multics operating system project and later developed the Provably Secure Operating System (PSOS), remained the forum's sole moderator for decades.</p><h2>Format and Distribution</h2><p>RISKS is distributed as a digest: individually submitted reports and commentary are collected, lightly edited, and issued as numbered volumes and issues rather than posted as a live discussion thread. From the outset it circulated in parallel through two channels: a mailing list distributed by email and the Usenet newsgroup comp.risks. Selected material from the digest was also reprinted in ACM's Software Engineering Notes, which Neumann had founded in 1976, and occasionally summarized in Communications of the ACM. Archives of every issue, beginning with Volume 1, Issue 1, have been mirrored at multiple sites, including the University of Newcastle's catless.ncl.ac.uk/Risks and SRI's own servers.</p><h2>Subject Matter</h2><p>The inaugural issue set the template the forum would follow for decades: it opened with an ACM Council resolution stating that computer systems cannot be assumed reliable, followed by a catalog of computer-related incidents compiled by Neumann spanning aviation, nuclear facility near-misses, military software bugs, and financial losses, alongside a technical discussion of the feasibility of the Strategic Defense Initiative. Rather than confining itself to security vulnerabilities in the narrow sense, RISKS treats safety-critical software failures, design flaws in automated systems, privacy violations, election technology problems, and poorly conceived technology policy as related manifestations of the same underlying problem: systems built and deployed without adequate attention to how they can fail.</p><h2>Role in the Computing Community</h2><p>Because it began well before the World Wide Web and before \"computer security\" existed as a distinct professional field, RISKS became an early clearinghouse where engineers, academics, government officials, and interested members of the public reported and dissected software and hardware failures as they happened. Contributors over the years included prominent computer scientists and security researchers, and the forum was frequently cited in discussions of high-profile incidents such as the Therac-25 radiation overdoses, ARPANET and early internet outages, voting-machine reliability controversies, and major software-driven infrastructure failures. Through the 1990s in particular, RISKS served as one of the primary channels through which the technical community learned about emerging categories of computer risk.</p><h2>Legacy</h2><p>The RISKS Digest's decades-long, uninterrupted archive has made it a resource used by academic researchers studying the history and patterns of software failure and information security incidents, and it is often described as among the largest and oldest continuously maintained collections of documented computer-related risk online. Its editorial approach — moderated, incident-driven, and oriented toward drawing general lessons from specific failures — influenced later security mailing lists and vulnerability-disclosure forums. Peter G. Neumann continued to moderate the forum for the rest of his life, and it stands as a rare example of a single-editor moderated publication that tracked the growth of networked computing, and the risks that accompanied it, from its earliest days.</p>"
   },
   "timeline": [
-    { "date": "1985-08-01", "event": "Peter G. Neumann publishes the first issue of the RISKS Forum digest, sponsored by the ACM Committee on Computers and Public Policy." },
-    { "date": "1985", "event": "The digest begins parallel distribution via email and the Usenet newsgroup comp.risks." },
-    { "date": "1990s", "event": "RISKS becomes a widely cited early source for reports on computer-related failures and emerging information security incidents." },
-    { "date": "2018", "event": "The ACM Committee on Computers and Public Policy, which had sponsored RISKS since its founding and which Neumann chaired, is disbanded." }
+    {
+      "date": "1985-08-01",
+      "event": "Peter G. Neumann publishes the first issue of the RISKS Forum digest, sponsored by the ACM Committee on Computers and Public Policy."
+    },
+    {
+      "date": "1985",
+      "event": "The digest begins parallel distribution via email and the Usenet newsgroup comp.risks."
+    },
+    {
+      "date": "1990s",
+      "event": "RISKS becomes a widely cited early source for reports on computer-related failures and emerging information security incidents."
+    },
+    {
+      "date": "2018",
+      "event": "The ACM Committee on Computers and Public Policy, which had sponsored RISKS since its founding and which Neumann chaired, is disbanded."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -22,16 +42,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "RISKS Digest (Wikipedia)", "url": "https://en.wikipedia.org/wiki/RISKS_Digest" },
-    { "title": "Peter G. Neumann (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Peter_G._Neumann" },
-    { "title": "Peter G. Neumann's home page, SRI International Computer Science Laboratory", "url": "https://www.csl.sri.com/users/neumann/" },
-    { "title": "The Risks Digest, Volume 1, Issue 1", "url": "https://catless.ncl.ac.uk/Risks/1.1.html" }
+    {
+      "title": "RISKS Digest (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/RISKS_Digest"
+    },
+    {
+      "title": "Peter G. Neumann (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Peter_G._Neumann"
+    },
+    {
+      "title": "Peter G. Neumann's home page, SRI International Computer Science Laboratory",
+      "url": "https://www.csl.sri.com/users/neumann/"
+    },
+    {
+      "title": "The Risks Digest, Volume 1, Issue 1",
+      "url": "https://catless.ncl.ac.uk/Risks/1.1.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

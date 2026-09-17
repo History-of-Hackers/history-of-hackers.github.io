@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["hardware security", "fault injection", "side-channel analysis", "chip backdoors", "fpga", "smart cards", "cambridge", "forensic data recovery"],
+  "tags": [
+    "hardware security",
+    "fault injection",
+    "side-channel analysis",
+    "chip backdoors",
+    "fpga",
+    "smart cards",
+    "cambridge",
+    "forensic data recovery"
+  ],
   "summary": "Sergei Skorobogatov is a Russian-born hardware security researcher based at the University of Cambridge Computer Laboratory, known for pioneering optical fault-injection attacks on secure microcontrollers and for the 2012 discovery of a hidden backdoor in a military-grade Actel/Microsemi ProASIC3 FPGA.",
   "whyThisMatters": "Skorobogatov's work moved chip-level security research from theory into demonstrated, real-world silicon attacks, showing that even devices marketed as tamper-resistant and used in military and industrial systems could contain undocumented access mechanisms or be physically defeated. His techniques, including optical fault injection, flash memory 'bumping' attacks, and NAND mirroring, have been cited across the hardware security field and directly informed public debate about the feasibility of bypassing smartphone security, most notably during the 2016 Apple-FBI dispute over an iPhone 5c. His research has repeatedly forced device manufacturers to reassess claims about the invasive-attack resistance of their products.",
   "knownFor": [
@@ -23,14 +32,38 @@
     "overview": "<h2>Background</h2><p>Sergei Skorobogatov is a hardware security researcher who has worked for many years at the University of Cambridge Computer Laboratory. He holds an M.Sc. in Physics (1997) and a Ph.D. in Computer Science (2005), giving him a combined background in electronics, physics, and computer science that underpins his work analysing the physical behaviour of silicon chips rather than only their logical specifications. At Cambridge he has been part of the security research group associated with the university's long-running work on hardware tamper resistance, smart cards, and embedded device security.</p><h2>Optical Fault Injection and Early Work</h2><p>In the early 2000s, Skorobogatov became known for pioneering optical fault injection attacks, a technique in which precisely targeted light (for example from a laser) is used to induce faults in a chip's transistors at chosen moments, allowing an attacker to bypass security checks or extract secret data such as cryptographic keys. This class of attack, developed alongside colleagues at Cambridge, demonstrated that supposedly tamper-resistant secure microcontrollers used in smart cards and embedded devices could be manipulated at the silicon level, influencing how the semiconductor industry approached physical security countermeasures.</p><h2>The ProASIC3 Backdoor Claim</h2><p>In 2012, Skorobogatov and co-author Christopher Woods presented a paper titled \"Breakthrough Silicon Scanning Discovers Backdoor in Military Chip\" at the Cryptographic Hardware and Embedded Systems (CHES) workshop. The paper described the use of a proprietary technique called Pipeline Emission Analysis (PEA) to identify what the authors characterised as a backdoor inside the JTAG configuration controller of the Actel/Microsemi ProASIC3 A3P250 flash FPGA, a chip marketed by its manufacturer as highly resistant to invasive and non-invasive attacks and used in military and industrial systems. According to the paper, the technique allowed extraction of the chip's AES and Passkey security keys, which in turn could be used to read out or reprogram configuration data that the manufacturer's own documentation stated could not be read back by any method. The researchers noted that because the backdoor existed in the silicon itself rather than in loaded firmware, it could not be patched in devices already deployed. The claim drew wide attention, including speculation in some outlets about state-level involvement, which Skorobogatov and independent commentators noted was not established by the research itself; the manufacturer disputed some characterisations of the finding while acknowledging the underlying JTAG functionality.</p><h2>Flash Memory and Card Cloning Research</h2><p>Skorobogatov's subsequent research addressed vulnerabilities in flash memory devices, including \"bumping\" attacks that could extract data from flash memory chips lacking an explicit readback function, and work on data remanence in EEPROM and flash memory that required manufacturers to reconsider hardware designs. He also contributed to research on payment card security, including the \"Chip and Skim\" and \"Be Prepared\" papers analysing the EMV pre-play attack against chip-and-PIN cards, work that identified weaknesses in how some point-of-sale and ATM systems generated transaction authentication values.</p><h2>iPhone 5c NAND Mirroring</h2><p>In 2016, following public debate over whether the FBI could bypass the passcode limit on an iPhone 5c connected to the San Bernardino attack investigation without Apple's assistance, Skorobogatov published a paper titled \"The Bumpy Road towards iPhone 5c NAND Mirroring.\" The paper described a practical hardware attack in which he desoldered the device's NAND flash chip, reverse-engineered its communication protocol with the processor, and used low-cost equipment to mirror the chip's contents, allowing repeated passcode guesses beyond the device's built-in retry limit. The work was presented as the first public demonstration of a technique that some in the security and law-enforcement communities had previously described as infeasible, and it fed directly into the ongoing debate about the practical limits of smartphone hardware security.</p><h2>Later Work and Significance</h2><p>Skorobogatov has continued to publish on hardware security topics including microprobing attacks on encrypted memory, teardown and security evaluation of secure USB flash drives, hardware security assessment of FPGA families, and forensic reconstruction of data from severely damaged semiconductor devices. He has served on the program committees of major hardware security venues such as CHES, HOST, FDTC, and CARDIS, and as an associate editor of the Journal of Cryptographic Engineering. Across two decades, his work has consistently demonstrated that physical, silicon-level analysis can reveal security weaknesses invisible to purely logical or software-based review, shaping how manufacturers, security researchers, and policymakers assess claims of hardware tamper resistance.</p>"
   },
   "timeline": [
-    {"date": "1997", "event": "Received M.Sc. in Physics."},
-    {"date": "2005", "event": "Received Ph.D. in Computer Science."},
-    {"date": "2002", "event": "Developed optical fault injection attack techniques against secure microcontrollers."},
-    {"date": "2010", "event": "Published research on flash memory 'bumping' attacks for extracting data without a readback function."},
-    {"date": "2012-09", "event": "Presented \"Breakthrough Silicon Scanning Discovers Backdoor in Military Chip\" (with Christopher Woods) at CHES 2012, disclosing a hidden backdoor in the Actel/Microsemi ProASIC3 FPGA."},
-    {"date": "2014", "event": "Co-authored \"Chip and Skim: Cloning EMV Cards with the Pre-play Attack.\""},
-    {"date": "2016-09", "event": "Published \"The Bumpy Road towards iPhone 5c NAND Mirroring,\" demonstrating a hardware bypass of the iPhone 5c passcode retry limit amid the Apple-FBI encryption dispute."},
-    {"date": "2020", "event": "Published research on cloning an Infineon secure element (Optiga Trust B) chip."}
+    {
+      "date": "1997",
+      "event": "Received M.Sc. in Physics."
+    },
+    {
+      "date": "2005",
+      "event": "Received Ph.D. in Computer Science."
+    },
+    {
+      "date": "2002",
+      "event": "Developed optical fault injection attack techniques against secure microcontrollers."
+    },
+    {
+      "date": "2010",
+      "event": "Published research on flash memory 'bumping' attacks for extracting data without a readback function."
+    },
+    {
+      "date": "2012-09",
+      "event": "Presented \"Breakthrough Silicon Scanning Discovers Backdoor in Military Chip\" (with Christopher Woods) at CHES 2012, disclosing a hidden backdoor in the Actel/Microsemi ProASIC3 FPGA."
+    },
+    {
+      "date": "2014",
+      "event": "Co-authored \"Chip and Skim: Cloning EMV Cards with the Pre-play Attack.\""
+    },
+    {
+      "date": "2016-09",
+      "event": "Published \"The Bumpy Road towards iPhone 5c NAND Mirroring,\" demonstrating a hardware bypass of the iPhone 5c passcode retry limit amid the Apple-FBI encryption dispute."
+    },
+    {
+      "date": "2020",
+      "event": "Published research on cloning an Infineon secure element (Optiga Trust B) chip."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,16 +71,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    {"title": "Sergei Skorobogatov - Hardware Security Researcher (personal/academic site)", "url": "https://sergei-skorobogatov.github.io/sergei-skorobogatov/"},
-    {"title": "Breakthrough Silicon Scanning Discovers Backdoor in Military Chip (CHES 2012 paper, PDF)", "url": "https://www.cl.cam.ac.uk/~sps32/ches2012-backdoor.pdf"},
-    {"title": "The bumpy road towards iPhone 5c NAND mirroring (arXiv:1609.04327)", "url": "https://arxiv.org/abs/1609.04327"},
-    {"title": "Sergei Skorobogatov - DBLP publication record", "url": "https://dblp.org/pid/09/8341"}
+    {
+      "title": "Sergei Skorobogatov - Hardware Security Researcher (personal/academic site)",
+      "url": "https://sergei-skorobogatov.github.io/sergei-skorobogatov/"
+    },
+    {
+      "title": "Breakthrough Silicon Scanning Discovers Backdoor in Military Chip (CHES 2012 paper, PDF)",
+      "url": "https://www.cl.cam.ac.uk/~sps32/ches2012-backdoor.pdf"
+    },
+    {
+      "title": "The bumpy road towards iPhone 5c NAND mirroring (arXiv:1609.04327)",
+      "url": "https://arxiv.org/abs/1609.04327"
+    },
+    {
+      "title": "Sergei Skorobogatov - DBLP publication record",
+      "url": "https://dblp.org/pid/09/8341"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

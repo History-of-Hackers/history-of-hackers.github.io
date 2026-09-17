@@ -4,7 +4,10 @@
   "type": "tool",
   "name": "Tool Name",
   "creators": [
-    { "name": "", "personRef": "slug-if-has-own-page-or-null" }
+    {
+      "name": "",
+      "personRef": "slug-if-has-own-page-or-null"
+    }
   ],
   "firstReleased": "YYYY or YYYY-MM-DD",
   "problemItSolved": "",
@@ -18,7 +21,10 @@
     "currentState": ""
   },
   "timeline": [
-    { "year": "YYYY", "event": "" }
+    {
+      "year": "YYYY",
+      "event": ""
+    }
   ],
   "relatedPeople": [],
   "relatedVulnerabilities": [],
@@ -39,6 +45,7 @@
     "sourcesCount": 0,
     "lastReviewed": null,
     "reviewStatus": "TODO | RESEARCHING | VERIFIED | ARTICLE_READY | PUBLISHED",
-    "reviewer": null
+    "reviewer": null,
+    "createdBy": "Your Name (shown as 'Created by' on the page)"
   }
 }

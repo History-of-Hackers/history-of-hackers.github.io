@@ -7,7 +7,15 @@
   "born": "1981-10-23",
   "died": null,
   "era": "2000s-2010s",
-  "tags": ["carding", "credit card fraud", "sql injection", "shadowcrew", "secret service informant", "data breach", "identity theft"],
+  "tags": [
+    "carding",
+    "credit card fraud",
+    "sql injection",
+    "shadowcrew",
+    "secret service informant",
+    "data breach",
+    "identity theft"
+  ],
   "summary": "Albert Gonzalez is an American computer hacker and former Secret Service informant who masterminded a series of credit and debit card theft rings, including the breaches of TJX Companies and Heartland Payment Systems, that together compromised more than 170 million card accounts. He was sentenced in March 2010 to a total of 20 years in federal prison.",
   "whyThisMatters": "Gonzalez's case became one of the largest identity-theft prosecutions in U.S. history and exposed how a paid government informant could simultaneously run active criminal hacking operations undetected. The Heartland Payment Systems breach he orchestrated, using SQL injection to plant malware on a payment processor's network, remains a textbook example of supply-chain risk in the payment card industry and helped drive stricter PCI-DSS compliance and network segmentation practices across retail and financial sectors.",
   "knownFor": [
@@ -22,17 +30,50 @@
     "overview": "<h2>Early Life and Introduction to Hacking</h2><p>Albert Gonzalez was born on October 23, 1981, and grew up in Miami, Florida, where he attended South Miami Senior High School. He reportedly received his first computer around age 12 and displayed an early aptitude for computers and networking. As a teenager he was known to associates by online handles rather than his real name, and by the early 2000s he had become involved in online forums dedicated to trading stolen financial data.</p><h2>ShadowCrew and First Arrest</h2><p>In the early 2000s, Gonzalez became a member of the inner circle of ShadowCrew, an online forum used by cybercriminals to buy, sell, and trade stolen credit card and bank account numbers, counterfeit documents, and hacking tools. In 2003, using the screen name \"CumbaJohny,\" he was arrested in New York for possessing and using stolen bank card numbers obtained through ATM skimming. Facing prosecution, Gonzalez agreed to cooperate with the U.S. Secret Service.</p><h2>Secret Service Informant</h2><p>Rather than face charges, Gonzalez became a confidential informant for the Secret Service, helping investigators monitor ShadowCrew members. His cooperation contributed to \"Operation Firewall,\" a 2004 law enforcement action that resulted in the arrest of more than a dozen ShadowCrew members and effectively shut the forum down. Gonzalez continued working with the Secret Service afterward, reportedly relocating to Miami where he was paid as an informant while investigators believed he had left cybercrime behind.</p><h2>Renewed Hacking Operations</h2><p>Despite his informant status, Gonzalez continued to organize and participate in large-scale hacking operations between roughly 2005 and 2008. Working with co-conspirators, he used techniques including SQL injection and wardriving to identify vulnerable corporate wireless networks and web applications. His group breached the networks of major retailers including TJX Companies (parent of T.J. Maxx and Marshalls), BJ's Wholesale Club, OfficeMax, Boston Market, Barnes & Noble, Sports Authority, and Dave & Buster's, stealing tens of millions of payment card numbers that were later resold through underground carding networks.</p><h2>The Heartland Payment Systems Breach</h2><p>Beginning in late 2007, Gonzalez and his associates targeted Heartland Payment Systems, a major U.S. payment card processor, along with 7-Eleven and Hannaford Brothers. Using SQL injection to penetrate corporate networks and install data-sniffing malware, the group intercepted card data as it was processed, ultimately compromising an estimated 130 million or more card numbers at Heartland alone—making it, combined with the TJX breach, part of what prosecutors described as the largest identity theft and credit card fraud scheme charged in U.S. history at the time, involving more than 170 million card and ATM numbers overall.</p><h2>Arrest and Prosecution</h2><p>Gonzalez was arrested on May 7, 2008, at the National Hotel in Miami Beach, Florida, after investigators traced the Dave & Buster's intrusion back to him. He faced three separate federal indictments: one in New York in May 2008 related to the Dave & Buster's breach, one in Massachusetts in May 2008 related to the TJX breach, and one in New Jersey in August 2009 related to the Heartland, 7-Eleven, and Hannaford breaches. Prosecutors detailed that Gonzalez had used aliases including \"segvec,\" \"soupnazi,\" and \"j4guar17,\" and had hidden proceeds from card fraud, including large sums of cash buried in his backyard.</p><h2>Sentencing and Legacy</h2><p>On March 25, 2010, a federal judge in Massachusetts sentenced Gonzalez to 20 years in prison for the TJX-related conspiracy and fraud charges. The following day, a federal judge in New Jersey sentenced him to 20 years and one day for the Heartland-related conspiracy, to run concurrently with the first sentence, resulting in a total 20-year term—among the longest sentences ever handed down in the U.S. for a hacking-related case at that time. The case is widely cited in cybersecurity literature and law enforcement training as a landmark example of large-scale payment card fraud, the risks of relying on cooperating informants who continue offending, and the vulnerabilities that SQL injection attacks pose to corporate and financial networks.</p>"
   },
   "timeline": [
-    { "date": "1981-10-23", "event": "Albert Gonzalez is born in Miami, Florida." },
-    { "date": "2003", "event": "Arrested in New York for possessing stolen ATM/bank card numbers; agrees to cooperate with the U.S. Secret Service as an informant, using the handle \"CumbaJohny\" on ShadowCrew." },
-    { "date": "2004-10", "event": "Secret Service's \"Operation Firewall,\" aided by Gonzalez's cooperation, leads to the arrest of more than a dozen ShadowCrew members." },
-    { "date": "2005", "event": "Gonzalez and associates begin a multi-year hacking campaign against major U.S. retailers using SQL injection and wardriving techniques." },
-    { "date": "2007", "event": "TJX Companies breach concludes after roughly 18 months, with an estimated 45.6 million credit and debit card numbers stolen." },
-    { "date": "2007-12", "event": "Gonzalez's group begins targeting Heartland Payment Systems, 7-Eleven, and Hannaford Brothers networks." },
-    { "date": "2008-05-07", "event": "Gonzalez is arrested at the National Hotel in Miami Beach, Florida." },
-    { "date": "2008-05", "event": "Federal indictments filed against Gonzalez in New York (Dave & Buster's case) and Massachusetts (TJX case)." },
-    { "date": "2009-08", "event": "Third federal indictment filed in New Jersey covering the Heartland Payment Systems, 7-Eleven, and Hannaford breaches." },
-    { "date": "2010-03-25", "event": "Sentenced to 20 years in federal prison in the Massachusetts (TJX) case." },
-    { "date": "2010-03-26", "event": "Sentenced to 20 years and one day in the New Jersey (Heartland) case, to run concurrently with the prior sentence." }
+    {
+      "date": "1981-10-23",
+      "event": "Albert Gonzalez is born in Miami, Florida."
+    },
+    {
+      "date": "2003",
+      "event": "Arrested in New York for possessing stolen ATM/bank card numbers; agrees to cooperate with the U.S. Secret Service as an informant, using the handle \"CumbaJohny\" on ShadowCrew."
+    },
+    {
+      "date": "2004-10",
+      "event": "Secret Service's \"Operation Firewall,\" aided by Gonzalez's cooperation, leads to the arrest of more than a dozen ShadowCrew members."
+    },
+    {
+      "date": "2005",
+      "event": "Gonzalez and associates begin a multi-year hacking campaign against major U.S. retailers using SQL injection and wardriving techniques."
+    },
+    {
+      "date": "2007",
+      "event": "TJX Companies breach concludes after roughly 18 months, with an estimated 45.6 million credit and debit card numbers stolen."
+    },
+    {
+      "date": "2007-12",
+      "event": "Gonzalez's group begins targeting Heartland Payment Systems, 7-Eleven, and Hannaford Brothers networks."
+    },
+    {
+      "date": "2008-05-07",
+      "event": "Gonzalez is arrested at the National Hotel in Miami Beach, Florida."
+    },
+    {
+      "date": "2008-05",
+      "event": "Federal indictments filed against Gonzalez in New York (Dave & Buster's case) and Massachusetts (TJX case)."
+    },
+    {
+      "date": "2009-08",
+      "event": "Third federal indictment filed in New Jersey covering the Heartland Payment Systems, 7-Eleven, and Hannaford breaches."
+    },
+    {
+      "date": "2010-03-25",
+      "event": "Sentenced to 20 years in federal prison in the Massachusetts (TJX) case."
+    },
+    {
+      "date": "2010-03-26",
+      "event": "Sentenced to 20 years and one day in the New Jersey (Heartland) case, to run concurrently with the prior sentence."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -40,10 +81,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Albert Gonzalez - Wikipedia", "url": "https://en.wikipedia.org/wiki/Albert_Gonzalez" },
-    { "title": "Leader Of Hacking Ring Sentenced For Massive Identity Thefts From Payment Processor And U.S. Retail Networks - U.S. Department of Justice", "url": "https://www.justice.gov/opa/pr/leader-hacking-ring-sentenced-massive-identity-thefts-payment-processor-and-us-retail" },
-    { "title": "TJX, Heartland Hacker Hit With A Second 20-Year Prison Sentence - Dark Reading", "url": "https://www.darkreading.com/cyberattacks-data-breaches/tjx-heartland-hacker-hit-with-a-second-20-year-prison-sentence" },
-    { "title": "Albert Gonzalez - Harvard Cyberlaw Case Study", "url": "https://cyber.harvard.edu/cybersecurity/Albert_Gonzalez" }
+    {
+      "title": "Albert Gonzalez - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Albert_Gonzalez"
+    },
+    {
+      "title": "Leader Of Hacking Ring Sentenced For Massive Identity Thefts From Payment Processor And U.S. Retail Networks - U.S. Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/leader-hacking-ring-sentenced-massive-identity-thefts-payment-processor-and-us-retail"
+    },
+    {
+      "title": "TJX, Heartland Hacker Hit With A Second 20-Year Prison Sentence - Dark Reading",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/tjx-heartland-hacker-hit-with-a-second-20-year-prison-sentence"
+    },
+    {
+      "title": "Albert Gonzalez - Harvard Cyberlaw Case Study",
+      "url": "https://cyber.harvard.edu/cybersecurity/Albert_Gonzalez"
+    }
   ],
-  "editorial": { "verified": true, "sourcesCount": 4, "lastReviewed": "2026-08-29", "reviewStatus": "PUBLISHED", "reviewer": "claude-taskforce-2026-08-29" }
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-08-29",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
+  }
 }

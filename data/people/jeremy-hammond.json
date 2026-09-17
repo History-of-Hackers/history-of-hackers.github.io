@@ -7,7 +7,16 @@
   "born": "1985-01-08",
   "died": null,
   "era": "2000s-Present",
-  "tags": ["hacktivist", "anonymous", "antisec", "lulzsec", "stratfor", "cfaa", "wikileaks", "anarchist"],
+  "tags": [
+    "hacktivist",
+    "anonymous",
+    "antisec",
+    "lulzsec",
+    "stratfor",
+    "cfaa",
+    "wikileaks",
+    "anarchist"
+  ],
   "summary": "Jeremy Hammond is an American computer hacker and anarchist activist from Chicago who founded the security site HackThisSite and later, working with Anonymous-affiliated hackers under the AntiSec banner, breached the private intelligence firm Stratfor in 2011, leaking millions of internal emails to WikiLeaks; he was sentenced in 2013 to the maximum 10 years in federal prison under the Computer Fraud and Abuse Act.",
   "whyThisMatters": "The Stratfor breach was one of the largest and most consequential hacktivist operations of the Anonymous/AntiSec era, exposing the inner workings of a private intelligence contractor and feeding a major WikiLeaks publication (the \"Global Intelligence Files\"). Hammond's case also became a landmark example of an FBI-run informant (Hector \"Sabu\" Monsegur) directing hacking operations against other targets, raising lasting questions about entrapment and the government's use of cooperating hackers. His maximum 10-year CFAA sentence remains one of the harshest ever handed down for a hacktivist offense, frequently cited in debates over the proportionality of computer crime sentencing.",
   "knownFor": [
@@ -22,19 +31,58 @@
     "overview": "<h2>Early Life and Background</h2><p>Jeremy Alexander Hammond was born on January 8, 1985, in Chicago, Illinois. He showed an early aptitude for computers, reportedly programming simple video games in QBasic by age eight and building databases by his early teens. As a high school student he became active in anti-war politics, helping organize a student walkout at the start of the 2003 invasion of Iraq and starting a student newspaper critical of the war. At age eighteen, in the summer of 2003, he founded HackThisSite, an online community and set of hacking challenges intended, in its own description, to promote a constructive computer security learning culture; the site grew quickly, drawing millions of hits and well over one hundred thousand registered members within a few years.</p><h2>Early Hacking and First Conviction</h2><p>While a freshman at the University of Illinois at Urbana-Champaign in 2004, Hammond exploited a security vulnerability in a university computer science department website, an incident that led to him being barred from returning the following year. In February 2005 Hammond and associates hacked the website of Protest Warrior, a conservative activist organization, gaining access to a database containing thousands of customer credit card numbers; Hammond has stated the intent was to use the data to make donations to left-leaning causes rather than for personal fraud. He was arrested and pleaded guilty to related charges, receiving a two-year federal sentence of which he served about eighteen months.</p><h2>Anonymous, LulzSec, and AntiSec</h2><p>After his release, Hammond remained active in activist and hacking circles in Chicago and became involved with the loosely organized Anonymous collective, and later with the AntiSec movement that grew out of the LulzSec hacking group in 2011. Operating online under the handle \"sup_g,\" Hammond participated in a series of computer intrusions attributed to AntiSec against government and corporate targets, including systems tied to the FBI's Virtual Academy training portal, the Arizona Department of Public Safety, the Boston Police Patrolmen's Association, and the Jefferson County, Alabama, Sheriff's Office.</p><h2>The Stratfor Breach</h2><p>In December 2011, Hammond took part in a breach of the servers of Strategic Forecasting, Inc. (Stratfor), a private intelligence and geopolitical analysis firm based in Austin, Texas. The intrusion compromised tens of thousands of credit card numbers, was later linked to hundreds of thousands of dollars in fraudulent charges, and resulted in the exfiltration of roughly five million internal company emails. Those emails were subsequently provided to WikiLeaks, which published them beginning in early 2012 as the \"Global Intelligence Files,\" offering a rare look inside a firm that monitored activists, journalists, and geopolitical developments for corporate and government clients.</p><h2>Arrest, Guilty Plea, and Sentencing</h2><p>FBI agents arrested Hammond at his home in Chicago's Bridgeport neighborhood on March 6, 2012. The case against him relied heavily on evidence and cooperation from Hector Xavier Monsegur, known online as \"Sabu,\" a former LulzSec leader who had become a confidential FBI informant after his own arrest and, according to Hammond and his supporters, helped facilitate or direct some of the intrusions later charged against Hammond. In May 2013, Hammond pleaded guilty to one count of violating the Computer Fraud and Abuse Act, telling the court, \"Yes I broke the law, but I believe sometimes laws must be broken in order to make room for change.\" On November 15, 2013, U.S. District Judge Loretta Preska sentenced Hammond to ten years in federal prison, the maximum available under his plea agreement, followed by three years of supervised release. Hammond called the sentence a \"vengeful, spiteful act\" intended to make an example of politically motivated hacking.</p><h2>Later Contempt Proceedings and Release</h2><p>Hammond served his sentence primarily at the Federal Correctional Institution in Memphis, Tennessee. In 2019, while still incarcerated, he was summoned before a federal grand jury in the Eastern District of Virginia investigating WikiLeaks and its founder Julian Assange. Despite being granted immunity from prosecution for his testimony, Hammond refused to testify, citing his opposition to grand jury secrecy and coercive subpoenas; he was held in civil contempt by Judge Anthony Trenga and confined separately on that basis until the grand jury's term concluded in March 2020. He was released from federal custody in November 2020.</p><h2>Significance and Legacy</h2><p>Hammond's case is frequently cited as one of the defining prosecutions of the Anonymous/AntiSec era of hacktivism, both for the scale and political sensitivity of the Stratfor leak and for the controversy surrounding the FBI's use of an informant to help identify and, according to some accounts, encourage further intrusions. His maximum ten-year sentence for a CFAA violation is regularly referenced in discussions of sentencing disparities in computer crime cases, and his subsequent grand jury resistance kept him a visible figure in debates over surveillance, WikiLeaks, and the treatment of politically motivated hackers by the U.S. justice system.</p>"
   },
   "timeline": [
-    { "date": "1985-01-08", "event": "Jeremy Hammond is born in Chicago, Illinois." },
-    { "date": "2003", "event": "Founds HackThisSite, an online hacking-challenge and security community." },
-    { "date": "2004", "event": "Exploits a vulnerability in a University of Illinois computer science department website; barred from returning to school." },
-    { "date": "2005-02", "event": "Participates in the hack of the Protest Warrior website, accessing thousands of credit card records." },
-    { "date": "2005", "event": "Pleads guilty to related federal charges and receives a two-year prison sentence, serving about 18 months." },
-    { "date": "2011-12", "event": "Takes part in the AntiSec breach of private intelligence firm Stratfor, exfiltrating millions of internal emails and payment data." },
-    { "date": "2012", "event": "Stratfor emails obtained in the breach are published by WikiLeaks as the \"Global Intelligence Files.\"" },
-    { "date": "2012-03-06", "event": "Arrested by the FBI at his home in Chicago, tied to evidence from informant Hector \"Sabu\" Monsegur." },
-    { "date": "2013-05", "event": "Pleads guilty to one count of violating the Computer Fraud and Abuse Act." },
-    { "date": "2013-11-15", "event": "Sentenced by Judge Loretta Preska to the maximum 10 years in federal prison plus 3 years supervised release." },
-    { "date": "2019-10", "event": "Summoned before a Virginia federal grand jury investigating WikiLeaks and Julian Assange; refuses to testify and is held in civil contempt." },
-    { "date": "2020-03", "event": "Released from contempt confinement after the grand jury's term concludes." },
-    { "date": "2020-11", "event": "Released from federal prison." }
+    {
+      "date": "1985-01-08",
+      "event": "Jeremy Hammond is born in Chicago, Illinois."
+    },
+    {
+      "date": "2003",
+      "event": "Founds HackThisSite, an online hacking-challenge and security community."
+    },
+    {
+      "date": "2004",
+      "event": "Exploits a vulnerability in a University of Illinois computer science department website; barred from returning to school."
+    },
+    {
+      "date": "2005-02",
+      "event": "Participates in the hack of the Protest Warrior website, accessing thousands of credit card records."
+    },
+    {
+      "date": "2005",
+      "event": "Pleads guilty to related federal charges and receives a two-year prison sentence, serving about 18 months."
+    },
+    {
+      "date": "2011-12",
+      "event": "Takes part in the AntiSec breach of private intelligence firm Stratfor, exfiltrating millions of internal emails and payment data."
+    },
+    {
+      "date": "2012",
+      "event": "Stratfor emails obtained in the breach are published by WikiLeaks as the \"Global Intelligence Files.\""
+    },
+    {
+      "date": "2012-03-06",
+      "event": "Arrested by the FBI at his home in Chicago, tied to evidence from informant Hector \"Sabu\" Monsegur."
+    },
+    {
+      "date": "2013-05",
+      "event": "Pleads guilty to one count of violating the Computer Fraud and Abuse Act."
+    },
+    {
+      "date": "2013-11-15",
+      "event": "Sentenced by Judge Loretta Preska to the maximum 10 years in federal prison plus 3 years supervised release."
+    },
+    {
+      "date": "2019-10",
+      "event": "Summoned before a Virginia federal grand jury investigating WikiLeaks and Julian Assange; refuses to testify and is held in civil contempt."
+    },
+    {
+      "date": "2020-03",
+      "event": "Released from contempt confinement after the grand jury's term concludes."
+    },
+    {
+      "date": "2020-11",
+      "event": "Released from federal prison."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -42,16 +90,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Jeremy Hammond - Wikipedia", "url": "https://en.wikipedia.org/wiki/Jeremy_Hammond" },
-    { "title": "Jeremy Hammond Sentenced To 10 Years In Prison For Hacking Into The Stratfor Website And Other Company, Federal, State, And Local Government Websites - U.S. DOJ (SDNY)", "url": "https://www.justice.gov/usao-sdny/pr/jeremy-hammond-sentenced-10-years-prison-hacking-stratfor-website-and-other-company" },
-    { "title": "Anonymous Hacktivist Jeremy Hammond Gets Maximum 10-Year Prison Sentence - TechCrunch", "url": "https://techcrunch.com/2013/11/15/anonymous-hacktivist-jeremy-hammond-gets-maximum-10-year-prison-sentence/" },
-    { "title": "Hacker tied to Anonymous gets 10 years in prison for cyberattacks - NBC News", "url": "https://www.nbcnews.com/technolog/hacker-tied-anonymous-gets-10-years-prison-cyberattacks-2d11603760" }
+    {
+      "title": "Jeremy Hammond - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jeremy_Hammond"
+    },
+    {
+      "title": "Jeremy Hammond Sentenced To 10 Years In Prison For Hacking Into The Stratfor Website And Other Company, Federal, State, And Local Government Websites - U.S. DOJ (SDNY)",
+      "url": "https://www.justice.gov/usao-sdny/pr/jeremy-hammond-sentenced-10-years-prison-hacking-stratfor-website-and-other-company"
+    },
+    {
+      "title": "Anonymous Hacktivist Jeremy Hammond Gets Maximum 10-Year Prison Sentence - TechCrunch",
+      "url": "https://techcrunch.com/2013/11/15/anonymous-hacktivist-jeremy-hammond-gets-maximum-10-year-prison-sentence/"
+    },
+    {
+      "title": "Hacker tied to Anonymous gets 10 years in prison for cyberattacks - NBC News",
+      "url": "https://www.nbcnews.com/technolog/hacker-tied-anonymous-gets-10-years-prison-cyberattacks-2d11603760"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

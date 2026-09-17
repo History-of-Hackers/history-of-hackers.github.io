@@ -7,7 +7,16 @@
   "born": "1986-04-29",
   "died": null,
   "era": "2000s-Present",
-  "tags": ["worms", "malware", "germany", "sasser", "netsky", "cybercrime", "teenage hacker", "2004"],
+  "tags": [
+    "worms",
+    "malware",
+    "germany",
+    "sasser",
+    "netsky",
+    "cybercrime",
+    "teenage hacker",
+    "2004"
+  ],
   "summary": "Sven Jaschan is a German computer programmer who, as a teenager, authored the Sasser and Netsky computer worms in 2004, causing widespread disruption to computers and networks around the world.",
   "whyThisMatters": "The Sasser and Netsky worms, released within weeks of each other in early 2004, together accounted for a large share of global malware infections that year and forced organizations including airlines, banks, hospitals, and government agencies to take systems offline. Jaschan's case, resolved in a German juvenile court because he was 17 when he wrote Sasser, became a widely cited example of the legal system grappling with cybercrime committed by minors, and of a security researcher being hired by a private firm shortly after being publicly implicated in the same malware outbreak. It also marked one of the first payouts under Microsoft's Anti-Virus Reward Program, which offered a bounty for information leading to the arrest of virus authors.",
   "knownFor": [
@@ -21,13 +30,34 @@
     "overview": "<h2>Background</h2><p>Sven Jaschan was born on 29 April 1986 and grew up in Waffensen, a small village near Rotenburg in Lower Saxony, Germany, where he attended a local computer science-oriented school. As a teenager he developed an interest in programming and malware analysis, which led him to begin writing computer worms while still a minor.</p><h2>The Netsky and Sasser Worms</h2><p>Beginning in February 2004, Jaschan released a series of variants of the Netsky worm, which spread primarily as an email attachment. According to Jaschan's own account, his original intent with Netsky was to remove infections caused by the rival Mydoom and Bagle worms from victims' machines, though Netsky itself went on to spread widely and cause damage independently. On 30 April 2004, his 18th birthday, Jaschan released the Sasser worm, which was markedly more disruptive because it spread automatically over the internet by exploiting a buffer-overflow vulnerability in the Windows Local Security Authority Subsystem Service (LSASS), requiring no user action such as opening an email attachment. Sasser caused infected Windows computers to repeatedly crash and reboot, disrupting operations at organizations including Delta Air Lines, the European Commission, Deutsche Post, and various hospitals, banks, and government offices. Security firm Sophos estimated that Jaschan's worms were responsible for roughly 70 percent of malware infections reported in the first half of 2004.</p><h2>Investigation and Arrest</h2><p>The scale of the disruption prompted a major international investigation, and Microsoft offered a reward of up to $250,000 under its newly created Anti-Virus Reward Program for information leading to the worms' author. Following tips, including from an acquaintance of Jaschan's, German federal police (Bundeskriminalamt) arrested him at his home in Waffensen on 7 May 2004. He confessed to authorities that he had written both Netsky and Sasser.</p><h2>Trial and Sentencing</h2><p>Because Jaschan was 17 years old when he created Sasser, he was tried as a juvenile in a court in Verden, Germany. The four-day trial in July 2005 examined evidence from a sample of the roughly 143 plaintiffs affected by the worms, including several German city governments and a broadcaster. Jaschan confessed to the charges at the outset of the trial. On 8 July 2005, the court convicted him of computer sabotage, data manipulation, and interference with public systems, sentencing him to a 21-month suspended sentence, three years of probation, and 30 hours of community service at a hospital or care home. He was not fined.</p><h2>Aftermath and Legacy</h2><p>Shortly after his arrest, on 1 September 2004, Jaschan was hired as a software security consultant by the German security company Securepoint, a move that drew criticism from parts of the antivirus industry; competitor Avira publicly ended cooperation with Securepoint in response. The Sasser and Netsky episode remains one of the most-cited examples of worm outbreaks caused by a single author, and of the tension between prosecuting juvenile cybercrime and the subsequent commercial recruitment of the perpetrator as a security expert.</p>"
   },
   "timeline": [
-    { "date": "1986-04-29", "event": "Sven Jaschan is born in Germany." },
-    { "date": "2004-02", "event": "First variants of the Netsky email worm, attributed to Jaschan, begin spreading." },
-    { "date": "2004-04-30", "event": "The Sasser worm, exploiting a Windows LSASS vulnerability, is released and begins spreading automatically over the internet." },
-    { "date": "2004-05-07", "event": "German police arrest Jaschan at his home near Rotenburg after he is identified as the likely author of Sasser and Netsky." },
-    { "date": "2004-09-01", "event": "Jaschan is hired as a security consultant by German firm Securepoint." },
-    { "date": "2005-07", "event": "Jaschan stands trial in juvenile court in Verden, Germany, and confesses to the charges." },
-    { "date": "2005-07-08", "event": "Jaschan is convicted of computer sabotage and given a 21-month suspended sentence, probation, and community service." }
+    {
+      "date": "1986-04-29",
+      "event": "Sven Jaschan is born in Germany."
+    },
+    {
+      "date": "2004-02",
+      "event": "First variants of the Netsky email worm, attributed to Jaschan, begin spreading."
+    },
+    {
+      "date": "2004-04-30",
+      "event": "The Sasser worm, exploiting a Windows LSASS vulnerability, is released and begins spreading automatically over the internet."
+    },
+    {
+      "date": "2004-05-07",
+      "event": "German police arrest Jaschan at his home near Rotenburg after he is identified as the likely author of Sasser and Netsky."
+    },
+    {
+      "date": "2004-09-01",
+      "event": "Jaschan is hired as a security consultant by German firm Securepoint."
+    },
+    {
+      "date": "2005-07",
+      "event": "Jaschan stands trial in juvenile court in Verden, Germany, and confesses to the charges."
+    },
+    {
+      "date": "2005-07-08",
+      "event": "Jaschan is convicted of computer sabotage and given a 21-month suspended sentence, probation, and community service."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -35,17 +65,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Sven Jaschan - Wikipedia", "url": "https://en.wikipedia.org/wiki/Sven_Jaschan" },
-    { "title": "Sasser worm creator charged with sabotage - NBC News", "url": "https://www.nbcnews.com/id/wbna5943423" },
-    { "title": "German court convicts Sasser worm creator - NBC News", "url": "https://www.nbcnews.com/id/wbna8507272" },
-    { "title": "Sasser suspect walks free - The Register", "url": "https://theregister.com/2005/07/08/sasser_sentencing" },
-    { "title": "Sasser Worm Writer Walks Free From Court - Help Net Security", "url": "https://www.helpnetsecurity.com/2005/07/08/sasser-worm-writer-walks-free-from-court/" }
+    {
+      "title": "Sven Jaschan - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sven_Jaschan"
+    },
+    {
+      "title": "Sasser worm creator charged with sabotage - NBC News",
+      "url": "https://www.nbcnews.com/id/wbna5943423"
+    },
+    {
+      "title": "German court convicts Sasser worm creator - NBC News",
+      "url": "https://www.nbcnews.com/id/wbna8507272"
+    },
+    {
+      "title": "Sasser suspect walks free - The Register",
+      "url": "https://theregister.com/2005/07/08/sasser_sentencing"
+    },
+    {
+      "title": "Sasser Worm Writer Walks Free From Court - Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2005/07/08/sasser-worm-writer-walks-free-from-court/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

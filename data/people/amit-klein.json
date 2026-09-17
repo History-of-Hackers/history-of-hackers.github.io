@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["web security", "http", "application security", "protocol security", "device tracking", "israel", "academia"],
+  "tags": [
+    "web security",
+    "http",
+    "application security",
+    "protocol security",
+    "device tracking",
+    "israel",
+    "academia"
+  ],
   "summary": "Amit Klein is an Israeli security researcher who published the 2004 whitepaper that defined HTTP response splitting and co-authored the 2005 paper that introduced HTTP request smuggling. He later held research leadership roles at Sanctum, Cyota, Trusteer and SafeBreach, and is an associate professor of computer science at the Hebrew University of Jerusalem.",
   "whyThisMatters": "Klein's 2004 and 2005 whitepapers named and systematised two attack classes, HTTP response splitting and HTTP request smuggling, that arise from disagreements between web servers, proxies and caches about where one HTTP message ends and the next begins. Both classes became standard entries in web-security taxonomies such as OWASP and CWE, and request smuggling in particular saw a major revival in the late 2010s against modern proxy and CDN chains. His later academic work extended the same method of scrutinising protocol implementation details to operating-system network stacks, producing practical device-tracking and DNS cache-poisoning attacks. His career also illustrates the path from vendor-based application-security research in the early 2000s to peer-reviewed academic security research.",
   "knownFor": [
@@ -21,15 +29,42 @@
     "overview": "<h2>Background</h2><p>Amit Klein is an Israeli computer security researcher whose work spans web application security, network protocol implementation flaws and privacy-relevant device fingerprinting. According to his conference biography, he holds a B.Sc. from the Hebrew University of Jerusalem, awarded magna cum laude, and is a graduate of the Israel Defense Forces' Talpiot programme. He later completed a doctorate under Professor Benny Pinkas at Bar-Ilan University, and his publication record is indexed under both the Hebrew University of Jerusalem and Bar-Ilan University affiliations.</p><h2>HTTP response splitting</h2><p>In March 2004, while serving as Director of Security and Research at the application-security vendor Sanctum, Inc., Klein published the whitepaper \"Divide and Conquer\" - HTTP Response Splitting, Web Cache Poisoning Attacks, and Related Topics. The paper described how an application that copies unvalidated user input into an HTTP response header allows an attacker to inject carriage-return and line-feed characters, terminating the intended header block early and appending a second, attacker-controlled response. The consequences the paper enumerated included web cache poisoning, cross-user defacement, browser cache poisoning and cross-site scripting.</p><p>The term introduced in that paper became the standard name for the attack class. It is catalogued by OWASP as HTTP Response Splitting and by MITRE as CWE-113, and the whitepaper remains the reference cited in general treatments of the subject. Successive platform releases added automatic header sanitisation to prevent the injection, including PHP, Node.js and Django.</p><h2>HTTP request smuggling</h2><p>In 2005 Klein co-authored the whitepaper HTTP Request Smuggling with Chaim Linhart, Ronen Heled and Steve Orrin, published by Watchfire, the company that had acquired Sanctum. Where response splitting concerns the response direction, request smuggling concerns the request direction: when a front-end intermediary and a back-end server disagree about how to interpret the Content-Length and Transfer-Encoding headers, an attacker can craft a request that the two systems parse as different numbers of requests. The paper demonstrated web cache poisoning, firewall and intrusion-detection evasion, request hijacking and credential hijacking.</p><p>The technique attracted renewed attention more than a decade later as reverse proxies, load balancers and content delivery networks became ubiquitous, and the 2005 paper is generally cited as the origin of the attack class.</p><h2>Industry career</h2><p>Klein's industry roles were consistently in security research leadership. He spent roughly seven years at Sanctum as Director of Security and Research, followed by about two years as Chief Scientist at Cyota, an online-banking fraud prevention company later acquired by RSA Security. In 2006 he was among the founders of Trusteer, an Israeli endpoint fraud-prevention company, alongside Mickey Boodaei, Shmulik Regev, Rakesh Loonkar and Eldan Ben-Haim. He served as Trusteer's chief technology officer for about eight and a half years, spanning the company's acquisition by IBM in 2013. He subsequently became VP of Security Research at SafeBreach, where his work covered infiltration, exfiltration and lateral-movement techniques, and where he spoke at conferences including Black Hat and Hack In The Box. His Hack In The Box speaker biography notes that InfoWorld recognised him as a CTO of the year in 2010.</p><h2>Academic research</h2><p>Klein moved into academia and is an associate professor of computer science at the Hebrew University of Jerusalem, where his research addresses the security of network protocols at layers 3 and 4 and of their implementations, DNS security, device tracking, and vulnerabilities in network intermediaries such as proxies, caches and load balancers. With Benny Pinkas he published From IP ID to Device ID and KASLR Bypass, presented at USENIX Security 2019, which showed that the way Windows, Linux and Android generate the 16-bit IP identification field can be reverse-engineered and cryptanalysed to yield a device identifier that persists across browsers and networks, and on Linux and Android also leaks a kernel address, defeating kernel address space layout randomisation.</p><p>Later work included Cross Layer Attacks and How to Use Them (for DNS Cache Poisoning, Device Tracking and More), which analysed the Linux kernel's prandom pseudorandom number generator; Subverting Stateful Firewalls with Protocol States; and Device Tracking via Linux's New TCP Source Port Selection Algorithm, written with Moshe Kol and Yossi Gilad. His academic page records the Strage-BGU Award for Excellence in Cyber Security Research in 2023.</p><h2>Legacy</h2><p>Klein is chiefly remembered for naming and formalising two families of HTTP desynchronisation attacks that remain part of the standard vocabulary of web security, and for demonstrating that vulnerabilities can be found not only in application logic but in the small implementation choices, such as header parsing or identifier generation, that protocol specifications leave open. That method carried across his career from vendor whitepapers in the early 2000s to peer-reviewed papers at USENIX Security and NDSS two decades later.</p>"
   },
   "timeline": [
-    { "date": "2004-03", "event": "Publishes the whitepaper \"Divide and Conquer\" - HTTP Response Splitting, Web Cache Poisoning Attacks, and Related Topics as Director of Security and Research at Sanctum, Inc." },
-    { "date": "2005", "event": "Co-authors the Watchfire whitepaper HTTP Request Smuggling with Chaim Linhart, Ronen Heled and Steve Orrin, introducing the request smuggling attack class." },
-    { "date": "2006", "event": "Co-founds Trusteer in Israel with Mickey Boodaei, Shmulik Regev, Rakesh Loonkar and Eldan Ben-Haim, serving as chief technology officer." },
-    { "date": "2013", "event": "IBM acquires Trusteer." },
-    { "date": "2016", "event": "Presents \"In Plain Sight: The Perfect Exfiltration Location\" at Hack In The Box Amsterdam as VP Security Research at SafeBreach." },
-    { "date": "2019", "event": "Presents From IP ID to Device ID and KASLR Bypass, co-authored with Benny Pinkas, at USENIX Security." },
-    { "date": "2020-12", "event": "Publishes Cross Layer Attacks and How to Use Them (for DNS Cache Poisoning, Device Tracking and More), analysing the Linux kernel prandom PRNG." },
-    { "date": "2022", "event": "Publishes Device Tracking via Linux's New TCP Source Port Selection Algorithm with Moshe Kol and Yossi Gilad." },
-    { "date": "2023", "event": "Receives the Strage-BGU Award for Excellence in Cyber Security Research." }
+    {
+      "date": "2004-03",
+      "event": "Publishes the whitepaper \"Divide and Conquer\" - HTTP Response Splitting, Web Cache Poisoning Attacks, and Related Topics as Director of Security and Research at Sanctum, Inc."
+    },
+    {
+      "date": "2005",
+      "event": "Co-authors the Watchfire whitepaper HTTP Request Smuggling with Chaim Linhart, Ronen Heled and Steve Orrin, introducing the request smuggling attack class."
+    },
+    {
+      "date": "2006",
+      "event": "Co-founds Trusteer in Israel with Mickey Boodaei, Shmulik Regev, Rakesh Loonkar and Eldan Ben-Haim, serving as chief technology officer."
+    },
+    {
+      "date": "2013",
+      "event": "IBM acquires Trusteer."
+    },
+    {
+      "date": "2016",
+      "event": "Presents \"In Plain Sight: The Perfect Exfiltration Location\" at Hack In The Box Amsterdam as VP Security Research at SafeBreach."
+    },
+    {
+      "date": "2019",
+      "event": "Presents From IP ID to Device ID and KASLR Bypass, co-authored with Benny Pinkas, at USENIX Security."
+    },
+    {
+      "date": "2020-12",
+      "event": "Publishes Cross Layer Attacks and How to Use Them (for DNS Cache Poisoning, Device Tracking and More), analysing the Linux kernel prandom PRNG."
+    },
+    {
+      "date": "2022",
+      "event": "Publishes Device Tracking via Linux's New TCP Source Port Selection Algorithm with Moshe Kol and Yossi Gilad."
+    },
+    {
+      "date": "2023",
+      "event": "Receives the Strage-BGU Award for Excellence in Cyber Security Research."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,20 +72,45 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "\"Divide and Conquer\" - HTTP Response Splitting, Web Cache Poisoning Attacks, and Related Topics (Sanctum, Inc., March 2004)", "url": "https://dl.packetstormsecurity.net/papers/general/whitepaper_httpresponse.pdf" },
-    { "title": "HTTP Request Smuggling - a whitepaper from Watchfire (Linhart, Klein, Heled, Orrin, 2005)", "url": "https://www.cgisecurity.com/lib/HTTP-Request-Smuggling.pdf" },
-    { "title": "HTTP response splitting - Wikipedia", "url": "https://en.wikipedia.org/wiki/HTTP_response_splitting" },
-    { "title": "Trusteer - Wikipedia", "url": "https://en.wikipedia.org/wiki/Trusteer" },
-    { "title": "Amit Klein - HITBSecConf2016 Amsterdam speaker biography", "url": "https://archive.conference.hitb.org/hitbsecconf2016ams/speakers/amit-klein/" },
-    { "title": "From IP ID to Device ID and KASLR Bypass (Extended Version) - arXiv", "url": "https://arxiv.org/abs/1906.10478" },
-    { "title": "Amit Klein - academic page, securitygalore.com", "url": "https://www.securitygalore.com/academic" },
-    { "title": "Amit Klein 0001 - dblp author profile", "url": "https://dblp.org/pid/98/3396" }
+    {
+      "title": "\"Divide and Conquer\" - HTTP Response Splitting, Web Cache Poisoning Attacks, and Related Topics (Sanctum, Inc., March 2004)",
+      "url": "https://dl.packetstormsecurity.net/papers/general/whitepaper_httpresponse.pdf"
+    },
+    {
+      "title": "HTTP Request Smuggling - a whitepaper from Watchfire (Linhart, Klein, Heled, Orrin, 2005)",
+      "url": "https://www.cgisecurity.com/lib/HTTP-Request-Smuggling.pdf"
+    },
+    {
+      "title": "HTTP response splitting - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HTTP_response_splitting"
+    },
+    {
+      "title": "Trusteer - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trusteer"
+    },
+    {
+      "title": "Amit Klein - HITBSecConf2016 Amsterdam speaker biography",
+      "url": "https://archive.conference.hitb.org/hitbsecconf2016ams/speakers/amit-klein/"
+    },
+    {
+      "title": "From IP ID to Device ID and KASLR Bypass (Extended Version) - arXiv",
+      "url": "https://arxiv.org/abs/1906.10478"
+    },
+    {
+      "title": "Amit Klein - academic page, securitygalore.com",
+      "url": "https://www.securitygalore.com/academic"
+    },
+    {
+      "title": "Amit Klein 0001 - dblp author profile",
+      "url": "https://dblp.org/pid/98/3396"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 8,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

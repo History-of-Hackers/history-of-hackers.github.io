@@ -1,12 +1,72 @@
 {
-  "id":"jonathan-katz", "type":"person", "title":"Jonathan Katz", "slug":"jonathan-katz", "name":"Jonathan Katz", "born":null, "died":null, "era":"2000s-Present",
-  "tags":["cryptography","network-security","cryptographic-protocols","education","research"],
-  "summary":"Cryptographer and University of Maryland professor whose work spans cryptography, computer and network security, and cryptography education.",
-  "whyThisMatters":"Cryptographic protocol design and security education shape how secure systems are built and assessed. Katz's work bridges theoretical cryptography with computer and network security research.",
-  "knownFor":["Cryptographic protocol design","Computer and network security","Cryptography education"],
-  "sections":{"overview":"<p>Jonathan Katz is a University of Maryland computer scientist whose research focuses on cryptography, computer and network security, and theoretical computer science.</p><h2>Research and education</h2><p>Maryland describes his work as advancing cryptography and network-security capabilities. His teaching and writing have also been influential in formal cryptography education.</p><h2>Professional recognition</h2><p>He received the ACM SIGSAC Outstanding Contribution Award in 2019, which cited his commitment to cryptography education and research. Maryland lists him as an ACM and IACR Fellow.</p><h2>Place in security history</h2><p>The field depends on both mathematical protocols and their disciplined use in systems. Katz's research and educational work address both sides of that relationship.</p>"},
-  "timeline":[{"date":"2002","event":"Receives a Ph.D. from Columbia University."},{"date":"2019","event":"Receives the ACM SIGSAC Outstanding Contribution Award."},{"date":"2021","event":"Is named an ACM Fellow for contributions to cryptographic protocol design and education."}],
-  "relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],
-  "sources":[{"title":"University of Maryland: Jonathan Katz", "url":"https://www.cs.umd.edu/people/jkatz2"},{"title":"UMIACS faculty profile", "url":"https://www.umiacs.umd.edu/our-experts/faculty/jonathan-katz"},{"title":"Jonathan Katz curriculum vitae", "url":"https://www.cs.umd.edu/~jkatz/katz-cv.pdf"},{"title":"ACM SIGSAC Outstanding Contribution Award", "url":"https://www.sigsac.org/awards/outstanding-contribution.html"}],
-  "editorial":{"verified":true,"sourcesCount":4,"lastReviewed":"2026-09-03","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-03"}
+  "id": "jonathan-katz",
+  "type": "person",
+  "title": "Jonathan Katz",
+  "slug": "jonathan-katz",
+  "name": "Jonathan Katz",
+  "born": null,
+  "died": null,
+  "era": "2000s-Present",
+  "tags": [
+    "cryptography",
+    "network-security",
+    "cryptographic-protocols",
+    "education",
+    "research"
+  ],
+  "summary": "Cryptographer and University of Maryland professor whose work spans cryptography, computer and network security, and cryptography education.",
+  "whyThisMatters": "Cryptographic protocol design and security education shape how secure systems are built and assessed. Katz's work bridges theoretical cryptography with computer and network security research.",
+  "knownFor": [
+    "Cryptographic protocol design",
+    "Computer and network security",
+    "Cryptography education"
+  ],
+  "sections": {
+    "overview": "<p>Jonathan Katz is a University of Maryland computer scientist whose research focuses on cryptography, computer and network security, and theoretical computer science.</p><h2>Research and education</h2><p>Maryland describes his work as advancing cryptography and network-security capabilities. His teaching and writing have also been influential in formal cryptography education.</p><h2>Professional recognition</h2><p>He received the ACM SIGSAC Outstanding Contribution Award in 2019, which cited his commitment to cryptography education and research. Maryland lists him as an ACM and IACR Fellow.</p><h2>Place in security history</h2><p>The field depends on both mathematical protocols and their disciplined use in systems. Katz's research and educational work address both sides of that relationship.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2002",
+      "event": "Receives a Ph.D. from Columbia University."
+    },
+    {
+      "date": "2019",
+      "event": "Receives the ACM SIGSAC Outstanding Contribution Award."
+    },
+    {
+      "date": "2021",
+      "event": "Is named an ACM Fellow for contributions to cryptographic protocol design and education."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "University of Maryland: Jonathan Katz",
+      "url": "https://www.cs.umd.edu/people/jkatz2"
+    },
+    {
+      "title": "UMIACS faculty profile",
+      "url": "https://www.umiacs.umd.edu/our-experts/faculty/jonathan-katz"
+    },
+    {
+      "title": "Jonathan Katz curriculum vitae",
+      "url": "https://www.cs.umd.edu/~jkatz/katz-cv.pdf"
+    },
+    {
+      "title": "ACM SIGSAC Outstanding Contribution Award",
+      "url": "https://www.sigsac.org/awards/outstanding-contribution.html"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

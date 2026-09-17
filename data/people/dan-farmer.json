@@ -7,7 +7,15 @@
   "born": "1962-04-05",
   "died": null,
   "era": "1990s-2000s",
-  "tags": ["network security", "vulnerability scanners", "SATAN", "computer forensics", "unix security", "coroner's toolkit", "COPS"],
+  "tags": [
+    "network security",
+    "vulnerability scanners",
+    "SATAN",
+    "computer forensics",
+    "unix security",
+    "coroner's toolkit",
+    "COPS"
+  ],
   "summary": "Dan Farmer is an American computer security researcher and programmer known for co-creating the COPS and SATAN vulnerability scanners and, with Wietse Venema, The Coroner's Toolkit for post-incident digital forensics on Unix systems.",
   "whyThisMatters": "Farmer's SATAN tool, released in 1995, was one of the first widely distributed network vulnerability scanners and forced a public reckoning over whether publishing offensive-capable security tools helps or harms defenders, a debate that still shapes vulnerability disclosure and \"dual-use\" tool policy today. His later work with Wietse Venema on The Coroner's Toolkit helped establish Unix post-mortem forensic analysis as a formal discipline, laying groundwork for tools such as The Sleuth Kit that followed it. Together, COPS, SATAN, and The Coroner's Toolkit trace an arc from early automated vulnerability checking to modern incident-response forensics.",
   "knownFor": [
@@ -21,14 +29,38 @@
     "overview": "<h2>Background</h2><p>Dan Farmer, born April 5, 1962, is an American computer security researcher and programmer regarded as a pioneer in the development of vulnerability-scanning tools for Unix systems and networks. As a computer science student at Purdue University in the late 1980s, Farmer was influenced by the atmosphere surrounding the 1988 Morris Worm, an incident that drove broad interest in the fledgling field of computer security. Purdue's Gene Spafford, one of the era's leading computer security researchers, supported Farmer's early work.</p><h2>COPS: an early vulnerability scanner</h2><p>In 1989, while still a student, Farmer released the Computer Oracle and Password System (COPS), a suite of small, specialized scripts designed to check a Unix system for common security weaknesses, such as poor file permissions, weak passwords, and misconfigurations. COPS was among the first publicly available tools built specifically to automate the detection of security flaws on a running system, and it helped establish the vulnerability-scanner concept that Farmer would return to a few years later on a larger scale.</p><h2>SATAN and its controversy</h2><p>In 1995, Farmer partnered with Dutch programmer and physicist Wietse Venema, already known for writing TCP Wrapper, to build the Security Administrator Tool for Analyzing Networks, or SATAN. Released publicly on April 5, 1995, SATAN scanned networked systems for known vulnerabilities and reported them through a web-browser interface, a novel and unusually accessible design for a security tool at the time. Farmer and Venema included a command called \"repent\" that could relabel the program as \"SANTA\" for administrators uncomfortable with its original name.</p><p>SATAN drew intense mainstream attention, including coverage in PC Magazine, Newsweek, and Time, largely because critics feared that a free, easy-to-use scanner would just as readily assist attackers as defenders. The tool drew scrutiny from the United States Department of Justice, and Farmer's employer at the time, Silicon Graphics (SGI), fired him over the release. Sun Microsystems, where Farmer had previously worked, later rehired him, reflecting a more measured industry view once SATAN's actual function as a defensive audit tool, rather than an automated break-in kit, became clear.</p><h2>The Coroner's Toolkit and forensic discovery</h2><p>Farmer's later collaboration with Venema shifted from finding vulnerabilities before an attack to reconstructing what happened after one. The two developed The Coroner's Toolkit (TCT), a suite of Unix programs for post-mortem forensic analysis of compromised systems, first presented publicly around 1999. TCT could recover deleted files, analyze file timestamps, and otherwise help investigators reconstruct an intruder's actions, and it became an influential reference point for digital forensics tooling; it was eventually succeeded by The Sleuth Kit, whose authors credited TCT as a direct predecessor. Farmer and Venema documented their forensic methodology in the 2005 book Forensic Discovery.</p><h2>Other work and legacy</h2><p>Farmer also co-developed the Titan vulnerability scanner with Brad Powell and Matt Archibald, presented at the USENIX Large Installation System Administration (LISA) conference in 1998, and later co-founded the security company Elemental Security, serving as its chief technical officer. His work and the SATAN controversy were profiled in Scientific American's 1997 feature \"From Satan to Zen.\" Farmer's career illustrates a recurring tension in computer security: tools built to help administrators find their own weaknesses can just as easily be read as instructions for attack, a debate that continues to inform how researchers and vendors think about releasing dual-use security software.</p>"
   },
   "timeline": [
-    { "date": "1962-04-05", "event": "Dan Farmer is born." },
-    { "date": "1989", "event": "As a Purdue University student, Farmer releases COPS (Computer Oracle and Password System), an early Unix vulnerability-scanning toolkit, with support from professor Gene Spafford." },
-    { "date": "1995-04-05", "event": "Farmer and Wietse Venema publicly release SATAN (Security Administrator Tool for Analyzing Networks), a widely publicized network vulnerability scanner." },
-    { "date": "1995", "event": "Silicon Graphics fires Farmer over the SATAN release; Sun Microsystems later rehires him." },
-    { "date": "1997", "event": "Scientific American profiles Farmer and the SATAN controversy in the article \"From Satan to Zen.\"" },
-    { "date": "1998", "event": "Farmer, with Brad Powell and Matt Archibald, presents the Titan vulnerability scanner at the USENIX LISA conference." },
-    { "date": "1999", "event": "Farmer and Venema present The Coroner's Toolkit (TCT), a Unix post-mortem forensic analysis suite." },
-    { "date": "2005", "event": "Farmer and Venema publish the book Forensic Discovery, documenting their approach to computer forensics." }
+    {
+      "date": "1962-04-05",
+      "event": "Dan Farmer is born."
+    },
+    {
+      "date": "1989",
+      "event": "As a Purdue University student, Farmer releases COPS (Computer Oracle and Password System), an early Unix vulnerability-scanning toolkit, with support from professor Gene Spafford."
+    },
+    {
+      "date": "1995-04-05",
+      "event": "Farmer and Wietse Venema publicly release SATAN (Security Administrator Tool for Analyzing Networks), a widely publicized network vulnerability scanner."
+    },
+    {
+      "date": "1995",
+      "event": "Silicon Graphics fires Farmer over the SATAN release; Sun Microsystems later rehires him."
+    },
+    {
+      "date": "1997",
+      "event": "Scientific American profiles Farmer and the SATAN controversy in the article \"From Satan to Zen.\""
+    },
+    {
+      "date": "1998",
+      "event": "Farmer, with Brad Powell and Matt Archibald, presents the Titan vulnerability scanner at the USENIX LISA conference."
+    },
+    {
+      "date": "1999",
+      "event": "Farmer and Venema present The Coroner's Toolkit (TCT), a Unix post-mortem forensic analysis suite."
+    },
+    {
+      "date": "2005",
+      "event": "Farmer and Venema publish the book Forensic Discovery, documenting their approach to computer forensics."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -36,17 +68,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Dan Farmer - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dan_Farmer" },
-    { "title": "Security Administrator Tool for Analyzing Networks - Wikipedia", "url": "https://en.wikipedia.org/wiki/Security_Administrator_Tool_for_Analyzing_Networks" },
-    { "title": "The Coroner's Toolkit - Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Coroner%27s_Toolkit" },
-    { "title": "Wietse Venema - Wikipedia", "url": "https://en.wikipedia.org/wiki/Wietse_Venema" },
-    { "title": "Dan Farmer and Wietse Venema unleash SATAN on the world - SmarterMSP", "url": "https://smartermsp.com/tech-time-warp-dan-farmer-and-wietse-venema-unleash-satan-on-the-world/" }
+    {
+      "title": "Dan Farmer - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dan_Farmer"
+    },
+    {
+      "title": "Security Administrator Tool for Analyzing Networks - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Security_Administrator_Tool_for_Analyzing_Networks"
+    },
+    {
+      "title": "The Coroner's Toolkit - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Coroner%27s_Toolkit"
+    },
+    {
+      "title": "Wietse Venema - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wietse_Venema"
+    },
+    {
+      "title": "Dan Farmer and Wietse Venema unleash SATAN on the world - SmarterMSP",
+      "url": "https://smartermsp.com/tech-time-warp-dan-farmer-and-wietse-venema-unleash-satan-on-the-world/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

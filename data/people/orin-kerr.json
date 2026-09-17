@@ -7,7 +7,15 @@
   "born": "1971-06-02",
   "died": null,
   "era": "2000s-Present",
-  "tags": ["cfaa", "computer crime law", "fourth amendment", "digital privacy", "surveillance law", "legal scholarship", "academia"],
+  "tags": [
+    "cfaa",
+    "computer crime law",
+    "fourth amendment",
+    "digital privacy",
+    "surveillance law",
+    "legal scholarship",
+    "academia"
+  ],
   "summary": "Orin Samuel Kerr is an American legal scholar and former U.S. Department of Justice computer crime prosecutor who is widely regarded as a founding figure in the academic field of computer crime law. His work on the Computer Fraud and Abuse Act (CFAA) and on the Fourth Amendment's application to digital evidence has been cited by courts up to and including the U.S. Supreme Court.",
   "whyThisMatters": "Kerr supplied much of the analytical vocabulary that U.S. courts now use to decide when accessing a computer becomes a crime. His argument that \"unauthorized access\" should turn on circumventing technical access restrictions, rather than on breaching a website's terms of service or an employer's usage policy, directly shaped the narrowing of the CFAA in litigation and was cited by the Supreme Court in Van Buren v. United States (2021). That narrowing matters to security researchers, journalists, and ordinary users, whose routine conduct could otherwise have been treated as federal computer crime. His parallel work on digital search and seizure has become a standard reference for how the Fourth Amendment applies to computers, cell phones, and network surveillance.",
   "knownFor": [
@@ -22,20 +30,62 @@
     "overview": "<h2>Early life and education</h2><p>Orin Samuel Kerr was born on June 2, 1971, in New York. He trained first as an engineer, earning a bachelor's degree in mechanical and aerospace engineering from Princeton University in 1993 and a master's degree in mechanical engineering from Stanford University in 1994. He then attended Harvard Law School, graduating with a J.D. in 1997. The combination of a technical background and legal training is unusual among law professors and became characteristic of his later scholarship, which tends to reason from how computer systems actually work rather than from analogy alone.</p><h2>Clerkships and government service</h2><p>After law school Kerr clerked for Judge Leonard I. Garth of the U.S. Court of Appeals for the Third Circuit. From 1998 to 2001 he served as a trial attorney in the Computer Crime and Intellectual Property Section (CCIPS) of the Criminal Division of the U.S. Department of Justice, the unit responsible for federal prosecutions involving computer intrusion, network crime, and electronic evidence. He later clerked for Justice Anthony M. Kennedy of the U.S. Supreme Court during October Term 2003. The prosecutorial experience gave him direct familiarity with how the Computer Fraud and Abuse Act was charged in practice, and his later scholarship frequently addresses both the prosecution and defense perspectives on the statute.</p><h2>Academic career</h2><p>Kerr joined the faculty of the George Washington University Law School in 2001 and taught there until 2018. He subsequently held tenured appointments at the USC Gould School of Law and, from 2019, at the UC Berkeley School of Law. In 2025 he joined Stanford Law School, where he holds the Stella W. and Ira S. Lillick Professorship, and he is also a senior fellow at the Hoover Institution. He has taught as a visitor at the University of Chicago, the University of Pennsylvania, and Yale. His teaching centers on computer crime law, criminal procedure, and evidence.</p><h2>Scholarship on the Computer Fraud and Abuse Act</h2><p>Kerr's most influential contribution to computer crime law is his analysis of what it means to access a computer \"without authorization\" or to \"exceed authorized access\" under the Computer Fraud and Abuse Act. In \"Cybercrime's Scope: Interpreting 'Access' and 'Authorization' in Computer Misuse Statutes,\" published in the NYU Law Review in 2003, he argued that these terms had never been given a coherent legal meaning and that courts were reading them so broadly that a mere breach of contract, such as violating a website's terms of service, could be treated as a federal crime. He proposed instead that liability should attach only to the circumvention of code-based access restrictions, a line he argued would protect privacy, preserve user liberty, track ordinary criminal-law notions of consent, and avoid vagueness problems.</p><p>That framework was tested in litigation. Kerr joined the defense team for Lori Drew, prosecuted under the CFAA in connection with a MySpace account used in a cyberbullying case; the court ultimately rejected the theory that violating a website's terms of service constitutes unauthorized access under the statute. He was also a prominent critic of the breadth of the CFAA charges brought against activist and programmer Aaron Swartz, and a recurring voice in debates over legislative reform of the statute.</p><h2>Van Buren and the narrowing of the CFAA</h2><p>The Supreme Court took up the scope of the CFAA's \"exceeds authorized access\" clause in Van Buren v. United States, decided on June 3, 2021. The Court held that a person exceeds authorized access when they obtain information from areas of a computer that are off-limits to them, and not merely when they access information they are otherwise entitled to see for an improper purpose. The majority opinion cited Kerr's 2003 NYU Law Review article directly, quoting his analysis of \"access\" and \"authorization\" in computer misuse statutes. The decision closed off the broadest readings of the statute that had worried security researchers and civil-liberties advocates for two decades.</p><h2>Fourth Amendment and digital evidence</h2><p>Alongside the CFAA work, Kerr has written extensively on how the Fourth Amendment applies to computers and networks, including searches and seizures of digital storage, internet surveillance after the USA PATRIOT Act, and the so-called mosaic theory under which the aggregation of individually unremarkable observations may amount to a search. He has authored more than seventy-five law review articles as well as casebooks and treatise chapters, and his book <em>The Digital Fourth Amendment</em> was published by Oxford University Press in 2025. He argued before the U.S. Supreme Court in Davis v. United States in 2011.</p><h2>Public commentary and influence</h2><p>Kerr has long written for The Volokh Conspiracy, a legal blog, where he comments on surveillance, privacy, and computer crime cases in a form accessible to non-lawyers. This public writing has made him a frequently consulted source for journalists covering computer crime prosecutions and has given technologists a running commentary on how courts interpret laws that affect their work. His scholarship has been cited in hundreds of judicial decisions and thousands of academic articles, including several U.S. Supreme Court opinions, and he appears regularly on lists of the most influential legal scholars in the United States.</p>"
   },
   "timeline": [
-    { "date": "1971-06-02", "event": "Born in New York." },
-    { "date": "1993", "event": "Earns a bachelor's degree in mechanical and aerospace engineering from Princeton University." },
-    { "date": "1994", "event": "Earns a master's degree in mechanical engineering from Stanford University." },
-    { "date": "1997", "event": "Graduates from Harvard Law School and begins a clerkship with Judge Leonard I. Garth of the Third Circuit." },
-    { "date": "1998", "event": "Joins the Computer Crime and Intellectual Property Section of the U.S. Department of Justice as a trial attorney, serving until 2001." },
-    { "date": "2001", "event": "Joins the faculty of the George Washington University Law School." },
-    { "date": "2003", "event": "Publishes \"Cybercrime's Scope: Interpreting 'Access' and 'Authorization' in Computer Misuse Statutes\" in the NYU Law Review, volume 78." },
-    { "date": "2003", "event": "Clerks for Justice Anthony M. Kennedy of the U.S. Supreme Court during October Term 2003." },
-    { "date": "2009", "event": "Serves on the defense team for Lori Drew, whose CFAA prosecution over a MySpace account tested whether breaching website terms of service is unauthorized access." },
-    { "date": "2011", "event": "Argues Davis v. United States before the U.S. Supreme Court." },
-    { "date": "2018", "event": "Moves from George Washington University to the USC Gould School of Law." },
-    { "date": "2019", "event": "Joins the faculty of the UC Berkeley School of Law." },
-    { "date": "2021-06-03", "event": "The Supreme Court decides Van Buren v. United States, narrowing the CFAA's \"exceeds authorized access\" clause and citing Kerr's 2003 article." },
-    { "date": "2025", "event": "Joins Stanford Law School as the Stella W. and Ira S. Lillick Professor; publishes The Digital Fourth Amendment with Oxford University Press." }
+    {
+      "date": "1971-06-02",
+      "event": "Born in New York."
+    },
+    {
+      "date": "1993",
+      "event": "Earns a bachelor's degree in mechanical and aerospace engineering from Princeton University."
+    },
+    {
+      "date": "1994",
+      "event": "Earns a master's degree in mechanical engineering from Stanford University."
+    },
+    {
+      "date": "1997",
+      "event": "Graduates from Harvard Law School and begins a clerkship with Judge Leonard I. Garth of the Third Circuit."
+    },
+    {
+      "date": "1998",
+      "event": "Joins the Computer Crime and Intellectual Property Section of the U.S. Department of Justice as a trial attorney, serving until 2001."
+    },
+    {
+      "date": "2001",
+      "event": "Joins the faculty of the George Washington University Law School."
+    },
+    {
+      "date": "2003",
+      "event": "Publishes \"Cybercrime's Scope: Interpreting 'Access' and 'Authorization' in Computer Misuse Statutes\" in the NYU Law Review, volume 78."
+    },
+    {
+      "date": "2003",
+      "event": "Clerks for Justice Anthony M. Kennedy of the U.S. Supreme Court during October Term 2003."
+    },
+    {
+      "date": "2009",
+      "event": "Serves on the defense team for Lori Drew, whose CFAA prosecution over a MySpace account tested whether breaching website terms of service is unauthorized access."
+    },
+    {
+      "date": "2011",
+      "event": "Argues Davis v. United States before the U.S. Supreme Court."
+    },
+    {
+      "date": "2018",
+      "event": "Moves from George Washington University to the USC Gould School of Law."
+    },
+    {
+      "date": "2019",
+      "event": "Joins the faculty of the UC Berkeley School of Law."
+    },
+    {
+      "date": "2021-06-03",
+      "event": "The Supreme Court decides Van Buren v. United States, narrowing the CFAA's \"exceeds authorized access\" clause and citing Kerr's 2003 article."
+    },
+    {
+      "date": "2025",
+      "event": "Joins Stanford Law School as the Stella W. and Ira S. Lillick Professor; publishes The Digital Fourth Amendment with Oxford University Press."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -43,17 +93,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Orin Kerr - Wikipedia", "url": "https://en.wikipedia.org/wiki/Orin_Kerr" },
-    { "title": "Orin Kerr - Stanford Law School faculty directory", "url": "https://law.stanford.edu/directory/orin-kerr/" },
-    { "title": "Orin S. Kerr - Hoover Institution profile", "url": "https://www.hoover.org/profiles/orin-kerr" },
-    { "title": "Van Buren v. United States, 593 U.S. ___ (2021) - Cornell Legal Information Institute", "url": "https://www.law.cornell.edu/supremecourt/text/19-783" },
-    { "title": "Cybercrime's Scope: Interpreting 'Access' and 'Authorization' in Computer Misuse Statutes - NYU Law Review", "url": "https://nyulawreview.org/issues/volume-78-number-5/cybercrimes-scope-interpreting-access-and-authorization-in-computer-misuse-statutes/" }
+    {
+      "title": "Orin Kerr - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Orin_Kerr"
+    },
+    {
+      "title": "Orin Kerr - Stanford Law School faculty directory",
+      "url": "https://law.stanford.edu/directory/orin-kerr/"
+    },
+    {
+      "title": "Orin S. Kerr - Hoover Institution profile",
+      "url": "https://www.hoover.org/profiles/orin-kerr"
+    },
+    {
+      "title": "Van Buren v. United States, 593 U.S. ___ (2021) - Cornell Legal Information Institute",
+      "url": "https://www.law.cornell.edu/supremecourt/text/19-783"
+    },
+    {
+      "title": "Cybercrime's Scope: Interpreting 'Access' and 'Authorization' in Computer Misuse Statutes - NYU Law Review",
+      "url": "https://nyulawreview.org/issues/volume-78-number-5/cybercrimes-scope-interpreting-access-and-authorization-in-computer-misuse-statutes/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

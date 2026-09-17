@@ -1,1 +1,68 @@
-{"id":"peter-sommer-hugo-cornwall","type":"person","title":"Peter Sommer (Hugo Cornwall)","slug":"peter-sommer-hugo-cornwall","name":"Peter Sommer (Hugo Cornwall)","born":null,"died":null,"era":"1985-Present","tags":["author","digital-forensics","computer-security","hacker-culture","books"],"summary":"Digital-forensics scholar and security consultant who wrote The Hacker’s Handbook under the pseudonym Hugo Cornwall.","whyThisMatters":"Sommer’s early handbook and subsequent forensic work help document the transition from hobbyist computing and exploratory hacking to computer-security and digital-evidence practice.","knownFor":["The Hacker’s Handbook","Digital forensics","Computer-security consultancy"],"sections":{"overview":"<p>Peter Sommer is a digital-forensics scholar, consultant, and author. Writing as Hugo Cornwall, he published <em>The Hacker’s Handbook</em>, an influential early guide to connected personal computing and computer security.</p><h2>From early hacking to digital evidence</h2><p>Sommer’s later work centers on digital evidence, forensic practice, and public policy. His career helps connect the early hacker literature of the 1980s with the professional development of computer security and digital forensics.</p>"},"timeline":[{"date":"1985","event":"Publishes The Hacker’s Handbook under the pseudonym Hugo Cornwall."},{"date":"1985-1989","event":"The handbook appears in multiple editions."},{"date":"2011","event":"Concludes service as a visiting professor at the London School of Economics, according to the Open Rights Group biography."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Peter Sommer: Publications","url":"https://www.pmsommer.com/publications"},{"title":"Open Rights Group: Peter Sommer","url":"https://www.openrightsgroup.org/advisory-council/peter-sommer/"},{"title":"Professor Peter Sommer CV","url":"https://pmsommer.com/professor-peter-sommer-cv/"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "peter-sommer-hugo-cornwall",
+  "type": "person",
+  "title": "Peter Sommer (Hugo Cornwall)",
+  "slug": "peter-sommer-hugo-cornwall",
+  "name": "Peter Sommer (Hugo Cornwall)",
+  "born": null,
+  "died": null,
+  "era": "1985-Present",
+  "tags": [
+    "author",
+    "digital-forensics",
+    "computer-security",
+    "hacker-culture",
+    "books"
+  ],
+  "summary": "Digital-forensics scholar and security consultant who wrote The Hacker’s Handbook under the pseudonym Hugo Cornwall.",
+  "whyThisMatters": "Sommer’s early handbook and subsequent forensic work help document the transition from hobbyist computing and exploratory hacking to computer-security and digital-evidence practice.",
+  "knownFor": [
+    "The Hacker’s Handbook",
+    "Digital forensics",
+    "Computer-security consultancy"
+  ],
+  "sections": {
+    "overview": "<p>Peter Sommer is a digital-forensics scholar, consultant, and author. Writing as Hugo Cornwall, he published <em>The Hacker’s Handbook</em>, an influential early guide to connected personal computing and computer security.</p><h2>From early hacking to digital evidence</h2><p>Sommer’s later work centers on digital evidence, forensic practice, and public policy. His career helps connect the early hacker literature of the 1980s with the professional development of computer security and digital forensics.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1985",
+      "event": "Publishes The Hacker’s Handbook under the pseudonym Hugo Cornwall."
+    },
+    {
+      "date": "1985-1989",
+      "event": "The handbook appears in multiple editions."
+    },
+    {
+      "date": "2011",
+      "event": "Concludes service as a visiting professor at the London School of Economics, according to the Open Rights Group biography."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Peter Sommer: Publications",
+      "url": "https://www.pmsommer.com/publications"
+    },
+    {
+      "title": "Open Rights Group: Peter Sommer",
+      "url": "https://www.openrightsgroup.org/advisory-council/peter-sommer/"
+    },
+    {
+      "title": "Professor Peter Sommer CV",
+      "url": "https://pmsommer.com/professor-peter-sommer-cv/"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

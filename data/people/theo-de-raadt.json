@@ -7,7 +7,15 @@
   "born": "1968-05-19",
   "died": null,
   "era": "1990s-Present",
-  "tags": ["openbsd", "openssh", "unix", "security", "open-source", "netbsd", "operating-systems"],
+  "tags": [
+    "openbsd",
+    "openssh",
+    "unix",
+    "security",
+    "open-source",
+    "netbsd",
+    "operating-systems"
+  ],
   "summary": "Theo de Raadt is a South African-born Canadian software engineer who co-founded the NetBSD project in 1993 and, after his expulsion from its core team, founded the OpenBSD operating system project in October 1995, which he has led ever since.",
   "whyThisMatters": "De Raadt's OpenBSD project pioneered a development culture centered on proactive security, rigorous code auditing, and correctness, influencing how the wider open-source community approaches secure-by-default software design. OpenSSH, developed within OpenBSD, became the de facto standard for secure remote administration across virtually all Unix-like and many other systems worldwide. His insistence on free and open-source device drivers and cryptographic code also shaped long-running industry debates over hardware vendor firmware licensing and software freedom.",
   "knownFor": [
@@ -21,18 +29,54 @@
     "overview": "<h2>Early Life</h2><p>Theo de Raadt was born on May 19, 1968, in Pretoria, South Africa, the eldest of four children born to a Dutch father and a South African mother. To avoid mandatory military conscription in South Africa, the family emigrated to Calgary, Alberta, Canada, in November 1977. De Raadt began programming as a child on a Commodore VIC-20 and later an Amiga computer, and following a family relocation prompted by Canada's early-1980s recession, spent part of his youth in the Yukon before returning to Calgary. He earned a Bachelor of Science in computer science from the University of Calgary in 1992.</p><h2>NetBSD and Expulsion</h2><p>In 1993, de Raadt joined Chris Demetriou, Adam Glass, and Charles Hannum in founding the NetBSD project, a free, open-source Unix-like operating system derived from the Berkeley Software Distribution (BSD) lineage and created out of dissatisfaction with the quality of the existing 386BSD codebase. De Raadt contributed substantially to NetBSD's early portability work, including its SPARC architecture support, and the project's first multi-platform release, NetBSD 1.0, appeared in October 1994. However, in December 1994, following disputes over development practices, communication style, and project direction, de Raadt was asked to resign from the NetBSD core team; other members cited conflicts on the project's mailing lists as the reason.</p><h2>Founding OpenBSD</h2><p>In October 1995, de Raadt forked the NetBSD 1.0 source tree to start a new project, OpenBSD, which he has led as project coordinator ever since. OpenBSD's first official numbered release, version 2.0, appeared in October 1996, and the project has maintained a distinctive six-month release cycle ever since, with each release supported for roughly one year. From its outset, OpenBSD emphasized portability, standardization, code correctness, proactive security auditing, and integrated cryptography, distinguishing it from other open-source Unix variants of the era. The project's reputation for security was reinforced through code audits and collaboration with external security researchers.</p><h2>OpenSSH and Other Subprojects</h2><p>Among OpenBSD's most consequential outputs is OpenSSH, a free implementation of the Secure Shell (SSH) protocol suite that de Raadt and other OpenBSD developers created; it has since become the standard tool for secure remote login, remote command execution, and file transfer across the vast majority of Unix-like operating systems and beyond. The OpenBSD project under de Raadt's leadership has also produced numerous other widely used tools, including the PF (Packet Filter) firewall — later adopted by FreeBSD and macOS — the CARP (Common Address Redundancy Protocol) failover protocol, the OpenNTPD time-synchronization daemon, the OpenSMTPD mail server, and LibreSSL, a security-focused fork of the OpenSSL cryptographic library created in 2014 following the disclosure of the Heartbleed vulnerability.</p><h2>Advocacy and Controversies</h2><p>De Raadt has been an outspoken advocate for free and open-source device drivers and firmware, arguing that closed hardware specifications undermine the security auditing that defines OpenBSD's approach; he has both criticized vendors such as Intel and Broadcom for restrictive licensing and negotiated with other hardware manufacturers to obtain redistribution rights for firmware. In April 2003, after de Raadt criticized the United States-led invasion of Iraq in a newspaper interview, a multi-year U.S. Department of Defense research grant that had been funding OpenSSH and OpenBSD development through a University of Pennsylvania project was cancelled. De Raadt has also been known for a blunt, sometimes combative communication style on development mailing lists, which has drawn both criticism and, from supporters, characterizations of it as a byproduct of his uncompromising standards for code quality and security.</p><h2>Recognition and Legacy</h2><p>In 2004, de Raadt received the Free Software Foundation's Free Software Award, presented by FSF founder Richard Stallman, in recognition of his leadership of OpenBSD and OpenSSH and his contributions to network security and free software generally. He continues to live in Calgary, Canada, and as of the mid-2020s remains the lead coordinator of the OpenBSD project, which is supported organizationally by the OpenBSD Foundation, established in 2007, and which has in later years received financial contributions from major technology companies including Google, Microsoft, and Facebook. De Raadt's insistence on proactive, audited security engineering, embodied in OpenBSD's long-running motto of shipping a secure-by-default operating system, has left a lasting influence on secure software development practices industry-wide, most visibly through OpenSSH's near-universal adoption.</p>"
   },
   "timeline": [
-    { "date": "1968-05-19", "event": "Born in Pretoria, South Africa." },
-    { "date": "1977-11", "event": "Emigrates with family to Calgary, Alberta, Canada." },
-    { "date": "1992", "event": "Receives BSc in computer science from the University of Calgary." },
-    { "date": "1993-03", "event": "Co-founds the NetBSD project with Chris Demetriou, Adam Glass, and Charles Hannum." },
-    { "date": "1994-12", "event": "Asked to resign from the NetBSD core development team following internal conflicts." },
-    { "date": "1995-10", "event": "Founds the OpenBSD operating system project, forking NetBSD 1.0." },
-    { "date": "1996-10", "event": "OpenBSD 2.0, the project's first official numbered release, is published." },
-    { "date": "1999", "event": "OpenSSH is first released as part of OpenBSD, providing a free implementation of the SSH protocol." },
-    { "date": "2003-04", "event": "A U.S. Department of Defense research grant funding OpenSSH/OpenBSD development is cancelled after de Raadt publicly criticizes the Iraq invasion." },
-    { "date": "2004", "event": "Receives the Free Software Foundation's Free Software Award for leadership of OpenBSD and OpenSSH." },
-    { "date": "2007", "event": "The OpenBSD Foundation is established to provide organizational and legal support for the project." },
-    { "date": "2014", "event": "LibreSSL, a security-focused fork of OpenSSL, is created within the OpenBSD project following the Heartbleed disclosure." }
+    {
+      "date": "1968-05-19",
+      "event": "Born in Pretoria, South Africa."
+    },
+    {
+      "date": "1977-11",
+      "event": "Emigrates with family to Calgary, Alberta, Canada."
+    },
+    {
+      "date": "1992",
+      "event": "Receives BSc in computer science from the University of Calgary."
+    },
+    {
+      "date": "1993-03",
+      "event": "Co-founds the NetBSD project with Chris Demetriou, Adam Glass, and Charles Hannum."
+    },
+    {
+      "date": "1994-12",
+      "event": "Asked to resign from the NetBSD core development team following internal conflicts."
+    },
+    {
+      "date": "1995-10",
+      "event": "Founds the OpenBSD operating system project, forking NetBSD 1.0."
+    },
+    {
+      "date": "1996-10",
+      "event": "OpenBSD 2.0, the project's first official numbered release, is published."
+    },
+    {
+      "date": "1999",
+      "event": "OpenSSH is first released as part of OpenBSD, providing a free implementation of the SSH protocol."
+    },
+    {
+      "date": "2003-04",
+      "event": "A U.S. Department of Defense research grant funding OpenSSH/OpenBSD development is cancelled after de Raadt publicly criticizes the Iraq invasion."
+    },
+    {
+      "date": "2004",
+      "event": "Receives the Free Software Foundation's Free Software Award for leadership of OpenBSD and OpenSSH."
+    },
+    {
+      "date": "2007",
+      "event": "The OpenBSD Foundation is established to provide organizational and legal support for the project."
+    },
+    {
+      "date": "2014",
+      "event": "LibreSSL, a security-focused fork of OpenSSL, is created within the OpenBSD project following the Heartbleed disclosure."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -40,16 +84,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Theo de Raadt - Wikipedia", "url": "https://en.wikipedia.org/wiki/Theo_de_Raadt" },
-    { "title": "OpenBSD - Wikipedia", "url": "https://en.wikipedia.org/wiki/OpenBSD" },
-    { "title": "Theo de Raadt presented with the 2004 Free Software Award - Free Software Foundation", "url": "https://www.fsf.org/news/fsaward2004.html" },
-    { "title": "Theo de Raadt gets 2004 FSF Award - Slashdot", "url": "https://news.slashdot.org/story/05/02/27/1413255/theo-de-raadt-gets-2004-fsf-award?sdsrc=next" }
+    {
+      "title": "Theo de Raadt - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Theo_de_Raadt"
+    },
+    {
+      "title": "OpenBSD - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenBSD"
+    },
+    {
+      "title": "Theo de Raadt presented with the 2004 Free Software Award - Free Software Foundation",
+      "url": "https://www.fsf.org/news/fsaward2004.html"
+    },
+    {
+      "title": "Theo de Raadt gets 2004 FSF Award - Slashdot",
+      "url": "https://news.slashdot.org/story/05/02/27/1413255/theo-de-raadt-gets-2004-fsf-award?sdsrc=next"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

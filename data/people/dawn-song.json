@@ -31,16 +31,46 @@
     "overview": "<h2>Background and education</h2><p>Dawn Song is a Chinese-American computer scientist whose career has centered on the security of software, systems, and, more recently, machine learning and decentralized platforms. She earned a bachelor's degree in physics from Tsinghua University in 1996, a master's degree in computer science from Carnegie Mellon University in 1999, and a Ph.D. in computer science from the University of California, Berkeley, in 2002.</p><p>After completing her doctorate she joined the faculty of Carnegie Mellon University, where she worked from 2002 to 2007. In 2007 she returned to Berkeley as a member of the Department of Electrical Engineering and Computer Sciences, where she has remained since. She is also associated with the Berkeley Center for Responsible, Decentralized Intelligence (Berkeley RDI), a multidisciplinary initiative at the university focused on research, education, and community building around decentralized systems and AI.</p><h2>Early cryptography work</h2><p>While still a graduate student, Song co-authored what became one of her most widely cited papers. Working with David Wagner and Adrian Perrig, she published <em>Practical Techniques for Searches on Encrypted Data</em> at the 2000 IEEE Symposium on Security and Privacy. The paper is generally credited as the first treatment of the searchable symmetric encryption problem, proposing a scheme that allows a server holding ciphertext to answer keyword queries without decrypting the underlying data. The construction and its performance characteristics became a reference point for the substantial body of encrypted-search research that followed.</p><h2>Binary analysis and BitBlaze</h2><p>Song's best-known systems work concerns automated analysis of program binaries. Rather than treating each vulnerability as an isolated programming error to be patched, her research group sought to identify the underlying logic patterns that classes of attacks share, and then to generate defenses automatically from that analysis. The resulting platform, BitBlaze, scans and analyzes binaries of both vulnerable software and malicious code, identifies the root cause of an attack, and produces filters or other protections in response.</p><p>A widely noted result from this line of research was the demonstration that security patches themselves can be turned against defenders: by comparing a patched binary against its unpatched predecessor, an analysis system can derive a working exploit for the very flaw the patch was meant to close. The finding sharpened arguments about patch distribution timing and about how quickly organizations must deploy fixes once a vendor ships them.</p><h2>Recognition</h2><p>In 2009 <em>MIT Technology Review</em> named Song to its TR35 list of innovators under the age of 35, citing her work on defeating malware through automated software analysis. The following year, at age 35 and then an associate professor at Berkeley, she received a MacArthur Foundation Fellowship, the award commonly known as the \"genius grant.\" The MacArthur citation described her use of semantic analysis of binary code to identify the common paths of logic flow that disruptive software must follow, allowing protection against entire classes of threats rather than individual samples. She was awarded a John Simon Guggenheim Memorial Foundation Fellowship in computer science the same year. She has also received a Sloan Research Fellowship, an NSF CAREER Award, and an IBM Faculty Award, and was named an ACM Fellow in 2019 for contributions to security and privacy.</p><h2>Cyber Grand Challenge and later work</h2><p>Song's group participated in DARPA's Cyber Grand Challenge, the competition to build autonomous systems capable of finding and patching software vulnerabilities without human intervention. Her Berkeley researchers formed part of CodeJitsu, a team drawn from UC Berkeley, Cyberhaven, and Syracuse, which was among the seven finalists at the final event held on 4 August 2016 at the Paris Hotel and Conference Center in Las Vegas, Nevada.</p><p>In subsequent years her research shifted toward two newer areas. The first is adversarial machine learning and the security of AI systems, studying how learned models can be manipulated, evaded, or made to leak information about their training data. The second is blockchain and decentralized computing, where she has worked on privacy-preserving smart contract execution. She founded Oasis Labs, a company building blockchain infrastructure intended to keep computation over sensitive data confidential.</p><h2>Significance</h2><p>Song occupies an unusual position in security research, having produced foundational results in three distinct waves of the field: applied cryptography in the early 2000s, automated binary and malware analysis in the late 2000s and 2010s, and the security of machine learning and decentralized systems thereafter. The automated-analysis agenda she helped advance anticipated the assumptions behind DARPA's Cyber Grand Challenge and the automated vulnerability discovery tooling that followed it. Her academic group has been a long-running training ground for security researchers, and her decision to move into blockchain privacy and AI security placed adversarial analysis into those domains earlier than was typical.</p>"
   },
   "timeline": [
-    { "date": "1996", "event": "Earns a bachelor's degree in physics from Tsinghua University." },
-    { "date": "1999", "event": "Earns a master's degree in computer science from Carnegie Mellon University." },
-    { "date": "2000", "event": "Co-authors Practical Techniques for Searches on Encrypted Data with David Wagner and Adrian Perrig at the IEEE Symposium on Security and Privacy, an early searchable symmetric encryption scheme." },
-    { "date": "2002", "event": "Completes a Ph.D. in computer science at UC Berkeley and joins the faculty of Carnegie Mellon University." },
-    { "date": "2007", "event": "Joins the Department of Electrical Engineering and Computer Sciences at UC Berkeley." },
-    { "date": "2009", "event": "Named to the MIT Technology Review TR35 list for work on defeating malware through automated software analysis, including the BitBlaze platform." },
-    { "date": "2010", "event": "Awarded a MacArthur Foundation Fellowship at age 35 while an associate professor at UC Berkeley." },
-    { "date": "2010", "event": "Awarded a Guggenheim Fellowship in computer science." },
-    { "date": "2016-08-04", "event": "Berkeley researchers on the CodeJitsu team compete as one of seven finalists in the DARPA Cyber Grand Challenge final event in Las Vegas, Nevada." },
-    { "date": "2019", "event": "Named an ACM Fellow for contributions to security and privacy." }
+    {
+      "date": "1996",
+      "event": "Earns a bachelor's degree in physics from Tsinghua University."
+    },
+    {
+      "date": "1999",
+      "event": "Earns a master's degree in computer science from Carnegie Mellon University."
+    },
+    {
+      "date": "2000",
+      "event": "Co-authors Practical Techniques for Searches on Encrypted Data with David Wagner and Adrian Perrig at the IEEE Symposium on Security and Privacy, an early searchable symmetric encryption scheme."
+    },
+    {
+      "date": "2002",
+      "event": "Completes a Ph.D. in computer science at UC Berkeley and joins the faculty of Carnegie Mellon University."
+    },
+    {
+      "date": "2007",
+      "event": "Joins the Department of Electrical Engineering and Computer Sciences at UC Berkeley."
+    },
+    {
+      "date": "2009",
+      "event": "Named to the MIT Technology Review TR35 list for work on defeating malware through automated software analysis, including the BitBlaze platform."
+    },
+    {
+      "date": "2010",
+      "event": "Awarded a MacArthur Foundation Fellowship at age 35 while an associate professor at UC Berkeley."
+    },
+    {
+      "date": "2010",
+      "event": "Awarded a Guggenheim Fellowship in computer science."
+    },
+    {
+      "date": "2016-08-04",
+      "event": "Berkeley researchers on the CodeJitsu team compete as one of seven finalists in the DARPA Cyber Grand Challenge final event in Las Vegas, Nevada."
+    },
+    {
+      "date": "2019",
+      "event": "Named an ACM Fellow for contributions to security and privacy."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -48,20 +78,45 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Dawn Song - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dawn_Song" },
-    { "title": "Dawn Song - MacArthur Foundation Fellows, Class of 2010", "url": "https://www.macfound.org/fellows/class-of-2010/dawn-song" },
-    { "title": "Dawn Song - John Simon Guggenheim Memorial Foundation Fellows", "url": "https://www.gf.org/fellows/dawn-song/" },
-    { "title": "Two Berkeley faculty members win MacArthur 'genius' fellowships - Berkeley News", "url": "https://news.berkeley.edu/2010/09/28/macarthur/" },
-    { "title": "Dawn Song - MIT Technology Review Innovators Under 35", "url": "https://www.technologyreview.com/innovator/dawn-song/" },
-    { "title": "2016 Cyber Grand Challenge - Wikipedia", "url": "https://en.wikipedia.org/wiki/2016_Cyber_Grand_Challenge" },
-    { "title": "Searchable symmetric encryption - Wikipedia", "url": "https://en.wikipedia.org/wiki/Searchable_symmetric_encryption" },
-    { "title": "Berkeley Center for Responsible, Decentralized Intelligence (Berkeley RDI)", "url": "https://rdi.berkeley.edu/" }
+    {
+      "title": "Dawn Song - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dawn_Song"
+    },
+    {
+      "title": "Dawn Song - MacArthur Foundation Fellows, Class of 2010",
+      "url": "https://www.macfound.org/fellows/class-of-2010/dawn-song"
+    },
+    {
+      "title": "Dawn Song - John Simon Guggenheim Memorial Foundation Fellows",
+      "url": "https://www.gf.org/fellows/dawn-song/"
+    },
+    {
+      "title": "Two Berkeley faculty members win MacArthur 'genius' fellowships - Berkeley News",
+      "url": "https://news.berkeley.edu/2010/09/28/macarthur/"
+    },
+    {
+      "title": "Dawn Song - MIT Technology Review Innovators Under 35",
+      "url": "https://www.technologyreview.com/innovator/dawn-song/"
+    },
+    {
+      "title": "2016 Cyber Grand Challenge - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2016_Cyber_Grand_Challenge"
+    },
+    {
+      "title": "Searchable symmetric encryption - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Searchable_symmetric_encryption"
+    },
+    {
+      "title": "Berkeley Center for Responsible, Decentralized Intelligence (Berkeley RDI)",
+      "url": "https://rdi.berkeley.edu/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 8,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

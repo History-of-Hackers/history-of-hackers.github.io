@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["journalism", "cybersecurity", "zero-day market", "nation-state hacking", "author", "new york times", "cyberwarfare"],
+  "tags": [
+    "journalism",
+    "cybersecurity",
+    "zero-day market",
+    "nation-state hacking",
+    "author",
+    "new york times",
+    "cyberwarfare"
+  ],
   "summary": "Nicole Perlroth is an American journalist who spent roughly a decade as the lead cybersecurity, digital espionage, and sabotage reporter for The New York Times, and is the author of the 2021 book \"This Is How They Tell Me the World Ends: The Cyberweapons Arms Race.\"",
   "whyThisMatters": "Perlroth's reporting brought the previously obscure global market for zero-day exploits and nation-state cyberweapons to a mainstream audience, translating highly technical intrusion campaigns into accounts the public and policymakers could follow. Her investigations into Chinese, Russian, Iranian, and North Korean hacking operations, along with her scrutiny of exploit brokers and spyware vendors such as NSO Group, are widely credited with shaping public and congressional understanding of state-sponsored hacking and the commercial exploit trade. Her book became a bestseller and a touchstone reference on the cyberweapons arms race, helping popularize terms and concepts around zero-day vulnerabilities for a general readership.",
   "knownFor": [
@@ -22,11 +30,26 @@
     "overview": "<h2>Background</h2><p>Nicole Perlroth is an American journalist known for her reporting on cybersecurity, digital espionage, and nation-state hacking. She is a graduate of Princeton University and Stanford University. Before turning to cybersecurity journalism, she worked as a deputy editor at Forbes Magazine, as an analyst at the Corporate Executive Board (a subsidiary of Gartner), and for the office of the late Senator Ted Kennedy. She later became a regular lecturer at the Stanford Graduate School of Business, where she co-authored a business-school case study on the Home Depot data breach.</p><h2>Career at The New York Times</h2><p>Perlroth joined The New York Times and spent close to a decade as its lead reporter covering cybersecurity, digital espionage, and sabotage. Her investigations examined Russian hacking operations targeting nuclear power plants, airports, elections, and petrochemical facilities; North Korean cyberattacks against movie studios, banks, and hospitals; Iranian intrusions into oil companies, banks, critical infrastructure, and presidential campaigns; and a sustained wave of Chinese cyberattacks against American businesses and infrastructure. In January 2013, The New York Times itself disclosed that Chinese hackers had infiltrated its computer systems for roughly four months, coinciding with the paper's investigation into the business dealings of the family of then-Chinese Premier Wen Jiabao; the hackers compromised passwords for more than 50 employee accounts, and Perlroth reported on the intrusion as a Times cybersecurity reporter who was also affected by it. Her reporting on the exploit-broker market and on spyware vendors, including Israel's NSO Group, is frequently cited as contributing to NSO's later blacklisting by the U.S. government and to the first U.S. criminal hacking charges brought against members of the Chinese military.</p><h2>\"This Is How They Tell Me the World Ends\"</h2><p>In 2021, Bloomsbury Publishing released Perlroth's book \"This Is How They Tell Me the World Ends: The Cyberweapons Arms Race,\" a New York Times bestseller examining the global market for zero-day software exploits and the proliferation of cyberweapons among nation-states and private brokers. The book draws on years of interviews with hackers, exploit brokers, intelligence officials, and security researchers to trace how software vulnerabilities became valuable, secretive commodities bought and sold by governments and contractors. It won the Financial Times and McKinsey Business Book of the Year Award for 2021, received the Arthur Ross Book Award from the Council on Foreign Relations, and was inducted into the Cybersecurity Canon Hall of Fame. The book has also drawn criticism from some technical reviewers over claimed inaccuracies and framing choices, alongside praise for its scope and reporting depth. It has been optioned for television and documentary adaptation.</p><h2>Later work</h2><p>Perlroth left full-time journalism in 2021 to join the Cybersecurity and Infrastructure Security Agency (CISA)'s advisory committee at the Department of Homeland Security and to serve on the Council on Foreign Relations' Cyber Task Force, which worked on cyber-focused foreign policy recommendations. In 2023, she founded Silver Buckshot Ventures, a venture fund backing early-stage cybersecurity companies. In 2025, she produced and hosted the podcast \"To Catch a Thief,\" chronicling China's rise in cyber capability, which reached the top ranks of podcast charts on Apple, Spotify, and Audible and was renewed for a second season.</p><h2>Significance and legacy</h2><p>Perlroth is widely regarded as one of the journalists most responsible for bringing the previously niche subject of the zero-day exploit trade and government cyberweapons programs into mainstream public discourse. Her Times reporting and her book are frequently referenced in policy discussions, academic syllabi, and security-industry commentary on the ethics and risks of the exploit market, and her work is credited with influencing subsequent government scrutiny of commercial spyware vendors.</p>"
   },
   "timeline": [
-    { "date": "2013-01", "event": "The New York Times discloses that Chinese hackers infiltrated its network for about four months; Perlroth, the paper's cybersecurity reporter, covers the intrusion." },
-    { "date": "2021", "event": "Bloomsbury Publishing releases Perlroth's book \"This Is How They Tell Me the World Ends: The Cyberweapons Arms Race,\" which becomes a New York Times bestseller." },
-    { "date": "2021", "event": "The book wins the Financial Times/McKinsey Business Book of the Year Award; Perlroth leaves daily journalism to join DHS's CISA advisory committee and the Council on Foreign Relations' Cyber Task Force." },
-    { "date": "2023", "event": "Perlroth founds Silver Buckshot Ventures, a fund investing in early-stage cybersecurity startups." },
-    { "date": "2025", "event": "Perlroth launches the podcast \"To Catch a Thief,\" about China's rise to cyber supremacy, which becomes a top-ranked podcast and is renewed for a second season." }
+    {
+      "date": "2013-01",
+      "event": "The New York Times discloses that Chinese hackers infiltrated its network for about four months; Perlroth, the paper's cybersecurity reporter, covers the intrusion."
+    },
+    {
+      "date": "2021",
+      "event": "Bloomsbury Publishing releases Perlroth's book \"This Is How They Tell Me the World Ends: The Cyberweapons Arms Race,\" which becomes a New York Times bestseller."
+    },
+    {
+      "date": "2021",
+      "event": "The book wins the Financial Times/McKinsey Business Book of the Year Award; Perlroth leaves daily journalism to join DHS's CISA advisory committee and the Council on Foreign Relations' Cyber Task Force."
+    },
+    {
+      "date": "2023",
+      "event": "Perlroth founds Silver Buckshot Ventures, a fund investing in early-stage cybersecurity startups."
+    },
+    {
+      "date": "2025",
+      "event": "Perlroth launches the podcast \"To Catch a Thief,\" about China's rise to cyber supremacy, which becomes a top-ranked podcast and is renewed for a second season."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -34,18 +57,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "'New York Times' Accuses China Of Being Behind Hacking (NPR)", "url": "https://www.npr.org/2013/01/31/170727524/chinese-hackers-break-into-new-york-times-computers" },
-    { "title": "Nicole Perlroth - French-American Foundation", "url": "https://frenchamerican.org/nicole-perlroth/" },
-    { "title": "Nicole Perlroth - Princeton Information Security Office (speaker bio)", "url": "https://informationsecurity.princeton.edu/speakers/nicole-perlroth" },
-    { "title": "This Is How They Tell Me the World Ends (official book site)", "url": "https://thisishowtheytellmetheworldends.com/" },
-    { "title": "Fault Lines: This is How They Tell Me The World Ends with Nicole Perlroth (Lawfare)", "url": "https://lawfaremedia.org/article/fault-lines-how-they-tell-me-world-ends-nicole-perlroth" },
-    { "title": "Nicole Perlroth's 'This Is How They Tell Me the World Ends' (LBJ School of Public Affairs)", "url": "https://lbj.utexas.edu/nicole-perlroths-how-they-tell-me-world-ends" }
+    {
+      "title": "'New York Times' Accuses China Of Being Behind Hacking (NPR)",
+      "url": "https://www.npr.org/2013/01/31/170727524/chinese-hackers-break-into-new-york-times-computers"
+    },
+    {
+      "title": "Nicole Perlroth - French-American Foundation",
+      "url": "https://frenchamerican.org/nicole-perlroth/"
+    },
+    {
+      "title": "Nicole Perlroth - Princeton Information Security Office (speaker bio)",
+      "url": "https://informationsecurity.princeton.edu/speakers/nicole-perlroth"
+    },
+    {
+      "title": "This Is How They Tell Me the World Ends (official book site)",
+      "url": "https://thisishowtheytellmetheworldends.com/"
+    },
+    {
+      "title": "Fault Lines: This is How They Tell Me The World Ends with Nicole Perlroth (Lawfare)",
+      "url": "https://lawfaremedia.org/article/fault-lines-how-they-tell-me-world-ends-nicole-perlroth"
+    },
+    {
+      "title": "Nicole Perlroth's 'This Is How They Tell Me the World Ends' (LBJ School of Public Affairs)",
+      "url": "https://lbj.utexas.edu/nicole-perlroths-how-they-tell-me-world-ends"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

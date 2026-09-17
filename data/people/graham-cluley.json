@@ -7,7 +7,15 @@
   "born": "1969-04-08",
   "died": null,
   "era": "1990s-Present",
-  "tags": ["security researcher", "blogger", "podcaster", "antivirus", "sophos", "public speaker", "malware analysis"],
+  "tags": [
+    "security researcher",
+    "blogger",
+    "podcaster",
+    "antivirus",
+    "sophos",
+    "public speaker",
+    "malware analysis"
+  ],
   "summary": "Graham Cluley is a British computer security researcher, blogger, and public speaker who spent over a decade as a senior technology consultant at Sophos and now runs the independent security blog grahamcluley.com and co-hosts the award-winning Smashing Security podcast.",
   "whyThisMatters": "Cluley is one of the longest-serving public commentators in the antivirus industry, having explained computer viruses and online threats to mainstream media audiences since the early 1990s. His work helped translate technical malware research into accessible public communication during formative years of the commercial antivirus industry, and his later independent blogging and podcasting have made him one of the most recognized voices in consumer-facing cybersecurity journalism. He was inducted into the InfoSecurity Europe Hall of Fame in recognition of his sustained contribution to the security community.",
   "knownFor": [
@@ -23,14 +31,38 @@
     "overview": "<h2>Background</h2><p>Graham Cluley (born 8 April 1969) is a British computer security researcher, blogger, and public speaker. He is the author of grahamcluley.com, a widely read independent blog covering computer security news, opinion, and advice. Before entering the security industry, Cluley was known in British computing circles for two interactive fiction games distributed as shareware: <em>Jacaranda Jim</em> (1987) and <em>Humbug</em> (1990), the former praised in PC Review as a \"shareware masterpiece.\" He also created graphical games, including <em>Blox</em> (1990), which has been displayed at the Bletchley Park museum, and <em>Wibbling Wilf</em> (1991).</p><h2>Career in Antivirus</h2><p>Cluley began his professional career as a programmer at S&S International, the company behind Dr Solomon's Software, where in his early twenties he wrote the first Windows version of Dr Solomon's Anti-Virus Toolkit, one of Europe's leading antivirus products at the time. This role placed him at the center of the early commercial antivirus industry as viruses began spreading via floppy disks, email, and later the internet at large.</p><h2>Sophos and Naked Security</h2><p>From 1999 to 2013, Cluley worked at Sophos, a British-founded antivirus and security software company, where he served as Senior Technology Consultant and also acted as Head of Corporate Communications and public spokesperson. During this period he became a familiar voice in television, radio, and print media coverage of computer viruses and online threats, helping explain technical security incidents to general audiences. He also edited Sophos's \"Naked Security\" blog, which became a well-known industry publication for security news and analysis.</p><h2>Independent Blogging and Public Speaking</h2><p>After leaving Sophos in 2013, Cluley continued as an independent security commentator through his self-titled blog, grahamcluley.com, publishing daily commentary on malware, data breaches, privacy, and cybercrime. He has since built a career as a cybersecurity keynote speaker, appearing at industry conferences and providing commentary to media outlets worldwide on emerging security incidents.</p><h2>Smashing Security Podcast</h2><p>Since 2016, Cluley has co-hosted the weekly \"Smashing Security\" podcast, initially alongside Carole Theriault, covering cybercrime, hacking incidents, privacy issues, and technology mishaps with an informal and often humorous tone. The podcast has won awards for best and most entertaining cybersecurity podcast in multiple years, including 2018, 2019, 2022, 2023, and 2024, and has accumulated over ten million downloads.</p><h2>Recognition and Legacy</h2><p>In April 2011, Cluley was inducted into the InfoSecurity Europe Hall of Fame in recognition of his contributions to the security industry. He was also named Twitter user of the year by Computer Weekly in 2009 and 2010. Over more than three decades, Cluley has been a consistent public-facing figure bridging technical malware research and mainstream understanding of cybersecurity, making him one of the more recognizable independent commentators in the field.</p>"
   },
   "timeline": [
-    { "date": "1987", "event": "Released the interactive fiction shareware game Jacaranda Jim." },
-    { "date": "1990", "event": "Released the interactive fiction game Humbug and the graphical game Blox." },
-    { "date": "1991", "event": "Released the game Wibbling Wilf, prior to fully entering the security industry." },
-    { "date": "1990s", "event": "Worked as a programmer at S&S International (Dr Solomon's Software), writing the first Windows version of Dr Solomon's Anti-Virus Toolkit." },
-    { "date": "1999", "event": "Joined Sophos as Senior Technology Consultant, also serving as Head of Corporate Communications and company spokesperson." },
-    { "date": "2011-04", "event": "Inducted into the InfoSecurity Europe Hall of Fame." },
-    { "date": "2013", "event": "Left Sophos after 14 years to continue as an independent security blogger and public speaker via grahamcluley.com." },
-    { "date": "2016", "event": "Began co-hosting the weekly Smashing Security podcast with Carole Theriault." }
+    {
+      "date": "1987",
+      "event": "Released the interactive fiction shareware game Jacaranda Jim."
+    },
+    {
+      "date": "1990",
+      "event": "Released the interactive fiction game Humbug and the graphical game Blox."
+    },
+    {
+      "date": "1991",
+      "event": "Released the game Wibbling Wilf, prior to fully entering the security industry."
+    },
+    {
+      "date": "1990s",
+      "event": "Worked as a programmer at S&S International (Dr Solomon's Software), writing the first Windows version of Dr Solomon's Anti-Virus Toolkit."
+    },
+    {
+      "date": "1999",
+      "event": "Joined Sophos as Senior Technology Consultant, also serving as Head of Corporate Communications and company spokesperson."
+    },
+    {
+      "date": "2011-04",
+      "event": "Inducted into the InfoSecurity Europe Hall of Fame."
+    },
+    {
+      "date": "2013",
+      "event": "Left Sophos after 14 years to continue as an independent security blogger and public speaker via grahamcluley.com."
+    },
+    {
+      "date": "2016",
+      "event": "Began co-hosting the weekly Smashing Security podcast with Carole Theriault."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,16 +70,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Graham Cluley - Wikipedia", "url": "https://en.wikipedia.org/wiki/Graham_Cluley" },
-    { "title": "Smashing Security podcast • Graham Cluley (official site)", "url": "https://grahamcluley.com/podcasts/" },
-    { "title": "Graham Cluley - Smashing Security", "url": "https://www.smashingsecurity.com/people/graham-cluley/" },
-    { "title": "Smashing Security - Graham Cluley's award-winning cybersecurity podcast", "url": "https://www.smashingsecurity.com/" }
+    {
+      "title": "Graham Cluley - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Graham_Cluley"
+    },
+    {
+      "title": "Smashing Security podcast • Graham Cluley (official site)",
+      "url": "https://grahamcluley.com/podcasts/"
+    },
+    {
+      "title": "Graham Cluley - Smashing Security",
+      "url": "https://www.smashingsecurity.com/people/graham-cluley/"
+    },
+    {
+      "title": "Smashing Security - Graham Cluley's award-winning cybersecurity podcast",
+      "url": "https://www.smashingsecurity.com/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

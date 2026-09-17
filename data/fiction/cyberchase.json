@@ -34,6 +34,7 @@
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
-    "reviewStatus": "PUBLISHED"
+    "reviewStatus": "PUBLISHED",
+    "createdBy": "Joas A Santos"
   }
 }

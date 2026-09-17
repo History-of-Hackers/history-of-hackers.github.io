@@ -4,20 +4,50 @@
   "title": "CanSecWest and the Founding of Pwn2Own",
   "slug": "cansecwest-pwn2own-founding",
   "era": "2007",
-  "tags": ["cansecwest", "pwn2own", "dragos ruiu", "exploit contest", "zero day initiative", "vancouver", "browser exploitation", "bug bounty history"],
+  "tags": [
+    "cansecwest",
+    "pwn2own",
+    "dragos ruiu",
+    "exploit contest",
+    "zero day initiative",
+    "vancouver",
+    "browser exploitation",
+    "bug bounty history"
+  ],
   "summary": "CanSecWest, a Vancouver-based security conference organized by Dragos Ruiu, launched the Pwn2Own contest in April 2007, creating what became one of the world's most prominent live hacking competitions for browsers, operating systems, and devices.",
   "whyThisMatters": "Pwn2Own established a durable model for adversarial, cash-incentivized vulnerability disclosure at a time when researchers and vendors, especially Apple, were at odds over how flaws should be reported and fixed. By pairing a public conference with a competitive exploit contest and, soon after, cash prizes funded by the Zero Day Initiative, it helped normalize paying independent researchers for high-severity bugs instead of leaving that work to informal or adversarial channels. The contest's growth over subsequent years into a recurring, multi-vendor event run three times annually made it a widely cited barometer of the real-world exploitability of major browsers, operating systems, and later mobile and industrial systems.",
   "sections": {
     "overview": "<h2>Background</h2><p>CanSecWest is an annual computer security conference held in Vancouver, Canada, organized by security researcher Dragos Ruiu. By the mid-2000s it had become a fixture on the professional security conference circuit, drawing researchers, vendors, and members of the offensive security community for talks on vulnerability research, exploitation techniques, and defensive engineering.</p><h2>Origins of the Contest</h2><p>In early 2007, Ruiu grew frustrated with how Apple was handling the disclosure of security vulnerabilities in Mac OS X, and with marketing messaging that portrayed the platform as inherently more secure than Windows, following widely publicized efforts such as the \"Month of Apple Bugs\" and \"Month of Kernel Bugs\" projects. On March 20, 2007, roughly three weeks before that year's CanSecWest, Ruiu announced a new competition on the DailyDave security mailing list. He called it Pwn2Own, a name built from the idea that a participant who could \"pwn\" (hacker slang for compromise) a target device would get to \"own\" it, meaning take it home as a prize.</p><h2>The First Pwn2Own (2007)</h2><p>The inaugural Pwn2Own contest was held in April 2007 during CanSecWest. Two MacBook Pro laptops were set up on a dedicated wireless network on the conference floor, and attendees were invited to attempt to compromise them. Initially there was no cash prize attached to the contest; the reward was simply the exploited laptop itself. Shortly before or during the event, Terri Forslof of 3Com's Zero Day Initiative (ZDI) agreed to purchase any vulnerability used to win the contest for a flat fee of ten thousand dollars, adding a financial incentive on top of the hardware prize. Security researcher Dino Dai Zovi wrote a previously unknown exploit targeting a QuickTime vulnerability reachable through Safari, used it to compromise one of the MacBook Pro laptops, and won the machine; he separately sold the underlying vulnerability details to ZDI for the cash award.</p><h2>Expansion in Subsequent Years</h2><p>Pwn2Own quickly grew beyond its original scope. The 2008 edition expanded the pool of targets to include machines running Windows Vista and Ubuntu Linux alongside macOS, broadening the contest from an Apple-focused challenge into a cross-platform test of desktop operating system and browser security. In 2009, mobile devices and their default browsers were added as a separate contest category, reflecting the growing importance of smartphone security. The contest continued to evolve over the following years, including a shift toward capture-the-flag-style scoring in 2012, the year Google Chrome was successfully exploited at the event for the first time.</p><h2>Organization and the Zero Day Initiative</h2><p>Following the first contest, the Zero Day Initiative became Pwn2Own's consistent sponsor and administrator, a role it has continued in under its later corporate owners. ZDI, originally established by TippingPoint in 2005 to buy vulnerabilities from independent researchers and coordinate their disclosure to affected vendors, became part of Trend Micro after Trend Micro's 2015 acquisition of HP TippingPoint. Under ZDI's stewardship, Pwn2Own grew from a single-conference novelty into a recurring competition held multiple times a year, targeting browsers, enterprise software, virtualization platforms, automobiles, and industrial control systems, with prize pools reaching into the millions of dollars across an event.</p><h2>Significance</h2><p>The founding of Pwn2Own at CanSecWest is frequently cited as a turning point in the popularization of paid, competitive vulnerability disclosure. It demonstrated that live, time-boxed hacking competitions could reliably surface serious, previously unknown vulnerabilities in widely used software, and that structured cash incentives could channel that research toward responsible disclosure rather than underground sale or public dumping. The event's continued operation, and its adoption by ZDI and Trend Micro as an ongoing commercial program, reflects the lasting influence of Ruiu's original 2007 concept on how the security industry approaches offensive security research and vendor accountability.</p>"
   },
   "timeline": [
-    { "date": "2007-03-20", "event": "Dragos Ruiu announces the Pwn2Own contest on the DailyDave mailing list, about three weeks ahead of that year's CanSecWest conference." },
-    { "date": "2007-04", "event": "The first Pwn2Own contest is held at CanSecWest in Vancouver, targeting two MacBook Pro laptops on a dedicated wireless network." },
-    { "date": "2007-04", "event": "Dino Dai Zovi wins the first Pwn2Own by exploiting a QuickTime vulnerability reachable through Safari, winning the laptop and later selling the vulnerability to the Zero Day Initiative for $10,000." },
-    { "date": "2008", "event": "Pwn2Own expands its target scope to include Windows Vista and Ubuntu Linux machines in addition to macOS." },
-    { "date": "2009", "event": "Mobile devices and their browsers are added as a Pwn2Own contest category." },
-    { "date": "2012", "event": "Pwn2Own shifts to a capture-the-flag style format; Google Chrome is successfully exploited at the contest for the first time." },
-    { "date": "2015", "event": "Trend Micro acquires HP TippingPoint, bringing the Zero Day Initiative, and its administration of Pwn2Own, under Trend Micro." }
+    {
+      "date": "2007-03-20",
+      "event": "Dragos Ruiu announces the Pwn2Own contest on the DailyDave mailing list, about three weeks ahead of that year's CanSecWest conference."
+    },
+    {
+      "date": "2007-04",
+      "event": "The first Pwn2Own contest is held at CanSecWest in Vancouver, targeting two MacBook Pro laptops on a dedicated wireless network."
+    },
+    {
+      "date": "2007-04",
+      "event": "Dino Dai Zovi wins the first Pwn2Own by exploiting a QuickTime vulnerability reachable through Safari, winning the laptop and later selling the vulnerability to the Zero Day Initiative for $10,000."
+    },
+    {
+      "date": "2008",
+      "event": "Pwn2Own expands its target scope to include Windows Vista and Ubuntu Linux machines in addition to macOS."
+    },
+    {
+      "date": "2009",
+      "event": "Mobile devices and their browsers are added as a Pwn2Own contest category."
+    },
+    {
+      "date": "2012",
+      "event": "Pwn2Own shifts to a capture-the-flag style format; Google Chrome is successfully exploited at the contest for the first time."
+    },
+    {
+      "date": "2015",
+      "event": "Trend Micro acquires HP TippingPoint, bringing the Zero Day Initiative, and its administration of Pwn2Own, under Trend Micro."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -25,16 +55,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Pwn2Own — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pwn2Own" },
-    { "title": "Dragos Ruiu — Wikipedia", "url": "https://en.wikipedia.org/wiki/Dragos_Ruiu" },
-    { "title": "Zero Day Initiative — Wikipedia", "url": "https://en.wikipedia.org/wiki/Zero_Day_Initiative" },
-    { "title": "CanSecWest official conference site (SecWest)", "url": "https://www.secwest.net/" }
+    {
+      "title": "Pwn2Own — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pwn2Own"
+    },
+    {
+      "title": "Dragos Ruiu — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dragos_Ruiu"
+    },
+    {
+      "title": "Zero Day Initiative — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero_Day_Initiative"
+    },
+    {
+      "title": "CanSecWest official conference site (SecWest)",
+      "url": "https://www.secwest.net/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

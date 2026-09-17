@@ -11518,5 +11518,447 @@
     ],
     "summary": "American mathematician and cryptographer who independently introduced elliptic curves as a basis for public-key cryptography.",
     "url": "people/victor-s-miller.html"
+  },
+  {
+    "id": "vint-cerf",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Vint Cerf",
+    "slug": "vint-cerf",
+    "era": "1970s-present",
+    "tags": [
+      "internet",
+      "tcp-ip",
+      "arpanet",
+      "protocols",
+      "internet-governance"
+    ],
+    "summary": "American computer scientist who co-designed TCP/IP with Bob Kahn and is widely described as one of the 'fathers of the Internet'.",
+    "url": "people/vint-cerf.html"
+  },
+  {
+    "id": "bob-kahn",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Bob Kahn",
+    "slug": "bob-kahn",
+    "era": "1970s-present",
+    "tags": [
+      "internet",
+      "tcp-ip",
+      "arpanet",
+      "protocols",
+      "networking"
+    ],
+    "summary": "American engineer who co-invented TCP/IP with Vint Cerf and organized the 1972 public demonstration of the ARPANET.",
+    "url": "people/bob-kahn.html"
+  },
+  {
+    "id": "jon-postel",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Jon Postel",
+    "slug": "jon-postel",
+    "era": "1970s-1990s",
+    "tags": [
+      "internet",
+      "rfc",
+      "iana",
+      "dns",
+      "internet-governance"
+    ],
+    "summary": "American computer scientist who edited the RFC series for nearly three decades and administered Internet number and name assignments as IANA.",
+    "url": "people/jon-postel.html"
+  },
+  {
+    "id": "tim-berners-lee",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Tim Berners-Lee",
+    "slug": "tim-berners-lee",
+    "era": "1980s-present",
+    "tags": [
+      "world-wide-web",
+      "http",
+      "html",
+      "w3c",
+      "cern"
+    ],
+    "summary": "British computer scientist who invented the World Wide Web at CERN in 1989 and founded the World Wide Web Consortium.",
+    "url": "people/tim-berners-lee.html"
+  },
+  {
+    "id": "roger-dingledine",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Roger Dingledine",
+    "slug": "roger-dingledine",
+    "era": "2000s-present",
+    "tags": [
+      "tor",
+      "anonymity",
+      "onion-routing",
+      "privacy",
+      "censorship-circumvention"
+    ],
+    "summary": "American computer scientist who co-created Tor and co-founded The Tor Project.",
+    "url": "people/roger-dingledine.html"
+  },
+  {
+    "id": "nick-mathewson",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Nick Mathewson",
+    "slug": "nick-mathewson",
+    "era": "2000s-present",
+    "tags": [
+      "tor",
+      "anonymity",
+      "onion-routing",
+      "remailers",
+      "privacy"
+    ],
+    "summary": "American programmer who co-created Tor, co-founded The Tor Project, and served as its chief architect.",
+    "url": "people/nick-mathewson.html"
+  },
+  {
+    "id": "ian-goldberg",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Ian Goldberg",
+    "slug": "ian-goldberg",
+    "era": "1990s-present",
+    "tags": [
+      "cryptography",
+      "privacy",
+      "otr",
+      "ssl",
+      "academic-research"
+    ],
+    "summary": "Canadian cryptographer who exposed the Netscape SSL random-number flaw in 1995 and co-created Off-the-Record Messaging.",
+    "url": "people/ian-goldberg.html"
+  },
+  {
+    "id": "hal-finney",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Hal Finney",
+    "slug": "hal-finney",
+    "era": "1990s-2010s",
+    "tags": [
+      "cypherpunks",
+      "pgp",
+      "bitcoin",
+      "remailers",
+      "cryptography"
+    ],
+    "summary": "American cypherpunk and PGP developer who created reusable proofs of work and received the first Bitcoin transaction.",
+    "url": "people/hal-finney.html"
+  },
+  {
+    "id": "adam-back",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Adam Back",
+    "slug": "adam-back",
+    "era": "1990s-present",
+    "tags": [
+      "cypherpunks",
+      "hashcash",
+      "proof-of-work",
+      "cryptography",
+      "bitcoin"
+    ],
+    "summary": "British cryptographer who invented Hashcash, the proof-of-work scheme cited in the Bitcoin whitepaper.",
+    "url": "people/adam-back.html"
+  },
+  {
+    "id": "wei-dai",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Wei Dai",
+    "slug": "wei-dai",
+    "era": "1990s-present",
+    "tags": [
+      "cypherpunks",
+      "b-money",
+      "cryptography",
+      "crypto-plus-plus",
+      "bitcoin"
+    ],
+    "summary": "Computer engineer who proposed b-money in 1998 and created the Crypto++ cryptographic library.",
+    "url": "people/wei-dai.html"
+  },
+  {
+    "id": "nick-szabo",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Nick Szabo",
+    "slug": "nick-szabo",
+    "era": "1990s-present",
+    "tags": [
+      "cypherpunks",
+      "smart-contracts",
+      "bit-gold",
+      "cryptography",
+      "digital-currency"
+    ],
+    "summary": "Computer scientist and legal scholar who coined the term 'smart contract' and designed the bit gold digital-currency proposal.",
+    "url": "people/nick-szabo.html"
+  },
+  {
+    "id": "tim-may",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Tim May",
+    "slug": "tim-may",
+    "era": "1980s-2010s",
+    "tags": [
+      "cypherpunks",
+      "crypto-anarchy",
+      "privacy",
+      "manifesto",
+      "intel"
+    ],
+    "summary": "American physicist and writer who authored 'The Crypto Anarchist Manifesto' and co-founded the cypherpunks mailing list.",
+    "url": "people/tim-may.html"
+  },
+  {
+    "id": "eric-hughes",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Eric Hughes",
+    "slug": "eric-hughes",
+    "era": "1990s",
+    "tags": [
+      "cypherpunks",
+      "privacy",
+      "remailers",
+      "manifesto",
+      "cryptography"
+    ],
+    "summary": "American mathematician and programmer who wrote 'A Cypherpunk's Manifesto' and co-founded the cypherpunks mailing list.",
+    "url": "people/eric-hughes.html"
+  },
+  {
+    "id": "john-gilmore",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "John Gilmore",
+    "slug": "john-gilmore",
+    "era": "1980s-present",
+    "tags": [
+      "eff",
+      "cypherpunks",
+      "civil-liberties",
+      "free-software",
+      "des"
+    ],
+    "summary": "American programmer and activist who co-founded the Electronic Frontier Foundation, Cygnus Solutions, and the cypherpunks mailing list.",
+    "url": "people/john-gilmore.html"
+  },
+  {
+    "id": "john-perry-barlow",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "John Perry Barlow",
+    "slug": "john-perry-barlow",
+    "era": "1990s-2010s",
+    "tags": [
+      "eff",
+      "civil-liberties",
+      "cyberspace",
+      "manifesto",
+      "internet-culture"
+    ],
+    "summary": "American writer and activist who co-founded the Electronic Frontier Foundation and wrote 'A Declaration of the Independence of Cyberspace'.",
+    "url": "people/john-perry-barlow.html"
+  },
+  {
+    "id": "mitch-kapor",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Mitch Kapor",
+    "slug": "mitch-kapor",
+    "era": "1980s-present",
+    "tags": [
+      "eff",
+      "lotus",
+      "civil-liberties",
+      "software-industry",
+      "mozilla"
+    ],
+    "summary": "American software entrepreneur who founded Lotus Development and co-founded the Electronic Frontier Foundation.",
+    "url": "people/mitch-kapor.html"
+  },
+  {
+    "id": "wau-holland",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Wau Holland",
+    "slug": "wau-holland",
+    "era": "1980s-2000s",
+    "tags": [
+      "chaos-computer-club",
+      "germany",
+      "hacker-ethics",
+      "btx-hack",
+      "activism"
+    ],
+    "summary": "German journalist and activist who co-founded the Chaos Computer Club and shaped the European hacker ethic.",
+    "url": "people/wau-holland.html"
+  },
+  {
+    "id": "karl-koch-hagbard",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Karl Koch (Hagbard)",
+    "slug": "karl-koch-hagbard",
+    "era": "1980s",
+    "tags": [
+      "germany",
+      "kgb-hack",
+      "espionage",
+      "chaos-computer-club",
+      "cold-war"
+    ],
+    "summary": "German hacker known as Hagbard who took part in the 1980s KGB hack, selling access to Western military and research systems to Soviet intelligence.",
+    "url": "people/karl-koch-hagbard.html"
+  },
+  {
+    "id": "markus-hess",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Markus Hess",
+    "slug": "markus-hess",
+    "era": "1980s",
+    "tags": [
+      "germany",
+      "kgb-hack",
+      "espionage",
+      "cuckoos-egg",
+      "cold-war"
+    ],
+    "summary": "German hacker whose intrusions into U.S. military and research networks were traced by Clifford Stoll, as told in 'The Cuckoo's Egg'.",
+    "url": "people/markus-hess.html"
+  },
+  {
+    "id": "craig-neidorf-knight-lightning",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Craig Neidorf (Knight Lightning)",
+    "slug": "craig-neidorf-knight-lightning",
+    "era": "1980s-1990s",
+    "tags": [
+      "phrack",
+      "e911-case",
+      "free-speech",
+      "operation-sundevil",
+      "ezines"
+    ],
+    "summary": "Co-founder of Phrack whose 1990 prosecution over a BellSouth E911 document collapsed and became a landmark for online free speech.",
+    "url": "people/craig-neidorf-knight-lightning.html"
+  },
+  {
+    "id": "bruce-sterling",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Bruce Sterling",
+    "slug": "bruce-sterling",
+    "era": "1980s-present",
+    "tags": [
+      "author",
+      "hacker-crackdown",
+      "cyberpunk",
+      "journalism",
+      "hacker-culture"
+    ],
+    "summary": "American science-fiction author whose non-fiction book 'The Hacker Crackdown' documented the 1990 U.S. crackdown on the hacker underground.",
+    "url": "people/bruce-sterling.html"
+  },
+  {
+    "id": "martin-roesch",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Martin Roesch",
+    "slug": "martin-roesch",
+    "era": "1990s-present",
+    "tags": [
+      "snort",
+      "intrusion-detection",
+      "open-source",
+      "sourcefire",
+      "network-security"
+    ],
+    "summary": "American security engineer who wrote Snort, the open-source network intrusion detection system, and founded Sourcefire.",
+    "url": "people/martin-roesch.html"
+  },
+  {
+    "id": "ilfak-guilfanov",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Ilfak Guilfanov",
+    "slug": "ilfak-guilfanov",
+    "era": "1990s-present",
+    "tags": [
+      "ida-pro",
+      "reverse-engineering",
+      "disassembler",
+      "hex-rays",
+      "wmf-patch"
+    ],
+    "summary": "Software developer who created the IDA disassembler and the Hex-Rays decompiler, standard tools of reverse engineering.",
+    "url": "people/ilfak-guilfanov.html"
+  },
+  {
+    "id": "jonathan-james-c0mrade",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Jonathan James (c0mrade)",
+    "slug": "jonathan-james-c0mrade",
+    "era": "1990s-2000s",
+    "tags": [
+      "nasa",
+      "dtra",
+      "juvenile-justice",
+      "intrusion",
+      "united-states"
+    ],
+    "summary": "American hacker who, at 15, intruded into NASA and Defense Threat Reduction Agency systems and became the first juvenile jailed for cybercrime in the United States.",
+    "url": "people/jonathan-james-c0mrade.html"
+  },
+  {
+    "id": "paul-vixie",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Paul Vixie",
+    "slug": "paul-vixie",
+    "era": "1980s-present",
+    "tags": [
+      "dns",
+      "bind",
+      "anti-spam",
+      "internet-infrastructure",
+      "open-source"
+    ],
+    "summary": "American Internet pioneer who maintained BIND, founded the Internet Systems Consortium, and created the first anti-spam DNS blocklist.",
+    "url": "people/paul-vixie.html"
+  },
+  {
+    "id": "len-sassaman",
+    "type": "person",
+    "typeLabel": "Person",
+    "title": "Len Sassaman",
+    "slug": "len-sassaman",
+    "era": "2000s",
+    "tags": [
+      "cypherpunks",
+      "remailers",
+      "privacy",
+      "pgp",
+      "cryptography"
+    ],
+    "summary": "American privacy advocate and cryptographer who maintained the Mixmaster anonymous remailer and co-designed the Pynchon Gate.",
+    "url": "people/len-sassaman.html"
   }
 ]

@@ -1,1 +1,68 @@
-{"id":"fred-kaplan","type":"person","title":"Fred Kaplan","slug":"fred-kaplan","name":"Fred Kaplan","born":null,"died":null,"era":"2016-Present","tags":["author","journalism","cyberwar","national-security","books"],"summary":"National-security journalist and author of Dark Territory: The Secret History of Cyber War.","whyThisMatters":"Kaplan’s reporting-based history records how policymakers, military institutions, scientists, and intelligence agencies approached computer security and cyber conflict.","knownFor":["Dark Territory: The Secret History of Cyber War","National-security journalism","Cyber-conflict history"],"sections":{"overview":"<p>Fred Kaplan is a national-security journalist and author. In <em>Dark Territory</em>, he examines the development of United States cyber-security and cyber-conflict policy through the people and institutions involved.</p><h2>A reported history of cyberwar</h2><p>The book follows the relationship between computer security, intelligence, military planning, and government policy from the late Cold War onward. It is relevant to hacker history because it places hacking and defense within their institutional and strategic setting.</p>"},"timeline":[{"date":"2016","event":"Dark Territory is released in hardcover and reviewed as a history of cyberwar."},{"date":"2017","event":"Simon & Schuster publishes a trade-paperback edition of Dark Territory."},{"date":"2026","event":"The publisher continues to identify Kaplan as a national-security columnist and author of Dark Territory."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Simon & Schuster: Dark Territory","url":"https://www.simonandschuster.com/books/Dark-Territory/Fred-Kaplan/9781476763262"},{"title":"Kirkus Reviews: Dark Territory","url":"https://www.kirkusreviews.com/book-reviews/fred-kaplan/dark-territory/"},{"title":"Slate: Fred Kaplan masthead","url":"https://www.slate.com/articles/briefing/staff/2001/10/slate_s_masthead_who_we_are.html"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "fred-kaplan",
+  "type": "person",
+  "title": "Fred Kaplan",
+  "slug": "fred-kaplan",
+  "name": "Fred Kaplan",
+  "born": null,
+  "died": null,
+  "era": "2016-Present",
+  "tags": [
+    "author",
+    "journalism",
+    "cyberwar",
+    "national-security",
+    "books"
+  ],
+  "summary": "National-security journalist and author of Dark Territory: The Secret History of Cyber War.",
+  "whyThisMatters": "Kaplan’s reporting-based history records how policymakers, military institutions, scientists, and intelligence agencies approached computer security and cyber conflict.",
+  "knownFor": [
+    "Dark Territory: The Secret History of Cyber War",
+    "National-security journalism",
+    "Cyber-conflict history"
+  ],
+  "sections": {
+    "overview": "<p>Fred Kaplan is a national-security journalist and author. In <em>Dark Territory</em>, he examines the development of United States cyber-security and cyber-conflict policy through the people and institutions involved.</p><h2>A reported history of cyberwar</h2><p>The book follows the relationship between computer security, intelligence, military planning, and government policy from the late Cold War onward. It is relevant to hacker history because it places hacking and defense within their institutional and strategic setting.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2016",
+      "event": "Dark Territory is released in hardcover and reviewed as a history of cyberwar."
+    },
+    {
+      "date": "2017",
+      "event": "Simon & Schuster publishes a trade-paperback edition of Dark Territory."
+    },
+    {
+      "date": "2026",
+      "event": "The publisher continues to identify Kaplan as a national-security columnist and author of Dark Territory."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Simon & Schuster: Dark Territory",
+      "url": "https://www.simonandschuster.com/books/Dark-Territory/Fred-Kaplan/9781476763262"
+    },
+    {
+      "title": "Kirkus Reviews: Dark Territory",
+      "url": "https://www.kirkusreviews.com/book-reviews/fred-kaplan/dark-territory/"
+    },
+    {
+      "title": "Slate: Fred Kaplan masthead",
+      "url": "https://www.slate.com/articles/briefing/staff/2001/10/slate_s_masthead_who_we_are.html"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

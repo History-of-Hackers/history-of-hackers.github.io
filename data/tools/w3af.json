@@ -4,18 +4,40 @@
   "title": "w3af",
   "slug": "w3af",
   "era": "2007-Present",
-  "tags": ["web application security", "vulnerability scanner", "open source", "penetration testing", "python", "exploitation framework"],
+  "tags": [
+    "web application security",
+    "vulnerability scanner",
+    "open source",
+    "penetration testing",
+    "python",
+    "exploitation framework"
+  ],
   "summary": "w3af (Web Application Attack and Audit Framework) is an open-source Python framework for identifying and exploiting vulnerabilities in web applications, created by Argentine security researcher Andres Riancho starting in 2007.",
   "whyThisMatters": "w3af became one of the earliest widely adopted open-source frameworks to combine automated web vulnerability discovery with exploitation in a single, pluggable architecture, influencing later scanner design. Its inclusion in penetration-testing distributions such as Kali Linux and BackTrack helped standardize web application security testing workflows for a generation of practitioners. Corporate sponsorship of the project by Rapid7 in 2010 also illustrated the growing commercial interest in open-source offensive security tooling during that period.",
   "sections": {
     "overview": "<h2>Background</h2><p>w3af, short for \"Web Application Attack and Audit Framework,\" is a free and open-source software project designed to identify and help exploit security vulnerabilities in web applications. The project was started by Andres Riancho, an Argentine security researcher, with initial development beginning around March 2007. Written primarily in Python, w3af was built to run across multiple operating systems, including Windows, macOS (OS X), Linux, FreeBSD, and OpenBSD.</p><h2>Architecture and Capabilities</h2><p>The framework is organized around a core engine and a large collection of plugins that share findings through a common knowledge base. Plugins are grouped into categories such as Discovery, Audit, Grep, Attack, Output, Mangle, Evasion, and Bruteforce, allowing users to combine modules for crawling, vulnerability detection, and post-discovery exploitation within a single workflow. Over the course of its development the project accumulated well over one hundred plugins capable of checking for issues including SQL injection, cross-site scripting (XSS), local and remote file inclusion, and numerous other classes of web application flaws. w3af offers both a command-line interface and a graphical interface built with GTK+, and it is distributed under the terms of the GNU General Public License version 2 (GPLv2).</p><h2>Sponsorship and Growth</h2><p>In July 2010, the security company Rapid7 became a sponsor and development partner for w3af, providing resources that helped accelerate the project's growth for a period. w3af was subsequently packaged in security-focused Linux distributions such as BackTrack and its successor, Kali Linux, which broadened its use among penetration testers and security researchers. The project was also hosted on SourceForge in its earlier years before development activity migrated to GitHub, where the source code has continued to be maintained under Riancho's account.</p><h2>Later Development and Legacy</h2><p>Development of w3af continued over more than a decade, with the codebase eventually exceeding fifteen thousand commits and thousands of tracked issues on its GitHub repository. As the Python ecosystem moved toward Python 3, members of the original development community produced a fork named w4af intended to modernize the codebase and maintain compatibility with current Python versions. w3af remains cited as one of the notable open-source web application security scanners to emerge from the late-2000s wave of offensive security tooling, alongside contemporaries in the same space, and continues to be referenced in security testing documentation and vulnerability assessment platforms.</p>"
   },
   "timeline": [
-    { "date": "2007-03", "event": "Andres Riancho begins development of w3af, the Web Application Attack and Audit Framework." },
-    { "date": "2010-07", "event": "Rapid7 becomes a sponsor and development partner of the w3af project." },
-    { "date": "2015-03-01", "event": "w3af version 1.1 is released and distributed via SourceForge." },
-    { "date": "2010s", "event": "w3af is packaged into penetration testing Linux distributions including BackTrack and Kali Linux." },
-    { "date": "2020s", "event": "Development activity centers on GitHub under andresriancho/w3af, with a community fork named w4af created to support Python 3." }
+    {
+      "date": "2007-03",
+      "event": "Andres Riancho begins development of w3af, the Web Application Attack and Audit Framework."
+    },
+    {
+      "date": "2010-07",
+      "event": "Rapid7 becomes a sponsor and development partner of the w3af project."
+    },
+    {
+      "date": "2015-03-01",
+      "event": "w3af version 1.1 is released and distributed via SourceForge."
+    },
+    {
+      "date": "2010s",
+      "event": "w3af is packaged into penetration testing Linux distributions including BackTrack and Kali Linux."
+    },
+    {
+      "date": "2020s",
+      "event": "Development activity centers on GitHub under andresriancho/w3af, with a community fork named w4af created to support Python 3."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -23,16 +45,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "w3af - Wikipedia", "url": "https://en.wikipedia.org/wiki/W3af" },
-    { "title": "andresriancho/w3af - GitHub repository", "url": "https://github.com/andresriancho/w3af" },
-    { "title": "w3af severity.py source file - GitHub", "url": "https://github.com/andresriancho/w3af/blob/master/w3af/core/data/constants/severity.py" },
-    { "title": "w3af - SourceForge project page", "url": "https://sourceforge.net/projects/w3af/" }
+    {
+      "title": "w3af - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/W3af"
+    },
+    {
+      "title": "andresriancho/w3af - GitHub repository",
+      "url": "https://github.com/andresriancho/w3af"
+    },
+    {
+      "title": "w3af severity.py source file - GitHub",
+      "url": "https://github.com/andresriancho/w3af/blob/master/w3af/core/data/constants/severity.py"
+    },
+    {
+      "title": "w3af - SourceForge project page",
+      "url": "https://sourceforge.net/projects/w3af/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

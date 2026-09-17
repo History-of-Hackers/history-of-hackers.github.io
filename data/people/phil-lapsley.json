@@ -1,1 +1,68 @@
-{"id":"phil-lapsley","type":"person","title":"Phil Lapsley","slug":"phil-lapsley","name":"Phil Lapsley","born":null,"died":null,"era":"1986-Present","tags":["author","engineering","phone-phreaking","internet-history","books"],"summary":"Engineer and author of Exploding the Phone, a documented history of telephone phreaking and the people who challenged Ma Bell.","whyThisMatters":"Lapsley preserves the social and technical history of phone phreaking, a foundational predecessor to later hacker culture and computer-security communities.","knownFor":["Exploding the Phone","RFC 977 (NNTP)","Phone-phreaking history"],"sections":{"overview":"<p>Phil Lapsley is an engineer and author. He co-authored RFC 977, which specified the Network News Transfer Protocol, and later wrote <em>Exploding the Phone</em>, a history of telephone phreaking.</p><h2>Before the networked-computer era</h2><p><em>Exploding the Phone</em> documents people who explored and manipulated the telephone system in the 1950s through the 1970s. This history is central to understanding how technical curiosity, counterculture, and security concerns preceded modern computer hacking.</p>"},"timeline":[{"date":"1986","event":"Co-authors RFC 977, the Network News Transfer Protocol specification."},{"date":"2013","event":"Publishes Exploding the Phone: The Untold Story of the Teenagers and Outlaws Who Hacked Ma Bell."},{"date":"2014","event":"A paperback edition of Exploding the Phone is issued by Grove Atlantic."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Grove Atlantic: Exploding the Phone","url":"https://groveatlantic.com/book/exploding-the-phone/"},{"title":"RFC Editor: RFC 977","url":"https://www.rfc-editor.org/rfc/rfc977"},{"title":"Internet Archive: Exploding the Phone","url":"https://archive.org/details/explodingphoneun0000laps"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "phil-lapsley",
+  "type": "person",
+  "title": "Phil Lapsley",
+  "slug": "phil-lapsley",
+  "name": "Phil Lapsley",
+  "born": null,
+  "died": null,
+  "era": "1986-Present",
+  "tags": [
+    "author",
+    "engineering",
+    "phone-phreaking",
+    "internet-history",
+    "books"
+  ],
+  "summary": "Engineer and author of Exploding the Phone, a documented history of telephone phreaking and the people who challenged Ma Bell.",
+  "whyThisMatters": "Lapsley preserves the social and technical history of phone phreaking, a foundational predecessor to later hacker culture and computer-security communities.",
+  "knownFor": [
+    "Exploding the Phone",
+    "RFC 977 (NNTP)",
+    "Phone-phreaking history"
+  ],
+  "sections": {
+    "overview": "<p>Phil Lapsley is an engineer and author. He co-authored RFC 977, which specified the Network News Transfer Protocol, and later wrote <em>Exploding the Phone</em>, a history of telephone phreaking.</p><h2>Before the networked-computer era</h2><p><em>Exploding the Phone</em> documents people who explored and manipulated the telephone system in the 1950s through the 1970s. This history is central to understanding how technical curiosity, counterculture, and security concerns preceded modern computer hacking.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1986",
+      "event": "Co-authors RFC 977, the Network News Transfer Protocol specification."
+    },
+    {
+      "date": "2013",
+      "event": "Publishes Exploding the Phone: The Untold Story of the Teenagers and Outlaws Who Hacked Ma Bell."
+    },
+    {
+      "date": "2014",
+      "event": "A paperback edition of Exploding the Phone is issued by Grove Atlantic."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Grove Atlantic: Exploding the Phone",
+      "url": "https://groveatlantic.com/book/exploding-the-phone/"
+    },
+    {
+      "title": "RFC Editor: RFC 977",
+      "url": "https://www.rfc-editor.org/rfc/rfc977"
+    },
+    {
+      "title": "Internet Archive: Exploding the Phone",
+      "url": "https://archive.org/details/explodingphoneun0000laps"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

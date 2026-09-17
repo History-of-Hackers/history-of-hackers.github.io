@@ -10,10 +10,10 @@
     "media",
     "documentary"
   ],
-  "summary": "How movies and documentaries like WarGames, Hackers, and The Social Network have shaped the public's perception of hacker culture \u2014 for better and for worse.",
-  "whyThisMatters": "How movies and documentaries like WarGames, Hackers, and The Social Network have shaped the public's perception of hacker culture \u2014 for better and for worse.",
+  "summary": "How movies and documentaries like WarGames, Hackers, and The Social Network have shaped the public's perception of hacker culture — for better and for worse.",
+  "whyThisMatters": "How movies and documentaries like WarGames, Hackers, and The Social Network have shaped the public's perception of hacker culture — for better and for worse.",
   "sections": {
-    "overview": "<p>Film and television have been instrumental in shaping the public's image of hackers. Often sensationalized, these portrayals have nonetheless influenced both the culture itself and how it is perceived by the mainstream.</p>\n<ul>\n<li><strong>WarGames (1983):</strong> This film introduced the archetype of the young, curious hacker who stumbles into a high-stakes scenario. Its plot, where a teenager nearly starts World War III, reportedly prompted President Ronald Reagan to inquire about the real-world possibility of such a threat, leading to the first national security directive on telecommunications security.</li>\n<li><strong>Hackers (1995):</strong> While commercially unsuccessful at first, this film became a cult classic. Its vibrant, stylized depiction of hacker subculture \u2014 complete with elaborate fashion, rollerblading, and cyberpunk visuals \u2014 created a lasting aesthetic that inspired a generation of aspiring hackers.</li>\n<li><strong>The Matrix (1999):</strong> This sci-fi blockbuster blended hacking with philosophy, kung fu, and cyberpunk themes, portraying the ultimate hack as breaking free from a simulated reality.</li>\n<li><strong>Documentaries:</strong> More recently, documentaries have offered a more authentic look. <em>The Internet's Own Boy</em> tells the tragic story of Aaron Swartz, while <em>DEFCON: The Documentary</em> provides an inside look at the world's most famous hacker conference.</li>\n</ul>"
+    "overview": "<p>Film and television have been instrumental in shaping the public's image of hackers. Often sensationalized, these portrayals have nonetheless influenced both the culture itself and how it is perceived by the mainstream.</p>\n<ul>\n<li><strong>WarGames (1983):</strong> This film introduced the archetype of the young, curious hacker who stumbles into a high-stakes scenario. Its plot, where a teenager nearly starts World War III, reportedly prompted President Ronald Reagan to inquire about the real-world possibility of such a threat, leading to the first national security directive on telecommunications security.</li>\n<li><strong>Hackers (1995):</strong> While commercially unsuccessful at first, this film became a cult classic. Its vibrant, stylized depiction of hacker subculture — complete with elaborate fashion, rollerblading, and cyberpunk visuals — created a lasting aesthetic that inspired a generation of aspiring hackers.</li>\n<li><strong>The Matrix (1999):</strong> This sci-fi blockbuster blended hacking with philosophy, kung fu, and cyberpunk themes, portraying the ultimate hack as breaking free from a simulated reality.</li>\n<li><strong>Documentaries:</strong> More recently, documentaries have offered a more authentic look. <em>The Internet's Own Boy</em> tells the tragic story of Aaron Swartz, while <em>DEFCON: The Documentary</em> provides an inside look at the world's most famous hacker conference.</li>\n</ul>"
   },
   "timeline": [],
   "relatedPeople": [],
@@ -43,6 +43,7 @@
     "sourcesCount": 3,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   }
 }

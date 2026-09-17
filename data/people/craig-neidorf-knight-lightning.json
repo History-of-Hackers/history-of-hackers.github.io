@@ -1,0 +1,75 @@
+{
+  "id": "craig-neidorf-knight-lightning",
+  "type": "person",
+  "title": "Craig Neidorf (Knight Lightning)",
+  "slug": "craig-neidorf-knight-lightning",
+  "name": "Craig Neidorf (Knight Lightning)",
+  "born": 1969,
+  "died": null,
+  "era": "1980s-1990s",
+  "tags": [
+    "phrack",
+    "e911-case",
+    "free-speech",
+    "operation-sundevil",
+    "ezines"
+  ],
+  "summary": "Co-founder of Phrack whose 1990 prosecution over a BellSouth E911 document collapsed and became a landmark for online free speech.",
+  "whyThisMatters": "The E911 case showed prosecutors treating publication as theft and helped catalyze the founding of the Electronic Frontier Foundation.",
+  "knownFor": [
+    "Co-founding Phrack (1985)",
+    "United States v. Riggs / E911 case (1990)"
+  ],
+  "sections": {
+    "overview": "<p>Craig Neidorf, known online as Knight Lightning, co-founded the electronic magazine <em>Phrack</em> with Taran King in November 1985, while a teenager in Missouri. Phrack became the leading publication of the phreaking and hacking underground.</p><h2>The E911 case</h2><p>In February 1989 Phrack issue 24 published an edited BellSouth document describing the administration of the E911 emergency system, obtained by Robert Riggs of the Legion of Doom. In 1990 Neidorf was indicted for wire fraud and interstate transportation of stolen property; prosecutors valued the document at nearly US$80,000. At trial in July 1990 the defense showed that substantially the same information was sold publicly by Bellcore for about US$13, and the government dropped the case mid-trial.</p><h2>Aftermath</h2><p>The prosecution, alongside the Operation Sundevil raids, prompted the formation of the Electronic Frontier Foundation, which assisted the defense. Neidorf later attended law school and worked in intellectual-property law. Bruce Sterling's <em>The Hacker Crackdown</em> covers the case in detail.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1985-11-17",
+      "event": "Phrack issue 1 is released, co-founded by Neidorf and Taran King."
+    },
+    {
+      "date": "1989-02",
+      "event": "Phrack 24 publishes the edited BellSouth E911 document."
+    },
+    {
+      "date": "1990-02",
+      "event": "Indicted in Chicago over the E911 document."
+    },
+    {
+      "date": "1990-07-27",
+      "event": "Prosecution drops the case mid-trial after the document is shown to be publicly available."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Bruce Sterling, 'The Hacker Crackdown' (1992), Part 3",
+      "url": "https://www.gutenberg.org/ebooks/101"
+    },
+    {
+      "title": "EFF: 'United States v. Riggs and Neidorf' case archive",
+      "url": "https://www.eff.org/cases/us-v-riggs-and-neidorf"
+    },
+    {
+      "title": "Phrack issue 24",
+      "url": "http://phrack.org/issues/24/1.html"
+    },
+    {
+      "title": "Wikipedia: Craig Neidorf",
+      "url": "https://en.wikipedia.org/wiki/Craig_Neidorf"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

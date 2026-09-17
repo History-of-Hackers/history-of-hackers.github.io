@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "1998-Present",
-  "tags": ["responsible disclosure", "netherlands", "dutch", "gdi foundation", "divd", "database security", "coordinated vulnerability disclosure", "ethical hacking"],
+  "tags": [
+    "responsible disclosure",
+    "netherlands",
+    "dutch",
+    "gdi foundation",
+    "divd",
+    "database security",
+    "coordinated vulnerability disclosure",
+    "ethical hacking"
+  ],
   "summary": "Victor Gevers is a Dutch security researcher and self-described ethical hacker who has been active since 1998, known for founding the GDI Foundation and co-founding the Dutch Institute for Vulnerability Disclosure (DIVD), through which he has reported thousands of exposed databases and critical software vulnerabilities.",
   "whyThisMatters": "Gevers is one of the most prolific practitioners of large-scale coordinated vulnerability disclosure, having reported an enormous volume of misconfigured and exposed systems to governments, companies, and critical-infrastructure operators worldwide. His work through GDI Foundation and DIVD helped popularize organized, volunteer-driven internet-wide scanning for vulnerabilities as a public-interest security practice, and DIVD's involvement in the Kaseya VSA case made it one of the more visible examples of researchers racing against ransomware operators. He also drew significant media attention in 2019 for discovering the exposed SenseNets surveillance database in China and, separately, for accessing a U.S. president's Twitter account without being charged, both episodes widely cited in discussions of ethical-hacking norms and legal risk.",
   "knownFor": [
@@ -22,13 +31,34 @@
     "overview": "<h2>Background</h2><p>Victor Gevers is a Dutch security researcher who has described himself as hacking since 1998. Over more than two decades he built a reputation within the international security community for locating exposed and misconfigured systems on the public internet &mdash; ranging from open databases to poorly secured government and corporate infrastructure &mdash; and reporting them to the responsible parties under the principles of responsible, or coordinated, vulnerability disclosure.</p><h2>GDI Foundation</h2><p>Gevers founded the GDI Foundation (GDI standing for \"GDI.foundation\"), a volunteer-driven nonprofit organization dedicated to identifying vulnerable and exposed systems and notifying their owners free of charge. The organization operates internationally, scanning the internet for weaknesses such as open databases, exposed credentials, and unpatched services, and has been credited with reporting large numbers of such cases over the years, including widescale exposures of unsecured MongoDB and Elasticsearch instances.</p><h2>Founding DIVD</h2><p>On September 26, 2019, Gevers co-founded the Dutch Institute for Vulnerability Disclosure (DIVD) together with Astrid Oosenbrug, formalizing coordinated vulnerability disclosure work under a Netherlands-based nonprofit. DIVD describes its mission as making the digital world safer by scanning the internet for vulnerabilities and reporting them to the people who can fix them, operating what it calls a global reach carried out \"Dutch style: open, honest, collaborative, and for free.\" Since 2022, DIVD has held status as a CVE Numbering Authority, the first independent Dutch organization to receive that designation, allowing it to formally assign CVE identifiers to vulnerabilities its volunteers discover.</p><h2>The SenseNets disclosure</h2><p>In 2019, Gevers discovered and disclosed a major data breach involving SenseNets, a Chinese facial-recognition and surveillance technology company, whose exposed, unsecured database reportedly contained tracking data on an estimated 2.5 million people, many linked to surveillance of the Uyghur population in Xinjiang. The discovery drew significant international press attention to the scale of biometric and location surveillance conducted through commercially exposed systems.</p><h2>The Kaseya VSA case</h2><p>In early April 2021, DIVD researcher Wietse Boonstra, working under Gevers' organization, discovered and reported a set of vulnerabilities in Kaseya's VSA remote-monitoring software, including the flaw later tracked as CVE-2021-30116. DIVD worked with Kaseya for roughly three months attempting to get the vulnerabilities patched before they could be exploited. In a July 4, 2021 blog post, Gevers wrote that Kaseya had been \"very cooperative\" and \"asked the right questions,\" sharing partial patches for validation, but that DIVD was ultimately \"beaten by REvil in the final sprint, as they could exploit the vulnerabilities before customers could even patch,\" referring to the REvil ransomware gang's large-scale supply-chain attack on Kaseya VSA customers in July 2021. Gevers also noted a broader pattern DIVD had observed: that products intended to keep networks safe were increasingly showing structural security weaknesses.</p><h2>Trump Twitter account access</h2><p>Gevers received wide media coverage after reporting in 2020 that he had been able to log into the Twitter account of then U.S. President Donald Trump, reportedly by guessing the account's password. He was not criminally charged in connection with the incident. The episode, alongside his other disclosures, was frequently cited in press coverage as an illustration of the legal ambiguity that ethical hackers can face even when their intent is to demonstrate a security weakness rather than cause harm.</p><h2>Significance and legacy</h2><p>Gevers is regarded as a prominent figure in the coordinated-vulnerability-disclosure movement, particularly for his role in scaling up volunteer-driven, internet-wide scanning as an organized nonprofit activity rather than solitary research. Through the GDI Foundation and DIVD, his work has been credited with notifying the operators of large numbers of exposed systems, and DIVD's near-miss involvement in the Kaseya ransomware incident is frequently referenced as a case study in the difficulty of racing ransomware actors to patch critical vulnerabilities. His combination of high-profile disclosures and non-prosecution in cases like the Trump Twitter incident has also made him a recurring reference point in discussions of how legal systems treat unauthorized-but-disclosed access by security researchers.</p>"
   },
   "timeline": [
-    { "date": "1998", "event": "Gevers states he began hacking, later describing decades of security research activity." },
-    { "date": "2019-09-26", "event": "Co-founded the Dutch Institute for Vulnerability Disclosure (DIVD) with Astrid Oosenbrug." },
-    { "date": "2019", "event": "Discovered and disclosed the exposed SenseNets surveillance database in China, affecting an estimated 2.5 million people." },
-    { "date": "2020-10", "event": "Reported gaining access to Donald Trump's Twitter account; he was not criminally charged over the incident." },
-    { "date": "2021-04-02", "event": "DIVD researcher Wietse Boonstra, under Gevers' organization, reported the Kaseya VSA vulnerability later tracked as CVE-2021-30116." },
-    { "date": "2021-07-04", "event": "Gevers published a blog post detailing DIVD's effort to get Kaseya vulnerabilities patched before the REvil ransomware attack exploited them." },
-    { "date": "2022", "event": "DIVD became a CVE Numbering Authority, the first independent Dutch organization with that designation." }
+    {
+      "date": "1998",
+      "event": "Gevers states he began hacking, later describing decades of security research activity."
+    },
+    {
+      "date": "2019-09-26",
+      "event": "Co-founded the Dutch Institute for Vulnerability Disclosure (DIVD) with Astrid Oosenbrug."
+    },
+    {
+      "date": "2019",
+      "event": "Discovered and disclosed the exposed SenseNets surveillance database in China, affecting an estimated 2.5 million people."
+    },
+    {
+      "date": "2020-10",
+      "event": "Reported gaining access to Donald Trump's Twitter account; he was not criminally charged over the incident."
+    },
+    {
+      "date": "2021-04-02",
+      "event": "DIVD researcher Wietse Boonstra, under Gevers' organization, reported the Kaseya VSA vulnerability later tracked as CVE-2021-30116."
+    },
+    {
+      "date": "2021-07-04",
+      "event": "Gevers published a blog post detailing DIVD's effort to get Kaseya vulnerabilities patched before the REvil ransomware attack exploited them."
+    },
+    {
+      "date": "2022",
+      "event": "DIVD became a CVE Numbering Authority, the first independent Dutch organization with that designation."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -36,16 +66,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Victor Gevers - Wikipedia", "url": "https://en.wikipedia.org/wiki/Victor_Gevers" },
-    { "title": "Dutch Institute for Vulnerability Disclosure - Wikipedia", "url": "https://en.wikipedia.org/wiki/Dutch_Institute_for_Vulnerability_Disclosure" },
-    { "title": "DIVD official website", "url": "https://www.divd.nl" },
-    { "title": "Kaseya Left Customer Portal Vulnerable to 2015 Flaw in its Own Software - Krebs on Security", "url": "https://krebsonsecurity.com/2021/07/kaseya-left-customer-portal-vulnerable-to-2015-flaw-in-its-own-software/" }
+    {
+      "title": "Victor Gevers - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Victor_Gevers"
+    },
+    {
+      "title": "Dutch Institute for Vulnerability Disclosure - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dutch_Institute_for_Vulnerability_Disclosure"
+    },
+    {
+      "title": "DIVD official website",
+      "url": "https://www.divd.nl"
+    },
+    {
+      "title": "Kaseya Left Customer Portal Vulnerable to 2015 Flaw in its Own Software - Krebs on Security",
+      "url": "https://krebsonsecurity.com/2021/07/kaseya-left-customer-portal-vulnerable-to-2015-flaw-in-its-own-software/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

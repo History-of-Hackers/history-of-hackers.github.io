@@ -17,7 +17,7 @@
   "summary": "British security researcher known by the alias \"Major Malfunction,\" who co-discovered and publicized the Bluetooth \"bluesnarfing\" vulnerability in 2003 and later created the open-source RFIDIOt and RFIDler RFID/NFC security research tools.",
   "whyThisMatters": "British security researcher known by the alias \"Major Malfunction,\" who co-discovered and publicized the Bluetooth \"bluesnarfing\" vulnerability in 2003 and later created the open-source RFIDIOt and RFIDler RFID/NFC security research tools.",
   "sections": {
-    "overview": "<p>Adam Laurie is a British security researcher and hardware hacker widely known in the hacking community by the alias \"Major Malfunction.\" He is best known for his early-2000s Bluetooth vulnerability research and for creating open-source RFID/NFC security tools, most notably RFIDIOt and RFIDler.</p><h2>Bluetooth research and \"Bluesnarfing\"</h2><p>According to his official DEF CON 12 speaker biography, Laurie served as Chief Security Officer and Director of A.L. Digital Ltd. and of The Bunker, and had been a senior member of DEF CON staff since 1997. In November 2003, working through A.L. Digital, he discovered serious flaws in the authentication and data-transfer mechanisms of Bluetooth-enabled mobile phones from Nokia, Sony Ericsson and Motorola \u2014 vulnerabilities that became publicly known as \"Bluesnarfing.\" In 2004 he presented these findings with fellow researcher Martin Herfurt at DEF CON 12 in a talk titled \"Bluesnarfing \u2014 The Risk From Digital Pickpockets.\" The following year, on 30 December 2005, Laurie joined Herfurt and BlueZ Linux Bluetooth-stack maintainer Marcel Holtmann at the Chaos Communication Congress (22C3) for \"Bluetooth Hacking \u2014 The State of the Art,\" a talk covering bluebugging, snarfing, PIN cracking and \"car whispering\" attacks, with live demonstrations.</p><h2>Infrared and RFID/NFC work</h2><p>Under the Major Malfunction alias, Laurie also researched infrared protocols, presenting \"Old Skewl Hacking \u2014 InfraRed\" (built around his MMIrDA / Major Malfunction's InfraRed Discovery Application tool) at DEF CON 13 in 2005, with an updated version later that year at 22C3. His most enduring contribution to the security-research community is RFIDIOt, an open-source Python library and toolset for exploring RFID and NFC technology, released under the GPL and hosted at rfidiot.org (copyright dating from 2006). He later extended this work with Zac Franken into RFIDler, an open-source software-defined RFID reader, writer and emulator; the project was launched via a Kickstarter campaign unveiled at DEF CON 21 in 2013, and a matured version was demonstrated in a follow-up \"DEF CONversation\" segment with DEF CON founder Dark Tangent at DEF CON 22 in 2014.</p><h2>Later work</h2><p>Laurie's GitHub profile (github.com/AdamLaurie) lists him as based in Beaminster, Dorset, UK, and associated with alpitronic GmbH. Beyond RFIDIOt and RFIDler, he maintains several other hardware-security projects, including rompar (a tool for automated data extraction from microscope images of ROM chips), ChronIC (a wearable sub-GHz RF hacking device), hdmi-sniff (an HDMI DDC traffic analysis tool), and sjcam (a command-line tool for SJCAM WiFi action cameras) \u2014 reflecting a career-long focus on practical, low-level hardware and wireless security research.</p><p><em>Note: Some commonly repeated claims about Laurie (such as specific RFID e-passport cloning demonstrations) could not be independently verified from primary sources during this research and have been omitted rather than stated as fact. No verified birth date was found.</em></p>"
+    "overview": "<p>Adam Laurie is a British security researcher and hardware hacker widely known in the hacking community by the alias \"Major Malfunction.\" He is best known for his early-2000s Bluetooth vulnerability research and for creating open-source RFID/NFC security tools, most notably RFIDIOt and RFIDler.</p><h2>Bluetooth research and \"Bluesnarfing\"</h2><p>According to his official DEF CON 12 speaker biography, Laurie served as Chief Security Officer and Director of A.L. Digital Ltd. and of The Bunker, and had been a senior member of DEF CON staff since 1997. In November 2003, working through A.L. Digital, he discovered serious flaws in the authentication and data-transfer mechanisms of Bluetooth-enabled mobile phones from Nokia, Sony Ericsson and Motorola — vulnerabilities that became publicly known as \"Bluesnarfing.\" In 2004 he presented these findings with fellow researcher Martin Herfurt at DEF CON 12 in a talk titled \"Bluesnarfing — The Risk From Digital Pickpockets.\" The following year, on 30 December 2005, Laurie joined Herfurt and BlueZ Linux Bluetooth-stack maintainer Marcel Holtmann at the Chaos Communication Congress (22C3) for \"Bluetooth Hacking — The State of the Art,\" a talk covering bluebugging, snarfing, PIN cracking and \"car whispering\" attacks, with live demonstrations.</p><h2>Infrared and RFID/NFC work</h2><p>Under the Major Malfunction alias, Laurie also researched infrared protocols, presenting \"Old Skewl Hacking — InfraRed\" (built around his MMIrDA / Major Malfunction's InfraRed Discovery Application tool) at DEF CON 13 in 2005, with an updated version later that year at 22C3. His most enduring contribution to the security-research community is RFIDIOt, an open-source Python library and toolset for exploring RFID and NFC technology, released under the GPL and hosted at rfidiot.org (copyright dating from 2006). He later extended this work with Zac Franken into RFIDler, an open-source software-defined RFID reader, writer and emulator; the project was launched via a Kickstarter campaign unveiled at DEF CON 21 in 2013, and a matured version was demonstrated in a follow-up \"DEF CONversation\" segment with DEF CON founder Dark Tangent at DEF CON 22 in 2014.</p><h2>Later work</h2><p>Laurie's GitHub profile (github.com/AdamLaurie) lists him as based in Beaminster, Dorset, UK, and associated with alpitronic GmbH. Beyond RFIDIOt and RFIDler, he maintains several other hardware-security projects, including rompar (a tool for automated data extraction from microscope images of ROM chips), ChronIC (a wearable sub-GHz RF hacking device), hdmi-sniff (an HDMI DDC traffic analysis tool), and sjcam (a command-line tool for SJCAM WiFi action cameras) — reflecting a career-long focus on practical, low-level hardware and wireless security research.</p><p><em>Note: Some commonly repeated claims about Laurie (such as specific RFID e-passport cloning demonstrations) could not be independently verified from primary sources during this research and have been omitted rather than stated as fact. No verified birth date was found.</em></p>"
   },
   "timeline": [
     {
@@ -30,15 +30,15 @@
     },
     {
       "date": "2004",
-      "event": "Presents \"Bluesnarfing \u2014 The Risk From Digital Pickpockets\" with Martin Herfurt at DEF CON 12."
+      "event": "Presents \"Bluesnarfing — The Risk From Digital Pickpockets\" with Martin Herfurt at DEF CON 12."
     },
     {
       "date": "2005",
-      "event": "Presents \"Old Skewl Hacking \u2014 InfraRed\" (Major Malfunction / MMIrDA) at DEF CON 13."
+      "event": "Presents \"Old Skewl Hacking — InfraRed\" (Major Malfunction / MMIrDA) at DEF CON 13."
     },
     {
       "date": "2005-12-30",
-      "event": "Presents \"Bluetooth Hacking \u2014 The State of the Art\" with Marcel Holtmann and Martin Herfurt, and an updated infrared-hacking talk, at 22C3 (Chaos Communication Congress)."
+      "event": "Presents \"Bluetooth Hacking — The State of the Art\" with Marcel Holtmann and Martin Herfurt, and an updated infrared-hacking talk, at 22C3 (Chaos Communication Congress)."
     },
     {
       "date": "2006",
@@ -97,7 +97,8 @@
     "sourcesCount": 8,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
   "name": "Adam Laurie",
   "born": null,
@@ -105,8 +106,8 @@
   "knownFor": [
     "Creator and maintainer of RFIDIOt, an open-source Python RFID/NFC security library and toolset (rfidiot.org)",
     "In November 2003, discovered serious flaws in Bluetooth authentication and data-transfer mechanisms on Nokia, Sony Ericsson and Motorola phones, publicized as \"Bluesnarfing\"",
-    "Presented \"Bluesnarfing \u2014 The Risk From Digital Pickpockets\" with Martin Herfurt at DEF CON 12 (2004)",
-    "Presented \"Bluetooth Hacking \u2014 The State of the Art\" with Marcel Holtmann and Martin Herfurt at 22C3 (Chaos Communication Congress, Dec 2005)",
+    "Presented \"Bluesnarfing — The Risk From Digital Pickpockets\" with Martin Herfurt at DEF CON 12 (2004)",
+    "Presented \"Bluetooth Hacking — The State of the Art\" with Marcel Holtmann and Martin Herfurt at 22C3 (Chaos Communication Congress, Dec 2005)",
     "Presented infrared-hacking research (\"Old Skewl Hacking\", MMIrDA tool) under the alias Major Malfunction at DEF CON 13 (2005) and 22C3 (2005)",
     "Co-created RFIDler, an open-source software-defined RFID reader/writer/emulator, with Zac Franken (Kickstarter launched at DEF CON 21 in 2013, mature version shown at DEF CON 22 in 2014)",
     "Chief Security Officer and Director of A.L. Digital Ltd. and of The Bunker secure hosting facility (per his 2004 DEF CON speaker bio)",

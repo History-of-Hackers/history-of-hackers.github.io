@@ -4,7 +4,10 @@
   "type": "publication",
   "title": "Publication Title",
   "authors": [
-    { "name": "", "personRef": "slug-if-has-own-page-or-null" }
+    {
+      "name": "",
+      "personRef": "slug-if-has-own-page-or-null"
+    }
   ],
   "firstPublished": "YYYY-MM-DD or YYYY",
   "fields": [],
@@ -16,7 +19,10 @@
     "legacy": ""
   },
   "timeline": [
-    { "date": "YYYY-MM-DD", "event": "" }
+    {
+      "date": "YYYY-MM-DD",
+      "event": ""
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,6 +43,7 @@
     "sourcesCount": 0,
     "lastReviewed": null,
     "reviewStatus": "TODO | RESEARCHING | VERIFIED | ARTICLE_READY | PUBLISHED",
-    "reviewer": null
+    "reviewer": null,
+    "createdBy": "Your Name (shown as 'Created by' on the page)"
   }
 }

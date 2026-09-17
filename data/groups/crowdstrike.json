@@ -4,21 +4,53 @@
   "title": "CrowdStrike",
   "slug": "crowdstrike",
   "era": "2011-Present",
-  "tags": ["cybersecurity company", "endpoint detection", "threat intelligence", "dnc breach", "apt attribution", "falcon platform", "incident response"],
+  "tags": [
+    "cybersecurity company",
+    "endpoint detection",
+    "threat intelligence",
+    "dnc breach",
+    "apt attribution",
+    "falcon platform",
+    "incident response"
+  ],
   "summary": "CrowdStrike is an American cybersecurity company founded in 2011 by George Kurtz, Dmitri Alperovitch, and Gregg Marston, known for its cloud-native Falcon endpoint protection platform and for its 2016 investigation attributing the Democratic National Committee hack to Russian state-linked groups.",
   "whyThisMatters": "CrowdStrike's Falcon platform helped popularize cloud-delivered, lightweight endpoint detection and response (EDR) as an alternative to traditional signature-based antivirus, reshaping enterprise defense practices industry-wide. Its 2016 DNC investigation placed a private security firm's threat-attribution work at the center of a major geopolitical controversy, illustrating how commercial incident responders can shape public and government understanding of state-sponsored intrusions. The company's rapid 2019 IPO and subsequent growth into a dominant, multi-billion-dollar security vendor made it one of the defining commercial forces in modern cybersecurity. Conversely, the July 2024 global outage caused by a faulty Falcon sensor update became one of the largest IT disruptions in history, underscoring the systemic risk concentrated in widely deployed security software.",
   "sections": {
     "overview": "<h2>Background and Founding</h2><p>CrowdStrike Holdings, Inc. is an American cybersecurity technology company headquartered in Austin, Texas. It was founded in 2011 by George Kurtz, a former McAfee chief technology officer, Dmitri Alperovitch, a threat-intelligence researcher previously with McAfee, and Gregg Marston, who served as the company's first chief financial officer. Kurtz has served as CEO since founding, while Alperovitch served as chief technology officer until stepping back from day-to-day operations in 2020. The company was built around the premise that traditional signature-based antivirus software was no longer adequate against sophisticated, human-operated intrusions, and that endpoint security should instead rely on cloud-based behavioral analytics and threat intelligence.</p><h2>The Falcon Platform</h2><p>CrowdStrike's flagship product, the Falcon platform, launched commercially in June 2013. Falcon uses a lightweight software agent installed on endpoints (laptops, servers, and other devices) that streams telemetry to CrowdStrike's cloud infrastructure, where it is analyzed using behavioral analytics, machine learning, and threat-intelligence data to detect and stop malicious activity in real time. This cloud-native, agent-based architecture was positioned as a successor to conventional antivirus products and became a widely cited example of modern endpoint detection and response (EDR) technology. Over time CrowdStrike expanded Falcon into a broader security suite covering cloud workload protection, identity security, and managed threat hunting, and it markets its incident-response and threat-intelligence services under names such as CrowdStrike Services and its named-adversary tracking system (e.g., \"Fancy Bear,\" \"Cozy Bear\").</p><h2>The 2016 DNC Breach Investigation</h2><p>CrowdStrike gained wide public attention in 2016 when the Democratic National Committee (DNC) hired the company to investigate a breach of its computer network. CrowdStrike's investigators concluded that two separate Russian state-linked intrusion groups, which the company tracked as \"Fancy Bear\" (associated with Russian military intelligence, the GRU) and \"Cozy Bear\" (associated with Russia's Federal Security Service or foreign intelligence service), had independently compromised DNC systems. CrowdStrike published a technical report on the intrusion in June 2016. Then-FBI Director James Comey later testified to Congress in March 2017 that the FBI concurred with CrowdStrike's findings, and the assessment was consistent with a subsequent U.S. intelligence community assessment concluding that Russian actors interfered in the 2016 U.S. presidential election. Because the DNC did not turn its servers over to the FBI directly and instead relied on CrowdStrike's forensic analysis, the company's role and methodology became a subject of public and political scrutiny in the years that followed, including references during the first impeachment inquiry into President Donald Trump.</p><h2>Public Listing and Corporate Growth</h2><p>CrowdStrike filed for an initial public offering and began trading on the Nasdaq stock exchange in June 2019, with shares rising sharply on their first day of trading. The company grew rapidly in subsequent years through both organic growth and acquisitions, expanding its offerings into cloud security, identity protection, and managed detection and response services. In June 2024, CrowdStrike was added to the S&P 500 index, reflecting its position as one of the largest publicly traded cybersecurity companies.</p><h2>The July 2024 Global IT Outage</h2><p>On July 19, 2024, a faulty content-configuration update to a Falcon sensor component (referred to as \"Channel File 291\") caused a defect that led approximately 8.5 million Windows devices worldwide to crash or enter repeated boot loops. The outage disrupted airlines, hospitals, banks, broadcasters, and other critical services globally, and is considered one of the largest IT outages in history by number of affected devices. CrowdStrike identified and reverted the faulty update within roughly an hour, but full recovery for many organizations took days because affected machines often required manual, per-device remediation. CEO George Kurtz issued public apologies and the company committed to process changes intended to prevent similar incidents. Delta Air Lines, which experienced the most severe and prolonged airline disruption from the outage, filed suit against CrowdStrike in October 2024 seeking roughly $500 million in damages; CrowdStrike disputed the claims and countersued, arguing that Delta's own IT and contingency planning extended its recovery time.</p><h2>Legacy and Significance</h2><p>CrowdStrike is regarded as one of the companies that helped mainstream cloud-delivered endpoint detection and response as a standard element of enterprise cybersecurity, alongside competitors that emerged in the same period. Its work attributing major intrusions to nation-state actors, most notably the 2016 DNC hack, cemented the role that private threat-intelligence firms play in public and government understanding of state-sponsored cyber activity, while also drawing scrutiny over the evidentiary weight given to privately conducted forensic investigations. The 2024 global outage additionally made CrowdStrike a central case study in discussions of systemic risk created by widely deployed, deeply privileged security software running on critical infrastructure.</p>"
   },
   "timeline": [
-    { "date": "2011", "event": "CrowdStrike is founded by George Kurtz, Dmitri Alperovitch, and Gregg Marston." },
-    { "date": "2013-06", "event": "The Falcon endpoint protection platform launches commercially." },
-    { "date": "2016-06", "event": "CrowdStrike publishes findings attributing the Democratic National Committee network breach to Russian state-linked groups it tracks as Fancy Bear and Cozy Bear." },
-    { "date": "2017-03", "event": "FBI Director James Comey testifies to Congress that the FBI's conclusions align with CrowdStrike's attribution of the DNC hack." },
-    { "date": "2019-06", "event": "CrowdStrike Holdings goes public on Nasdaq; shares rise sharply on the first day of trading." },
-    { "date": "2024-06", "event": "CrowdStrike is added to the S&P 500 index." },
-    { "date": "2024-07-19", "event": "A faulty Falcon sensor configuration update triggers a global IT outage affecting an estimated 8.5 million Windows devices." },
-    { "date": "2024-10", "event": "Delta Air Lines sues CrowdStrike over losses from the July 2024 outage; CrowdStrike countersues." }
+    {
+      "date": "2011",
+      "event": "CrowdStrike is founded by George Kurtz, Dmitri Alperovitch, and Gregg Marston."
+    },
+    {
+      "date": "2013-06",
+      "event": "The Falcon endpoint protection platform launches commercially."
+    },
+    {
+      "date": "2016-06",
+      "event": "CrowdStrike publishes findings attributing the Democratic National Committee network breach to Russian state-linked groups it tracks as Fancy Bear and Cozy Bear."
+    },
+    {
+      "date": "2017-03",
+      "event": "FBI Director James Comey testifies to Congress that the FBI's conclusions align with CrowdStrike's attribution of the DNC hack."
+    },
+    {
+      "date": "2019-06",
+      "event": "CrowdStrike Holdings goes public on Nasdaq; shares rise sharply on the first day of trading."
+    },
+    {
+      "date": "2024-06",
+      "event": "CrowdStrike is added to the S&P 500 index."
+    },
+    {
+      "date": "2024-07-19",
+      "event": "A faulty Falcon sensor configuration update triggers a global IT outage affecting an estimated 8.5 million Windows devices."
+    },
+    {
+      "date": "2024-10",
+      "event": "Delta Air Lines sues CrowdStrike over losses from the July 2024 outage; CrowdStrike countersues."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -26,15 +58,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "CrowdStrike - Wikipedia", "url": "https://en.wikipedia.org/wiki/CrowdStrike" },
-    { "title": "2024 CrowdStrike-related IT outages - Wikipedia", "url": "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages" },
-    { "title": "CrowdStrike - About Us", "url": "https://www.crowdstrike.com/en-us/about-us/" }
+    {
+      "title": "CrowdStrike - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CrowdStrike"
+    },
+    {
+      "title": "2024 CrowdStrike-related IT outages - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages"
+    },
+    {
+      "title": "CrowdStrike - About Us",
+      "url": "https://www.crowdstrike.com/en-us/about-us/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

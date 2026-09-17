@@ -7,7 +7,16 @@
   "born": "1945-10-23",
   "died": "2024-10-11",
   "era": "1970s-2024",
-  "tags": ["bbs", "xmodem", "cbbs", "file transfer", "modems", "cp/m", "online communities", "ibm"],
+  "tags": [
+    "bbs",
+    "xmodem",
+    "cbbs",
+    "file transfer",
+    "modems",
+    "cp/m",
+    "online communities",
+    "ibm"
+  ],
   "summary": "Ward Christensen was an American computer hobbyist and longtime IBM systems engineer who created the XMODEM file transfer protocol in 1977 and, with Randy Suess, brought the first bulletin board system, CBBS, online in Chicago on February 16, 1978. His work established the technical and social template for dial-up online communities that preceded the public Internet.",
   "whyThisMatters": "CBBS demonstrated that ordinary computer hobbyists could run a public, dial-in message system on inexpensive microcomputer hardware, and the November 1978 Byte magazine article describing it prompted hundreds of imitators across North America. XMODEM gave those systems a simple, error-checked way to move binary files over noisy telephone lines, and because Christensen placed it in the public domain it was implemented in nearly every terminal program of the era. Together the two contributions created the dial-up BBS culture in which much of early hacker, warez, phreaking, and free-software exchange took place. The design lineage from XMODEM runs directly through XMODEM-CRC and XMODEM-1K to Chuck Forsberg's YMODEM and ZMODEM.",
   "knownFor": [
@@ -21,16 +30,46 @@
     "overview": "<h2>Background</h2><p>Ward Christensen was born on October 23, 1945, in West Bend, Wisconsin. He earned a bachelor's degree in physics and chemistry from Milton College in 1968 and joined IBM in the same year, working as a systems engineer for the company until his retirement in 2012. Outside his professional work he was an active member of the Chicago Area Computer Hobbyists' Exchange (CACHE), one of the microcomputer clubs that formed in the mid-1970s around the first affordable personal computer kits.</p><h2>XMODEM</h2><p>In 1977 Christensen wrote an assembly-language terminal program for CP/M microcomputers that included a routine for sending files over a dial-up modem link. The original source file was named MODEM.ASM; the protocol it implemented was later given minor revisions by Keith Petersen and renamed XMODEM, the name by which it became known.</p><p>The protocol was deliberately simple. Data was sent in 128-byte blocks, a size chosen to match the sector size used by CP/M floppy disks. Each packet carried a three-byte header consisting of a start-of-header character, the block number, and the ones' complement of the block number, followed by the data and a single-byte arithmetic checksum, for a total of 132 bytes. The receiving end replied to each block with an acknowledgement or a negative acknowledgement, and a block that failed its checksum was retransmitted. This gave hobbyists a practical way to move binary programs across noisy consumer telephone lines, something that plain terminal echoing could not do reliably.</p><p>Christensen placed the protocol in the public domain rather than attempting to license it, and it was consequently reimplemented in a very large number of communications programs. He later remarked that he believed it to be the single most modified program in computing history. Successors extended the original design: XMODEM-CRC replaced the checksum with a 16-bit cyclic redundancy check, XMODEM-1K raised the block size to 1024 bytes for better throughput, and Chuck Forsberg's YMODEM and ZMODEM consolidated and extended the family further.</p><h2>CBBS</h2><p>In January 1978 Chicago was shut down by a severe blizzard. Christensen and fellow CACHE member Randy Suess used the enforced free time to build a system that would let club members post and read notices remotely, an electronic version of the cork bulletin boards used to circulate newsletter articles and classified ads. Christensen wrote the software; Suess assembled the S-100 bus hardware, paid for the equipment, and hosted the machine at his home. Suess also built custom circuitry that power-cycled the system on an incoming ring so that each caller effectively started from a cold boot, a pragmatic answer to the instability of homebrew hardware.</p><p>The pair had a working version within about two weeks, though they publicly described the effort as having taken four so that it would not appear rushed. They settled on February 16, 1978, as the system's official launch date. CBBS, for Computerized Bulletin Board System, supported a single modem line, so callers took turns and hung up when finished to free the line for the next user.</p><h2>Publication and influence</h2><p>Christensen and Suess described the system in an article titled \"Hobbyist Computerized Bulletin Board\" in the November 1978 issue of Byte magazine, which included technical details of the hardware and software along with the telephone number for the system itself. The article was widely read and prompted hobbyists elsewhere to build their own boards. Over the following decade the BBS grew into a large decentralized network of independently operated dial-up systems that carried message forums, file libraries, and eventually store-and-forward mail networks such as FidoNet, and it served as the primary online meeting place for hackers, phreaks, and software enthusiasts before commercial Internet access became common. Christensen's original CBBS ran until the early 1990s; Suess continued to operate the related Chinet system.</p><h2>Recognition and later life</h2><p>Christensen received two Dvorak Awards for Excellence in Telecommunications in 1992, one shared with Suess for developing the first BBS and one for lifetime achievement. In 1993 the Electronic Frontier Foundation gave him a Pioneer Award, in a class that also included Paul Baran, Vinton Cerf, and Dave Hughes together with the developers of the USENET software.</p><p>He remained in the Chicago area, kept a low public profile, and in later years taught soldering through the Build-a-Blinkie nonprofit. He died of a heart attack on October 11, 2024, at his home in Rolling Meadows, Illinois, at the age of 78.</p>"
   },
   "timeline": [
-    { "date": "1945-10-23", "event": "Born in West Bend, Wisconsin." },
-    { "date": "1968", "event": "Earns a BA in physics and chemistry from Milton College and joins IBM as a systems engineer." },
-    { "date": "1977", "event": "Writes MODEM.ASM, the CP/M terminal program whose file transfer routine becomes the XMODEM protocol." },
-    { "date": "1978-01", "event": "The Great Blizzard of 1978 shuts down Chicago; Christensen and Randy Suess begin building a dial-in bulletin board." },
-    { "date": "1978-02-16", "event": "CBBS, the first bulletin board system, goes online in Chicago." },
-    { "date": "1978-11", "event": "Christensen and Suess publish \"Hobbyist Computerized Bulletin Board\" in Byte magazine, sparking widespread imitation." },
-    { "date": "1992", "event": "Receives two Dvorak Awards for Excellence in Telecommunications, including one shared with Suess for the first BBS." },
-    { "date": "1993", "event": "Receives an EFF Pioneer Award from the Electronic Frontier Foundation." },
-    { "date": "2012", "event": "Retires from IBM after 44 years." },
-    { "date": "2024-10-11", "event": "Dies of a heart attack in Rolling Meadows, Illinois, at age 78." }
+    {
+      "date": "1945-10-23",
+      "event": "Born in West Bend, Wisconsin."
+    },
+    {
+      "date": "1968",
+      "event": "Earns a BA in physics and chemistry from Milton College and joins IBM as a systems engineer."
+    },
+    {
+      "date": "1977",
+      "event": "Writes MODEM.ASM, the CP/M terminal program whose file transfer routine becomes the XMODEM protocol."
+    },
+    {
+      "date": "1978-01",
+      "event": "The Great Blizzard of 1978 shuts down Chicago; Christensen and Randy Suess begin building a dial-in bulletin board."
+    },
+    {
+      "date": "1978-02-16",
+      "event": "CBBS, the first bulletin board system, goes online in Chicago."
+    },
+    {
+      "date": "1978-11",
+      "event": "Christensen and Suess publish \"Hobbyist Computerized Bulletin Board\" in Byte magazine, sparking widespread imitation."
+    },
+    {
+      "date": "1992",
+      "event": "Receives two Dvorak Awards for Excellence in Telecommunications, including one shared with Suess for the first BBS."
+    },
+    {
+      "date": "1993",
+      "event": "Receives an EFF Pioneer Award from the Electronic Frontier Foundation."
+    },
+    {
+      "date": "2012",
+      "event": "Retires from IBM after 44 years."
+    },
+    {
+      "date": "2024-10-11",
+      "event": "Dies of a heart attack in Rolling Meadows, Illinois, at age 78."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,18 +77,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Ward Christensen - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ward_Christensen" },
-    { "title": "CBBS - Wikipedia", "url": "https://en.wikipedia.org/wiki/CBBS" },
-    { "title": "XMODEM - Wikipedia", "url": "https://en.wikipedia.org/wiki/XMODEM" },
-    { "title": "EFF Pioneer Award Winners - Electronic Frontier Foundation", "url": "https://www.eff.org/awards/pioneer" },
-    { "title": "Social Media's Dial-Up Ancestor: The Bulletin Board System - IEEE Spectrum", "url": "https://spectrum.ieee.org/social-medias-dialup-ancestor-the-bulletin-board-system" },
-    { "title": "CBBS - Chinet", "url": "https://chinet.com/html/cbbs.html" }
+    {
+      "title": "Ward Christensen - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ward_Christensen"
+    },
+    {
+      "title": "CBBS - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CBBS"
+    },
+    {
+      "title": "XMODEM - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/XMODEM"
+    },
+    {
+      "title": "EFF Pioneer Award Winners - Electronic Frontier Foundation",
+      "url": "https://www.eff.org/awards/pioneer"
+    },
+    {
+      "title": "Social Media's Dial-Up Ancestor: The Bulletin Board System - IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/social-medias-dialup-ancestor-the-bulletin-board-system"
+    },
+    {
+      "title": "CBBS - Chinet",
+      "url": "https://chinet.com/html/cbbs.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

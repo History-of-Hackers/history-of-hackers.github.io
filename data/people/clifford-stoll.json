@@ -1,1 +1,63 @@
-{"id":"clifford-stoll","type":"person","title":"Clifford Stoll","slug":"clifford-stoll","name":"Clifford Stoll","born":1950,"died":null,"era":"1986-Present","tags":["author","computer-espionage","incident-response","books"],"summary":"Astronomer and author whose investigation of a small accounting anomaly at Lawrence Berkeley Laboratory became a landmark computer-espionage case and the book The Cuckoo's Egg.","whyThisMatters":"Stoll's account made long-form incident investigation understandable to a broad public and remains a key document in the history of computer espionage.","knownFor":["The Cuckoo's Egg","Lawrence Berkeley Laboratory investigation","Science writing"],"sections":{"overview":"<p>Clifford Stoll is an astronomer, author, and former systems administrator. While working at Lawrence Berkeley Laboratory in 1986, he investigated an unexplained 75-cent accounting discrepancy and followed evidence of unauthorized access.</p><h2>The Cuckoo's Egg</h2><p>His 1989 book <em>The Cuckoo's Egg</em> recounts that investigation and its connection to computer espionage. The book is an enduring primary narrative of the operational work behind an intrusion investigation.</p>"},"timeline":[{"date":"1986","event":"Investigates unauthorized access while working at Lawrence Berkeley Laboratory."},{"date":"1989","event":"Publishes The Cuckoo's Egg."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Simon & Schuster: The Cuckoo's Egg","url":"https://www.simonandschuster.com/books/The-Cuckoos-Egg/Cliff-Stoll/9781668048160"},{"title":"Penguin Random House: Clifford Stoll","url":"https://www.penguinrandomhouse.com/authors/29975/clifford-stoll/"},{"title":"Lawrence Berkeley Lab: The Cuckoo's Egg","url":"https://newscenter.lbl.gov/2019/10/08/the-cuckoos-egg/"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "clifford-stoll",
+  "type": "person",
+  "title": "Clifford Stoll",
+  "slug": "clifford-stoll",
+  "name": "Clifford Stoll",
+  "born": 1950,
+  "died": null,
+  "era": "1986-Present",
+  "tags": [
+    "author",
+    "computer-espionage",
+    "incident-response",
+    "books"
+  ],
+  "summary": "Astronomer and author whose investigation of a small accounting anomaly at Lawrence Berkeley Laboratory became a landmark computer-espionage case and the book The Cuckoo's Egg.",
+  "whyThisMatters": "Stoll's account made long-form incident investigation understandable to a broad public and remains a key document in the history of computer espionage.",
+  "knownFor": [
+    "The Cuckoo's Egg",
+    "Lawrence Berkeley Laboratory investigation",
+    "Science writing"
+  ],
+  "sections": {
+    "overview": "<p>Clifford Stoll is an astronomer, author, and former systems administrator. While working at Lawrence Berkeley Laboratory in 1986, he investigated an unexplained 75-cent accounting discrepancy and followed evidence of unauthorized access.</p><h2>The Cuckoo's Egg</h2><p>His 1989 book <em>The Cuckoo's Egg</em> recounts that investigation and its connection to computer espionage. The book is an enduring primary narrative of the operational work behind an intrusion investigation.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1986",
+      "event": "Investigates unauthorized access while working at Lawrence Berkeley Laboratory."
+    },
+    {
+      "date": "1989",
+      "event": "Publishes The Cuckoo's Egg."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Simon & Schuster: The Cuckoo's Egg",
+      "url": "https://www.simonandschuster.com/books/The-Cuckoos-Egg/Cliff-Stoll/9781668048160"
+    },
+    {
+      "title": "Penguin Random House: Clifford Stoll",
+      "url": "https://www.penguinrandomhouse.com/authors/29975/clifford-stoll/"
+    },
+    {
+      "title": "Lawrence Berkeley Lab: The Cuckoo's Egg",
+      "url": "https://newscenter.lbl.gov/2019/10/08/the-cuckoos-egg/"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

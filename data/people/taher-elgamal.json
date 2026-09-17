@@ -30,24 +30,78 @@
     "overview": "<h2>Background and education</h2><p>Taher Elgamal was born on 18 August 1955 in Cairo, Egypt. He earned a bachelor's degree in electrical engineering from Cairo University in 1977 before moving to the United States for graduate study at Stanford University, where he completed a master's degree in electrical engineering in 1981 and a doctorate in 1984. His doctoral advisor was Martin Hellman, co-author with Whitfield Diffie of the 1976 paper that introduced public-key cryptography and the Diffie-Hellman key exchange. Elgamal joined the technical staff of HP Labs in 1984.</p><h2>The ElGamal cryptosystem</h2><p>In 1985 Elgamal published \"A public key cryptosystem and a signature scheme based on discrete logarithms\" in the IEEE Transactions on Information Theory (volume 31, issue 4, pages 469-472). The paper described two related constructions whose security rests on the difficulty of computing discrete logarithms in a finite cyclic group, extending the Diffie-Hellman key agreement idea into a full encryption scheme and a separate digital signature scheme.</p><p>The encryption scheme offered an alternative to RSA that did not depend on the hardness of factoring large integers, and it was later adopted in free software implementations including GNU Privacy Guard and versions of PGP. The signature scheme proved even more consequential: the Digital Signature Algorithm, standardised by the U.S. National Institute of Standards and Technology, is a variant of the ElGamal signature scheme rather than of ElGamal encryption, a distinction that is often blurred in popular accounts.</p><h2>Netscape and the Secure Sockets Layer</h2><p>Elgamal served as chief scientist at Netscape Communications from 1995 to 1998, the period in which the company's Secure Sockets Layer protocol reached wide deployment. SSL 1.0 was never publicly released because of security flaws; SSL 2.0 was released in February 1995 and was quickly found to have multiple weaknesses; and the substantially redesigned SSL 3.0 followed in 1996. The SSL 3.0 design work involved Paul Kocher working with Netscape engineers Phil Karlton and Alan Freier, with Christopher Allen and Tim Dierks of Certicom contributing a reference implementation.</p><p>Elgamal's role was as the senior technical figure overseeing Netscape's security direction rather than as sole author of the protocol specification, and it is on that basis that he has been described as the \"father of SSL.\" The protocol was handed to the Internet Engineering Task Force and re-published as Transport Layer Security 1.0 in RFC 2246 in January 1999, written by Allen and Dierks. TLS remains the encryption layer underlying HTTPS.</p><h2>Later industry career</h2><p>After leaving Netscape, Elgamal was chief executive and president of the security company Securify from 1998 to 2001 and its chief technology officer from 2001 to 2004. He served as chief technology officer of Tumbleweed Communications from 2006 to 2008, and as chief security officer of Axway from 2008 to 2011 following Axway's acquisition of Tumbleweed. From 2013 to 2023 he was chief technology officer of security at Salesforce. In January 2023 he became a partner at the venture capital firm Evolution Equity Partners.</p><h2>Recognition and legacy</h2><p>Elgamal received the RSA Conference Lifetime Achievement Award in 2009. In 2019 he was awarded the Marconi Prize jointly with Paul Kocher, recognising their contributions to the cryptographic protocols that secure internet communications. He was elected to the U.S. National Academy of Engineering in 2022.</p><p>His legacy sits in two distinct layers of the modern security stack. The discrete-logarithm constructions of his 1985 paper are part of the standard toolkit of public-key cryptography and are taught alongside RSA and Diffie-Hellman, while the signature variant standardised as DSA carried his design into government and commercial use. Separately, the SSL work at Netscape established the model under which browsers negotiate encrypted, authenticated sessions with servers, a pattern that TLS inherited and that now covers the great majority of web traffic.</p>"
   },
   "timeline": [
-    { "date": "1955-08-18", "event": "Born in Cairo, Egypt." },
-    { "date": "1977", "event": "Earns a bachelor's degree in electrical engineering from Cairo University." },
-    { "date": "1981", "event": "Completes a master's degree in electrical engineering at Stanford University." },
-    { "date": "1984", "event": "Completes a PhD in electrical engineering at Stanford University under Martin Hellman, and joins the technical staff of HP Labs." },
-    { "date": "1985", "event": "Publishes \"A public key cryptosystem and a signature scheme based on discrete logarithms\" in IEEE Transactions on Information Theory, volume 31, issue 4, pages 469-472." },
-    { "date": "1995-02", "event": "Netscape releases SSL 2.0; SSL 1.0 was never publicly released." },
-    { "date": "1995", "event": "Becomes chief scientist at Netscape Communications." },
-    { "date": "1996", "event": "Netscape releases the redesigned SSL 3.0." },
-    { "date": "1998", "event": "Leaves Netscape and becomes chief executive and president of Securify." },
-    { "date": "1999-01", "event": "TLS 1.0, the IETF successor to SSL 3.0, is published as RFC 2246." },
-    { "date": "2001", "event": "Becomes chief technology officer of Securify." },
-    { "date": "2006", "event": "Becomes chief technology officer of Tumbleweed Communications." },
-    { "date": "2008", "event": "Becomes chief security officer of Axway." },
-    { "date": "2009", "event": "Receives the RSA Conference Lifetime Achievement Award." },
-    { "date": "2013", "event": "Becomes chief technology officer of security at Salesforce." },
-    { "date": "2019", "event": "Awarded the Marconi Prize jointly with Paul Kocher." },
-    { "date": "2022", "event": "Elected to the U.S. National Academy of Engineering." },
-    { "date": "2023-01", "event": "Joins Evolution Equity Partners as a partner." }
+    {
+      "date": "1955-08-18",
+      "event": "Born in Cairo, Egypt."
+    },
+    {
+      "date": "1977",
+      "event": "Earns a bachelor's degree in electrical engineering from Cairo University."
+    },
+    {
+      "date": "1981",
+      "event": "Completes a master's degree in electrical engineering at Stanford University."
+    },
+    {
+      "date": "1984",
+      "event": "Completes a PhD in electrical engineering at Stanford University under Martin Hellman, and joins the technical staff of HP Labs."
+    },
+    {
+      "date": "1985",
+      "event": "Publishes \"A public key cryptosystem and a signature scheme based on discrete logarithms\" in IEEE Transactions on Information Theory, volume 31, issue 4, pages 469-472."
+    },
+    {
+      "date": "1995-02",
+      "event": "Netscape releases SSL 2.0; SSL 1.0 was never publicly released."
+    },
+    {
+      "date": "1995",
+      "event": "Becomes chief scientist at Netscape Communications."
+    },
+    {
+      "date": "1996",
+      "event": "Netscape releases the redesigned SSL 3.0."
+    },
+    {
+      "date": "1998",
+      "event": "Leaves Netscape and becomes chief executive and president of Securify."
+    },
+    {
+      "date": "1999-01",
+      "event": "TLS 1.0, the IETF successor to SSL 3.0, is published as RFC 2246."
+    },
+    {
+      "date": "2001",
+      "event": "Becomes chief technology officer of Securify."
+    },
+    {
+      "date": "2006",
+      "event": "Becomes chief technology officer of Tumbleweed Communications."
+    },
+    {
+      "date": "2008",
+      "event": "Becomes chief security officer of Axway."
+    },
+    {
+      "date": "2009",
+      "event": "Receives the RSA Conference Lifetime Achievement Award."
+    },
+    {
+      "date": "2013",
+      "event": "Becomes chief technology officer of security at Salesforce."
+    },
+    {
+      "date": "2019",
+      "event": "Awarded the Marconi Prize jointly with Paul Kocher."
+    },
+    {
+      "date": "2022",
+      "event": "Elected to the U.S. National Academy of Engineering."
+    },
+    {
+      "date": "2023-01",
+      "event": "Joins Evolution Equity Partners as a partner."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -55,18 +109,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Taher Elgamal - Wikipedia", "url": "https://en.wikipedia.org/wiki/Taher_Elgamal" },
-    { "title": "ElGamal encryption - Wikipedia", "url": "https://en.wikipedia.org/wiki/ElGamal_encryption" },
-    { "title": "Transport Layer Security - Wikipedia", "url": "https://en.wikipedia.org/wiki/Transport_Layer_Security" },
-    { "title": "Taher Elgamal, 2019 - The Marconi Society", "url": "https://marconisociety.org/fellows/taher-elgamal/" },
-    { "title": "T. Elgamal, \"A public key cryptosystem and a signature scheme based on discrete logarithms,\" IEEE Transactions on Information Theory 31(4), 469-472 (1985)", "url": "https://doi.org/10.1109/TIT.1985.1057074" },
-    { "title": "Marconi Prize - Wikipedia (list of laureates)", "url": "https://en.wikipedia.org/wiki/Marconi_Prize" }
+    {
+      "title": "Taher Elgamal - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taher_Elgamal"
+    },
+    {
+      "title": "ElGamal encryption - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ElGamal_encryption"
+    },
+    {
+      "title": "Transport Layer Security - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Transport_Layer_Security"
+    },
+    {
+      "title": "Taher Elgamal, 2019 - The Marconi Society",
+      "url": "https://marconisociety.org/fellows/taher-elgamal/"
+    },
+    {
+      "title": "T. Elgamal, \"A public key cryptosystem and a signature scheme based on discrete logarithms,\" IEEE Transactions on Information Theory 31(4), 469-472 (1985)",
+      "url": "https://doi.org/10.1109/TIT.1985.1057074"
+    },
+    {
+      "title": "Marconi Prize - Wikipedia (list of laureates)",
+      "url": "https://en.wikipedia.org/wiki/Marconi_Prize"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

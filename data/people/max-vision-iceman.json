@@ -7,7 +7,15 @@
   "born": "1972-07-10",
   "died": null,
   "era": "1990s-2010s",
-  "tags": ["carding", "cybercrime", "whitehat-to-blackhat", "cardersmarket", "intrusion-detection", "wire-fraud", "fbi-informant"],
+  "tags": [
+    "carding",
+    "cybercrime",
+    "whitehat-to-blackhat",
+    "cardersmarket",
+    "intrusion-detection",
+    "wire-fraud",
+    "fbi-informant"
+  ],
   "summary": "Max Vision (born Max Ray Butler) is an American former computer security consultant turned cybercriminal who, under the alias \"Iceman,\" built and operated the CardersMarket carding forum before being sentenced to 13 years in federal prison for wire fraud.",
   "whyThisMatters": "Vision's case is one of the clearest documented examples of a respected whitehat security researcher crossing into large-scale cybercrime, and his hostile takeover of rival carding forums to build CardersMarket is regarded as the computer underground's first forum consolidation of its kind. His 13-year sentence was, at the time, the longest ever imposed in the United States for hacking-related offenses, and the investigation that caught him — including an undercover FBI agent embedded inside a rival forum — is a well-documented case study in law enforcement's early efforts against organized online financial fraud.",
   "knownFor": [
@@ -22,19 +30,58 @@
     "overview": "<h2>Background</h2><p>Max Vision was born Max Ray Butler on July 10, 1972, in Meridian, Idaho. As a teenager he became involved with bulletin board systems and early hacking culture, and pleaded guilty to charges including malicious injury to property and burglary after an incident involving chemicals taken from his high school lab. In 1991, while attending Boise State University, he was convicted of assault and later served time in the Idaho State Penitentiary before being paroled in 1995.</p><h2>Whitehat security career</h2><p>After his release, Butler relocated to California, adopted the surname \"Vision,\" and built a respected reputation in the Silicon Valley security community during the late 1990s. He created arachNIDS, an open-source database of intrusion-detection signatures used with the Snort network intrusion detection system, and contributed to the Honeynet Project's early analysis of malware such as the Ramen worm. He also worked as a freelance penetration tester. His standing in the community was built in part on responsible vulnerability research, including work related to a critical flaw in the BIND DNS server software.</p><h2>The Pentagon hacking case</h2><p>In 1998, while researching the BIND vulnerability, Vision wrote a scanning tool intended to find and patch vulnerable systems automatically — but in doing so he installed backdoors, including rootkits, on thousands of government and military computer systems without authorization. An Air Force investigator discovered the intrusions, and on September 25, 2000, Vision pleaded guilty to unauthorized access to Department of Defense computers. He served an 18-month sentence at FCI Taft in California beginning in 2001, an experience during which he made contacts with other convicted fraudsters that would later shape his criminal career.</p><h2>Transition to cybercrime</h2><p>Following his release from prison in 2003, Vision struggled to find steady security work and, after meeting former bank robber Christopher Aragon, began carrying out cyberattacks using compromised Wi-Fi connections to obscure his identity. The pair used modified malware, including a version of the Bifrost Trojan, to harvest credit card and bank account data from institutions such as American Express and Citibank, and to withdraw cash through compromised ATM PINs.</p><h2>CardersMarket and the forum takeover</h2><p>In June 2005, Vision launched CardersMarket, an online forum where cybercriminals bought and sold stolen financial data, operating both as the site's administrator under the alias \"Iceman\" and as a vendor of stolen card \"dumps\" under the alias \"Digits.\" In 2006, he used SQL injection and other intrusion techniques to compromise several rival carding forums — including DarkMarket, TalkCash, ScandinavianCarding, and TheVouched — and merged their user bases, totaling roughly 6,000 members, into CardersMarket by force. This is widely described as the computer underground's first hostile takeover of its kind. Unknown to Vision, DarkMarket's administrator persona \"Master Splyntr\" was in fact an undercover FBI agent, Keith Mularski, who had embedded himself in the rival forum as part of a federal investigation into carding networks.</p><h2>Arrest, conviction, and sentencing</h2><p>Vision was arrested in 2007 after Secret Service informants who had infiltrated CardersMarket helped investigators identify him; he was found in possession of roughly 1.8 million stolen credit card numbers. He pleaded guilty in 2009 to two counts of wire fraud connected to the theft of approximately 2 million credit card numbers and roughly $86 million in fraudulent transactions. In February 2010, U.S. District Judge Maurice Cohill Jr. sentenced him to 13 years in federal prison and ordered him to pay $27.5 million in restitution — at the time, the longest sentence ever imposed in the United States for hacking-related crimes. Reporting on the case noted that his personal financial gain from the scheme was estimated at closer to $1 million, far below the total fraud losses attributed to the stolen data.</p><h2>Later developments and legacy</h2><p>While serving his sentence at a federal facility, Vision was charged in 2018 with running a drone-based smuggling operation to deliver contraband into the prison, allegedly using an illicit cell phone obtained in 2014 and funds from stolen debit card numbers. He was released from custody in 2019. Vision's trajectory from a well-regarded intrusion-detection researcher to the operator of one of the era's largest carding forums has been cited repeatedly in security journalism and in academic and law-enforcement accounts of the carding underground as an example of the blurred line between offensive security research and cybercrime, and of how forum-level power struggles among criminals intersected with undercover law enforcement operations in the mid-2000s.</p>"
   },
   "timeline": [
-    { "date": "1972-07-10", "event": "Max Ray Butler is born in Meridian, Idaho." },
-    { "date": "1995", "event": "Paroled from the Idaho State Penitentiary after a prior assault conviction; relocates to California and adopts the name Max Vision." },
-    { "date": "1998", "event": "While researching a BIND vulnerability, installs unauthorized backdoors on thousands of U.S. government and military computer systems." },
-    { "date": "2000-09-25", "event": "Pleads guilty to unauthorized access to Department of Defense computers." },
-    { "date": "2001", "event": "Begins an 18-month federal prison sentence at FCI Taft, California." },
-    { "date": "2003", "event": "Released from prison; begins collaborating with Christopher Aragon on cyberattacks targeting financial institutions." },
-    { "date": "2005-06", "event": "Launches the CardersMarket carding forum under the alias \"Iceman.\"" },
-    { "date": "2006", "event": "Hacks and merges rival carding forums, including DarkMarket, into CardersMarket in what is described as the underground's first hostile forum takeover." },
-    { "date": "2007", "event": "Arrested after Secret Service infiltration of CardersMarket; found with approximately 1.8 million stolen credit card numbers." },
-    { "date": "2009", "event": "Pleads guilty to two counts of wire fraud." },
-    { "date": "2010-02", "event": "Sentenced to 13 years in federal prison and ordered to pay $27.5 million in restitution." },
-    { "date": "2018", "event": "Charged with orchestrating a drone-smuggling operation while incarcerated." },
-    { "date": "2019", "event": "Released from federal custody." }
+    {
+      "date": "1972-07-10",
+      "event": "Max Ray Butler is born in Meridian, Idaho."
+    },
+    {
+      "date": "1995",
+      "event": "Paroled from the Idaho State Penitentiary after a prior assault conviction; relocates to California and adopts the name Max Vision."
+    },
+    {
+      "date": "1998",
+      "event": "While researching a BIND vulnerability, installs unauthorized backdoors on thousands of U.S. government and military computer systems."
+    },
+    {
+      "date": "2000-09-25",
+      "event": "Pleads guilty to unauthorized access to Department of Defense computers."
+    },
+    {
+      "date": "2001",
+      "event": "Begins an 18-month federal prison sentence at FCI Taft, California."
+    },
+    {
+      "date": "2003",
+      "event": "Released from prison; begins collaborating with Christopher Aragon on cyberattacks targeting financial institutions."
+    },
+    {
+      "date": "2005-06",
+      "event": "Launches the CardersMarket carding forum under the alias \"Iceman.\""
+    },
+    {
+      "date": "2006",
+      "event": "Hacks and merges rival carding forums, including DarkMarket, into CardersMarket in what is described as the underground's first hostile forum takeover."
+    },
+    {
+      "date": "2007",
+      "event": "Arrested after Secret Service infiltration of CardersMarket; found with approximately 1.8 million stolen credit card numbers."
+    },
+    {
+      "date": "2009",
+      "event": "Pleads guilty to two counts of wire fraud."
+    },
+    {
+      "date": "2010-02",
+      "event": "Sentenced to 13 years in federal prison and ordered to pay $27.5 million in restitution."
+    },
+    {
+      "date": "2018",
+      "event": "Charged with orchestrating a drone-smuggling operation while incarcerated."
+    },
+    {
+      "date": "2019",
+      "event": "Released from federal custody."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -42,16 +89,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Max Butler - Wikipedia", "url": "https://en.wikipedia.org/wiki/Max_Butler" },
-    { "title": "'Iceman' hacker jailed for 13 years - The Register", "url": "https://www.theregister.com/2010/02/15/max_vision_cybercrook_jailed/" },
-    { "title": "From White Hat to Black - The Curious Case of Cybercrime Kingpin Max Vision - Privacy PC", "url": "https://privacy-pc.com/articles/from-white-hat-to-black-the-curious-case-of-cybercrime-kingpin-max-vision.html" },
-    { "title": "'Iceman' hacker charged with running drone-smuggling ring from jail - Sophos", "url": "https://www.sophos.com/en-us/blog/iceman-hacker-charged-with-running-drone-smuggling-ring-from-jail" }
+    {
+      "title": "Max Butler - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Max_Butler"
+    },
+    {
+      "title": "'Iceman' hacker jailed for 13 years - The Register",
+      "url": "https://www.theregister.com/2010/02/15/max_vision_cybercrook_jailed/"
+    },
+    {
+      "title": "From White Hat to Black - The Curious Case of Cybercrime Kingpin Max Vision - Privacy PC",
+      "url": "https://privacy-pc.com/articles/from-white-hat-to-black-the-curious-case-of-cybercrime-kingpin-max-vision.html"
+    },
+    {
+      "title": "'Iceman' hacker charged with running drone-smuggling ring from jail - Sophos",
+      "url": "https://www.sophos.com/en-us/blog/iceman-hacker-charged-with-running-drone-smuggling-ring-from-jail"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -7,7 +7,15 @@
   "born": "1983",
   "died": null,
   "era": "2010s-Present",
-  "tags": ["lulzsec", "anonymous", "fbi informant", "hacktivism", "sabu", "computer crime", "antisec"],
+  "tags": [
+    "lulzsec",
+    "anonymous",
+    "fbi informant",
+    "hacktivism",
+    "sabu",
+    "computer crime",
+    "antisec"
+  ],
   "summary": "Hector Xavier Monsegur, known online as \"Sabu,\" was a founding member of the hacking group LulzSec who became a cooperating FBI informant after his June 2011 arrest, an arrangement that led to the identification and prosecution of several other LulzSec and Anonymous-affiliated hackers.",
   "whyThisMatters": "Monsegur's case is one of the most consequential informant operations in the history of hacktivist prosecutions, effectively ending the LulzSec collective and severely disrupting the broader Anonymous/AntiSec movement of 2011. His cooperation demonstrated how a single operational security mistake could unravel an entire loosely organized hacking collective, and his prosecution and lenient sentencing sparked lasting debate within hacker communities about trust, informants, and the risks of collective anonymous action. His case remains a widely studied example in discussions of federal cybercrime enforcement strategy.",
   "knownFor": [
@@ -21,16 +29,46 @@
     "overview": "<h2>Background</h2><p>Hector Xavier Monsegur was born in 1983 and raised in New York City, in a Puerto Rican family based largely in the Jacob Riis Houses public housing development on the Lower East Side of Manhattan. His childhood was unstable: his father and an aunt were arrested for drug distribution, and Monsegur was raised for periods by his grandmother. He showed an early aptitude for computers, but his formal education ended after he was expelled from Washington Irving High School following a dispute with school security staff. Monsegur later said that after the death of his grandmother in 2010, and while caring for two young cousins, he turned increasingly to computer intrusion activity, moving from earlier, cruder acts of website defacement toward more organized hacking.</p><h2>Early hacking and hacktivism</h2><p>Monsegur's interest in politically motivated hacking dated back to his teenage years, when he took part in defacing websites in protest of the U.S. military's use of the island of Vieques, Puerto Rico, for bombing exercises. Over the following decade he was associated with various hacking circles online, developing skills that included exploiting web application vulnerabilities such as SQL injection. By 2010 and early 2011 he was active within the loosely organized \"Anonymous\" collective, using the online handle \"Sabu.\"</p><h2>LulzSec</h2><p>In May 2011, Monsegur became one of the founding members of Lulz Security, commonly known as LulzSec, a small splinter group that broke away from Anonymous to carry out a rapid, highly publicized series of intrusions during a period the group itself called \"50 days of lulz.\" LulzSec's targets included Sony Pictures, PBS, Fox Broadcasting, the U.S. Senate's public website, the CIA's public website, and the security firm HBGary Federal, among others. Monsegur, using the Sabu persona, was widely regarded within the group and by outside observers as a de facto leader and one of its most technically capable and vocal members, coordinating operations in LulzSec's private chat channels.</p><h2>Arrest and cooperation with the FBI</h2><p>Monsegur's identity had already been partially exposed by rival hackers in early 2011 after he made an operational security error, logging into an internet relay chat channel without masking his IP address. Federal agents arrested him at his New York apartment on June 7, 2011. He pleaded guilty in August 2011 to twelve criminal counts, including conspiracy to engage in computer hacking, computer hacking in furtherance of fraud, conspiracy to commit bank fraud, and aggravated identity theft, exposing him to a maximum sentence of as much as 124 years in prison. The day after his arrest, Monsegur agreed to cooperate with the Federal Bureau of Investigation, continuing to operate under his \"Sabu\" identity while secretly working with agents. For approximately ten months, from mid-2011 into March 2012, he provided information that U.S. authorities used to identify and arrest other hackers connected to LulzSec, Anonymous, and the related \"AntiSec\" campaign, including individuals in the United States and the United Kingdom. His cooperation ended publicly on March 6, 2012, when the FBI announced a wave of arrests tied to the investigation, revealing Monsegur's role as an informant.</p><h2>Sentencing and later life</h2><p>Monsegur was held in custody for roughly seven months following his arrest before being released pending sentencing. Prosecutors credited him with helping to prevent hundreds of additional cyberattacks and assisting investigations into vulnerabilities affecting government and corporate systems. On May 27, 2014, a federal judge in the U.S. District Court for the Southern District of New York sentenced him to time served plus one year of supervised release, well below the sentencing guidelines range, citing the substantial assistance he had provided. After his release, Monsegur moved into legitimate security work, including penetration testing and public commentary on cybersecurity issues, and has spoken and written about his experiences as both a hacker and an informant.</p><h2>Significance</h2><p>Monsegur's case is frequently cited as a turning point in the prosecution of hacktivist collectives during the early 2010s. The rapid collapse of LulzSec following his cooperation illustrated the operational fragility of loosely organized, pseudonymous hacking groups once a central member is compromised, and it fed lasting distrust within Anonymous-adjacent communities toward informants and government infiltration. His story has been examined in journalism, books, and academic discussions of cybercrime enforcement as an example of how plea-bargained cooperation can be used to dismantle decentralized online movements.</p>"
   },
   "timeline": [
-    { "date": "1983", "event": "Hector Xavier Monsegur is born in New York City to a Puerto Rican family." },
-    { "date": "1997", "event": "As a teenager, participates in website defacements protesting U.S. military exercises on Vieques, Puerto Rico." },
-    { "date": "2010", "event": "Following his grandmother's death, becomes more heavily involved in hacking activity." },
-    { "date": "2011-03", "event": "Rival hackers expose clues to Monsegur's real identity after an operational security lapse." },
-    { "date": "2011-05", "event": "Co-founds LulzSec, which begins a high-profile string of breaches known as its \"50 days of lulz.\"" },
-    { "date": "2011-06-07", "event": "Arrested by federal agents in New York on computer hacking and fraud charges." },
-    { "date": "2011-06-08", "event": "Agrees to cooperate with the FBI as an informant while continuing to use the \"Sabu\" persona." },
-    { "date": "2011-08", "event": "Pleads guilty to twelve federal charges, facing a potential sentence of up to 124 years." },
-    { "date": "2012-03-06", "event": "FBI publicly announces arrests of several LulzSec/Anonymous-linked hackers, revealing Monsegur's cooperation." },
-    { "date": "2014-05-27", "event": "Sentenced in federal court to time served plus one year of supervised release." }
+    {
+      "date": "1983",
+      "event": "Hector Xavier Monsegur is born in New York City to a Puerto Rican family."
+    },
+    {
+      "date": "1997",
+      "event": "As a teenager, participates in website defacements protesting U.S. military exercises on Vieques, Puerto Rico."
+    },
+    {
+      "date": "2010",
+      "event": "Following his grandmother's death, becomes more heavily involved in hacking activity."
+    },
+    {
+      "date": "2011-03",
+      "event": "Rival hackers expose clues to Monsegur's real identity after an operational security lapse."
+    },
+    {
+      "date": "2011-05",
+      "event": "Co-founds LulzSec, which begins a high-profile string of breaches known as its \"50 days of lulz.\""
+    },
+    {
+      "date": "2011-06-07",
+      "event": "Arrested by federal agents in New York on computer hacking and fraud charges."
+    },
+    {
+      "date": "2011-06-08",
+      "event": "Agrees to cooperate with the FBI as an informant while continuing to use the \"Sabu\" persona."
+    },
+    {
+      "date": "2011-08",
+      "event": "Pleads guilty to twelve federal charges, facing a potential sentence of up to 124 years."
+    },
+    {
+      "date": "2012-03-06",
+      "event": "FBI publicly announces arrests of several LulzSec/Anonymous-linked hackers, revealing Monsegur's cooperation."
+    },
+    {
+      "date": "2014-05-27",
+      "event": "Sentenced in federal court to time served plus one year of supervised release."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,16 +76,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Hector Monsegur - Wikipedia", "url": "https://en.wikipedia.org/wiki/Hector_Monsegur" },
-    { "title": "Anonymous hacker Hector Monsegur turned FBI informant breaks silence - CBS News", "url": "https://www.cbsnews.com/news/anonymous-hacker-hector-monsegur-turned-fbi-informant-breaks-silence/" },
-    { "title": "Former LulzSec Hacker Turned Informant Avoids Further Jail Time - NPR", "url": "https://www.npr.org/sections/thetwo-way/2014/05/27/316337873/former-lulzsec-hacker-turned-informant-avoids-further-jail-time" },
-    { "title": "Hector Xavier Monsegur, Sabu sentencing: Notorious hacker walks free - Slate", "url": "http://www.slate.com/articles/technology/future_tense/2014/05/hector_xavier_monsegur_sabu_sentencing_notorious_hacker_walks_free.html" }
+    {
+      "title": "Hector Monsegur - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hector_Monsegur"
+    },
+    {
+      "title": "Anonymous hacker Hector Monsegur turned FBI informant breaks silence - CBS News",
+      "url": "https://www.cbsnews.com/news/anonymous-hacker-hector-monsegur-turned-fbi-informant-breaks-silence/"
+    },
+    {
+      "title": "Former LulzSec Hacker Turned Informant Avoids Further Jail Time - NPR",
+      "url": "https://www.npr.org/sections/thetwo-way/2014/05/27/316337873/former-lulzsec-hacker-turned-informant-avoids-further-jail-time"
+    },
+    {
+      "title": "Hector Xavier Monsegur, Sabu sentencing: Notorious hacker walks free - Slate",
+      "url": "http://www.slate.com/articles/technology/future_tense/2014/05/hector_xavier_monsegur_sabu_sentencing_notorious_hacker_walks_free.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

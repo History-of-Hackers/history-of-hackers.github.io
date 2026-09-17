@@ -1,0 +1,76 @@
+{
+  "id": "hal-finney",
+  "type": "person",
+  "title": "Hal Finney",
+  "slug": "hal-finney",
+  "name": "Hal Finney",
+  "born": 1956,
+  "died": 2014,
+  "era": "1990s-2010s",
+  "tags": [
+    "cypherpunks",
+    "pgp",
+    "bitcoin",
+    "remailers",
+    "cryptography"
+  ],
+  "summary": "American cypherpunk and PGP developer who created reusable proofs of work and received the first Bitcoin transaction.",
+  "whyThisMatters": "Finney's remailers, PGP work, and RPOW system sit at the junction between the cypherpunk movement and cryptocurrency.",
+  "knownFor": [
+    "PGP development",
+    "Reusable Proofs of Work (RPOW)",
+    "First Bitcoin transaction recipient"
+  ],
+  "sections": {
+    "overview": "<p>Harold Thomas Finney II was an American software developer. After early work on video games, he joined Phil Zimmermann's effort on PGP, contributing to PGP 2.0 in the early 1990s, and later became one of the first employees of PGP Corporation.</p><h2>Cypherpunk</h2><p>Finney ran one of the first cypherpunk anonymous remailers and was an active participant on the mailing list. In 2004 he built Reusable Proofs of Work (RPOW), which used a trusted computing platform to make Hashcash tokens transferable, an early attempt at digital scarcity.</p><h2>Bitcoin</h2><p>He was among the first to run the Bitcoin software, and on 12 January 2009 received the first Bitcoin transaction from Satoshi Nakamoto. Finney was diagnosed with ALS in 2009 and continued to program until shortly before his death in August 2014; his body was cryopreserved by the Alcor Life Extension Foundation.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1956-05-04",
+      "event": "Born in Coalinga, California."
+    },
+    {
+      "date": "1991",
+      "event": "Begins contributing to PGP 2.0."
+    },
+    {
+      "date": "2004",
+      "event": "Releases Reusable Proofs of Work (RPOW)."
+    },
+    {
+      "date": "2009-01-12",
+      "event": "Receives the first Bitcoin transaction from Satoshi Nakamoto."
+    },
+    {
+      "date": "2014-08-28",
+      "event": "Dies of complications from ALS in Scottsdale, Arizona."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Hal Finney, 'Bitcoin and me' (Bitcoin Talk, 2013)",
+      "url": "https://bitcointalk.org/index.php?topic=155054.0"
+    },
+    {
+      "title": "Wired: 'Hal Finney received the first Bitcoin transaction' (2014 obituary)",
+      "url": "https://www.wired.com/2014/08/hal-finney/"
+    },
+    {
+      "title": "Wikipedia: Hal Finney (computer scientist)",
+      "url": "https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

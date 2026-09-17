@@ -7,7 +7,15 @@
   "born": "1959-11-14",
   "died": null,
   "era": "1980s-Present",
-  "tags": ["cryptography", "zero-knowledge proofs", "probabilistic encryption", "turing award", "complexity theory", "provable security", "mit"],
+  "tags": [
+    "cryptography",
+    "zero-knowledge proofs",
+    "probabilistic encryption",
+    "turing award",
+    "complexity theory",
+    "provable security",
+    "mit"
+  ],
   "summary": "Shafi Goldwasser is an American-Israeli computer scientist and cryptographer whose work with Silvio Micali established the theoretical foundations of modern provable security, including probabilistic encryption and zero-knowledge proofs. She and Micali received the 2012 ACM A.M. Turing Award for this body of work.",
   "whyThisMatters": "Goldwasser's work with Silvio Micali and Charles Rackoff transformed cryptography from an engineering craft into a rigorous mathematical discipline grounded in provable security definitions. Their notion of semantic security and the invention of zero-knowledge proofs underpin much of modern cryptographic practice, from secure communications protocols to blockchain and privacy-preserving authentication systems. Her Turing Award, shared with Micali, recognized this foundational shift toward \"provable security\" as a guiding principle for the field.",
   "knownFor": [
@@ -21,20 +29,62 @@
     "overview": "<h2>Background</h2><p>Shafi Goldwasser, born Shafrira Goldwasser on November 14, 1959, in New York City, is an American-Israeli computer scientist known for her foundational contributions to modern cryptography and computational complexity theory. She earned a B.S. in mathematics and science from Carnegie Mellon University in 1979, followed by an M.S. (1981) and Ph.D. (1984) in computer science from the University of California, Berkeley, where she was advised by Manuel Blum.</p><h2>Probabilistic Encryption</h2><p>In 1982, Goldwasser began a collaboration with fellow Berkeley graduate student Silvio Micali that would reshape cryptography. Their 1984 paper \"Probabilistic Encryption,\" published in the Journal of Computer and Systems Sciences, introduced the first encryption scheme that was provably secure under a precise mathematical definition, now known as semantic security. Unlike earlier deterministic schemes, probabilistic encryption ensures that a single plaintext can map to many different ciphertexts, preventing an adversary from learning partial information about a message even when given access to the ciphertext. This work produced the Goldwasser-Micali cryptosystem, whose security rests on the hardness of the quadratic residuosity problem.</p><h2>Zero-Knowledge Proofs</h2><p>In 1985, Goldwasser, Micali, and Charles Rackoff introduced the concept of zero-knowledge proofs in their paper \"The Knowledge Complexity of Interactive Proof-Systems.\" The paper formalized how one party (a prover) could convince another (a verifier) that a statement is true without revealing any information beyond the fact that the statement is true. The authors demonstrated the first zero-knowledge proof for a concrete number-theoretic problem, deciding quadratic nonresiduosity modulo a composite number. This work, along with related contributions on interactive proof systems by Laszlo Babai and Shlomo Moran, earned all five researchers the inaugural Godel Prize in 1993. Zero-knowledge proofs later became a cornerstone of privacy-preserving authentication, secure multiparty computation, and blockchain technologies.</p><h2>Academic Career</h2><p>Goldwasser joined the faculty of the Massachusetts Institute of Technology in 1983 and became the first holder of the RSA Professorship of Electrical Engineering and Computer Science there in 1997. Since 1993 she has also held a concurrent professorship at the Weizmann Institute of Science in Israel. Beyond her founding work in cryptography, she made significant contributions to computational complexity theory, including work on interactive proof systems and their connections to hardness of approximation, and to the theory of pseudorandom functions. In January 2018 she became director of the Simons Institute for the Theory of Computing at the University of California, Berkeley, a position she held through August 2024. In November 2016 she co-founded Duality Technologies, a company applying homomorphic encryption to privacy-preserving data analytics, where she serves as chief scientist.</p><h2>Turing Award and Recognition</h2><p>In 2012, Goldwasser and Silvio Micali were jointly awarded the ACM A.M. Turing Award, computing's highest honor, \"for transformative work that laid the complexity-theoretic foundations for the science of cryptography, and in the process pioneered new methods for efficient verification of mathematical proofs in complexity theory.\" This was in addition to two Godel Prizes (1993 and 2001), the ACM Grace Murray Hopper Award (1996), the RSA Award in Mathematics (1998), the IEEE Emanuel R. Piore Award (2011), and election to the National Academy of Sciences (2004) and the National Academy of Engineering (2005), among other honors.</p><h2>Legacy</h2><p>Goldwasser's research established the modern paradigm of defining security goals precisely and proving that cryptographic constructions meet them, replacing ad hoc heuristic designs with rigorous mathematical guarantees. Her work with Micali and Rackoff on zero-knowledge proofs and interactive proof systems opened entire subfields of theoretical computer science and remains central to contemporary applications in secure computation, digital identity, and blockchain protocols.</p>"
   },
   "timeline": [
-    { "date": "1959-11-14", "event": "Born in New York City." },
-    { "date": "1979", "event": "Earns B.S. in mathematics and science from Carnegie Mellon University." },
-    { "date": "1984", "event": "Earns Ph.D. in computer science from UC Berkeley, advised by Manuel Blum." },
-    { "date": "1984", "event": "Publishes \"Probabilistic Encryption\" with Silvio Micali, introducing semantically secure encryption and the Goldwasser-Micali cryptosystem." },
-    { "date": "1985", "event": "Co-authors \"The Knowledge Complexity of Interactive Proof-Systems\" with Silvio Micali and Charles Rackoff, introducing zero-knowledge proofs." },
-    { "date": "1983", "event": "Joins the faculty of the Massachusetts Institute of Technology." },
-    { "date": "1993", "event": "Receives the inaugural Godel Prize (with Micali, Rackoff, Babai, and Moran) for work on interactive proof systems; begins concurrent professorship at the Weizmann Institute of Science." },
-    { "date": "1996", "event": "Receives the ACM Grace Murray Hopper Award." },
-    { "date": "1997", "event": "Becomes the first holder of the RSA Professorship of Electrical Engineering and Computer Science at MIT." },
-    { "date": "2001", "event": "Receives a second Godel Prize." },
-    { "date": "2004", "event": "Elected to the National Academy of Sciences." },
-    { "date": "2012", "event": "Receives the ACM A.M. Turing Award jointly with Silvio Micali for foundational work in cryptography and complexity theory." },
-    { "date": "2016-11", "event": "Co-founds Duality Technologies as chief scientist." },
-    { "date": "2018-01", "event": "Becomes director of the Simons Institute for the Theory of Computing at UC Berkeley." }
+    {
+      "date": "1959-11-14",
+      "event": "Born in New York City."
+    },
+    {
+      "date": "1979",
+      "event": "Earns B.S. in mathematics and science from Carnegie Mellon University."
+    },
+    {
+      "date": "1984",
+      "event": "Earns Ph.D. in computer science from UC Berkeley, advised by Manuel Blum."
+    },
+    {
+      "date": "1984",
+      "event": "Publishes \"Probabilistic Encryption\" with Silvio Micali, introducing semantically secure encryption and the Goldwasser-Micali cryptosystem."
+    },
+    {
+      "date": "1985",
+      "event": "Co-authors \"The Knowledge Complexity of Interactive Proof-Systems\" with Silvio Micali and Charles Rackoff, introducing zero-knowledge proofs."
+    },
+    {
+      "date": "1983",
+      "event": "Joins the faculty of the Massachusetts Institute of Technology."
+    },
+    {
+      "date": "1993",
+      "event": "Receives the inaugural Godel Prize (with Micali, Rackoff, Babai, and Moran) for work on interactive proof systems; begins concurrent professorship at the Weizmann Institute of Science."
+    },
+    {
+      "date": "1996",
+      "event": "Receives the ACM Grace Murray Hopper Award."
+    },
+    {
+      "date": "1997",
+      "event": "Becomes the first holder of the RSA Professorship of Electrical Engineering and Computer Science at MIT."
+    },
+    {
+      "date": "2001",
+      "event": "Receives a second Godel Prize."
+    },
+    {
+      "date": "2004",
+      "event": "Elected to the National Academy of Sciences."
+    },
+    {
+      "date": "2012",
+      "event": "Receives the ACM A.M. Turing Award jointly with Silvio Micali for foundational work in cryptography and complexity theory."
+    },
+    {
+      "date": "2016-11",
+      "event": "Co-founds Duality Technologies as chief scientist."
+    },
+    {
+      "date": "2018-01",
+      "event": "Becomes director of the Simons Institute for the Theory of Computing at UC Berkeley."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -42,16 +92,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Shafi Goldwasser - Wikipedia", "url": "https://en.wikipedia.org/wiki/Shafi_Goldwasser" },
-    { "title": "Zero-knowledge proof - Wikipedia", "url": "https://en.wikipedia.org/wiki/Zero-knowledge_proof" },
-    { "title": "Probabilistic encryption - Wikipedia", "url": "https://en.wikipedia.org/wiki/Probabilistic_encryption" },
-    { "title": "Shafi Goldwasser - Simons Foundation", "url": "https://www.simonsfoundation.org/mathematics-physical-science/simons-investigators/shafi-goldwasser/" }
+    {
+      "title": "Shafi Goldwasser - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shafi_Goldwasser"
+    },
+    {
+      "title": "Zero-knowledge proof - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero-knowledge_proof"
+    },
+    {
+      "title": "Probabilistic encryption - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Probabilistic_encryption"
+    },
+    {
+      "title": "Shafi Goldwasser - Simons Foundation",
+      "url": "https://www.simonsfoundation.org/mathematics-physical-science/simons-investigators/shafi-goldwasser/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

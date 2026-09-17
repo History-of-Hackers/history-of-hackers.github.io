@@ -7,7 +7,15 @@
   "born": "1954-10-13",
   "died": null,
   "era": "1980s-Present",
-  "tags": ["cryptography", "zero-knowledge proofs", "probabilistic encryption", "turing award", "blockchain", "algorand", "mit"],
+  "tags": [
+    "cryptography",
+    "zero-knowledge proofs",
+    "probabilistic encryption",
+    "turing award",
+    "blockchain",
+    "algorand",
+    "mit"
+  ],
   "summary": "Silvio Micali is an Italian-American computer scientist and MIT professor who co-invented probabilistic encryption and zero-knowledge proofs, work for which he shared the 2012 ACM Turing Award, and who later founded the Algorand blockchain protocol.",
   "whyThisMatters": "Micali's work with Shafi Goldwasser on probabilistic encryption and zero-knowledge proofs established rigorous mathematical foundations for modern cryptography, reshaping how security guarantees are defined and proved. Zero-knowledge proofs in particular went on to become a core building block of privacy-preserving systems, authentication protocols, and blockchain technologies developed decades after the original theory was published. His later entrepreneurial work extended these theoretical foundations into deployed systems, including a widely used proof-of-stake blockchain.",
   "knownFor": [
@@ -22,18 +30,54 @@
     "overview": "<h2>Background</h2><p>Silvio Micali was born on October 13, 1954, in Palermo, Italy. He earned a laurea (bachelor's degree) in mathematics from the Sapienza University of Rome in 1978, then moved to the United States to pursue graduate study in computer science. He received his Ph.D. from the University of California, Berkeley in 1982, where his doctoral advisor was Manuel Blum, himself a future Turing Award laureate. After brief teaching positions at the University of Toronto, the University of Pennsylvania, and other institutions, Micali joined the faculty of the Massachusetts Institute of Technology in 1983, where he has remained a professor in the Department of Electrical Engineering and Computer Science and a member of the Computer Science and Artificial Intelligence Laboratory (CSAIL).</p><h2>Foundational Work in Cryptography</h2><p>In the early 1980s, Micali began a long-running collaboration with fellow cryptographer Shafi Goldwasser. Together they developed probabilistic encryption, a scheme in which encrypting the same plaintext multiple times produces different ciphertexts, formally defined so that an encrypted message reveals no partial information to a computationally bounded adversary. This work, published in their 1984 paper \"Probabilistic Encryption,\" gave cryptography a rigorous, complexity-theoretic definition of security that had previously been treated informally.</p><p>In 1985, Micali, Goldwasser, and Charles Rackoff introduced the concept of zero-knowledge proofs in their paper \"The Knowledge Complexity of Interactive Proof Systems,\" later published in the SIAM Journal on Computing in 1989. A zero-knowledge proof allows one party to convince another that a statement is true without revealing any information beyond the fact that the statement is true. The paper demonstrated the first such proof for a concrete problem, deciding quadratic non-residues modulo a composite number, and introduced the notion of \"knowledge complexity\" to measure how much information a proof leaks. This work, along with related contributions by László Babai and Shlomo Moran on interactive proof systems, earned all five researchers the inaugural Gödel Prize in 1993.</p><h2>Further Contributions and Doctoral Students</h2><p>With his former advisor Manuel Blum, Micali also co-developed the Blum-Micali algorithm, a cryptographically secure pseudorandom number generator based on the discrete logarithm problem. Over subsequent decades he contributed to secure multiparty computation, digital signature schemes, verifiable secret sharing, and other core areas of theoretical cryptography. As a professor at MIT, Micali advised numerous doctoral students who went on to become prominent cryptographers in their own right, including Mihir Bellare, Shai Halevi, Rafail Ostrovsky, and Phillip Rogaway.</p><h2>Turing Award and Recognition</h2><p>In March 2013, the Association for Computing Machinery announced that Micali and Shafi Goldwasser would share the 2012 A.M. Turing Award, the highest honor in computer science, \"for their work in the field of cryptography.\" The citation recognized their transformation of cryptography from an art into a science, through the introduction of rigorous complexity-theoretic definitions and constructions, including probabilistic encryption and zero-knowledge proofs. Micali was elected an ACM Fellow in 2017 and is a member of the National Academy of Sciences, the National Academy of Engineering, and the American Academy of Arts and Sciences.</p><h2>Entrepreneurial Ventures and Algorand</h2><p>Beyond academic research, Micali co-founded several companies applying cryptographic techniques to commercial problems. In 2001 he co-founded CoreStreet Ltd., which developed software for validating digital certificate status; the company was acquired by ActivIdentity in 2009. He also co-founded Peppercoin, a micropayments company, in the early 2000s, which was acquired in 2007. In 2017, Micali founded Algorand, a proof-of-stake blockchain protocol designed to achieve scalability, security, and decentralization simultaneously using a Byzantine agreement consensus mechanism. Algorand's public testnet launched in April 2019, and its mainnet went live in June 2019, with its native token known as ALGO.</p><h2>Legacy</h2><p>Micali's theoretical contributions, developed jointly with Shafi Goldwasser and collaborators over the 1980s, are considered part of the foundational canon of modern cryptography, underpinning later developments in secure computation, digital identity, and blockchain protocols. His transition from foundational theorist to blockchain entrepreneur illustrates a broader pattern in which decades-old cryptographic theory found large-scale practical application in distributed ledger systems developed long after the original proofs were published.</p>"
   },
   "timeline": [
-    { "date": "1954-10-13", "event": "Born in Palermo, Italy." },
-    { "date": "1978", "event": "Earned a degree in mathematics from Sapienza University of Rome." },
-    { "date": "1982", "event": "Received a Ph.D. in computer science from the University of California, Berkeley, advised by Manuel Blum." },
-    { "date": "1983", "event": "Joined the faculty of the Massachusetts Institute of Technology." },
-    { "date": "1984", "event": "Published \"Probabilistic Encryption\" with Shafi Goldwasser, introducing a rigorous security definition for encryption." },
-    { "date": "1985", "event": "Co-authored \"The Knowledge Complexity of Interactive Proof Systems\" with Shafi Goldwasser and Charles Rackoff, introducing zero-knowledge proofs." },
-    { "date": "1993", "event": "Received the inaugural Gödel Prize for the invention of interactive proof systems." },
-    { "date": "2001", "event": "Co-founded CoreStreet Ltd., a digital certificate validation company." },
-    { "date": "2013-03", "event": "Announced as co-recipient, with Shafi Goldwasser, of the 2012 ACM A.M. Turing Award for work in cryptography." },
-    { "date": "2017", "event": "Founded Algorand, a proof-of-stake blockchain protocol." },
-    { "date": "2017", "event": "Elected an ACM Fellow." },
-    { "date": "2019-06", "event": "Algorand mainnet launched." }
+    {
+      "date": "1954-10-13",
+      "event": "Born in Palermo, Italy."
+    },
+    {
+      "date": "1978",
+      "event": "Earned a degree in mathematics from Sapienza University of Rome."
+    },
+    {
+      "date": "1982",
+      "event": "Received a Ph.D. in computer science from the University of California, Berkeley, advised by Manuel Blum."
+    },
+    {
+      "date": "1983",
+      "event": "Joined the faculty of the Massachusetts Institute of Technology."
+    },
+    {
+      "date": "1984",
+      "event": "Published \"Probabilistic Encryption\" with Shafi Goldwasser, introducing a rigorous security definition for encryption."
+    },
+    {
+      "date": "1985",
+      "event": "Co-authored \"The Knowledge Complexity of Interactive Proof Systems\" with Shafi Goldwasser and Charles Rackoff, introducing zero-knowledge proofs."
+    },
+    {
+      "date": "1993",
+      "event": "Received the inaugural Gödel Prize for the invention of interactive proof systems."
+    },
+    {
+      "date": "2001",
+      "event": "Co-founded CoreStreet Ltd., a digital certificate validation company."
+    },
+    {
+      "date": "2013-03",
+      "event": "Announced as co-recipient, with Shafi Goldwasser, of the 2012 ACM A.M. Turing Award for work in cryptography."
+    },
+    {
+      "date": "2017",
+      "event": "Founded Algorand, a proof-of-stake blockchain protocol."
+    },
+    {
+      "date": "2017",
+      "event": "Elected an ACM Fellow."
+    },
+    {
+      "date": "2019-06",
+      "event": "Algorand mainnet launched."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -41,16 +85,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Silvio Micali - Wikipedia", "url": "https://en.wikipedia.org/wiki/Silvio_Micali" },
-    { "title": "Algorand - Wikipedia", "url": "https://en.wikipedia.org/wiki/Algorand" },
-    { "title": "Zero-knowledge proof - Wikipedia", "url": "https://en.wikipedia.org/wiki/Zero-knowledge_proof" },
-    { "title": "Silvio Micali - MIT CSAIL faculty page", "url": "https://people.csail.mit.edu/silvio/" }
+    {
+      "title": "Silvio Micali - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Silvio_Micali"
+    },
+    {
+      "title": "Algorand - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Algorand"
+    },
+    {
+      "title": "Zero-knowledge proof - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero-knowledge_proof"
+    },
+    {
+      "title": "Silvio Micali - MIT CSAIL faculty page",
+      "url": "https://people.csail.mit.edu/silvio/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

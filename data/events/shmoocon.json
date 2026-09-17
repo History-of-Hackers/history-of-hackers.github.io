@@ -4,18 +4,41 @@
   "title": "ShmooCon",
   "slug": "shmoocon",
   "era": "2005-2025",
-  "tags": ["hacker convention", "infosec", "washington dc", "shmoo group", "security conference", "cryptography", "cyberculture"],
+  "tags": [
+    "hacker convention",
+    "infosec",
+    "washington dc",
+    "shmoo group",
+    "security conference",
+    "cryptography",
+    "cyberculture"
+  ],
   "summary": "ShmooCon was an annual American hacker convention organized by The Shmoo Group, held in the Washington, D.C. area from 2005 until its final edition in January 2025.",
   "whyThisMatters": "ShmooCon became one of the longest-running East Coast hacker conventions, distinguishing itself by a policy of favoring original research not previously presented elsewhere. Over two decades it grew from roughly 400 attendees to over 2,000, drawing security researchers, government and military personnel, and hobbyists to Washington, D.C., a city with an outsized concentration of federal cybersecurity and intelligence agencies. Its end-to-end run illustrates the lifecycle of a grassroots, community-organized security conference operating alongside larger commercial events like DEF CON and Black Hat.",
   "sections": {
     "overview": "<h2>Background</h2><p>ShmooCon was an American hacker convention organized by The Shmoo Group, an information-security think tank and hacker collective whose members have contributed to projects such as the Tinfoil Hat Linux distribution, the Airsnarf wireless attack tool, and publicly available rainbow table resources. The Shmoo Group launched ShmooCon in 2005 as an East Coast counterpart to the long-established DEF CON convention in Las Vegas, positioning it in the Washington, D.C. metropolitan area, a region with a dense concentration of federal government, military, and intelligence-community cybersecurity personnel.</p><h2>Founding and Early Years</h2><p>The first ShmooCon was held February 4-6, 2005, at the Marriott Wardman Park hotel in Washington, D.C. The inaugural event drew approximately 400 attendees. ShmooCon continued at the Wardman Park through 2010 before relocating in 2011 to the Washington Hilton, where it remained for the rest of its run. The convention was not held in 2021, a gap widely attributed to the COVID-19 pandemic's disruption of in-person gatherings.</p><h2>Format and Culture</h2><p>ShmooCon typically featured around 40 talks and presentations spanning computer security, cyberculture, and cryptography. A defining editorial policy was a stated preference for original research, with organizers favoring talks that had not already been presented at other conventions. Beyond the talk tracks, the convention hosted recurring competitive and social events, including Shmooganography (a cryptography-themed puzzle contest), Hack Fortress (a hybrid capture-the-flag and Team Fortress 2 event), and Ghost in the Shellcode. The convention also ran the Shmooze-A-Student program to help subsidize college students' attendance and cultivated a reputation as a comparatively intimate, community-run alternative to larger commercial security conferences.</p><h2>Growth and Community Impact</h2><p>Attendance expanded considerably over the convention's run, growing from roughly 400 attendees at the first event to more than 2,000 in its later years; the final edition in January 2025 registered approximately 2,171 attendees. ShmooCon organizers also maintained a philanthropic component, with the convention crediting itself with donating in excess of $200,000 to nonprofit and community organizations over the years, including groups such as the Electronic Frontier Foundation and Hackers for Charity.</p><h2>Conclusion of the Convention</h2><p>ShmooCon XX, held January 10-12, 2025, at the Washington Hilton, was announced as the convention's final edition, bringing its run to a close after two decades (excluding the 2021 hiatus). The closing of ShmooCon followed a broader pattern seen among long-running, volunteer-organized hacker conventions, where founders eventually retire an event rather than hand it off indefinitely.</p><h2>Legacy</h2><p>ShmooCon is remembered as one of the more durable regional hacker conventions in the United States, notable for sustaining a two-decade run in the Washington, D.C. area, an environment shaped by proximity to federal cybersecurity agencies, defense contractors, and policy institutions. Its emphasis on original research, its community-oriented side events, and its charitable giving distinguished it within a conference calendar otherwise dominated by larger commercial and government-facing security events.</p>"
   },
   "timeline": [
-    { "date": "2005-02-04", "event": "First ShmooCon convention held at the Marriott Wardman Park in Washington, D.C., organized by The Shmoo Group, drawing about 400 attendees." },
-    { "date": "2011", "event": "ShmooCon relocates from the Marriott Wardman Park to the Washington Hilton, its venue for the remainder of its run." },
-    { "date": "2021", "event": "ShmooCon is not held, a hiatus attributed to the COVID-19 pandemic." },
-    { "date": "2024", "event": "ShmooCon draws approximately 2,171 registered attendees." },
-    { "date": "2025-01-10", "event": "ShmooCon XX, the convention's twentieth and final edition, is held at the Washington Hilton." }
+    {
+      "date": "2005-02-04",
+      "event": "First ShmooCon convention held at the Marriott Wardman Park in Washington, D.C., organized by The Shmoo Group, drawing about 400 attendees."
+    },
+    {
+      "date": "2011",
+      "event": "ShmooCon relocates from the Marriott Wardman Park to the Washington Hilton, its venue for the remainder of its run."
+    },
+    {
+      "date": "2021",
+      "event": "ShmooCon is not held, a hiatus attributed to the COVID-19 pandemic."
+    },
+    {
+      "date": "2024",
+      "event": "ShmooCon draws approximately 2,171 registered attendees."
+    },
+    {
+      "date": "2025-01-10",
+      "event": "ShmooCon XX, the convention's twentieth and final edition, is held at the Washington Hilton."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -23,16 +46,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "ShmooCon - Wikipedia", "url": "https://en.wikipedia.org/wiki/ShmooCon" },
-    { "title": "Tinfoil Hat Linux - Wikipedia (background on The Shmoo Group)", "url": "https://en.wikipedia.org/wiki/Tinfoil_Hat_Linux" },
-    { "title": "ShmooCon official website", "url": "https://www.shmoocon.org/" },
-    { "title": "The Shmoo Group official website", "url": "https://www.shmoo.com/" }
+    {
+      "title": "ShmooCon - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ShmooCon"
+    },
+    {
+      "title": "Tinfoil Hat Linux - Wikipedia (background on The Shmoo Group)",
+      "url": "https://en.wikipedia.org/wiki/Tinfoil_Hat_Linux"
+    },
+    {
+      "title": "ShmooCon official website",
+      "url": "https://www.shmoocon.org/"
+    },
+    {
+      "title": "The Shmoo Group official website",
+      "url": "https://www.shmoo.com/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

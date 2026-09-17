@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["embedded security", "hardware hacking", "reverse engineering", "jtag", "radio hacking", "microcontrollers", "poc-gtfo"],
+  "tags": [
+    "embedded security",
+    "hardware hacking",
+    "reverse engineering",
+    "jtag",
+    "radio hacking",
+    "microcontrollers",
+    "poc-gtfo"
+  ],
   "summary": "Travis Goodspeed is an American reverse engineer and embedded-systems security researcher, best known for creating the GoodFET open-source JTAG/hardware-hacking tool and for co-editing the reverse-engineering journal PoC||GTFO.",
   "whyThisMatters": "Goodspeed's work helped popularize low-cost, open-source hardware hacking tools at a time when JTAG debuggers and chip-level reverse engineering were largely confined to expensive proprietary equipment. His research on microcontroller bootloader vulnerabilities, mask-ROM extraction via chip decapsulation, and radio-firmware reverse engineering (notably the Tytera MD-380 digital radio) has been widely cited in embedded security literature and adopted by hobbyist and professional communities alike. Through PoC||GTFO he also helped shape the culture and format of technical hacker publishing, blending rigorous proof-of-concept research with an irreverent zine aesthetic.",
   "knownFor": [
@@ -24,11 +32,26 @@
     "overview": "<h2>Background</h2><p>Travis Goodspeed is an American reverse engineer and hardware security researcher based in East Tennessee, in the Southern Appalachian region of the United States. He is known within the embedded-security and hardware-hacking community for combining formal vulnerability research with a hands-on, low-cost, do-it-yourself approach to reverse engineering consumer and industrial electronics. He has described his own approach to picking research targets as \"junk hacking\" &mdash; reverse engineering inexpensive, easily obtainable devices as a way to develop and demonstrate techniques without the legal or political complications that come with attacking expensive commercial or governmental systems.</p><h2>GoodFET and early hardware-hacking work</h2><p>Goodspeed is best known as the creator of GoodFET, an open-source USB JTAG adapter first released in the late 2000s. Loosely based on Texas Instruments' MSP430 FET debugging hardware, GoodFET was designed to be cheap to build and easy to reprogram, and it became a widely used tool for debugging, dumping firmware from, and reverse engineering microcontrollers across many different chip families. In 2009 he presented research on mask-ROM bootloaders at the USENIX Workshop on Offensive Technologies (WOOT), published as \"Half-Blind Attacks: Mask ROM Bootloaders are Dangerous,\" which described techniques for exploiting the read-only bootloader code baked into microcontroller silicon during manufacturing.</p><h2>Facedancer, wireless research, and further tools</h2><p>Building on his hardware-hacking work, Goodspeed created Facedancer, a framework and family of USB boards for emulating and fuzzing USB devices, which has since been used and extended by other researchers for USB protocol security testing. In 2011, while affiliated with the University of Pennsylvania, he co-authored and presented \"Packets in Packets: Orson Welles' In-Band Signaling Attacks for Modern Radios\" at USENIX WOOT, demonstrating a packet-in-packet technique for injecting raw frames into wireless networks by embedding a complete physical-layer packet inside the payload of another, uncontrolled packet. He has also published research on extracting firmware from historically significant hardware through direct ROM photography, including a firmware and ROM dump of the MYK-82 chip used in the Fortezza cryptographic card, a successor to the U.S. government's Clipper Chip.</p><h2>Reverse engineering the Tytera MD-380</h2><p>One of Goodspeed's most publicly visible projects has been the reverse engineering of the Tytera (TYT) MD-380, a low-cost digital mobile radio (DMR) handheld popular with amateur radio operators. Presenting at ShmooCon in 2016, he detailed how he analyzed the radio's USB Device Firmware Update (DFU) protocol, discovered undocumented vendor-specific commands, and found a null-pointer vulnerability that allowed reading of protected bootloader memory on the radio's STM32 microcontroller. This research, later published in detail in the PoC||GTFO journal, underpinned the community-maintained md380tools project, which patches the radio's firmware to add features such as displaying callsigns during transmission, effectively turning an inexpensive commercial radio into a customizable amateur-radio and DMR-scanning platform.</p><h2>PoC||GTFO and publishing</h2><p>Goodspeed is a co-editor of PoC||GTFO (\"Proof of Concept or Get The F*** Out\"), a reverse-engineering journal distributed as a hacker zine that mixes deeply technical essays on topics such as file-format polyglots, chip decapsulation, and firmware exploitation with unconventional formatting and humor. Issues of PoC||GTFO have been collected and republished in print by No Starch Press. Goodspeed has contributed numerous technical articles to the journal, including pieces on chip decapsulation and photography, and has used it as a primary outlet for publishing his own research rather than relying solely on traditional academic venues.</p><h2>Later work and recognition</h2><p>Goodspeed has continued to speak at hacker and security conferences including DEF CON, ShmooCon, Black Hat Arsenal, HITB, 44CON, and hardwear.io, and has taught training courses on microcontroller and embedded-system exploitation. In 2024, No Starch Press published his book Microcontroller Exploits, which documents a series of real hardware hacks and firmware vulnerabilities against embedded devices. His body of work is frequently cited as foundational reading for practitioners entering embedded and hardware security, and tools he created or inspired, such as GoodFET and Facedancer, remain in active use in the reverse-engineering community.</p>"
   },
   "timeline": [
-    { "date": "2009", "event": "Releases the GoodFET open-source JTAG/hardware-hacking adapter and presents \"Half-Blind Attacks: Mask ROM Bootloaders are Dangerous\" at USENIX WOOT." },
-    { "date": "2011", "event": "Presents \"Packets in Packets\" in-band signaling/packet-injection research for wireless radios at USENIX WOOT while affiliated with the University of Pennsylvania." },
-    { "date": "2013", "event": "Co-founds/edits the PoC||GTFO reverse-engineering journal with collaborators, publishing technical hacking research in zine form." },
-    { "date": "2016-01", "event": "Presents reverse-engineering research on the Tytera MD-380 DMR radio firmware at ShmooCon, leading to the community md380tools project." },
-    { "date": "2024", "event": "No Starch Press publishes his book Microcontroller Exploits." }
+    {
+      "date": "2009",
+      "event": "Releases the GoodFET open-source JTAG/hardware-hacking adapter and presents \"Half-Blind Attacks: Mask ROM Bootloaders are Dangerous\" at USENIX WOOT."
+    },
+    {
+      "date": "2011",
+      "event": "Presents \"Packets in Packets\" in-band signaling/packet-injection research for wireless radios at USENIX WOOT while affiliated with the University of Pennsylvania."
+    },
+    {
+      "date": "2013",
+      "event": "Co-founds/edits the PoC||GTFO reverse-engineering journal with collaborators, publishing technical hacking research in zine form."
+    },
+    {
+      "date": "2016-01",
+      "event": "Presents reverse-engineering research on the Tytera MD-380 DMR radio firmware at ShmooCon, leading to the community md380tools project."
+    },
+    {
+      "date": "2024",
+      "event": "No Starch Press publishes his book Microcontroller Exploits."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -36,21 +59,49 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "GoodFET -- Home", "url": "https://goodfet.sourceforge.net/" },
-    { "title": "Travis Goodspeed - RECESSIM wiki", "url": "https://wiki.recessim.com/view/Travis_Goodspeed" },
-    { "title": "Half-Blind Attacks: Mask ROM Bootloaders are Dangerous (USENIX WOOT '09 paper)", "url": "https://www.usenix.org/legacy/event/woot09/tech/full_papers/goodspeed.pdf" },
-    { "title": "Travis Goodspeed | USENIX Security '11 speaker page", "url": "https://www.usenix.org/conference/usenix-security-11/speaker-or-organizer/travis-goodspeed-university-pennsylvania" },
-    { "title": "md380tools GitHub repository", "url": "https://github.com/travisgoodspeed/md380tools" },
-    { "title": "Shmoocon 2016: Reverse Engineering Cheap Chinese Radio Firmware - Hackaday", "url": "https://hackaday.com/2016/01/19/shmoocon-2016-reverse-engineering-cheap-chinese-radio-firmware/" },
-    { "title": "myk82rom GitHub repository (Clipper Chip successor ROM dump)", "url": "https://github.com/travisgoodspeed/myk82rom" },
-    { "title": "PoC||GTFO - No Starch Press", "url": "https://nostarch.com/gtfo" },
-    { "title": "Book review: Microcontroller Exploits by Travis Goodspeed - IEEE Cipher", "url": "https://www.ieee-security.org/Cipher/BookReviews/2024/Goodspeed_by_austin.html" }
+    {
+      "title": "GoodFET -- Home",
+      "url": "https://goodfet.sourceforge.net/"
+    },
+    {
+      "title": "Travis Goodspeed - RECESSIM wiki",
+      "url": "https://wiki.recessim.com/view/Travis_Goodspeed"
+    },
+    {
+      "title": "Half-Blind Attacks: Mask ROM Bootloaders are Dangerous (USENIX WOOT '09 paper)",
+      "url": "https://www.usenix.org/legacy/event/woot09/tech/full_papers/goodspeed.pdf"
+    },
+    {
+      "title": "Travis Goodspeed | USENIX Security '11 speaker page",
+      "url": "https://www.usenix.org/conference/usenix-security-11/speaker-or-organizer/travis-goodspeed-university-pennsylvania"
+    },
+    {
+      "title": "md380tools GitHub repository",
+      "url": "https://github.com/travisgoodspeed/md380tools"
+    },
+    {
+      "title": "Shmoocon 2016: Reverse Engineering Cheap Chinese Radio Firmware - Hackaday",
+      "url": "https://hackaday.com/2016/01/19/shmoocon-2016-reverse-engineering-cheap-chinese-radio-firmware/"
+    },
+    {
+      "title": "myk82rom GitHub repository (Clipper Chip successor ROM dump)",
+      "url": "https://github.com/travisgoodspeed/myk82rom"
+    },
+    {
+      "title": "PoC||GTFO - No Starch Press",
+      "url": "https://nostarch.com/gtfo"
+    },
+    {
+      "title": "Book review: Microcontroller Exploits by Travis Goodspeed - IEEE Cipher",
+      "url": "https://www.ieee-security.org/Cipher/BookReviews/2024/Goodspeed_by_austin.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 9,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

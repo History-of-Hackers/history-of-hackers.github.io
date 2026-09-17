@@ -29,33 +29,78 @@
     "overview": "<h2>Early life and background</h2><p>Randy Suess was born on January 27, 1945, in Skokie, Illinois, a suburb of Chicago. His father was a police officer and his mother a nurse. He served in the United States Navy and later attended the University of Illinois at Chicago Circle. His working career included time at IBM and at Zenith, the Chicago-based consumer electronics manufacturer.</p><p>Suess was a hobbyist as much as a professional. He was a licensed amateur radio operator holding the call sign WB9GPM and was active in the Chicago FM Club, where he helped maintain radio repeater systems. It was through another hobbyist organization, the Chicago Area Computer Hobbyists' Exchange (CACHE), that he met Ward Christensen, an IBM employee who had written the XMODEM file transfer protocol in 1977.</p><h2>CBBS</h2><p>In January 1978 a severe blizzard shut down much of Chicago and left CACHE members housebound. Christensen and Suess used the enforced idle time to begin work on an idea they had discussed for the club: a computerized substitute for the cork bulletin board on which hobbyists pinned notices, so that members could post and read messages by telephone rather than in person. The division of labor was straightforward. Christensen wrote the software in Intel 8080 assembly language; Suess assembled the S-100 bus computer it ran on, handled the hardware and modem interfacing, and hosted the machine and its dedicated phone line at his home in the Wrigleyville neighborhood of Chicago, which meant most Chicago-area callers could reach it without long-distance charges.</p><p>The two dated the finished system to February 16, 1978, describing a roughly thirty-day span from the middle of January. Christensen later said the working system had actually come together in about two weeks, and that they described it as a four-week project so that it would not appear to have been rushed. They named it CBBS, for Computerized Bulletin Board System, and the acronym BBS entered general use from it.</p><p>For most of its life CBBS answered a single modem line, so callers took turns: one user at a time dialed in, read the message base, left replies and hung up. That constraint shaped the etiquette of early bulletin boards, where brevity and asynchronous reading were practical necessities rather than stylistic choices. The system reportedly logged more than half a million calls before it was retired in the 1980s.</p><h2>Publication and spread</h2><p>CBBS became widely known outside Chicago through an article Christensen and Suess wrote for Byte magazine. \"Hobbyist Computerized Bulletin Board\" appeared in the November 1978 issue (volume 3, number 11, pages 150-157), part of a themed section on personal computing networks. The article described the concept, the hardware and the operating experience in enough detail for readers to build their own systems, and hobbyists across the United States did so. Within a few years bulletin board systems numbered in the thousands, and by the late 1980s they formed a substantial amateur network with message-relay systems such as FidoNet linking them together.</p><h2>Chinet</h2><p>Suess's interest turned toward Unix in the early 1980s. In 1982 he started a system originally called wlcrjs, renamed Chinet about two years later, that offered public dial-up access to a Unix machine. Chinet is generally counted among the earliest public-access Unix systems, giving hobbyists shell accounts, mail and Usenet news at a time when such access was normally confined to universities and corporations. Chinet outlived the dial-up era; it continues to operate as a public discussion site running forum software on a Debian GNU/Linux system.</p><h2>Recognition and death</h2><p>In 1992 Suess and Christensen shared a Dvorak Award for Excellence in Telecommunications for creating the first bulletin board system. Both men appeared in Jason Scott's <em>BBS: The Documentary</em>, released in 2005, which traced the culture that grew out of CBBS. Suess died in Chicago on December 10, 2019, at the age of 74. Christensen, his CBBS collaborator, died on October 11, 2024.</p><h2>Legacy</h2><p>The significance of CBBS lies less in its technology, which was modest even by 1978 standards, than in its social form. It demonstrated that a single hobbyist with a spare computer and a telephone line could operate a persistent public meeting place, and that strangers would use it. That model of the individually run online community, maintained at personal expense and governed by its operator, persisted through the BBS era and informed the expectations of many people who later moved onto the Internet. Suess's contribution was the unglamorous half of it: the machine that had to stay powered on and answering the phone.</p>"
   },
   "timeline": [
-    { "date": "1945-01-27", "event": "Born in Skokie, Illinois." },
-    { "date": "1978-01", "event": "A Chicago blizzard leaves CACHE members housebound; Suess and Ward Christensen begin work on a computerized bulletin board." },
-    { "date": "1978-02-16", "event": "CBBS goes online at Suess's Chicago home, becoming the first computer bulletin board system." },
-    { "date": "1978-11", "event": "Christensen and Suess publish \"Hobbyist Computerized Bulletin Board\" in Byte magazine, volume 3 number 11, pages 150-157." },
-    { "date": "1982", "event": "Suess starts the dial-up Unix system wlcrjs, later renamed Chinet, one of the earliest public-access Unix systems." },
-    { "date": "1992", "event": "Suess and Christensen share a Dvorak Award for Excellence in Telecommunications for creating the first BBS." },
-    { "date": "2005", "event": "Both men are featured in Jason Scott's BBS: The Documentary." },
-    { "date": "2019-12-10", "event": "Dies in Chicago, Illinois, at age 74." }
+    {
+      "date": "1945-01-27",
+      "event": "Born in Skokie, Illinois."
+    },
+    {
+      "date": "1978-01",
+      "event": "A Chicago blizzard leaves CACHE members housebound; Suess and Ward Christensen begin work on a computerized bulletin board."
+    },
+    {
+      "date": "1978-02-16",
+      "event": "CBBS goes online at Suess's Chicago home, becoming the first computer bulletin board system."
+    },
+    {
+      "date": "1978-11",
+      "event": "Christensen and Suess publish \"Hobbyist Computerized Bulletin Board\" in Byte magazine, volume 3 number 11, pages 150-157."
+    },
+    {
+      "date": "1982",
+      "event": "Suess starts the dial-up Unix system wlcrjs, later renamed Chinet, one of the earliest public-access Unix systems."
+    },
+    {
+      "date": "1992",
+      "event": "Suess and Christensen share a Dvorak Award for Excellence in Telecommunications for creating the first BBS."
+    },
+    {
+      "date": "2005",
+      "event": "Both men are featured in Jason Scott's BBS: The Documentary."
+    },
+    {
+      "date": "2019-12-10",
+      "event": "Dies in Chicago, Illinois, at age 74."
+    }
   ],
-  "relatedPeople": ["ward-christensen"],
+  "relatedPeople": [
+    "ward-christensen"
+  ],
   "relatedGroups": [],
   "relatedTools": [],
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Randy Suess - Wikipedia", "url": "https://en.wikipedia.org/wiki/Randy_Suess" },
-    { "title": "CBBS - Wikipedia", "url": "https://en.wikipedia.org/wiki/CBBS" },
-    { "title": "Bulletin board system - Wikipedia", "url": "https://en.wikipedia.org/wiki/Bulletin_board_system" },
-    { "title": "Ward Christensen - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ward_Christensen" },
-    { "title": "Byte Magazine, Volume 03 Number 11 (November 1978) - Internet Archive", "url": "https://archive.org/details/byte-magazine-1978-11" },
-    { "title": "Chinet - public access Unix system founded by Randy Suess", "url": "https://chinet.com/" }
+    {
+      "title": "Randy Suess - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Randy_Suess"
+    },
+    {
+      "title": "CBBS - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/CBBS"
+    },
+    {
+      "title": "Bulletin board system - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bulletin_board_system"
+    },
+    {
+      "title": "Ward Christensen - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ward_Christensen"
+    },
+    {
+      "title": "Byte Magazine, Volume 03 Number 11 (November 1978) - Internet Archive",
+      "url": "https://archive.org/details/byte-magazine-1978-11"
+    },
+    {
+      "title": "Chinet - public access Unix system founded by Randy Suess",
+      "url": "https://chinet.com/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

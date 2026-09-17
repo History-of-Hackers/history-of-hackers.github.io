@@ -4,21 +4,53 @@
   "title": "The Colonial Pipeline Ransomware Attack",
   "slug": "colonial-pipeline-ransomware",
   "era": "2021",
-  "tags": ["ransomware", "critical infrastructure", "darkside", "extortion", "energy sector", "cryptocurrency", "2021"],
+  "tags": [
+    "ransomware",
+    "critical infrastructure",
+    "darkside",
+    "extortion",
+    "energy sector",
+    "cryptocurrency",
+    "2021"
+  ],
   "summary": "In May 2021, the DarkSide ransomware-as-a-service group breached the IT network of Colonial Pipeline, the largest refined-products pipeline operator in the United States, prompting a precautionary six-day shutdown of fuel delivery to much of the U.S. Southeast and a $4.4 million ransom payment.",
   "whyThisMatters": "The attack is widely regarded as the most disruptive ransomware incident against U.S. critical infrastructure to date, triggering fuel shortages, panic buying, and a spike in gasoline prices across multiple states. It pushed ransomware from a corporate IT problem to a matter of national security policy, prompting new federal pipeline cybersecurity directives, a White House executive order on cybersecurity, and a landmark U.S. Department of Justice operation that recovered a large share of the ransom in cryptocurrency.",
   "sections": {
     "overview": "<h2>Background</h2><p>Colonial Pipeline operates a roughly 5,500-mile pipeline system that carries gasoline, diesel, jet fuel, and other refined petroleum products from the Gulf Coast to the Southeastern and Eastern United States, supplying an estimated 45 percent of the fuel consumed on the East Coast. In early May 2021, the company's corporate IT network was compromised by an affiliate of DarkSide, a ransomware-as-a-service (RaaS) operation that had emerged on Russian-language cybercrime forums in August 2020.</p><h2>The Intrusion</h2><p>Investigators later determined that the attackers gained initial access using a single compromised password tied to a legacy virtual private network (VPN) account that was no longer in active use but remained enabled and lacked multi-factor authentication. Colonial Pipeline CEO Joseph Blount later testified to Congress that the password was discovered among a batch of credentials leaked in an unrelated data breach and may have been reused. On May 6, 2021, the attackers exfiltrated approximately 100 gigabytes of data from the company's network before deploying ransomware on May 7, 2021.</p><h2>Shutdown and Fuel Disruption</h2><p>Because the ransomware infected business (IT) systems rather than the operational technology controlling the pipeline itself, Colonial Pipeline proactively took its entire pipeline offline as a precaution while it assessed the scope of the breach. The shutdown, which lasted from May 7 to May 12, 2021, halted the flow of an estimated 2.5 million barrels of fuel per day. Within days, panic buying and localized shortages hit filling stations across Alabama, Florida, Georgia, North Carolina, South Carolina, Virginia, and the Washington, D.C. area; by mid-May, the majority of stations in cities such as Charlotte and Washington, D.C. had run out of fuel, and the national average gasoline price rose above $3 a gallon for the first time in over six years.</p><h2>Ransom Payment and Recovery</h2><p>Within hours of the attack, Colonial Pipeline paid the DarkSide affiliate a ransom of approximately 75 bitcoin, worth around $4.4 million at the time, in exchange for a decryption tool. The company's leadership later stated that the tool restored data too slowly to be the primary means of recovery, and the company relied heavily on its own backups to bring systems back online. On June 7, 2021, the U.S. Department of Justice announced that the FBI had tracked the ransom payment on the blockchain and seized 63.7 of the bitcoins paid — about 85 percent of the original transfer — from a cryptocurrency wallet used by the attackers, though the seized coins' dollar value had fallen to roughly $2.3 million amid a market downturn.</p><h2>DarkSide and Attribution</h2><p>The FBI publicly attributed the intrusion to DarkSide, a Russia-based ransomware-as-a-service group that leased its malware and infrastructure to criminal affiliates in exchange for a cut of ransom proceeds, and which employed a \"double extortion\" model of both encrypting data and threatening to leak stolen files. DarkSide had previously avoided targeting healthcare, education, and government entities, and after the Colonial Pipeline attack drew intense law-enforcement attention, the group announced in mid-May 2021 that it was shutting down its operation and that an unspecified law-enforcement action had disrupted its servers and cryptocurrency funds. Security researchers were skeptical that the group had truly disbanded, and by 2022 the FBI had linked DarkSide's developers to the successor ransomware operation BlackCat (ALPHV), suggesting a rebrand rather than a genuine shutdown.</p><h2>Aftermath and Policy Impact</h2><p>The incident prompted the Biden administration to issue a broad cybersecurity executive order in May 2021 aimed at strengthening federal network defenses and software supply-chain security, and led the Transportation Security Administration to issue its first mandatory cybersecurity directives for pipeline operators, requiring incident reporting and the designation of cybersecurity coordinators. The attack is frequently cited as a turning point that elevated ransomware from a private-sector nuisance to a matter treated with the urgency of a national security threat, and it remains one of the most cited case studies of the real-world consequences that cyberattacks on critical infrastructure can produce.</p>"
   },
   "timeline": [
-    { "date": "2020-08", "event": "The DarkSide ransomware-as-a-service group first emerges on Russian-language cybercrime forums." },
-    { "date": "2021-05-06", "event": "Attackers gain access to Colonial Pipeline's IT network via a compromised legacy VPN account and exfiltrate roughly 100 GB of data." },
-    { "date": "2021-05-07", "event": "DarkSide affiliate deploys ransomware on Colonial Pipeline's corporate network; the company proactively shuts down pipeline operations." },
-    { "date": "2021-05-08", "event": "Colonial Pipeline pays a ransom of approximately 75 bitcoin (about $4.4 million) to the attackers." },
-    { "date": "2021-05-12", "event": "Colonial Pipeline restarts pipeline operations after a five-day shutdown." },
-    { "date": "2021-05-13", "event": "DarkSide announces it is shutting down its operations amid pressure from law enforcement and governments." },
-    { "date": "2021-06-07", "event": "The U.S. Department of Justice announces the seizure of 63.7 bitcoins (about $2.3 million) of the ransom payment." },
-    { "date": "2022-04", "event": "The FBI links DarkSide's developers to the emergence of the BlackCat (ALPHV) ransomware operation." }
+    {
+      "date": "2020-08",
+      "event": "The DarkSide ransomware-as-a-service group first emerges on Russian-language cybercrime forums."
+    },
+    {
+      "date": "2021-05-06",
+      "event": "Attackers gain access to Colonial Pipeline's IT network via a compromised legacy VPN account and exfiltrate roughly 100 GB of data."
+    },
+    {
+      "date": "2021-05-07",
+      "event": "DarkSide affiliate deploys ransomware on Colonial Pipeline's corporate network; the company proactively shuts down pipeline operations."
+    },
+    {
+      "date": "2021-05-08",
+      "event": "Colonial Pipeline pays a ransom of approximately 75 bitcoin (about $4.4 million) to the attackers."
+    },
+    {
+      "date": "2021-05-12",
+      "event": "Colonial Pipeline restarts pipeline operations after a five-day shutdown."
+    },
+    {
+      "date": "2021-05-13",
+      "event": "DarkSide announces it is shutting down its operations amid pressure from law enforcement and governments."
+    },
+    {
+      "date": "2021-06-07",
+      "event": "The U.S. Department of Justice announces the seizure of 63.7 bitcoins (about $2.3 million) of the ransom payment."
+    },
+    {
+      "date": "2022-04",
+      "event": "The FBI links DarkSide's developers to the emergence of the BlackCat (ALPHV) ransomware operation."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -26,15 +58,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Colonial Pipeline ransomware attack - Wikipedia", "url": "https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack" },
-    { "title": "DarkSide (hacker group) - Wikipedia", "url": "https://en.wikipedia.org/wiki/DarkSide_(hacker_group)" },
-    { "title": "A Closer Look at the DarkSide Ransomware Gang - Krebs on Security", "url": "https://krebsonsecurity.com/2021/05/a-closer-look-at-the-darkside-ransomware-gang/" }
+    {
+      "title": "Colonial Pipeline ransomware attack - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack"
+    },
+    {
+      "title": "DarkSide (hacker group) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DarkSide_(hacker_group)"
+    },
+    {
+      "title": "A Closer Look at the DarkSide Ransomware Gang - Krebs on Security",
+      "url": "https://krebsonsecurity.com/2021/05/a-closer-look-at-the-darkside-ransomware-gang/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

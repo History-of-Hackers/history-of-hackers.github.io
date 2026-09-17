@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2010s-Present",
-  "tags": ["kernel exploitation", "fuzzing", "android rooting", "pwn2own", "ctf", "file systems", "academic research"],
+  "tags": [
+    "kernel exploitation",
+    "fuzzing",
+    "android rooting",
+    "pwn2own",
+    "ctf",
+    "file systems",
+    "academic research"
+  ],
   "summary": "Wen Xu, also known by the handle \"Memeda,\" is a security researcher known for Android/Linux kernel exploitation work at Keen Team, competitive results at Pwn2Own and DEF CON CTF, and academic fuzzing research completed during his PhD at Georgia Tech.",
   "whyThisMatters": "Wen Xu's work bridges offensive security competition and academic research, a path taken by relatively few researchers. His file-system fuzzer Janus and related tools (Hydra, libmpk-based fuzzing primitives) advanced automated bug-finding techniques that were later adopted by both academia and industry, while his earlier Android rooting and browser-exploit work at Keen Team and in Pwn2Own competitions demonstrated practical, high-impact vulnerability research against widely deployed software.",
   "knownFor": [
@@ -22,15 +30,42 @@
     "overview": "<h2>Background</h2><p>Wen Xu is a computer security researcher who has worked across both offensive security competitions and academic vulnerability research. Early in his career he used the handle \"Memeda\" and was affiliated with Keen Team (also known as Keen Security Lab), a Chinese security research team well known for browser and mobile operating system exploitation. From 2016 to 2021 he pursued a PhD at the Georgia Institute of Technology, where he worked in the Systems Software and Security Lab (SSLab) under Professor Taesoo Kim, focusing on automated bug-finding techniques such as kernel and file-system fuzzing.</p><h2>Android Rooting and Black Hat Research</h2><p>While at Keen Team, Wen Xu focused on Linux and Android kernel bug-finding and Android root exploitation. Together with colleague Yubin Fu, he presented research on universal Android rooting techniques at Black Hat USA 2015, in a talk and accompanying whitepaper describing methods for gaining root access across a wide range of Android devices by chaining kernel vulnerabilities rather than relying on device-specific bugs. This class of research was significant because it demonstrated exploitation techniques that could generalize across many Android kernel versions and vendors, rather than being tied to a single device.</p><h2>Competitive Exploitation: Pwn2Own and DEF CON CTF</h2><p>Wen Xu also competed in high-profile exploitation contests. He is credited with a result in the Adobe Reader category at Pwn2Own 2015 and a result in the Microsoft Edge browser category at Pwn2Own 2016, contests run by Trend Micro's Zero Day Initiative that reward researchers for demonstrating working exploit chains against widely used software. He was later part of Team DEFKOR00T, which won the DEF CON CTF 2018 championship, one of the most prestigious capture-the-flag competitions in the security community.</p><h2>Academic Fuzzing Research</h2><p>During his doctoral studies at Georgia Tech, Wen Xu shifted toward academic systems-security research centered on fuzzing, publishing at top venues including IEEE Symposium on Security and Privacy (Oakland), ACM CCS, and USENIX ATC. With co-authors Hyungon Moon, Sanidhya Kashyap, Po-Ning Tseng, and Taesoo Kim, he created Janus, described as the first feedback-driven fuzzer to explore the two-dimensional input space of a file system by simultaneously mutating on-disk image metadata and file-system syscalls; the tool was reported to have found around 100 unique crashes and 32 assigned CVEs across mainstream Linux file systems. This work, published as \"Fuzzing File Systems via Two-Dimensional Input Space Exploration\" at IEEE S&P 2019, was followed by a successor project called Hydra presented at SOSP 2019. He also co-authored \"Designing New Operating Primitives to Improve Fuzzing Performance\" (ACM CCS 2017), \"libmpk: Software Abstraction for Intel Memory Protection Keys\" (USENIX ATC 2019), and a paper on aspect-preserving mutation for JavaScript engine fuzzing (IEEE S&P 2020).</p><h2>Later Work and Legacy</h2><p>After completing his PhD in 2021, Wen Xu moved into industry and entrepreneurship, co-founding the AI startup Narya.ai in 2022, which builds AI-assisted productivity tools including a voice-note application. Across his career, Wen Xu's trajectory from Android rooting research and international exploitation competitions to peer-reviewed fuzzing research illustrates a common pattern in the security research community, in which practical offensive skills developed in industry and competitive settings feed into, and are refined by, academic study of automated vulnerability discovery.</p>"
   },
   "timeline": [
-    { "date": "2015-08", "event": "Presented Android rooting research with Yubin Fu at Black Hat USA 2015 while affiliated with Keen Team." },
-    { "date": "2015", "event": "Credited with a Pwn2Own 2015 result in the Adobe Reader category." },
-    { "date": "2016", "event": "Credited with a Pwn2Own 2016 result in the Microsoft Edge category; began PhD studies at Georgia Institute of Technology." },
-    { "date": "2017", "event": "Co-authored \"Designing New Operating Primitives to Improve Fuzzing Performance,\" published at ACM CCS 2017." },
-    { "date": "2018", "event": "Won DEF CON CTF 2018 as part of Team DEFKOR00T." },
-    { "date": "2019", "event": "Co-authored the Janus file-system fuzzer paper at IEEE Symposium on Security and Privacy, and \"libmpk\" at USENIX ATC; successor project Hydra presented at SOSP 2019." },
-    { "date": "2020", "event": "Co-authored a paper on JavaScript engine fuzzing via aspect-preserving mutation, published at IEEE S&P 2020." },
-    { "date": "2021", "event": "Completed PhD at Georgia Institute of Technology's Systems Software and Security Lab (SSLab)." },
-    { "date": "2022", "event": "Co-founded the AI startup Narya.ai." }
+    {
+      "date": "2015-08",
+      "event": "Presented Android rooting research with Yubin Fu at Black Hat USA 2015 while affiliated with Keen Team."
+    },
+    {
+      "date": "2015",
+      "event": "Credited with a Pwn2Own 2015 result in the Adobe Reader category."
+    },
+    {
+      "date": "2016",
+      "event": "Credited with a Pwn2Own 2016 result in the Microsoft Edge category; began PhD studies at Georgia Institute of Technology."
+    },
+    {
+      "date": "2017",
+      "event": "Co-authored \"Designing New Operating Primitives to Improve Fuzzing Performance,\" published at ACM CCS 2017."
+    },
+    {
+      "date": "2018",
+      "event": "Won DEF CON CTF 2018 as part of Team DEFKOR00T."
+    },
+    {
+      "date": "2019",
+      "event": "Co-authored the Janus file-system fuzzer paper at IEEE Symposium on Security and Privacy, and \"libmpk\" at USENIX ATC; successor project Hydra presented at SOSP 2019."
+    },
+    {
+      "date": "2020",
+      "event": "Co-authored a paper on JavaScript engine fuzzing via aspect-preserving mutation, published at IEEE S&P 2020."
+    },
+    {
+      "date": "2021",
+      "event": "Completed PhD at Georgia Institute of Technology's Systems Software and Security Lab (SSLab)."
+    },
+    {
+      "date": "2022",
+      "event": "Co-founded the AI startup Narya.ai."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,18 +73,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Black Hat USA 2015 | Wen Xu (speaker page)", "url": "https://blackhat.com/us-15/speakers/Wen-Xu.html" },
-    { "title": "Wen `Memeda` Xu @K33nTeam - Ah! Universal Android Rooting Is Back (Black Hat USA 2015 materials)", "url": "https://blackhat.com/docs/us-15/materials/us-15-Xu-Ah-Universal-Android-Rooting-Is-Back.pdf" },
-    { "title": "GitHub - sslab-gatech/janus: a state-of-the-art file system fuzzer on Linux", "url": "https://github.com/sslab-gatech/janus" },
-    { "title": "People - Systems Software and Security Lab (SSLab), Georgia Tech", "url": "https://gts3.org/pages/people.html" },
-    { "title": "Wen Xu - Google Scholar profile", "url": "https://scholar.google.com/citations?user=1SfIDpIAAAAJ&hl=en" },
-    { "title": "Wen Xu - LinkedIn profile (CEO & Co-Founder, Narya.ai)", "url": "https://www.linkedin.com/in/wen-xu-304465186/" }
+    {
+      "title": "Black Hat USA 2015 | Wen Xu (speaker page)",
+      "url": "https://blackhat.com/us-15/speakers/Wen-Xu.html"
+    },
+    {
+      "title": "Wen `Memeda` Xu @K33nTeam - Ah! Universal Android Rooting Is Back (Black Hat USA 2015 materials)",
+      "url": "https://blackhat.com/docs/us-15/materials/us-15-Xu-Ah-Universal-Android-Rooting-Is-Back.pdf"
+    },
+    {
+      "title": "GitHub - sslab-gatech/janus: a state-of-the-art file system fuzzer on Linux",
+      "url": "https://github.com/sslab-gatech/janus"
+    },
+    {
+      "title": "People - Systems Software and Security Lab (SSLab), Georgia Tech",
+      "url": "https://gts3.org/pages/people.html"
+    },
+    {
+      "title": "Wen Xu - Google Scholar profile",
+      "url": "https://scholar.google.com/citations?user=1SfIDpIAAAAJ&hl=en"
+    },
+    {
+      "title": "Wen Xu - LinkedIn profile (CEO & Co-Founder, Narya.ai)",
+      "url": "https://www.linkedin.com/in/wen-xu-304465186/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

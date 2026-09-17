@@ -1,1 +1,68 @@
-{"id":"parmy-olson","type":"person","title":"Parmy Olson","slug":"parmy-olson","name":"Parmy Olson","born":null,"died":null,"era":"2012-Present","tags":["author","journalism","hacktivism","anonymous","books"],"summary":"Technology journalist and author of We Are Anonymous, a reported account of Anonymous and LulzSec.","whyThisMatters":"Olson’s reporting created a book-length record of hacktivist groups, their internal conflicts, and their relationship with public narratives about computer security.","knownFor":["We Are Anonymous","Technology journalism","Reporting on Anonymous and LulzSec"],"sections":{"overview":"<p>Parmy Olson is a technology journalist and author. Her reporting has covered emerging technology, and her book <em>We Are Anonymous</em> examines Anonymous and LulzSec through interviews and reporting.</p><h2>Hacktivism as reported history</h2><p><em>We Are Anonymous</em> presents a narrative of decentralized hacker and hacktivist activity, including the public attention, disagreements, and law-enforcement pressure that surrounded those groups. It is a useful journalistic source for the early 2010s period.</p>"},"timeline":[{"date":"2012","event":"Publishes We Are Anonymous: Inside the Hacker World of LulzSec, Anonymous, and the Global Cyber Insurgency."},{"date":"2013","event":"A paperback edition of We Are Anonymous is issued by Little, Brown."},{"date":"2019","event":"Forbes republishes and catalogs Olson’s technology reporting from the decade."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Hachette: We Are Anonymous","url":"https://www.hachettebookgroup.com/titles/parmy-olson/we-are-anonymous/9780316213523/"},{"title":"Forbes: Parmy Olson","url":"https://www.forbes.com/sites/parmyolson/"},{"title":"Open Library: We Are Anonymous","url":"https://openlibrary.org/works/OL16707736W/We_are_Anonymous"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "parmy-olson",
+  "type": "person",
+  "title": "Parmy Olson",
+  "slug": "parmy-olson",
+  "name": "Parmy Olson",
+  "born": null,
+  "died": null,
+  "era": "2012-Present",
+  "tags": [
+    "author",
+    "journalism",
+    "hacktivism",
+    "anonymous",
+    "books"
+  ],
+  "summary": "Technology journalist and author of We Are Anonymous, a reported account of Anonymous and LulzSec.",
+  "whyThisMatters": "Olson’s reporting created a book-length record of hacktivist groups, their internal conflicts, and their relationship with public narratives about computer security.",
+  "knownFor": [
+    "We Are Anonymous",
+    "Technology journalism",
+    "Reporting on Anonymous and LulzSec"
+  ],
+  "sections": {
+    "overview": "<p>Parmy Olson is a technology journalist and author. Her reporting has covered emerging technology, and her book <em>We Are Anonymous</em> examines Anonymous and LulzSec through interviews and reporting.</p><h2>Hacktivism as reported history</h2><p><em>We Are Anonymous</em> presents a narrative of decentralized hacker and hacktivist activity, including the public attention, disagreements, and law-enforcement pressure that surrounded those groups. It is a useful journalistic source for the early 2010s period.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2012",
+      "event": "Publishes We Are Anonymous: Inside the Hacker World of LulzSec, Anonymous, and the Global Cyber Insurgency."
+    },
+    {
+      "date": "2013",
+      "event": "A paperback edition of We Are Anonymous is issued by Little, Brown."
+    },
+    {
+      "date": "2019",
+      "event": "Forbes republishes and catalogs Olson’s technology reporting from the decade."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Hachette: We Are Anonymous",
+      "url": "https://www.hachettebookgroup.com/titles/parmy-olson/we-are-anonymous/9780316213523/"
+    },
+    {
+      "title": "Forbes: Parmy Olson",
+      "url": "https://www.forbes.com/sites/parmyolson/"
+    },
+    {
+      "title": "Open Library: We Are Anonymous",
+      "url": "https://openlibrary.org/works/OL16707736W/We_are_Anonymous"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

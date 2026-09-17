@@ -1,0 +1,68 @@
+{
+  "id": "eric-hughes",
+  "type": "person",
+  "title": "Eric Hughes",
+  "slug": "eric-hughes",
+  "name": "Eric Hughes",
+  "born": null,
+  "died": null,
+  "era": "1990s",
+  "tags": [
+    "cypherpunks",
+    "privacy",
+    "remailers",
+    "manifesto",
+    "cryptography"
+  ],
+  "summary": "American mathematician and programmer who wrote 'A Cypherpunk's Manifesto' and co-founded the cypherpunks mailing list.",
+  "whyThisMatters": "Hughes' manifesto gave the privacy-technology movement its slogan: cypherpunks write code.",
+  "knownFor": [
+    "A Cypherpunk's Manifesto (1993)",
+    "Co-founding the cypherpunks",
+    "Early anonymous remailer"
+  ],
+  "sections": {
+    "overview": "<p>Eric Hughes is an American mathematician and computer programmer. In 1992 he hosted the first meetings of the group that became the cypherpunks, and with Tim May and John Gilmore founded the cypherpunks mailing list, which ran on Gilmore's toad.com server.</p><h2>The manifesto</h2><p>On 9 March 1993 Hughes published <em>A Cypherpunk's Manifesto</em>. It argued that privacy in an open society requires anonymous transaction systems and strong cryptography, and that \"cypherpunks write code\" because software, unlike law, can be deployed without permission. The essay became a founding text for privacy-technology projects from remailers to Tor.</p><h2>Remailers</h2><p>Hughes wrote an early anonymous remailer in Perl in 1992, later improved by Hal Finney; the cypherpunk remailer network that followed was one of the movement's first working systems.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1992-09",
+      "event": "Co-founds the cypherpunks group and mailing list with Tim May and John Gilmore."
+    },
+    {
+      "date": "1992",
+      "event": "Writes an early cypherpunk anonymous remailer."
+    },
+    {
+      "date": "1993-03-09",
+      "event": "Publishes 'A Cypherpunk's Manifesto'."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Eric Hughes, 'A Cypherpunk's Manifesto' (1993)",
+      "url": "https://www.activism.net/cypherpunk/manifesto.html"
+    },
+    {
+      "title": "Wired: 'Crypto Rebels' (Steven Levy, 1993)",
+      "url": "https://www.wired.com/1993/02/crypto-rebels/"
+    },
+    {
+      "title": "Wikipedia: Eric Hughes (cypherpunk)",
+      "url": "https://en.wikipedia.org/wiki/Eric_Hughes_(cypherpunk)"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

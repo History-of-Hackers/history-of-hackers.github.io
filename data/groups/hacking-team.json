@@ -4,22 +4,57 @@
   "title": "Hacking Team",
   "slug": "hacking-team",
   "era": "2003-2020",
-  "tags": ["surveillance", "spyware", "italy", "data-breach", "phineas-fisher", "exploit-broker", "government-hacking"],
+  "tags": [
+    "surveillance",
+    "spyware",
+    "italy",
+    "data-breach",
+    "phineas-fisher",
+    "exploit-broker",
+    "government-hacking"
+  ],
   "summary": "Hacking Team was a Milan-based company that sold offensive intrusion and surveillance software to governments and police forces worldwide, until a July 2015 breach by the hacker Phineas Fisher exposed roughly 400 gigabytes of its internal emails, source code, and client list.",
   "whyThisMatters": "The breach was one of the most consequential exposures of the commercial surveillance industry, converting long-suspected allegations about sales to authoritarian governments into documented, searchable proof. It fueled subsequent export-control action against the company, inspired further leaks against similar vendors, and remains a reference case in debates over the ethics and regulation of the government spyware trade.",
   "sections": {
     "overview": "<h2>Background</h2><p>Hacking Team was an Italian information-technology company headquartered in Milan, founded in 2003 by David Vincenzetti and Valeriano Bedeschi. It grew into one of the best-known vendors of \"lawful intercept\" and offensive intrusion software, selling to government agencies, police forces, and intelligence services in dozens of countries. The company maintained a small workforce of roughly forty employees and consultants, with additional offices in Annapolis, Maryland, and Singapore, to support an international client base.</p><h2>Products</h2><p>The company's flagship product was a suite of intrusion tools marketed as a \"Remote Control System\" (RCS), sold under the names Da Vinci and later Galileo. Once installed on a target's device, the software could intercept encrypted communications and files, record Skype and other calls, activate cameras and microphones, log keystrokes, track GPS location, and exfiltrate stored data across Windows, macOS, Linux, Android, and iOS. Hacking Team marketed these capabilities to law enforcement and intelligence customers as tools for criminal and counterterrorism investigations.</p><h2>Scrutiny before the breach</h2><p>Well before 2015, researchers at the University of Toronto's Citizen Lab had documented Hacking Team spyware being used against journalists and political dissidents rather than only criminal suspects, identifying suspected infections and command-and-control infrastructure linked to governments including Ethiopia, Morocco, and the United Arab Emirates. Citizen Lab and other civil-society groups published open letters and reports pressing the company on its customer vetting practices, but Hacking Team denied selling to governments it said were on relevant blacklists.</p><h2>The 2015 breach</h2><p>On 5 July 2015, unknown attackers seized control of Hacking Team's official Twitter account and used it to announce that the company had been compromised, publishing a torrent link to more than 400 gigabytes of internal data. The leaked archive, distributed via BitTorrent and Mega, contained years of internal emails, invoices, contracts, and the complete source code of the company's surveillance products. A hacker using the pseudonym Phineas Fisher subsequently claimed responsibility and later published a detailed technical account of the intrusion, describing how a vulnerability in a SonicWall SSL-VPN appliance used by Hacking Team was reverse-engineered over roughly two weeks to obtain remote root access to the network. The same pseudonymous actor had claimed an earlier, similar breach of the British-German surveillance firm Gamma International (maker of FinFisher) in 2014.</p><h2>What the leak revealed</h2><p>Analysis of the leaked documents by journalists and researchers identified roughly seventy Hacking Team customers, including government and law-enforcement bodies in Sudan, Bahrain, Saudi Arabia, Kazakhstan, Ethiopia, Egypt, Mexico, and elsewhere, alongside law-enforcement and defense agencies in established democracies, including in the United States. The leak substantiated years of prior Citizen Lab reporting that some clients had used the company's spyware against journalists and activists rather than solely for criminal investigations. The source-code dump also exposed a previously unknown zero-day vulnerability in Adobe Flash Player (later catalogued as CVE-2015-5119), which was rapidly incorporated into criminal exploit kits within days of the leak becoming public, forcing an emergency patch from Adobe.</p><h2>Aftermath and legacy</h2><p>The breach caused significant reputational and regulatory damage. In 2016, Italy's Ministry of Economic Development revoked Hacking Team's global export authorization for its surveillance products, restricting the company to selling within the European Union without case-by-case licensing. The company struggled afterward, was acquired by the investment group InTheCyber in 2019, and ceased operating under the Hacking Team name, with the surveillance business later continuing under successor branding. The incident is widely cited alongside the 2014 Gamma International/FinFisher breach as a turning point that made the internal workings and client rosters of the commercial spyware industry a matter of public record rather than speculation, and it directly informed subsequent journalism, litigation, and policy debate over the export and regulation of intrusion software.</p>"
   },
   "timeline": [
-    { "date": "2003", "event": "Hacking Team is founded in Milan, Italy, by David Vincenzetti and Valeriano Bedeschi." },
-    { "date": "2014", "event": "Citizen Lab and other researchers publish findings tying Hacking Team's Remote Control System spyware to surveillance of journalists and activists in countries including Ethiopia, Morocco, and the UAE." },
-    { "date": "2015-07-05", "event": "Hacking Team's Twitter account is hijacked and used to announce a breach, releasing a link to roughly 400GB of stolen internal emails, contracts, and source code." },
-    { "date": "2015-07", "event": "The hacker known as Phineas Fisher claims responsibility for the intrusion, which exploited a vulnerability in a SonicWall SSL-VPN device to gain root access to Hacking Team's network." },
-    { "date": "2015-07", "event": "Journalists and researchers mine the leak to identify roughly seventy government and law-enforcement clients, including Sudan, Bahrain, Saudi Arabia, Kazakhstan, and Ethiopia." },
-    { "date": "2015-07", "event": "A previously unknown Adobe Flash Player zero-day exposed in the leak (CVE-2015-5119) is quickly adopted by criminal exploit kits, prompting an emergency Adobe patch." },
-    { "date": "2016", "event": "Italy's Ministry of Economic Development revokes Hacking Team's global export license, restricting sales outside the European Union." },
-    { "date": "2019", "event": "Hacking Team is acquired by the investment group InTheCyber." },
-    { "date": "2020", "event": "The company ceases operating under the Hacking Team name." }
+    {
+      "date": "2003",
+      "event": "Hacking Team is founded in Milan, Italy, by David Vincenzetti and Valeriano Bedeschi."
+    },
+    {
+      "date": "2014",
+      "event": "Citizen Lab and other researchers publish findings tying Hacking Team's Remote Control System spyware to surveillance of journalists and activists in countries including Ethiopia, Morocco, and the UAE."
+    },
+    {
+      "date": "2015-07-05",
+      "event": "Hacking Team's Twitter account is hijacked and used to announce a breach, releasing a link to roughly 400GB of stolen internal emails, contracts, and source code."
+    },
+    {
+      "date": "2015-07",
+      "event": "The hacker known as Phineas Fisher claims responsibility for the intrusion, which exploited a vulnerability in a SonicWall SSL-VPN device to gain root access to Hacking Team's network."
+    },
+    {
+      "date": "2015-07",
+      "event": "Journalists and researchers mine the leak to identify roughly seventy government and law-enforcement clients, including Sudan, Bahrain, Saudi Arabia, Kazakhstan, and Ethiopia."
+    },
+    {
+      "date": "2015-07",
+      "event": "A previously unknown Adobe Flash Player zero-day exposed in the leak (CVE-2015-5119) is quickly adopted by criminal exploit kits, prompting an emergency Adobe patch."
+    },
+    {
+      "date": "2016",
+      "event": "Italy's Ministry of Economic Development revokes Hacking Team's global export license, restricting sales outside the European Union."
+    },
+    {
+      "date": "2019",
+      "event": "Hacking Team is acquired by the investment group InTheCyber."
+    },
+    {
+      "date": "2020",
+      "event": "The company ceases operating under the Hacking Team name."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -27,16 +62,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Hacking Team - Wikipedia", "url": "https://en.wikipedia.org/wiki/Hacking_Team" },
-    { "title": "Phineas Fisher - Wikipedia", "url": "https://en.wikipedia.org/wiki/Phineas_Fisher" },
-    { "title": "Hacking Team - Citizen Lab research archive", "url": "https://citizenlab.ca/tag/hacking-team/" },
-    { "title": "Hacking Team - Wikipedia (Italian)", "url": "https://it.wikipedia.org/wiki/Hacking_Team" }
+    {
+      "title": "Hacking Team - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hacking_Team"
+    },
+    {
+      "title": "Phineas Fisher - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phineas_Fisher"
+    },
+    {
+      "title": "Hacking Team - Citizen Lab research archive",
+      "url": "https://citizenlab.ca/tag/hacking-team/"
+    },
+    {
+      "title": "Hacking Team - Wikipedia (Italian)",
+      "url": "https://it.wikipedia.org/wiki/Hacking_Team"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

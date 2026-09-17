@@ -7,7 +7,16 @@
   "born": "1971-02-25",
   "died": null,
   "era": "2000s-Present",
-  "tags": ["usable security", "privacy", "passwords", "carnegie mellon", "p3p", "ftc", "academia", "soups"],
+  "tags": [
+    "usable security",
+    "privacy",
+    "passwords",
+    "carnegie mellon",
+    "p3p",
+    "ftc",
+    "academia",
+    "soups"
+  ],
   "summary": "Lorrie Faith Cranor is an American computer scientist and engineering-and-public-policy researcher at Carnegie Mellon University, where she directs the CyLab Security and Privacy Institute and the CyLab Usable Privacy and Security Laboratory (CUPS). She helped establish usable privacy and security as a research field, chaired the W3C Platform for Privacy Preferences (P3P) working group, founded the Symposium on Usable Privacy and Security (SOUPS), and served as Chief Technologist of the U.S. Federal Trade Commission in 2016.",
   "whyThisMatters": "Cranor's work reframed security and privacy failures as design problems rather than purely cryptographic or policy ones, arguing that mechanisms people cannot understand or use correctly do not protect them. By founding SOUPS and building the CUPS laboratory, she gave that argument an institutional home and trained a generation of researchers who now work across academia, industry, and government. Her empirical studies of passwords, privacy notices, and security warnings supplied evidence that shifted long-standing practices, including guidance on mandatory password expiration. Her tenure as FTC Chief Technologist illustrated how academic usability research can feed directly into consumer-protection enforcement and policy.",
   "knownFor": [
@@ -22,23 +31,74 @@
     "overview": "<h2>Early life and education</h2><p>Lorrie Faith Cranor was born on 25 February 1971 and grew up in Silver Spring, Maryland, where she attended Montgomery Blair High School as part of the first graduating class of its mathematics, science, and computer science magnet program. She completed all of her higher education at Washington University in St. Louis, receiving a B.S. in engineering and public policy in 1992, an M.S. in technology and human affairs in 1993, and both an M.S. in computer science and a doctorate of science in engineering and policy in 1996. That combination of engineering training with policy analysis shaped a research career that has consistently treated technical mechanisms and the rules governing them as a single subject.</p><h2>AT&amp;T Labs and the Platform for Privacy Preferences</h2><p>After completing her doctorate, Cranor spent seven years as a researcher at AT&amp;T Labs-Research, and also taught at New York University's Stern School of Business. During that period she chaired the World Wide Web Consortium's Platform for Privacy Preferences Project specification working group. P3P was an attempt to make website privacy policies machine-readable so that browsers and other user agents could compare a site's stated practices against a user's stated preferences automatically, rather than requiring people to read prose policies. The P3P 1.0 specification was published as a W3C Recommendation on 16 April 2002; the W3C formally obsoleted it in 2018 after adoption stalled.</p><p>Cranor wrote the standard practitioner reference on the technology, <em>Web Privacy with P3P</em> (O'Reilly, 2002), and led the development of tools intended to demonstrate what machine-readable policies could do for ordinary users, including the Privacy Bird browser add-on and the Privacy Finder search interface. Although P3P itself was never widely deployed, the effort established a durable research theme in Cranor's work: that privacy protection fails when it depends on people reading and reasoning about documents written for lawyers.</p><h2>Carnegie Mellon, CUPS, and SOUPS</h2><p>Cranor joined Carnegie Mellon University in December 2003, where she founded and directs the CyLab Usable Privacy and Security Laboratory, known as CUPS. She holds the FORE Systems University Professorship in Computer Science and Engineering and Public Policy, is the Bosch Distinguished Professor in Security and Privacy Technologies, and co-directs the university's MSIT-Privacy Engineering master's program. She later became director of CyLab, Carnegie Mellon's security and privacy institute.</p><p>In 2005 she founded the Symposium on Usable Privacy and Security, whose first meeting was held at Carnegie Mellon in July of that year. SOUPS became the principal venue for research at the intersection of human-computer interaction and security, and it is now organised in cooperation with USENIX. The same year she co-edited <em>Security and Usability</em> (O'Reilly, 2005), one of the first collected volumes to treat usability as a security property rather than a trade-off against it. She has since co-authored more than two hundred research papers on online privacy and usable security, and later co-founded the Conference on Privacy Engineering Practice and Respect (PEPR).</p><h2>Research on passwords, warnings, and privacy notices</h2><p>Much of the CUPS laboratory's output has consisted of large empirical studies of how people actually behave when confronted with security and privacy mechanisms. Cranor and her collaborators studied phishing susceptibility and anti-phishing training, browser security warnings, electronic voting, spam, and access control, but the group is best known for its work on passwords: measuring how composition policies affect the strength and memorability of the passwords people choose, and designing feedback mechanisms that help users make better choices. Their paper on the design and evaluation of a data-driven password meter received a best paper award at the ACM CHI conference in 2017.</p><p>Cranor also co-authored a widely cited study on the cost of reading privacy policies, which argued that the aggregate time burden of actually reading the notices users are presumed to have consented to makes notice-and-choice privacy regimes impractical as a means of consumer protection. The finding has been repeatedly cited in policy debates about whether disclosure alone can constitute a meaningful privacy safeguard.</p><h2>Federal Trade Commission service</h2><p>In 2016 Cranor took leave from Carnegie Mellon to serve as Chief Technologist of the United States Federal Trade Commission under Chairwoman Edith Ramirez, advising the agency on technology policy and on the technical dimensions of its consumer-protection and privacy enforcement work. During that tenure she published a March 2016 post on the FTC's Tech@FTC blog titled <em>Time to rethink mandatory password changes</em>, which drew on academic research showing that forced periodic password expiration tends to produce predictable, weaker passwords. The argument contributed to a broader reassessment of the practice by standards bodies and enterprise security teams. She has also served as a member of the board of directors of the Electronic Frontier Foundation and co-founded Wombat Security Technologies, a security-awareness training company spun out of Carnegie Mellon research and later acquired by Proofpoint.</p><h2>Recognition and legacy</h2><p>Cranor was named to MIT Technology Review's TR100 list of top innovators under 35 in 2003. She was elected an ACM Fellow in 2014 and an IEEE Fellow in 2016, joined the ACM CHI Academy in 2017, and was named a Fellow of the American Association for the Advancement of Science in 2020. In 2018 she received both the ACM CHI Social Impact Award and the International Association of Privacy Professionals Privacy Leadership Award. She received an honorary doctorate from the Università della Svizzera Italiana in 2022, the Stibitz-Wilson Award from the American Computer and Robotics Museum in 2025, and the ACM SIGCHI Lifetime Research Award in 2026. Alongside her research she has produced fibre-arts work on security and privacy themes, including quilts that have appeared in <em>Science</em>, and a children's book about privacy.</p><p>Her lasting contribution is less any single system than the establishment of usable privacy and security as a legitimate and rigorous discipline. Before SOUPS and CUPS, usability objections to security mechanisms were often treated as complaints about user error; Cranor's insistence on measuring behaviour turned them into empirical claims that could be tested and acted upon.</p>"
   },
   "timeline": [
-    { "date": "1971-02-25", "event": "Born; raised in Silver Spring, Maryland." },
-    { "date": "1992", "event": "Earns B.S. in engineering and public policy from Washington University in St. Louis." },
-    { "date": "1996", "event": "Completes M.S. in computer science and doctorate of science in engineering and policy at Washington University in St. Louis; begins seven years as a researcher at AT&T Labs-Research." },
-    { "date": "2002-04-16", "event": "The P3P 1.0 specification, developed by the W3C working group she chaired, is published as a W3C Recommendation." },
-    { "date": "2002", "event": "Publishes Web Privacy with P3P (O'Reilly)." },
-    { "date": "2003", "event": "Named to MIT Technology Review's TR100 list of top innovators under 35." },
-    { "date": "2003-12", "event": "Joins the faculty of Carnegie Mellon University, where she founds the CyLab Usable Privacy and Security Laboratory (CUPS)." },
-    { "date": "2005-07", "event": "First Symposium on Usable Privacy and Security (SOUPS), which she founded, is held at Carnegie Mellon University; co-edits Security and Usability (O'Reilly)." },
-    { "date": "2014", "event": "Elected a Fellow of the Association for Computing Machinery." },
-    { "date": "2016", "event": "Serves as Chief Technologist of the U.S. Federal Trade Commission on leave from Carnegie Mellon; named an IEEE Fellow." },
-    { "date": "2016-03", "event": "Publishes Time to rethink mandatory password changes on the FTC's Tech@FTC blog." },
-    { "date": "2017", "event": "Elected to the ACM CHI Academy; receives a CHI best paper award for research on a data-driven password meter." },
-    { "date": "2018", "event": "Receives the ACM CHI Social Impact Award and the IAPP Privacy Leadership Award." },
-    { "date": "2020", "event": "Named a Fellow of the American Association for the Advancement of Science." },
-    { "date": "2022", "event": "Receives an honorary doctorate from the Università della Svizzera Italiana." },
-    { "date": "2025", "event": "Receives the Stibitz-Wilson Award from the American Computer and Robotics Museum." },
-    { "date": "2026", "event": "Receives the ACM SIGCHI Lifetime Research Award." }
+    {
+      "date": "1971-02-25",
+      "event": "Born; raised in Silver Spring, Maryland."
+    },
+    {
+      "date": "1992",
+      "event": "Earns B.S. in engineering and public policy from Washington University in St. Louis."
+    },
+    {
+      "date": "1996",
+      "event": "Completes M.S. in computer science and doctorate of science in engineering and policy at Washington University in St. Louis; begins seven years as a researcher at AT&T Labs-Research."
+    },
+    {
+      "date": "2002-04-16",
+      "event": "The P3P 1.0 specification, developed by the W3C working group she chaired, is published as a W3C Recommendation."
+    },
+    {
+      "date": "2002",
+      "event": "Publishes Web Privacy with P3P (O'Reilly)."
+    },
+    {
+      "date": "2003",
+      "event": "Named to MIT Technology Review's TR100 list of top innovators under 35."
+    },
+    {
+      "date": "2003-12",
+      "event": "Joins the faculty of Carnegie Mellon University, where she founds the CyLab Usable Privacy and Security Laboratory (CUPS)."
+    },
+    {
+      "date": "2005-07",
+      "event": "First Symposium on Usable Privacy and Security (SOUPS), which she founded, is held at Carnegie Mellon University; co-edits Security and Usability (O'Reilly)."
+    },
+    {
+      "date": "2014",
+      "event": "Elected a Fellow of the Association for Computing Machinery."
+    },
+    {
+      "date": "2016",
+      "event": "Serves as Chief Technologist of the U.S. Federal Trade Commission on leave from Carnegie Mellon; named an IEEE Fellow."
+    },
+    {
+      "date": "2016-03",
+      "event": "Publishes Time to rethink mandatory password changes on the FTC's Tech@FTC blog."
+    },
+    {
+      "date": "2017",
+      "event": "Elected to the ACM CHI Academy; receives a CHI best paper award for research on a data-driven password meter."
+    },
+    {
+      "date": "2018",
+      "event": "Receives the ACM CHI Social Impact Award and the IAPP Privacy Leadership Award."
+    },
+    {
+      "date": "2020",
+      "event": "Named a Fellow of the American Association for the Advancement of Science."
+    },
+    {
+      "date": "2022",
+      "event": "Receives an honorary doctorate from the Università della Svizzera Italiana."
+    },
+    {
+      "date": "2025",
+      "event": "Receives the Stibitz-Wilson Award from the American Computer and Robotics Museum."
+    },
+    {
+      "date": "2026",
+      "event": "Receives the ACM SIGCHI Lifetime Research Award."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -46,18 +106,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Lorrie Cranor - Wikipedia", "url": "https://en.wikipedia.org/wiki/Lorrie_Cranor" },
-    { "title": "Lorrie Faith Cranor - official home page", "url": "https://lorrie.cranor.org/" },
-    { "title": "Lorrie Faith Cranor - biography", "url": "https://lorrie.cranor.org/bio.html" },
-    { "title": "Lorrie Cranor - Carnegie Mellon CyLab directory", "url": "https://www.cylab.cmu.edu/directory/bios/cranor-lorrie.html" },
-    { "title": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification - W3C Recommendation", "url": "https://www.w3.org/TR/P3P/" },
-    { "title": "Symposium On Usable Privacy and Security (SOUPS) archive - CMU CUPS", "url": "https://cups.cs.cmu.edu/soups/" }
+    {
+      "title": "Lorrie Cranor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lorrie_Cranor"
+    },
+    {
+      "title": "Lorrie Faith Cranor - official home page",
+      "url": "https://lorrie.cranor.org/"
+    },
+    {
+      "title": "Lorrie Faith Cranor - biography",
+      "url": "https://lorrie.cranor.org/bio.html"
+    },
+    {
+      "title": "Lorrie Cranor - Carnegie Mellon CyLab directory",
+      "url": "https://www.cylab.cmu.edu/directory/bios/cranor-lorrie.html"
+    },
+    {
+      "title": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification - W3C Recommendation",
+      "url": "https://www.w3.org/TR/P3P/"
+    },
+    {
+      "title": "Symposium On Usable Privacy and Security (SOUPS) archive - CMU CUPS",
+      "url": "https://cups.cs.cmu.edu/soups/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

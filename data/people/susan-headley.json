@@ -31,36 +31,92 @@
     "overview": "<h2>Background</h2><p>Susan Headley was born in Altona, Illinois, in 1959. By her own account she had a difficult childhood and left school in the eighth grade. She later moved to Los Angeles, California, where she was a rock band groupie and worked as a sex worker before her involvement in telephone and computer networks became the activity she is now remembered for.</p><p>As a young person she developed an interest and expertise in telephone networks and in circumventing the controls placed on them. Hugo Cornwall and Steve Gold's <em>Hugo Cornwall's New Hacker's Handbook</em> (1990) records that she penetrated the United States telephone system as a seventeen-year-old in 1977 and describes her as \"one of the earliest of the present generation of hackers\". She adopted the handle Susan Thunder, sometimes written Susy Thunder.</p><h2>Phreaking and psychological subversion</h2><p>Headley's distinguishing method was not technical exploitation but the manipulation of the people who operated and maintained target systems, a practice later standardised in the security field under the name social engineering. She described it as psychological subversion: constructing a plausible identity, telephoning staff, and using pretext, authority and rapport to extract passwords, dial-in numbers, internal procedures and system documentation. She paired this with what she publicly called garbology, the recovery of manuals, printouts and discarded paperwork from telephone company refuse.</p><p>The approach was significant because the era's institutional understanding of computer security concerned access controls, passwords and physical protection of machines. Headley's account made the point, in plain terms and to a general audience, that an organisation's staff were themselves an exploitable interface. Robert W. Gehl and Sean T. Lawson's <em>Social Engineering</em> (MIT Press, 2022) situates her within that history of manipulative communication.</p><h2>The Los Angeles circle and Pacific Bell</h2><p>For a period in the late 1970s and early 1980s, Headley collaborated with the computer intruder Kevin Mitnick, who used the handle Condor, and the phone phreak Lewis De Payne, who used the handle Rosco, on intrusions into Pacific Bell systems and other targets. The group was informal and unstable, and accounts of the period describe substantial personal conflict among its members.</p><p>The circle was broken up by prosecution in the early 1980s. In 1981 and 1982 Headley testified against Mitnick and De Payne in a theft case connected to Pacific Bell, and provided evidence against De Payne in a case relating to intrusion at U.S. Leasing. She did so in exchange for immunity from prosecution. John Markoff reported on the sentencing outcomes for the group in <em>InfoWorld</em> in July 1982.</p><h2>Public testimony and media appearances</h2><p>In 1982 Headley gave an interview on the ABC news programme <em>20/20</em> in which she described techniques for circumventing security systems, including garbology. On 25 October 1983 she testified before the U.S. Senate Committee on Governmental Affairs, whose Subcommittee on Oversight of Government Management held hearings that October on computer security in the federal government and the private sector. In both settings she characterised the motivations of the hackers she knew as curiosity, challenge and intense competition with one another rather than financial gain, a framing that ran against the emerging popular image of computer intrusion as ordinary theft.</p><p>In 1995 she returned to a public platform at DEF CON III, where she was billed as Susan Thunder and delivered a talk titled \"Social Engineering and Psychological Subversion of Trusted Systems\". The talk covered the planning of an attack against an organisation about which the attacker initially knows only a name and a location, and included the use of seduction as an element of social engineering strategy.</p><h2>Later life</h2><p>During the 1980s Headley worked as a security consultant and as a professional poker player. In 1994 she was elected to public office in California as City Clerk of California City, California. She subsequently became a coin collector and coin expert. She is married and lives in the Midwest.</p><h2>Legacy</h2><p>Katie Hafner and John Markoff's <em>Cyberpunk: Outlaws and Hackers on the Computer Frontier</em> (1991) treated Headley alongside Mitnick, De Payne and others, fixing her place in the standard narrative of early American computer intrusion. She is regularly identified as one of the few women among the first generation of phone phreaks and among the earliest known female hackers.</p><p>Interest in her renewed after the writer Claire L. Evans profiled her in <em>The Verge</em> in January 2022 under the title \"Searching for Susy Thunder\", describing her as \"a mythological figure in hacking history\". As of 2024 a film based on that profile was reported to be in development. Her career is now most often cited as an early demonstration that the human operators of a trusted system are part of its attack surface, an argument that only became standard security doctrine decades later.</p>"
   },
   "timeline": [
-    { "date": "1959", "event": "Born in Altona, Illinois." },
-    { "date": "1977", "event": "Reported to have penetrated the United States telephone system at the age of seventeen, per Hugo Cornwall's New Hacker's Handbook." },
-    { "date": "1981", "event": "Collaborated with Kevin Mitnick (Condor) and Lewis De Payne (Rosco) on intrusions into Pacific Bell and other systems during the late 1970s and early 1980s." },
-    { "date": "1982", "event": "Testified against Mitnick and De Payne in a Pacific Bell theft case, and against De Payne in a U.S. Leasing case, in exchange for immunity (testimony given across 1981-1982)." },
-    { "date": "1982", "event": "Interviewed on ABC's 20/20 about circumventing security systems, including garbology (dumpster diving)." },
-    { "date": "1983-10-25", "event": "Testified before the U.S. Senate Committee on Governmental Affairs on the capabilities and motivations of hackers and phone phreaks." },
-    { "date": "1991", "event": "Featured in Katie Hafner and John Markoff's book Cyberpunk: Outlaws and Hackers on the Computer Frontier." },
-    { "date": "1994", "event": "Elected City Clerk of California City, California." },
-    { "date": "1995", "event": "Presented 'Social Engineering and Psychological Subversion of Trusted Systems' at DEF CON III." },
-    { "date": "2022-01-26", "event": "Profiled by Claire L. Evans in The Verge as 'Searching for Susy Thunder'." }
+    {
+      "date": "1959",
+      "event": "Born in Altona, Illinois."
+    },
+    {
+      "date": "1977",
+      "event": "Reported to have penetrated the United States telephone system at the age of seventeen, per Hugo Cornwall's New Hacker's Handbook."
+    },
+    {
+      "date": "1981",
+      "event": "Collaborated with Kevin Mitnick (Condor) and Lewis De Payne (Rosco) on intrusions into Pacific Bell and other systems during the late 1970s and early 1980s."
+    },
+    {
+      "date": "1982",
+      "event": "Testified against Mitnick and De Payne in a Pacific Bell theft case, and against De Payne in a U.S. Leasing case, in exchange for immunity (testimony given across 1981-1982)."
+    },
+    {
+      "date": "1982",
+      "event": "Interviewed on ABC's 20/20 about circumventing security systems, including garbology (dumpster diving)."
+    },
+    {
+      "date": "1983-10-25",
+      "event": "Testified before the U.S. Senate Committee on Governmental Affairs on the capabilities and motivations of hackers and phone phreaks."
+    },
+    {
+      "date": "1991",
+      "event": "Featured in Katie Hafner and John Markoff's book Cyberpunk: Outlaws and Hackers on the Computer Frontier."
+    },
+    {
+      "date": "1994",
+      "event": "Elected City Clerk of California City, California."
+    },
+    {
+      "date": "1995",
+      "event": "Presented 'Social Engineering and Psychological Subversion of Trusted Systems' at DEF CON III."
+    },
+    {
+      "date": "2022-01-26",
+      "event": "Profiled by Claire L. Evans in The Verge as 'Searching for Susy Thunder'."
+    }
   ],
-  "relatedPeople": ["kevin-mitnick-complete-history", "john-draper", "kevin-poulsen"],
+  "relatedPeople": [
+    "kevin-mitnick-complete-history",
+    "john-draper",
+    "kevin-poulsen"
+  ],
   "relatedGroups": [],
   "relatedTools": [],
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Susan Headley - Wikipedia", "url": "https://en.wikipedia.org/wiki/Susan_Headley" },
-    { "title": "DEF CON III Archives (Susan Thunder, 'Social Engineering and Psychological Subversion of Trusted Systems')", "url": "https://www.defcon.org/html/defcon-3/defcon-3.html" },
-    { "title": "Claire L. Evans, 'Searching for Susy Thunder', The Verge (26 January 2022)", "url": "https://www.theverge.com/c/22889425/susy-thunder-headley-hackers-phone-phreakers-claire-evans" },
-    { "title": "Mary Thornton, 'Hackers Ignore Consequences Of Their High-Tech Joy Rides', The Washington Post (21 May 1984)", "url": "https://www.washingtonpost.com/archive/politics/1984/05/21/hackers-ignore-consequences-of-their-high-tech-joy-rides/6ab0d2fa-68dd-44af-89fe-7dd30927133b/" },
-    { "title": "Computer Security in the Federal Government and the Private Sector: Hearings before the Subcommittee on Oversight of Government Management, Committee on Governmental Affairs, U.S. Senate, 98th Congress, October 25 and 26, 1983", "url": "https://books.google.com/books?id=udt_2nGyANIC&pg=PA22" },
-    { "title": "Robert W. Gehl and Sean T. Lawson, Social Engineering: How Crowdmasters, Phreaks, Hackers, and Trolls Created a New Form of Manipulative Communication (MIT Press, 2022)", "url": "https://direct.mit.edu/books/oa-monograph/5281/chapter-standard/3666133/Penetrating-The-Desire-to-Control-Media-and-Minds" },
-    { "title": "John Markoff, 'Sentence meted out to \"phreak\"', InfoWorld, 26 July 1982", "url": "https://books.google.com/books?id=LjAEAAAAMBAJ&pg=PA1" }
+    {
+      "title": "Susan Headley - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Susan_Headley"
+    },
+    {
+      "title": "DEF CON III Archives (Susan Thunder, 'Social Engineering and Psychological Subversion of Trusted Systems')",
+      "url": "https://www.defcon.org/html/defcon-3/defcon-3.html"
+    },
+    {
+      "title": "Claire L. Evans, 'Searching for Susy Thunder', The Verge (26 January 2022)",
+      "url": "https://www.theverge.com/c/22889425/susy-thunder-headley-hackers-phone-phreakers-claire-evans"
+    },
+    {
+      "title": "Mary Thornton, 'Hackers Ignore Consequences Of Their High-Tech Joy Rides', The Washington Post (21 May 1984)",
+      "url": "https://www.washingtonpost.com/archive/politics/1984/05/21/hackers-ignore-consequences-of-their-high-tech-joy-rides/6ab0d2fa-68dd-44af-89fe-7dd30927133b/"
+    },
+    {
+      "title": "Computer Security in the Federal Government and the Private Sector: Hearings before the Subcommittee on Oversight of Government Management, Committee on Governmental Affairs, U.S. Senate, 98th Congress, October 25 and 26, 1983",
+      "url": "https://books.google.com/books?id=udt_2nGyANIC&pg=PA22"
+    },
+    {
+      "title": "Robert W. Gehl and Sean T. Lawson, Social Engineering: How Crowdmasters, Phreaks, Hackers, and Trolls Created a New Form of Manipulative Communication (MIT Press, 2022)",
+      "url": "https://direct.mit.edu/books/oa-monograph/5281/chapter-standard/3666133/Penetrating-The-Desire-to-Control-Media-and-Minds"
+    },
+    {
+      "title": "John Markoff, 'Sentence meted out to \"phreak\"', InfoWorld, 26 July 1982",
+      "url": "https://books.google.com/books?id=LjAEAAAAMBAJ&pg=PA1"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 7,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

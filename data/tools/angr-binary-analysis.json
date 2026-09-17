@@ -4,16 +4,34 @@
   "title": "angr",
   "slug": "angr-binary-analysis",
   "era": "2015-Present",
-  "tags": ["binary analysis", "symbolic execution", "reverse engineering", "ctf", "vulnerability research", "open source", "python", "shellphish"],
+  "tags": [
+    "binary analysis",
+    "symbolic execution",
+    "reverse engineering",
+    "ctf",
+    "vulnerability research",
+    "open source",
+    "python",
+    "shellphish"
+  ],
   "summary": "angr is an open-source, Python-based binary analysis platform combining static and dynamic (symbolic execution) analysis techniques, developed by researchers at UC Santa Barbara's Computer Security Lab and Arizona State University's SEFCOM lab, with strong ties to the Shellphish CTF team.",
   "whyThisMatters": "angr became one of the most widely used open-source frameworks for automated binary analysis, lowering the barrier to symbolic execution research and vulnerability discovery for both academics and practitioners. It played a central technical role in Shellphish's Mechanical Phish system during DARPA's Cyber Grand Challenge, one of the first public demonstrations of fully autonomous vulnerability discovery and patching. Its continued maintenance and adoption in both CTF competitions and industry tooling illustrate how academic security research can produce durable, widely reused infrastructure.",
   "sections": {
     "overview": "<h2>Background</h2><p>angr is an open-source binary analysis framework written in Python. It was developed by researchers affiliated with the Computer Security Lab at the University of California, Santa Barbara (UCSB) and the SEFCOM lab at Arizona State University. The project grew out of academic work on automated binary analysis and program understanding, with core contributors including Yan Shoshitaishvili and Ruoyu Wang, working under the guidance of professors Giovanni Vigna and Christopher Kruegel. The tool's development is closely associated with Shellphish, a hacking team founded by Vigna at UC Santa Barbara in 2005 that has competed extensively in Capture The Flag (CTF) competitions, including DEF CON CTF.</p><h2>Purpose and Design</h2><p>angr combines static analysis techniques, such as control-flow graph recovery and disassembly, with dynamic symbolic execution, allowing users to reason about program behavior across many possible execution paths without necessarily running the target binary in a traditional sense. It supports lifting machine code from multiple CPU architectures into an intermediate representation (via the VEX IR, through its companion library pyvex), loading binaries through the CLE loader, and solving path constraints using the constraint-solving library claripy. This architecture allows angr to be largely platform-agnostic, supporting analysis of binaries compiled for x86, x86-64, ARM, MIPS, and other architectures.</p><h2>Public Debut and Early Reception</h2><p>angr was introduced publicly to the wider security community around 2015, with presentations at security conferences including DEF CON and Black Hat. Its open-source release, hosted on GitHub under a BSD-2-Clause license, made a sophisticated symbolic execution engine freely available to researchers, students, and practitioners who previously had to rely on proprietary or narrowly scoped academic tools.</p><h2>Role in the DARPA Cyber Grand Challenge</h2><p>angr gained significant visibility through its use as a core component of Mechanical Phish, the autonomous Cyber Reasoning System fielded by Shellphish in DARPA's Cyber Grand Challenge (CGC), a competition to build fully automated systems capable of finding and patching software vulnerabilities without human intervention. Shellphish has described Mechanical Phish as one of the first publicly available systems of its kind, and angr's symbolic execution and binary analysis capabilities underpinned the vulnerability discovery components of that system.</p><h2>Ecosystem and Continued Development</h2><p>Over time, angr expanded into a broader ecosystem of associated tools and libraries, including angr-management, a graphical interface for interactive binary analysis, and related research tools such as Driller, which combined angr's symbolic execution with fuzzing to improve vulnerability discovery coverage. The project has continued to be maintained collaboratively by academic contributors and the open-source community, with ongoing releases, documentation at docs.angr.io, and use in both CTF play and professional vulnerability research workflows.</p><h2>Significance and Legacy</h2><p>angr is widely cited in academic and practitioner literature on automated binary analysis and symbolic execution, and it remains one of the most actively used open-source frameworks in that space. Its origins in a university CTF team illustrate a recurring pattern in the history of hacking and security research, in which competitive hacking communities produce tools and techniques that later find broader application in both academic research and industrial security practice.</p>"
   },
   "timeline": [
-    { "date": "2005", "event": "Shellphish is founded at UC Santa Barbara by Professor Giovanni Vigna as a CTF team." },
-    { "date": "2015", "event": "angr is publicly released as an open-source binary analysis framework and presented at security conferences including DEF CON and Black Hat." },
-    { "date": "2016", "event": "Shellphish competes in the DARPA Cyber Grand Challenge final event using Mechanical Phish, an autonomous Cyber Reasoning System built with angr as a core component." }
+    {
+      "date": "2005",
+      "event": "Shellphish is founded at UC Santa Barbara by Professor Giovanni Vigna as a CTF team."
+    },
+    {
+      "date": "2015",
+      "event": "angr is publicly released as an open-source binary analysis framework and presented at security conferences including DEF CON and Black Hat."
+    },
+    {
+      "date": "2016",
+      "event": "Shellphish competes in the DARPA Cyber Grand Challenge final event using Mechanical Phish, an autonomous Cyber Reasoning System built with angr as a core component."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -21,16 +39,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "angr official website", "url": "https://angr.io/" },
-    { "title": "angr/angr GitHub repository", "url": "https://github.com/angr/angr" },
-    { "title": "Shellphish official website", "url": "https://www.shellphish.net/" },
-    { "title": "angr documentation", "url": "https://docs.angr.io/" }
+    {
+      "title": "angr official website",
+      "url": "https://angr.io/"
+    },
+    {
+      "title": "angr/angr GitHub repository",
+      "url": "https://github.com/angr/angr"
+    },
+    {
+      "title": "Shellphish official website",
+      "url": "https://www.shellphish.net/"
+    },
+    {
+      "title": "angr documentation",
+      "url": "https://docs.angr.io/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -1,12 +1,72 @@
 {
-  "id":"benny-pinkas", "type":"person", "title":"Benny Pinkas", "slug":"benny-pinkas", "name":"Benny Pinkas", "born":null, "died":null, "era":"1990s-Present",
-  "tags":["applied-cryptography","secure-computation","private-set-intersection","privacy","research"],
-  "summary":"Applied cryptography researcher whose work includes secure multi-party computation, private set intersection, privacy-preserving analytics, and computer security.",
-  "whyThisMatters":"Secure computation makes it possible for parties to derive results together without simply pooling all underlying data. Pinkas's work helped turn important multi-party-computation ideas into systems and practical protocols.",
-  "knownFor":["Secure multi-party computation","Private set intersection","Privacy-preserving analytics"],
-  "sections":{"overview":"<p>Benny Pinkas is a professor at Bar-Ilan University whose research includes applied cryptography, computer security, blockchain security, and privacy.</p><h2>Secure computation</h2><p>His research page describes contributions to secure multi-party computation, including privacy-preserving auctions, the Fairplay system, secure AES computation, and private set intersection.</p><h2>Security research</h2><p>Pinkas has also published on authentication, random-number-generator security, cloud-storage deduplication, and network-security questions. The account emphasizes research grounded in explicit security assumptions and proofs.</p><h2>Academic record</h2><p>Bar-Ilan records his Ph.D. at the Weizmann Institute of Science and lists cryptography, computer security, and private communications as research fields.</p>"},
-  "timeline":[{"date":"2000","event":"Completes a Ph.D. at the Weizmann Institute of Science."},{"date":"2004","event":"Co-authors the Fairplay secure-computation system."},{"date":"2022","event":"Receives IACR Fellow recognition, as recorded by Bar-Ilan University."}],
-  "relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],
-  "sources":[{"title":"Benny Pinkas homepage", "url":"https://www.pinkas.net/"},{"title":"Bar-Ilan University researcher profile", "url":"https://cris.biu.ac.il/en/persons/benny-pinkas/"},{"title":"Fairplay: A Secure Two-Party Computation System", "url":"https://www.cs.huji.ac.il/~yosi/fairplay/"},{"title":"Bar-Ilan research panorama", "url":"https://research.biu.ac.il/assets/uploads/2018/03/panorama-_final-1_2016_k.pdf"}],
-  "editorial":{"verified":true,"sourcesCount":4,"lastReviewed":"2026-09-03","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-03"}
+  "id": "benny-pinkas",
+  "type": "person",
+  "title": "Benny Pinkas",
+  "slug": "benny-pinkas",
+  "name": "Benny Pinkas",
+  "born": null,
+  "died": null,
+  "era": "1990s-Present",
+  "tags": [
+    "applied-cryptography",
+    "secure-computation",
+    "private-set-intersection",
+    "privacy",
+    "research"
+  ],
+  "summary": "Applied cryptography researcher whose work includes secure multi-party computation, private set intersection, privacy-preserving analytics, and computer security.",
+  "whyThisMatters": "Secure computation makes it possible for parties to derive results together without simply pooling all underlying data. Pinkas's work helped turn important multi-party-computation ideas into systems and practical protocols.",
+  "knownFor": [
+    "Secure multi-party computation",
+    "Private set intersection",
+    "Privacy-preserving analytics"
+  ],
+  "sections": {
+    "overview": "<p>Benny Pinkas is a professor at Bar-Ilan University whose research includes applied cryptography, computer security, blockchain security, and privacy.</p><h2>Secure computation</h2><p>His research page describes contributions to secure multi-party computation, including privacy-preserving auctions, the Fairplay system, secure AES computation, and private set intersection.</p><h2>Security research</h2><p>Pinkas has also published on authentication, random-number-generator security, cloud-storage deduplication, and network-security questions. The account emphasizes research grounded in explicit security assumptions and proofs.</p><h2>Academic record</h2><p>Bar-Ilan records his Ph.D. at the Weizmann Institute of Science and lists cryptography, computer security, and private communications as research fields.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2000",
+      "event": "Completes a Ph.D. at the Weizmann Institute of Science."
+    },
+    {
+      "date": "2004",
+      "event": "Co-authors the Fairplay secure-computation system."
+    },
+    {
+      "date": "2022",
+      "event": "Receives IACR Fellow recognition, as recorded by Bar-Ilan University."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Benny Pinkas homepage",
+      "url": "https://www.pinkas.net/"
+    },
+    {
+      "title": "Bar-Ilan University researcher profile",
+      "url": "https://cris.biu.ac.il/en/persons/benny-pinkas/"
+    },
+    {
+      "title": "Fairplay: A Secure Two-Party Computation System",
+      "url": "https://www.cs.huji.ac.il/~yosi/fairplay/"
+    },
+    {
+      "title": "Bar-Ilan research panorama",
+      "url": "https://research.biu.ac.il/assets/uploads/2018/03/panorama-_final-1_2016_k.pdf"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

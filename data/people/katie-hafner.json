@@ -1,1 +1,64 @@
-{"id":"katie-hafner","type":"person","title":"Katie Hafner","slug":"katie-hafner","name":"Katie Hafner","born":null,"died":null,"era":"1991-Present","tags":["author","journalism","hacker-culture","internet-history","books"],"summary":"Technology journalist and co-author of Cyberpunk: Outlaws and Hackers on the Computer Frontier, an early book-length account of 1980s hacker culture.","whyThisMatters":"Hafner's reporting helped establish a documentary record of early network-intrusion cases and hacker culture for a general readership.","knownFor":["Cyberpunk: Outlaws and Hackers on the Computer Frontier","Internet-history writing","Technology journalism"],"sections":{"overview":"<p>Katie Hafner is a journalist and author. With John Markoff, she wrote <em>Cyberpunk: Outlaws and Hackers on the Computer Frontier</em>, first published in 1991.</p><h2>Documenting an emerging culture</h2><p>The book followed several computer-intrusion cases and placed them in the technological and social context of the 1980s. It remains an important contemporary source for the period's public understanding of hackers and network security.</p>"},"timeline":[{"date":"1991","event":"Publishes Cyberpunk with John Markoff."},{"date":"1995","event":"A revised edition of Cyberpunk is published."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"British National Bibliography: Cyberpunk","url":"https://obnb.uk/p9423363-cyberpunk-outlaws-and-hackers-on-the-computer-frontier"},{"title":"Google Books: Cyberpunk","url":"https://books.google.com/books/about/Cyberpunk.html?hl=en&id=lq8ZAQAAIAAJ&output=html_text"},{"title":"Google Books: revised Cyberpunk","url":"https://books.google.com/books/about/Cyberpunk.html?id=gsQumzHw0_AC"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "katie-hafner",
+  "type": "person",
+  "title": "Katie Hafner",
+  "slug": "katie-hafner",
+  "name": "Katie Hafner",
+  "born": null,
+  "died": null,
+  "era": "1991-Present",
+  "tags": [
+    "author",
+    "journalism",
+    "hacker-culture",
+    "internet-history",
+    "books"
+  ],
+  "summary": "Technology journalist and co-author of Cyberpunk: Outlaws and Hackers on the Computer Frontier, an early book-length account of 1980s hacker culture.",
+  "whyThisMatters": "Hafner's reporting helped establish a documentary record of early network-intrusion cases and hacker culture for a general readership.",
+  "knownFor": [
+    "Cyberpunk: Outlaws and Hackers on the Computer Frontier",
+    "Internet-history writing",
+    "Technology journalism"
+  ],
+  "sections": {
+    "overview": "<p>Katie Hafner is a journalist and author. With John Markoff, she wrote <em>Cyberpunk: Outlaws and Hackers on the Computer Frontier</em>, first published in 1991.</p><h2>Documenting an emerging culture</h2><p>The book followed several computer-intrusion cases and placed them in the technological and social context of the 1980s. It remains an important contemporary source for the period's public understanding of hackers and network security.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1991",
+      "event": "Publishes Cyberpunk with John Markoff."
+    },
+    {
+      "date": "1995",
+      "event": "A revised edition of Cyberpunk is published."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "British National Bibliography: Cyberpunk",
+      "url": "https://obnb.uk/p9423363-cyberpunk-outlaws-and-hackers-on-the-computer-frontier"
+    },
+    {
+      "title": "Google Books: Cyberpunk",
+      "url": "https://books.google.com/books/about/Cyberpunk.html?hl=en&id=lq8ZAQAAIAAJ&output=html_text"
+    },
+    {
+      "title": "Google Books: revised Cyberpunk",
+      "url": "https://books.google.com/books/about/Cyberpunk.html?id=gsQumzHw0_AC"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

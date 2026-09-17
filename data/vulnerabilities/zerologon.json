@@ -4,18 +4,42 @@
   "title": "Zerologon (CVE-2020-1472)",
   "slug": "zerologon",
   "era": "2020",
-  "tags": ["windows", "active-directory", "domain-controller", "netlogon", "privilege-escalation", "cryptography", "microsoft", "cisa"],
+  "tags": [
+    "windows",
+    "active-directory",
+    "domain-controller",
+    "netlogon",
+    "privilege-escalation",
+    "cryptography",
+    "microsoft",
+    "cisa"
+  ],
   "summary": "Zerologon (CVE-2020-1472) is a critical cryptographic flaw in the Netlogon Remote Protocol used by Windows domain controllers, disclosed by Tom Tervoort of Secura in 2020, that let an unauthenticated attacker on the network take full control of an Active Directory domain.",
   "whyThisMatters": "Zerologon received the maximum CVSS score of 10.0 and, because it required no credentials and could compromise an entire Windows domain in seconds, prompted the U.S. Cybersecurity and Infrastructure Security Agency to issue a rare emergency directive ordering federal agencies to patch immediately. It became one of the most widely exploited enterprise vulnerabilities of 2020, used by ransomware operators and state-linked intrusion sets alike, and is frequently cited as a case study in how a subtle cryptographic implementation error can undermine an entire authentication protocol.",
   "sections": {
     "overview": "<h2>Background</h2><p>Zerologon is the public name for CVE-2020-1472, a vulnerability in Microsoft's Netlogon Remote Protocol (MS-NRPC), the mechanism Windows domain controllers use to authenticate computers and process functions such as user logons within an Active Directory domain. The flaw was discovered by researcher Tom Tervoort of the Dutch security firm Secura and made public in September 2020, shortly after Microsoft had shipped an initial patch. The vulnerability affected the core authentication handshake used by virtually every Windows Server domain controller then in production, from Windows Server 2008 R2 through Windows Server 2019, and a related implementation in Samba, the open-source software suite that reimplements Windows networking protocols on Linux and Unix systems.</p><h2>The technical flaw</h2><p>Netlogon's secure channel setup relies on an authentication scheme called ComputeNetlogonCredential, which uses AES in CFB8 (cipher feedback, 8-bit) mode. Secura's research found that Microsoft's implementation used a fixed initialization vector consisting entirely of zero bytes rather than a properly randomized one. Because of a mathematical property of AES-CFB8, encrypting an all-zero plaintext with an all-zero IV produces an all-zero ciphertext in roughly 1 out of every 256 attempts, regardless of the encryption key. An attacker could therefore repeatedly attempt to establish a Netlogon session using an all-zero client credential and, after a small number of tries, satisfy the server's authentication check without knowing any valid password or credential at all.</p><p>Once authenticated this way, an attacker with mere network access to a domain controller (no user account required) could call legitimate Netlogon RPC functions to reset the domain controller's own machine account password to a known value, effectively hijacking its identity. From there, an attacker could extract password hashes from the domain database via DCSync-style requests, including the krbtgt account hash used to forge Kerberos \"golden tickets,\" granting persistent, domain-wide administrative control.</p><h2>Disclosure and patching</h2><p>Microsoft addressed the underlying flaw quietly as part of its August 11, 2020 Patch Tuesday release, assigning it the identifier CVE-2020-1472. Secura published its technical whitepaper and proof-of-concept details in mid-September 2020, at which point the severity of the bug became widely understood; independent researchers quickly released working exploit tools. Because immediately enforcing strict Netlogon authentication for all client devices risked breaking legacy or misconfigured systems, Microsoft rolled the fix out in two phases: the August 2020 update enabled enforcement for Windows devices while logging non-compliant connections, and a second update deployed in February 2021 removed the ability to disable enforcement, making secure Netlogon channels mandatory by default across the domain. The Samba project separately shipped patches (versions 4.10.18, 4.11.13, and 4.12.7) to close the same authentication bypass in its own Netlogon server implementation.</p><h2>Exploitation and response</h2><p>Zerologon was exploited in the wild within weeks of disclosure. Security researchers and government agencies observed the vulnerability used by financially motivated ransomware affiliates and by state-linked intrusion operations to escalate from an initial network foothold to full domain compromise. The ease of exploitation, combined with the criticality of domain controllers to enterprise networks, led the U.S. Cybersecurity and Infrastructure Security Agency to issue Emergency Directive 20-04 in September 2020, compelling federal civilian executive branch agencies to patch or otherwise mitigate the vulnerability on an expedited timeline — an unusually forceful step reserved for the most severe threats.</p><h2>Legacy</h2><p>Zerologon is frequently taught as a canonical example of how a small, low-level cryptographic implementation mistake (a hardcoded, non-random initialization vector) can cascade into a complete authentication bypass affecting an entire class of enterprise infrastructure. It also illustrates the trade-offs vendors face when patching authentication protocols: Microsoft's phased enforcement rollout became a template referenced in later discussions of how to balance rapid security fixes against backward compatibility in mixed-vendor networks. The vulnerability remains a standard check in penetration testing and Active Directory security hardening guidance years after disclosure.</p>"
   },
   "timeline": [
-    { "date": "2020-08-11", "event": "Microsoft ships an initial fix for the underlying Netlogon flaw as part of its August Patch Tuesday updates, assigning it CVE-2020-1472, without yet publicizing its severity." },
-    { "date": "2020-09", "event": "Secura researcher Tom Tervoort publishes technical details and a whitepaper naming the vulnerability \"Zerologon,\" explaining the all-zero AES-CFB8 initialization vector flaw and its impact." },
-    { "date": "2020-09", "event": "Proof-of-concept exploit tools are published publicly and active exploitation of unpatched domain controllers is observed, including by ransomware operators and state-linked actors." },
-    { "date": "2020-09-18", "event": "The U.S. Cybersecurity and Infrastructure Security Agency issues Emergency Directive 20-04, ordering federal civilian agencies to patch or mitigate the vulnerability immediately." },
-    { "date": "2021-02", "event": "Microsoft deploys the second, enforcement phase update, making secure Netlogon RPC connections mandatory by default and removing the ability to disable enforcement." }
+    {
+      "date": "2020-08-11",
+      "event": "Microsoft ships an initial fix for the underlying Netlogon flaw as part of its August Patch Tuesday updates, assigning it CVE-2020-1472, without yet publicizing its severity."
+    },
+    {
+      "date": "2020-09",
+      "event": "Secura researcher Tom Tervoort publishes technical details and a whitepaper naming the vulnerability \"Zerologon,\" explaining the all-zero AES-CFB8 initialization vector flaw and its impact."
+    },
+    {
+      "date": "2020-09",
+      "event": "Proof-of-concept exploit tools are published publicly and active exploitation of unpatched domain controllers is observed, including by ransomware operators and state-linked actors."
+    },
+    {
+      "date": "2020-09-18",
+      "event": "The U.S. Cybersecurity and Infrastructure Security Agency issues Emergency Directive 20-04, ordering federal civilian agencies to patch or mitigate the vulnerability immediately."
+    },
+    {
+      "date": "2021-02",
+      "event": "Microsoft deploys the second, enforcement phase update, making secure Netlogon RPC connections mandatory by default and removing the ability to disable enforcement."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -23,16 +47,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Zerologon - Wikipedia", "url": "https://en.wikipedia.org/wiki/Zerologon" },
-    { "title": "CVE-2020-1472 Security Advisory - Samba", "url": "https://www.samba.org/samba/security/CVE-2020-1472.html" },
-    { "title": "CVE-2020-1472 Detail - National Vulnerability Database (NVD)", "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1472" },
-    { "title": "SecuraBV/CVE-2020-1472 - Zerologon vulnerability tester (GitHub)", "url": "https://github.com/SecuraBV/CVE-2020-1472" }
+    {
+      "title": "Zerologon - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zerologon"
+    },
+    {
+      "title": "CVE-2020-1472 Security Advisory - Samba",
+      "url": "https://www.samba.org/samba/security/CVE-2020-1472.html"
+    },
+    {
+      "title": "CVE-2020-1472 Detail - National Vulnerability Database (NVD)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-1472"
+    },
+    {
+      "title": "SecuraBV/CVE-2020-1472 - Zerologon vulnerability tester (GitHub)",
+      "url": "https://github.com/SecuraBV/CVE-2020-1472"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

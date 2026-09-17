@@ -27,6 +27,8 @@ data/
    subfolder, named `<slug>.json`.
 2. Fill it with sourced facts only — no invented fields. See
    [STYLE_GUIDE.md](../STYLE_GUIDE.md) and [SOURCES.md](../SOURCES.md).
+   Set `editorial.createdBy` to your name — it is rendered on the page as
+   "Created by …" so readers know who authored the entry.
 3. Add an entry to `manifest.json` (same `id`/`type`/`title`/`slug`/`era`/
    `tags`/`summary`/`url` shape as the existing entries).
 4. Copy an existing page of the same type (e.g. `people/adrian-lamo.html`)

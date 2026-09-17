@@ -7,18 +7,39 @@
   "born": null,
   "died": null,
   "era": "1980s-Present",
-  "tags": ["formal-methods", "cryptographic-protocols", "protocol-analysis", "high-assurance-systems"],
+  "tags": [
+    "formal-methods",
+    "cryptographic-protocols",
+    "protocol-analysis",
+    "high-assurance-systems"
+  ],
   "summary": "Cryptographer and formal-methods researcher known for advancing formal analysis and automated discovery of flaws in security protocols.",
   "whyThisMatters": "Meadows helped show that formal protocol analysis can expose authentication and key-management flaws before a protocol is trusted in deployment.",
-  "knownFor": ["NRL Protocol Analyzer", "Formal protocol verification", "Cryptographic protocol analysis"],
+  "knownFor": [
+    "NRL Protocol Analyzer",
+    "Formal protocol verification",
+    "Cryptographic protocol analysis"
+  ],
   "sections": {
     "overview": "<p>Catherine A. Meadows is a cryptographer and formal-methods researcher at the U.S. Naval Research Laboratory. Her work has focused on rigorous analysis of cryptographic protocols and the automated discovery of protocol flaws.</p><h2>Making protocol assumptions testable</h2><p>Meadows developed and advanced approaches that model protocol messages, attacker capabilities, and desired guarantees precisely. Such modeling makes it possible to test authentication and key-management claims instead of accepting them as intuitive.</p><h2>High-assurance security</h2><p>Her work on the NRL Protocol Analyzer and later formal-methods research has helped establish protocol verification as a practical part of security engineering and research.</p>"
   },
   "timeline": [
-    {"date": "1981", "event": "Receives a Ph.D. in mathematics from the University of Illinois at Urbana–Champaign."},
-    {"date": "1985", "event": "Joins the U.S. Naval Research Laboratory."},
-    {"date": "1992", "event": "Publishes formal analysis of a key-management protocol."},
-    {"date": "2011", "event": "Co-edits the Dagstuhl report on security and rewriting."}
+    {
+      "date": "1981",
+      "event": "Receives a Ph.D. in mathematics from the University of Illinois at Urbana–Champaign."
+    },
+    {
+      "date": "1985",
+      "event": "Joins the U.S. Naval Research Laboratory."
+    },
+    {
+      "date": "1992",
+      "event": "Publishes formal analysis of a key-management protocol."
+    },
+    {
+      "date": "2011",
+      "event": "Co-edits the Dagstuhl report on security and rewriting."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -26,15 +47,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    {"title": "ScienceDirect: Catherine Ann Meadows author profile", "url": "https://www.sciencedirect.com/author/7004706999/catherine-ann-meadows"},
-    {"title": "Dagstuhl Reports: Security and Rewriting", "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume01/issue08/11332/DagRep.1.8.53/DagRep.1.8.53.pdf"},
-    {"title": "Journal of Computer Security: Applying Formal Methods to the Analysis of a Key Management Protocol", "url": "https://doi.org/10.3233/JCS-1992-1102"}
+    {
+      "title": "ScienceDirect: Catherine Ann Meadows author profile",
+      "url": "https://www.sciencedirect.com/author/7004706999/catherine-ann-meadows"
+    },
+    {
+      "title": "Dagstuhl Reports: Security and Rewriting",
+      "url": "https://drops.dagstuhl.de/storage/04dagstuhl-reports/volume01/issue08/11332/DagRep.1.8.53/DagRep.1.8.53.pdf"
+    },
+    {
+      "title": "Journal of Computer Security: Applying Formal Methods to the Analysis of a Key Management Protocol",
+      "url": "https://doi.org/10.3233/JCS-1992-1102"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-09-02",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "codex-2026-09-02"
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
   }
 }

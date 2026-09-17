@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["unit 8200", "israel", "signals intelligence", "cyber command", "venture building", "team8", "check point", "military intelligence"],
+  "tags": [
+    "unit 8200",
+    "israel",
+    "signals intelligence",
+    "cyber command",
+    "venture building",
+    "team8",
+    "check point",
+    "military intelligence"
+  ],
   "summary": "Nadav Zafrir is a retired Israeli brigadier general who served as commander of Unit 8200, the Israel Defense Forces' signals-intelligence and cyber unit, before co-founding the cybersecurity venture-building firm Team8 in 2014 and later becoming CEO of Check Point Software Technologies in 2024.",
   "whyThisMatters": "Zafrir's tenure atop Unit 8200 coincided with the unit's growing global reputation as a training ground for offensive and defensive cyber talent, and he is credited with helping establish the IDF's dedicated Cyber Command structure within it. His subsequent move into the private sector through Team8 helped formalize a well-known pipeline in which senior Unit 8200 veterans convert military signals-intelligence expertise into commercial cybersecurity companies, several of which (such as Sygnia and Claroty) became internationally recognized firms. His appointment as CEO of a major publicly traded cybersecurity vendor further illustrates the close, often-discussed relationship between Israeli military intelligence alumni and the global commercial cybersecurity industry.",
   "knownFor": [
@@ -21,12 +30,30 @@
     "overview": "<h2>Background</h2><p>Nadav Zafrir is an Israeli former military intelligence officer and technology executive best known for commanding Unit 8200, the Israel Defense Forces' (IDF) primary signals-intelligence organization, and for later co-founding Team8, a cybersecurity-focused venture creation firm. According to biographical accounts published by Israeli business media, Zafrir spent part of his childhood abroad in Latin America as the son of an Israeli diplomat before returning to Israel to enlist in the IDF, where he began his service in elite combat units and received a Chief of Staff's Citation for his service.</p><h2>Military career and command of Unit 8200</h2><p>Zafrir rose through the ranks of Israeli military intelligence to become commander of Unit 8200, the IDF's equivalent of the U.S. National Security Agency, responsible for signals intelligence collection and, according to reporting by international outlets, offensive and defensive cyber capabilities. During his tenure as commander, Zafrir is credited by industry press with helping establish the IDF's dedicated Cyber Command structure inside Unit 8200, formalizing cyber operations as a distinct military discipline. He retired from the IDF with the rank of brigadier general after roughly 25 years of service.</p><h2>Founding Team8</h2><p>In 2014, shortly after leaving military service, Zafrir co-founded Team8 together with Liran Grinberg and Israel Grimberg, the latter a former head of Unit 8200's cyber division. Team8 describes itself as a venture-creation \"foundry\" that combines internal research teams with outside investors and corporate partners to build cybersecurity, data, and fintech companies from the ground up rather than simply funding existing startups. As co-founder and Managing Partner, Zafrir has been described in press coverage as the architect of Team8's relationships across the business, academic, and technology worlds, and he has led the firm's enterprise cybersecurity, data, and AI investment arm.</p><h2>Team8's portfolio and industry influence</h2><p>Under Zafrir's leadership, Team8's foundry model produced a number of cybersecurity companies that went on to notable outcomes, including Sygnia, an incident-response and cybersecurity consultancy acquired by Singapore's Temasek for a reported 250 million dollars in 2018; Portshift, acquired by Cisco; Curv, a digital-asset security firm acquired by PayPal; and Claroty, an industrial and operational-technology security company. Zafrir has been widely quoted in industry and financial media describing Team8's philosophy toward the entrepreneurs it backs, and he has appeared as a speaker and contributor at forums including the World Economic Forum, RSA Conference, and Cybertech industry events.</p><h2>Board roles and later career</h2><p>Beyond Team8, Zafrir has held board positions at technology companies, including serving since 2019 as Chairman of the Board of SolarEdge Technologies, a Nasdaq-listed smart-energy company, and as Vice Chairman of Istari, a cyber-risk management group. In July 2024, Check Point Software Technologies announced that Zafrir would become the company's Chief Executive Officer, succeeding founder Gil Shwed, who transitioned to the role of Executive Chairman of the Board. The leadership change formally took effect on December 16, 2024, making Zafrir the second CEO in Check Point's history.</p><h2>Significance and legacy</h2><p>Zafrir's career trajectory, from senior Israeli military intelligence command to cybersecurity entrepreneurship to the leadership of a major publicly traded security vendor, is frequently cited in coverage of the Israeli cybersecurity industry as emblematic of a broader pattern in which Unit 8200 alumni move into and shape the global commercial cybersecurity sector. His role in founding Team8 in particular has been credited with helping institutionalize this military-to-industry pipeline into a repeatable venture-building model, influencing the founding of multiple internationally active security companies.</p>"
   },
   "timeline": [
-    { "date": "1988", "event": "Returned to Israel from Latin America and enlisted in the Israel Defense Forces, beginning service in elite combat units." },
-    { "date": "2014", "event": "Retired from the IDF with the rank of brigadier general after serving as commander of Unit 8200; co-founded Team8 with Liran Grinberg and Israel Grimberg." },
-    { "date": "2018", "event": "Team8-founded cybersecurity company Sygnia was acquired by Temasek for a reported 250 million dollars." },
-    { "date": "2019", "event": "Began serving as Chairman of the Board of SolarEdge Technologies." },
-    { "date": "2024-07", "event": "Check Point Software Technologies announced Zafrir would become its new Chief Executive Officer." },
-    { "date": "2024-12-16", "event": "Formally became CEO of Check Point Software Technologies, with founder Gil Shwed moving to Executive Chairman." }
+    {
+      "date": "1988",
+      "event": "Returned to Israel from Latin America and enlisted in the Israel Defense Forces, beginning service in elite combat units."
+    },
+    {
+      "date": "2014",
+      "event": "Retired from the IDF with the rank of brigadier general after serving as commander of Unit 8200; co-founded Team8 with Liran Grinberg and Israel Grimberg."
+    },
+    {
+      "date": "2018",
+      "event": "Team8-founded cybersecurity company Sygnia was acquired by Temasek for a reported 250 million dollars."
+    },
+    {
+      "date": "2019",
+      "event": "Began serving as Chairman of the Board of SolarEdge Technologies."
+    },
+    {
+      "date": "2024-07",
+      "event": "Check Point Software Technologies announced Zafrir would become its new Chief Executive Officer."
+    },
+    {
+      "date": "2024-12-16",
+      "event": "Formally became CEO of Check Point Software Technologies, with founder Gil Shwed moving to Executive Chairman."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -34,17 +61,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Inside Unit 8200, Israel's Cyber Spy Agency, and Team8", "url": "https://www.cnbc.com/2017/05/11/israel-unit-8200-team8.html" },
-    { "title": "Nadav Zafrir: Decorated soldier turned cyber entrepreneur - CTech", "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3866605,00.html" },
-    { "title": "Gil Shwed Takes on the Role of Executive Chairman of the Board of Directors, Nadav Zafrir Becomes CEO at Check Point Software Technologies", "url": "https://www.globenewswire.com/news-release/2024/12/16/2997325/0/en/Gil-Shwed-Takes-on-the-Role-of-Executive-Chairman-of-the-Board-of-Directors-Nadav-Zafrir-Becomes-CEO-at-Check-Point-Software-Technologies.html" },
-    { "title": "Nadav Zafrir - Agenda Contributor | World Economic Forum", "url": "https://www.weforum.org/stories/authors/nadav-zafrir/" },
-    { "title": "Unit 8200 - Wikipedia", "url": "https://en.wikipedia.org/wiki/Unit_8200" }
+    {
+      "title": "Inside Unit 8200, Israel's Cyber Spy Agency, and Team8",
+      "url": "https://www.cnbc.com/2017/05/11/israel-unit-8200-team8.html"
+    },
+    {
+      "title": "Nadav Zafrir: Decorated soldier turned cyber entrepreneur - CTech",
+      "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3866605,00.html"
+    },
+    {
+      "title": "Gil Shwed Takes on the Role of Executive Chairman of the Board of Directors, Nadav Zafrir Becomes CEO at Check Point Software Technologies",
+      "url": "https://www.globenewswire.com/news-release/2024/12/16/2997325/0/en/Gil-Shwed-Takes-on-the-Role-of-Executive-Chairman-of-the-Board-of-Directors-Nadav-Zafrir-Becomes-CEO-at-Check-Point-Software-Technologies.html"
+    },
+    {
+      "title": "Nadav Zafrir - Agenda Contributor | World Economic Forum",
+      "url": "https://www.weforum.org/stories/authors/nadav-zafrir/"
+    },
+    {
+      "title": "Unit 8200 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Unit_8200"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

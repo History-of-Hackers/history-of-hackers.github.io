@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "1990s",
-  "tags": ["malware", "email worm", "macro virus", "cybercrime", "1990s", "computer fraud", "microsoft word"],
+  "tags": [
+    "malware",
+    "email worm",
+    "macro virus",
+    "cybercrime",
+    "1990s",
+    "computer fraud",
+    "microsoft word"
+  ],
   "summary": "David L. Smith is a former New Jersey computer programmer who admitted to creating and releasing the Melissa virus in March 1999, a fast-spreading Microsoft Word macro virus that overwhelmed email systems worldwide and caused an estimated $80 million in damage.",
   "whyThisMatters": "Melissa was one of the first malicious programs to weaponize a mail client's own address book, turning ordinary email into a self-propagating distribution channel and demonstrating how quickly social-engineering-driven malware could spread once mailer automation was exploited. The case was also an early, closely watched test of how forensic artifacts embedded in office documents (a hidden document identifier) could be used to identify and prosecute a virus author. Smith's guilty plea and sentence became a benchmark case for applying federal computer fraud law to email-borne malware.",
   "knownFor": [
@@ -21,11 +29,26 @@
     "overview": "<h2>Background</h2><p>David L. Smith was a computer programmer living in Aberdeen Township, New Jersey, in the late 1990s. He is known almost exclusively for one act: writing and releasing the \"Melissa\" virus, a Microsoft Word macro virus that became, at the time, the fastest-spreading piece of malicious code to hit the internet. Little about his life before or after the case has been widely documented; his public record is defined by the virus, his arrest, and his subsequent prosecution.</p><h2>The Melissa Virus</h2><p>On March 26, 1999, Smith released the virus by posting an infected Word document to the Usenet newsgroup alt.sex, using a hijacked America Online account. The document was advertised as containing passwords to fee-based pornographic websites. When a victim opened the file in Microsoft Word, a macro embedded in the document activated, and, if the victim had Microsoft Outlook installed, the virus accessed the address book and automatically emailed copies of the infected document to the first 50 contacts it found. Because the messages appeared to come from someone the recipient knew, many people opened them without suspicion, allowing the virus to spread exponentially. The macro also altered Word's security settings, weakening protections against future macro-based infections.</p><h2>Impact</h2><p>Melissa spread with extraordinary speed. Within days, hundreds of organizations reported infections. The FBI later stated that more than 300 companies and government agencies were affected, with email traffic disrupted for roughly one million accounts. Corporations including Microsoft, Intel, and Lucent Technologies were forced to temporarily shut down their email systems to contain the flood of messages, and the U.S. Marine Corps was among the government entities affected. Damage and cleanup costs were later estimated at more than $80 million, a figure both prosecutors and Smith's defense agreed to as part of his federal plea.</p><h2>Investigation and Arrest</h2><p>Investigators, including independent researcher Richard M. Smith (no relation), traced the virus using a Global Unique Identifier (GUID) embedded invisibly by Microsoft Office in every document, along with revision-log data left inside the file. By comparing the GUID in the Melissa document to GUIDs in earlier files posted online under the alias \"VicodinES,\" and cross-referencing the document's internal author metadata, investigators and the FBI's New Jersey Computer Analysis Response Team identified David L. Smith as the likely author. He was arrested on April 1, 1999, less than a week after the virus was released.</p><h2>Guilty Plea and Sentencing</h2><p>On December 9, 1999, Smith pleaded guilty to one state charge of computer theft and one federal charge of intentionally sending a damaging computer program across state lines. As part of the federal plea agreement, both prosecutors and Smith stipulated that the virus had caused more than $80 million in damage. Although he faced a statutory maximum of up to five years in federal prison, prosecutors recommended leniency, citing his substantial cooperation in helping the FBI track down other virus writers, including the authors of subsequent worms. On May 1, 2002, U.S. District Judge Joseph A. Greenaway Jr. sentenced Smith to 20 months in federal prison and a $5,000 fine; a state court sentence followed shortly after, running concurrently.</p><h2>Legacy</h2><p>Melissa is widely regarded as a landmark event in the history of malware because it was among the first viruses to exploit an email client's own automation features to self-propagate at scale, foreshadowing the mass-mailing worms (such as ILOVEYOU and various Outlook-borne viruses) that followed in the early 2000s. The investigation's reliance on hidden document metadata also became an early, widely cited example of digital forensics being used to unmask an anonymous malware author, influencing how both security researchers and law enforcement approached attribution in later cases.</p>"
   },
   "timeline": [
-    { "date": "1999-03-26", "event": "The Melissa virus is released via an infected Microsoft Word document posted to the Usenet newsgroup alt.sex under a hijacked AOL account." },
-    { "date": "1999-03-29", "event": "Melissa has infected an estimated 100,000-plus workplace computers across roughly 250 organizations; Microsoft and other companies temporarily shut down email systems." },
-    { "date": "1999-04-01", "event": "David L. Smith is arrested in New Jersey after investigators trace the virus to him using embedded document metadata (GUID) and revision-log data." },
-    { "date": "1999-12-09", "event": "Smith pleads guilty to a state charge of computer theft and a federal charge of sending a damaging computer program, with damages stipulated at over $80 million." },
-    { "date": "2002-05-01", "event": "Smith is sentenced in federal court to 20 months in prison and a $5,000 fine for creating and releasing the Melissa virus." }
+    {
+      "date": "1999-03-26",
+      "event": "The Melissa virus is released via an infected Microsoft Word document posted to the Usenet newsgroup alt.sex under a hijacked AOL account."
+    },
+    {
+      "date": "1999-03-29",
+      "event": "Melissa has infected an estimated 100,000-plus workplace computers across roughly 250 organizations; Microsoft and other companies temporarily shut down email systems."
+    },
+    {
+      "date": "1999-04-01",
+      "event": "David L. Smith is arrested in New Jersey after investigators trace the virus to him using embedded document metadata (GUID) and revision-log data."
+    },
+    {
+      "date": "1999-12-09",
+      "event": "Smith pleads guilty to a state charge of computer theft and a federal charge of sending a damaging computer program, with damages stipulated at over $80 million."
+    },
+    {
+      "date": "2002-05-01",
+      "event": "Smith is sentenced in federal court to 20 months in prison and a $5,000 fine for creating and releasing the Melissa virus."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -33,17 +56,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "The Melissa Virus - Federal Bureau of Investigation", "url": "https://www.fbi.gov/news/stories/melissa-virus-20th-anniversary-032519" },
-    { "title": "Melissa (computer virus) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Melissa_(computer_virus)" },
-    { "title": "Melissa virus creator sentenced to 20 months in prison - Computerworld", "url": "https://www.computerworld.com/article/1327088/melissa-virus-creator-sentenced-to-20-months-in-prison.html" },
-    { "title": "'Melissa' virus creator gets 20-month sentence - Deseret News", "url": "https://www.deseret.com/2002/5/2/19652670/melissa-virus-creator-gets-20-month-sentence/" },
-    { "title": "N.J. man charged in computer virus; Melissa bug preys on e-mail systems around the world - Baltimore Sun", "url": "https://www.baltimoresun.com/1999/04/03/nj-man-charged-in-computer-virus-melissa-bug-preys-on-e-mail-systems-around-the-world/" }
+    {
+      "title": "The Melissa Virus - Federal Bureau of Investigation",
+      "url": "https://www.fbi.gov/news/stories/melissa-virus-20th-anniversary-032519"
+    },
+    {
+      "title": "Melissa (computer virus) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Melissa_(computer_virus)"
+    },
+    {
+      "title": "Melissa virus creator sentenced to 20 months in prison - Computerworld",
+      "url": "https://www.computerworld.com/article/1327088/melissa-virus-creator-sentenced-to-20-months-in-prison.html"
+    },
+    {
+      "title": "'Melissa' virus creator gets 20-month sentence - Deseret News",
+      "url": "https://www.deseret.com/2002/5/2/19652670/melissa-virus-creator-gets-20-month-sentence/"
+    },
+    {
+      "title": "N.J. man charged in computer virus; Melissa bug preys on e-mail systems around the world - Baltimore Sun",
+      "url": "https://www.baltimoresun.com/1999/04/03/nj-man-charged-in-computer-virus-melissa-bug-preys-on-e-mail-systems-around-the-world/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

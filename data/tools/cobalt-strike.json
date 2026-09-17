@@ -66,39 +66,39 @@
   "relatedEvents": [],
   "sources": [
     {
-      "title": "Cobalt Strike, Software S0154 \u2014 MITRE ATT&CK",
+      "title": "Cobalt Strike, Software S0154 — MITRE ATT&CK",
       "url": "https://attack.mitre.org/software/S0154/"
     },
     {
-      "title": "Metasploit \u2014 Wikipedia (includes Cobalt Strike and Armitage lineage)",
+      "title": "Metasploit — Wikipedia (includes Cobalt Strike and Armitage lineage)",
       "url": "https://en.wikipedia.org/wiki/Metasploit"
     },
     {
-      "title": "Armitage (computing) \u2014 Wikipedia",
+      "title": "Armitage (computing) — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Armitage_(computing)"
     },
     {
-      "title": "Fortra \u2014 Wikipedia",
+      "title": "Fortra — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Fortra"
     },
     {
-      "title": "Wizard Spider \u2014 Wikipedia",
+      "title": "Wizard Spider — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Wizard_Spider"
     },
     {
-      "title": "Conti Ransomware Group Diaries, Part III: Weaponry \u2014 Krebs on Security",
+      "title": "Conti Ransomware Group Diaries, Part III: Weaponry — Krebs on Security",
       "url": "https://krebsonsecurity.com/2022/03/conti-ransomware-group-diaries-part-iii-weaponry/"
     },
     {
-      "title": "Stopping cybercriminals from abusing security tools \u2014 Microsoft On the Issues",
+      "title": "Stopping cybercriminals from abusing security tools — Microsoft On the Issues",
       "url": "https://blogs.microsoft.com/on-the-issues/2023/04/06/stopping-cybercriminals-from-abusing-security-tools/"
     },
     {
-      "title": "Inside the fight against hackers who disrupted hospitals and jeopardized lives \u2014 Microsoft Source",
+      "title": "Inside the fight against hackers who disrupted hospitals and jeopardized lives — Microsoft Source",
       "url": "https://news.microsoft.com/source/features/work-life/inside-the-fight-against-hackers-who-disrupted-hospitals-and-jeopardized-lives/"
     },
     {
-      "title": "Cobalt Strike Threat Detection Report \u2014 Red Canary",
+      "title": "Cobalt Strike Threat Detection Report — Red Canary",
       "url": "https://redcanary.com/threat-detection-report/threats/cobalt-strike/"
     }
   ],
@@ -107,6 +107,7 @@
     "sourcesCount": 9,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   }
 }

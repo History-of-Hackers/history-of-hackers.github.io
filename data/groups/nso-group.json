@@ -4,21 +4,54 @@
   "title": "NSO Group",
   "slug": "nso-group",
   "era": "2010-Present",
-  "tags": ["spyware", "pegasus", "israel", "surveillance", "zero-click", "mercenary-hacking", "zero-day", "human-rights"],
+  "tags": [
+    "spyware",
+    "pegasus",
+    "israel",
+    "surveillance",
+    "zero-click",
+    "mercenary-hacking",
+    "zero-day",
+    "human-rights"
+  ],
   "summary": "NSO Group is an Israeli technology company, founded in 2010, best known for developing Pegasus, a commercial \"zero-click\" spyware suite sold to government clients and later linked to widespread surveillance of journalists, activists, lawyers, and political figures worldwide.",
   "whyThisMatters": "NSO Group became the emblematic case study of the commercial spyware (\"mercenary spyware\") industry, showing how privately developed zero-day exploits and surveillance tools originally marketed for law-enforcement and counterterrorism use can be repurposed by state clients to target civil society. The 2021 Pegasus Project investigation and subsequent litigation by Apple and Meta/WhatsApp helped drive US export blacklisting of spyware vendors and shaped ongoing international debate over regulation of the commercial hacking industry.",
   "sections": {
     "overview": "<h2>Background</h2><p>NSO Group Technologies was founded in 2010 in Israel by Niv Karmi, Shalev Hulio, and Omri Lavie. The company's name is an acronym of its founders' first names. Headquartered in Herzliya, NSO Group develops surveillance technology that it licenses to government agencies, describing its mission as providing tools to help law enforcement and intelligence agencies fight terrorism and crime. Because its flagship product is classified by Israel as a weapon, its sale to foreign governments requires export approval from the Israeli Ministry of Defense.</p><h2>Pegasus</h2><p>NSO Group's best-known product is Pegasus, a spyware suite that can be installed on iOS and Android smartphones with little or no interaction from the target, using so-called \"zero-click\" exploits. Once installed, Pegasus can access a device's messages, emails, photos, call logs, location data, camera, and microphone. Pegasus was reportedly developed and sold to clients beginning around 2011, with Mexico cited as an early government purchaser. The spyware first became widely known to the public in August 2016, after Emirati human rights defender Ahmed Mansoor received a suspicious text message; researchers at Citizen Lab and Lookout Security who examined the link found it exploited three previously unknown iOS zero-day vulnerabilities, a chain the researchers dubbed \"Trident.\"</p><h2>Expanding Evidence of Abuse</h2><p>Over the following years, researchers at Citizen Lab (University of Toronto) and Amnesty International's Security Lab documented repeated cases in which Pegasus was used against journalists, human rights defenders, lawyers, and political dissidents rather than solely against criminal or terrorist targets. In 2019, WhatsApp disclosed that a vulnerability in its calling feature had been exploited to install Pegasus on the phones of roughly 1,400 users via missed calls alone, and WhatsApp's parent company Meta subsequently sued NSO Group in US federal court.</p><h2>The Pegasus Project</h2><p>In July 2021, a consortium of more than 80 journalists from 17 media organizations, coordinated by the Paris-based nonprofit Forbidden Stories with forensic support from Amnesty International's Security Lab, published the \"Pegasus Project\" investigation. Drawing on a leaked list of more than 50,000 phone numbers concentrated in countries known to work with NSO Group, the reporting identified numbers belonging to journalists, activists, business executives, and heads of state, and documented forensic evidence of successful or attempted Pegasus infections on dozens of examined phones. The investigation also reported that phones belonging to associates of Saudi journalist Jamal Khashoggi, including his fiancée, showed signs of Pegasus targeting around the time of his October 2018 murder in Istanbul. NSO Group denied wrongdoing, stating that its technology is intended to help prevent crime and terrorism and disputing specific claims in the reporting.</p><h2>Exploit Research: FORCEDENTRY</h2><p>In September 2021, Citizen Lab published research on an exploit it named FORCEDENTRY, found on the phone of a Saudi activist and used to deliver Pegasus via a zero-click iMessage attack that bypassed Apple's BlastDoor sandbox using a maliciously crafted file disguised as a GIF. Apple assigned the underlying flaw CVE-2021-30860 and issued an emergency patch. Citizen Lab attributed the exploit to NSO Group based on forensic artifacts, including a data-deletion pattern and process names observed in earlier confirmed Pegasus intrusions.</p><h2>Sanctions and Litigation</h2><p>In November 2021, the US Department of Commerce added NSO Group to its Entity List, restricting the export of American technology to the company on the grounds that its tools had been used to conduct transnational repression. Apple filed its own lawsuit against NSO Group in 2021 over the FORCEDENTRY exploit, later dropping the case in September 2024 citing concerns about exposing threat intelligence. Meta's WhatsApp lawsuit proceeded to trial, and in 2024 a US jury found NSO Group liable for violating US computer-fraud law and WhatsApp's terms of service, awarding damages that a judge later reduced; a subsequent court order also barred NSO Group from targeting WhatsApp users going forward.</p><h2>Significance and Legacy</h2><p>NSO Group's case became a central reference point in public and regulatory debate over the commercial \"mercenary spyware\" industry, illustrating how privately developed zero-day exploits, nominally sold under government-to-government export controls, can end up used against civil society targets far outside their stated purpose. The Pegasus Project reporting, combined with Citizen Lab and Amnesty International's technical forensic work, contributed to export blacklisting, corporate litigation, and multiple national investigations (including in France, Spain, Poland, and elsewhere) into domestic use of Pegasus, and continues to inform ongoing policy discussion about regulating commercial spyware vendors.</p>"
   },
   "timeline": [
-    { "date": "2010", "event": "NSO Group Technologies is founded in Israel by Niv Karmi, Shalev Hulio, and Omri Lavie." },
-    { "date": "2016-08", "event": "Pegasus spyware is publicly identified for the first time after Citizen Lab and Lookout Security analyze an exploit link sent to Emirati activist Ahmed Mansoor, revealing three iOS zero-day vulnerabilities (\"Trident\")." },
-    { "date": "2019-05", "event": "WhatsApp discloses a vulnerability in its call feature exploited to install Pegasus on roughly 1,400 users' devices; Meta later sues NSO Group over the incident." },
-    { "date": "2021-07-19", "event": "The Pegasus Project investigation, led by Forbidden Stories with Amnesty International's Security Lab, is published by 17 media outlets, exposing widespread targeting of journalists, activists, and officials." },
-    { "date": "2021-09", "event": "Citizen Lab publishes research on the FORCEDENTRY zero-click iMessage exploit (CVE-2021-30860), attributed to NSO Group and used to deliver Pegasus; Apple releases an emergency patch." },
-    { "date": "2021-11", "event": "The US Department of Commerce adds NSO Group to its Entity List, restricting export of US technology to the company." },
-    { "date": "2024-05", "event": "A US jury finds NSO Group liable in the WhatsApp/Meta lawsuit for violating US computer-fraud law and WhatsApp's terms of service." },
-    { "date": "2024-09", "event": "Apple drops its 2021 lawsuit against NSO Group over the FORCEDENTRY exploit." }
+    {
+      "date": "2010",
+      "event": "NSO Group Technologies is founded in Israel by Niv Karmi, Shalev Hulio, and Omri Lavie."
+    },
+    {
+      "date": "2016-08",
+      "event": "Pegasus spyware is publicly identified for the first time after Citizen Lab and Lookout Security analyze an exploit link sent to Emirati activist Ahmed Mansoor, revealing three iOS zero-day vulnerabilities (\"Trident\")."
+    },
+    {
+      "date": "2019-05",
+      "event": "WhatsApp discloses a vulnerability in its call feature exploited to install Pegasus on roughly 1,400 users' devices; Meta later sues NSO Group over the incident."
+    },
+    {
+      "date": "2021-07-19",
+      "event": "The Pegasus Project investigation, led by Forbidden Stories with Amnesty International's Security Lab, is published by 17 media outlets, exposing widespread targeting of journalists, activists, and officials."
+    },
+    {
+      "date": "2021-09",
+      "event": "Citizen Lab publishes research on the FORCEDENTRY zero-click iMessage exploit (CVE-2021-30860), attributed to NSO Group and used to deliver Pegasus; Apple releases an emergency patch."
+    },
+    {
+      "date": "2021-11",
+      "event": "The US Department of Commerce adds NSO Group to its Entity List, restricting export of US technology to the company."
+    },
+    {
+      "date": "2024-05",
+      "event": "A US jury finds NSO Group liable in the WhatsApp/Meta lawsuit for violating US computer-fraud law and WhatsApp's terms of service."
+    },
+    {
+      "date": "2024-09",
+      "event": "Apple drops its 2021 lawsuit against NSO Group over the FORCEDENTRY exploit."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -26,16 +59,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "NSO Group - Wikipedia", "url": "https://en.wikipedia.org/wiki/NSO_Group" },
-    { "title": "Pegasus (spyware) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Pegasus_(spyware)" },
-    { "title": "The Pegasus Project - Amnesty International", "url": "https://www.amnesty.org/en/latest/news/2021/07/the-pegasus-project/" },
-    { "title": "FORCEDENTRY: NSO Group iMessage Zero-Click Exploit Captured in the Wild - Citizen Lab", "url": "https://citizenlab.ca/2021/07/forcedentry-nso-group-imessage-zero-click-exploit-captured-in-the-wild/" }
+    {
+      "title": "NSO Group - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NSO_Group"
+    },
+    {
+      "title": "Pegasus (spyware) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pegasus_(spyware)"
+    },
+    {
+      "title": "The Pegasus Project - Amnesty International",
+      "url": "https://www.amnesty.org/en/latest/news/2021/07/the-pegasus-project/"
+    },
+    {
+      "title": "FORCEDENTRY: NSO Group iMessage Zero-Click Exploit Captured in the Wild - Citizen Lab",
+      "url": "https://citizenlab.ca/2021/07/forcedentry-nso-group-imessage-zero-click-exploit-captured-in-the-wild/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -7,7 +7,17 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["usable security", "human factors", "passwords", "security economics", "hci", "academia", "riscs", "germany", "united kingdom"],
+  "tags": [
+    "usable security",
+    "human factors",
+    "passwords",
+    "security economics",
+    "hci",
+    "academia",
+    "riscs",
+    "germany",
+    "united kingdom"
+  ],
   "summary": "Martina Angela Sasse is a German psychologist and computer scientist whose research established usable security as a distinct field, most influentially through the 1999 paper \"Users Are Not The Enemy\", co-authored with Anne Adams. She is Horst Görtz Endowed Professor of Human-Centred Security at Ruhr University Bochum and a part-time Professor of Human-Centred Technology at University College London.",
   "whyThisMatters": "Sasse's work reframed a long-standing assumption in information security: that users who circumvent security controls are careless or non-compliant. By applying empirical methods from occupational psychology to password policies and other security mechanisms, she argued that unusable controls impose costs that predictably drive workarounds, and that the resulting insecurity is a design failure rather than a user failure. This argument shaped the academic subfield of usable security and later fed into organisational and governmental rethinking of password and authentication policy. She also founded the UK's first academic research institute dedicated to the sociotechnical dimensions of cyber security.",
   "knownFor": [
@@ -21,15 +31,42 @@
     "overview": "<h2>Background and education</h2><p>Martina Angela Sasse is a German psychologist and computer scientist working at the intersection of human-computer interaction and information security. She took her undergraduate degree in psychology at the University of Wuppertal, followed by a master's degree in occupational psychology at the University of Sheffield and a doctorate at the University of Birmingham. This training in applied and occupational psychology, rather than in cryptography or systems engineering, shaped the empirical, workplace-oriented approach that characterises her later security research.</p><p>In 1990 she joined University College London as a lecturer. She was appointed Professor of Human-Centred Technology at UCL in 2003, and continues to hold that chair on a part-time basis.</p><h2>Usable security and the password problem</h2><p>Sasse's best-known contribution grew out of empirical studies of how people actually cope with organisational password policies. With Anne Adams and Peter Lunt she published \"Making Passwords Secure and Usable\" at the British Computer Society's HCI conference in 1997. The line of work culminated in \"Users Are Not The Enemy\", written with Anne Adams and published in <em>Communications of the ACM</em> in December 1999 (volume 42, issue 12, pages 40 to 46).</p><p>The paper's central claim was that security failures widely blamed on careless users were better explained as failures of design and policy. Password rules that demanded frequently changed, hard-to-remember strings, applied across many systems and without explanation of their purpose, exceeded what users could reasonably manage. Users therefore wrote passwords down, reused them, or chose predictable variations. Adams and Sasse argued that treating users as an adversary to be constrained was self-defeating, and that security mechanisms should be designed around realistic models of human memory, workload, and motivation.</p><p>The paper is among the most cited works in the usable security literature and, together with contemporaneous work such as Alma Whitten and J. D. Tygar's study of encryption software usability, is generally treated as marking the emergence of usable security as a research field in its own right.</p><h2>Security behaviour in organisations</h2><p>Sasse subsequently extended the argument from individual mechanisms to organisational security as a whole. With Adam Beautement and Mike Wonham she introduced the notion of a \"compliance budget\" in a paper presented at the New Security Paradigms Workshop in 2008. The model holds that employees have a finite tolerance for the effort and disruption that security controls impose; once that budget is exhausted, further controls produce non-compliance rather than additional protection. The framing gave security managers a way to reason about the cumulative cost of controls rather than assessing each in isolation.</p><p>This body of work positioned security as a sociotechnical problem, in which technology, people, and organisational processes have to be analysed together rather than as separate concerns.</p><h2>RISCS and institution building</h2><p>In 2012 Sasse founded the Research Institute in Science of Cyber Security, later renamed the Research Institute for Sociotechnical Cyber Security and known as RISCS. Funded by the UK's National Cyber Security Centre, it was the first academic research institute in the United Kingdom focused on the overall security of organisations including their constituent technology, people, and processes. Sasse served as its founding director; Madeline Carr directed the institute from 2018 to 2022, followed by Tristan Caulfield and then, from January 2023, Genevieve Liveley at the University of Bristol.</p><h2>Later career and recognition</h2><p>In 2018 Sasse moved to Ruhr University Bochum as Horst Görtz Endowed Professor of Human-Centred Security, while retaining a part-time professorship at UCL. Bochum is one of the principal European centres for IT security research, and the appointment placed human-centred security alongside its established cryptography and systems security groups.</p><p>She was elected a Fellow of the Royal Academy of Engineering in 2015, with a citation recognising her \"for demonstrating the impact of human security behaviour, and developing a socio-technical approach for modelling and managing that behaviour effectively\". In 2023 she was elected to the German National Academy of Sciences Leopoldina.</p><h2>Legacy</h2><p>The argument Sasse advanced in the late 1990s, that security which ignores human limits will be circumvented, moved over two decades from a contrarian position to a mainstream one. Password guidance issued by national security agencies and standards bodies in the 2010s and 2020s moved away from mandatory periodic expiry and complex composition rules toward approaches that reduce user burden, reflecting the empirical case that her research helped establish. Her work also contributed to the growth of usable security as a recognised research community with dedicated venues and to the wider adoption of sociotechnical framing in cyber security policy.</p>"
   },
   "timeline": [
-    { "date": "1990", "event": "Joins University College London as a lecturer." },
-    { "date": "1997", "event": "Publishes \"Making Passwords Secure and Usable\" with Anne Adams and Peter Lunt at the BCS HCI conference." },
-    { "date": "1999-12", "event": "Publishes \"Users Are Not The Enemy\" with Anne Adams in Communications of the ACM, volume 42, issue 12, pages 40-46." },
-    { "date": "2003", "event": "Appointed Professor of Human-Centred Technology at University College London." },
-    { "date": "2008", "event": "Introduces the compliance budget model with Adam Beautement and Mike Wonham at the New Security Paradigms Workshop." },
-    { "date": "2012", "event": "Founds the Research Institute in Science of Cyber Security (RISCS), the UK's first academic institute focused on sociotechnical cyber security." },
-    { "date": "2015", "event": "Elected a Fellow of the Royal Academy of Engineering." },
-    { "date": "2018", "event": "Moves to Ruhr University Bochum as Horst Görtz Endowed Professor of Human-Centred Security." },
-    { "date": "2023", "event": "Elected to the German National Academy of Sciences Leopoldina." }
+    {
+      "date": "1990",
+      "event": "Joins University College London as a lecturer."
+    },
+    {
+      "date": "1997",
+      "event": "Publishes \"Making Passwords Secure and Usable\" with Anne Adams and Peter Lunt at the BCS HCI conference."
+    },
+    {
+      "date": "1999-12",
+      "event": "Publishes \"Users Are Not The Enemy\" with Anne Adams in Communications of the ACM, volume 42, issue 12, pages 40-46."
+    },
+    {
+      "date": "2003",
+      "event": "Appointed Professor of Human-Centred Technology at University College London."
+    },
+    {
+      "date": "2008",
+      "event": "Introduces the compliance budget model with Adam Beautement and Mike Wonham at the New Security Paradigms Workshop."
+    },
+    {
+      "date": "2012",
+      "event": "Founds the Research Institute in Science of Cyber Security (RISCS), the UK's first academic institute focused on sociotechnical cyber security."
+    },
+    {
+      "date": "2015",
+      "event": "Elected a Fellow of the Royal Academy of Engineering."
+    },
+    {
+      "date": "2018",
+      "event": "Moves to Ruhr University Bochum as Horst Görtz Endowed Professor of Human-Centred Security."
+    },
+    {
+      "date": "2023",
+      "event": "Elected to the German National Academy of Sciences Leopoldina."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,17 +74,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Angela Sasse - Wikipedia", "url": "https://en.wikipedia.org/wiki/Angela_Sasse" },
-    { "title": "M. Angela Sasse - DBLP computer science bibliography", "url": "https://dblp.org/pid/s/MASasse.html" },
-    { "title": "Adams & Sasse, \"Users Are Not The Enemy\", Communications of the ACM 42(12) - DBLP record", "url": "https://dblp.org/rec/journals/cacm/AdamsS99.html" },
-    { "title": "Users Are Not The Enemy - ACM Digital Library (doi:10.1145/322796.322806)", "url": "https://doi.org/10.1145/322796.322806" },
-    { "title": "About Us - Research Institute for Sociotechnical Cyber Security (RISCS)", "url": "https://riscs.org.uk/about/" }
+    {
+      "title": "Angela Sasse - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Angela_Sasse"
+    },
+    {
+      "title": "M. Angela Sasse - DBLP computer science bibliography",
+      "url": "https://dblp.org/pid/s/MASasse.html"
+    },
+    {
+      "title": "Adams & Sasse, \"Users Are Not The Enemy\", Communications of the ACM 42(12) - DBLP record",
+      "url": "https://dblp.org/rec/journals/cacm/AdamsS99.html"
+    },
+    {
+      "title": "Users Are Not The Enemy - ACM Digital Library (doi:10.1145/322796.322806)",
+      "url": "https://doi.org/10.1145/322796.322806"
+    },
+    {
+      "title": "About Us - Research Institute for Sociotechnical Cyber Security (RISCS)",
+      "url": "https://riscs.org.uk/about/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

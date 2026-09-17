@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["rootkits", "malware research", "windows kernel", "hbgary", "software exploitation", "anonymous hack", "reverse engineering"],
+  "tags": [
+    "rootkits",
+    "malware research",
+    "windows kernel",
+    "hbgary",
+    "software exploitation",
+    "anonymous hack",
+    "reverse engineering"
+  ],
   "summary": "Greg Hoglund (born Michael Gregory Hoglund) is an American computer security researcher and entrepreneur known for pioneering Windows rootkit research, co-authoring \"Rootkits: Subverting the Windows Kernel,\" and founding the security firm HBGary.",
   "whyThisMatters": "Hoglund's early Windows NT rootkit work and his book with Jamie Butler helped define rootkit techniques as a distinct field of study for both attackers and defenders, influencing a generation of malware researchers. His company HBGary, and its subsidiary HBGary Federal, became central to one of the most widely covered hacktivist incidents of the early 2010s when Anonymous breached the firm in 2011 after its CEO claimed to have identified Anonymous members, exposing internal emails about proposed disinformation campaigns and raising public debate about the private security industry's ties to government and corporate clients.",
   "knownFor": [
@@ -22,14 +30,38 @@
     "overview": "<h2>Background</h2><p>Greg Hoglund, born Michael Gregory Hoglund, is an American security researcher, author, and serial entrepreneur in the cybersecurity industry. He built an early reputation in the software security field through work on network vulnerability scanning, buffer overflow exploitation, and Windows-kernel-level rootkit techniques, areas that were still poorly understood by mainstream IT security practitioners in the late 1990s and early 2000s.</p><h2>Rootkit Research and Rootkit.com</h2><p>Hoglund is credited with developing one of the first publicly documented Windows NT-based rootkits and, in doing so, founded the website rootkit.com as a hub for rootkit research and discussion. The site grew into a large community resource for offensive and defensive research on kernel-level subversion techniques before it was compromised in 2011. In 2005 he co-authored, with Jamie Butler, \"Rootkits: Subverting the Windows Kernel\" (Addison-Wesley), widely regarded as one of the first comprehensive technical treatments of rootkit design, detection, and the underlying Windows kernel internals that rootkits exploit. Hoglund and Butler also taught a long-running Black Hat training course on rootkit development and reverse engineering.</p><h2>Exploiting Software and Broader Security Writing</h2><p>Beyond rootkits, Hoglund co-authored \"Exploiting Software: How to Break Code\" (2004) with Gary McGraw, a widely cited text on software vulnerability discovery and exploitation methodology. He later wrote \"Exploiting Online Games: Cheating Massively Distributed Systems\" (2007) with Gary McGraw, examining security and cheating issues specific to online multiplayer game architectures, an area he had also explored commercially.</p><h2>HBGary and Entrepreneurship</h2><p>Hoglund founded or co-founded several security companies over his career, including Cenzic (originally ClickToSecure), a web application security firm, and Bugscan, which was acquired by LogicLibrary in 2004. His best-known venture was HBGary, Inc., a company specializing in malware analysis, digital forensics, and reverse engineering tools, where he served as CEO. HBGary was acquired by ManTech International in 2012. Hoglund later founded Outlier Security, a cloud-based endpoint detection company that was acquired by Symantec in 2017.</p><h2>The 2011 Anonymous Hack</h2><p>In February 2011, a related but separate company, HBGary Federal, became the target of a widely publicized breach by members of the hacktivist collective Anonymous. HBGary Federal's CEO, Aaron Barr, had claimed to have identified individuals behind Anonymous and planned to reveal this information. In response, Anonymous compromised HBGary's servers and rootkit.com, a site owned and operated by Hoglund, exfiltrating and publishing tens of thousands of internal emails, defacing websites, and remotely wiping data. The leaked emails revealed discussions of a proposed disinformation and pressure campaign targeting WikiLeaks supporters and journalists, along with details about the Aurora attacks against Morgan Stanley, generating substantial media coverage and public scrutiny of the private security industry's practices. Aaron Barr resigned from HBGary Federal shortly after the incident.</p><h2>Legacy</h2><p>Hoglund's early technical work on Windows rootkits and software exploitation is frequently cited as foundational reading in malware analysis and offensive security circles, and his books remain referenced in security training curricula years after publication. The 2011 HBGary breach, though centered on a subsidiary rather than Hoglund personally, remains one of the most cited case studies of hacktivist operations against a security contractor and is frequently discussed in analyses of Anonymous-era hacktivism and the cybersecurity industry's relationship with intelligence and government contracting work.</p>"
   },
   "timeline": [
-    { "date": "2004", "event": "Co-authored Exploiting Software: How to Break Code with Gary McGraw, published by Addison-Wesley." },
-    { "date": "2004", "event": "Bugscan, Inc., a company Hoglund founded, was acquired by LogicLibrary." },
-    { "date": "2005", "event": "Co-authored Rootkits: Subverting the Windows Kernel with Jamie Butler, published by Addison-Wesley." },
-    { "date": "2007", "event": "Co-authored Exploiting Online Games: Cheating Massively Distributed Systems with Gary McGraw." },
-    { "date": "2011-02", "event": "HBGary Federal and rootkit.com, the latter owned by Hoglund, were breached by Anonymous following CEO Aaron Barr's claims of having unmasked Anonymous members; internal emails were leaked publicly." },
-    { "date": "2011-03", "event": "HBGary Federal CEO Aaron Barr resigned in the aftermath of the Anonymous breach." },
-    { "date": "2012", "event": "HBGary, Inc. was acquired by ManTech International." },
-    { "date": "2017", "event": "Outlier Security, a company founded by Hoglund, was acquired by Symantec." }
+    {
+      "date": "2004",
+      "event": "Co-authored Exploiting Software: How to Break Code with Gary McGraw, published by Addison-Wesley."
+    },
+    {
+      "date": "2004",
+      "event": "Bugscan, Inc., a company Hoglund founded, was acquired by LogicLibrary."
+    },
+    {
+      "date": "2005",
+      "event": "Co-authored Rootkits: Subverting the Windows Kernel with Jamie Butler, published by Addison-Wesley."
+    },
+    {
+      "date": "2007",
+      "event": "Co-authored Exploiting Online Games: Cheating Massively Distributed Systems with Gary McGraw."
+    },
+    {
+      "date": "2011-02",
+      "event": "HBGary Federal and rootkit.com, the latter owned by Hoglund, were breached by Anonymous following CEO Aaron Barr's claims of having unmasked Anonymous members; internal emails were leaked publicly."
+    },
+    {
+      "date": "2011-03",
+      "event": "HBGary Federal CEO Aaron Barr resigned in the aftermath of the Anonymous breach."
+    },
+    {
+      "date": "2012",
+      "event": "HBGary, Inc. was acquired by ManTech International."
+    },
+    {
+      "date": "2017",
+      "event": "Outlier Security, a company founded by Hoglund, was acquired by Symantec."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,19 +69,41 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Greg Hoglund - Wikipedia", "url": "https://en.wikipedia.org/wiki/Greg_Hoglund" },
-    { "title": "HBGary - Wikipedia", "url": "https://en.wikipedia.org/wiki/HBGary" },
-    { "title": "HBGary Federal Hacked by Anonymous - Krebs on Security", "url": "https://krebsonsecurity.com/2011/02/hbgary-federal-hacked-by-anonymous/" },
-    { "title": "HBGary CEO resigns over Anon hack - The Register", "url": "https://www.theregister.com/2011/03/01/hbgary_ceo_resigns_over_anon_hack/" },
-    { "title": "The inside story of the HBGary hack by Anonymous Hackers - The Hacker News", "url": "https://thehackernews.com/2011/02/inside-story-of-hbgary-hack-by.html" },
-    { "title": "Rootkits: Subverting the Windows Kernel - Amazon", "url": "https://www.amazon.com/Rootkits-Subverting-Windows-Greg-Hoglund/dp/0321294319" },
-    { "title": "Black Hat USA 2010: Reverse Engineering Rootkits by Greg Hoglund, HBGary", "url": "https://www.blackhat.com/html/bh-us-10/training/bh-us-10-training_hbgary-rootkit3.html" }
+    {
+      "title": "Greg Hoglund - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Greg_Hoglund"
+    },
+    {
+      "title": "HBGary - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HBGary"
+    },
+    {
+      "title": "HBGary Federal Hacked by Anonymous - Krebs on Security",
+      "url": "https://krebsonsecurity.com/2011/02/hbgary-federal-hacked-by-anonymous/"
+    },
+    {
+      "title": "HBGary CEO resigns over Anon hack - The Register",
+      "url": "https://www.theregister.com/2011/03/01/hbgary_ceo_resigns_over_anon_hack/"
+    },
+    {
+      "title": "The inside story of the HBGary hack by Anonymous Hackers - The Hacker News",
+      "url": "https://thehackernews.com/2011/02/inside-story-of-hbgary-hack-by.html"
+    },
+    {
+      "title": "Rootkits: Subverting the Windows Kernel - Amazon",
+      "url": "https://www.amazon.com/Rootkits-Subverting-Windows-Greg-Hoglund/dp/0321294319"
+    },
+    {
+      "title": "Black Hat USA 2010: Reverse Engineering Rootkits by Greg Hoglund, HBGary",
+      "url": "https://www.blackhat.com/html/bh-us-10/training/bh-us-10-training_hbgary-rootkit3.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 7,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

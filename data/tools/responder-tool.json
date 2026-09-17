@@ -4,17 +4,38 @@
   "title": "Responder",
   "slug": "responder-tool",
   "era": "2013-Present",
-  "tags": ["llmnr", "nbt-ns", "mdns", "credential harvesting", "man-in-the-middle", "active directory", "penetration testing", "ntlm"],
+  "tags": [
+    "llmnr",
+    "nbt-ns",
+    "mdns",
+    "credential harvesting",
+    "man-in-the-middle",
+    "active directory",
+    "penetration testing",
+    "ntlm"
+  ],
   "summary": "Responder is an open-source LLMNR, NBT-NS, and mDNS poisoning tool created by Laurent Gaffié that stands up rogue authentication servers to capture NetNTLM hashes and cleartext credentials on local networks.",
   "whyThisMatters": "Responder became one of the most widely used tools in internal network penetration testing and Active Directory security assessments, popularizing broadcast name-resolution poisoning as a practical, low-effort path to credential theft on Windows networks. It is documented by MITRE ATT&CK as software used by real-world threat actors, including Lazarus Group, illustrating how a publicly released red-team utility can be repurposed directly by nation-state and criminal intrusion operators. Its continued maintenance since the early 2010s has also shaped defensive guidance, such as recommendations to disable LLMNR and NBT-NS in enterprise environments.",
   "sections": {
     "overview": "<h2>Background</h2><p>Responder is an open-source network security tool written primarily in Python that targets weaknesses in legacy Microsoft name-resolution protocols. It was created by security researcher Laurent Gaffié, who released and continued to maintain the tool under the GitHub account \"lgandx.\" The project's stated purpose, as described in its own documentation, is to act as \"a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2.\"</p><h2>How It Works</h2><p>On Windows networks, when a hostname cannot be resolved through the normal DNS process, workstations fall back to broadcast-based protocols: Link-Local Multicast Name Resolution (LLMNR), NetBIOS Name Service (NBT-NS), and multicast DNS (mDNS). Because any host on the local segment can answer these broadcast queries, Responder listens for such requests and replies as though it were the requested resource. It then presents rogue authentication services for protocols including HTTP, HTTPS, SMB, MSSQL, FTP, LDAP, SMTP, IMAP, POP3, DNS, Kerberos, RDP, and WinRM, prompting connecting clients to authenticate. Captured authentication attempts yield NetNTLMv1 and NetNTLMv2 challenge-response hashes, Kerberos AS-REQ material, and in some configurations cleartext credentials, which can subsequently be cracked offline or relayed to other systems.</p><h2>Development and Distribution</h2><p>Gaffié first published Responder publicly in the early 2010s while associated with Trustwave's SpiderLabs research team, and the tool has been maintained on GitHub under the repository lgandx/Responder for over a decade. It is distributed under the GPL-3.0 license and has received sponsorship acknowledgments from penetration testing firms including SecureWorks, Synacktiv, Black Hills Information Security, TrustedSec, and Red Siege Information Security. Over its development history the tool has added support for additional protocols and attack techniques, including WPAD proxy abuse, DHCPv6-based poisoning for IPv6-enabled Windows 10 and 11 hosts, and forced NTLM-to-Kerberos downgrade handling.</p><h2>Adoption in Offensive Security</h2><p>Responder is packaged by default in major penetration testing distributions such as Kali Linux and is a standard component of internal network and Active Directory security assessments. It is frequently used alongside credential-relaying tools, such as ntlmrelayx from the Impacket suite, to escalate captured or relayed authentication into full network compromise. Its simplicity and effectiveness against unhardened Windows environments made LLMNR/NBT-NS poisoning one of the most commonly cited quick wins in internal penetration test reports throughout the 2010s and into the 2020s.</p><h2>Documented Use by Threat Actors</h2><p>Responder is catalogued by MITRE ATT&CK as software (S0174) associated with the Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning and Network Sniffing technique. MITRE's documentation records that the North Korea-linked Lazarus Group executed Responder on compromised hosts, using command-line invocations to harvest credentials and support lateral movement, including during activity associated with the long-running \"Operation Dream Job\" espionage campaign. This documented adoption by an advanced persistent threat group illustrates how tools built for legitimate security testing can be directly repurposed for espionage and intrusion operations.</p><h2>Significance and Legacy</h2><p>Responder's long-running maintenance and broad protocol coverage cemented broadcast name-resolution poisoning as a foundational technique taught in offensive security training and certification curricula. Its widespread real-world impact also shaped defensive practice, driving guidance from security vendors and Microsoft-focused hardening frameworks to disable LLMNR and NBT-NS on enterprise networks, enforce SMB signing, and monitor for the rogue service responses characteristic of the tool. Responder remains actively maintained and continues to be referenced in vendor and government threat intelligence reporting on internal network attack techniques.</p>"
   },
   "timeline": [
-    { "date": "2013", "event": "Laurent Gaffié releases Responder, a multi-threaded LLMNR and NBT-NS poisoning tool, publishing it via Trustwave's SpiderLabs research outlet." },
-    { "date": "2014", "event": "Development continues on GitHub under the lgandx/Responder repository, with expanded rogue authentication server support for additional protocols." },
-    { "date": "2016-08", "event": "MITRE ATT&CK catalogues Responder as software (S0174) used in adversary name-resolution poisoning and credential harvesting techniques." },
-    { "date": "2020s", "event": "Responder gains support for DHCPv6-based poisoning, WPAD abuse, Router Advertisement spoofing, and forced Kerberos-to-NTLM downgrade handling, remaining a standard tool in Active Directory penetration testing." }
+    {
+      "date": "2013",
+      "event": "Laurent Gaffié releases Responder, a multi-threaded LLMNR and NBT-NS poisoning tool, publishing it via Trustwave's SpiderLabs research outlet."
+    },
+    {
+      "date": "2014",
+      "event": "Development continues on GitHub under the lgandx/Responder repository, with expanded rogue authentication server support for additional protocols."
+    },
+    {
+      "date": "2016-08",
+      "event": "MITRE ATT&CK catalogues Responder as software (S0174) used in adversary name-resolution poisoning and credential harvesting techniques."
+    },
+    {
+      "date": "2020s",
+      "event": "Responder gains support for DHCPv6-based poisoning, WPAD abuse, Router Advertisement spoofing, and forced Kerberos-to-NTLM downgrade handling, remaining a standard tool in Active Directory penetration testing."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -22,16 +43,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "lgandx/Responder — GitHub repository", "url": "https://github.com/lgandx/Responder" },
-    { "title": "lgandx/Responder — README", "url": "https://github.com/lgandx/Responder/blob/master/README.md" },
-    { "title": "MITRE ATT&CK — Software: Responder (S0174)", "url": "https://attack.mitre.org/software/S0174/" },
-    { "title": "MITRE ATT&CK — Technique: Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay (T1557.001)", "url": "https://attack.mitre.org/techniques/T1557/001/" }
+    {
+      "title": "lgandx/Responder — GitHub repository",
+      "url": "https://github.com/lgandx/Responder"
+    },
+    {
+      "title": "lgandx/Responder — README",
+      "url": "https://github.com/lgandx/Responder/blob/master/README.md"
+    },
+    {
+      "title": "MITRE ATT&CK — Software: Responder (S0174)",
+      "url": "https://attack.mitre.org/software/S0174/"
+    },
+    {
+      "title": "MITRE ATT&CK — Technique: Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay (T1557.001)",
+      "url": "https://attack.mitre.org/techniques/T1557/001/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

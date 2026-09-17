@@ -4,20 +4,50 @@
   "title": "The MOVEit Breach",
   "slug": "moveit-breach-2023",
   "era": "2023",
-  "tags": ["data breach", "zero-day", "supply chain", "ransomware", "extortion", "sql injection", "cl0p", "mass exploitation"],
+  "tags": [
+    "data breach",
+    "zero-day",
+    "supply chain",
+    "ransomware",
+    "extortion",
+    "sql injection",
+    "cl0p",
+    "mass exploitation"
+  ],
   "summary": "In May and June 2023, the Russian-speaking extortion group Cl0p exploited a critical zero-day SQL injection vulnerability (CVE-2023-34362) in Progress Software's MOVEit Transfer file-transfer tool, stealing data from thousands of downstream organizations in one of the largest single-vulnerability mass-exploitation campaigns in history.",
   "whyThisMatters": "The MOVEit breach demonstrated how a single flaw in widely used managed file-transfer software could cascade into a supply-chain incident touching thousands of organizations and tens of millions of individuals across government, healthcare, education, and finance. It reinforced a pattern, following the earlier Accellion and GoAnywhere MFT breaches, of ransomware and extortion actors moving away from traditional encryption toward mass zero-day exploitation of file-transfer platforms for pure data-theft extortion. It also became a widely cited case study in vendor disclosure timelines, third-party vendor risk, and the limits of perimeter security tools meant to protect sensitive data in transit.",
   "sections": {
     "overview": "<h2>Background</h2><p>MOVEit Transfer is a managed file-transfer (MFT) application developed by Ipswitch, Inc. and owned since 2008 by Progress Software Corporation. It is used by corporations, universities, healthcare providers, and government agencies to securely exchange files, and by 2023 it was deployed by thousands of organizations worldwide, including many that used it indirectly through payroll processors, benefits administrators, and other third-party vendors.</p><h2>Discovery of the Vulnerability</h2><p>On May 31, 2023, Progress Software disclosed a critical SQL injection vulnerability in MOVEit Transfer and MOVEit Cloud, later designated CVE-2023-34362, with a CVSS severity score of 9.8 out of 10. The flaw allowed an unauthenticated attacker to access the MOVEit Transfer database and, depending on the database engine used, infer information about its structure and contents or execute SQL statements that could alter or delete data. Security researchers and Progress Software later determined that exploitation of the vulnerability had already been underway since at least May 27, 2023, days before the public disclosure, meaning it had been used as a true zero-day.</p><h2>The Cl0p Extortion Campaign</h2><p>The attacks were attributed to Cl0p (also written Clop), a Russian-speaking cybercriminal group that emerged around 2019 as an offshoot of the CryptoMix ransomware family and that the U.S. Cybersecurity and Infrastructure Security Agency has described as an influential force in criminal malware distribution. Rather than encrypting victim systems, Cl0p used the MOVEit flaw purely to exfiltrate data at scale, a technique it had refined in earlier mass-exploitation campaigns against Accellion's File Transfer Appliance in 2020 and Fortra's GoAnywhere MFT product in early 2023. On June 7, 2023, Cl0p publicly claimed responsibility for the MOVEit attacks and began posting threats on its dark-web leak site, giving victim organizations a deadline of June 14, 2023, to make contact or negotiate a ransom before their stolen data would be published.</p><h2>Scope and Notable Victims</h2><p>Two additional related vulnerabilities in MOVEit Transfer, CVE-2023-35036 and CVE-2023-35708, were disclosed and patched in the weeks following the initial advisory, further widening the pool of at-risk deployments. Analyses compiled by security researchers tallied thousands of organizations, over 2,700 in some counts, and tens of millions of affected individuals, with figures exceeding 95 million people at various points as new disclosures accumulated. High-profile victims whose data was exposed, in many cases through third-party payroll or benefits vendors rather than direct use of MOVEit, included the BBC, British Airways, Shell, Estee Lauder, the U.S. Department of Energy, and numerous American state government agencies, universities, and healthcare organizations such as Maximus and Delta Dental of California.</p><h2>Response and Aftermath</h2><p>Progress Software released patches for each disclosed vulnerability and worked with CISA and the FBI, which issued joint advisories describing the vulnerability and indicators of compromise. Affected organizations faced a wave of breach notifications, regulatory scrutiny, and class-action lawsuits in the United States. Cl0p's extortion campaign was estimated by some security researchers to have generated tens of millions of dollars in ransom payments. The incident intensified scrutiny of managed file-transfer software as a high-value target and pushed many organizations and regulators to reassess third-party and supply-chain data-handling risk.</p><h2>Significance</h2><p>The MOVEit breach is regarded as one of the largest mass-exploitation data-theft campaigns to date, notable less for its technical sophistication than for the scale achieved by combining a single zero-day vulnerability with the widespread, often invisible, use of one vendor's software across countless downstream organizations. It is frequently cited alongside the Accellion and GoAnywhere incidents as evidence of a broader shift by ransomware-affiliated groups toward extortion-only campaigns that exploit file-transfer infrastructure rather than deploying encryption payloads.</p>"
   },
   "timeline": [
-    { "date": "2023-05-27", "event": "Exploitation of the MOVEit Transfer SQL injection flaw begins, later confirmed to predate public disclosure." },
-    { "date": "2023-05-31", "event": "Progress Software discloses the critical vulnerability, later designated CVE-2023-34362, and issues a security advisory and patch." },
-    { "date": "2023-06-07", "event": "The Cl0p extortion group publicly claims responsibility for exploiting the flaw and begins contacting victims via its dark-web leak site." },
-    { "date": "2023-06-09", "event": "A second related vulnerability, CVE-2023-35036, is disclosed and patched." },
-    { "date": "2023-06-15", "event": "A third related vulnerability, CVE-2023-35708, is disclosed and patched." },
-    { "date": "2023-06-16", "event": "CISA and the FBI issue a joint cybersecurity advisory on Cl0p's exploitation of MOVEit Transfer." },
-    { "date": "2023-2024", "event": "Breach notifications continue for months as downstream vendors and their clients discover and disclose data exposure, ultimately implicating thousands of organizations and tens of millions of individuals." }
+    {
+      "date": "2023-05-27",
+      "event": "Exploitation of the MOVEit Transfer SQL injection flaw begins, later confirmed to predate public disclosure."
+    },
+    {
+      "date": "2023-05-31",
+      "event": "Progress Software discloses the critical vulnerability, later designated CVE-2023-34362, and issues a security advisory and patch."
+    },
+    {
+      "date": "2023-06-07",
+      "event": "The Cl0p extortion group publicly claims responsibility for exploiting the flaw and begins contacting victims via its dark-web leak site."
+    },
+    {
+      "date": "2023-06-09",
+      "event": "A second related vulnerability, CVE-2023-35036, is disclosed and patched."
+    },
+    {
+      "date": "2023-06-15",
+      "event": "A third related vulnerability, CVE-2023-35708, is disclosed and patched."
+    },
+    {
+      "date": "2023-06-16",
+      "event": "CISA and the FBI issue a joint cybersecurity advisory on Cl0p's exploitation of MOVEit Transfer."
+    },
+    {
+      "date": "2023-2024",
+      "event": "Breach notifications continue for months as downstream vendors and their clients discover and disclose data exposure, ultimately implicating thousands of organizations and tens of millions of individuals."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -25,16 +55,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "MOVEit - Wikipedia", "url": "https://en.wikipedia.org/wiki/MOVEit" },
-    { "title": "Clop (cyber gang) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Clop_(cyber_gang)" },
-    { "title": "The MOVEit Breach in Numbers: A Timeline of Events - Emsisoft", "url": "https://www.emsisoft.com/en/blog/44123/the-moveit-breach-in-numbers-a-timeline-of-events/" },
-    { "title": "Progress Software Trust Center - MOVEit Transfer and MOVEit Cloud Vulnerability", "url": "https://trust.progress.com/" }
+    {
+      "title": "MOVEit - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MOVEit"
+    },
+    {
+      "title": "Clop (cyber gang) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Clop_(cyber_gang)"
+    },
+    {
+      "title": "The MOVEit Breach in Numbers: A Timeline of Events - Emsisoft",
+      "url": "https://www.emsisoft.com/en/blog/44123/the-moveit-breach-in-numbers-a-timeline-of-events/"
+    },
+    {
+      "title": "Progress Software Trust Center - MOVEit Transfer and MOVEit Cloud Vulnerability",
+      "url": "https://trust.progress.com/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

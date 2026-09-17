@@ -1,0 +1,76 @@
+{
+  "id": "paul-vixie",
+  "type": "person",
+  "title": "Paul Vixie",
+  "slug": "paul-vixie",
+  "name": "Paul Vixie",
+  "born": 1963,
+  "died": null,
+  "era": "1980s-present",
+  "tags": [
+    "dns",
+    "bind",
+    "anti-spam",
+    "internet-infrastructure",
+    "open-source"
+  ],
+  "summary": "American Internet pioneer who maintained BIND, founded the Internet Systems Consortium, and created the first anti-spam DNS blocklist.",
+  "whyThisMatters": "Vixie's work on DNS software and the first real-time blackhole list shaped both the resilience and the abuse-fighting mechanisms of core Internet infrastructure.",
+  "knownFor": [
+    "BIND DNS server",
+    "Internet Systems Consortium",
+    "MAPS Realtime Blackhole List (1997)"
+  ],
+  "sections": {
+    "overview": "<p>Paul Vixie is an American computer scientist. He wrote the widely used Vixie cron in 1987 and from 1988 took over maintenance of BIND, the Berkeley Internet Name Domain server, which became the dominant DNS implementation. He founded the Internet Software Consortium (now Internet Systems Consortium) in 1994 to steward BIND and other infrastructure software, and later operated the F root server.</p><h2>Fighting abuse</h2><p>In 1997 Vixie co-founded the Mail Abuse Prevention System and its Realtime Blackhole List, the first DNS-based blocklist for spam sources, a model adopted across the anti-spam industry. He later co-founded Farsight Security, focused on passive DNS data.</p><h2>Recognition</h2><p>Vixie was inducted into the Internet Hall of Fame in 2014 and has authored numerous RFCs on DNS operations and security.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1963",
+      "event": "Born in San Francisco, California."
+    },
+    {
+      "date": "1988",
+      "event": "Takes over maintenance of BIND."
+    },
+    {
+      "date": "1994",
+      "event": "Founds the Internet Software Consortium (ISC)."
+    },
+    {
+      "date": "1997",
+      "event": "Co-founds MAPS and launches the Realtime Blackhole List."
+    },
+    {
+      "date": "2014",
+      "event": "Inducted into the Internet Hall of Fame."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Internet Hall of Fame: Paul Vixie",
+      "url": "https://www.internethalloffame.org/inductee/paul-vixie/"
+    },
+    {
+      "title": "Internet Systems Consortium: history",
+      "url": "https://www.isc.org/about/"
+    },
+    {
+      "title": "Wikipedia: Paul Vixie",
+      "url": "https://en.wikipedia.org/wiki/Paul_Vixie"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

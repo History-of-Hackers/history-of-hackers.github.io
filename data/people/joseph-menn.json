@@ -1,1 +1,68 @@
-{"id":"joseph-menn","type":"person","title":"Joseph Menn","slug":"joseph-menn","name":"Joseph Menn","born":null,"died":null,"era":"2003-Present","tags":["author","journalism","cybersecurity","hacker-culture","books"],"summary":"Investigative cybersecurity journalist and author of Cult of the Dead Cow, a history of the influential hacker collective.","whyThisMatters":"Menn’s book-length reporting connects hacker culture to its public-interest, policy, and technology consequences without reducing the history to a single stereotype.","knownFor":["Cult of the Dead Cow","Fatal System Error","Cybersecurity journalism"],"sections":{"overview":"<p>Joseph Menn is an investigative reporter who covers cybersecurity and disinformation. His reporting has appeared at organizations including <em>The Washington Post</em>, Reuters, the <em>Financial Times</em>, and the <em>Los Angeles Times</em>.</p><h2>Documenting cDc and security history</h2><p>In <em>Cult of the Dead Cow</em>, Menn traces the history and influence of cDc, a hacker collective whose members and ideas shaped debates about disclosure, privacy, and security. The work offers a documented narrative linking hacker communities to wider public policy and technical culture.</p>"},"timeline":[{"date":"2010","event":"Publishes Fatal System Error, a book on technology and cybercrime."},{"date":"2019","event":"Publishes Cult of the Dead Cow: How the Original Hacking Supergroup Might Just Save the World."},{"date":"2024","event":"Is a co-finalist for the Pulitzer Prize for International Reporting while reporting at The Washington Post."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Hachette: Cult of the Dead Cow","url":"https://www.hachettebookgroup.com/titles/joseph-menn/cult-of-the-dead-cow/9781541706118/?lens=publicaffairs"},{"title":"Hachette: Joseph Menn","url":"https://www.hachettebookgroup.com/contributor/joseph-menn/"},{"title":"Axios: Lessons from history’s great hacker groups","url":"https://www.axios.com/2019/06/06/cult-of-dead-cow-lessons-from-historys-great-hacker-groups"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "joseph-menn",
+  "type": "person",
+  "title": "Joseph Menn",
+  "slug": "joseph-menn",
+  "name": "Joseph Menn",
+  "born": null,
+  "died": null,
+  "era": "2003-Present",
+  "tags": [
+    "author",
+    "journalism",
+    "cybersecurity",
+    "hacker-culture",
+    "books"
+  ],
+  "summary": "Investigative cybersecurity journalist and author of Cult of the Dead Cow, a history of the influential hacker collective.",
+  "whyThisMatters": "Menn’s book-length reporting connects hacker culture to its public-interest, policy, and technology consequences without reducing the history to a single stereotype.",
+  "knownFor": [
+    "Cult of the Dead Cow",
+    "Fatal System Error",
+    "Cybersecurity journalism"
+  ],
+  "sections": {
+    "overview": "<p>Joseph Menn is an investigative reporter who covers cybersecurity and disinformation. His reporting has appeared at organizations including <em>The Washington Post</em>, Reuters, the <em>Financial Times</em>, and the <em>Los Angeles Times</em>.</p><h2>Documenting cDc and security history</h2><p>In <em>Cult of the Dead Cow</em>, Menn traces the history and influence of cDc, a hacker collective whose members and ideas shaped debates about disclosure, privacy, and security. The work offers a documented narrative linking hacker communities to wider public policy and technical culture.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2010",
+      "event": "Publishes Fatal System Error, a book on technology and cybercrime."
+    },
+    {
+      "date": "2019",
+      "event": "Publishes Cult of the Dead Cow: How the Original Hacking Supergroup Might Just Save the World."
+    },
+    {
+      "date": "2024",
+      "event": "Is a co-finalist for the Pulitzer Prize for International Reporting while reporting at The Washington Post."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Hachette: Cult of the Dead Cow",
+      "url": "https://www.hachettebookgroup.com/titles/joseph-menn/cult-of-the-dead-cow/9781541706118/?lens=publicaffairs"
+    },
+    {
+      "title": "Hachette: Joseph Menn",
+      "url": "https://www.hachettebookgroup.com/contributor/joseph-menn/"
+    },
+    {
+      "title": "Axios: Lessons from history’s great hacker groups",
+      "url": "https://www.axios.com/2019/06/06/cult-of-dead-cow-lessons-from-historys-great-hacker-groups"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

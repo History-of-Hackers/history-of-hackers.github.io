@@ -55,7 +55,7 @@
   "relatedEvents": [],
   "sources": [
     {
-      "title": "uninformed.org \u2014 live site, full article index (?v=all)",
+      "title": "uninformed.org — live site, full article index (?v=all)",
       "url": "http://uninformed.org/?v=all"
     },
     {
@@ -75,11 +75,11 @@
       "url": "http://web.archive.org/web/20081015181255/http://uninformed.org:80/?"
     },
     {
-      "title": "Matt Miller (skape) personal site \u2014 publication list including Uninformed papers",
+      "title": "Matt Miller (skape) personal site — publication list including Uninformed papers",
       "url": "https://www.hick.org/~mmiller/"
     },
     {
-      "title": "Wikipedia \u2014 Kernel Patch Protection (cites Uninformed PatchGuard papers)",
+      "title": "Wikipedia — Kernel Patch Protection (cites Uninformed PatchGuard papers)",
       "url": "https://en.wikipedia.org/wiki/Kernel_Patch_Protection"
     }
   ],
@@ -88,6 +88,7 @@
     "sourcesCount": 7,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   }
 }

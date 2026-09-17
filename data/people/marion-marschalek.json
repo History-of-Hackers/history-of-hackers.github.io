@@ -16,7 +16,7 @@
   "summary": "Marion Marschalek is an Austrian-born reverse engineer and malware analyst whose confirmed career spans Ikarus Security Software, Intel's STORM hardware-security team, and AWS GuardDuty, and who now runs her own reverse-engineering consultancy, Hack & Cheese, while remaining active in the BlackHoodie women-in-reverse-engineering community.",
   "whyThisMatters": "Marion Marschalek is an Austrian-born reverse engineer and malware analyst whose confirmed career spans Ikarus Security Software, Intel's STORM hardware-security team, and AWS GuardDuty, and who now runs her own reverse-engineering consultancy, Hack & Cheese, while remaining active in the BlackHoodie women-in-reverse-engineering community.",
   "sections": {
-    "overview": "<p>Marion Marschalek is an Austrian reverse engineer and malware analyst who has worked in binary analysis and threat research since 2011. She holds both a bachelor's and a master's degree in Information Security from the University of Applied Sciences St. P\u00f6lten in Austria, and describes her approach to malware analysis as treating hostile code like a puzzle to be taken apart.</p><h2>Early Career</h2><p>Marschalek's confirmed career began as a malware analyst at Ikarus Security Software in Austria. Industry press and conference archives from the mid-2010s widely associate her with subsequent roles at the German antivirus vendor G DATA and at the threat-intelligence firm Cyphort, and credit her with research into nation-state-linked malware, including G DATA's widely cited 2014 analysis of the Uroburos (also known as Snake or Turla) espionage rootkit. She is also reported to have spent time at Google. These specific employers and her exact talk history at Black Hat, DEF CON, and the Chaos Communication Congress (CCC) are commonly repeated in secondary sources but could not be independently re-confirmed against primary sources during this research pass \u2014 readers should treat them as reported rather than verified here. One concrete data point: the official DEF CON 23 (2015) speaker index lists Marschalek's name cross-referenced with researcher Morgan Marquis-Boire, indicating a joint appearance that year, though the associated talk materials could not be located to confirm its title or content.</p><h2>Intel and AWS</h2><p>Marschalek later spent three years on Intel's STORM team in Oregon, researching hardware-level vulnerabilities. From 2020 to 2024 she worked on Amazon Web Services' GuardDuty team, where her focus shifted to cloud threat detection, with particular attention to attacks targeting Linux systems.</p><h2>Hack & Cheese and Community Work</h2><p>In February 2025, Marschalek left AWS to found Hack & Cheese Security Consulting, an independent reverse-engineering consulting and training practice based in Portland, Oregon. Through it she continues to teach reverse engineering, including a MIPS-focused workshop delivered at the 2026 Recon security conference. She also maintains a set of open-source reverse-engineering tools on GitHub, including r2graphity, which builds function call graphs on top of the radare2 framework, and DiffRay, a tool for diffing Windows library binaries using IDA Pro output. Marschalek is a long-standing contributor to BlackHoodie, a volunteer initiative branded \"Women who RE\" that offers free, one-day reverse-engineering training sessions for women at major security conferences worldwide, including Recon, OffensiveCon, Troopers, Hexacon, and Sec-T.</p>"
+    "overview": "<p>Marion Marschalek is an Austrian reverse engineer and malware analyst who has worked in binary analysis and threat research since 2011. She holds both a bachelor's and a master's degree in Information Security from the University of Applied Sciences St. Pölten in Austria, and describes her approach to malware analysis as treating hostile code like a puzzle to be taken apart.</p><h2>Early Career</h2><p>Marschalek's confirmed career began as a malware analyst at Ikarus Security Software in Austria. Industry press and conference archives from the mid-2010s widely associate her with subsequent roles at the German antivirus vendor G DATA and at the threat-intelligence firm Cyphort, and credit her with research into nation-state-linked malware, including G DATA's widely cited 2014 analysis of the Uroburos (also known as Snake or Turla) espionage rootkit. She is also reported to have spent time at Google. These specific employers and her exact talk history at Black Hat, DEF CON, and the Chaos Communication Congress (CCC) are commonly repeated in secondary sources but could not be independently re-confirmed against primary sources during this research pass — readers should treat them as reported rather than verified here. One concrete data point: the official DEF CON 23 (2015) speaker index lists Marschalek's name cross-referenced with researcher Morgan Marquis-Boire, indicating a joint appearance that year, though the associated talk materials could not be located to confirm its title or content.</p><h2>Intel and AWS</h2><p>Marschalek later spent three years on Intel's STORM team in Oregon, researching hardware-level vulnerabilities. From 2020 to 2024 she worked on Amazon Web Services' GuardDuty team, where her focus shifted to cloud threat detection, with particular attention to attacks targeting Linux systems.</p><h2>Hack & Cheese and Community Work</h2><p>In February 2025, Marschalek left AWS to found Hack & Cheese Security Consulting, an independent reverse-engineering consulting and training practice based in Portland, Oregon. Through it she continues to teach reverse engineering, including a MIPS-focused workshop delivered at the 2026 Recon security conference. She also maintains a set of open-source reverse-engineering tools on GitHub, including r2graphity, which builds function call graphs on top of the radare2 framework, and DiffRay, a tool for diffing Windows library binaries using IDA Pro output. Marschalek is a long-standing contributor to BlackHoodie, a volunteer initiative branded \"Women who RE\" that offers free, one-day reverse-engineering training sessions for women at major security conferences worldwide, including Recon, OffensiveCon, Troopers, Hexacon, and Sec-T.</p>"
   },
   "timeline": [
     {
@@ -55,15 +55,15 @@
   "relatedEvents": [],
   "sources": [
     {
-      "title": "Hack & Cheese \u2014 About (Marion Marschalek biography)",
+      "title": "Hack & Cheese — About (Marion Marschalek biography)",
       "url": "https://hackandcheese.com/about/"
     },
     {
-      "title": "pinkflawd (Marion Marschalek) \u2014 GitHub profile",
+      "title": "pinkflawd (Marion Marschalek) — GitHub profile",
       "url": "https://github.com/pinkflawd"
     },
     {
-      "title": "BlackHoodie \u2014 Women who RE",
+      "title": "BlackHoodie — Women who RE",
       "url": "https://blackhoodie.re"
     },
     {
@@ -71,11 +71,11 @@
       "url": "https://www.defcon.org/html/defcon-23/dc-23-speakers.html"
     },
     {
-      "title": "G DATA Security Blog \u2014 Uroburos, using WinDbg (2014)",
+      "title": "G DATA Security Blog — Uroburos, using WinDbg (2014)",
       "url": "https://blog.gdatasoftware.com/2014/06/23953-analysis-of-uroburos-using-windbg"
     },
     {
-      "title": "G DATA Security Blog \u2014 Uroburos: deeper travel into kernel protection mitigation (2014)",
+      "title": "G DATA Security Blog — Uroburos: deeper travel into kernel protection mitigation (2014)",
       "url": "https://blog.gdatasoftware.com/2014/03/23966-uroburos-deeper-travel-into-kernel-protection-mitigation"
     }
   ],
@@ -84,13 +84,14 @@
     "sourcesCount": 6,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
   "name": "Marion Marschalek",
   "born": null,
   "died": null,
   "knownFor": [
-    "Reverse engineer and malware analyst since 2011, trained in Austria with a BSc and MSc in Information Security from the University of Applied Sciences St. P\u00f6lten",
+    "Reverse engineer and malware analyst since 2011, trained in Austria with a BSc and MSc in Information Security from the University of Applied Sciences St. Pölten",
     "Began her career as a malware analyst at Ikarus Security Software in Austria",
     "Spent three years on Intel's STORM team in Oregon researching hardware-level vulnerabilities",
     "Worked four years (2020-2024) on Amazon Web Services' GuardDuty team, focused on cloud threat detection including Linux-targeted attacks",
@@ -99,6 +100,6 @@
     "Long-time contributor to BlackHoodie ('Women who RE'), which runs free one-day reverse-engineering trainings for women at major security conferences (Recon, OffensiveCon, Troopers, Hexacon, Sec-T)",
     "Delivering a MIPS reverse-engineering workshop at the Recon security conference in 2026",
     "Listed in DEF CON 23's (2015) official speaker index cross-referenced with researcher Morgan Marquis-Boire, though the specific talk content could not be independently confirmed in this research pass",
-    "Widely reported in industry press \u2014 but not independently re-verified via primary sources in this research pass \u2014 to have also worked at G DATA, Cyphort, and Google, to have contributed to G DATA's research on the Uroburos/Snake nation-state espionage rootkit, and to have presented at Black Hat and the Chaos Communication Congress (CCC)"
+    "Widely reported in industry press — but not independently re-verified via primary sources in this research pass — to have also worked at G DATA, Cyphort, and Google, to have contributed to G DATA's research on the Uroburos/Snake nation-state espionage rootkit, and to have presented at Black Hat and the Chaos Communication Congress (CCC)"
   ]
 }

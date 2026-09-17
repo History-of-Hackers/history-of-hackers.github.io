@@ -1,12 +1,76 @@
 {
-  "id":"yevgeniy-dodis", "type":"person", "title":"Yevgeniy Dodis", "slug":"yevgeniy-dodis", "name":"Yevgeniy Dodis", "born":null, "died":null, "era":"2000s-Present",
-  "tags":["cryptography","randomness","secure-messaging","fuzzy-extractors","research"],
-  "summary":"NYU cryptographer whose research covers cryptographic randomness, leakage resilience, fuzzy extractors, and secure messaging.",
-  "whyThisMatters":"Security systems often rely on imperfect randomness and noisy real-world data. Dodis's research develops rigorous ways to reason about those constraints in cryptographic designs.",
-  "knownFor":["Cryptographic randomness","Fuzzy extractors","Leakage-resilient cryptography"],
-  "sections":{"overview":"<p>Yevgeniy Dodis is a professor at New York University's Courant Institute and a member of the NYU Cryptography Group.</p><h2>Randomness and security</h2><p>His academic profile identifies interests including leakage-resilient cryptography, random-number generation, cryptography with biometrics and other noisy data, and secure group messaging.</p><h2>Recognition</h2><p>Dodis received a Ph.D. from MIT in 2000. His research page records IACR fellowship in 2020 and IACR Test of Time Awards for work on fuzzy extractors and verifiable random functions.</p><h2>Security context</h2><p>Randomness, key material, and information leakage are practical security concerns. The theoretical tools developed in this area help engineers identify what guarantees a protocol can realistically provide.</p>"},
-  "timeline":[{"date":"2000","event":"Receives a Ph.D. in computer science from MIT."},{"date":"2019","event":"Receives an IACR Test of Time Award for work on fuzzy extractors."},{"date":"2020","event":"Is named an IACR Fellow."},{"date":"2021","event":"Receives an IACR Test of Time Award for work on verifiable random functions."}],
-  "relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],
-  "sources":[{"title":"NYU Courant faculty profile", "url":"https://cims.nyu.edu/people/profiles/DODIS_Yevgeniy.html"},{"title":"Yevgeniy Dodis academic home page", "url":"https://cs.nyu.edu/~dodis/"},{"title":"NYU Center for Cyber Security profile", "url":"https://cyber.nyu.edu/profile/yevgeniy-dodis/"},{"title":"Yevgeniy Dodis research interests and papers", "url":"https://cs.nyu.edu/~dodis/academic.html"}],
-  "editorial":{"verified":true,"sourcesCount":4,"lastReviewed":"2026-09-03","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-03"}
+  "id": "yevgeniy-dodis",
+  "type": "person",
+  "title": "Yevgeniy Dodis",
+  "slug": "yevgeniy-dodis",
+  "name": "Yevgeniy Dodis",
+  "born": null,
+  "died": null,
+  "era": "2000s-Present",
+  "tags": [
+    "cryptography",
+    "randomness",
+    "secure-messaging",
+    "fuzzy-extractors",
+    "research"
+  ],
+  "summary": "NYU cryptographer whose research covers cryptographic randomness, leakage resilience, fuzzy extractors, and secure messaging.",
+  "whyThisMatters": "Security systems often rely on imperfect randomness and noisy real-world data. Dodis's research develops rigorous ways to reason about those constraints in cryptographic designs.",
+  "knownFor": [
+    "Cryptographic randomness",
+    "Fuzzy extractors",
+    "Leakage-resilient cryptography"
+  ],
+  "sections": {
+    "overview": "<p>Yevgeniy Dodis is a professor at New York University's Courant Institute and a member of the NYU Cryptography Group.</p><h2>Randomness and security</h2><p>His academic profile identifies interests including leakage-resilient cryptography, random-number generation, cryptography with biometrics and other noisy data, and secure group messaging.</p><h2>Recognition</h2><p>Dodis received a Ph.D. from MIT in 2000. His research page records IACR fellowship in 2020 and IACR Test of Time Awards for work on fuzzy extractors and verifiable random functions.</p><h2>Security context</h2><p>Randomness, key material, and information leakage are practical security concerns. The theoretical tools developed in this area help engineers identify what guarantees a protocol can realistically provide.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2000",
+      "event": "Receives a Ph.D. in computer science from MIT."
+    },
+    {
+      "date": "2019",
+      "event": "Receives an IACR Test of Time Award for work on fuzzy extractors."
+    },
+    {
+      "date": "2020",
+      "event": "Is named an IACR Fellow."
+    },
+    {
+      "date": "2021",
+      "event": "Receives an IACR Test of Time Award for work on verifiable random functions."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "NYU Courant faculty profile",
+      "url": "https://cims.nyu.edu/people/profiles/DODIS_Yevgeniy.html"
+    },
+    {
+      "title": "Yevgeniy Dodis academic home page",
+      "url": "https://cs.nyu.edu/~dodis/"
+    },
+    {
+      "title": "NYU Center for Cyber Security profile",
+      "url": "https://cyber.nyu.edu/profile/yevgeniy-dodis/"
+    },
+    {
+      "title": "Yevgeniy Dodis research interests and papers",
+      "url": "https://cs.nyu.edu/~dodis/academic.html"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

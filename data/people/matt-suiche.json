@@ -7,7 +7,15 @@
   "born": "1988-09-22",
   "died": null,
   "era": "2000s-Present",
-  "tags": ["memory forensics", "incident response", "shadow brokers", "reverse engineering", "windows internals", "digital forensics", "france"],
+  "tags": [
+    "memory forensics",
+    "incident response",
+    "shadow brokers",
+    "reverse engineering",
+    "windows internals",
+    "digital forensics",
+    "france"
+  ],
   "summary": "Matt Suiche (Matthieu Suiche) is a French security researcher and entrepreneur known for his work in memory forensics, founder of MoonSols and Comae Technologies, and for his early public analysis of The Shadow Brokers leaks.",
   "whyThisMatters": "Suiche's research on Windows hibernation files and physical memory analysis helped establish memory forensics as a standard part of incident response tooling. His public write-ups on The Shadow Brokers, published in 2016 and 2017, were among the first widely circulated technical analyses arguing the leaks originated from an insider rather than a purely external intrusion, and drew direct cryptic responses from the group itself. His companies' technology was later absorbed into mainstream forensics platforms through an industry acquisition.",
   "knownFor": [
@@ -23,15 +31,42 @@
     "overview": "<h2>Background</h2><p>Matthieu \"Matt\" Suiche is a French computer security researcher and entrepreneur, born September 22, 1988, near Paris. According to CyberScoop, he dropped out of formal schooling around 2007 to focus on programming and software development, and began presenting at international security conferences while still a teenager, with an early focus on vulnerabilities in Microsoft products. He held internships at Airbus and a research position with the Netherlands Forensic Institute before moving fully into commercial security work.</p><h2>MoonSols and early memory forensics research</h2><p>Suiche built his early reputation on memory forensics, a discipline focused on extracting and analyzing evidence from a computer's volatile (RAM) memory rather than its disk. He reverse-engineered the Windows hibernation file format and its LZXPRESS compression scheme, and conducted physical memory analysis research on Mac OS X, which he presented at Black Hat DC in 2010. He founded MoonSols, a firm specializing in memory forensics and incident response tools, and later developed LiveCloudKd, a utility for analyzing running Microsoft Hyper-V virtual machines; Microsoft Technical Fellow Mark Russinovich has said the work impressed Microsoft enough to invite Suiche to speak at the company's internal BlueHat Security Briefings. Suiche was recognized as a Microsoft Most Valuable Professional from 2009 to 2015 and was named one of France's 100 key developers in 2014. He also co-founded the Hackito Ergo Sum security conference in Paris.</p><h2>CloudVolumes and Comae Technologies</h2><p>In 2011 Suiche co-founded CloudVolumes (originally SnapVolumes), an application-virtualization company, which was acquired by VMware in 2014. In 2016 he founded Comae Technologies, a UAE-based cybersecurity company specializing in cloud-based memory analysis used to recover forensic evidence from the volatile memory of compromised devices. Comae's technology and intellectual property were acquired by Magnet Forensics in May 2022, after which Suiche joined Magnet Forensics as director of memory and incident response R&D, leading a team integrating memory-analysis technology into the company's existing forensics platform.</p><h2>Analysis of The Shadow Brokers</h2><p>Suiche became widely known in 2016 and 2017 for his public technical analysis of The Shadow Brokers, the still-unidentified individual or group that leaked a cache of NSA-linked hacking tools, including exploits such as EternalBlue and the DOUBLEPULSAR implant. In blog posts published on Medium under the Comae Technologies account, including \"Shadow Brokers: The insider theory\" and \"Is Harold Martin behind Shadow Brokers?\" (both dated August 2016), Suiche argued that the pattern of the leaks was more consistent with an insider — such as a disgruntled current or former intelligence-community contractor physically removing files — than with a purely remote, external compromise of NSA systems. His insider theory preceded, by roughly two weeks, the public criminal complaint against former NSA contractor Harold T. Martin III, a coincidence widely noted in subsequent press coverage. Suiche continued his analysis at Black Hat USA 2017 with a talk titled \"The Shadow Brokers: Cyber Fear Game Changers.\" The Shadow Brokers themselves referenced Suiche directly and cryptically in several of their public messages, at times addressing him by name.</p><h2>Significance and legacy</h2><p>Suiche's work sits at the intersection of applied memory-forensics research and public-facing threat intelligence. His technical contributions helped popularize memory analysis as a standard incident-response technique, an area later commercialized through MoonSols and Comae and eventually folded into a larger forensics vendor's product line via the Magnet Forensics acquisition. His Shadow Brokers commentary, meanwhile, made him one of the more visible independent analysts tracking one of the most consequential and still-unresolved leak incidents in the history of NSA-linked cyber tools, work covered by outlets including CyberScoop, Wired, and The New York Times. He has continued to comment publicly on nation-state cyber capabilities and, more recently, founded OnDB Inc., a data-infrastructure startup.</p>"
   },
   "timeline": [
-    { "date": "1988-09-22", "event": "Born near Paris, France." },
-    { "date": "2007", "event": "Leaves formal schooling to focus on programming and begins presenting at international security conferences as a teenager." },
-    { "date": "2010", "event": "Presents physical memory analysis research on Mac OS X at Black Hat DC." },
-    { "date": "2011", "event": "Co-founds CloudVolumes (originally SnapVolumes), an application-virtualization company." },
-    { "date": "2014", "event": "CloudVolumes is acquired by VMware." },
-    { "date": "2016-08", "event": "Publishes 'Shadow Brokers: The insider theory' and 'Is Harold Martin behind Shadow Brokers?' on Medium, arguing the NSA-linked leaks likely originated from an insider." },
-    { "date": "2016", "event": "Founds Comae Technologies, a UAE-based memory analysis and incident response company." },
-    { "date": "2017", "event": "Presents 'The Shadow Brokers: Cyber Fear Game Changers' at Black Hat USA." },
-    { "date": "2022-05-06", "event": "Comae Technologies' intellectual property is acquired by Magnet Forensics; Suiche joins as director of memory and incident response R&D." }
+    {
+      "date": "1988-09-22",
+      "event": "Born near Paris, France."
+    },
+    {
+      "date": "2007",
+      "event": "Leaves formal schooling to focus on programming and begins presenting at international security conferences as a teenager."
+    },
+    {
+      "date": "2010",
+      "event": "Presents physical memory analysis research on Mac OS X at Black Hat DC."
+    },
+    {
+      "date": "2011",
+      "event": "Co-founds CloudVolumes (originally SnapVolumes), an application-virtualization company."
+    },
+    {
+      "date": "2014",
+      "event": "CloudVolumes is acquired by VMware."
+    },
+    {
+      "date": "2016-08",
+      "event": "Publishes 'Shadow Brokers: The insider theory' and 'Is Harold Martin behind Shadow Brokers?' on Medium, arguing the NSA-linked leaks likely originated from an insider."
+    },
+    {
+      "date": "2016",
+      "event": "Founds Comae Technologies, a UAE-based memory analysis and incident response company."
+    },
+    {
+      "date": "2017",
+      "event": "Presents 'The Shadow Brokers: Cyber Fear Game Changers' at Black Hat USA."
+    },
+    {
+      "date": "2022-05-06",
+      "event": "Comae Technologies' intellectual property is acquired by Magnet Forensics; Suiche joins as director of memory and incident response R&D."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -39,12 +74,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Matt Suiche - Wikipedia", "url": "https://en.wikipedia.org/wiki/Matt_Suiche" },
-    { "title": "Meet the french researcher the Shadow Brokers keep calling out - CyberScoop", "url": "https://cyberscoop.com/matthieu-suiche-shadow-brokers-comae-technologies/" },
-    { "title": "Magnet Forensics acquires Comae Technologies to continue developing the memory analysis platform - Help Net Security", "url": "https://www.helpnetsecurity.com/2022/05/06/magnet-forensics-comae-technologies/" },
-    { "title": "About | Matt Suiche", "url": "https://www.msuiche.com/about/" },
-    { "title": "Shadow Brokers: The insider theory - Matt Suiche, Comae Technologies (Medium)", "url": "https://medium.com/comae/shadowbrokers-the-insider-theory-ded733b39a55" },
-    { "title": "Is Harold Martin behind Shadow Brokers? - Matt Suiche (Medium)", "url": "https://medium.com/@msuiche/is-harold-martin-behind-shadow-brokers-17b72a05896c" }
+    {
+      "title": "Matt Suiche - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Matt_Suiche"
+    },
+    {
+      "title": "Meet the french researcher the Shadow Brokers keep calling out - CyberScoop",
+      "url": "https://cyberscoop.com/matthieu-suiche-shadow-brokers-comae-technologies/"
+    },
+    {
+      "title": "Magnet Forensics acquires Comae Technologies to continue developing the memory analysis platform - Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2022/05/06/magnet-forensics-comae-technologies/"
+    },
+    {
+      "title": "About | Matt Suiche",
+      "url": "https://www.msuiche.com/about/"
+    },
+    {
+      "title": "Shadow Brokers: The insider theory - Matt Suiche, Comae Technologies (Medium)",
+      "url": "https://medium.com/comae/shadowbrokers-the-insider-theory-ded733b39a55"
+    },
+    {
+      "title": "Is Harold Martin behind Shadow Brokers? - Matt Suiche (Medium)",
+      "url": "https://medium.com/@msuiche/is-harold-martin-behind-shadow-brokers-17b72a05896c"
+    }
   ],
-  "editorial": { "verified": true, "sourcesCount": 6, "lastReviewed": "2026-08-29", "reviewStatus": "PUBLISHED", "reviewer": "claude-taskforce-2026-08-29" }
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 6,
+    "lastReviewed": "2026-08-29",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
+  }
 }

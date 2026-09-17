@@ -1,1 +1,68 @@
-{"id":"gabriella-coleman","type":"person","title":"Gabriella Coleman","slug":"gabriella-coleman","name":"Gabriella Coleman","born":null,"died":null,"era":"2000s-Present","tags":["academic-research","anthropology","hacker-culture","anonymous","books"],"summary":"Anthropologist and Harvard professor whose research and books examine hacker culture, free software, Anonymous, and digital activism.","whyThisMatters":"Coleman brings sustained ethnographic research to communities often represented only through policing, journalism, or technical accounts.","knownFor":["Coding Freedom","Hacker, Hoaxer, Whistleblower, Spy","Research on hacking cultures"],"sections":{"overview":"<p>Gabriella (Biella) Coleman is an anthropologist and professor at Harvard University. Her research examines the politics, cultures, and ethics of hacking.</p><h2>Books and research</h2><p>Her books include <em>Coding Freedom</em> and <em>Hacker, Hoaxer, Whistleblower, Spy</em>, an ethnographic account of Anonymous. Her work connects hacker communities to questions of ethics, freedom, activism, and professionalization.</p>"},"timeline":[{"date":"2013","event":"Publishes Coding Freedom."},{"date":"2014","event":"Publishes Hacker, Hoaxer, Whistleblower, Spy."},{"date":"2021","event":"Joins Harvard's Department of Anthropology."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Harvard Anthropology: Gabriella Coleman","url":"https://anthropology.fas.harvard.edu/people/gabriella-coleman"},{"title":"Berkman Klein Center: Gabriella Coleman","url":"https://cyber.harvard.edu/people/gcoleman"},{"title":"Harvard Gazette interview","url":"https://news.harvard.edu/gazette/story/2022/02/wading-into-culture-of-computer-hackers/"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "gabriella-coleman",
+  "type": "person",
+  "title": "Gabriella Coleman",
+  "slug": "gabriella-coleman",
+  "name": "Gabriella Coleman",
+  "born": null,
+  "died": null,
+  "era": "2000s-Present",
+  "tags": [
+    "academic-research",
+    "anthropology",
+    "hacker-culture",
+    "anonymous",
+    "books"
+  ],
+  "summary": "Anthropologist and Harvard professor whose research and books examine hacker culture, free software, Anonymous, and digital activism.",
+  "whyThisMatters": "Coleman brings sustained ethnographic research to communities often represented only through policing, journalism, or technical accounts.",
+  "knownFor": [
+    "Coding Freedom",
+    "Hacker, Hoaxer, Whistleblower, Spy",
+    "Research on hacking cultures"
+  ],
+  "sections": {
+    "overview": "<p>Gabriella (Biella) Coleman is an anthropologist and professor at Harvard University. Her research examines the politics, cultures, and ethics of hacking.</p><h2>Books and research</h2><p>Her books include <em>Coding Freedom</em> and <em>Hacker, Hoaxer, Whistleblower, Spy</em>, an ethnographic account of Anonymous. Her work connects hacker communities to questions of ethics, freedom, activism, and professionalization.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2013",
+      "event": "Publishes Coding Freedom."
+    },
+    {
+      "date": "2014",
+      "event": "Publishes Hacker, Hoaxer, Whistleblower, Spy."
+    },
+    {
+      "date": "2021",
+      "event": "Joins Harvard's Department of Anthropology."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Harvard Anthropology: Gabriella Coleman",
+      "url": "https://anthropology.fas.harvard.edu/people/gabriella-coleman"
+    },
+    {
+      "title": "Berkman Klein Center: Gabriella Coleman",
+      "url": "https://cyber.harvard.edu/people/gcoleman"
+    },
+    {
+      "title": "Harvard Gazette interview",
+      "url": "https://news.harvard.edu/gazette/story/2022/02/wading-into-culture-of-computer-hackers/"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

@@ -7,7 +7,16 @@
   "born": "1986-11-08",
   "died": "2013-01-11",
   "era": "2000s-2010s",
-  "tags": ["programmer", "activist", "rss", "reddit", "open-access", "cfaa", "creative-commons", "internet-freedom"],
+  "tags": [
+    "programmer",
+    "activist",
+    "rss",
+    "reddit",
+    "open-access",
+    "cfaa",
+    "creative-commons",
+    "internet-freedom"
+  ],
   "summary": "Aaron Swartz (1986-2013) was an American computer programmer and internet activist who helped develop RSS and co-founded Reddit, later becoming a leading advocate for open access to information before dying by suicide while facing federal prosecution under the Computer Fraud and Abuse Act.",
   "whyThisMatters": "Swartz's prosecution for downloading millions of JSTOR academic articles through the MIT network became a flashpoint in debates over the scope and severity of the Computer Fraud and Abuse Act (CFAA), a law originally intended to target malicious computer intrusion. His death by suicide in 2013, while facing up to 35 years in prison and $1 million in fines, galvanized reform efforts including the proposed \"Aaron's Law\" amendments to the CFAA and strengthened the broader open-access-to-research and digital-rights movements. His earlier technical contributions -- co-authoring the RSS 1.0 specification as a teenager and helping build the technical architecture of Creative Commons -- had already made him an influential figure in the early open web before his activism and prosecution made him a symbol in fights over computer crime law and internet freedom.",
   "knownFor": [
@@ -24,23 +33,74 @@
     "overview": "<h2>Early Life and Technical Beginnings</h2><p>Aaron Hillel Swartz was born on November 8, 1986, in Highland Park, Illinois, and grew up immersed in computers and the early internet, encouraged by his father, who worked in software. He displayed precocious technical talent, building websites and studying markup languages and information systems as a child. At age 13 he won the ArsDigita Student Prize for creating a nonprofit, collaborative website. By age 14, in 2000, he was a member of the working group that authored the RSS 1.0 specification, a web-feed format that became foundational to blogging, podcasting, and news syndication across the internet.</p><h2>Open Web and Creative Commons</h2><p>As a teenager Swartz became involved with the nascent Creative Commons project, contributing to the technical architecture that let creators attach machine-readable licensing metadata to their work, and he later co-created Markdown, a lightweight text-to-HTML formatting syntax, together with John Gruber. He briefly attended Stanford University beginning in 2004 but left after a year to pursue programming and startup work directly, reflecting a broader ambivalence toward formal institutions that recurred throughout his career.</p><h2>Reddit and Web.py</h2><p>In 2005 Swartz co-founded the startup Infogami, which was accepted into Y Combinator's first funding cohort. Infogami later merged with the recently launched link-aggregation site Reddit, making Swartz a co-owner of the combined company. As part of that work he released web.py, a Python web application framework he had built, as free and open-source software. Swartz left Reddit's parent company in 2007 after the site was acquired by Condé Nast, finding the corporate environment a poor fit for his interests.</p><h2>Open Access and Political Activism</h2><p>Over the following years Swartz turned increasingly toward activism focused on open access to information and government transparency. He worked with the Internet Archive's Open Library project, founded Watchdog.net to aggregate data on politicians, and in 2008 wrote the \"Guerilla Open Access Manifesto,\" arguing that scholarly knowledge should be freely shared rather than locked behind paywalls. In 2010 he co-founded Demand Progress, an advocacy organization that became one of the most visible grassroots opponents of the Stop Online Piracy Act (SOPA) and PROTECT IP Act (PIPA), legislation that was ultimately withdrawn amid a large-scale online protest campaign in early 2012.</p><h2>The JSTOR Downloads and Federal Prosecution</h2><p>Beginning in September 2010, someone using a laptop connected to the network at the Massachusetts Institute of Technology (MIT) began systematically downloading large numbers of articles from JSTOR, a subscription-based digital library of academic journals. MIT and JSTOR eventually traced the activity, and after installation of tracking measures, MIT police and a U.S. Secret Service agent identified and arrested Swartz near the MIT campus on January 6, 2011. Investigators determined that several million articles -- estimates commonly cite roughly 4.8 million, representing a large share of JSTOR's archive -- had been downloaded using scripted, automated methods, and that access had continued even after the account was blocked, through techniques including changing network addresses. JSTOR itself declined to press civil charges and reached a settlement with Swartz once the downloaded data was returned, but federal prosecutors pursued the case independently.</p><h2>Charges and the Case Against Him</h2><p>A federal grand jury indicted Swartz on July 14, 2011, on charges including wire fraud and multiple violations of the Computer Fraud and Abuse Act. A superseding indictment filed on September 12, 2012, expanded the case to 13 felony counts, exposing Swartz to a maximum sentence described by supporters as up to several decades in prison along with substantial fines, although legal analysts noted actual sentencing exposure under guidelines would likely have been lower. Prosecutors offered a plea deal involving a period of imprisonment, which Swartz's legal team rejected, and the case was heading toward trial when Swartz died. The prosecution drew sharp criticism from digital-rights advocates, legal scholars, and members of Congress, who argued the charges were disproportionate to an act of unauthorized bulk downloading that caused no direct financial harm to JSTOR or MIT.</p><h2>Death and Aftermath</h2><p>Aaron Swartz died by suicide in his Brooklyn, New York apartment on January 11, 2013, at age 26, while the federal case against him remained pending; prosecutors formally dropped the charges after his death. His death prompted MIT to commission an internal review, published in July 2013 as the \"Report to the President: MIT and the Prosecution of Aaron Swartz,\" which found that MIT had taken a stance of institutional neutrality rather than either defending Swartz or advocating for prosecution, and concluded the university had missed an opportunity to exercise leadership on the issue. In Congress, representatives introduced legislation nicknamed \"Aaron's Law\" intended to narrow the scope of the Computer Fraud and Abuse Act so that violations of a website's terms of service alone would not constitute a federal crime; the bill did not pass. Swartz was posthumously inducted into the Internet Hall of Fame in 2013 and received the American Library Association's James Madison Award the same year in recognition of his advocacy for open access to information.</p><h2>Legacy</h2><p>Swartz is remembered both as an early technical contributor to the open web -- through his role in RSS, Creative Commons, and web.py -- and as a central figure in ongoing debates over how far criminal computer-crime statutes should extend into cases of unauthorized but non-destructive data access. His case is frequently cited in discussions of prosecutorial discretion, the scope of the CFAA, and the open-access movement in academic publishing, and his life has been the subject of documentaries, books, and continued advocacy by organizations working on digital rights and criminal justice reform.</p>"
   },
   "timeline": [
-    { "date": "1986-11-08", "event": "Born in Highland Park, Illinois." },
-    { "date": "2000", "event": "At age 14, co-authors the RSS 1.0 web syndication specification." },
-    { "date": "2001", "event": "Becomes involved with the early Creative Commons project as a teenager." },
-    { "date": "2004", "event": "Enrolls at Stanford University; leaves after one year." },
-    { "date": "2005", "event": "Co-founds the startup Infogami as part of Y Combinator's first funding batch." },
-    { "date": "2005-11", "event": "Infogami merges with Reddit, making Swartz a co-owner of the combined company." },
-    { "date": "2007", "event": "Leaves Reddit's parent company after its acquisition by Condé Nast." },
-    { "date": "2008", "event": "Writes the \"Guerilla Open Access Manifesto\" advocating for free access to scholarly research." },
-    { "date": "2010", "event": "Co-founds the advocacy organization Demand Progress." },
-    { "date": "2010-09", "event": "Begins systematically downloading millions of articles from JSTOR via MIT's computer network." },
-    { "date": "2011-01-06", "event": "Arrested by MIT police and a U.S. Secret Service agent near the MIT campus." },
-    { "date": "2011-07-14", "event": "Federally indicted on four felony counts including wire fraud and CFAA violations." },
-    { "date": "2012-01", "event": "Demand Progress and allied groups play a prominent role in the successful campaign against the SOPA/PIPA legislation." },
-    { "date": "2012-09-12", "event": "A superseding federal indictment expands the charges against Swartz to 13 felony counts." },
-    { "date": "2013-01-11", "event": "Dies by suicide in his Brooklyn, New York apartment at age 26; prosecutors subsequently drop the charges." },
-    { "date": "2013-07-30", "event": "MIT publishes its internal review, \"Report to the President: MIT and the Prosecution of Aaron Swartz.\"" },
-    { "date": "2013", "event": "Posthumously inducted into the Internet Hall of Fame and awarded the American Library Association's James Madison Award." }
+    {
+      "date": "1986-11-08",
+      "event": "Born in Highland Park, Illinois."
+    },
+    {
+      "date": "2000",
+      "event": "At age 14, co-authors the RSS 1.0 web syndication specification."
+    },
+    {
+      "date": "2001",
+      "event": "Becomes involved with the early Creative Commons project as a teenager."
+    },
+    {
+      "date": "2004",
+      "event": "Enrolls at Stanford University; leaves after one year."
+    },
+    {
+      "date": "2005",
+      "event": "Co-founds the startup Infogami as part of Y Combinator's first funding batch."
+    },
+    {
+      "date": "2005-11",
+      "event": "Infogami merges with Reddit, making Swartz a co-owner of the combined company."
+    },
+    {
+      "date": "2007",
+      "event": "Leaves Reddit's parent company after its acquisition by Condé Nast."
+    },
+    {
+      "date": "2008",
+      "event": "Writes the \"Guerilla Open Access Manifesto\" advocating for free access to scholarly research."
+    },
+    {
+      "date": "2010",
+      "event": "Co-founds the advocacy organization Demand Progress."
+    },
+    {
+      "date": "2010-09",
+      "event": "Begins systematically downloading millions of articles from JSTOR via MIT's computer network."
+    },
+    {
+      "date": "2011-01-06",
+      "event": "Arrested by MIT police and a U.S. Secret Service agent near the MIT campus."
+    },
+    {
+      "date": "2011-07-14",
+      "event": "Federally indicted on four felony counts including wire fraud and CFAA violations."
+    },
+    {
+      "date": "2012-01",
+      "event": "Demand Progress and allied groups play a prominent role in the successful campaign against the SOPA/PIPA legislation."
+    },
+    {
+      "date": "2012-09-12",
+      "event": "A superseding federal indictment expands the charges against Swartz to 13 felony counts."
+    },
+    {
+      "date": "2013-01-11",
+      "event": "Dies by suicide in his Brooklyn, New York apartment at age 26; prosecutors subsequently drop the charges."
+    },
+    {
+      "date": "2013-07-30",
+      "event": "MIT publishes its internal review, \"Report to the President: MIT and the Prosecution of Aaron Swartz.\""
+    },
+    {
+      "date": "2013",
+      "event": "Posthumously inducted into the Internet Hall of Fame and awarded the American Library Association's James Madison Award."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -48,19 +108,41 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Aaron Swartz - Wikipedia", "url": "https://en.wikipedia.org/wiki/Aaron_Swartz" },
-    { "title": "Report to the President: MIT and the Prosecution of Aaron Swartz (FAQ)", "url": "https://swartz-report.mit.edu/faq.html" },
-    { "title": "Reddit-connected activist indicted in MIT theft - NBC News", "url": "https://www.nbcnews.com/tech/tech-news/reddit-connected-activist-indicted-mit-theft-flna122023" },
-    { "title": "RSS Creator and Reddit cofounder Aaron Swartz dead at 26 - Harvard Magazine", "url": "https://www.harvardmagazine.com/2013/01/rss-creator-aaron-swartz-dead-at-26" },
-    { "title": "Aaron Swartz, internet activist, Reddit cofounder, RSS co-author, dead at 26 - Fast Company", "url": "https://www.fastcompany.com/3004747/aaron-swartz-internet-activist-reddit-cofounder-rss-co-author-dead-26" },
-    { "title": "Aaron Swartz Inductee Biography - Internet Hall of Fame", "url": "https://www.internethalloffame.org/inductee/aaron-swartz/" },
-    { "title": "Aaron Swartz, CFAA: A year after Aaron Swartz's death, the Computer Fraud and Abuse Act remains unchanged - Slate", "url": "https://slate.com/news-and-politics/2014/01/aaron-swartz-cfaa-a-year-after-aaron-swartz-s-death-the-computer-fraud-and-abuse-act-remains-unchanged.html" }
+    {
+      "title": "Aaron Swartz - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aaron_Swartz"
+    },
+    {
+      "title": "Report to the President: MIT and the Prosecution of Aaron Swartz (FAQ)",
+      "url": "https://swartz-report.mit.edu/faq.html"
+    },
+    {
+      "title": "Reddit-connected activist indicted in MIT theft - NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/reddit-connected-activist-indicted-mit-theft-flna122023"
+    },
+    {
+      "title": "RSS Creator and Reddit cofounder Aaron Swartz dead at 26 - Harvard Magazine",
+      "url": "https://www.harvardmagazine.com/2013/01/rss-creator-aaron-swartz-dead-at-26"
+    },
+    {
+      "title": "Aaron Swartz, internet activist, Reddit cofounder, RSS co-author, dead at 26 - Fast Company",
+      "url": "https://www.fastcompany.com/3004747/aaron-swartz-internet-activist-reddit-cofounder-rss-co-author-dead-26"
+    },
+    {
+      "title": "Aaron Swartz Inductee Biography - Internet Hall of Fame",
+      "url": "https://www.internethalloffame.org/inductee/aaron-swartz/"
+    },
+    {
+      "title": "Aaron Swartz, CFAA: A year after Aaron Swartz's death, the Computer Fraud and Abuse Act remains unchanged - Slate",
+      "url": "https://slate.com/news-and-politics/2014/01/aaron-swartz-cfaa-a-year-after-aaron-swartz-s-death-the-computer-fraud-and-abuse-act-remains-unchanged.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 7,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -7,7 +7,16 @@
   "born": "1983",
   "died": null,
   "era": "2000s-Present",
-  "tags": ["chrome", "browser-security", "https", "google", "project-zero", "vulnerability-research", "bug-bounty", "diversity-in-security"],
+  "tags": [
+    "chrome",
+    "browser-security",
+    "https",
+    "google",
+    "project-zero",
+    "vulnerability-research",
+    "bug-bounty",
+    "diversity-in-security"
+  ],
   "summary": "Parisa Tabriz is an American computer security engineer and executive at Google, widely known by her self-adopted title \"Security Princess,\" who rose from a security engineering role in 2007 to Vice President and General Manager of Google Chrome.",
   "whyThisMatters": "Tabriz led the security engineering effort behind Google Chrome, one of the world's most widely used web browsers, and drove a multi-year push that shifted the web from majority-unencrypted HTTP traffic toward default HTTPS. She also oversaw Project Zero, Google's team dedicated to finding zero-day vulnerabilities across the software industry, giving her direct influence over how major vendors respond to critical security flaws. Her visibility as a woman in a senior technical security leadership role, combined with her public advocacy work, has also made her a notable figure in efforts to broaden participation in the cybersecurity field.",
   "knownFor": [
@@ -22,15 +31,42 @@
     "overview": "<h2>Background</h2><p>Parisa Tabriz was born in 1983 and grew up in the Chicago suburbs, the child of an Iranian-American father who worked as a physician and a Polish-American mother who worked as a nurse. She had limited exposure to computers as a child and initially enrolled at the University of Illinois at Urbana-Champaign intending to study a different engineering discipline before becoming drawn to computer science. She went on to complete both a Bachelor of Science and a Master of Science in Computer Science at the university, conducting research in wireless security and privacy-enhancing technologies under advisor Nikita Borisov. According to her own accounts, her interest in security was sharpened after a personal website she built was compromised while she was a student, which led her toward campus security groups and informal, peer-driven learning rather than dedicated coursework, since formal security classes were not widely available at the time.</p><h2>Joining Google</h2><p>Tabriz interned with Google's security team while still in college and joined the company as a full-time software engineer shortly after graduating in 2007. In her early years at Google she worked as part of a security team focused on hardening the company's products, reviewing the security of newly acquired companies and technology stacks, and helping find and close vulnerabilities across dozens of Google's web applications. She has described this period as functioning like an internal \"hired hacker,\" tasked with breaking things before external attackers could.</p><h2>Leading Chrome Security</h2><p>In 2013, Tabriz took on responsibility for security engineering within Google Chrome, the company's web browser project. Under her leadership, the Chrome security team grew substantially, and she became a prominent public advocate for encrypting web traffic by default. She presented on the topic at the Chrome Dev Summit in 2013 and continued to campaign publicly for broader adoption of HTTPS, including public opposition to government efforts to weaken or intercept encrypted web connections. Industry-wide HTTPS adoption rose markedly during this period, a shift that Chrome's policies and user-interface warnings for unencrypted sites are widely credited with accelerating.</p><h2>Project Zero and Broader Security Leadership</h2><p>In 2016, Tabriz took over leadership of Project Zero, the Google security research team dedicated to discovering and reporting zero-day vulnerabilities in software across the industry, not limited to Google's own products. The team's public disclosure policies and technical write-ups have made it an influential and sometimes controversial force in how software vendors are pressured to patch serious vulnerabilities. Tabriz has overseen this work alongside her Chrome responsibilities, positioning her at the intersection of browser engineering and broader industry vulnerability research.</p><h2>Executive Leadership of Chrome</h2><p>In 2020, Tabriz became head of Product and Engineering for Google Chrome, extending her responsibilities beyond security into the browser's overall direction. In 2025, she was promoted to Vice President of the Chrome division, formalizing her role leading one of the most widely used pieces of consumer software in the world. Over the course of her career at Google she progressed from an individual contributor to managing security and engineering teams that grew from a handful of people to several hundred.</p><h2>The \"Security Princess\" Title and Public Advocacy</h2><p>Tabriz adopted the semi-official title \"Security Princess\" for a business card ahead of a conference appearance in Tokyo, finding it more memorable and less tedious than a conventional title like \"Information Security Engineer,\" and appreciating its self-aware, ironic tone. The name stuck and became closely associated with her public persona in media coverage and conference appearances. She has also been an active advocate for diversity in the security field, co-founding the OURSA (Our Security Advocates) conference in 2018 as a response to concerns about the underrepresentation of women and other groups among speakers at mainstream security conferences.</p><h2>Recognition</h2><p>Tabriz has received public recognition for her work, including being named to Forbes' \"30 Under 30\" list in technology in 2012, Wired's list of 20 tech visionaries in 2017, and Fortune's \"40 Under 40\" list in 2018. She has spoken at numerous industry conferences, including Black Hat, and has been a recurring subject of media profiles focused on both her technical security work and her role as a woman in senior technology leadership.</p>"
   },
   "timeline": [
-    { "date": "1983", "event": "Born in the Chicago, Illinois area to an Iranian-American father and Polish-American mother." },
-    { "date": "2007", "event": "Joined Google as a software engineer on the company's security team after a summer internship and graduating from the University of Illinois at Urbana-Champaign." },
-    { "date": "2012", "event": "Named to Forbes' '30 Under 30' list in technology." },
-    { "date": "2013", "event": "Took over responsibility for Google Chrome's security engineering team and publicly presented on Chrome's push toward HTTPS at the Chrome Dev Summit." },
-    { "date": "2016", "event": "Assumed leadership of Project Zero, Google's zero-day vulnerability research team." },
-    { "date": "2017", "event": "Named one of Wired's 20 tech visionaries." },
-    { "date": "2018", "event": "Co-founded the OURSA (Our Security Advocates) security conference and was named to Fortune's '40 Under 40' list." },
-    { "date": "2020", "event": "Became head of Product and Engineering for Google Chrome." },
-    { "date": "2025", "event": "Promoted to Vice President of the Chrome division at Google." }
+    {
+      "date": "1983",
+      "event": "Born in the Chicago, Illinois area to an Iranian-American father and Polish-American mother."
+    },
+    {
+      "date": "2007",
+      "event": "Joined Google as a software engineer on the company's security team after a summer internship and graduating from the University of Illinois at Urbana-Champaign."
+    },
+    {
+      "date": "2012",
+      "event": "Named to Forbes' '30 Under 30' list in technology."
+    },
+    {
+      "date": "2013",
+      "event": "Took over responsibility for Google Chrome's security engineering team and publicly presented on Chrome's push toward HTTPS at the Chrome Dev Summit."
+    },
+    {
+      "date": "2016",
+      "event": "Assumed leadership of Project Zero, Google's zero-day vulnerability research team."
+    },
+    {
+      "date": "2017",
+      "event": "Named one of Wired's 20 tech visionaries."
+    },
+    {
+      "date": "2018",
+      "event": "Co-founded the OURSA (Our Security Advocates) security conference and was named to Fortune's '40 Under 40' list."
+    },
+    {
+      "date": "2020",
+      "event": "Became head of Product and Engineering for Google Chrome."
+    },
+    {
+      "date": "2025",
+      "event": "Promoted to Vice President of the Chrome division at Google."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,16 +74,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Parisa Tabriz - Wikipedia", "url": "https://en.wikipedia.org/wiki/Parisa_Tabriz" },
-    { "title": "Google's security princess talks cybersecurity - Opensource.com", "url": "https://opensource.com/life/16/6/interview-parisa-tabriz-google" },
-    { "title": "Parisa Tabriz - Official Profile - Google Research", "url": "https://research.google/people/author36241/" },
-    { "title": "Parisa Tabriz. Security Princess at Google | 10 Questions - Medium", "url": "https://medium.com/women-of-silicon-valley/parisa-tabriz-82e268780df" }
+    {
+      "title": "Parisa Tabriz - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Parisa_Tabriz"
+    },
+    {
+      "title": "Google's security princess talks cybersecurity - Opensource.com",
+      "url": "https://opensource.com/life/16/6/interview-parisa-tabriz-google"
+    },
+    {
+      "title": "Parisa Tabriz - Official Profile - Google Research",
+      "url": "https://research.google/people/author36241/"
+    },
+    {
+      "title": "Parisa Tabriz. Security Princess at Google | 10 Questions - Medium",
+      "url": "https://medium.com/women-of-silicon-valley/parisa-tabriz-82e268780df"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

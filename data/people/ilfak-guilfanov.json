@@ -1,0 +1,76 @@
+{
+  "id": "ilfak-guilfanov",
+  "type": "person",
+  "title": "Ilfak Guilfanov",
+  "slug": "ilfak-guilfanov",
+  "name": "Ilfak Guilfanov",
+  "born": 1966,
+  "died": null,
+  "era": "1990s-present",
+  "tags": [
+    "ida-pro",
+    "reverse-engineering",
+    "disassembler",
+    "hex-rays",
+    "wmf-patch"
+  ],
+  "summary": "Software developer who created the IDA disassembler and the Hex-Rays decompiler, standard tools of reverse engineering.",
+  "whyThisMatters": "IDA defined how a generation of researchers read binaries; Guilfanov's 2005 unofficial WMF patch also set a precedent for third-party emergency fixes.",
+  "knownFor": [
+    "IDA (Interactive Disassembler)",
+    "Hex-Rays decompiler",
+    "Unofficial WMF patch (2005)"
+  ],
+  "sections": {
+    "overview": "<p>Ilfak Guilfanov is a Tatar-born software developer. In 1991 he began writing the Interactive Disassembler, IDA, which combined automatic analysis with interactive annotation and became the dominant tool for binary reverse engineering in malware analysis, vulnerability research, and software security.</p><h2>Hex-Rays</h2><p>In 2005 Guilfanov founded Hex-Rays in Belgium to develop IDA and, from 2007, the Hex-Rays decompiler, which reconstructs C-like pseudocode from machine code.</p><h2>The WMF patch</h2><p>On 31 December 2005, while the Windows Metafile vulnerability was being actively exploited and no vendor fix existed, Guilfanov published an unofficial patch. Security organizations including SANS recommended it until Microsoft shipped its own update on 5 January 2006, an unusual case of a third-party patch gaining broad endorsement.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1966-03-15",
+      "event": "Born in Tatarstan."
+    },
+    {
+      "date": "1991",
+      "event": "Begins developing the Interactive Disassembler (IDA)."
+    },
+    {
+      "date": "2005",
+      "event": "Founds Hex-Rays."
+    },
+    {
+      "date": "2005-12-31",
+      "event": "Releases an unofficial patch for the Windows WMF vulnerability."
+    },
+    {
+      "date": "2007",
+      "event": "Releases the Hex-Rays decompiler."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Hex-Rays: about",
+      "url": "https://hex-rays.com/about-us/"
+    },
+    {
+      "title": "SANS ISC: 'WMF: patches, workarounds' (January 2006)",
+      "url": "https://isc.sans.edu/diary/1010"
+    },
+    {
+      "title": "Wikipedia: Ilfak Guilfanov",
+      "url": "https://en.wikipedia.org/wiki/Ilfak_Guilfanov"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

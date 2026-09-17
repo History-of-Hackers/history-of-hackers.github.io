@@ -7,25 +7,70 @@
   "born": null,
   "died": 2014,
   "era": "1960s-2014",
-  "tags": ["computer-security", "penetration-testing", "security-evaluation", "reference-monitor", "research"],
+  "tags": [
+    "computer-security",
+    "penetration-testing",
+    "security-evaluation",
+    "reference-monitor",
+    "research"
+  ],
   "summary": "Computer-security pioneer whose 1972 planning study formalized malicious-user threats, penetration techniques, and engineering requirements for secure multi-user systems.",
   "whyThisMatters": "The Anderson Report is a foundational early computer-security document. Its explicit treatment of hostile penetration and of testing whether a system can resist it helped shape the intellectual lineage of modern security evaluation and penetration testing.",
-  "knownFor": ["Computer Security Technology Planning Study (1972)", "Early penetration-analysis methodology", "Security evaluation and monitoring"],
+  "knownFor": [
+    "Computer Security Technology Planning Study (1972)",
+    "Early penetration-analysis methodology",
+    "Security evaluation and monitoring"
+  ],
   "sections": {
     "overview": "<p>James P. Anderson was an early computer-security researcher and consultant. He led the <em>Computer Security Technology Planning Study</em> for the U.S. Air Force, published in 1972 and commonly called the Anderson Report.</p><h2>The Anderson Report</h2><p>The report examined the security problems created by shared, multi-user computing. It treated a malicious user as a central design threat, described hostile penetration of systems, and set out research and engineering work needed for more secure computing.</p><p>That makes Anderson an important precursor to modern penetration testing: the report did not use today's commercial vocabulary or tooling, but it placed deliberate attempts to penetrate a system within a systematic security-assurance program.</p><h2>Enduring influence</h2><p>The study also discussed multilevel security, security kernels, certification techniques, and security surveillance. Those subjects became durable parts of computer-security engineering and evaluation. Anderson should therefore be described as a foundational pioneer of computer security and penetration analysis, rather than assigned an unqualified single-person title for a field developed by many researchers and practitioners.</p><h2>In memoriam</h2><p>Anderson's work remains a point of reference for the idea that systems must be tested against capable, intentional adversaries—not merely checked for accidental failures.</p>"
   },
   "timeline": [
-    {"date": "1967", "event": "The U.S. Defense Science Board convenes a task force on computer security, the policy context for the early field Anderson later helped develop."},
-    {"date": "1972", "event": "Authors the Computer Security Technology Planning Study for the U.S. Air Force, analyzing malicious threats, penetration, security kernels, and evaluation."},
-    {"date": "1980", "event": "Publishes work on computer-security threat monitoring and surveillance for a U.S. government client."},
-    {"date": "2014", "event": "Dies; Purdue's CERIAS records his passing as that of a computer-security pioneer."}
+    {
+      "date": "1967",
+      "event": "The U.S. Defense Science Board convenes a task force on computer security, the policy context for the early field Anderson later helped develop."
+    },
+    {
+      "date": "1972",
+      "event": "Authors the Computer Security Technology Planning Study for the U.S. Air Force, analyzing malicious threats, penetration, security kernels, and evaluation."
+    },
+    {
+      "date": "1980",
+      "event": "Publishes work on computer-security threat monitoring and surveillance for a U.S. government client."
+    },
+    {
+      "date": "2014",
+      "event": "Dies; Purdue's CERIAS records his passing as that of a computer-security pioneer."
+    }
   ],
-  "relatedPeople": [], "relatedGroups": [], "relatedTools": [], "relatedVulnerabilities": [], "relatedEvents": [],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
   "sources": [
-    {"title": "NIST: Computer Security Technology Planning Study, Volume II (1972)", "url": "https://csrc.nist.gov/files/pubs/conference/1998/10/08/proceedings-of-the-21st-nissc-1998/final/docs/early-cs-papers/ande72.pdf"},
-    {"title": "UC Davis: Historical Computer Security Papers", "url": "https://seclab.cs.ucdavis.edu/projects/history/CD/"},
-    {"title": "Purdue CERIAS: Passing of a Pioneer", "url": "https://www.cerias.purdue.edu/site/blog/post/passing-of-a-pioneer"},
-    {"title": "Elsevier: Information Security in a Multi-User Computer Environment", "url": "https://doi.org/10.1016/S0065-2458(08)60506-9"}
+    {
+      "title": "NIST: Computer Security Technology Planning Study, Volume II (1972)",
+      "url": "https://csrc.nist.gov/files/pubs/conference/1998/10/08/proceedings-of-the-21st-nissc-1998/final/docs/early-cs-papers/ande72.pdf"
+    },
+    {
+      "title": "UC Davis: Historical Computer Security Papers",
+      "url": "https://seclab.cs.ucdavis.edu/projects/history/CD/"
+    },
+    {
+      "title": "Purdue CERIAS: Passing of a Pioneer",
+      "url": "https://www.cerias.purdue.edu/site/blog/post/passing-of-a-pioneer"
+    },
+    {
+      "title": "Elsevier: Information Security in a Multi-User Computer Environment",
+      "url": "https://doi.org/10.1016/S0065-2458(08)60506-9"
+    }
   ],
-  "editorial": {"verified": true, "sourcesCount": 4, "lastReviewed": "2026-09-02", "reviewStatus": "PUBLISHED", "reviewer": "codex-2026-09-02"}
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
 }

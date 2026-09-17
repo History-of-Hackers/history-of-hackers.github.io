@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["application security", "database security", "sql injection", "web application firewall", "imperva", "israel", "security research"],
+  "tags": [
+    "application security",
+    "database security",
+    "sql injection",
+    "web application firewall",
+    "imperva",
+    "israel",
+    "security research"
+  ],
   "summary": "Amichai Shulman is an Israeli computer security researcher and entrepreneur, best known as co-founder and longtime chief technology officer of Imperva, a data and application security company he helped found in 2002.",
   "whyThisMatters": "Shulman helped build one of the first commercially successful web application and database firewall companies, and under his direction Imperva's research arm publicized numerous vulnerabilities in major commercial database and web application products from vendors such as Oracle, IBM, and Microsoft. His early published research on SQL injection techniques, including blind SQL injection and signature-evasion methods, contributed to how the security industry came to understand and defend against database-layer attacks. He later co-founded Nokod Security, extending his focus to the emerging risks of low-code/no-code and RPA application development.",
   "knownFor": [
@@ -22,12 +30,30 @@
     "overview": "<h2>Background</h2><p>Amichai Shulman is an Israeli cybersecurity researcher and entrepreneur specializing in application and database security. He holds a B.Sc. and a Master's degree in Computer Science from the Technion - Israel Institute of Technology, and served in the Israel Defense Forces, where he led a team developing computer attack and defense techniques. Before entering the commercial security industry, he founded Edvice Security Services Ltd., a consulting firm that provided web and database penetration testing, security strategy, and implementation services to major financial institutions.</p><h2>Founding Imperva</h2><p>In 2002, Shulman co-founded the company that would become Imperva together with Shlomo Kramer and Mickey Boodaei. The company initially operated under the name WebCohort before rebranding as Imperva in 2004. In 2003, it shipped its first product, SecureSphere, a web application and database firewall designed to protect enterprise data from attack. Shulman served as Imperva's chief technology officer and chief scientist for more than fifteen years, during which the company grew into a publicly traded data and application security vendor.</p><h2>Research and the Application Defense Center</h2><p>At Imperva, Shulman led the Application Defense Center (ADC), the company's research organization focused on identifying vulnerabilities and threats affecting web applications and databases. Under his direction, the ADC was credited with discovering and disclosing serious security flaws in commercial products from vendors including Oracle, IBM, and Microsoft. Earlier in his career, together with Ofer Maor, Shulman published influential research on SQL injection techniques, including a paper on \"blind SQL injection\" in 2003 and later work analyzing methods attackers use to evade SQL injection detection signatures. This research helped shape industry understanding of database-layer attack techniques at a time when SQL injection was becoming one of the most common and damaging web application vulnerabilities.</p><h2>Public and Industry Role</h2><p>Shulman became a frequent speaker at major security conferences, including Black Hat, RSA Conference, and OWASP AppSec events, and was regularly cited by media outlets as an expert on data breaches and security mitigation strategies. He has also served as a mentor and instructor for information security students at the Technion, and was named a fellow of the Ponemon Institute, a research organization focused on privacy, data protection, and information security policy.</p><h2>Later Ventures</h2><p>After leaving Imperva, Shulman continued to work as an advisor and investor in the cybersecurity startup space. In 2023, he co-founded Nokod Security together with Yair Finzi, serving as the company's chief technology officer. Nokod focuses on identifying security and compliance vulnerabilities in applications built with low-code/no-code platforms and robotic process automation (RPA) tools, an area of growing concern as citizen development tools proliferate in enterprises. The company raised an $8 million seed round in June 2023 from investors including Acrew Capital, Meron Capital, and Flint Capital.</p><h2>Significance</h2><p>Shulman's career spans two distinct eras of application security: the early-2000s emergence of web application and database firewalls as a commercial product category, and the more recent challenge of securing low-code/no-code development. As a co-founder of one of the first prominent web application firewall vendors and a published researcher on SQL injection, he is recognized as a contributor to the foundational practices of enterprise application and database security.</p>"
   },
   "timeline": [
-    { "date": "2002", "event": "Co-founded the company later known as Imperva (initially named WebCohort) alongside Shlomo Kramer and Mickey Boodaei." },
-    { "date": "2003", "event": "Published research with Ofer Maor on blind SQL injection techniques; the company shipped its first product, SecureSphere." },
-    { "date": "2004", "event": "WebCohort rebranded as Imperva; published further research on SQL injection signature evasion." },
-    { "date": "2002-2017", "event": "Served as co-founder, CTO, and chief scientist of Imperva, leading the Application Defense Center research team." },
-    { "date": "2023", "event": "Co-founded Nokod Security with Yair Finzi, serving as CTO, focused on securing low-code/no-code and RPA applications." },
-    { "date": "2023-06", "event": "Nokod Security announced an $8 million seed funding round." }
+    {
+      "date": "2002",
+      "event": "Co-founded the company later known as Imperva (initially named WebCohort) alongside Shlomo Kramer and Mickey Boodaei."
+    },
+    {
+      "date": "2003",
+      "event": "Published research with Ofer Maor on blind SQL injection techniques; the company shipped its first product, SecureSphere."
+    },
+    {
+      "date": "2004",
+      "event": "WebCohort rebranded as Imperva; published further research on SQL injection signature evasion."
+    },
+    {
+      "date": "2002-2017",
+      "event": "Served as co-founder, CTO, and chief scientist of Imperva, leading the Application Defense Center research team."
+    },
+    {
+      "date": "2023",
+      "event": "Co-founded Nokod Security with Yair Finzi, serving as CTO, focused on securing low-code/no-code and RPA applications."
+    },
+    {
+      "date": "2023-06",
+      "event": "Nokod Security announced an $8 million seed funding round."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -35,17 +61,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Amichai Shulman | Ponemon Institute", "url": "https://www.ponemon.org/fellows/amichai-shulman.html" },
-    { "title": "Imperva - Wikipedia", "url": "https://en.wikipedia.org/wiki/Imperva" },
-    { "title": "Nokod Raises $8M Seed Round From Seasoned Cybersecurity Investors to Enhance Low-Code/No-Code App Security - PR Newswire", "url": "https://www.prnewswire.com/il/news-releases/nokod-raises-8m-seed-round-from-seasoned-cybersecurity-investors-to-enhance-low-codeno-code-app-security-301867220.html" },
-    { "title": "Amichai Shulman | Dark Reading", "url": "https://www.darkreading.com/author/amichai-shulman" },
-    { "title": "Amichai Shulman | AppSecUSA 2012", "url": "https://2012.appsecusa.org/speakers/amichai-shulman/index.html" }
+    {
+      "title": "Amichai Shulman | Ponemon Institute",
+      "url": "https://www.ponemon.org/fellows/amichai-shulman.html"
+    },
+    {
+      "title": "Imperva - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Imperva"
+    },
+    {
+      "title": "Nokod Raises $8M Seed Round From Seasoned Cybersecurity Investors to Enhance Low-Code/No-Code App Security - PR Newswire",
+      "url": "https://www.prnewswire.com/il/news-releases/nokod-raises-8m-seed-round-from-seasoned-cybersecurity-investors-to-enhance-low-codeno-code-app-security-301867220.html"
+    },
+    {
+      "title": "Amichai Shulman | Dark Reading",
+      "url": "https://www.darkreading.com/author/amichai-shulman"
+    },
+    {
+      "title": "Amichai Shulman | AppSecUSA 2012",
+      "url": "https://2012.appsecusa.org/speakers/amichai-shulman/index.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

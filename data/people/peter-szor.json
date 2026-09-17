@@ -7,7 +7,15 @@
   "born": "1970-07-17",
   "died": "2013-11-12",
   "era": "1990s-2010s",
-  "tags": ["antivirus", "malware research", "computer viruses", "symantec", "mcafee", "hungary", "security research"],
+  "tags": [
+    "antivirus",
+    "malware research",
+    "computer viruses",
+    "symantec",
+    "mcafee",
+    "hungary",
+    "security research"
+  ],
   "summary": "Peter Szor (Hungarian: Peter Szor) was a Hungarian-American computer virus and antivirus researcher, entrepreneur, and author, best known for his book The Art of Computer Virus Research and Defense and for his long career designing antivirus detection technology at Symantec and, later, McAfee.",
   "whyThisMatters": "Szor's book The Art of Computer Virus Research and Defense (2005) became a standard technical reference for antivirus engineers and malware analysts, systematizing decades of virus classification, detection, and defense techniques into a single authoritative work. As a lead architect of Symantec's Norton AntiVirus scanning engine for over a decade, his engineering work shaped detection technology used by hundreds of millions of computers. Following his death in 2013, Virus Bulletin created the annual Peter Szor Award in his honor, recognizing the best technical security research of the year, cementing his influence on the antivirus research community.",
   "knownFor": [
@@ -22,14 +30,38 @@
     "overview": "<h2>Background</h2><p>Peter Szor (Hungarian: Peter Szor) was born on July 17, 1970, in Balatonfured, Veszprem County, Hungary. He was a graduate of the University of Pannonia. Szor developed an interest in computer viruses around 1990, at a time when the personal computer virus phenomenon was still in its early years and antivirus software was a nascent industry.</p><h2>Early career: Pasteur and F-Secure</h2><p>From 1990 to 1995, Szor wrote and maintained his own antivirus program called Pasteur, distributed in Hungary, making him one of the early independent antivirus developers working outside the established commercial vendors of the era. He subsequently worked as a lead virus researcher and antivirus engine developer for F-Secure (then known as Data Fellows), a Finnish security company, further building his expertise in virus detection and disassembly techniques.</p><h2>Symantec Security Response</h2><p>In 1999, Szor joined Symantec, where he became a security architect within Symantec Security Response and worked on designing and building antivirus detection technologies used in the Norton AntiVirus product line. Over more than a decade at Symantec, he was recognized as the company's chief antivirus researcher, a role in which he studied emerging malware techniques including polymorphic and metamorphic viruses, worm propagation methods, and code-emulation-based detection. He was a frequent speaker at industry and academic security conferences, including Virus Bulletin, EICAR, ICSA, RSA Conference, and the USENIX Security Symposium.</p><h2>The Art of Computer Virus Research and Defense</h2><p>In 2005, Szor published The Art of Computer Virus Research and Defense through Symantec Press/Addison-Wesley, a comprehensive technical reference covering the history of computer viruses, virus classification and behavior, antivirus detection algorithms, and worm-blocking and defense strategies. The book was written specifically for security professionals and antivirus engineers rather than a general audience, and it became widely regarded within the industry as one of the most thorough technical treatments of malware analysis published to that point.</p><h2>McAfee and later career</h2><p>Szor left Symantec and, from 2011 until his death, worked at McAfee as Senior Director of Malware Research, where he continued research into new approaches for detecting and stopping malicious software. During this period he also served as an advisory board member for Virus Bulletin, an industry publication and conference focused on malware and antivirus research.</p><h2>Death and legacy</h2><p>Peter Szor died on November 12, 2013, in California at the age of 43. In May 2014, Virus Bulletin established the Peter Szor Award, given annually to recognize the best piece of technical security research published that year, an honor that has been awarded to researchers and teams from antivirus and security firms including Kaspersky Lab. The award, along with the continued citation of his 2005 book in malware-analysis curricula and antivirus engineering literature, reflects his lasting influence on the technical practice of virus research and defense.</p>"
   },
   "timeline": [
-    { "date": "1970-07-17", "event": "Born in Balatonfured, Veszprem County, Hungary." },
-    { "date": "1990", "event": "Begins writing and maintaining his own antivirus program, Pasteur, in Hungary." },
-    { "date": "1995", "event": "Ends independent development of Pasteur; goes on to work as a virus researcher and engine developer at F-Secure (Data Fellows)." },
-    { "date": "1999", "event": "Joins Symantec, working on antivirus detection technology for the Norton AntiVirus product line." },
-    { "date": "2005", "event": "Publishes The Art of Computer Virus Research and Defense through Symantec Press/Addison-Wesley." },
-    { "date": "2011", "event": "Leaves Symantec to join McAfee as Senior Director of Malware Research." },
-    { "date": "2013-11-12", "event": "Dies in California at age 43." },
-    { "date": "2014-05", "event": "Virus Bulletin establishes the annual Peter Szor Award for outstanding technical security research in his memory." }
+    {
+      "date": "1970-07-17",
+      "event": "Born in Balatonfured, Veszprem County, Hungary."
+    },
+    {
+      "date": "1990",
+      "event": "Begins writing and maintaining his own antivirus program, Pasteur, in Hungary."
+    },
+    {
+      "date": "1995",
+      "event": "Ends independent development of Pasteur; goes on to work as a virus researcher and engine developer at F-Secure (Data Fellows)."
+    },
+    {
+      "date": "1999",
+      "event": "Joins Symantec, working on antivirus detection technology for the Norton AntiVirus product line."
+    },
+    {
+      "date": "2005",
+      "event": "Publishes The Art of Computer Virus Research and Defense through Symantec Press/Addison-Wesley."
+    },
+    {
+      "date": "2011",
+      "event": "Leaves Symantec to join McAfee as Senior Director of Malware Research."
+    },
+    {
+      "date": "2013-11-12",
+      "event": "Dies in California at age 43."
+    },
+    {
+      "date": "2014-05",
+      "event": "Virus Bulletin establishes the annual Peter Szor Award for outstanding technical security research in his memory."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,17 +69,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Peter Szor - Wikipedia", "url": "https://en.wikipedia.org/wiki/P%C3%A9ter_Sz%C5%91r" },
-    { "title": "Peter Szor - Wikidata", "url": "https://www.wikidata.org/wiki/Q1314262" },
-    { "title": "The Art of Computer Virus Research and Defense - Help Net Security", "url": "https://www.helpnetsecurity.com/2005/04/18/the-art-of-computer-virus-research-and-defense/" },
-    { "title": "Art of Computer Virus Research and Defense, The (O'Reilly)", "url": "https://www.oreilly.com/library/view/art-of-computer/0321304543/" },
-    { "title": "Kaspersky Lab wins Peter Szor Award - Budapest Business Journal", "url": "https://bbj.hu/budapest/culture/awards/kaspersky-lab-wins-peter-szor-award/" }
+    {
+      "title": "Peter Szor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/P%C3%A9ter_Sz%C5%91r"
+    },
+    {
+      "title": "Peter Szor - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1314262"
+    },
+    {
+      "title": "The Art of Computer Virus Research and Defense - Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2005/04/18/the-art-of-computer-virus-research-and-defense/"
+    },
+    {
+      "title": "Art of Computer Virus Research and Defense, The (O'Reilly)",
+      "url": "https://www.oreilly.com/library/view/art-of-computer/0321304543/"
+    },
+    {
+      "title": "Kaspersky Lab wins Peter Szor Award - Budapest Business Journal",
+      "url": "https://bbj.hu/budapest/culture/awards/kaspersky-lab-wins-peter-szor-award/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

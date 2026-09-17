@@ -7,26 +7,75 @@
   "born": 1912,
   "died": 1954,
   "era": "1930s-1954",
-  "tags": ["computing", "cryptanalysis", "codebreaking", "mathematics", "academic-research"],
+  "tags": [
+    "computing",
+    "cryptanalysis",
+    "codebreaking",
+    "mathematics",
+    "academic-research"
+  ],
   "summary": "British mathematician, cryptanalyst, and computing pioneer whose work on computability and Enigma cryptanalysis became foundational to modern computing and security history.",
   "whyThisMatters": "Turing's 1936 account of a universal computing machine established a central theoretical model of computation; at Bletchley Park, his work on Bombe methods helped make systematic cryptanalysis operational. He belongs in hacker history as a foundational problem-solver and security pioneer, not as a retroactively simplified label.",
-  "knownFor": ["On Computable Numbers (1936)", "Bletchley Park and Enigma cryptanalysis", "Bombe design", "Foundations of computer science"],
+  "knownFor": [
+    "On Computable Numbers (1936)",
+    "Bletchley Park and Enigma cryptanalysis",
+    "Bombe design",
+    "Foundations of computer science"
+  ],
   "sections": {
     "overview": "<p>Alan Mathison Turing was a British mathematician, logician, cryptanalyst, and pioneer of computer science. His 1936 paper, <em>On Computable Numbers, with an Application to the Entscheidungsproblem</em>, described an abstract machine capable of carrying out logical operations—a foundational model for digital computation.</p><h2>Cryptanalysis at Bletchley Park</h2><p>Turing joined the Government Code and Cypher School before the Second World War and reported to Bletchley Park in September 1939. Building on Polish cryptanalytic work, he helped design the Bombe method used against German Enigma traffic and led Hut 8's naval Enigma work.</p><h2>Computing and security history</h2><p>Turing's legacy connects theory, engineering, and cryptanalysis: computing machines make security systems possible, while cryptanalysis tests the assumptions on which those systems depend. It is in that broad, historically grounded sense that he is often included among the great hackers and security thinkers.</p><h2>In memoriam</h2><p>Turing died in 1954 after being convicted under laws that criminalized homosexual activity. The United Kingdom granted him a posthumous royal pardon in 2013; his scientific and wartime contributions endure.</p>"
   },
   "timeline": [
-    {"date": "1912-06-23", "event": "Born in London, England."},
-    {"date": "1936", "event": "Publishes On Computable Numbers, introducing the abstract machine now called a Turing machine."},
-    {"date": "1939", "event": "Begins work at Bletchley Park on Enigma cryptanalysis."},
-    {"date": "1940", "event": "Bombe methods are in operational use against Enigma-encrypted messages."},
-    {"date": "1954", "event": "Dies in Wilmslow, England."},
-    {"date": "2013", "event": "Receives a posthumous royal pardon in the United Kingdom."}
+    {
+      "date": "1912-06-23",
+      "event": "Born in London, England."
+    },
+    {
+      "date": "1936",
+      "event": "Publishes On Computable Numbers, introducing the abstract machine now called a Turing machine."
+    },
+    {
+      "date": "1939",
+      "event": "Begins work at Bletchley Park on Enigma cryptanalysis."
+    },
+    {
+      "date": "1940",
+      "event": "Bombe methods are in operational use against Enigma-encrypted messages."
+    },
+    {
+      "date": "1954",
+      "event": "Dies in Wilmslow, England."
+    },
+    {
+      "date": "2013",
+      "event": "Receives a posthumous royal pardon in the United Kingdom."
+    }
   ],
-  "relatedPeople": [], "relatedGroups": [], "relatedTools": [], "relatedVulnerabilities": [], "relatedEvents": [],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
   "sources": [
-    {"title": "Bletchley Park: Alan Turing biography", "url": "https://bletchleypark.org.uk/wp-content/uploads/record_attachments/1800.pdf"},
-    {"title": "The Turing Digital Archive: Early life", "url": "https://www.turing.org.uk/scrapbook/early.html"},
-    {"title": "UK Government: Royal pardon for Dr Alan Turing", "url": "https://www.gov.uk/government/news/royal-pardon-for-ww2-code-breaker-dr-alan-turing"}
+    {
+      "title": "Bletchley Park: Alan Turing biography",
+      "url": "https://bletchleypark.org.uk/wp-content/uploads/record_attachments/1800.pdf"
+    },
+    {
+      "title": "The Turing Digital Archive: Early life",
+      "url": "https://www.turing.org.uk/scrapbook/early.html"
+    },
+    {
+      "title": "UK Government: Royal pardon for Dr Alan Turing",
+      "url": "https://www.gov.uk/government/news/royal-pardon-for-ww2-code-breaker-dr-alan-turing"
+    }
   ],
-  "editorial": {"verified": true, "sourcesCount": 3, "lastReviewed": "2026-09-02", "reviewStatus": "PUBLISHED", "reviewer": "codex-2026-09-02"}
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
 }

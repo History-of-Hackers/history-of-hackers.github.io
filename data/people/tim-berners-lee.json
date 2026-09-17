@@ -1,0 +1,84 @@
+{
+  "id": "tim-berners-lee",
+  "type": "person",
+  "title": "Tim Berners-Lee",
+  "slug": "tim-berners-lee",
+  "name": "Tim Berners-Lee",
+  "born": 1955,
+  "died": null,
+  "era": "1980s-present",
+  "tags": [
+    "world-wide-web",
+    "http",
+    "html",
+    "w3c",
+    "cern"
+  ],
+  "summary": "British computer scientist who invented the World Wide Web at CERN in 1989 and founded the World Wide Web Consortium.",
+  "whyThisMatters": "HTTP, HTML, and the URL define the attack surface of the modern web; Berners-Lee designed all three.",
+  "knownFor": [
+    "Inventing the World Wide Web",
+    "Founding W3C",
+    "Turing Award (2016)"
+  ],
+  "sections": {
+    "overview": "<p>Sir Timothy John Berners-Lee is a British computer scientist. In March 1989, while working at CERN, he circulated <em>Information Management: A Proposal</em>, describing a hypertext system for sharing documents over the Internet. By the end of 1990 he had written the first web server, the first browser and editor (WorldWideWeb), and the initial versions of HTTP, HTML, and the URL scheme.</p><h2>An open web</h2><p>CERN released the underlying code into the public domain in April 1993, a decision that allowed the web to spread without licensing barriers. In 1994 Berners-Lee founded the World Wide Web Consortium at MIT to develop open standards for the web.</p><h2>Recognition and later work</h2><p>He was knighted in 2004 and received the ACM Turing Award in 2016. He co-founded the World Wide Web Foundation in 2009 and, through the Solid project, has advocated for users controlling their own data.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1955-06-08",
+      "event": "Born in London."
+    },
+    {
+      "date": "1989-03",
+      "event": "Circulates 'Information Management: A Proposal' at CERN."
+    },
+    {
+      "date": "1990-12",
+      "event": "First web server and browser run at CERN."
+    },
+    {
+      "date": "1993-04-30",
+      "event": "CERN places the web software in the public domain."
+    },
+    {
+      "date": "1994-10",
+      "event": "Founds the World Wide Web Consortium (W3C)."
+    },
+    {
+      "date": "2016",
+      "event": "Receives the ACM Turing Award."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "CERN: The birth of the Web",
+      "url": "https://home.cern/science/computing/birth-web"
+    },
+    {
+      "title": "W3C: Tim Berners-Lee",
+      "url": "https://www.w3.org/People/Berners-Lee/"
+    },
+    {
+      "title": "ACM A.M. Turing Award: Tim Berners-Lee",
+      "url": "https://amturing.acm.org/award_winners/berners-lee_8087960.cfm"
+    },
+    {
+      "title": "Wikipedia: Tim Berners-Lee",
+      "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

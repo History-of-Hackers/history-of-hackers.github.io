@@ -1,0 +1,72 @@
+{
+  "id": "wei-dai",
+  "type": "person",
+  "title": "Wei Dai",
+  "slug": "wei-dai",
+  "name": "Wei Dai",
+  "born": null,
+  "died": null,
+  "era": "1990s-present",
+  "tags": [
+    "cypherpunks",
+    "b-money",
+    "cryptography",
+    "crypto-plus-plus",
+    "bitcoin"
+  ],
+  "summary": "Computer engineer who proposed b-money in 1998 and created the Crypto++ cryptographic library.",
+  "whyThisMatters": "b-money described anonymous, distributed electronic cash a decade before Bitcoin, which cites it as its first reference.",
+  "knownFor": [
+    "b-money proposal (1998)",
+    "Crypto++ library",
+    "Cypherpunks participation"
+  ],
+  "sections": {
+    "overview": "<p>Wei Dai is a computer engineer and cryptographer. He created Crypto++, a free C++ library of cryptographic algorithms first released in 1995 and widely used in both open-source and commercial software.</p><h2>b-money</h2><p>In November 1998 Dai posted <em>b-money, an anonymous, distributed electronic cash system</em> to the cypherpunks mailing list. The proposal described participants maintaining a shared ledger of balances, money created by solving computational problems, and enforcement of contracts without a trusted authority. Satoshi Nakamoto's 2008 Bitcoin whitepaper lists b-money as its first reference, and the smallest unit of Ether is named the wei in Dai's honor.</p><h2>Other work</h2><p>Dai worked at Microsoft's cryptography research group, where he contributed to attacks on SSL/TLS in CBC mode, and has since written on decision theory and AI safety.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1995",
+      "event": "Releases the Crypto++ library."
+    },
+    {
+      "date": "1998-11",
+      "event": "Posts the b-money proposal to the cypherpunks mailing list."
+    },
+    {
+      "date": "2008-10-31",
+      "event": "b-money is cited as reference [1] in the Bitcoin whitepaper."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Wei Dai, 'b-money' (1998)",
+      "url": "http://www.weidai.com/bmoney.txt"
+    },
+    {
+      "title": "Crypto++ Library",
+      "url": "https://www.cryptopp.com/"
+    },
+    {
+      "title": "Satoshi Nakamoto, 'Bitcoin: A Peer-to-Peer Electronic Cash System'",
+      "url": "https://bitcoin.org/bitcoin.pdf"
+    },
+    {
+      "title": "Wikipedia: Wei Dai",
+      "url": "https://en.wikipedia.org/wiki/Wei_Dai"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

@@ -18,7 +18,7 @@
   "summary": "Bugtraq was the seminal full-disclosure security mailing list, founded in 1993 by Scott Chasin and moderated for years by Elias Levy (Aleph One), that became the de facto public venue for publishing and debating software vulnerabilities before passing through SecurityFocus and Symantec ownership, going dark around 2020-2021, and being reported as independently relaunched in 2026.",
   "whyThisMatters": "Bugtraq was the seminal full-disclosure security mailing list, founded in 1993 by Scott Chasin and moderated for years by Elias Levy (Aleph One), that became the de facto public venue for publishing and debating software vulnerabilities before passing through SecurityFocus and Symantec ownership, going dark around 2020-2021, and being reported as independently relaunched in 2026.",
   "sections": {
-    "overview": "<p>Bugtraq was founded on November 5, 1993, by Scott Chasin, created in response to what he and early subscribers saw as the failings of the existing Internet security infrastructure of the time, particularly the slow, filtered vulnerability-handling model used by CERT/CC. It quickly grew into the flagship venue of the emerging <strong>full-disclosure</strong> movement, operating on the policy of publishing vulnerabilities regardless of vendor response. On-topic traffic included new vulnerability write-ups, vendor security announcements, exploitation techniques, and fixes, open to researchers, sysadmins, and vendors alike.</p><h2>Origins and Growth</h2><p>The list moved to Brown University's NetSpace Project around 1995 and came under the stewardship of Elias Levy, known online as Aleph One, from June 14, 1996 until he stepped down on October 15, 2001. Levy later described the environment that shaped the list's mission in terms of vendors not producing patches on their own, leaving the list's focus on pushing fixes for software companies weren't otherwise fixing (this framing is a paraphrase reported secondhand rather than a verified verbatim quotation). Under his moderation Bugtraq became the internet's central clearinghouse for vulnerability disclosure, feeding what became the Bugtraq ID (BID) vulnerability database and, later, tens of thousands of cross-references in the CVE/NVD system. David Mirza Ahmad succeeded Levy as moderator and stepped down around February 23, 2006, with Symantec staff moderating afterward.</p><h2>Corporate Ownership and Decline</h2><p>In July 1999 the list became the property of SecurityFocus, the company Levy co-founded, which Symantec acquired in full on August 6, 2002 \u2014 a sale that critics said compromised the list's independent, adversarial spirit, and which contributed to the creation of a rival Full-Disclosure mailing list around 2002 as an alternative for people who felt Bugtraq had changed for the worse. Symantec's enterprise security business, including SecurityFocus, later passed to Broadcom (2019) and then to Accenture Security, which completed its acquisition on April 30, 2020.</p><h2>Shutdown and Reported Revival</h2><p>Symantec is reported to have stopped approving new posts to Bugtraq around February 24, 2020, and in January 2021 its owner announced the list's discontinuation, citing deprioritized resources; a possible reversal was floated shortly afterward, but the exact dates and sequence of these announcements are inconsistently reported across secondary sources and should be treated as approximate. The list remained largely dormant for several years. In early August 2026, security researcher Jonathan Brossard (\"endrazine\") \u2014 a long-established figure in offensive security research \u2014 was reported by Wikipedia's edit history, at least one security-news outlet, and wire syndication to have acquired the SecurityFocus/Bugtraq name and relaunched the list at DEF CON 34 in Las Vegas as an independently operated, community-driven platform, with a stated philosophy that the community, not the platform operator, decides what the list becomes. As of this writing, that relaunch has not been independently confirmed by primary security trade press and should be read as reported rather than fully verified.</p>"
+    "overview": "<p>Bugtraq was founded on November 5, 1993, by Scott Chasin, created in response to what he and early subscribers saw as the failings of the existing Internet security infrastructure of the time, particularly the slow, filtered vulnerability-handling model used by CERT/CC. It quickly grew into the flagship venue of the emerging <strong>full-disclosure</strong> movement, operating on the policy of publishing vulnerabilities regardless of vendor response. On-topic traffic included new vulnerability write-ups, vendor security announcements, exploitation techniques, and fixes, open to researchers, sysadmins, and vendors alike.</p><h2>Origins and Growth</h2><p>The list moved to Brown University's NetSpace Project around 1995 and came under the stewardship of Elias Levy, known online as Aleph One, from June 14, 1996 until he stepped down on October 15, 2001. Levy later described the environment that shaped the list's mission in terms of vendors not producing patches on their own, leaving the list's focus on pushing fixes for software companies weren't otherwise fixing (this framing is a paraphrase reported secondhand rather than a verified verbatim quotation). Under his moderation Bugtraq became the internet's central clearinghouse for vulnerability disclosure, feeding what became the Bugtraq ID (BID) vulnerability database and, later, tens of thousands of cross-references in the CVE/NVD system. David Mirza Ahmad succeeded Levy as moderator and stepped down around February 23, 2006, with Symantec staff moderating afterward.</p><h2>Corporate Ownership and Decline</h2><p>In July 1999 the list became the property of SecurityFocus, the company Levy co-founded, which Symantec acquired in full on August 6, 2002 — a sale that critics said compromised the list's independent, adversarial spirit, and which contributed to the creation of a rival Full-Disclosure mailing list around 2002 as an alternative for people who felt Bugtraq had changed for the worse. Symantec's enterprise security business, including SecurityFocus, later passed to Broadcom (2019) and then to Accenture Security, which completed its acquisition on April 30, 2020.</p><h2>Shutdown and Reported Revival</h2><p>Symantec is reported to have stopped approving new posts to Bugtraq around February 24, 2020, and in January 2021 its owner announced the list's discontinuation, citing deprioritized resources; a possible reversal was floated shortly afterward, but the exact dates and sequence of these announcements are inconsistently reported across secondary sources and should be treated as approximate. The list remained largely dormant for several years. In early August 2026, security researcher Jonathan Brossard (\"endrazine\") — a long-established figure in offensive security research — was reported by Wikipedia's edit history, at least one security-news outlet, and wire syndication to have acquired the SecurityFocus/Bugtraq name and relaunched the list at DEF CON 34 in Las Vegas as an independently operated, community-driven platform, with a stated philosophy that the community, not the platform operator, decides what the list becomes. As of this writing, that relaunch has not been independently confirmed by primary security trade press and should be read as reported rather than fully verified.</p>"
   },
   "timeline": [
     {
@@ -85,35 +85,35 @@
   "relatedEvents": [],
   "sources": [
     {
-      "title": "Bugtraq \u2014 Wikipedia",
+      "title": "Bugtraq — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Bugtraq"
     },
     {
-      "title": "SecurityFocus \u2014 Wikipedia",
+      "title": "SecurityFocus — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/SecurityFocus"
     },
     {
-      "title": "Elias Levy \u2014 Wikipedia",
+      "title": "Elias Levy — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Elias_Levy"
     },
     {
-      "title": "Full disclosure (computer security) \u2014 Wikipedia",
+      "title": "Full disclosure (computer security) — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Full_disclosure_(computer_security)"
     },
     {
-      "title": "Jonathan Brossard \u2014 Wikipedia",
+      "title": "Jonathan Brossard — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Jonathan_Brossard"
     },
     {
-      "title": "DEF CON \u2014 Wikipedia",
+      "title": "DEF CON — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/DEF_CON"
     },
     {
-      "title": "Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again \u2014 Cyber Security News",
+      "title": "Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again — Cyber Security News",
       "url": "https://cybersecuritynews.com/bugtraq-is-back-the-original-full-disclosure-mailing-list-is-live-again/"
     },
     {
-      "title": "\"Bugtraq is back\" thread \u2014 SecurityFocus mailing list archive",
+      "title": "\"Bugtraq is back\" thread — SecurityFocus mailing list archive",
       "url": "https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/"
     }
   ],
@@ -122,6 +122,7 @@
     "sourcesCount": 8,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   }
 }

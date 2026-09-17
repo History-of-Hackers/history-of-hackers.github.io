@@ -7,18 +7,40 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["vulnerability-research", "kernel-security", "malware-analysis", "h2hc", "brazil"],
+  "tags": [
+    "vulnerability-research",
+    "kernel-security",
+    "malware-analysis",
+    "h2hc",
+    "brazil"
+  ],
   "summary": "Brazilian security researcher known as BSDaemon, whose work includes vulnerability research, kernel security, and the Hackers to Hackers Conference (H2HC).",
   "whyThisMatters": "Branco's conference work and published research connect Brazilian security communities with the international vulnerability-research scene. Black Hat documents his roles in vulnerability research and as an H2HC organizer.",
-  "knownFor": ["Vulnerability research", "Kernel-security research", "Organizing H2HC"],
+  "knownFor": [
+    "Vulnerability research",
+    "Kernel-security research",
+    "Organizing H2HC"
+  ],
   "sections": {
     "overview": "<p>Rodrigo Rubira Branco, known as BSDaemon, is a Brazilian security researcher whose work has covered vulnerability research, kernel security, malware analysis, and open-source software.</p><h2>Research and industry work</h2><p>A Black Hat USA 2016 biography identified Branco as a Principal Security Researcher at Intel and described earlier roles at Qualys, Check Point, COSEINC, Scanit, and IBM's Advanced Linux Response Team.</p><p>Conference material published by HITB identifies him as BSDaemon and records research on operating-system and application vulnerabilities, as well as work concerning anti-forensics and exploitability analysis.</p><h2>H2HC</h2><p>Branco is an organizer of the Hackers to Hackers Conference (H2HC). Historical H2HC material and a Bugtraq conference announcement associate his name and BSDaemon handle with the event and its security-research program.</p>"
   },
   "timeline": [
-    {"date": "2006", "event": "A Hackers to Hackers Conference (H2HC) call for papers identifies Rodrigo Rubira Branco as BSDaemon."},
-    {"date": "2009", "event": "HITB Dubai publishes his Advanced Payload Strategies conference material and biography."},
-    {"date": "2009", "event": "A Bugtraq announcement lists BSDaemon in the uCon Security Conference speaker line-up."},
-    {"date": "2016", "event": "Black Hat USA publishes his speaker biography for the DPTrace exploitability-analysis presentation."}
+    {
+      "date": "2006",
+      "event": "A Hackers to Hackers Conference (H2HC) call for papers identifies Rodrigo Rubira Branco as BSDaemon."
+    },
+    {
+      "date": "2009",
+      "event": "HITB Dubai publishes his Advanced Payload Strategies conference material and biography."
+    },
+    {
+      "date": "2009",
+      "event": "A Bugtraq announcement lists BSDaemon in the uCon Security Conference speaker line-up."
+    },
+    {
+      "date": "2016",
+      "event": "Black Hat USA publishes his speaker biography for the DPTrace exploitability-analysis presentation."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -26,9 +48,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    {"title": "Black Hat USA 2016: Rodrigo Rubira Branco", "url": "https://blackhat.com/us-16/speakers/Rodrigo-Rubira-Branco.html"},
-    {"title": "Bugtraq: uCon Security Conference 2009 speaker line-up", "url": "https://seclists.org/bugtraq/2009/Feb/44"},
-    {"title": "HITB: Advanced Payload Strategies", "url": "https://conference.hitb.org/hitbsecconf2009dubai/materials/D2T1%20-%20%20Rodrigo%20Rubira%20Branco%20-%20Advanced%20Payload%20Strategies.pdf"}
+    {
+      "title": "Black Hat USA 2016: Rodrigo Rubira Branco",
+      "url": "https://blackhat.com/us-16/speakers/Rodrigo-Rubira-Branco.html"
+    },
+    {
+      "title": "Bugtraq: uCon Security Conference 2009 speaker line-up",
+      "url": "https://seclists.org/bugtraq/2009/Feb/44"
+    },
+    {
+      "title": "HITB: Advanced Payload Strategies",
+      "url": "https://conference.hitb.org/hitbsecconf2009dubai/materials/D2T1%20-%20%20Rodrigo%20Rubira%20Branco%20-%20Advanced%20Payload%20Strategies.pdf"
+    }
   ],
-  "editorial": {"verified": true, "sourcesCount": 3, "lastReviewed": "2026-09-02", "reviewStatus": "PUBLISHED", "reviewer": "codex-2026-09-02"}
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
 }

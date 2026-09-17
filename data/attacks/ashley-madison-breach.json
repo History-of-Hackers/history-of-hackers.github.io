@@ -4,21 +4,53 @@
   "title": "The Ashley Madison Breach",
   "slug": "ashley-madison-breach",
   "era": "2015",
-  "tags": ["data breach", "extortion", "hacktivism", "privacy", "dating site", "insider threat", "class action"],
+  "tags": [
+    "data breach",
+    "extortion",
+    "hacktivism",
+    "privacy",
+    "dating site",
+    "insider threat",
+    "class action"
+  ],
   "summary": "In July 2015, a hacker group calling itself The Impact Team breached Avid Life Media, the parent company of the extramarital-affair dating site Ashley Madison, and later leaked tens of millions of users' personal data after the company refused to shut the site down.",
   "whyThisMatters": "The Ashley Madison breach became one of the most consequential privacy scandals of the 2010s, demonstrating how the exposure of sensitive personal data could cause real-world harm, including reported suicides, blackmail campaigns, and divorces. It prompted major regulatory settlements in the United States and Canada, forced a reckoning over the security practices of platforms handling highly sensitive user data, and remains a widely studied case in discussions of data breach ethics, corporate accountability, and the limits of promised \"data deletion\" services.",
   "sections": {
     "overview": "<h2>Background</h2><p>Ashley Madison was an online dating service launched in 2001 by Darren J. Morgenstern and operated by the Toronto-based company Avid Life Media (ALM), later renamed Ruby Corporation. The site marketed itself specifically toward people seeking extramarital affairs, using the slogan \"Life is short. Have an affair.\" By 2015, the company reported the platform had accumulated roughly 37 million registered users worldwide. Ashley Madison also offered a paid \"Full Delete\" service, which promised, for a fee, to permanently and completely remove a user's data from the site's servers.</p><h2>The Breach</h2><p>On July 19, 2015, a person or group identifying itself as The Impact Team announced that it had infiltrated ALM's internal networks and stolen a large volume of company and customer data, including user profiles, internal emails, financial records, and source code. The group accused ALM of \"fraud, deceit, and stupidity,\" citing what it called deceptive practices, and specifically alleged that the Full Delete feature did not actually erase user data as promised, despite generating significant revenue for the company. The Impact Team demanded that ALM permanently shut down Ashley Madison and a related site, Established Men, threatening to release the full stolen dataset if the company refused. As initial proof, the group released a small sample of roughly 2,500 customer records.</p><h2>Data Dumps</h2><p>ALM declined to shut down its sites. On August 18, 2015, The Impact Team followed through on its threat, publishing more than 60 gigabytes of stolen data via BitTorrent, cryptographically signed with PGP keys to establish authenticity. This release included user account details such as names, addresses, search histories, and partial credit card information, along with data from accounts users believed had been permanently deleted. Additional dumps followed on August 20, including roughly 12.7 gigabytes of internal corporate emails, among them communications from ALM's then-CEO Noel Biderman. A further release came on August 21. Security researchers and journalists who analyzed the leaked data also found that Ashley Madison had used tens of thousands of automated \"fembot\" accounts to simulate female user activity and engage paying male members.</p><h2>Immediate Fallout</h2><p>The leak triggered a wave of public scrutiny, extortion schemes targeting exposed users, and reports of real-world harm, including job losses, divorces, and multiple deaths that news outlets linked to the exposure, among them police-reported suicides in Canada. Noel Biderman resigned as CEO of Avid Life Media on August 28, 2015, roughly a week after the second major data dump. Law enforcement agencies, including the Federal Bureau of Investigation, the Royal Canadian Mounted Police, and the Toronto Police Service, opened investigations, but as of the most recent public reporting, no individual has been definitively identified, arrested, or charged in connection with The Impact Team's actions, and the group's identity remains unknown.</p><h2>Legal and Regulatory Consequences</h2><p>The breach led to a wave of class-action lawsuits filed against Avid Life Media in the United States and Canada. In July 2017, the company (by then renamed Ruby Corporation) agreed to a settlement of approximately 11.2 million US dollars to resolve consolidated litigation on behalf of affected users. Separately, in December 2016 the U.S. Federal Trade Commission and a coalition of state attorneys general announced settlements with the company over allegations that it had deceived consumers about its data security practices and the effectiveness of its data deletion feature, and that it had created fake profiles to lure users. Canadian and Australian privacy regulators conducted a joint investigation and issued findings criticizing the company's security safeguards.</p><h2>Legacy</h2><p>The Ashley Madison breach is frequently cited as a landmark case illustrating the intersection of cybersecurity, corporate accountability, and personal privacy, distinct from breaches involving purely financial or credential data because of the acutely sensitive and stigmatized nature of the exposed information. It reshaped public discussion around the trustworthiness of \"permanent deletion\" promises made by online services and pushed companies handling sensitive personal data toward stronger encryption and security auditing practices. The incident has since been revisited in multiple documentary productions, including a 2023 docuseries and a 2024 documentary, and continues to be referenced in security and privacy research as a case study in breach response and harm mitigation.</p>"
   },
   "timeline": [
-    { "date": "2001", "event": "Ashley Madison is founded by Darren J. Morgenstern under parent company Avid Life Media." },
-    { "date": "2015-07-15", "event": "The Impact Team reportedly first infiltrates Avid Life Media's systems." },
-    { "date": "2015-07-19", "event": "The Impact Team publicly announces the breach and releases roughly 2,500 sample user records, demanding ALM shut down Ashley Madison and Established Men." },
-    { "date": "2015-08-18", "event": "The Impact Team leaks more than 60 gigabytes of stolen user and company data via BitTorrent, signed with PGP keys." },
-    { "date": "2015-08-20", "event": "A second dump of roughly 12.7 gigabytes of internal corporate emails, including messages from CEO Noel Biderman, is released." },
-    { "date": "2015-08-28", "event": "Noel Biderman resigns as CEO of Avid Life Media following the fallout from the breach." },
-    { "date": "2016-12", "event": "The U.S. Federal Trade Commission and state attorneys general announce settlements with the company over deceptive security and data practices." },
-    { "date": "2017-07", "event": "Ruby Corporation (formerly Avid Life Media) agrees to an approximately $11.2 million settlement of U.S. class-action lawsuits over the breach." }
+    {
+      "date": "2001",
+      "event": "Ashley Madison is founded by Darren J. Morgenstern under parent company Avid Life Media."
+    },
+    {
+      "date": "2015-07-15",
+      "event": "The Impact Team reportedly first infiltrates Avid Life Media's systems."
+    },
+    {
+      "date": "2015-07-19",
+      "event": "The Impact Team publicly announces the breach and releases roughly 2,500 sample user records, demanding ALM shut down Ashley Madison and Established Men."
+    },
+    {
+      "date": "2015-08-18",
+      "event": "The Impact Team leaks more than 60 gigabytes of stolen user and company data via BitTorrent, signed with PGP keys."
+    },
+    {
+      "date": "2015-08-20",
+      "event": "A second dump of roughly 12.7 gigabytes of internal corporate emails, including messages from CEO Noel Biderman, is released."
+    },
+    {
+      "date": "2015-08-28",
+      "event": "Noel Biderman resigns as CEO of Avid Life Media following the fallout from the breach."
+    },
+    {
+      "date": "2016-12",
+      "event": "The U.S. Federal Trade Commission and state attorneys general announce settlements with the company over deceptive security and data practices."
+    },
+    {
+      "date": "2017-07",
+      "event": "Ruby Corporation (formerly Avid Life Media) agrees to an approximately $11.2 million settlement of U.S. class-action lawsuits over the breach."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -26,16 +58,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Ashley Madison data breach - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ashley_Madison_data_breach" },
-    { "title": "Ashley Madison - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ashley_Madison" },
-    { "title": "The Impact Team - Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Impact_Team" },
-    { "title": "Online Cheating Site AshleyMadison Hacked - KrebsOnSecurity", "url": "https://krebsonsecurity.com/2015/07/online-cheating-site-ashleymadison-hacked/" }
+    {
+      "title": "Ashley Madison data breach - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ashley_Madison_data_breach"
+    },
+    {
+      "title": "Ashley Madison - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ashley_Madison"
+    },
+    {
+      "title": "The Impact Team - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Impact_Team"
+    },
+    {
+      "title": "Online Cheating Site AshleyMadison Hacked - KrebsOnSecurity",
+      "url": "https://krebsonsecurity.com/2015/07/online-cheating-site-ashleymadison-hacked/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

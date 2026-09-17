@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["malware", "computer-worm", "iloveyou", "philippines", "cybercrime", "social-engineering", "2000s"],
+  "tags": [
+    "malware",
+    "computer-worm",
+    "iloveyou",
+    "philippines",
+    "cybercrime",
+    "social-engineering",
+    "2000s"
+  ],
   "summary": "Onel de Guzman is a Filipino former computer science student who, in 2000, wrote and released the ILOVEYOU worm, which spread to tens of millions of computers worldwide within days and became one of the most damaging malware outbreaks in history.",
   "whyThisMatters": "The ILOVEYOU outbreak exposed how a simple piece of social-engineering-driven malware could cause billions of dollars in global damage and disrupt email systems at governments and corporations across the world. Because the Philippines had no cybercrime law at the time, the case could not be prosecuted, which directly prompted the country to pass its first electronic-commerce and computer-crime legislation and pushed other governments to reconsider their own cybercrime statutes. De Guzman's case remains a foundational example in the history of malware and computer-crime law.",
   "knownFor": [
@@ -20,14 +28,38 @@
     "overview": "<h2>Background</h2><p>Onel de Guzman is a Filipino man who, around the year 2000, was a student at AMA Computer College in Manila, Philippines. According to later reporting, he came from a poor background and believed that access to the internet should be treated as something close to a basic right, at a time when dial-up internet access in the Philippines was expensive and billed by the connection. He reportedly submitted an undergraduate thesis proposal describing a program to steal internet login credentials so that users could get online without paying; the college rejected the proposal, reportedly telling him it was \"illegal\" and that the school did \"not produce burglars.\" He did not complete his degree.</p><h2>Creation of the ILOVEYOU worm</h2><p>In early May 2000, a worm identifying itself as \"ILOVEYOU\" began circulating by email. The message carried the subject line \"ILOVEYOU\" and a body text reading \"kindly check the attached LOVELETTER coming from me,\" with an attached file disguised as a text document but actually a Visual Basic Script (VBScript) program. When opened, the script emailed copies of itself to every contact in the victim's Microsoft Outlook address book, overwrote various files on the infected machine (including image, audio, and document files), and attempted to download an additional password-stealing component. Investigators later attributed authorship of the worm's code to de Guzman, working with source code and techniques that, according to his later account, he had originally intended to test only on networks in Manila before a change he made removed that geographic limitation.</p><h2>Global outbreak</h2><p>The worm was released on May 4, 2000, and spread west across time zones as organizations opened their email in the morning, moving from Asia to Europe and then to the Americas within roughly a day. It infected an estimated tens of millions of computers, including systems at major corporations, banks, and government agencies such as the UK Parliament and the US Pentagon, forcing many organizations to temporarily shut down their email systems. Damage and cleanup cost estimates from different sources have ranged from several billion to roughly ten billion US dollars, making it, by many measures, one of the most costly malware outbreaks up to that time.</p><h2>Investigation and legal outcome</h2><p>Philippine investigators, working with the National Bureau of Investigation and international law enforcement, traced the worm to an apartment in Manila within days of the outbreak and identified de Guzman and an associate as suspects. De Guzman appeared before international media at a press conference in Manila in May 2000 but gave evasive answers about his involvement. Because the Philippines had no law criminalizing hacking or the creation of destructive computer code at the time, prosecutors were ultimately unable to charge de Guzman under any applicable statute, and all charges related to the case were dropped. The Philippine government subsequently enacted its Electronic Commerce Act in June 2000, which for the first time criminalized hacking and related computer offenses in the country, though it could not be applied retroactively to the ILOVEYOU case.</p><h2>Later life and public admission</h2><p>For almost two decades, de Guzman avoided public comment on his role in the outbreak. In 2019 and 2020, British investigative journalist Geoff White located de Guzman, then working at a mobile phone repair stall in a Manila shopping district, and interviewed him for a book on cybercrime. In that interview, published around the 20th anniversary of the outbreak in 2020, de Guzman admitted for the first time that he had written and released the ILOVEYOU worm, said he had done so to steal dial-up internet passwords rather than to cause global disruption, and expressed regret over the damage the worm caused. He also stated that he acted alone, clearing others who had been publicly implicated at the time.</p><h2>Legacy</h2><p>The ILOVEYOU worm is widely cited in the history of computer security as a landmark example of social-engineering-based malware and of the scale of damage a single piece of code could cause on the still-maturing internet of the early 2000s. The case's inability to be prosecuted became a frequently cited example in discussions of the need for computer-crime legislation, influencing legal reform not only in the Philippines but informing broader international discussion of cybercrime law in the years that followed.</p>"
   },
   "timeline": [
-    { "date": "2000-05-04", "event": "The ILOVEYOU worm is released and begins spreading rapidly via email, first affecting systems in Asia." },
-    { "date": "2000-05-05", "event": "The worm spreads globally within about a day, infecting systems in Europe and the Americas and forcing organizations to shut down email servers." },
-    { "date": "2000-05-08", "event": "Philippine investigators trace the source of the worm to a Manila apartment and identify Onel de Guzman as a suspect." },
-    { "date": "2000-05-11", "event": "De Guzman appears before international media at a press conference in Manila but does not directly confirm authorship." },
-    { "date": "2000-06", "event": "The Philippines enacts its Electronic Commerce Act, criminalizing hacking and related computer offenses for the first time, though not retroactively applicable to the case." },
-    { "date": "2000-08", "event": "Philippine prosecutors drop all charges against de Guzman due to the absence of an applicable cybercrime law at the time of the outbreak." },
-    { "date": "2019", "event": "Journalist Geoff White locates de Guzman working at a mobile phone repair stall in Manila and interviews him for a book on cybercrime." },
-    { "date": "2020-05", "event": "Around the 20th anniversary of the outbreak, reporting based on the interview reveals de Guzman's admission that he created and released the ILOVEYOU worm." }
+    {
+      "date": "2000-05-04",
+      "event": "The ILOVEYOU worm is released and begins spreading rapidly via email, first affecting systems in Asia."
+    },
+    {
+      "date": "2000-05-05",
+      "event": "The worm spreads globally within about a day, infecting systems in Europe and the Americas and forcing organizations to shut down email servers."
+    },
+    {
+      "date": "2000-05-08",
+      "event": "Philippine investigators trace the source of the worm to a Manila apartment and identify Onel de Guzman as a suspect."
+    },
+    {
+      "date": "2000-05-11",
+      "event": "De Guzman appears before international media at a press conference in Manila but does not directly confirm authorship."
+    },
+    {
+      "date": "2000-06",
+      "event": "The Philippines enacts its Electronic Commerce Act, criminalizing hacking and related computer offenses for the first time, though not retroactively applicable to the case."
+    },
+    {
+      "date": "2000-08",
+      "event": "Philippine prosecutors drop all charges against de Guzman due to the absence of an applicable cybercrime law at the time of the outbreak."
+    },
+    {
+      "date": "2019",
+      "event": "Journalist Geoff White locates de Guzman working at a mobile phone repair stall in Manila and interviews him for a book on cybercrime."
+    },
+    {
+      "date": "2020-05",
+      "event": "Around the 20th anniversary of the outbreak, reporting based on the interview reveals de Guzman's admission that he created and released the ILOVEYOU worm."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -35,18 +67,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "ILOVEYOU - Wikipedia", "url": "https://en.wikipedia.org/wiki/ILOVEYOU" },
-    { "title": "Onel de Guzmán - Wikidata", "url": "https://www.wikidata.org/wiki/Q3882687" },
-    { "title": "Evolution of security: the story of the ILOVEYOU worm - Kaspersky official blog", "url": "https://www.kaspersky.com/blog/cybersecurity-history-iloveyou/45001/" },
-    { "title": "Revealed: The man behind the first major computer virus pandemic - Computer Weekly", "url": "https://www.computerweekly.com/news/252481937/Revealed-The-man-behind-the-first-major-computer-virus-pandemic" },
-    { "title": "Love Bug Virus Creator Comes Clean - Geoff White, Medium", "url": "https://medium.com/@geoff_white/love-bug-virus-creator-comes-clean-420daeb02593" },
-    { "title": "ILOVEYOU virus 20 years later: where is Onel De Guzman now? - NoypiGeeks", "url": "https://www.noypigeeks.com/spotlight/iloveyou-virus-20-years-onel-de-guzman/" }
+    {
+      "title": "ILOVEYOU - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ILOVEYOU"
+    },
+    {
+      "title": "Onel de Guzmán - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3882687"
+    },
+    {
+      "title": "Evolution of security: the story of the ILOVEYOU worm - Kaspersky official blog",
+      "url": "https://www.kaspersky.com/blog/cybersecurity-history-iloveyou/45001/"
+    },
+    {
+      "title": "Revealed: The man behind the first major computer virus pandemic - Computer Weekly",
+      "url": "https://www.computerweekly.com/news/252481937/Revealed-The-man-behind-the-first-major-computer-virus-pandemic"
+    },
+    {
+      "title": "Love Bug Virus Creator Comes Clean - Geoff White, Medium",
+      "url": "https://medium.com/@geoff_white/love-bug-virus-creator-comes-clean-420daeb02593"
+    },
+    {
+      "title": "ILOVEYOU virus 20 years later: where is Onel De Guzman now? - NoypiGeeks",
+      "url": "https://www.noypigeeks.com/spotlight/iloveyou-virus-20-years-onel-de-guzman/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

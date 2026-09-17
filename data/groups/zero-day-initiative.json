@@ -4,19 +4,45 @@
   "title": "Zero Day Initiative (ZDI)",
   "slug": "zero-day-initiative",
   "era": "2005-Present",
-  "tags": ["bug bounty", "vulnerability disclosure", "tippingpoint", "trend micro", "pwn2own", "responsible disclosure", "exploit acquisition"],
+  "tags": [
+    "bug bounty",
+    "vulnerability disclosure",
+    "tippingpoint",
+    "trend micro",
+    "pwn2own",
+    "responsible disclosure",
+    "exploit acquisition"
+  ],
   "summary": "The Zero Day Initiative (ZDI) is a vendor-agnostic vulnerability purchase and coordinated-disclosure program started on July 25, 2005 by TippingPoint, a division of 3Com, and led today by Trend Micro following its 2015 acquisition of HP TippingPoint.",
   "whyThisMatters": "ZDI helped pioneer the modern commercial bug-bounty model, giving independent researchers a legal, well-paid channel for reporting software flaws instead of selling them on gray or black markets. Through its ownership of the Pwn2Own hacking contest, it has repeatedly driven public attention to browser, OS, and industrial-control vulnerabilities and pressured vendors to patch faster. Its scale over two decades made it one of the largest single sources of publicly disclosed vulnerabilities for major vendors such as Microsoft and Adobe.",
   "sections": {
     "overview": "<h2>Background</h2><p>The Zero Day Initiative (ZDI) is a vulnerability purchase and coordinated-disclosure program that was started on July 25, 2005 by TippingPoint, at the time a division of network-equipment maker 3Com. TippingPoint sold intrusion-prevention systems and had a commercial incentive to learn about unpatched (\"zero-day\") software vulnerabilities before they were exploited in the wild, so it could add protective filters for its own customers ahead of a public patch. ZDI was created to formalize this by paying independent security researchers for vulnerability information, verifying the flaws internally, and then coordinating disclosure with the affected vendor rather than publishing exploit details or selling them to third parties. The program was initially led by David Endler and Pedram Amini.</p><h2>Ownership changes</h2><p>ZDI's corporate ownership has changed hands along with its parent company. 3Com had acquired TippingPoint in January 2005 for roughly $442 million. When Hewlett-Packard (HP) acquired 3Com in April 2010 for approximately $2.7 billion, TippingPoint and ZDI became part of HP's enterprise security business. In October 2015, Trend Micro acquired HP TippingPoint, including the ZDI program, in a deal reported at roughly $300 million. ZDI has operated under Trend Micro ever since, run alongside the company's broader threat-research organization.</p><h2>Program model</h2><p>ZDI's core model is to pay researchers a bounty for a validated vulnerability report, under agreements that the flaw will not be disclosed publicly or sold elsewhere until the vendor has had an opportunity to patch it. ZDI itself notifies the affected vendor, tracks the case, and eventually publishes an advisory once a fix is available or after a disclosure deadline lapses. This vendor-agnostic structure, covering products from many different companies rather than a single vendor's own bug bounty, distinguished ZDI from most first-party bounty programs and let it aggregate large volumes of vulnerability research across the industry. By the mid-2010s, ZDI was consistently ranked as one of the largest external sources of publicly disclosed vulnerabilities affecting major vendors such as Microsoft and Adobe.</p><h2>Pwn2Own</h2><p>ZDI is closely associated with Pwn2Own, a hacking competition first held in March 2007 at the CanSecWest conference in Vancouver. Pwn2Own was conceived by security researcher Dragos Ruiu, originally as a contest targeting Apple's Mac OS X after Ruiu grew frustrated with Apple's public statements about the platform's security. From the contest's first running, ZDI (represented by TippingPoint researcher Terri Forslof) participated by offering cash rewards for vulnerabilities demonstrated live against target software, aligning the contest's public exploit demonstrations with ZDI's disclosure-and-purchase model. Pwn2Own expanded in subsequent years to cover web browsers, mobile devices, virtualization software, and industrial control systems, and continues to run multiple times per year under ZDI/Trend Micro sponsorship.</p><h2>Scale and legacy</h2><p>Over two decades ZDI grew from a single-vendor incentive program into what Trend Micro describes as the world's largest vendor-agnostic vulnerability disclosure program, drawing submissions from a large international community of independent researchers and crediting thousands of disclosed vulnerabilities across widely used software. Its combination of paid vulnerability acquisition, coordinated vendor disclosure, and a public showcase event in Pwn2Own has been cited as an influential model for how the security industry incentivizes responsible reporting of software flaws, standing in contrast to unregulated markets for exploit sales.</p>"
   },
   "timeline": [
-    { "date": "2005-01", "event": "3Com acquires TippingPoint for approximately $442 million." },
-    { "date": "2005-07-25", "event": "TippingPoint launches the Zero Day Initiative (ZDI), initially led by David Endler and Pedram Amini, to pay researchers for vulnerability reports and coordinate vendor disclosure." },
-    { "date": "2007-03", "event": "ZDI/TippingPoint begins sponsoring the newly created Pwn2Own hacking contest at CanSecWest in Vancouver, offering cash prizes for live exploit demonstrations." },
-    { "date": "2010-04", "event": "Hewlett-Packard (HP) acquires 3Com for about $2.7 billion, bringing TippingPoint and ZDI under HP ownership." },
-    { "date": "2015-10-21", "event": "Trend Micro acquires HP TippingPoint, including the ZDI program, for roughly $300 million." },
-    { "date": "2016", "event": "ZDI is reported as a top external source of publicly disclosed vulnerabilities for both Microsoft and Adobe." }
+    {
+      "date": "2005-01",
+      "event": "3Com acquires TippingPoint for approximately $442 million."
+    },
+    {
+      "date": "2005-07-25",
+      "event": "TippingPoint launches the Zero Day Initiative (ZDI), initially led by David Endler and Pedram Amini, to pay researchers for vulnerability reports and coordinate vendor disclosure."
+    },
+    {
+      "date": "2007-03",
+      "event": "ZDI/TippingPoint begins sponsoring the newly created Pwn2Own hacking contest at CanSecWest in Vancouver, offering cash prizes for live exploit demonstrations."
+    },
+    {
+      "date": "2010-04",
+      "event": "Hewlett-Packard (HP) acquires 3Com for about $2.7 billion, bringing TippingPoint and ZDI under HP ownership."
+    },
+    {
+      "date": "2015-10-21",
+      "event": "Trend Micro acquires HP TippingPoint, including the ZDI program, for roughly $300 million."
+    },
+    {
+      "date": "2016",
+      "event": "ZDI is reported as a top external source of publicly disclosed vulnerabilities for both Microsoft and Adobe."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -24,16 +50,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Zero Day Initiative - Wikipedia", "url": "https://en.wikipedia.org/wiki/Zero_Day_Initiative" },
-    { "title": "Zero Day Initiative - official site", "url": "https://www.zerodayinitiative.com/" },
-    { "title": "Pwn2Own - Wikipedia", "url": "https://en.wikipedia.org/wiki/Pwn2Own" },
-    { "title": "TippingPoint - Wikipedia", "url": "https://en.wikipedia.org/wiki/TippingPoint" }
+    {
+      "title": "Zero Day Initiative - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero_Day_Initiative"
+    },
+    {
+      "title": "Zero Day Initiative - official site",
+      "url": "https://www.zerodayinitiative.com/"
+    },
+    {
+      "title": "Pwn2Own - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pwn2Own"
+    },
+    {
+      "title": "TippingPoint - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/TippingPoint"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

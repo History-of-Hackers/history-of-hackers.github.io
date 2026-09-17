@@ -9,7 +9,10 @@
     "overview": ""
   },
   "timeline": [
-    { "date": "YYYY", "event": "" }
+    {
+      "date": "YYYY",
+      "event": ""
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -32,6 +35,7 @@
     "sourcesCount": 0,
     "lastReviewed": null,
     "reviewStatus": "TODO | RESEARCHING | VERIFIED | ARTICLE_READY | PUBLISHED",
-    "reviewer": null
+    "reviewer": null,
+    "createdBy": "Your Name (shown as 'Created by' on the page)"
   }
 }

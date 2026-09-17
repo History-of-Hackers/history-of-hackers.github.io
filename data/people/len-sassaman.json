@@ -1,0 +1,68 @@
+{
+  "id": "len-sassaman",
+  "type": "person",
+  "title": "Len Sassaman",
+  "slug": "len-sassaman",
+  "name": "Len Sassaman",
+  "born": 1980,
+  "died": 2011,
+  "era": "2000s",
+  "tags": [
+    "cypherpunks",
+    "remailers",
+    "privacy",
+    "pgp",
+    "cryptography"
+  ],
+  "summary": "American privacy advocate and cryptographer who maintained the Mixmaster anonymous remailer and co-designed the Pynchon Gate.",
+  "whyThisMatters": "Sassaman carried the cypherpunk remailer tradition into the 2000s and into academic anonymity research.",
+  "knownFor": [
+    "Mixmaster remailer maintainer",
+    "Pynchon Gate (2005)",
+    "Cypherpunks and PGP work"
+  ],
+  "sections": {
+    "overview": "<p>Leonard Harris Sassaman was an American technologist and privacy advocate. Active in the cypherpunks community from his teens, he worked on the OpenPGP standard at Network Associates and PGP Corporation and became the maintainer of Mixmaster, the type II anonymous remailer.</p><h2>Research</h2><p>With Nick Mathewson and Bram Cohen he designed the Pynchon Gate, a pseudonymous message-retrieval system based on private information retrieval, presented in 2005. He pursued a PhD at the COSIC group at KU Leuven under Bart Preneel and, with Meredith Patterson, helped establish the language-theoretic security (LangSec) research agenda.</p><h2>Death</h2><p>Sassaman died in July 2011 in Leuven, Belgium. A memorial to him was embedded in the Bitcoin blockchain by Dan Kaminsky and others.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1980-04-09",
+      "event": "Born in Pennsylvania."
+    },
+    {
+      "date": "2005",
+      "event": "Co-authors 'The Pynchon Gate' with Bram Cohen and Nick Mathewson."
+    },
+    {
+      "date": "2011-07-03",
+      "event": "Dies in Leuven, Belgium."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Sassaman, Cohen, Mathewson: 'The Pynchon Gate: A Secure Method of Pseudonymous Mail Retrieval' (WPES 2005)",
+      "url": "https://www.freehaven.net/anonbib/cache/sassaman:wpes2005.pdf"
+    },
+    {
+      "title": "KU Leuven COSIC: In memoriam Len Sassaman",
+      "url": "https://www.esat.kuleuven.be/cosic/news/in-memoriam-len-sassaman/"
+    },
+    {
+      "title": "Wikipedia: Len Sassaman",
+      "url": "https://en.wikipedia.org/wiki/Len_Sassaman"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

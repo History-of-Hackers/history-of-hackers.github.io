@@ -4,17 +4,37 @@
   "title": "The Art of Deception",
   "slug": "the-art-of-deception-mitnick",
   "era": "2002",
-  "tags": ["social engineering", "kevin mitnick", "security awareness", "phishing", "human factor", "book", "wiley"],
+  "tags": [
+    "social engineering",
+    "kevin mitnick",
+    "security awareness",
+    "phishing",
+    "human factor",
+    "book",
+    "wiley"
+  ],
   "summary": "\"The Art of Deception: Controlling the Human Element of Security\" is a 2002 book by former hacker Kevin D. Mitnick and co-author William L. Simon, published by John Wiley & Sons, that explains how social engineering is used to bypass technical security controls.",
   "whyThisMatters": "The book was one of the first mainstream, widely read works to frame social engineering as a primary information security risk on par with technical exploits, helping popularize employee security-awareness training in corporate environments. Written by a hacker who had personally used pretexting and manipulation to breach corporate networks, it lent practical, first-hand credibility to defenses against human-targeted attacks. Its influence is still cited in security-awareness literature and training programs decades after publication, and it helped launch Mitnick's post-incarceration career as a security consultant and author.",
   "sections": {
     "overview": "<h2>Background</h2><p>\"The Art of Deception: Controlling the Human Element of Security\" is a nonfiction book published on October 4, 2002 by John Wiley & Sons. It was written by Kevin D. Mitnick, a computer hacker who had previously served a federal prison sentence for computer and wire fraud offenses, together with co-author William L. Simon, a writer who specialized in technical and true-crime narratives. The book carries a foreword by Apple co-founder Steve Wozniak. It was Mitnick's first published book following his release from federal custody in 2000 and his subsequent transition into legitimate security consulting.</p><h2>Content and Approach</h2><p>The book is structured around a series of illustrative, largely fictionalized case studies depicting how social engineers manipulate employees, help desks, and corporate procedures to obtain passwords, physical access, or confidential information without needing to break through technical defenses such as firewalls or encryption. Rather than serving as a technical hacking manual, the book emphasizes psychological manipulation techniques -- pretexting, impersonation, building false rapport, and exploiting an employee's desire to be helpful -- as the primary attack vector. Each narrative example is followed by an analysis of the vulnerability exploited and specific recommendations for preventing similar attacks.</p><h2>Structure and Themes</h2><p>The 352-page work is divided into sections covering the general anatomy of a social engineering attack, common attacker techniques, and case studies drawn from composite or illustrative scenarios rather than direct accounts of Mitnick's own criminal activity. A recurring theme, often summarized by Mitnick's own framing, is that no amount of technology can fully secure an organization if its personnel can be manipulated into circumventing security policy voluntarily. The final chapters offer guidance for building corporate security awareness programs, including sample policies and training frameworks intended for direct use by security and human-resources departments.</p><h2>Reception and Legacy</h2><p>The book was published at a time when Mitnick was becoming a prominent public figure in computer security following years of media attention around his 1995 arrest and subsequent prosecution. \"The Art of Deception\" helped popularize the term \"social engineering\" among a mainstream business and IT audience and contributed to social engineering being treated as a distinct discipline within information security, alongside network and application security. It became a widely referenced text in corporate security-awareness training and university information-security courses. The book was followed by a sequel co-written with Simon, \"The Art of Intrusion\" (2005), and later by Mitnick's autobiography \"Ghost in the Wires\" (2011).</p><h2>Significance</h2><p>As one of the earliest widely distributed books to focus specifically on human-targeted attack techniques rather than purely technical vulnerabilities, \"The Art of Deception\" is regarded as an influential early text in the security-awareness and social-engineering literature. Its publication reflects a broader shift in the security industry during the early 2000s toward recognizing employees and organizational processes, not just software and network infrastructure, as attack surfaces requiring dedicated defensive measures.</p>"
   },
   "timeline": [
-    { "date": "1995-02", "event": "Kevin Mitnick, later co-author of The Art of Deception, is arrested by the FBI after a multi-year pursuit related to computer and wire fraud." },
-    { "date": "2000-01", "event": "Mitnick is released from federal prison after serving approximately five years, later transitioning to security consulting and writing." },
-    { "date": "2002-10-04", "event": "The Art of Deception: Controlling the Human Element of Security is published by John Wiley & Sons, co-written with William L. Simon and featuring a foreword by Steve Wozniak." },
-    { "date": "2005", "event": "Mitnick and Simon publish a follow-up book, The Art of Intrusion, continuing the focus on real-world social engineering and hacking case studies." }
+    {
+      "date": "1995-02",
+      "event": "Kevin Mitnick, later co-author of The Art of Deception, is arrested by the FBI after a multi-year pursuit related to computer and wire fraud."
+    },
+    {
+      "date": "2000-01",
+      "event": "Mitnick is released from federal prison after serving approximately five years, later transitioning to security consulting and writing."
+    },
+    {
+      "date": "2002-10-04",
+      "event": "The Art of Deception: Controlling the Human Element of Security is published by John Wiley & Sons, co-written with William L. Simon and featuring a foreword by Steve Wozniak."
+    },
+    {
+      "date": "2005",
+      "event": "Mitnick and Simon publish a follow-up book, The Art of Intrusion, continuing the focus on real-world social engineering and hacking case studies."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -22,15 +42,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "The Art of Deception - Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Art_of_Deception" },
-    { "title": "Kevin Mitnick - Wikipedia", "url": "https://en.wikipedia.org/wiki/Kevin_Mitnick" },
-    { "title": "The Art of Deception: Controlling the Human Element of Security - Goodreads", "url": "https://www.goodreads.com/book/show/18160.The_Art_of_Deception" }
+    {
+      "title": "The Art of Deception - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/The_Art_of_Deception"
+    },
+    {
+      "title": "Kevin Mitnick - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Mitnick"
+    },
+    {
+      "title": "The Art of Deception: Controlling the Human Element of Security - Goodreads",
+      "url": "https://www.goodreads.com/book/show/18160.The_Art_of_Deception"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

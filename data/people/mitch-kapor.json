@@ -1,0 +1,76 @@
+{
+  "id": "mitch-kapor",
+  "type": "person",
+  "title": "Mitch Kapor",
+  "slug": "mitch-kapor",
+  "name": "Mitch Kapor",
+  "born": 1950,
+  "died": null,
+  "era": "1980s-present",
+  "tags": [
+    "eff",
+    "lotus",
+    "civil-liberties",
+    "software-industry",
+    "mozilla"
+  ],
+  "summary": "American software entrepreneur who founded Lotus Development and co-founded the Electronic Frontier Foundation.",
+  "whyThisMatters": "Kapor's funding and credibility turned the EFF from an idea into an institution able to litigate on behalf of hackers and researchers.",
+  "knownFor": [
+    "Lotus 1-2-3",
+    "Co-founding the EFF",
+    "Founding chair of the Mozilla Foundation"
+  ],
+  "sections": {
+    "overview": "<p>Mitchell Kapor is an American entrepreneur and investor. He founded Lotus Development Corporation in 1982; its spreadsheet Lotus 1-2-3, released in 1983, became the defining application of the IBM PC era. He left Lotus in 1986.</p><h2>The EFF</h2><p>In 1990 Kapor co-founded the Electronic Frontier Foundation with John Perry Barlow and John Gilmore, providing its initial funding and serving as its first chairman. The organization's early work included defending Steve Jackson Games and others targeted during Operation Sundevil.</p><h2>Later work</h2><p>Kapor was founding chair of the Mozilla Foundation in 2003 and has invested in and advocated for open-source software and technology access through the Kapor Center.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1950-11-01",
+      "event": "Born in Brooklyn, New York."
+    },
+    {
+      "date": "1982",
+      "event": "Founds Lotus Development Corporation."
+    },
+    {
+      "date": "1983-01",
+      "event": "Lotus 1-2-3 ships for the IBM PC."
+    },
+    {
+      "date": "1990-07",
+      "event": "Co-founds the Electronic Frontier Foundation and serves as its first chairman."
+    },
+    {
+      "date": "2003",
+      "event": "Becomes founding chair of the Mozilla Foundation."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "EFF: About EFF - history",
+      "url": "https://www.eff.org/about/history"
+    },
+    {
+      "title": "Kapor Center: Mitch Kapor",
+      "url": "https://www.kaporcenter.org/team/mitch-kapor/"
+    },
+    {
+      "title": "Wikipedia: Mitch Kapor",
+      "url": "https://en.wikipedia.org/wiki/Mitch_Kapor"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

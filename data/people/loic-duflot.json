@@ -1,7 +1,7 @@
 {
   "id": "loic-duflot",
   "type": "person",
-  "title": "Lo\u00efc Duflot",
+  "title": "Loïc Duflot",
   "slug": "loic-duflot",
   "era": "2006-2011 (documented research period)",
   "tags": [
@@ -19,7 +19,7 @@
   "summary": "French security researcher employed by France's DCSSI (later ANSSI) who, from 2006 onward, showed that x86 System Management Mode, ACPI, and PC chipset/firmware features could be abused to bypass operating-system and hypervisor security guarantees, first presenting this work publicly at CanSecWest 2006.",
   "whyThisMatters": "French security researcher employed by France's DCSSI (later ANSSI) who, from 2006 onward, showed that x86 System Management Mode, ACPI, and PC chipset/firmware features could be abused to bypass operating-system and hypervisor security guarantees, first presenting this work publicly at CanSecWest 2006.",
   "sections": {
-    "overview": "<p>Lo\u00efc Duflot is a French computer security researcher whose work, carried out while employed at France's Direction Centrale de la S\u00e9curit\u00e9 des Syst\u00e8mes d'Information (DCSSI) and later its successor agency ANSSI, focused on a then-underexplored area of offensive security: showing that x86 processor and PC chipset features, used exactly as documented, could be leveraged to defeat operating-system and hypervisor security models without relying on any implementation bug.</p><p>His best-known result was presented in March 2006 at the CanSecWest conference in Vancouver, in a talk co-authored with Daniel Etiemble and Olivier Grumelard titled 'Security Issues Related to Pentium System Management Mode.' The team demonstrated that System Management Mode (SMM) \u2014 a highly privileged x86 execution mode originally intended for firmware-level tasks such as power management \u2014 could be entered by an attacker with sufficient initial privileges to escalate to full control of the machine, including a proof-of-concept 'root to kernel' privilege escalation on OpenBSD running in its hardened 'Highly Secure' securelevel mode, and a related exploit against NetBSD. The underlying issue was that on most tested motherboards the chipset's SMRAM lock bit (D_LCK) was not actually set, leaving the memory region backing SMM unprotected from tampering by a sufficiently privileged local process. Following the presentation, Intel reportedly opened a consultation with BIOS vendors to get the lock bit set correctly. The same research was also presented in French at SSTIC 2006 (1 June 2006, with Etiemble and Grumelard) and published in MISC magazine issue 26.</p><p>Duflot continued this line of work throughout a doctoral thesis, 'Contribution \u00e0 la s\u00e9curit\u00e9 des syst\u00e8mes d'exploitation et des microprocesseurs,' publicly defended on 18 October 2007 at Universit\u00e9 Paris-Sud (Paris XI) under Daniel Etiemble, with a jury that included Jacques Stern as president. The thesis extended the SMM attacks to x86-64 architectures and examined further hardware/software security inconsistencies. In 2007 he presented, with Laurent Absil at PacSec, work showing that chipset I/O mechanisms \u2014 the AGP graphics aperture and UHCI-compliant USB host controllers \u2014 could be used from application level to break the isolation provided by Intel VT-x virtualization, again without exploiting any coding flaw.</p><p>He kept returning to SMM and firmware trust issues in subsequent years: a 2008 ESORICS paper (later expanded in the Journal of Computer Virology) surveyed CPU bugs and backdoors and their security consequences; at CanSecWest 2009, with Olivier Levillain, Benjamin Morin and Olivier Grumelard, he presented 'Getting into the SMRAM: SMM Reloaded,' showing that even when the SMRAM lock bit was correctly set, cache-poisoning techniques could still allow an attacker to write to SMRAM. Work on ACPI and SMI (System Management Interrupt) handlers as further routes to undermine 'trusted computing' assumptions followed at TRUST 2009 and in the Journal of Computer Virology (2010), and was also explored in a book chapter, 'On the Limits of Hypervisor- and Virtual Machine Monitor-Based Isolation' (Towards Hardware-Intrinsic Security, 2010).</p><p>By 2011, with DCSSI having been folded into the newly created Agence nationale de la s\u00e9curit\u00e9 des syst\u00e8mes d'information (ANSSI) on 7 July 2009, Duflot's affiliation on subsequent publications shifted accordingly. That year, with Yves-Alexis Perez and Benjamin Morin, he published 'What If You Can't Trust Your Network Card?' at RAID 2011, demonstrating that a vulnerability in a network adapter's ASF remote-administration firmware feature could be used to plant a DMA-based backdoor in the OS kernel, opening a reverse shell on a crafted ICMP packet; a related CanSecWest 2011 talk, 'Run-time firmware integrity verification,' discussed countermeasures such as IOMMU-based protections. No further publicly documented publications or talks by Duflot have been verified beyond this period in the sources consulted for this article, and no independent biographical page (e.g., a dedicated Wikipedia entry) was found to exist for him.</p>"
+    "overview": "<p>Loïc Duflot is a French computer security researcher whose work, carried out while employed at France's Direction Centrale de la Sécurité des Systèmes d'Information (DCSSI) and later its successor agency ANSSI, focused on a then-underexplored area of offensive security: showing that x86 processor and PC chipset features, used exactly as documented, could be leveraged to defeat operating-system and hypervisor security models without relying on any implementation bug.</p><p>His best-known result was presented in March 2006 at the CanSecWest conference in Vancouver, in a talk co-authored with Daniel Etiemble and Olivier Grumelard titled 'Security Issues Related to Pentium System Management Mode.' The team demonstrated that System Management Mode (SMM) — a highly privileged x86 execution mode originally intended for firmware-level tasks such as power management — could be entered by an attacker with sufficient initial privileges to escalate to full control of the machine, including a proof-of-concept 'root to kernel' privilege escalation on OpenBSD running in its hardened 'Highly Secure' securelevel mode, and a related exploit against NetBSD. The underlying issue was that on most tested motherboards the chipset's SMRAM lock bit (D_LCK) was not actually set, leaving the memory region backing SMM unprotected from tampering by a sufficiently privileged local process. Following the presentation, Intel reportedly opened a consultation with BIOS vendors to get the lock bit set correctly. The same research was also presented in French at SSTIC 2006 (1 June 2006, with Etiemble and Grumelard) and published in MISC magazine issue 26.</p><p>Duflot continued this line of work throughout a doctoral thesis, 'Contribution à la sécurité des systèmes d'exploitation et des microprocesseurs,' publicly defended on 18 October 2007 at Université Paris-Sud (Paris XI) under Daniel Etiemble, with a jury that included Jacques Stern as president. The thesis extended the SMM attacks to x86-64 architectures and examined further hardware/software security inconsistencies. In 2007 he presented, with Laurent Absil at PacSec, work showing that chipset I/O mechanisms — the AGP graphics aperture and UHCI-compliant USB host controllers — could be used from application level to break the isolation provided by Intel VT-x virtualization, again without exploiting any coding flaw.</p><p>He kept returning to SMM and firmware trust issues in subsequent years: a 2008 ESORICS paper (later expanded in the Journal of Computer Virology) surveyed CPU bugs and backdoors and their security consequences; at CanSecWest 2009, with Olivier Levillain, Benjamin Morin and Olivier Grumelard, he presented 'Getting into the SMRAM: SMM Reloaded,' showing that even when the SMRAM lock bit was correctly set, cache-poisoning techniques could still allow an attacker to write to SMRAM. Work on ACPI and SMI (System Management Interrupt) handlers as further routes to undermine 'trusted computing' assumptions followed at TRUST 2009 and in the Journal of Computer Virology (2010), and was also explored in a book chapter, 'On the Limits of Hypervisor- and Virtual Machine Monitor-Based Isolation' (Towards Hardware-Intrinsic Security, 2010).</p><p>By 2011, with DCSSI having been folded into the newly created Agence nationale de la sécurité des systèmes d'information (ANSSI) on 7 July 2009, Duflot's affiliation on subsequent publications shifted accordingly. That year, with Yves-Alexis Perez and Benjamin Morin, he published 'What If You Can't Trust Your Network Card?' at RAID 2011, demonstrating that a vulnerability in a network adapter's ASF remote-administration firmware feature could be used to plant a DMA-based backdoor in the OS kernel, opening a reverse shell on a crafted ICMP packet; a related CanSecWest 2011 talk, 'Run-time firmware integrity verification,' discussed countermeasures such as IOMMU-based protections. No further publicly documented publications or talks by Duflot have been verified beyond this period in the sources consulted for this article, and no independent biographical page (e.g., a dedicated Wikipedia entry) was found to exist for him.</p>"
   },
   "timeline": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "date": "2006",
-      "event": "Publishes 'S\u00e9curit\u00e9 logicielle et fonctionnalit\u00e9s mat\u00e9rielles: quelle coh\u00e9rence?' in MISC magazine, issue 26, with Etiemble and Grumelard."
+      "event": "Publishes 'Sécurité logicielle et fonctionnalités matérielles: quelle cohérence?' in MISC magazine, issue 26, with Etiemble and Grumelard."
     },
     {
       "date": "2007",
@@ -40,7 +40,7 @@
     },
     {
       "date": "2007-10-18",
-      "event": "Publicly defends his PhD thesis, 'Contribution \u00e0 la s\u00e9curit\u00e9 des syst\u00e8mes d'exploitation et des microprocesseurs,' at Universit\u00e9 Paris-Sud (Paris XI)."
+      "event": "Publicly defends his PhD thesis, 'Contribution à la sécurité des systèmes d'exploitation et des microprocesseurs,' at Université Paris-Sud (Paris XI)."
     },
     {
       "date": "2008",
@@ -48,7 +48,7 @@
     },
     {
       "date": "2009-07-07",
-      "event": "DCSSI, Duflot's employer, is reorganized into the new Agence nationale de la s\u00e9curit\u00e9 des syst\u00e8mes d'information (ANSSI)."
+      "event": "DCSSI, Duflot's employer, is reorganized into the new Agence nationale de la sécurité des systèmes d'information (ANSSI)."
     },
     {
       "date": "2009-03",
@@ -74,7 +74,7 @@
   "relatedEvents": [],
   "sources": [
     {
-      "title": "DBLP: Lo\u00efc Duflot (author page)",
+      "title": "DBLP: Loïc Duflot (author page)",
       "url": "https://dblp.org/pid/19/4917.html"
     },
     {
@@ -82,7 +82,7 @@
       "url": "http://web.archive.org/web/20160408094328/http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/sstic2006-duflot-papier.pdf"
     },
     {
-      "title": "PhD thesis (via Wayback Machine): Contribution \u00e0 la s\u00e9curit\u00e9 des syst\u00e8mes d'exploitation et des microprocesseurs",
+      "title": "PhD thesis (via Wayback Machine): Contribution à la sécurité des systèmes d'exploitation et des microprocesseurs",
       "url": "http://web.archive.org/web/20110717035655/http://www.ssi.gouv.fr/archive/fr/sciences/fichiers/lti/these-duflot.pdf"
     },
     {
@@ -131,14 +131,15 @@
     "sourcesCount": 13,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
-  "name": "Lo\u00efc Duflot",
+  "name": "Loïc Duflot",
   "born": null,
   "died": null,
   "knownFor": [
     "First public demonstration (CanSecWest 2006, with Daniel Etiemble and Olivier Grumelard) that x86 System Management Mode (SMM) could be misused for local privilege escalation, bypassing OpenBSD's 'securelevel' protections",
-    "PhD thesis 'Contribution \u00e0 la s\u00e9curit\u00e9 des syst\u00e8mes d'exploitation et des microprocesseurs', defended 18 October 2007 at Universit\u00e9 Paris-Sud (Paris XI) under advisor Daniel Etiemble",
+    "PhD thesis 'Contribution à la sécurité des systèmes d'exploitation et des microprocesseurs', defended 18 October 2007 at Université Paris-Sud (Paris XI) under advisor Daniel Etiemble",
     "'Getting into the SMRAM: SMM Reloaded' (CanSecWest 2009), showing how the SMRAM lock bit (D_LCK) could be circumvented via memory-cache poisoning even after vendors patched the original 2006 issue",
     "PacSec 2007 talk with Laurent Absil showing chipset I/O features (AGP graphics aperture, UHCI USB controllers) could bypass Intel VT-x virtualization isolation",
     "Research on ACPI/SMI handlers and hypervisor-isolation limits (ESORICS 2008, TRUST 2009, Journal of Computer Virology 2009-2010)",

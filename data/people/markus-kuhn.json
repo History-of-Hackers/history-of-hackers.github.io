@@ -7,7 +7,16 @@
   "born": "1971",
   "died": null,
   "era": "1990s-Present",
-  "tags": ["tempest", "compromising-emanations", "side-channel", "cryptography", "unicode-utf8", "hardware-security", "academic-research", "smartcard-security"],
+  "tags": [
+    "tempest",
+    "compromising-emanations",
+    "side-channel",
+    "cryptography",
+    "unicode-utf8",
+    "hardware-security",
+    "academic-research",
+    "smartcard-security"
+  ],
   "summary": "Markus Kuhn is a German-born computer scientist and Associate Professor at the University of Cambridge Department of Computer Science and Technology, known for foundational research on compromising emanations (TEMPEST-style electromagnetic eavesdropping), hardware tamper resistance, and multimedia/digital watermarking security.",
   "whyThisMatters": "Kuhn's work turned informal folklore about electronic eavesdropping via stray electromagnetic emissions into rigorous, published science, most notably his PhD research on reconstructing screen images from radio-frequency and even optical emanations of CRT and later flat-panel displays. His 'Soft Tempest' concept and countermeasure fonts influenced how governments, financial institutions, and hardware designers think about information leakage through unintentional signals. He also contributed practical security tools used widely in the security research community, including the StirMark benchmark for digital watermarking robustness and the OTPW one-time password system, and helped shape early Unicode/UTF-8 support on Unix systems.",
   "knownFor": [
@@ -23,17 +32,50 @@
     "overview": "<h2>Background</h2><p>Markus Kuhn is a German-born computer scientist specializing in computer security, with particular emphasis on hardware and signal-processing aspects of the field. He studied at the University of Erlangen-Nuremberg in Germany, earning a Diplom-Informatiker degree, and later received a Fulbright scholarship to pursue a Master of Science degree at Purdue University in the United States. He subsequently moved to the University of Cambridge, where he completed a PhD under the supervision of security researcher Ross J. Anderson. His doctoral thesis, titled \"Compromising Emanations: Eavesdropping Risks of Computer Displays,\" was completed in 2002 and became a foundational reference in the field of electromagnetic side-channel security.</p><h2>Compromising Emanations and TEMPEST Research</h2><p>Kuhn is best known for his research into so-called \"compromising emanations,\" the unintentional electromagnetic, optical, or acoustic signals emitted by electronic equipment that can be intercepted to reconstruct the information being processed. Building on classified government TEMPEST work that had previously been largely undocumented in the open academic literature, Kuhn published detailed, peer-reviewed studies demonstrating that video displays could be eavesdropped upon at a distance. His 1998 paper \"Soft Tempest: Hidden Data Transmission Using Electromagnetic Emanations,\" co-authored with Ross Anderson, introduced both a method of covertly exfiltrating data via deliberately shaped electromagnetic emissions and a set of software-based countermeasures, including specially designed \"Tempest fonts\" intended to reduce the radiated information content of displayed text. In 2002 he presented \"Optical Time-Domain Eavesdropping Risks of CRT Displays\" at the IEEE Symposium on Security and Privacy, showing that the light reflected from a CRT monitor, even from indirect reflections in a room, could be used to reconstruct the displayed image. He extended this line of work to flat-panel and LCD displays in subsequent publications, including analyses of electromagnetic eavesdropping risks of flat-panel displays and, later, compromising emanations from LCD television sets and digital video interfaces such as DisplayPort.</p><h2>Hardware Security and Tamper Resistance</h2><p>Alongside his emanations research, Kuhn has published extensively on the physical security of hardware, including smartcards and secure microcontrollers. His work with Oliver Kömmerling on \"Design Principles for Tamper-Resistant Smartcard Processors,\" presented at the USENIX Smartcard Technology Workshop, examined the practical vulnerabilities of chip-based security tokens to physical probing and other invasive attacks. He also demonstrated attacks against secure microcontrollers used in commercial products, including analyses relevant to conditional-access and pay-television systems. This body of work contributed to the broader academic understanding of how attackers with physical access can defeat cryptographic hardware that is nominally tamper-resistant.</p><h2>Digital Watermarking, Authentication, and Internationalization Tools</h2><p>Kuhn contributed several widely used practical tools to the security research community. StirMark, which he co-developed, became a standard benchmark for testing the robustness of digital watermarking and steganography schemes against distortion and attack. He also authored OTPW, a one-time password authentication package for Unix-like systems designed to protect against password sniffing on untrusted networks. Earlier in his career, Kuhn was an early contributor to the adoption of Unicode and the UTF-8 encoding on Linux and other Unix systems, including work extending the X Window System's misc-fixed bitmap fonts to support Unicode character sets, which helped enable practical multilingual computing on free and open-source operating systems during the 1990s.</p><h2>Later Research and Public Contributions</h2><p>In subsequent years, Kuhn's research expanded into wireless and positioning security, including work on RFID distance-bounding protocols intended to prevent relay attacks against proximity-based authentication systems, and analyses of attacks on time-of-flight distance-bounding channels. As a recognized expert in electronic emissions and signal analysis, he was called upon in 2010 to provide technical assessment of the ADE 651, a handheld device marketed as a bomb and explosives detector and sold to security forces in Iraq and elsewhere; independent technical analysis, to which Kuhn's expertise was relevant, found the device incapable of detecting explosives, contributing to its being characterized as fraudulent by investigators and courts.</p><h2>Academic Position and Legacy</h2><p>Kuhn holds a position as Associate Professor in the Department of Computer Science and Technology at the University of Cambridge and is a Fellow of Wolfson College, Cambridge. He teaches undergraduate courses in cryptography and digital signal processing and supervises graduate research in computer security. His long-running personal TEMPEST and compromising-emanations research pages have served for decades as widely cited reference material for security researchers, journalists, and policymakers seeking to understand electromagnetic eavesdropping risks. Kuhn's combination of rigorous academic publication and practical, freely available tools has made his work foundational to the modern understanding of hardware side-channel security, influencing both defensive engineering practices and subsequent academic research into emanation security across CRT, LCD, and digital display technologies.</p>"
   },
   "timeline": [
-    { "date": "1971", "event": "Born in Germany." },
-    { "date": "1989", "event": "Won a gold medal representing West Germany at the International Olympiad in Informatics." },
-    { "date": "1996", "event": "Completed a Diplom-Informatiker degree at the University of Erlangen-Nuremberg, Germany." },
-    { "date": "1997", "event": "Received an MSc from Purdue University in the United States under a Fulbright scholarship." },
-    { "date": "1998", "event": "Published \"Soft Tempest: Hidden Data Transmission Using Electromagnetic Emanations\" with Ross Anderson at the Information Hiding Workshop." },
-    { "date": "1999", "event": "Co-published \"Design Principles for Tamper-Resistant Smartcard Processors\" at the USENIX Smartcard Technology Workshop." },
-    { "date": "2002", "event": "Completed his PhD at the University of Cambridge on compromising emanations and eavesdropping risks of computer displays; presented \"Optical Time-Domain Eavesdropping Risks of CRT Displays\" at the IEEE Symposium on Security and Privacy." },
-    { "date": "2004", "event": "Published research on electromagnetic eavesdropping risks of flat-panel displays." },
-    { "date": "2005", "event": "Co-published an RFID distance-bounding protocol at IEEE SecureComm." },
-    { "date": "2010", "event": "His expertise in signal analysis was relevant to public investigations into the ADE 651 fake bomb-detector device used in Iraq." },
-    { "date": "2013", "event": "Published research on compromising emanations of LCD TV sets in IEEE Transactions on Electromagnetic Compatibility." }
+    {
+      "date": "1971",
+      "event": "Born in Germany."
+    },
+    {
+      "date": "1989",
+      "event": "Won a gold medal representing West Germany at the International Olympiad in Informatics."
+    },
+    {
+      "date": "1996",
+      "event": "Completed a Diplom-Informatiker degree at the University of Erlangen-Nuremberg, Germany."
+    },
+    {
+      "date": "1997",
+      "event": "Received an MSc from Purdue University in the United States under a Fulbright scholarship."
+    },
+    {
+      "date": "1998",
+      "event": "Published \"Soft Tempest: Hidden Data Transmission Using Electromagnetic Emanations\" with Ross Anderson at the Information Hiding Workshop."
+    },
+    {
+      "date": "1999",
+      "event": "Co-published \"Design Principles for Tamper-Resistant Smartcard Processors\" at the USENIX Smartcard Technology Workshop."
+    },
+    {
+      "date": "2002",
+      "event": "Completed his PhD at the University of Cambridge on compromising emanations and eavesdropping risks of computer displays; presented \"Optical Time-Domain Eavesdropping Risks of CRT Displays\" at the IEEE Symposium on Security and Privacy."
+    },
+    {
+      "date": "2004",
+      "event": "Published research on electromagnetic eavesdropping risks of flat-panel displays."
+    },
+    {
+      "date": "2005",
+      "event": "Co-published an RFID distance-bounding protocol at IEEE SecureComm."
+    },
+    {
+      "date": "2010",
+      "event": "His expertise in signal analysis was relevant to public investigations into the ADE 651 fake bomb-detector device used in Iraq."
+    },
+    {
+      "date": "2013",
+      "event": "Published research on compromising emanations of LCD TV sets in IEEE Transactions on Electromagnetic Compatibility."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -41,15 +83,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Markus Kuhn (computer scientist) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Markus_Kuhn_(computer_scientist)" },
-    { "title": "Dr Markus Kuhn - University of Cambridge Computer Laboratory homepage", "url": "https://www.cl.cam.ac.uk/~mgk25/" },
-    { "title": "Markus Kuhn - Publications list, University of Cambridge", "url": "https://www.cl.cam.ac.uk/~mgk25/publications.html" }
+    {
+      "title": "Markus Kuhn (computer scientist) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Markus_Kuhn_(computer_scientist)"
+    },
+    {
+      "title": "Dr Markus Kuhn - University of Cambridge Computer Laboratory homepage",
+      "url": "https://www.cl.cam.ac.uk/~mgk25/"
+    },
+    {
+      "title": "Markus Kuhn - Publications list, University of Cambridge",
+      "url": "https://www.cl.cam.ac.uk/~mgk25/publications.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -13,7 +13,7 @@
   "summary": "In 1988, a Cornell graduate student unleashed the first major internet worm, accidentally crippling a significant portion of the early internet and leading to the first felony conviction under the Computer Fraud and Abuse Act.",
   "whyThisMatters": "In 1988, a Cornell graduate student unleashed the first major internet worm, accidentally crippling a significant portion of the early internet and leading to the first felony conviction under the Computer Fraud and Abuse Act.",
   "sections": {
-    "overview": "<p>On <strong>November 2, 1988</strong>, the internet \u2014 then a small network of academic and military computers \u2014 experienced its first major security crisis. The <strong>Morris Worm</strong>, authored by Cornell University graduate student Robert Tappan Morris, began to spread rapidly.</p>\n<p>Morris claimed his intention was not to cause damage but to gauge the size of the internet. However, a flaw in the worm's propagation mechanism caused it to infect machines multiple times, leading to a denial-of-service condition that crippled an estimated 10% of the 60,000 computers then connected to the internet.</p>\n<p>The incident served as a wake-up call. The cleanup required significant coordination and effort, leading directly to the formation of the first <strong>Computer Emergency Response Team (CERT/CC)</strong> at Carnegie Mellon University. Morris was convicted under the 1986 Computer Fraud and Abuse Act, making him the first person to be successfully prosecuted under the law. The event marked a turning point, signaling the end of an era of implicit trust on the internet and the beginning of the field of network security as we know it.</p>"
+    "overview": "<p>On <strong>November 2, 1988</strong>, the internet — then a small network of academic and military computers — experienced its first major security crisis. The <strong>Morris Worm</strong>, authored by Cornell University graduate student Robert Tappan Morris, began to spread rapidly.</p>\n<p>Morris claimed his intention was not to cause damage but to gauge the size of the internet. However, a flaw in the worm's propagation mechanism caused it to infect machines multiple times, leading to a denial-of-service condition that crippled an estimated 10% of the 60,000 computers then connected to the internet.</p>\n<p>The incident served as a wake-up call. The cleanup required significant coordination and effort, leading directly to the formation of the first <strong>Computer Emergency Response Team (CERT/CC)</strong> at Carnegie Mellon University. Morris was convicted under the 1986 Computer Fraud and Abuse Act, making him the first person to be successfully prosecuted under the law. The event marked a turning point, signaling the end of an era of implicit trust on the internet and the beginning of the field of network security as we know it.</p>"
   },
   "timeline": [
     {
@@ -48,6 +48,7 @@
     "sourcesCount": 3,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   }
 }

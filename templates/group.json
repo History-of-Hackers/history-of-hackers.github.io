@@ -18,10 +18,17 @@
     "legacy": ""
   },
   "members": [
-    { "name": "", "role": "", "personRef": "slug-if-has-own-page-or-null" }
+    {
+      "name": "",
+      "role": "",
+      "personRef": "slug-if-has-own-page-or-null"
+    }
   ],
   "timeline": [
-    { "year": "YYYY", "event": "" }
+    {
+      "year": "YYYY",
+      "event": ""
+    }
   ],
   "relatedPeople": [],
   "relatedTools": [],
@@ -43,6 +50,7 @@
     "lastReviewed": null,
     "reviewStatus": "TODO | RESEARCHING | VERIFIED | ARTICLE_READY | PUBLISHED",
     "reviewer": null,
-    "impactLevel": "FOUNDATIONAL | MAJOR | NOTABLE"
+    "impactLevel": "FOUNDATIONAL | MAJOR | NOTABLE",
+    "createdBy": "Your Name (shown as 'Created by' on the page)"
   }
 }

@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["vulnerability research", "bug bounty", "zero-day", "reverse engineering", "exploit development", "pwn2own", "vulnerability market"],
+  "tags": [
+    "vulnerability research",
+    "bug bounty",
+    "zero-day",
+    "reverse engineering",
+    "exploit development",
+    "pwn2own",
+    "vulnerability market"
+  ],
   "summary": "Aaron Portnoy is an American security researcher who led TippingPoint's Zero Day Initiative (ZDI) bug-bounty program and directed the first several Pwn2Own hacking competitions, before co-founding the commercial zero-day research firm Exodus Intelligence in 2012.",
   "whyThisMatters": "Portnoy helped build two of the structures that still shape how the security industry handles undisclosed vulnerabilities: the Zero Day Initiative, one of the earliest large vendor-agnostic bug-bounty programs, and Pwn2Own, which turned live browser and device exploitation into a recurring public spectacle. His subsequent move to found Exodus Intelligence, a firm that sells zero-day vulnerability intelligence directly to clients rather than reporting flaws to vendors, made him an early and prominent figure in the controversial commercial exploit-acquisition market that TIME magazine profiled as part of a broader \"zero-day economy.\" His later work applying offensive-security methodology to AI systems reflects the continued evolution of vulnerability research into new technology domains.",
   "knownFor": [
@@ -22,11 +30,26 @@
     "overview": "<h2>Background</h2><p>Aaron Portnoy is an American computer security researcher known for his work in vulnerability research, reverse engineering, and exploit development. According to a 2014 TIME magazine profile, Portnoy's early interest in hacking included exploiting a zero-day vulnerability against his high school, the Massachusetts Academy of Math and Science, an incident he reportedly repeated the following year before being caught. He went on to attend Northeastern University, interning at the security firm TippingPoint starting around 2005, before leaving school in 2006 to work there full-time.</p><h2>Zero Day Initiative and Pwn2Own</h2><p>At TippingPoint, Portnoy became a central figure in the Zero Day Initiative (ZDI), a program originally launched in 2005 by TippingPoint researchers David Endler and Pedram Amini that paid independent researchers for previously unknown (\"zero-day\") vulnerabilities, which TippingPoint then used to protect its intrusion-prevention customers while coordinating disclosure with affected vendors. Portnoy went on to head research for the program. He is credited with directing and judging the first six iterations of Pwn2Own, the live hacking competition ZDI established in which researchers publicly demonstrate working exploits against widely used browsers, operating systems, and devices in exchange for cash prizes and the compromised hardware. ZDI and Pwn2Own continued after TippingPoint's ownership passed through 3Com and Hewlett-Packard, and the program is today operated by Trend Micro, which acquired it in 2015.</p><h2>Founding Exodus Intelligence</h2><p>In June 2012, Portnoy left TippingPoint's ZDI and co-founded Exodus Intelligence together with fellow former ZDI researcher Brandon Edwards. Based in Austin, Texas, Exodus Intelligence took a different approach than ZDI: rather than coordinating disclosure with software vendors, the firm operated a subscription vulnerability-intelligence service, reportedly charging clients roughly $200,000 a year for access to a defined number of zero-day vulnerabilities accompanied by working exploit code. Coverage in outlets such as CSO Online and Threatpost at the time framed Exodus as one of the first firms to commercialize zero-day research directly, occupying a position at the center of an emerging and controversial \"vulnerability market\" in which exploits could be sold to government, corporate, or other paying clients rather than disclosed to affected vendors. In its 2014 cover feature \"World War Zero,\" TIME magazine profiled Portnoy and Exodus Intelligence as emblematic of this market, quoting Portnoy describing the firm's approach to exploit reliability and its deliberate distance from how customers ultimately used the vulnerabilities it sold.</p><h2>Later Career and Tools</h2><p>Beyond his company-founding work, Portnoy authored the IDA Toolbag, a plugin for the IDA Pro disassembler intended to aid reverse engineers working with complex binaries and control flows, and published vulnerability and exploitation research in venues including the hacker journal Phrack. He subsequently built the security research program at Randori, an attack-surface-management and automated red-teaming company that was acquired by IBM in 2022, and continued in research leadership roles at IBM. He has spoken at numerous security conferences, including Black Hat, RECON, and Microsoft BlueHat, on topics spanning exploit development, reverse-engineering methodology, and, more recently, the security of AI and large language model systems.</p><h2>Significance</h2><p>Portnoy's career traces a broader shift in vulnerability research: from vendor-facing bug-bounty coordination at ZDI and the public spectacle of Pwn2Own, to the direct commercialization of zero-day exploits at Exodus Intelligence, to applying offensive-security techniques to the newer domain of AI system security. He has been described in industry and mainstream press coverage as an early and influential participant in the modern zero-day exploit trade, and his later work, including serving as an inaugural \"Hacker Fellow\" at Dartmouth College and holding a leadership role at the AI-security firm Mindgard, reflects the continued application of that research background to emerging technology.</p>"
   },
   "timeline": [
-    { "date": "2005-2006", "event": "Interned and then worked full-time at TippingPoint, joining research efforts tied to the newly launched Zero Day Initiative (ZDI)." },
-    { "date": "2007", "event": "Directed the first Pwn2Own hacking competition, organized under TippingPoint's Zero Day Initiative." },
-    { "date": "2012-06", "event": "Co-founded Exodus Intelligence with Brandon Edwards after leaving ZDI, launching a commercial zero-day vulnerability intelligence service." },
-    { "date": "2014", "event": "Profiled by TIME magazine in the cover feature 'World War Zero: How Hackers Fight to Steal Your Secrets' about the zero-day exploit market." },
-    { "date": "2022", "event": "Randori, the attack-surface-management company where Portnoy had built the security research program, was acquired by IBM." }
+    {
+      "date": "2005-2006",
+      "event": "Interned and then worked full-time at TippingPoint, joining research efforts tied to the newly launched Zero Day Initiative (ZDI)."
+    },
+    {
+      "date": "2007",
+      "event": "Directed the first Pwn2Own hacking competition, organized under TippingPoint's Zero Day Initiative."
+    },
+    {
+      "date": "2012-06",
+      "event": "Co-founded Exodus Intelligence with Brandon Edwards after leaving ZDI, launching a commercial zero-day vulnerability intelligence service."
+    },
+    {
+      "date": "2014",
+      "event": "Profiled by TIME magazine in the cover feature 'World War Zero: How Hackers Fight to Steal Your Secrets' about the zero-day exploit market."
+    },
+    {
+      "date": "2022",
+      "event": "Randori, the attack-surface-management company where Portnoy had built the security research program, was acquired by IBM."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -34,17 +57,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Former ZDI researchers form new company called Exodus Intelligence | CSO Online", "url": "https://www.csoonline.com/article/2135213/former-zdi-researchers-form-new-company-called-exodus-intelligence.html" },
-    { "title": "Former Zero Day Initiative Researchers Form New Firm Exodus Intelligence | Threatpost", "url": "https://threatpost.com/former-zero-day-initiative-researchers-form-new-firm-exodus-intelligence-061812/76704/" },
-    { "title": "World War Zero: How Hackers Fight to Steal Your Secrets | TIME", "url": "https://time.com/2972317/world-war-zero-how-hackers-fight-to-steal-your-secrets/" },
-    { "title": "aaron(7) - hacker, researcher, reverse engineer (personal site)", "url": "https://www.aaronportnoy.com/" },
-    { "title": "Zero Day Initiative | Wikipedia", "url": "https://en.wikipedia.org/wiki/Zero_Day_Initiative" }
+    {
+      "title": "Former ZDI researchers form new company called Exodus Intelligence | CSO Online",
+      "url": "https://www.csoonline.com/article/2135213/former-zdi-researchers-form-new-company-called-exodus-intelligence.html"
+    },
+    {
+      "title": "Former Zero Day Initiative Researchers Form New Firm Exodus Intelligence | Threatpost",
+      "url": "https://threatpost.com/former-zero-day-initiative-researchers-form-new-firm-exodus-intelligence-061812/76704/"
+    },
+    {
+      "title": "World War Zero: How Hackers Fight to Steal Your Secrets | TIME",
+      "url": "https://time.com/2972317/world-war-zero-how-hackers-fight-to-steal-your-secrets/"
+    },
+    {
+      "title": "aaron(7) - hacker, researcher, reverse engineer (personal site)",
+      "url": "https://www.aaronportnoy.com/"
+    },
+    {
+      "title": "Zero Day Initiative | Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero_Day_Initiative"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

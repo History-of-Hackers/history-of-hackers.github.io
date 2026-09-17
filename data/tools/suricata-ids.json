@@ -4,18 +4,41 @@
   "title": "Suricata",
   "slug": "suricata-ids",
   "era": "2009-Present",
-  "tags": ["network security", "ids", "ips", "open source", "network monitoring", "intrusion detection", "oisf"],
+  "tags": [
+    "network security",
+    "ids",
+    "ips",
+    "open source",
+    "network monitoring",
+    "intrusion detection",
+    "oisf"
+  ],
   "summary": "Suricata is a free and open-source network intrusion detection (IDS), intrusion prevention (IPS), and network security monitoring (NSM) engine developed by the Open Information Security Foundation (OISF) and its community.",
   "whyThisMatters": "Suricata emerged as a major open-source alternative and complement to the long-dominant Snort engine, introducing multi-threading, protocol-aware logging, and native support for community rule formats at a time when network defenders needed higher-throughput inspection. Its development was seeded with United States Department of Homeland Security funding, an unusual example of government-backed investment in open-source security tooling. Today it underpins commercial and open-source security monitoring platforms (including Security Onion and many managed detection services) and remains one of the most widely deployed network IDS/IPS engines alongside Snort and Zeek.",
   "sections": {
     "overview": "<h2>Background</h2><p>Suricata is an open-source network intrusion detection system (IDS), intrusion prevention system (IPS), and network security monitoring (NSM) engine. It inspects network traffic in real time, applies signature-based and protocol-aware detection rules, and can act either passively (alerting on suspicious traffic) or inline (blocking traffic as a firewall-like IPS). The project is developed by the Open Information Security Foundation (OISF), a non-profit organization, together with an open-source community of contributors.</p><h2>Origins</h2><p>Work on Suricata began in 2007, started by developers Victor Julien and Matt Jonkman, who were later joined by William Metcalf. The stated goal was to build a next-generation IDS/IPS engine that could take advantage of modern multi-core hardware and provide richer protocol-level visibility than existing tools of the era. A first public beta of the software was released on New Year's Eve 2009, and it drew quick interest from the network security community.</p><h2>Formation of OISF</h2><p>Following the beta's positive reception, Matt Jonkman worked through 2010 to secure funding from the United States Department of Homeland Security (DHS) to formally establish the Open Information Security Foundation as a 501(c)(3) non-profit. OISF was organized specifically to build and maintain Suricata, assembling a multi-national group of security software developers alongside a consortium of cybersecurity companies and government stakeholders who wanted an open, vendor-neutral IDS/IPS engine. Suricata's first standard (non-beta) release followed in July 2010.</p><h2>Technical design and features</h2><p>Suricata is written primarily in C, with components implemented in Rust for parsing certain protocols, and supporting tooling in Python and Lua. It runs on Linux, FreeBSD, other UNIX variants, macOS, and Windows, and is released under the GNU General Public License (GPL-2.0). Distinguishing features include native multi-threading for higher packet-processing throughput, automatic protocol detection independent of port numbers, deep logging of protocols such as HTTP, DNS, TLS, and SMB, file extraction from network streams (via FTP, HTTP, SMTP, and SMB), PCAP capture for later analysis in tools like Wireshark, and structured JSON output (EVE JSON) that integrates readily with log-analysis and SIEM platforms. Suricata is also compatible with widely used open-source rule sets, including those in the Snort/Suricata VRT-style signature language and community-maintained Emerging Threats rules.</p><h2>Adoption and ecosystem</h2><p>Since its initial release, Suricata has become one of the most widely deployed open-source network detection engines, used by enterprises, government agencies, managed security service providers, and researchers. It forms a core component of popular open-source security monitoring distributions such as Security Onion, and is frequently deployed alongside or as an alternative to Snort and Zeek in network security monitoring stacks. The project has continued to release major updates on a roughly biennial cycle, expanding protocol support, performance, and its Rust-based codebase.</p><h2>Significance</h2><p>Suricata is notable both as a technical advance in open-source network defense — bringing multi-threaded, protocol-aware inspection to a field long dominated by single-threaded engines like Snort — and as an example of a security tool whose founding was directly funded by a national government (DHS) to serve as neutral, community-governed infrastructure. It remains actively maintained by OISF and its contributor community and continues to be a standard reference engine cited in network intrusion detection research and commercial security products.</p>"
   },
   "timeline": [
-    { "date": "2007", "event": "Development of Suricata begins, led by Victor Julien and Matt Jonkman, later joined by William Metcalf." },
-    { "date": "2009-12-31", "event": "First public beta release of Suricata is published on New Year's Eve." },
-    { "date": "2010", "event": "The Open Information Security Foundation (OISF) is formally established as a non-profit, with initial funding secured from the U.S. Department of Homeland Security." },
-    { "date": "2010-07", "event": "Suricata's first standard (non-beta) release is published." },
-    { "date": "2021", "event": "OISF's internal development team has grown to 14 members, reflecting the project's expanded scope and operations." }
+    {
+      "date": "2007",
+      "event": "Development of Suricata begins, led by Victor Julien and Matt Jonkman, later joined by William Metcalf."
+    },
+    {
+      "date": "2009-12-31",
+      "event": "First public beta release of Suricata is published on New Year's Eve."
+    },
+    {
+      "date": "2010",
+      "event": "The Open Information Security Foundation (OISF) is formally established as a non-profit, with initial funding secured from the U.S. Department of Homeland Security."
+    },
+    {
+      "date": "2010-07",
+      "event": "Suricata's first standard (non-beta) release is published."
+    },
+    {
+      "date": "2021",
+      "event": "OISF's internal development team has grown to 14 members, reflecting the project's expanded scope and operations."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -23,15 +46,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Suricata (software) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Suricata_(software)" },
-    { "title": "About - Suricata", "url": "https://suricata.io/about/" },
-    { "title": "OISF/suricata - GitHub", "url": "https://github.com/OISF/suricata" }
+    {
+      "title": "Suricata (software) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suricata_(software)"
+    },
+    {
+      "title": "About - Suricata",
+      "url": "https://suricata.io/about/"
+    },
+    {
+      "title": "OISF/suricata - GitHub",
+      "url": "https://github.com/OISF/suricata"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -1,1 +1,63 @@
-{"id":"steven-levy","type":"person","title":"Steven Levy","slug":"steven-levy","name":"Steven Levy","born":null,"died":null,"era":"1984-Present","tags":["author","hacker-culture","computing-history","books"],"summary":"Technology writer whose 1984 book Hackers: Heroes of the Computer Revolution documented formative hacker communities and popularized the phrase Hacker Ethic.","whyThisMatters":"Levy's reporting preserved an influential account of hacker culture across MIT, the Homebrew Computer Club, and early game programming.","knownFor":["Hackers: Heroes of the Computer Revolution","Crypto","Technology journalism"],"sections":{"overview":"<p>Steven Levy is a technology writer and author. His book <em>Hackers: Heroes of the Computer Revolution</em>, published in 1984, traced several generations of computer enthusiasts and described the Hacker Ethic.</p><h2>Historical record</h2><p>The book brought oral history and contemporary reporting together to document communities that had often left few formal records. It remains a widely cited starting point for studying the social history of computing and hacking.</p>"},"timeline":[{"date":"1984","event":"Publishes Hackers: Heroes of the Computer Revolution."},{"date":"2001","event":"Publishes Crypto, a history of public cryptography."}],"relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],"sources":[{"title":"Steven Levy: Hackers","url":"https://www.stevenlevy.com/hackers-heroes-of-the-computer-revolution"},{"title":"Steven Levy official site","url":"https://www.stevenlevy.com/"},{"title":"O'Reilly: Hackers 25th Anniversary Edition","url":"https://www.oreilly.com/pub/pr/2566"}],"editorial":{"verified":true,"sourcesCount":3,"lastReviewed":"2026-09-02","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-02"}}
+{
+  "id": "steven-levy",
+  "type": "person",
+  "title": "Steven Levy",
+  "slug": "steven-levy",
+  "name": "Steven Levy",
+  "born": null,
+  "died": null,
+  "era": "1984-Present",
+  "tags": [
+    "author",
+    "hacker-culture",
+    "computing-history",
+    "books"
+  ],
+  "summary": "Technology writer whose 1984 book Hackers: Heroes of the Computer Revolution documented formative hacker communities and popularized the phrase Hacker Ethic.",
+  "whyThisMatters": "Levy's reporting preserved an influential account of hacker culture across MIT, the Homebrew Computer Club, and early game programming.",
+  "knownFor": [
+    "Hackers: Heroes of the Computer Revolution",
+    "Crypto",
+    "Technology journalism"
+  ],
+  "sections": {
+    "overview": "<p>Steven Levy is a technology writer and author. His book <em>Hackers: Heroes of the Computer Revolution</em>, published in 1984, traced several generations of computer enthusiasts and described the Hacker Ethic.</p><h2>Historical record</h2><p>The book brought oral history and contemporary reporting together to document communities that had often left few formal records. It remains a widely cited starting point for studying the social history of computing and hacking.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1984",
+      "event": "Publishes Hackers: Heroes of the Computer Revolution."
+    },
+    {
+      "date": "2001",
+      "event": "Publishes Crypto, a history of public cryptography."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Steven Levy: Hackers",
+      "url": "https://www.stevenlevy.com/hackers-heroes-of-the-computer-revolution"
+    },
+    {
+      "title": "Steven Levy official site",
+      "url": "https://www.stevenlevy.com/"
+    },
+    {
+      "title": "O'Reilly: Hackers 25th Anniversary Edition",
+      "url": "https://www.oreilly.com/pub/pr/2566"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-02",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-02",
+    "createdBy": "Joas A Santos"
+  }
+}

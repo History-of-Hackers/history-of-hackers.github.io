@@ -1,0 +1,76 @@
+{
+  "id": "john-gilmore",
+  "type": "person",
+  "title": "John Gilmore",
+  "slug": "john-gilmore",
+  "name": "John Gilmore",
+  "born": 1955,
+  "died": null,
+  "era": "1980s-present",
+  "tags": [
+    "eff",
+    "cypherpunks",
+    "civil-liberties",
+    "free-software",
+    "des"
+  ],
+  "summary": "American programmer and activist who co-founded the Electronic Frontier Foundation, Cygnus Solutions, and the cypherpunks mailing list.",
+  "whyThisMatters": "Gilmore funded and hosted much of the infrastructure of the 1990s crypto and civil-liberties movement, including the DES cracker that ended export-grade encryption debates.",
+  "knownFor": [
+    "Co-founding the EFF",
+    "Co-founding the cypherpunks",
+    "EFF DES Cracker (1998)"
+  ],
+  "sections": {
+    "overview": "<p>John Gilmore is an American programmer and civil-liberties activist. He was the fifth employee of Sun Microsystems and later co-founded Cygnus Solutions in 1989, one of the first companies to build a business on free software support. He created the alt.* Usenet hierarchy and is often quoted for the observation that \"the Net interprets censorship as damage and routes around it.\"</p><h2>EFF and cypherpunks</h2><p>In 1990 Gilmore co-founded the Electronic Frontier Foundation with John Perry Barlow and Mitch Kapor. In 1992 he co-founded the cypherpunks mailing list, hosting it on his toad.com server. In 1998 he led the EFF project that built Deep Crack, a machine that recovered a DES key in 56 hours for under US$250,000, demonstrating the inadequacy of the 56-bit standard.</p><h2>Litigation</h2><p>Gilmore has repeatedly challenged government secrecy and identification requirements, including <em>Gilmore v. Gonzales</em>, which contested the unpublished rules requiring identification for domestic air travel.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1955",
+      "event": "Born in York, Pennsylvania."
+    },
+    {
+      "date": "1989",
+      "event": "Co-founds Cygnus Solutions."
+    },
+    {
+      "date": "1990-07",
+      "event": "Co-founds the Electronic Frontier Foundation."
+    },
+    {
+      "date": "1992-09",
+      "event": "Co-founds the cypherpunks mailing list."
+    },
+    {
+      "date": "1998-07",
+      "event": "EFF's Deep Crack recovers a DES key in 56 hours."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "EFF: 'Cracking DES' (1998)",
+      "url": "https://www.eff.org/press/releases/eff-des-cracker-machine-brings-honesty-crypto-debate"
+    },
+    {
+      "title": "John Gilmore's home page",
+      "url": "http://www.toad.com/gnu/"
+    },
+    {
+      "title": "Wikipedia: John Gilmore (activist)",
+      "url": "https://en.wikipedia.org/wiki/John_Gilmore_(activist)"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

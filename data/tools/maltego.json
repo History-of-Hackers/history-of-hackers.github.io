@@ -4,18 +4,41 @@
   "title": "Maltego",
   "slug": "maltego",
   "era": "2000s-Present",
-  "tags": ["osint", "link-analysis", "reconnaissance", "threat-intelligence", "digital-forensics", "kali-linux", "investigation-software"],
+  "tags": [
+    "osint",
+    "link-analysis",
+    "reconnaissance",
+    "threat-intelligence",
+    "digital-forensics",
+    "kali-linux",
+    "investigation-software"
+  ],
   "summary": "Maltego is a graphical link-analysis and open-source intelligence (OSINT) platform, originally developed by the company Paterva (now Maltego Technologies GmbH), used to map relationships between people, organizations, domains, and other entities for security research, threat intelligence, and investigations.",
   "whyThisMatters": "Maltego became one of the most widely adopted commercial OSINT platforms in the security industry, bundled by default with Kali Linux and used across penetration testing, cyber threat intelligence, and law-enforcement/open-source investigation workflows. Its \"transform\" architecture, which queries external data sources and renders results as an interactive entity graph, helped popularize graph-based link analysis as a standard technique in reconnaissance and OSINT tradecraft. Its adoption by government agencies, private-sector security teams, and open-source investigators (as documented in independent surveys and press coverage) illustrates the maturation of OSINT tooling from ad hoc scripts into productized investigation platforms.",
   "sections": {
     "overview": "<h2>Background</h2><p>Maltego is a link-analysis and open-source intelligence (OSINT) software platform that lets investigators graphically map relationships between real-world entities such as people, email addresses, domains, IP addresses, social media profiles, phone numbers, and organizations. The tool was originally developed by Paterva, a company whose branding and identity were later folded into Maltego Technologies GmbH, headquartered in Munich, Germany. The official Paterva domain now redirects visitors directly to maltego.com, reflecting this consolidation under the Maltego brand.</p><h2>How it works</h2><p>Maltego organizes information into \"entities\" (a person, a domain, an email address, a piece of infrastructure, and so on) and connects them into a visual graph. Data is pulled in through \"transforms\" -- modular queries that reach out to search engines, DNS records, WHOIS data, social networks, and other public or commercial data sources -- and the results are rendered as nodes and links so an analyst can visually trace connections that would be difficult to spot in raw text or spreadsheets. Kali Linux, one of the most widely used penetration-testing distributions, describes Maltego on its official tools page as \"an open source intelligence and forensics application\" and ships it by default as part of its information-gathering, reporting, and social-engineering toolsets.</p><h2>Product evolution</h2><p>Over time, the single desktop application expanded into a broader platform. According to Maltego's own website, the current product line includes Maltego Graph (the core desktop and browser-based link-analysis client, available in a free Community Edition as well as commercial tiers), Maltego Search (a quick OSINT lookup tool for emails, aliases, phone numbers, and domains), Maltego Monitor (real-time social media monitoring), Maltego Evidence (collection and preservation of social media evidence), and Maltego Data (curated OSINT and commercial data access), along with case-management and administration features aimed at teams and enterprise investigators.</p><h2>Adoption and use cases</h2><p>Maltego is used across several overlapping communities: penetration testers and red teams use it during the reconnaissance phase of an engagement to map an organization's external footprint; cyber threat intelligence analysts use it to pivot between indicators such as domains, IP addresses, and malware infrastructure; and open-source (OSINT) investigators, journalists, and law-enforcement analysts use it to visualize relationships between people, accounts, and organizations. Maltego's own marketing materials state that the platform is used by more than 200,000 users worldwide, including over 2,000 government organizations and more than 4,000 private companies, and that a majority of Dow 30 companies use it in some capacity -- figures that reflect the vendor's self-reported scale rather than independently audited numbers.</p><h2>Independent coverage and reception</h2><p>Maltego has been referenced repeatedly in independent security and investigative journalism as one of the standard tools in the OSINT toolkit. In a 2022 survey of open-source researchers published by the investigative outlet Bellingcat, Maltego was rated the third most-favored and second most-helpful tool among respondents, who described it as a graphical link-analysis tool useful for identifying hidden connections between people or organizations and consolidating investigation data in one place; the same survey also recorded criticism from some respondents that the tool could be complex to set up and that its output graphs sometimes required significant rework to be presentable. Maltego has also been cited by outlets such as CSO Online in roundups of top open-source intelligence tools, and by organizations including Mandiant in threat-intelligence competency frameworks, underscoring its position as an established, if not universally loved, tool in professional investigative and security workflows.</p><h2>Significance and legacy</h2><p>Maltego's lasting significance lies in how it helped normalize graph-based, transform-driven link analysis as a mainstream technique in both offensive security reconnaissance and open-source investigation, rather than leaving analysts to manually correlate data from disparate sources. Its long-standing inclusion in Kali Linux exposed generations of penetration testers and security students to structured OSINT methodology, while its commercial evolution into a broader investigation platform (spanning monitoring, evidence collection, and curated data access) mirrors the wider professionalization of OSINT and threat-intelligence tooling in the cybersecurity industry.</p>"
   },
   "timeline": [
-    { "date": "2000s", "event": "Maltego is created by the company Paterva as a desktop application for graphical open-source intelligence and link analysis." },
-    { "date": "2010s", "event": "Maltego becomes a default-included tool in the Kali Linux penetration-testing distribution, listed under information-gathering and OSINT categories." },
-    { "date": "2010s-2020s", "event": "Paterva's branding is consolidated under Maltego Technologies GmbH, based in Munich, Germany; the paterva.com domain is redirected to maltego.com." },
-    { "date": "2022-08", "event": "Bellingcat publishes a survey of open-source researchers in which Maltego is rated the third most-favored and second most-helpful investigative tool." },
-    { "date": "2020s", "event": "Maltego expands its product line beyond the original desktop client to include Maltego Graph, Search, Monitor, Evidence, and Data offerings for OSINT and threat-intelligence teams." }
+    {
+      "date": "2000s",
+      "event": "Maltego is created by the company Paterva as a desktop application for graphical open-source intelligence and link analysis."
+    },
+    {
+      "date": "2010s",
+      "event": "Maltego becomes a default-included tool in the Kali Linux penetration-testing distribution, listed under information-gathering and OSINT categories."
+    },
+    {
+      "date": "2010s-2020s",
+      "event": "Paterva's branding is consolidated under Maltego Technologies GmbH, based in Munich, Germany; the paterva.com domain is redirected to maltego.com."
+    },
+    {
+      "date": "2022-08",
+      "event": "Bellingcat publishes a survey of open-source researchers in which Maltego is rated the third most-favored and second most-helpful investigative tool."
+    },
+    {
+      "date": "2020s",
+      "event": "Maltego expands its product line beyond the original desktop client to include Maltego Graph, Search, Monitor, Evidence, and Data offerings for OSINT and threat-intelligence teams."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -23,17 +46,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Maltego - OSINT & Cyber Investigations Platform (official site)", "url": "https://www.maltego.com/" },
-    { "title": "Maltego | Kali Linux Tools", "url": "https://www.kali.org/tools/maltego/" },
-    { "title": "Maltego press mentions", "url": "https://www.maltego.com/press-mentions/" },
-    { "title": "These are the Tools Open Source Researchers Say They Need - Bellingcat", "url": "https://www.bellingcat.com/resources/2022/08/12/these-are-the-tools-open-source-researchers-say-they-need/" },
-    { "title": "Maltego: ferramenta mostra o quanto você está exposto na internet - WeLiveSecurity", "url": "https://www.welivesecurity.com/br/2023/05/12/maltego-mostra-o-quanto-voce-esta-exposto-na-internet/" }
+    {
+      "title": "Maltego - OSINT & Cyber Investigations Platform (official site)",
+      "url": "https://www.maltego.com/"
+    },
+    {
+      "title": "Maltego | Kali Linux Tools",
+      "url": "https://www.kali.org/tools/maltego/"
+    },
+    {
+      "title": "Maltego press mentions",
+      "url": "https://www.maltego.com/press-mentions/"
+    },
+    {
+      "title": "These are the Tools Open Source Researchers Say They Need - Bellingcat",
+      "url": "https://www.bellingcat.com/resources/2022/08/12/these-are-the-tools-open-source-researchers-say-they-need/"
+    },
+    {
+      "title": "Maltego: ferramenta mostra o quanto você está exposto na internet - WeLiveSecurity",
+      "url": "https://www.welivesecurity.com/br/2023/05/12/maltego-mostra-o-quanto-voce-esta-exposto-na-internet/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

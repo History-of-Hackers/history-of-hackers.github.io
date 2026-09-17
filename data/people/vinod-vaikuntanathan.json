@@ -1,12 +1,72 @@
 {
-  "id":"vinod-vaikuntanathan", "type":"person", "title":"Vinod Vaikuntanathan", "slug":"vinod-vaikuntanathan", "name":"Vinod Vaikuntanathan", "born":null, "died":null, "era":"2000s-Present",
-  "tags":["cryptography","homomorphic-encryption","lattice-cryptography","post-quantum-cryptography","research"],
-  "summary":"MIT cryptographer whose research includes homomorphic encryption, lattice-based cryptography, and cryptographic foundations for computing on encrypted data.",
-  "whyThisMatters":"Vaikuntanathan's research studies how data can remain protected while it is processed. That problem is central to privacy-preserving computing and to cryptographic approaches built on lattice assumptions.",
-  "knownFor":["Fully homomorphic encryption","Lattice-based cryptography","Cryptography and Information Security research"],
-  "sections":{"overview":"<p>Vinod Vaikuntanathan is a professor in MIT EECS and a principal investigator at MIT CSAIL. His work is in the foundations of cryptography and its applications.</p><h2>Encrypted computation</h2><p>MIT describes his research as including fully homomorphic encryption, which enables certain computations over encrypted data, and lattice-based cryptography, an important area for post-quantum research.</p><h2>Academic work</h2><p>Vaikuntanathan received his Ph.D. from MIT in 2009 and joined the MIT EECS faculty in 2013 after research and faculty appointments elsewhere.</p><h2>Security context</h2><p>His work helps frame how cryptographic systems can protect data not only in storage or transit but also during computation, while retaining rigorous security assumptions.</p>"},
-  "timeline":[{"date":"2009","event":"Receives a Ph.D. from MIT."},{"date":"2013","event":"Joins the MIT EECS faculty."},{"date":"2022","event":"Receives the Gödel Prize, as listed by MIT CSAIL."}],
-  "relatedPeople":[],"relatedGroups":[],"relatedTools":[],"relatedVulnerabilities":[],"relatedEvents":[],
-  "sources":[{"title":"Vinod Vaikuntanathan — MIT CSAIL", "url":"https://www.csail.mit.edu/person/vinod-vaikuntanathan"},{"title":"Vinod Vaikuntanathan — Research & Teaching", "url":"https://people.csail.mit.edu/vinodv/"},{"title":"MIT CSAIL: Fortifying the future of cryptography", "url":"https://www.csail.mit.edu/news/fortifying-future-cryptography"},{"title":"MIT CSAIL Theory of Computation profile", "url":"https://toc.csail.mit.edu/user/134"}],
-  "editorial":{"verified":true,"sourcesCount":4,"lastReviewed":"2026-09-03","reviewStatus":"PUBLISHED","reviewer":"codex-2026-09-03"}
+  "id": "vinod-vaikuntanathan",
+  "type": "person",
+  "title": "Vinod Vaikuntanathan",
+  "slug": "vinod-vaikuntanathan",
+  "name": "Vinod Vaikuntanathan",
+  "born": null,
+  "died": null,
+  "era": "2000s-Present",
+  "tags": [
+    "cryptography",
+    "homomorphic-encryption",
+    "lattice-cryptography",
+    "post-quantum-cryptography",
+    "research"
+  ],
+  "summary": "MIT cryptographer whose research includes homomorphic encryption, lattice-based cryptography, and cryptographic foundations for computing on encrypted data.",
+  "whyThisMatters": "Vaikuntanathan's research studies how data can remain protected while it is processed. That problem is central to privacy-preserving computing and to cryptographic approaches built on lattice assumptions.",
+  "knownFor": [
+    "Fully homomorphic encryption",
+    "Lattice-based cryptography",
+    "Cryptography and Information Security research"
+  ],
+  "sections": {
+    "overview": "<p>Vinod Vaikuntanathan is a professor in MIT EECS and a principal investigator at MIT CSAIL. His work is in the foundations of cryptography and its applications.</p><h2>Encrypted computation</h2><p>MIT describes his research as including fully homomorphic encryption, which enables certain computations over encrypted data, and lattice-based cryptography, an important area for post-quantum research.</p><h2>Academic work</h2><p>Vaikuntanathan received his Ph.D. from MIT in 2009 and joined the MIT EECS faculty in 2013 after research and faculty appointments elsewhere.</p><h2>Security context</h2><p>His work helps frame how cryptographic systems can protect data not only in storage or transit but also during computation, while retaining rigorous security assumptions.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2009",
+      "event": "Receives a Ph.D. from MIT."
+    },
+    {
+      "date": "2013",
+      "event": "Joins the MIT EECS faculty."
+    },
+    {
+      "date": "2022",
+      "event": "Receives the Gödel Prize, as listed by MIT CSAIL."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Vinod Vaikuntanathan — MIT CSAIL",
+      "url": "https://www.csail.mit.edu/person/vinod-vaikuntanathan"
+    },
+    {
+      "title": "Vinod Vaikuntanathan — Research & Teaching",
+      "url": "https://people.csail.mit.edu/vinodv/"
+    },
+    {
+      "title": "MIT CSAIL: Fortifying the future of cryptography",
+      "url": "https://www.csail.mit.edu/news/fortifying-future-cryptography"
+    },
+    {
+      "title": "MIT CSAIL Theory of Computation profile",
+      "url": "https://toc.csail.mit.edu/user/134"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-03",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "codex-2026-09-03",
+    "createdBy": "Joas A Santos"
+  }
 }

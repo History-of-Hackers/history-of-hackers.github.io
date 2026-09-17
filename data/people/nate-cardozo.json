@@ -16,7 +16,7 @@
   "summary": "Nate Cardozo is an American attorney who spent about six and a half years as a Senior Staff Attorney at the Electronic Frontier Foundation, where he worked on encryption policy, government surveillance oversight, and coders' rights, before moving into privacy roles at WhatsApp/Facebook and later Google.",
   "whyThisMatters": "Nate Cardozo is an American attorney who spent about six and a half years as a Senior Staff Attorney at the Electronic Frontier Foundation, where he worked on encryption policy, government surveillance oversight, and coders' rights, before moving into privacy roles at WhatsApp/Facebook and later Google.",
   "sections": {
-    "overview": "<p>Nate Cardozo is an American attorney and privacy engineer who spent roughly six and a half years as a staff attorney at the Electronic Frontier Foundation (EFF), where he became a prominent voice on encryption policy, government surveillance, and digital civil liberties. He held the title of Senior Staff Attorney on EFF's digital civil liberties team, with some press accounts describing him as EFF's \"senior information security counsel.\"</p><h2>Work at EFF</h2><p>At EFF, Cardozo's practice spanned free speech and privacy litigation, cryptography and information-security law, automotive privacy, government transparency, hardware-hacking rights, anonymous speech, and reform of the Electronic Communications Privacy Act (ECPA). He led EFF's Coders' Rights Project, which defends programmers \u2014 particularly security and encryption researchers \u2014 against legal threats such as the DMCA that can chill vulnerability research, and he contributed to EFF's annual \"Who Has Your Back?\" report series grading major tech companies on how they handle government requests for user data.</p><p>Much of Cardozo's public writing pushed back on government efforts to weaken encryption and expand surveillance without oversight. In August 2016, with EFF colleague Andrew Crocker, he argued in a Deeplinks post that the U.S. needed a public, legally grounded framework \u2014 a \"Title III for hacking\" \u2014 to govern how the FBI and other agencies acquire and use security vulnerabilities, criticizing the secrecy around the government's Vulnerabilities Equities Process. In August 2018 he co-authored \"Don't Shoot the Messenger,\" opposing reported efforts to compel Facebook to break Messenger's encryption for a wiretap. In January 2019, in \"Give Up the Ghost: A Backdoor by Another Name,\" he rebutted the UK's GCHQ \"Ghost Protocol\" proposal, which would have let governments silently join encrypted chats as a hidden participant; Cardozo warned it would force apps to show false security indicators and would erode trust in what software tells users, effectively placing \"a dormant wiretap in every single user's pocket.\"</p><h2>Move to industry</h2><p>In February 2019, after about six and a half years at EFF, Cardozo left to become Privacy Policy Manager at WhatsApp, then owned by Facebook \u2014 a move widely reported as emblematic of major platforms recruiting their toughest privacy critics. He acknowledged the tension himself, writing that after \"the privacy beating that Facebook's taken over the past year, I was skeptical, too.\" He remained at WhatsApp/Facebook until July 2022, when he moved to Google as a Senior Staff Privacy Engineer working on end-to-end encryption for Android.</p><p>Cardozo studied at the University of California, Santa Cruz, and earned his law degree at the University of California, Hastings College of the Law, and has spoken at industry events including the RSA Conference on privacy and security-policy topics.</p>"
+    "overview": "<p>Nate Cardozo is an American attorney and privacy engineer who spent roughly six and a half years as a staff attorney at the Electronic Frontier Foundation (EFF), where he became a prominent voice on encryption policy, government surveillance, and digital civil liberties. He held the title of Senior Staff Attorney on EFF's digital civil liberties team, with some press accounts describing him as EFF's \"senior information security counsel.\"</p><h2>Work at EFF</h2><p>At EFF, Cardozo's practice spanned free speech and privacy litigation, cryptography and information-security law, automotive privacy, government transparency, hardware-hacking rights, anonymous speech, and reform of the Electronic Communications Privacy Act (ECPA). He led EFF's Coders' Rights Project, which defends programmers — particularly security and encryption researchers — against legal threats such as the DMCA that can chill vulnerability research, and he contributed to EFF's annual \"Who Has Your Back?\" report series grading major tech companies on how they handle government requests for user data.</p><p>Much of Cardozo's public writing pushed back on government efforts to weaken encryption and expand surveillance without oversight. In August 2016, with EFF colleague Andrew Crocker, he argued in a Deeplinks post that the U.S. needed a public, legally grounded framework — a \"Title III for hacking\" — to govern how the FBI and other agencies acquire and use security vulnerabilities, criticizing the secrecy around the government's Vulnerabilities Equities Process. In August 2018 he co-authored \"Don't Shoot the Messenger,\" opposing reported efforts to compel Facebook to break Messenger's encryption for a wiretap. In January 2019, in \"Give Up the Ghost: A Backdoor by Another Name,\" he rebutted the UK's GCHQ \"Ghost Protocol\" proposal, which would have let governments silently join encrypted chats as a hidden participant; Cardozo warned it would force apps to show false security indicators and would erode trust in what software tells users, effectively placing \"a dormant wiretap in every single user's pocket.\"</p><h2>Move to industry</h2><p>In February 2019, after about six and a half years at EFF, Cardozo left to become Privacy Policy Manager at WhatsApp, then owned by Facebook — a move widely reported as emblematic of major platforms recruiting their toughest privacy critics. He acknowledged the tension himself, writing that after \"the privacy beating that Facebook's taken over the past year, I was skeptical, too.\" He remained at WhatsApp/Facebook until July 2022, when he moved to Google as a Senior Staff Privacy Engineer working on end-to-end encryption for Android.</p><p>Cardozo studied at the University of California, Santa Cruz, and earned his law degree at the University of California, Hastings College of the Law, and has spoken at industry events including the RSA Conference on privacy and security-policy topics.</p>"
   },
   "timeline": [
     {
@@ -47,7 +47,7 @@
   "relatedEvents": [],
   "sources": [
     {
-      "title": "Nate Cardozo \u2014 Wikipedia",
+      "title": "Nate Cardozo — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Nate_Cardozo"
     },
     {
@@ -55,31 +55,31 @@
       "url": "https://web.archive.org/web/20190202001405/https://www.eff.org/about/staff/nate-cardozo"
     },
     {
-      "title": "Nate Cardozo \u2014 author page, Just Security",
+      "title": "Nate Cardozo — author page, Just Security",
       "url": "https://www.justsecurity.org/author/cardozonate/"
     },
     {
-      "title": "Nate Cardozo Is Going From Scrutinizing WhatsApp to Working for It \u2014 Adweek",
+      "title": "Nate Cardozo Is Going From Scrutinizing WhatsApp to Working for It — Adweek",
       "url": "https://www.adweek.com/digital/nate-cardozo-is-going-from-scrutinizing-whatsapp-to-working-for-it/"
     },
     {
-      "title": "Facebook Ramps up Cybersecurity Staff \u2014 MeriTalk",
+      "title": "Facebook Ramps up Cybersecurity Staff — MeriTalk",
       "url": "https://www.meritalk.com/articles/facebook-ramps-up-cybersecurity-staff/"
     },
     {
-      "title": "Give Up the Ghost: A Backdoor by Another Name \u2014 EFF Deeplinks",
+      "title": "Give Up the Ghost: A Backdoor by Another Name — EFF Deeplinks",
       "url": "https://www.eff.org/deeplinks/2019/01/give-ghost-backdoor-another-name"
     },
     {
-      "title": "We Shouldn't Wait Another Fifteen Years for a Conversation About Government Hacking \u2014 EFF Deeplinks",
+      "title": "We Shouldn't Wait Another Fifteen Years for a Conversation About Government Hacking — EFF Deeplinks",
       "url": "https://www.eff.org/deeplinks/2016/08/we-shouldnt-wait-another-fifteen-years-conversation-about-government-hacking"
     },
     {
-      "title": "Facebook just hired a handful of its toughest privacy critics \u2014 Ars Technica",
+      "title": "Facebook just hired a handful of its toughest privacy critics — Ars Technica",
       "url": "https://arstechnica.com/tech-policy/2019/01/facebook-just-hired-a-handful-of-its-toughest-privacy-critics/"
     },
     {
-      "title": "WhatsApp hires EFF privacy lawyer \u2014 Boing Boing",
+      "title": "WhatsApp hires EFF privacy lawyer — Boing Boing",
       "url": "https://boingboing.net/2019/01/29/whatsapp.html"
     }
   ],
@@ -88,7 +88,8 @@
     "sourcesCount": 9,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
   "name": "Nate Cardozo",
   "born": null,

@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["cryptography", "ssl-tls", "open-source", "openssl", "apache", "certificate-transparency", "google", "internet-security"],
+  "tags": [
+    "cryptography",
+    "ssl-tls",
+    "open-source",
+    "openssl",
+    "apache",
+    "certificate-transparency",
+    "google",
+    "internet-security"
+  ],
   "summary": "Ben Laurie is an English software engineer and cryptographer known for writing Apache-SSL, one of the earliest SSL implementations for the Apache HTTP Server, and for later co-creating Certificate Transparency at Google.",
   "whyThisMatters": "Apache-SSL, which Laurie authored, became the direct technical basis for mod_ssl, the module that brought encrypted HTTPS connections to the world's most widely used web server, helping normalize TLS across the early web. Two decades later, his work co-designing Certificate Transparency addressed a systemic weakness in the certificate authority model exposed by real-world incidents such as the 2011 DigiNotar breach, giving the web a public, auditable record of issued TLS certificates. Both contributions became foundational, largely invisible infrastructure that browsers and site operators now depend on daily.",
   "knownFor": [
@@ -21,11 +30,26 @@
     "overview": "<h2>Background</h2><p>Ben Laurie is an English software engineer and cryptographer whose work spans web server security, open-source cryptographic tooling, and internet standards. He became known within the open-source community in the mid-1990s for his contributions to secure web infrastructure at a time when encrypted web traffic was still uncommon and often legally constrained by export-control rules on cryptography.</p><h2>Apache-SSL and the Rise of HTTPS</h2><p>Laurie wrote Apache-SSL, an early patch set that added SSL/TLS encryption support to the Apache HTTP Server. According to the history documented for Apache's later official SSL module, mod_ssl, the mod_ssl project was \"initially created in April 1998 by Ralf S. Engelschall via porting Ben Laurie's Apache-SSL 1.17 source patches\" onto a newer Apache codebase. When Engelschall's fork diverged from Laurie's continuing development, the two lines were eventually reconciled by merging the early mod_ssl code with a newer release of Apache-SSL. This lineage means that much of the encrypted-web infrastructure built on Apache in the late 1990s and 2000s traced directly back to code Laurie originally wrote, making his work a foundational, if often uncredited, piece of the web's shift toward HTTPS.</p><h2>Security and Cryptography Research</h2><p>Beyond Apache-SSL, Laurie worked and published across a range of security and cryptography topics over the following years, including network forensics, security protocols, and academic research into the mathematics of \"ideal knots\" and its relevance to DNA replication. He co-authored reference books on Apache server administration, including editions of \"Apache: The Definitive Guide,\" and continued to write and speak on open-source security engineering.</p><h2>Certificate Transparency at Google</h2><p>By the early 2010s, Laurie was working at Google, where he turned his attention to a structural weakness in the web's certificate authority (CA) system: any of hundreds of trusted CAs worldwide could mis-issue a certificate for any domain, often without the domain owner's knowledge. This risk became concrete in 2011, when the Dutch certificate authority DigiNotar was compromised and used to issue fraudulent certificates, an incident that undermined trust in the existing CA model. In response, Laurie, together with Google colleagues Adam Langley and Emilia Kasper, began developing an open framework for publicly logging and auditing certificate issuance, initially circulated under the codename \"Sunlight.\" Their proposal was submitted to the Internet Engineering Task Force and was ultimately published in June 2013 as RFC 6962, \"Certificate Transparency,\" with Laurie listed as the lead author.</p><h2>Impact and Deployment</h2><p>Certificate Transparency established a system of public, append-only logs in which certificate authorities (or other parties) submit newly issued TLS certificates, allowing domain owners, browser vendors, and security researchers to detect mis-issued or rogue certificates. Major browser vendors, including Google's own Chrome browser, went on to require Certificate Transparency compliance for publicly trusted certificates, making the system a de facto requirement across the web's certificate ecosystem. In 2024, the Internet Society's Levchin Prize for Real-World Cryptography was awarded to Laurie along with his co-creators \"for creating and deploying Certificate Transparency at scale,\" recognizing the project's practical, internet-wide impact roughly a decade after its initial publication.</p><h2>Other Activities</h2><p>Laurie was also known for briefly serving on the advisory board of WikiLeaks in its early years, later expressing public skepticism about the technical protections the organization offered its sources. Separately, in earlier stages of his career, he developed a multiplayer online game (MUD) called \"Gods.\" Across his career, Laurie's work has consistently centered on making internet infrastructure more verifiably secure, whether through encrypting web traffic at the server level or making the certificate authority system publicly auditable.</p>"
   },
   "timeline": [
-    { "date": "1998-04", "event": "Ralf S. Engelschall creates the first version of mod_ssl by porting Ben Laurie's Apache-SSL 1.17 patches onto a newer Apache codebase, per mod_ssl's documented project history." },
-    { "date": "2011", "event": "The DigiNotar certificate authority is compromised and used to issue fraudulent certificates, exposing weaknesses in the CA trust model that motivate Laurie's later work on Certificate Transparency." },
-    { "date": "2012", "event": "Laurie, Adam Langley, and Emilia Kasper at Google submit an IETF draft for an open certificate-logging framework, developed under the codename \"Sunlight.\"" },
-    { "date": "2013-06", "event": "RFC 6962, \"Certificate Transparency,\" is published by the IETF with Ben Laurie as lead author alongside Adam Langley and Emilia Kasper." },
-    { "date": "2024", "event": "Laurie and his co-creators receive the Internet Society's Levchin Prize for Real-World Cryptography for creating and deploying Certificate Transparency at scale." }
+    {
+      "date": "1998-04",
+      "event": "Ralf S. Engelschall creates the first version of mod_ssl by porting Ben Laurie's Apache-SSL 1.17 patches onto a newer Apache codebase, per mod_ssl's documented project history."
+    },
+    {
+      "date": "2011",
+      "event": "The DigiNotar certificate authority is compromised and used to issue fraudulent certificates, exposing weaknesses in the CA trust model that motivate Laurie's later work on Certificate Transparency."
+    },
+    {
+      "date": "2012",
+      "event": "Laurie, Adam Langley, and Emilia Kasper at Google submit an IETF draft for an open certificate-logging framework, developed under the codename \"Sunlight.\""
+    },
+    {
+      "date": "2013-06",
+      "event": "RFC 6962, \"Certificate Transparency,\" is published by the IETF with Ben Laurie as lead author alongside Adam Langley and Emilia Kasper."
+    },
+    {
+      "date": "2024",
+      "event": "Laurie and his co-creators receive the Internet Society's Levchin Prize for Real-World Cryptography for creating and deploying Certificate Transparency at scale."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -33,16 +57,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Ben Laurie - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ben_Laurie" },
-    { "title": "Certificate Transparency - Wikipedia", "url": "https://en.wikipedia.org/wiki/Certificate_Transparency" },
-    { "title": "RFC 6962: Certificate Transparency - IETF Datatracker", "url": "https://datatracker.ietf.org/doc/html/rfc6962" },
-    { "title": "mod_ssl - Wikipedia", "url": "https://en.wikipedia.org/wiki/Mod_ssl" }
+    {
+      "title": "Ben Laurie - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ben_Laurie"
+    },
+    {
+      "title": "Certificate Transparency - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Certificate_Transparency"
+    },
+    {
+      "title": "RFC 6962: Certificate Transparency - IETF Datatracker",
+      "url": "https://datatracker.ietf.org/doc/html/rfc6962"
+    },
+    {
+      "title": "mod_ssl - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mod_ssl"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

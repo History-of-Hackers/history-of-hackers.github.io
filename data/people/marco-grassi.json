@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2010s-Present",
-  "tags": ["ios", "macos", "android", "baseband", "pwn2own", "keen-lab", "mobile-security", "vulnerability-research"],
+  "tags": [
+    "ios",
+    "macos",
+    "android",
+    "baseband",
+    "pwn2own",
+    "keen-lab",
+    "mobile-security",
+    "vulnerability-research"
+  ],
   "summary": "Marco Grassi is a security researcher known for mobile and desktop operating-system vulnerability research, including work at NowSecure and Tencent Keen Security Lab (Keen Team), and for repeated wins at the Pwn2Own hacking competition.",
   "whyThisMatters": "Grassi is representative of the wave of researchers who moved offensive mobile security research from academic curiosity into a competitive, high-stakes discipline through venues like Pwn2Own. His publicly credited work spans Android privilege escalation, iOS and macOS sandbox escapes, VMware hypervisor escapes, and baseband (cellular modem) exploitation, areas that have each become central to modern platform security hardening. As part of Tencent's Keen Security Lab, he contributed to one of the most prominent non-Western offensive security research teams to achieve sustained success against Apple, Google, and VMware products in public competitions.",
   "knownFor": [
@@ -23,14 +32,38 @@
     "overview": "<h2>Background</h2><p>Marco Grassi is a security researcher whose public work centers on vulnerability research and exploitation for mobile and desktop operating systems, including Android, iOS, macOS, and cellular baseband firmware. Early in his career he was a member of the NowSecure Research and Development team, where he worked on reverse engineering, penetration testing, and vulnerability research for mobile operating systems and mobile security products. During this period he presented on Android security topics, including a talk on the \"Current State of Privilege Escalation on Android\" at the HITB GSEC conference in Singapore in 2015.</p><h2>Keen Team and Keen Security Lab</h2><p>Grassi later joined Keen Team, which subsequently became Tencent's Keen Security Lab (KeenLab), working as a security researcher focused primarily on Android, iOS, macOS, and OS sandbox escapes. Keen Security Lab was among the most consistently successful teams competing in the Pwn2Own contest series during the mid-to-late 2010s, and Grassi was credited as a contributor on several of the team's results. He was one of the main contributors to Keen Team's Desktop Pwn2Own 2016 entry, which achieved a Safari browser exploit chained with a sandbox escape to root privileges, part of the effort that earned the team the overall \"Master of Pwn\" title at that event. At Mobile Pwn2Own in Tokyo in 2016, he contributed to work targeting iOS that helped the team win the \"Mobile Master of Pwn\" title.</p><h2>Pwn2Own 2017 and baseband research</h2><p>At Desktop Pwn2Own 2017, Grassi was credited with a VMware guest-to-host escape, exploiting the hypervisor's virtual machine isolation boundary. At Mobile Pwn2Own 2017, he was credited with a baseband remote code execution exploit and a WiFi-based exploit against iOS, contributing to the Keen Lab team's third \"Master of Pwn\" title. Baseband exploitation, targeting the low-level cellular modem firmware that runs semi-independently of a phone's main operating system, was and remains a comparatively under-researched and difficult area of mobile security, and Grassi's public talks (including presentations on baseband exploitation at Black Hat USA in 2018 and on 5G baseband remote code execution at Black Hat USA in 2021) contributed to broader industry understanding of this attack surface.</p><h2>Other credited vulnerability research</h2><p>Grassi has been publicly credited in vendor security bulletins for reporting vulnerabilities, including Android kernel and privilege-escalation issues acknowledged in Android Security Bulletins (for example bulletins referencing CVE-2016-2443 and CVE-2016-6828, credited to Grassi via Keen Lab of Tencent), as well as earlier reported issues in Blackphone's PrivatOS. He has also been recognized on the Honor Roll of FireEye's FLARE reverse-engineering challenge series.</p><h2>Speaking and public research</h2><p>Grassi has spoken at numerous international security conferences, including Black Hat USA, Black Hat Asia, DEF CON, CanSecWest, Infiltrate, ZeroNights, Codegate, Hack In The Box (HITB), ShakaCon, OffensiveCon, and the Mobile Security Conference (MOSEC). His talks have covered topics such as Android privilege escalation, smartphone baseband exploitation, and modern mobile OS sandbox and platform security.</p><h2>Legacy and significance</h2><p>Grassi's career illustrates the professionalization of mobile and platform exploitation research through public competitions such as Pwn2Own, where results are independently verified by contest organizers (Trend Micro's Zero Day Initiative) and vendors before public credit and payout. His work across Android, iOS, macOS, VMware, and cellular baseband firmware reflects the breadth of technical skill increasingly required of top-tier offensive security researchers, and his contributions as part of Tencent's Keen Security Lab are part of the historical record of that lab's multi-year run of Pwn2Own successes.</p>"
   },
   "timeline": [
-    { "date": "2015-10", "event": "Presented \"Current State of Privilege Escalation on Android\" at HITB GSEC Singapore while a member of the NowSecure R&D team." },
-    { "date": "2016", "event": "As part of Keen Team, credited with an Android kernel/privilege-escalation vulnerability referenced in Android Security Bulletins (including issues tied to CVE-2016-2443 and CVE-2016-6828)." },
-    { "date": "2016-03", "event": "Contributed to Keen Team's Desktop Pwn2Own entry achieving a Safari exploit chained with a sandbox escape to root, part of the team's overall Master of Pwn win." },
-    { "date": "2016-10", "event": "Contributed to Keen Team's iOS work at Mobile Pwn2Own in Tokyo, helping the team win the Mobile Master of Pwn title." },
-    { "date": "2017", "event": "Credited with a VMware guest-to-host hypervisor escape at Desktop Pwn2Own 2017." },
-    { "date": "2017", "event": "Credited with a baseband remote code execution exploit and a WiFi-based iOS exploit at Mobile Pwn2Own 2017, contributing to Keen Lab's third Master of Pwn title." },
-    { "date": "2018-08", "event": "Presented \"Exploitation of a Modern Smartphone Baseband\" at Black Hat USA 2018 as a Senior Security Researcher at Tencent Keen Security Lab." },
-    { "date": "2021-08", "event": "Presented \"Over the Air Baseband Exploit: Gaining Remote Code Execution on 5G Smartphones\" at Black Hat USA 2021." }
+    {
+      "date": "2015-10",
+      "event": "Presented \"Current State of Privilege Escalation on Android\" at HITB GSEC Singapore while a member of the NowSecure R&D team."
+    },
+    {
+      "date": "2016",
+      "event": "As part of Keen Team, credited with an Android kernel/privilege-escalation vulnerability referenced in Android Security Bulletins (including issues tied to CVE-2016-2443 and CVE-2016-6828)."
+    },
+    {
+      "date": "2016-03",
+      "event": "Contributed to Keen Team's Desktop Pwn2Own entry achieving a Safari exploit chained with a sandbox escape to root, part of the team's overall Master of Pwn win."
+    },
+    {
+      "date": "2016-10",
+      "event": "Contributed to Keen Team's iOS work at Mobile Pwn2Own in Tokyo, helping the team win the Mobile Master of Pwn title."
+    },
+    {
+      "date": "2017",
+      "event": "Credited with a VMware guest-to-host hypervisor escape at Desktop Pwn2Own 2017."
+    },
+    {
+      "date": "2017",
+      "event": "Credited with a baseband remote code execution exploit and a WiFi-based iOS exploit at Mobile Pwn2Own 2017, contributing to Keen Lab's third Master of Pwn title."
+    },
+    {
+      "date": "2018-08",
+      "event": "Presented \"Exploitation of a Modern Smartphone Baseband\" at Black Hat USA 2018 as a Senior Security Researcher at Tencent Keen Security Lab."
+    },
+    {
+      "date": "2021-08",
+      "event": "Presented \"Over the Air Baseband Exploit: Gaining Remote Code Execution on 5G Smartphones\" at Black Hat USA 2021."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,19 +71,41 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Black Hat USA 2018 | Marco Grassi (speaker bio)", "url": "https://www.blackhat.com/us-18/speakers/Marco-Grassi.html" },
-    { "title": "Marco Grassi and Kira | OffensiveCon 2020 speaker bio", "url": "https://www.offensivecon.org/speakers/2020/marco-grassi-kira.html" },
-    { "title": "Marco Grassi | HITB GSEC Singapore 2015 speaker page", "url": "https://gsec.hitb.org/sg2015/speakers/marco-grassi/" },
-    { "title": "Black Hat USA 2016 | Marco Grassi (speaker bio)", "url": "https://www.blackhat.com/us-16/speakers/Marco-Grassi.html" },
-    { "title": "Android Security Bulletin—May 2016 (Android Open Source Project)", "url": "https://source.android.com/docs/security/bulletin/2016-05-01" },
-    { "title": "Android Security Bulletin—November 2016 (Android Open Source Project)", "url": "https://source.android.com/docs/security/bulletin/2016-11-01" },
-    { "title": "Over the Air Baseband Exploit: Gaining Remote Code Execution on 5G Smartphones (Black Hat USA 2021) - InfoconDB", "url": "https://infocondb.org/con/black-hat/black-hat-usa-2021/over-the-air-baseband-exploit-gaining-remote-code-execution-on-5g-smartphones" }
+    {
+      "title": "Black Hat USA 2018 | Marco Grassi (speaker bio)",
+      "url": "https://www.blackhat.com/us-18/speakers/Marco-Grassi.html"
+    },
+    {
+      "title": "Marco Grassi and Kira | OffensiveCon 2020 speaker bio",
+      "url": "https://www.offensivecon.org/speakers/2020/marco-grassi-kira.html"
+    },
+    {
+      "title": "Marco Grassi | HITB GSEC Singapore 2015 speaker page",
+      "url": "https://gsec.hitb.org/sg2015/speakers/marco-grassi/"
+    },
+    {
+      "title": "Black Hat USA 2016 | Marco Grassi (speaker bio)",
+      "url": "https://www.blackhat.com/us-16/speakers/Marco-Grassi.html"
+    },
+    {
+      "title": "Android Security Bulletin—May 2016 (Android Open Source Project)",
+      "url": "https://source.android.com/docs/security/bulletin/2016-05-01"
+    },
+    {
+      "title": "Android Security Bulletin—November 2016 (Android Open Source Project)",
+      "url": "https://source.android.com/docs/security/bulletin/2016-11-01"
+    },
+    {
+      "title": "Over the Air Baseband Exploit: Gaining Remote Code Execution on 5G Smartphones (Black Hat USA 2021) - InfoconDB",
+      "url": "https://infocondb.org/con/black-hat/black-hat-usa-2021/over-the-air-baseband-exploit-gaining-remote-code-execution-on-5g-smartphones"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 7,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

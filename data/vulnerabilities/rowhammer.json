@@ -4,19 +4,44 @@
   "title": "Rowhammer",
   "slug": "rowhammer",
   "era": "2014-Present",
-  "tags": ["hardware", "dram", "memory-corruption", "privilege-escalation", "side-channel", "google-project-zero"],
+  "tags": [
+    "hardware",
+    "dram",
+    "memory-corruption",
+    "privilege-escalation",
+    "side-channel",
+    "google-project-zero"
+  ],
   "summary": "Rowhammer is a hardware vulnerability class in dense DRAM chips in which repeatedly and rapidly accessing (\"hammering\") a memory row can cause electrical interference that flips bits in adjacent rows, potentially altering data an attacker does not have permission to touch.",
   "whyThisMatters": "Rowhammer showed that a purely software-level attacker could corrupt memory through a physical, analog weakness in the underlying hardware, bypassing conventional software security boundaries such as sandboxes and page-table permissions. It launched an entire subfield of hardware-fault security research, and follow-on work over the following decade repeatedly showed that industry mitigations (ECC, Target Row Refresh) were incomplete, keeping Rowhammer-class attacks relevant against DDR3, DDR4, and eventually DDR5 memory.",
   "sections": {
     "overview": "<h2>Background</h2><p>Rowhammer refers to a class of hardware disturbance errors in dynamic random-access memory (DRAM). As DRAM manufacturing has packed memory cells closer together to increase density, individual capacitor-based cells that store data bits have become more susceptible to electrical interference from their neighbors. Repeatedly opening and closing (\"hammering\") the same row of memory at high frequency can cause enough voltage disturbance to leak charge out of cells in physically adjacent rows, flipping the value of bits stored there even though those cells were never directly addressed.</p><h2>Discovery and initial research</h2><p>The disturbance phenomenon was first documented in the academic paper \"Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors,\" presented at the ACM/IEEE International Symposium on Computer Architecture (ISCA) in June 2014 by a team of researchers including Yoongu Kim, Ross Daly, Jeremie Kim, Chris Fallin, Ji Hye Lee, Donghyuk Lee, Chris Wilkerson, Konrad Lai, and Onur Mutlu, based at Carnegie Mellon University and Intel Labs. The paper tested 129 DDR3 DRAM modules from major manufacturers and found that the majority — 110 of them — exhibited disturbance errors after roughly tens of thousands of repeated row activations, establishing that the problem was widespread across the industry rather than an isolated manufacturing defect.</p><h2>From reliability bug to security exploit</h2><p>The 2014 paper framed Rowhammer primarily as a reliability concern. It was Google's Project Zero team that turned it into a demonstrated security exploit. On March 9, 2015, Project Zero researchers Mark Seaborn and Thomas Dullien (widely known in the security community by his longtime alias \"Halvar Flake\") published a blog post, \"Exploiting the DRAM rowhammer bug to gain kernel privileges,\" describing two working proof-of-concept exploits. The first escaped Google's Native Client (NaCl) sandbox by flipping bits inside x86-64 instruction validation code, tracked as CVE-2015-0565. The second, developed with an approach proposed by colleague Matthew Dempsky and refined by Dullien using a \"double-sided hammering\" technique, induced bit flips inside page table entries to gain read-write access to all of physical memory from an unprivileged Linux process, effectively achieving root-level control.</p><h2>Escalation and wider attack surface</h2><p>Following the Project Zero disclosure, researchers rapidly extended Rowhammer to new platforms and vectors. In July 2015, the \"Rowhammer.js\" project demonstrated that bit flips could be triggered purely from JavaScript running in a web browser, removing the need for native code execution. In October 2016, the \"Drammer\" attack showed that Rowhammer could be triggered from an ordinary, unprivileged Android app to root mobile devices. Subsequent academic work introduced techniques such as \"Flip Feng Shui\" for controlling the location of victim data before flipping it, and network-based variants that triggered flips using nothing but network packets (\"Throwhammer\" and \"Nethammer\"). Chip and system vendors responded with mitigations including Target Row Refresh (TRR), more frequent DRAM refresh intervals, and error-correcting code (ECC) memory, but researchers repeatedly found gaps: the 2020 \"TRRespass\" paper showed TRR implementations on many DDR4 modules could still be bypassed, and later work such as \"Half-Double\" (2021) and \"ZenHammer\" (2024) demonstrated that the underlying disturbance effect persists even on newer DDR5-generation memory.</p><h2>Significance and legacy</h2><p>Rowhammer is widely regarded as a landmark result in computer security because it demonstrated that software-only attackers could induce memory corruption through the physics of the underlying hardware, independent of any bug in an operating system, application, or sandbox implementation. It reframed \"reliability\" issues in silicon as a legitimate and serious security concern, prompted memory manufacturers and standards bodies (including JEDEC) to build hardware mitigations directly into DRAM and memory controllers, and established an enduring line of academic and industry research into hardware-level fault-injection attacks that continues into the mid-2020s.</p>"
   },
   "timeline": [
-    { "date": "2014-06", "event": "Kim et al. present \"Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors\" at ISCA 2014, documenting Rowhammer-style disturbance errors across 129 tested DDR3 modules." },
-    { "date": "2015-03-09", "event": "Google Project Zero researchers Mark Seaborn and Thomas Dullien (Halvar Flake) publish two working Rowhammer privilege-escalation exploits, including a Native Client sandbox escape (CVE-2015-0565) and a Linux kernel privilege-escalation technique." },
-    { "date": "2015-07", "event": "The \"Rowhammer.js\" project demonstrates triggering Rowhammer bit flips from JavaScript code running inside a web browser." },
-    { "date": "2016-10", "event": "The \"Drammer\" attack shows Rowhammer can be triggered from an unprivileged Android application to gain root access on mobile devices." },
-    { "date": "2020-05", "event": "The \"TRRespass\" research shows that Target Row Refresh mitigations deployed on many DDR4 modules can still be bypassed." },
-    { "date": "2024-03", "event": "The \"ZenHammer\" research demonstrates the first successful Rowhammer bit flips on DDR5 memory." }
+    {
+      "date": "2014-06",
+      "event": "Kim et al. present \"Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors\" at ISCA 2014, documenting Rowhammer-style disturbance errors across 129 tested DDR3 modules."
+    },
+    {
+      "date": "2015-03-09",
+      "event": "Google Project Zero researchers Mark Seaborn and Thomas Dullien (Halvar Flake) publish two working Rowhammer privilege-escalation exploits, including a Native Client sandbox escape (CVE-2015-0565) and a Linux kernel privilege-escalation technique."
+    },
+    {
+      "date": "2015-07",
+      "event": "The \"Rowhammer.js\" project demonstrates triggering Rowhammer bit flips from JavaScript code running inside a web browser."
+    },
+    {
+      "date": "2016-10",
+      "event": "The \"Drammer\" attack shows Rowhammer can be triggered from an unprivileged Android application to gain root access on mobile devices."
+    },
+    {
+      "date": "2020-05",
+      "event": "The \"TRRespass\" research shows that Target Row Refresh mitigations deployed on many DDR4 modules can still be bypassed."
+    },
+    {
+      "date": "2024-03",
+      "event": "The \"ZenHammer\" research demonstrates the first successful Rowhammer bit flips on DDR5 memory."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -24,15 +49,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Row hammer - Wikipedia", "url": "https://en.wikipedia.org/wiki/Row_hammer" },
-    { "title": "Exploiting the DRAM rowhammer bug to gain kernel privileges - Project Zero", "url": "https://projectzero.google/2015/03/exploiting-dram-rowhammer-bug-to-gain.html" },
-    { "title": "Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors (Kim et al., ISCA 2014)", "url": "https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf" }
+    {
+      "title": "Row hammer - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Row_hammer"
+    },
+    {
+      "title": "Exploiting the DRAM rowhammer bug to gain kernel privileges - Project Zero",
+      "url": "https://projectzero.google/2015/03/exploiting-dram-rowhammer-bug-to-gain.html"
+    },
+    {
+      "title": "Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors (Kim et al., ISCA 2014)",
+      "url": "https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

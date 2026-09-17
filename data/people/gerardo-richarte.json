@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["exploit development", "reverse engineering", "core security", "argentina", "shellcoding", "penetration testing", "satellogic"],
+  "tags": [
+    "exploit development",
+    "reverse engineering",
+    "core security",
+    "argentina",
+    "shellcoding",
+    "penetration testing",
+    "satellogic"
+  ],
   "summary": "Gerardo \"Gera\" Richarte is an Argentine security researcher and exploit developer who co-founded Core Security Technologies in 1996 and later co-founded the satellite company Satellogic, becoming one of the best-known figures in Argentina's cybersecurity scene.",
   "whyThisMatters": "Richarte helped build one of the first commercially successful penetration-testing platforms, CORE IMPACT, contributing to the professionalization of offensive security testing in the late 1990s and 2000s. As a co-author of The Shellcoder's Handbook, he helped document exploit-writing and vulnerability-discovery techniques for a generation of security researchers. His career also illustrates a broader pattern of Argentine hacking-scene talent moving from underground and boutique security research into internationally significant technology companies, exemplified by his later co-founding of the satellite-imaging company Satellogic.",
   "knownFor": [
@@ -22,13 +30,34 @@
     "overview": "<h2>Background</h2><p>Gerardo Richarte, widely known in the security community by the handle \"Gera,\" is an Argentine computer security researcher and exploit developer. According to a 2019 interview, he studied mathematics at the Universidad de Buenos Aires before moving into computer security work. He has described himself as having been dedicated to computer security research for well over a decade by the late 2000s, building a reputation as one of the most technically respected exploit writers to come out of Argentina's hacking scene.</p><h2>Core Security Technologies</h2><p>In 1996, Richarte co-founded Core Security Technologies together with longtime collaborator Emiliano Kargieman. The company, born in Argentina, grew into an internationally recognized information-security firm whose flagship product, CORE IMPACT, was among the first commercial automated penetration-testing platforms. Over roughly fourteen years at Core Security, Richarte held a series of technical roles — including Senior Security Consultant, Senior Security Software Engineer, and Reverse Engineer — before spending about seven years as an \"Expert Exploit Writer,\" where he technically led the team responsible for developing exploits for CORE IMPACT. His duties there also included researching new exploitation techniques, mentoring other exploit developers, and teaching internal and external courses on assembly language and exploit writing. Core Security's client base reportedly came to include large technology companies and government agencies, and the firm was later acquired by Courion in 2015.</p><h2>Publications and Conference Work</h2><p>Richarte is a co-author, alongside Chris Anley, John Heasman, and Felix \"FX\" Lindner, of The Shellcoder's Handbook: Discovering and Exploiting Security Holes, a widely referenced technical book on vulnerability discovery and exploit development. He also authored and co-authored technical papers distributed through Core Security's research publications, including work on exploit-writing methodology and stack-smashing protection weaknesses. Richarte presented at major international security conferences, including BlackHat USA (where he spoke on \"Modern Intrusion Practices\" in 2003), CanSecWest, PacSec, and REcon, where in 2008 he presented on small reverse-engineering tools including a Python-based disassembly engine. He has also spoken at Argentina's Ekoparty conference, one of the leading security conferences in Latin America.</p><h2>Later Career: Disarmista and Satellogic</h2><p>After his long tenure at Core Security, Richarte co-founded Disarmista, a boutique engineering and reverse-engineering services firm. In 2010, he again partnered with Emiliano Kargieman to co-found Satellogic, an Argentine company that designs, builds, and operates small Earth-observation satellites. At Satellogic, Richarte has held senior technical and security leadership roles, described in company materials as including Chief Innovation Officer and Chief Information Security Officer. Satellogic grew substantially in the years that followed, going public via a special-purpose acquisition merger and, according to Argentine press coverage, reaching a valuation of roughly USD 1.4 billion by 2026.</p><h2>Significance</h2><p>Richarte's career spans two distinct chapters of Argentine technology history: the emergence in the 1990s of Argentine security researchers as globally respected exploit developers, and the later rise of Argentine deep-tech ventures in aerospace. His work at Core Security contributed directly to the tools and published literature that shaped how offensive security testing and exploit development were taught and practiced industry-wide, while his subsequent work at Satellogic reflects the migration of hacking-scene expertise into broader technology entrepreneurship.</p>"
   },
   "timeline": [
-    { "date": "1996", "event": "Co-founds Core Security Technologies in Argentina with Emiliano Kargieman." },
-    { "date": "2003", "event": "Presents \"Modern Intrusion Practices\" at BlackHat USA." },
-    { "date": "2007", "event": "Co-authors The Shellcoder's Handbook: Discovering and Exploiting Security Holes, published by Wiley." },
-    { "date": "2008-06", "event": "Presents reverse-engineering tools, including a Python disassembly engine, at REcon 2008." },
-    { "date": "2010", "event": "Presents a training course on binary vulnerabilities and exploit writing at REcon." },
-    { "date": "2010", "event": "Co-founds the satellite company Satellogic with Emiliano Kargieman." },
-    { "date": "2015", "event": "Core Security Technologies is acquired by Courion." }
+    {
+      "date": "1996",
+      "event": "Co-founds Core Security Technologies in Argentina with Emiliano Kargieman."
+    },
+    {
+      "date": "2003",
+      "event": "Presents \"Modern Intrusion Practices\" at BlackHat USA."
+    },
+    {
+      "date": "2007",
+      "event": "Co-authors The Shellcoder's Handbook: Discovering and Exploiting Security Holes, published by Wiley."
+    },
+    {
+      "date": "2008-06",
+      "event": "Presents reverse-engineering tools, including a Python disassembly engine, at REcon 2008."
+    },
+    {
+      "date": "2010",
+      "event": "Presents a training course on binary vulnerabilities and exploit writing at REcon."
+    },
+    {
+      "date": "2010",
+      "event": "Co-founds the satellite company Satellogic with Emiliano Kargieman."
+    },
+    {
+      "date": "2015",
+      "event": "Core Security Technologies is acquired by Courion."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -36,20 +65,45 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Recon training - Binary Vulnerabilities and Exploit Writing by Gerardo 'gera' Richarte", "url": "https://recon.cx/2010/training2.html" },
-    { "title": "About Exploits Writing (Core Security publication, Gerardo Richarte)", "url": "https://www.coresecurity.com/sites/default/files/private-files/publications/2016/05/2002.gera_.About_Exploits_Writing.pdf" },
-    { "title": "The Shellcoder's Handbook: Discovering and Exploiting Security Holes (Amazon listing, credits Gerardo Richarte as co-author)", "url": "https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X" },
-    { "title": "Gerardo Richarte - Management, Satellogic Investor Relations", "url": "https://investors.satellogic.com/management/gerardo-richarte" },
-    { "title": "Gerardo Richarte: \"Debemos ser hackers o dominados: controlás la tecnología o ella te domina a vos\" - LA NACION", "url": "https://www.lanacion.com.ar/tecnologia/gerardo-richarte-debemos-ser-hackers-o-dominados-controlas-la-tecnologia-o-ella-te-domina-a-vos-nid2251996/" },
-    { "title": "Quién es \"el cibergaucho\", el hacker más influyente de la Argentina - El Cronista", "url": "https://www.cronista.com/infotechnology/labs/quien-es-el-cibergaucho-el-hacker-mas-influyente-de-la-argentina/" },
-    { "title": "Nuevo unicornio argentino: cómo la empresa de un ex hacker protagoniza una de las olas tech del momento - Infobae", "url": "https://www.infobae.com/economia/2026/05/30/nuevo-unicornio-argentino-como-la-empresa-de-un-ex-hacker-protagoniza-una-de-las-olas-tech-del-momento-y-ya-vale-usd-1400-millones/" },
-    { "title": "Gera - InfoConDB presenter profile", "url": "https://infocondb.org/presenter/gera" }
+    {
+      "title": "Recon training - Binary Vulnerabilities and Exploit Writing by Gerardo 'gera' Richarte",
+      "url": "https://recon.cx/2010/training2.html"
+    },
+    {
+      "title": "About Exploits Writing (Core Security publication, Gerardo Richarte)",
+      "url": "https://www.coresecurity.com/sites/default/files/private-files/publications/2016/05/2002.gera_.About_Exploits_Writing.pdf"
+    },
+    {
+      "title": "The Shellcoder's Handbook: Discovering and Exploiting Security Holes (Amazon listing, credits Gerardo Richarte as co-author)",
+      "url": "https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X"
+    },
+    {
+      "title": "Gerardo Richarte - Management, Satellogic Investor Relations",
+      "url": "https://investors.satellogic.com/management/gerardo-richarte"
+    },
+    {
+      "title": "Gerardo Richarte: \"Debemos ser hackers o dominados: controlás la tecnología o ella te domina a vos\" - LA NACION",
+      "url": "https://www.lanacion.com.ar/tecnologia/gerardo-richarte-debemos-ser-hackers-o-dominados-controlas-la-tecnologia-o-ella-te-domina-a-vos-nid2251996/"
+    },
+    {
+      "title": "Quién es \"el cibergaucho\", el hacker más influyente de la Argentina - El Cronista",
+      "url": "https://www.cronista.com/infotechnology/labs/quien-es-el-cibergaucho-el-hacker-mas-influyente-de-la-argentina/"
+    },
+    {
+      "title": "Nuevo unicornio argentino: cómo la empresa de un ex hacker protagoniza una de las olas tech del momento - Infobae",
+      "url": "https://www.infobae.com/economia/2026/05/30/nuevo-unicornio-argentino-como-la-empresa-de-un-ex-hacker-protagoniza-una-de-las-olas-tech-del-momento-y-ya-vale-usd-1400-millones/"
+    },
+    {
+      "title": "Gera - InfoConDB presenter profile",
+      "url": "https://infocondb.org/presenter/gera"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 8,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

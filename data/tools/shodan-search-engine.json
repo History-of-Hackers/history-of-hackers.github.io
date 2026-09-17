@@ -4,18 +4,41 @@
   "title": "Shodan",
   "slug": "shodan-search-engine",
   "era": "2009-Present",
-  "tags": ["search engine", "iot security", "reconnaissance", "internet scanning", "osint", "network security", "banner grabbing"],
+  "tags": [
+    "search engine",
+    "iot security",
+    "reconnaissance",
+    "internet scanning",
+    "osint",
+    "network security",
+    "banner grabbing"
+  ],
   "summary": "Shodan is a search engine created by John Matherly that indexes internet-connected devices and services rather than web pages, allowing users to search by device type, software banner, geographic location, and open ports.",
   "whyThisMatters": "Shodan was among the first widely-used tools to make mass internet scanning and device-banner indexing accessible to non-specialists, reshaping how security researchers, defenders, and attackers alike discover exposed infrastructure. Its results have repeatedly surfaced unsecured industrial control systems, medical devices, databases, and cameras, driving both public awareness of internet-of-things security gaps and debate over the dual-use nature of reconnaissance tools. It remains a standard reference tool in security research, penetration testing, and OSINT workflows.",
   "sections": {
     "overview": "<h2>Background</h2><p>Shodan is a search engine that indexes information about internet-connected devices rather than the content of web pages. It was created by computer programmer John Matherly, who conceived the idea in 2003 after observing how many types of devices, not just traditional web servers, were reachable over the internet. Matherly built and launched the public version of Shodan in 2009. The tool's name references SHODAN, the artificial intelligence antagonist of the System Shock video game series.</p><h2>How It Works</h2><p>Unlike conventional web search engines that crawl and index page content, Shodan continuously scans the internet across numerous ports and protocols, including HTTP/HTTPS, FTP, SSH, Telnet, SNMP, SIP, and RTSP. When a device responds, Shodan collects and stores the metadata returned by the service, commonly called a \"banner,\" which can include software name and version, server headers, and other configuration details. Users can search and filter this indexed data by criteria such as device type, operating system, geographic location, organization, and specific software versions, without needing to scan targets themselves.</p><h2>Adoption and Use</h2><p>Shodan is used by cybersecurity professionals, network administrators, academic researchers, and law enforcement to identify exposed systems, monitor an organization's internet-facing attack surface, and study broader trends in internet infrastructure and device deployment. According to Shodan's own description of its service, it markets itself as helping organizations track internet-facing assets and receive alerts when new or unexpected devices appear. The platform offers both a web interface with limited free searches and a paid tier, along with a developer API used to integrate its data into other security tools and research pipelines.</p><h2>Notable Discoveries and Coverage</h2><p>Shodan has repeatedly been used by researchers and journalists to illustrate the scale of insecure internet-connected infrastructure. In 2013, CNN Money reported on Shodan searches that turned up traffic light control systems and other exposed industrial systems, while Forbes covered how the search engine could locate exposed equipment ranging from heavy machinery to medical devices. In December 2015, independent security journalist Brian Krebs, on his site Krebs on Security, described how a researcher used Shodan to locate an exposed database associated with a data breach affecting millions of MacKeeper users, illustrating the tool's practical role in independent vulnerability discovery. Shodan searches have also been cited in reporting on exposed IP cameras and baby monitors, unsecured MongoDB databases, and other categories of internet-of-things devices left accessible without authentication.</p><h2>Significance and Legacy</h2><p>Shodan helped popularize the concept of internet-wide device search as a distinct category from conventional web search, influencing later large-scale internet scanning projects and research efforts in the security community. Its ability to surface exposed critical infrastructure and IoT devices has made it a recurring reference point in discussions of internet-of-things security, industrial control system exposure, and the dual-use nature of open-source intelligence tools, since the same data that helps defenders identify their own exposed systems can also be used by malicious actors seeking targets. Shodan continues to operate as a commercial service and is widely cited in security research, journalism, and penetration testing methodology as a standard tool for internet reconnaissance.</p>"
   },
   "timeline": [
-    { "date": "2003", "event": "John Matherly conceives the idea for a search engine focused on internet-connected devices rather than web page content." },
-    { "date": "2009", "event": "Shodan is publicly launched by John Matherly." },
-    { "date": "2013-04", "event": "CNN Money reports on Shodan searches revealing exposed traffic light control systems and other infrastructure." },
-    { "date": "2013-09", "event": "Forbes covers Shodan's ability to locate exposed industrial equipment and other internet-connected systems, describing it as a search engine for the internet of things." },
-    { "date": "2015-12", "event": "Krebs on Security reports that a researcher used Shodan to identify an exposed database linked to a breach affecting millions of MacKeeper users." }
+    {
+      "date": "2003",
+      "event": "John Matherly conceives the idea for a search engine focused on internet-connected devices rather than web page content."
+    },
+    {
+      "date": "2009",
+      "event": "Shodan is publicly launched by John Matherly."
+    },
+    {
+      "date": "2013-04",
+      "event": "CNN Money reports on Shodan searches revealing exposed traffic light control systems and other infrastructure."
+    },
+    {
+      "date": "2013-09",
+      "event": "Forbes covers Shodan's ability to locate exposed industrial equipment and other internet-connected systems, describing it as a search engine for the internet of things."
+    },
+    {
+      "date": "2015-12",
+      "event": "Krebs on Security reports that a researcher used Shodan to identify an exposed database linked to a breach affecting millions of MacKeeper users."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -23,15 +46,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Shodan (website) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Shodan_(website)" },
-    { "title": "Shodan - Official Website", "url": "https://www.shodan.io" },
-    { "title": "Krebs on Security - search results for Shodan", "url": "https://krebsonsecurity.com/?s=shodan" }
+    {
+      "title": "Shodan (website) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shodan_(website)"
+    },
+    {
+      "title": "Shodan - Official Website",
+      "url": "https://www.shodan.io"
+    },
+    {
+      "title": "Krebs on Security - search results for Shodan",
+      "url": "https://krebsonsecurity.com/?s=shodan"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -4,23 +4,61 @@
   "title": "Cuckoo Sandbox",
   "slug": "cuckoo-sandbox",
   "era": "2010-Present",
-  "tags": ["malware analysis", "sandbox", "open source", "dynamic analysis", "digital forensics", "reverse engineering", "honeynet project"],
+  "tags": [
+    "malware analysis",
+    "sandbox",
+    "open source",
+    "dynamic analysis",
+    "digital forensics",
+    "reverse engineering",
+    "honeynet project"
+  ],
   "summary": "Cuckoo Sandbox is an open-source automated malware analysis system that executes suspicious files in isolated virtual environments and produces detailed reports on their behavior, including API calls, network traffic, and file system activity.",
   "whyThisMatters": "Cuckoo Sandbox became one of the most widely adopted free tools for dynamic malware analysis, lowering the barrier for security researchers, incident responders, and threat intelligence teams to safely detonate and study malicious files without needing commercial sandbox products. Its open architecture and extensibility spawned an ecosystem of derivative projects, including Cuckoo-modified and CAPE Sandbox, which extended its API-hooking and unpacking capabilities. Alongside the public Malwr.com service built on Cuckoo, it helped popularize automated behavioral analysis as a standard step in malware research workflows during the 2010s.",
   "sections": {
     "overview": "<h2>Background</h2><p>Cuckoo Sandbox is an open-source system for automated dynamic analysis of malicious software. Rather than relying solely on static inspection of a suspicious file, Cuckoo executes the sample inside an isolated environment, typically a virtual machine, and records what the file actually does: which processes it spawns, which files and registry keys it touches, what network connections it opens, and what system API calls it makes. The tool then compiles this behavioral data into a structured report, along with artifacts such as memory dumps, screenshots, and captured network traffic in PCAP format.</p><h2>Origins</h2><p>The project began in 2010 as a Google Summer of Code initiative under The Honeynet Project, a nonprofit organization focused on security research and honeypot technologies. It was created by Claudio \"nex\" Guarnieri. The first public beta was released on February 5, 2011, and the initial stable release, version 0.2, followed in November 2011.</p><h2>Growth and Adoption</h2><p>In 2012, the project's developers launched Malwr.com, a free public web service built on Cuckoo that allowed anyone to submit files for automated analysis, which broadened the tool's visibility among researchers and hobbyists alike. Version 0.4 was released the same year. The project continued to mature through 2013, when version 0.6 was released and the tool was presented at the Black Hat Las Vegas security conference, further cementing its reputation within the information security community. In 2014, the team released version 1.0 and established the Cuckoo Foundation as a nonprofit organization to support the project's continued development. Work on extending analysis capabilities to Mac OS X malware began in 2015, and a release candidate for version 2.0 was made available in 2016.</p><h2>Ecosystem and Forks</h2><p>Cuckoo's open design encouraged the creation of derivative and parallel projects. Around 2015, after the core Cuckoo project scaled back development of its process-monitoring and API-hooking components, a community fork known as Cuckoo-modified continued to enhance that original monitoring approach. Separately, security researcher Kevin O'Reilly at Context Information Security had been developing a standalone configuration and payload extraction tool; this work was later combined with Cuckoo-modified's hooking engine and publicly released as CAPE (Configuration And Payload Extraction) Sandbox in September 2016, which itself became a widely used malware analysis platform in its own right.</p><h2>Later Status</h2><p>Development of the mainline Cuckoo Sandbox 2.x branch slowed considerably in subsequent years. The project's GitHub repository eventually carried a notice stating that Cuckoo Sandbox 2.x was unmaintained while the original developers considered a complete rewrite; the repository was archived and made read-only in 2021. Despite this, the software and its source code have remained publicly available, and its codebase and design continued to influence successor and fork projects used in the malware research community.</p><h2>Significance</h2><p>Cuckoo Sandbox's significance lies in having made automated dynamic malware analysis freely accessible to a broad audience of security practitioners at a time when comparable capabilities were largely confined to expensive commercial products. Its architecture, reporting format, and public-facing services like Malwr.com helped normalize behavioral sandboxing as a routine part of malware triage and threat intelligence work, and its lineage lives on through actively maintained forks such as CAPE Sandbox.</p>"
   },
   "timeline": [
-    { "date": "2010", "event": "Development begins as a Google Summer of Code project under The Honeynet Project, created by Claudio \"nex\" Guarnieri." },
-    { "date": "2011-02-05", "event": "First public beta of Cuckoo Sandbox released." },
-    { "date": "2011-11", "event": "Version 0.2, the first stable release, is published." },
-    { "date": "2012", "event": "Malwr.com, a free public analysis service built on Cuckoo, launches; version 0.4 released." },
-    { "date": "2013", "event": "Version 0.6 released; the project is presented at Black Hat Las Vegas." },
-    { "date": "2014", "event": "Version 1.0 released and the nonprofit Cuckoo Foundation is established." },
-    { "date": "2015", "event": "Development of Mac OS X malware analysis support begins; core project scales back monitor/API-hooking development, prompting the Cuckoo-modified community fork." },
-    { "date": "2016-09", "event": "CAPE Sandbox, combining Kevin O'Reilly's payload-extraction tooling with Cuckoo-modified's hooking engine, is publicly released." },
-    { "date": "2016", "event": "Release candidate 1 of Cuckoo Sandbox 2.0 is made available." },
-    { "date": "2021-04-26", "event": "The cuckoosandbox/cuckoo GitHub repository is archived and made read-only, with 2.x noted as unmaintained." }
+    {
+      "date": "2010",
+      "event": "Development begins as a Google Summer of Code project under The Honeynet Project, created by Claudio \"nex\" Guarnieri."
+    },
+    {
+      "date": "2011-02-05",
+      "event": "First public beta of Cuckoo Sandbox released."
+    },
+    {
+      "date": "2011-11",
+      "event": "Version 0.2, the first stable release, is published."
+    },
+    {
+      "date": "2012",
+      "event": "Malwr.com, a free public analysis service built on Cuckoo, launches; version 0.4 released."
+    },
+    {
+      "date": "2013",
+      "event": "Version 0.6 released; the project is presented at Black Hat Las Vegas."
+    },
+    {
+      "date": "2014",
+      "event": "Version 1.0 released and the nonprofit Cuckoo Foundation is established."
+    },
+    {
+      "date": "2015",
+      "event": "Development of Mac OS X malware analysis support begins; core project scales back monitor/API-hooking development, prompting the Cuckoo-modified community fork."
+    },
+    {
+      "date": "2016-09",
+      "event": "CAPE Sandbox, combining Kevin O'Reilly's payload-extraction tooling with Cuckoo-modified's hooking engine, is publicly released."
+    },
+    {
+      "date": "2016",
+      "event": "Release candidate 1 of Cuckoo Sandbox 2.0 is made available."
+    },
+    {
+      "date": "2021-04-26",
+      "event": "The cuckoosandbox/cuckoo GitHub repository is archived and made read-only, with 2.x noted as unmaintained."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -28,16 +66,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "cuckoosandbox/cuckoo (GitHub repository)", "url": "https://github.com/cuckoosandbox/cuckoo" },
-    { "title": "Cuckoo Sandbox Documentation: What is Cuckoo?", "url": "https://cuckoo.readthedocs.io/en/latest/introduction/what/" },
-    { "title": "The Honeynet Project — Cuckoo tag", "url": "https://www.honeynet.org/tag/cuckoo/" },
-    { "title": "kevoreilly/CAPEv2 (GitHub repository)", "url": "https://github.com/kevoreilly/CAPEv2" }
+    {
+      "title": "cuckoosandbox/cuckoo (GitHub repository)",
+      "url": "https://github.com/cuckoosandbox/cuckoo"
+    },
+    {
+      "title": "Cuckoo Sandbox Documentation: What is Cuckoo?",
+      "url": "https://cuckoo.readthedocs.io/en/latest/introduction/what/"
+    },
+    {
+      "title": "The Honeynet Project — Cuckoo tag",
+      "url": "https://www.honeynet.org/tag/cuckoo/"
+    },
+    {
+      "title": "kevoreilly/CAPEv2 (GitHub repository)",
+      "url": "https://github.com/kevoreilly/CAPEv2"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

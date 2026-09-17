@@ -4,22 +4,58 @@
   "title": "Lazarus Group",
   "slug": "lazarus-group",
   "era": "2009-Present",
-  "tags": ["north-korea", "state-sponsored", "apt", "ransomware", "financial-theft", "sony-hack", "wannacry", "swift-fraud"],
+  "tags": [
+    "north-korea",
+    "state-sponsored",
+    "apt",
+    "ransomware",
+    "financial-theft",
+    "sony-hack",
+    "wannacry",
+    "swift-fraud"
+  ],
   "summary": "Lazarus Group is a state-sponsored cyber threat actor widely attributed to North Korea, active since at least 2009 and linked to the 2014 Sony Pictures hack, the 2016 Bangladesh Bank SWIFT heist, and the 2017 WannaCry ransomware outbreak.",
   "whyThisMatters": "Lazarus Group is one of the first hacking operations to demonstrate that a nation-state could use cyber intrusions for large-scale financial theft rather than solely espionage or sabotage, most visibly in the attempted $1 billion Bangladesh Bank heist. Its WannaCry ransomware, built on a leaked NSA exploit, became one of the most disruptive cyberattacks in history, crippling parts of the UK's National Health Service and hundreds of thousands of systems worldwide. The group's activity across espionage, destructive attacks, ransomware, and cryptocurrency theft has made it a central case study in state-sponsored cybercrime and led to rare U.S. criminal indictments and Treasury sanctions against named North Korean operatives.",
   "sections": {
     "overview": "<h2>Background</h2><p>Lazarus Group is the name given by cybersecurity researchers to a cluster of hacking activity assessed by U.S. and allied government agencies, as well as private security firms, to be run by North Korea. The group is believed to have been active since at least 2009, with an early documented operation being the so-called \"Operation Troy\" campaign of 2009-2012, which used distributed denial-of-service (DDoS) attacks against South Korean and U.S. government and media websites. Researchers have also used related names for parts of the group's activity, including Hidden Cobra, APT38, Zinc, and BlueNoroff, the last of which is generally associated with the group's financially motivated operations. The U.S. Department of Justice and the Cybersecurity and Infrastructure Security Agency have tied the group's personnel to North Korea's Reconnaissance General Bureau, the country's primary military intelligence agency.</p><h2>The Sony Pictures Hack</h2><p>In November 2014, a group calling itself \"Guardians of Peace\" breached the network of Sony Pictures Entertainment, destroying data on company computers and leaking unreleased films, internal emails, and employee personal information. The attack was linked to anger over the studio's planned release of \"The Interview,\" a comedy depicting the assassination of North Korean leader Kim Jong-un. In December 2014, the FBI publicly attributed the intrusion to the North Korean government, marking one of the first instances of a formal U.S. government cyberattack attribution against a nation-state. Security researchers subsequently connected malware and infrastructure used in the Sony breach to the wider Lazarus Group cluster.</p><h2>The Bangladesh Bank Heist</h2><p>In February 2016, hackers linked to Lazarus Group targeted Bangladesh Bank, the central bank of Bangladesh, attempting to steal nearly $1 billion by issuing fraudulent transfer instructions through the SWIFT interbank messaging network. Most of the attempted transfers were blocked, but roughly $101 million was successfully diverted, including $81 million routed to accounts in the Philippines and about $20 million to Sri Lanka. A misspelling in one transfer request (\"fandation\" instead of \"foundation\") triggered a compliance check that halted the Sri Lanka transfer. Security firms including Symantec and BAE Systems linked malware and tools used in the heist to Lazarus Group, and the operation is considered one of the largest attempted bank robberies in history.</p><h2>WannaCry</h2><p>In May 2017, the WannaCry ransomware worm spread rapidly across the world, encrypting files on infected Windows computers and demanding Bitcoin ransom payments. It exploited a Windows Server Message Block vulnerability using the EternalBlue exploit, a tool believed to have been developed by the U.S. National Security Agency and leaked earlier that year by a group known as the Shadow Brokers. WannaCry affected an estimated 200,000-300,000 computers across roughly 150 countries within days, notably disrupting Britain's National Health Service, where thousands of appointments and operations were cancelled. Security researcher Marcus Hutchins slowed the outbreak by registering a domain that acted as an inadvertent kill switch built into the malware. In December 2017, the United States and United Kingdom formally attributed WannaCry to North Korea, and security researchers at Kaspersky Lab and Symantec had earlier identified code overlaps with known Lazarus Group tools.</p><h2>Legal Action and Sanctions</h2><p>In September 2018, the U.S. Department of Justice unsealed criminal charges against Park Jin Hyok, described as a North Korean government hacker, for his alleged role in the Sony Pictures hack, the WannaCry attack, and the Bangladesh Bank theft. In February 2021, the Justice Department expanded the case with an indictment naming Park alongside two other alleged North Korean military intelligence hackers, Jon Chang Hyok and Kim Il, describing a wide-ranging scheme that also included attacks on cryptocurrency exchanges and the development of a malicious cryptocurrency application called Marine Chain. In April 2022, the U.S. Treasury's Office of Foreign Assets Control placed Lazarus Group and related entities under sanctions tied to North Korea's weapons and cyber programs.</p><h2>Legacy</h2><p>Lazarus Group is widely cited by governments and cybersecurity researchers as a defining example of state-sponsored cybercrime that blends traditional espionage tradecraft with financially motivated theft, including later, extensive targeting of cryptocurrency exchanges and decentralized finance platforms. Its documented activity spanning destructive attacks, global ransomware, and multimillion-dollar financial fraud has made it a recurring subject of threat intelligence reporting, sanctions actions, and academic study of nation-state cyber operations.</p>"
   },
   "timeline": [
-    { "date": "2009", "event": "Earliest documented activity attributed to the group, including DDoS campaigns later referred to as Operation Troy, targeting South Korean and U.S. websites." },
-    { "date": "2014-11", "event": "Sony Pictures Entertainment is breached by attackers calling themselves Guardians of Peace, leaking films, emails, and employee data." },
-    { "date": "2014-12", "event": "The FBI publicly attributes the Sony Pictures hack to the North Korean government." },
-    { "date": "2016-02", "event": "Hackers attempt to steal nearly $1 billion from Bangladesh Bank via fraudulent SWIFT transfers; roughly $101 million is successfully diverted." },
-    { "date": "2017-05-12", "event": "The WannaCry ransomware worm begins spreading globally, exploiting the EternalBlue SMB vulnerability and disrupting the UK's National Health Service among hundreds of thousands of systems." },
-    { "date": "2017-12", "event": "The United States and United Kingdom formally attribute the WannaCry attack to North Korea." },
-    { "date": "2018-09", "event": "The U.S. Department of Justice unseals criminal charges against North Korean programmer Park Jin Hyok for the Sony, WannaCry, and Bangladesh Bank attacks." },
-    { "date": "2021-02", "event": "The DOJ announces an expanded indictment against three North Korean military intelligence operatives for a broad scheme including bank and cryptocurrency theft." },
-    { "date": "2022-04", "event": "The U.S. Treasury's OFAC sanctions Lazarus Group entities tied to North Korea's cyber and weapons programs." }
+    {
+      "date": "2009",
+      "event": "Earliest documented activity attributed to the group, including DDoS campaigns later referred to as Operation Troy, targeting South Korean and U.S. websites."
+    },
+    {
+      "date": "2014-11",
+      "event": "Sony Pictures Entertainment is breached by attackers calling themselves Guardians of Peace, leaking films, emails, and employee data."
+    },
+    {
+      "date": "2014-12",
+      "event": "The FBI publicly attributes the Sony Pictures hack to the North Korean government."
+    },
+    {
+      "date": "2016-02",
+      "event": "Hackers attempt to steal nearly $1 billion from Bangladesh Bank via fraudulent SWIFT transfers; roughly $101 million is successfully diverted."
+    },
+    {
+      "date": "2017-05-12",
+      "event": "The WannaCry ransomware worm begins spreading globally, exploiting the EternalBlue SMB vulnerability and disrupting the UK's National Health Service among hundreds of thousands of systems."
+    },
+    {
+      "date": "2017-12",
+      "event": "The United States and United Kingdom formally attribute the WannaCry attack to North Korea."
+    },
+    {
+      "date": "2018-09",
+      "event": "The U.S. Department of Justice unseals criminal charges against North Korean programmer Park Jin Hyok for the Sony, WannaCry, and Bangladesh Bank attacks."
+    },
+    {
+      "date": "2021-02",
+      "event": "The DOJ announces an expanded indictment against three North Korean military intelligence operatives for a broad scheme including bank and cryptocurrency theft."
+    },
+    {
+      "date": "2022-04",
+      "event": "The U.S. Treasury's OFAC sanctions Lazarus Group entities tied to North Korea's cyber and weapons programs."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -27,15 +63,25 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Lazarus Group - Wikipedia", "url": "https://en.wikipedia.org/wiki/Lazarus_Group" },
-    { "title": "Bangladesh Bank robbery - Wikipedia", "url": "https://en.wikipedia.org/wiki/Bangladesh_Bank_robbery" },
-    { "title": "WannaCry ransomware attack - Wikipedia", "url": "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack" }
+    {
+      "title": "Lazarus Group - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lazarus_Group"
+    },
+    {
+      "title": "Bangladesh Bank robbery - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bangladesh_Bank_robbery"
+    },
+    {
+      "title": "WannaCry ransomware attack - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 3,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

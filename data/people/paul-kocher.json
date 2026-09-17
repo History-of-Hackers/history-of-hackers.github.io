@@ -7,7 +7,15 @@
   "born": "1973-06-11",
   "died": null,
   "era": "1990s-Present",
-  "tags": ["cryptography", "side-channel-attacks", "timing-attack", "power-analysis", "spectre", "ssl-tls", "hardware-security"],
+  "tags": [
+    "cryptography",
+    "side-channel-attacks",
+    "timing-attack",
+    "power-analysis",
+    "spectre",
+    "ssl-tls",
+    "hardware-security"
+  ],
   "summary": "Paul Kocher is an American cryptographer who founded Cryptography Research, Inc. and is best known for discovering timing attacks and (with colleagues) differential power analysis, two foundational side-channel attack techniques, as well as for co-discovering the Spectre CPU vulnerability in 2017-2018.",
   "whyThisMatters": "Kocher's timing-attack and differential power analysis research created an entirely new discipline within applied cryptography, showing that mathematically secure algorithms could still leak secret keys through physical side effects of their implementation. His countermeasure designs became standard practice across the smart-card and secure-chip industry. Decades later, his co-discovery of Spectre demonstrated that side-channel leakage extended even to the speculative-execution internals of modern CPUs, forcing a industry-wide reassessment of processor security that continues to shape hardware design.",
   "knownFor": [
@@ -22,18 +30,54 @@
     "overview": "<h2>Background</h2><p>Paul Carl Kocher was born on June 11, 1973, and grew up in Oregon. He studied biology at Stanford University, where he became involved with cryptographer Martin Hellman's research group and, largely self-taught, developed a deep interest in applied cryptography. He graduated from Stanford in 1995 and, rather than pursuing his earlier plan to become a veterinarian, moved directly into cryptographic research and consulting.</p><h2>Founding Cryptography Research, Inc.</h2><p>In 1995 Kocher founded Cryptography Research, Inc. (CRI), a San Francisco-based firm that provided cryptographic research, engineering, and licensing services, including tamper-resistance and content-protection technologies. He served as the company's president and chief scientist. Under his leadership CRI grew into an influential security research and licensing business; in 2011 it was acquired by Rambus Inc. for approximately $342.5 million, after which Kocher led Rambus's newly formed Cryptography Research security division as senior vice president and chief scientist until 2017.</p><h2>Timing Attacks</h2><p>In 1996 Kocher published \"Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems,\" demonstrating that the time a cryptographic implementation takes to perform an operation can vary in ways that are statistically correlated with the secret key being used. By carefully measuring these timing differences, an attacker could recover private keys from otherwise mathematically secure systems, even without ever seeing the plaintext or ciphertext directly. This work established timing analysis as a practical, non-invasive method for extracting secrets from real-world implementations, launching the broader field of side-channel cryptanalysis.</p><h2>Differential Power Analysis</h2><p>Building on the insight behind timing attacks, Kocher and colleagues at CRI (including Joshua Jaffe and Benjamin Jun) developed differential power analysis (DPA) in the late 1990s. DPA uses statistical analysis of a device's power consumption during cryptographic operations to extract secret keys, exploiting the fact that different data values and operations draw subtly different amounts of power. The technique proved devastatingly effective against smart cards and embedded cryptographic devices of the era, and it, along with the related simple power analysis (SPA), prompted the hardware security industry to adopt countermeasures such as constant-time execution, power-consumption masking, and randomized computation, many of which were themselves developed and licensed by CRI.</p><h2>SSL and the Deep Crack Machine</h2><p>Kocher also contributed to the development of the SSL 3.0 protocol, working alongside Netscape's Taher Elgamal, helping to establish design elements that carried forward into TLS, the protocol underlying secure communication across the modern web. Separately, in 1998 he led the design of Deep Crack, a purpose-built machine constructed for the Electronic Frontier Foundation that could brute-force a 56-bit DES key in days, publicly demonstrating that the DES encryption standard was no longer adequate for protecting sensitive data and accelerating its replacement.</p><h2>Spectre</h2><p>In 2017, working independently of Google's Project Zero researcher Jann Horn, Kocher was one of the researchers who separately identified a class of vulnerabilities exploiting speculative execution in modern microprocessors. Disclosed publicly on January 3, 2018, alongside the related Meltdown vulnerability, Spectre showed that performance optimizations built into virtually all modern CPUs could be abused to read memory an attacker should not have access to, by tricking a processor into speculatively executing instructions and then measuring subtle timing side effects of that speculation. Kocher is credited with co-discovering and naming the vulnerability. The disclosure prompted an industry-wide response from chip makers, operating system vendors, and cloud providers, and led to lasting changes in processor design and software mitigation techniques.</p><h2>Recognition and Legacy</h2><p>Kocher's contributions have been widely recognized: he was elected to the U.S. National Academy of Engineering in 2009, named a Fellow of the International Association for Cryptologic Research (IACR) in 2018 for \"fundamental contributions to the study of side-channel attacks and countermeasures, cryptography in practice, and for service to the IACR,\" received the Marconi Prize in 2019, and was awarded the Levchin Prize in 2023. His work on timing attacks, differential power analysis, and Spectre collectively established side-channel analysis as a central concern in both cryptographic implementation and hardware architecture, influencing how secure systems are designed at every layer from smart cards to modern CPUs.</p>"
   },
   "timeline": [
-    { "date": "1973-06-11", "event": "Paul Kocher born in Oregon, United States." },
-    { "date": "1995", "event": "Graduates from Stanford University; founds Cryptography Research, Inc." },
-    { "date": "1996", "event": "Publishes seminal paper on timing attacks against RSA, DSS, and Diffie-Hellman implementations." },
-    { "date": "1998", "event": "Leads design of the Deep Crack DES-cracking machine for the Electronic Frontier Foundation." },
-    { "date": "1998-1999", "event": "Co-develops differential power analysis (DPA) with colleagues at Cryptography Research." },
-    { "date": "2009", "event": "Elected to the U.S. National Academy of Engineering." },
-    { "date": "2011", "event": "Cryptography Research, Inc. is acquired by Rambus Inc. for approximately $342.5 million." },
-    { "date": "2017", "event": "Co-discovers the Spectre speculative-execution vulnerability, independently of Google Project Zero's Jann Horn." },
-    { "date": "2018-01-03", "event": "Spectre and Meltdown vulnerabilities are publicly disclosed." },
-    { "date": "2018", "event": "Named a Fellow of the International Association for Cryptologic Research (IACR)." },
-    { "date": "2019", "event": "Awarded the Marconi Prize." },
-    { "date": "2023", "event": "Awarded the Levchin Prize for Real-World Cryptography." }
+    {
+      "date": "1973-06-11",
+      "event": "Paul Kocher born in Oregon, United States."
+    },
+    {
+      "date": "1995",
+      "event": "Graduates from Stanford University; founds Cryptography Research, Inc."
+    },
+    {
+      "date": "1996",
+      "event": "Publishes seminal paper on timing attacks against RSA, DSS, and Diffie-Hellman implementations."
+    },
+    {
+      "date": "1998",
+      "event": "Leads design of the Deep Crack DES-cracking machine for the Electronic Frontier Foundation."
+    },
+    {
+      "date": "1998-1999",
+      "event": "Co-develops differential power analysis (DPA) with colleagues at Cryptography Research."
+    },
+    {
+      "date": "2009",
+      "event": "Elected to the U.S. National Academy of Engineering."
+    },
+    {
+      "date": "2011",
+      "event": "Cryptography Research, Inc. is acquired by Rambus Inc. for approximately $342.5 million."
+    },
+    {
+      "date": "2017",
+      "event": "Co-discovers the Spectre speculative-execution vulnerability, independently of Google Project Zero's Jann Horn."
+    },
+    {
+      "date": "2018-01-03",
+      "event": "Spectre and Meltdown vulnerabilities are publicly disclosed."
+    },
+    {
+      "date": "2018",
+      "event": "Named a Fellow of the International Association for Cryptologic Research (IACR)."
+    },
+    {
+      "date": "2019",
+      "event": "Awarded the Marconi Prize."
+    },
+    {
+      "date": "2023",
+      "event": "Awarded the Levchin Prize for Real-World Cryptography."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -41,18 +85,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Paul Carl Kocher - Wikipedia", "url": "https://en.wikipedia.org/wiki/Paul_Carl_Kocher" },
-    { "title": "Paul Kocher - Rambus Inventor Profile", "url": "https://www.rambus.com/inventors/inventor-paul-kocher/" },
-    { "title": "Paul Kocher weighs in on Spectre flaws, vulnerability disclosure - TechTarget", "url": "https://searchsecurity.techtarget.com/news/252439395/Paul-Kocher-weighs-in-on-Spectre-flaws-vulnerability-disclosure" },
-    { "title": "How the Spectre and Meltdown Hacks Really Worked - IEEE Spectrum", "url": "https://spectrum.ieee.org/how-the-spectre-and-meltdown-hacks-really-worked" },
-    { "title": "Paul Kocher - RSA Conference Speaker Profile", "url": "https://www.rsaconference.com/experts/paul-kocher" },
-    { "title": "Rambus Signs Definitive Agreement to Acquire Cryptography Research", "url": "https://www.rambus.com/rambus-signs-definitive-agreement-to-acquire-cryptography-research/" }
+    {
+      "title": "Paul Carl Kocher - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paul_Carl_Kocher"
+    },
+    {
+      "title": "Paul Kocher - Rambus Inventor Profile",
+      "url": "https://www.rambus.com/inventors/inventor-paul-kocher/"
+    },
+    {
+      "title": "Paul Kocher weighs in on Spectre flaws, vulnerability disclosure - TechTarget",
+      "url": "https://searchsecurity.techtarget.com/news/252439395/Paul-Kocher-weighs-in-on-Spectre-flaws-vulnerability-disclosure"
+    },
+    {
+      "title": "How the Spectre and Meltdown Hacks Really Worked - IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/how-the-spectre-and-meltdown-hacks-really-worked"
+    },
+    {
+      "title": "Paul Kocher - RSA Conference Speaker Profile",
+      "url": "https://www.rsaconference.com/experts/paul-kocher"
+    },
+    {
+      "title": "Rambus Signs Definitive Agreement to Acquire Cryptography Research",
+      "url": "https://www.rambus.com/rambus-signs-definitive-agreement-to-acquire-cryptography-research/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "1990s-Present",
-  "tags": ["attrition.org", "vulnerability disclosure", "data breach tracking", "osvdb", "cve", "security research", "hacktivism history"],
+  "tags": [
+    "attrition.org",
+    "vulnerability disclosure",
+    "data breach tracking",
+    "osvdb",
+    "cve",
+    "security research",
+    "hacktivism history"
+  ],
   "summary": "Brian Martin, widely known by the handle \"Jericho,\" is a security researcher and former hacker best known as the longtime operator of attrition.org and as a co-founder of the Open Source Vulnerability Database (OSVDB) and DatalossDB.",
   "whyThisMatters": "Martin's attrition.org, and its Errata section in particular, became one of the security industry's most persistent watchdogs, publicly documenting exaggerated resumes, plagiarism, and false claims of expertise among self-described security experts. Through OSVDB and DatalossDB, work he helped found under the Open Security Foundation, he contributed to the professionalization of vulnerability cataloging and public breach-tracking, efforts later absorbed by the commercial firm Risk Based Security. His long tenure on the CVE Editorial Board also placed him inside the process that standardizes how vulnerabilities are named and tracked industry-wide.",
   "knownFor": [
@@ -21,15 +29,42 @@
     "overview": "<h2>Background</h2><p>Brian Martin, known throughout the information security community by the handle \"Jericho,\" is a security researcher and former hacker whose work has centered on public accountability and historical documentation within the hacking and infosec scenes. In a 2004 profile published on the Information Security News mailing list (ISN), Martin described being active online since the mid-1990s, working as an independent security consultant, and having done technical consulting work related to Kevin Mitnick's legal defense. He has described his own early activity as unauthorized access aimed at understanding and, in his account, sometimes improving systems rather than causing damage.</p><h2>attrition.org and the Errata project</h2><p>Martin is best known as the longtime operator of attrition.org, a site that first became prominent in the late 1990s for mirroring and archiving website defacements, at a time when defacement archives were a primary way researchers and reporters tracked the scale of web intrusions. According to his own later accounts, the project grew out of dissatisfaction that built between 1996 and 1999 with what he viewed as hypocrisy and inflated claims inside the emerging \"ethical hacking\" industry. That dissatisfaction led to attrition.org's Errata section, which investigates and publishes cases of security professionals or companies making false, exaggerated, or plagiarized claims of expertise. Errata entries follow a vetting process that Martin has described as including crowd-sourced tips, independent investigation, and internal review before publication, with corrections issued if entries are shown to be inaccurate. The most widely reported Errata case involved Gregory Evans and his company LIGATT Security, whom attrition.org accused of fabricating hacking credentials and plagiarizing published material; the dispute drew coverage in outlets such as CSO Online and drew public counter-claims from Evans.</p><h2>OSVDB, DatalossDB, and the Open Security Foundation</h2><p>In early 2004, Martin joined Chris Sullo and Jake Kouns in conceiving what became the Open Source Vulnerability Database (OSVDB), an effort to build an independent, community-maintained catalog of software vulnerabilities separate from vendor- or government-run databases. The supporting nonprofit, the Open Security Foundation (OSF), obtained 501(c)(3) status in 2005. Martin served as OSVDB's content manager and as an officer of OSF, and the foundation also incubated DatalossDB, one of the earlier public projects tracking reported data-breach incidents. In 2011, OSF partnered with the commercial firm Risk Based Security to provide continued funding for OSVDB and DatalossDB. OSVDB ultimately shut down in April 2016, with Martin announcing its conclusion on his \"Rants of a deranged squirrel\" blog after roughly a decade of operation.</p><h2>CVE Editorial Board and industry role</h2><p>Martin has served on the CVE Editorial Board, the group that helps oversee the Common Vulnerabilities and Exposures identifier system used industry-wide to reference disclosed software vulnerabilities. Combined with his OSVDB work, this placed him among a small group of researchers directly involved in shaping how vulnerabilities are catalogued and cross-referenced across competing databases. He has also spoken at industry conferences including DEF CON, Black Hat, and BSides events on topics such as the history and statistics of vulnerability disclosure.</p><h2>Significance and legacy</h2><p>Martin's combined body of work made him one of the more consistent internal critics of the commercial security industry, using attrition.org's Errata section to push back against inflated expertise claims at a time when few other public venues did so systematically. His parallel work building OSVDB and DatalossDB helped demonstrate that independent, community-run vulnerability and breach tracking was feasible outside vendor or government channels, an approach later followed and commercialized by other vulnerability-intelligence services. He remains associated with attrition.org and continues to be cited in security-industry retrospectives as \"Jericho.\"</p>"
   },
   "timeline": [
-    { "date": "1996", "event": "Martin has described beginning professional security work around this time, a period he later cited as the start of his frustration with the emerging 'ethical hacking' industry." },
-    { "date": "1998", "event": "attrition.org becomes active and prominent, initially known for mirroring and archiving website defacements." },
-    { "date": "1999", "event": "attrition.org's Errata section is launched to document false or exaggerated claims by security industry figures and companies." },
-    { "date": "2004", "event": "Martin, alongside Chris Sullo and Jake Kouns, conceives the Open Source Vulnerability Database (OSVDB) project." },
-    { "date": "2004-04", "event": "A biographical profile of Martin ('Jericho') is published on the Information Security News (ISN) mailing list, detailing his background and work." },
-    { "date": "2005-04", "event": "The Open Security Foundation, the nonprofit supporting OSVDB and later DatalossDB, obtains 501(c)(3) nonprofit status." },
-    { "date": "2011", "event": "The Open Security Foundation partners with Risk Based Security to provide commercial support for OSVDB and DatalossDB." },
-    { "date": "2012", "event": "CSO Online publishes a retrospective interview marking roughly 13 years of the Errata project." },
-    { "date": "2016-04-05", "event": "Martin announces the shutdown of OSVDB after over a decade of operation." }
+    {
+      "date": "1996",
+      "event": "Martin has described beginning professional security work around this time, a period he later cited as the start of his frustration with the emerging 'ethical hacking' industry."
+    },
+    {
+      "date": "1998",
+      "event": "attrition.org becomes active and prominent, initially known for mirroring and archiving website defacements."
+    },
+    {
+      "date": "1999",
+      "event": "attrition.org's Errata section is launched to document false or exaggerated claims by security industry figures and companies."
+    },
+    {
+      "date": "2004",
+      "event": "Martin, alongside Chris Sullo and Jake Kouns, conceives the Open Source Vulnerability Database (OSVDB) project."
+    },
+    {
+      "date": "2004-04",
+      "event": "A biographical profile of Martin ('Jericho') is published on the Information Security News (ISN) mailing list, detailing his background and work."
+    },
+    {
+      "date": "2005-04",
+      "event": "The Open Security Foundation, the nonprofit supporting OSVDB and later DatalossDB, obtains 501(c)(3) nonprofit status."
+    },
+    {
+      "date": "2011",
+      "event": "The Open Security Foundation partners with Risk Based Security to provide commercial support for OSVDB and DatalossDB."
+    },
+    {
+      "date": "2012",
+      "event": "CSO Online publishes a retrospective interview marking roughly 13 years of the Errata project."
+    },
+    {
+      "date": "2016-04-05",
+      "event": "Martin announces the shutdown of OSVDB after over a decade of operation."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,18 +72,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Information Security News: Hackers: Under the hood - Brian Martin aka Jericho", "url": "https://seclists.org/isn/2004/Apr/65" },
-    { "title": "#BlackHat #DefCon preview: Jericho reflects on 13 years of Errata | CSO Online", "url": "https://www.csoonline.com/article/541742/security-leadership-blackhat-defcon-preview-jericho-reflects-on-13-years-of-errata.html" },
-    { "title": "Brian Martin - Vulnerability Historian / Archeologist (LinkedIn profile)", "url": "https://www.linkedin.com/in/attritionorg/" },
-    { "title": "Open Security Foundation - Wikipedia", "url": "https://en.wikipedia.org/wiki/Open_Security_Foundation" },
-    { "title": "LIGATT Security, Gregory Evans and the damage done | CSO Online", "url": "https://www.csoonline.com/article/2134794/ligatt-security--gregory-evans-and-the-damage-done.html" },
-    { "title": "Jericho's Writings: Security - attrition.org", "url": "https://attrition.org/~jericho/works/security/" }
+    {
+      "title": "Information Security News: Hackers: Under the hood - Brian Martin aka Jericho",
+      "url": "https://seclists.org/isn/2004/Apr/65"
+    },
+    {
+      "title": "#BlackHat #DefCon preview: Jericho reflects on 13 years of Errata | CSO Online",
+      "url": "https://www.csoonline.com/article/541742/security-leadership-blackhat-defcon-preview-jericho-reflects-on-13-years-of-errata.html"
+    },
+    {
+      "title": "Brian Martin - Vulnerability Historian / Archeologist (LinkedIn profile)",
+      "url": "https://www.linkedin.com/in/attritionorg/"
+    },
+    {
+      "title": "Open Security Foundation - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Open_Security_Foundation"
+    },
+    {
+      "title": "LIGATT Security, Gregory Evans and the damage done | CSO Online",
+      "url": "https://www.csoonline.com/article/2134794/ligatt-security--gregory-evans-and-the-damage-done.html"
+    },
+    {
+      "title": "Jericho's Writings: Security - attrition.org",
+      "url": "https://attrition.org/~jericho/works/security/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

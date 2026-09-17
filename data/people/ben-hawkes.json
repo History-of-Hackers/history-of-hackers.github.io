@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["project zero", "google", "vulnerability research", "new zealand", "memory corruption", "ios security", "exploit mitigation"],
+  "tags": [
+    "project zero",
+    "google",
+    "vulnerability research",
+    "new zealand",
+    "memory corruption",
+    "ios security",
+    "exploit mitigation"
+  ],
   "summary": "Ben Hawkes is a New Zealand computer security researcher who was a founding member of Google's Project Zero team in 2014 and later served as its manager until his resignation in May 2022.",
   "whyThisMatters": "Hawkes helped build and then led Project Zero, one of the most influential vulnerability research teams in the software industry, which pushed vendors across the ecosystem to fix serious flaws faster through coordinated, deadline-driven disclosure. His personal research credits span major platforms including Adobe Flash, Microsoft Office, iOS, and the Linux kernel, and his public reports of in-the-wild zero-day exploitation informed emergency security updates from vendors such as Apple. After leaving Google, he continued to shape the field through Isosceles, a security research and consulting venture focused on helping organizations build more secure products.",
   "knownFor": [
@@ -22,12 +30,30 @@
     "overview": "<h2>Background</h2><p>Ben Hawkes is a computer security researcher from New Zealand known for his work identifying software vulnerabilities and for leading Google's Project Zero security research team. Before joining Project Zero, Hawkes spent several years working within Google on the security of the company's own product launches, focusing in particular on virtualization and sandboxing technologies. Earlier in his career he was already known within the vulnerability research community for finding and reporting bugs in widely used software such as Adobe Flash and Microsoft Office.</p><h2>Project Zero</h2><p>In July 2014, Google publicly launched Project Zero, a team dedicated to finding and reporting serious security vulnerabilities before they could be exploited by attackers, with Chris Evans as its initial lead. Evans recruited Hawkes, already known for his history of finding flaws in Flash and Office, as one of the team's founding members. When Evans left Google roughly a year later, Hawkes took over leadership of the team, eventually becoming its manager and guiding its growth into one of the most closely watched vulnerability research groups in the industry.</p><h2>Research and Disclosures</h2><p>As a researcher, Hawkes was credited with discovering dozens of vulnerabilities across platforms including Android, Linux, iOS, and Windows. In February 2019, he publicly reported that two iOS vulnerabilities patched in iOS 12.1.4 &mdash; a memory corruption flaw in Foundation (CVE-2019-7286) that could allow an application to gain elevated privileges, and a related IOKit flaw (CVE-2019-7287) that could allow code execution with kernel privileges &mdash; had been exploited as zero-days in targeted attacks before the patch was released. He also published and presented research on software exploitation more broadly, including novel heap exploitation techniques on Windows, and spoke at industry venues such as USENIX Enigma on the topic of what makes software exploitation difficult.</p><h2>Departure from Google and Later Work</h2><p>Hawkes resigned from Google and stepped down as manager of Project Zero on May 4, 2022, after roughly eight years with the team. He subsequently took time away from full-time employment to spend with his young family while continuing personal security research. In 2023 he founded Isosceles, a security consulting company based in California offering high-end technical services such as security reviews, security automation, and vulnerability research for organizations investing in long-term product security, and he began publishing commentary and retrospectives on hacking and vulnerability research through the company's blog.</p><h2>Significance and Legacy</h2><p>As a founding member and later leader of Project Zero, Hawkes played a central role in establishing one of the software industry's most influential models for offensive security research: finding serious vulnerabilities in widely deployed software and disclosing them under fixed deadlines to pressure vendors into timely fixes. His public bug reports, including confirmed in-the-wild iOS zero-days, directly shaped emergency vendor patch cycles, and his tenure helped cement Project Zero's reputation as a driving force behind stricter industry norms for vulnerability disclosure and exploit mitigation.</p>"
   },
   "timeline": [
-    { "date": "2014-07", "event": "Project Zero is publicly launched by Google; Hawkes joins as a founding member, recruited by initial team lead Chris Evans." },
-    { "date": "2015", "event": "Chris Evans departs Google; Hawkes takes over leadership of Project Zero." },
-    { "date": "2016", "event": "Speaks at USENIX Enigma on the topic \"What Makes Software Exploitation Hard?\"" },
-    { "date": "2019-02-07", "event": "Publicly reports that iOS vulnerabilities CVE-2019-7286 and CVE-2019-7287, patched in iOS 12.1.4, had been exploited in the wild as zero-days." },
-    { "date": "2022-05-04", "event": "Resigns from Google, stepping down as manager of Project Zero." },
-    { "date": "2023", "event": "Founds Isosceles, a security research and consulting company." }
+    {
+      "date": "2014-07",
+      "event": "Project Zero is publicly launched by Google; Hawkes joins as a founding member, recruited by initial team lead Chris Evans."
+    },
+    {
+      "date": "2015",
+      "event": "Chris Evans departs Google; Hawkes takes over leadership of Project Zero."
+    },
+    {
+      "date": "2016",
+      "event": "Speaks at USENIX Enigma on the topic \"What Makes Software Exploitation Hard?\""
+    },
+    {
+      "date": "2019-02-07",
+      "event": "Publicly reports that iOS vulnerabilities CVE-2019-7286 and CVE-2019-7287, patched in iOS 12.1.4, had been exploited in the wild as zero-days."
+    },
+    {
+      "date": "2022-05-04",
+      "event": "Resigns from Google, stepping down as manager of Project Zero."
+    },
+    {
+      "date": "2023",
+      "event": "Founds Isosceles, a security research and consulting company."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -35,18 +61,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Ben Hawkes - Wikipedia", "url": "https://en.wikipedia.org/wiki/Ben_Hawkes" },
-    { "title": "Project Zero (Google) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Project_Zero_(Google)" },
-    { "title": "Announcing Isosceles", "url": "https://blog.isosceles.com/announcing-isosceles/" },
-    { "title": "Two vulnerabilities patched in iOS 12.1.4 were exploited by hackers, Google researcher says - AppleInsider", "url": "https://appleinsider.com/articles/19/02/07/two-vulnerabilities-patched-in-ios-1214-were-exploited-by-hackers-google-researcher-says" },
-    { "title": "Google Project Zero: Hacker SWAT Team vs. Everyone - Fortune", "url": "https://fortune.com/2017/06/23/google-project-zero-hacker-swat-team/" },
-    { "title": "Ben Hawkes - USENIX Enigma 2016 speaker page", "url": "https://www.usenix.org/conference/enigma2016/speaker-or-organizer/ben-hawkes-google" }
+    {
+      "title": "Ben Hawkes - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ben_Hawkes"
+    },
+    {
+      "title": "Project Zero (Google) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Project_Zero_(Google)"
+    },
+    {
+      "title": "Announcing Isosceles",
+      "url": "https://blog.isosceles.com/announcing-isosceles/"
+    },
+    {
+      "title": "Two vulnerabilities patched in iOS 12.1.4 were exploited by hackers, Google researcher says - AppleInsider",
+      "url": "https://appleinsider.com/articles/19/02/07/two-vulnerabilities-patched-in-ios-1214-were-exploited-by-hackers-google-researcher-says"
+    },
+    {
+      "title": "Google Project Zero: Hacker SWAT Team vs. Everyone - Fortune",
+      "url": "https://fortune.com/2017/06/23/google-project-zero-hacker-swat-team/"
+    },
+    {
+      "title": "Ben Hawkes - USENIX Enigma 2016 speaker page",
+      "url": "https://www.usenix.org/conference/enigma2016/speaker-or-organizer/ben-hawkes-google"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

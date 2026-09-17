@@ -16,7 +16,7 @@
   "summary": "Silvio Cesare is an Australian security researcher active since the early 1990s, known for Phrack articles on binary infection techniques, a Snort IDS-evasion discovery, and later academic work on malware classification at Deakin University; he now runs the Canberra security firm InfoSect.",
   "whyThisMatters": "Silvio Cesare is an Australian security researcher active since the early 1990s, known for Phrack articles on binary infection techniques, a Snort IDS-evasion discovery, and later academic work on malware classification at Deakin University; he now runs the Canberra security firm InfoSect.",
   "sections": {
-    "overview": "<p>Silvio Cesare is an Australian security researcher, born in 1976 in Sydney, New South Wales, whose public record of work in computer security stretches from the early 1990s to the present. Wikipedia's infobox lists his years active as \"1993\u2013present,\" and he was a member of the well-known 1990s/2000s security research collective w00w00, alongside other researchers who went on to notable careers in the field.</p><p>Cesare's earliest documented technical publication is the Phrack magazine article \"Shared Library Call Redirection via ELF PLT Infection,\" published under the name \"Silvio\" in Phrack issue 56 on 5 January 2000. The article describes a method of redirecting shared-library function calls by modifying a binary's ELF Procedure Linkage Table \u2014 a technique more concealed than the LD_PRELOAD approach commonly used at the time, since it leaves no environment-variable trace. This kind of binary/library infection research sits within the broader tradition of virus- and rootkit-adjacent techniques from that era, though independent verification of additional specific virus- or kernel-rootkit-authorship claims beyond this article was not possible from the sources reviewed. Separately, Cesare is credited with discovering an intrusion-detection-system evasion bug in the widely deployed Snort software, corroborated by a 2008 TaoSecurity blog post referenced on his Wikipedia page.</p><p>Cesare later moved into academic and applied research, earning a PhD in Computer Science from Deakin University and a Master of Informatics plus Bachelor of Information Technology from CQUniversity Australia. Working with Deakin University collaborators Yang Xiang and Wanlei Zhou, he published a series of papers (2010\u20132014) on automated malware classification and variant detection, including the \"Malwise\" system for packed and polymorphic malware, and co-authored the SpringerBriefs book \"Software Similarity and Classification\" (Springer, 2012). He also built and released public tools reflecting this research: Simseer (a free online software-similarity classification service), Bugwise (static-analysis-based bug detection for Linux binaries), and Clonewise (a tool for identifying cloned open-source packages and inferring outstanding vulnerabilities in them, covered by SC Magazine/itnews.com.au in November 2011).</p><p>Cesare has spoken at major security conferences including DEF CON and Black Hat Briefings, with a confirmed appearance at Black Hat USA 2013. He is a co-founder of the BSides Canberra security conference and currently serves as Managing Director and Chief Researcher at InfoSect, a Canberra-based security research, training, and consulting company. Some biographical details commonly repeated about Cesare \u2014 such as a specific employment history at Qualys, or authorship of particular kernel-rootkit whitepapers sometimes associated with the same Phrack issues he appeared in \u2014 could not be independently confirmed from the sources consulted here and should be treated as unverified.</p>"
+    "overview": "<p>Silvio Cesare is an Australian security researcher, born in 1976 in Sydney, New South Wales, whose public record of work in computer security stretches from the early 1990s to the present. Wikipedia's infobox lists his years active as \"1993–present,\" and he was a member of the well-known 1990s/2000s security research collective w00w00, alongside other researchers who went on to notable careers in the field.</p><p>Cesare's earliest documented technical publication is the Phrack magazine article \"Shared Library Call Redirection via ELF PLT Infection,\" published under the name \"Silvio\" in Phrack issue 56 on 5 January 2000. The article describes a method of redirecting shared-library function calls by modifying a binary's ELF Procedure Linkage Table — a technique more concealed than the LD_PRELOAD approach commonly used at the time, since it leaves no environment-variable trace. This kind of binary/library infection research sits within the broader tradition of virus- and rootkit-adjacent techniques from that era, though independent verification of additional specific virus- or kernel-rootkit-authorship claims beyond this article was not possible from the sources reviewed. Separately, Cesare is credited with discovering an intrusion-detection-system evasion bug in the widely deployed Snort software, corroborated by a 2008 TaoSecurity blog post referenced on his Wikipedia page.</p><p>Cesare later moved into academic and applied research, earning a PhD in Computer Science from Deakin University and a Master of Informatics plus Bachelor of Information Technology from CQUniversity Australia. Working with Deakin University collaborators Yang Xiang and Wanlei Zhou, he published a series of papers (2010–2014) on automated malware classification and variant detection, including the \"Malwise\" system for packed and polymorphic malware, and co-authored the SpringerBriefs book \"Software Similarity and Classification\" (Springer, 2012). He also built and released public tools reflecting this research: Simseer (a free online software-similarity classification service), Bugwise (static-analysis-based bug detection for Linux binaries), and Clonewise (a tool for identifying cloned open-source packages and inferring outstanding vulnerabilities in them, covered by SC Magazine/itnews.com.au in November 2011).</p><p>Cesare has spoken at major security conferences including DEF CON and Black Hat Briefings, with a confirmed appearance at Black Hat USA 2013. He is a co-founder of the BSides Canberra security conference and currently serves as Managing Director and Chief Researcher at InfoSect, a Canberra-based security research, training, and consulting company. Some biographical details commonly repeated about Cesare — such as a specific employment history at Qualys, or authorship of particular kernel-rootkit whitepapers sometimes associated with the same Phrack issues he appeared in — could not be independently confirmed from the sources consulted here and should be treated as unverified.</p>"
   },
   "timeline": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "date": "2013",
-      "event": "Speaks at Black Hat USA 2013; co-publishes \"Malwise\" (IEEE Transactions on Computers) and \"Clonewise \u2013 Detecting Package-Level Clones Using Machine Learning\" (SecureComm 2013)."
+      "event": "Speaks at Black Hat USA 2013; co-publishes \"Malwise\" (IEEE Transactions on Computers) and \"Clonewise – Detecting Package-Level Clones Using Machine Learning\" (SecureComm 2013)."
     },
     {
       "date": "2014",
@@ -63,31 +63,31 @@
   "relatedEvents": [],
   "sources": [
     {
-      "title": "Silvio Cesare \u2014 Wikipedia",
+      "title": "Silvio Cesare — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Silvio_Cesare"
     },
     {
-      "title": "Silvio Cesare \u2014 DBLP bibliography",
+      "title": "Silvio Cesare — DBLP bibliography",
       "url": "https://dblp.org/pid/98/8099"
     },
     {
-      "title": "Shared Library Redirection via ELF PLT Infection \u2014 Phrack issue 56",
+      "title": "Shared Library Redirection via ELF PLT Infection — Phrack issue 56",
       "url": "http://phrack.org/issues/56/shared-library-redirection-via-elf-plt-infection.html"
     },
     {
-      "title": "InfoSect (Canberra) \u2014 company site",
+      "title": "InfoSect (Canberra) — company site",
       "url": "https://infosectcbr.com.au/"
     },
     {
-      "title": "Snort Evasion Vulnerability in Frag3 \u2014 TaoSecurity blog (Richard Bejtlich, 28 May 2008)",
+      "title": "Snort Evasion Vulnerability in Frag3 — TaoSecurity blog (Richard Bejtlich, 28 May 2008)",
       "url": "http://taosecurity.blogspot.com.au/2008/05/snort-evasion-vulnerability-in-frag3.html"
     },
     {
-      "title": "Tool kills hidden Linux bugs, vulnerabilities \u2014 SC Magazine/itnews.com.au (22 Nov 2011)",
+      "title": "Tool kills hidden Linux bugs, vulnerabilities — SC Magazine/itnews.com.au (22 Nov 2011)",
       "url": "http://www.itnews.com.au/News/280893,tool-kills-hidden-linux-bugs-vulnerabilities.aspx"
     },
     {
-      "title": "Black Hat USA 2013 speaker page \u2014 Silvio Cesare",
+      "title": "Black Hat USA 2013 speaker page — Silvio Cesare",
       "url": "https://www.blackhat.com/us-13/speakers/Silvio-Cesare.html"
     }
   ],
@@ -96,7 +96,8 @@
     "sourcesCount": 7,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
   "name": "Silvio Cesare",
   "born": "1976",

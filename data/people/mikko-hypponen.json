@@ -1,7 +1,7 @@
 {
   "id": "mikko-hypponen",
   "type": "person",
-  "title": "Mikko Hypp\u00f6nen",
+  "title": "Mikko Hyppönen",
   "slug": "mikko-hypponen",
   "era": "1990s-Present",
   "tags": [
@@ -12,10 +12,10 @@
     "antivirus",
     "TED speaker"
   ],
-  "summary": "Mikko Hypp\u00f6nen is a Finnish computer security researcher who spent over three decades at F-Secure and its successor WithSecure, becoming one of the most publicly recognized voices in malware research and cybersecurity communication, known for tracking down early virus authors and for widely viewed talks on cybercrime.",
-  "whyThisMatters": "Mikko Hypp\u00f6nen is a Finnish computer security researcher who spent over three decades at F-Secure and its successor WithSecure, becoming one of the most publicly recognized voices in malware research and cybersecurity communication, known for tracking down early virus authors and for widely viewed talks on cybercrime.",
+  "summary": "Mikko Hyppönen is a Finnish computer security researcher who spent over three decades at F-Secure and its successor WithSecure, becoming one of the most publicly recognized voices in malware research and cybersecurity communication, known for tracking down early virus authors and for widely viewed talks on cybercrime.",
+  "whyThisMatters": "Mikko Hyppönen is a Finnish computer security researcher who spent over three decades at F-Secure and its successor WithSecure, becoming one of the most publicly recognized voices in malware research and cybersecurity communication, known for tracking down early virus authors and for widely viewed talks on cybercrime.",
   "sections": {
-    "overview": "<p>Mikko Hermanni Hypp\u00f6nen (born October 13, 1969) is a Finnish computer security researcher and speaker who became one of the most publicly recognized figures in malware research over a career spanning more than three decades. He joined the small Finnish start-up Data Fellows in 1991 while still a computer science student; the company later became F-Secure.</p><h2>Career at F-Secure and WithSecure</h2><p>Hypp\u00f6nen spent 34 years at F-Secure and its successor organizations, serving as Chief Research Officer. When F-Secure split its business into two separate companies in 2022, its consumer security business retained the F-Secure name while the corporate cybersecurity business became WithSecure; Hypp\u00f6nen continued as Chief Research Officer at WithSecure. In June 2025 he announced he was leaving after this long tenure to become Chief Research Officer and part-owner at Sensofusion, a Helsinki-based anti-drone detection company.</p><h2>Malware Research and Investigations</h2><p>During his time in malware research, Hypp\u00f6nen and his teams investigated numerous major threats and outbreaks. He is particularly known for a widely publicized 2011 trip in which he tracked down and personally visited Basit and Amjad Farooq Alvi, the Pakistani brothers who wrote Brain, the first PC virus, at their business address in Lahore \u2014 the address had been embedded in the virus's own code. He also commented extensively in the press on state-linked malware such as Stuxnet, describing it as a turning point that marked the start of a new 'cyber arms race.'</p><h2>Public Speaking and Communication</h2><p>Hypp\u00f6nen became known as a prominent public communicator on cybersecurity, delivering a widely viewed talk, 'Fighting Viruses, Defending the Net,' at TEDGlobal in 2011. He has also spoken at major security and technology conferences including Black Hat, DEF CON, and the RSA Conference, and founded 'News from the Lab,' one of the first antivirus-industry blogs, in 2004.</p><h2>Recognition and Legacy</h2><p>Hypp\u00f6nen was named to PC World's list of the 50 most important people on the web (2007) and Foreign Policy's Top 100 Global Thinkers (2011), and was named CISO MAG's Cybersecurity Person of the Year in 2020. He is also known for coining 'Hypp\u00f6nen's Law,' the observation that any device marketed as 'smart' is inherently vulnerable to attack, which became the title of his 2022 book.</p>"
+    "overview": "<p>Mikko Hermanni Hyppönen (born October 13, 1969) is a Finnish computer security researcher and speaker who became one of the most publicly recognized figures in malware research over a career spanning more than three decades. He joined the small Finnish start-up Data Fellows in 1991 while still a computer science student; the company later became F-Secure.</p><h2>Career at F-Secure and WithSecure</h2><p>Hyppönen spent 34 years at F-Secure and its successor organizations, serving as Chief Research Officer. When F-Secure split its business into two separate companies in 2022, its consumer security business retained the F-Secure name while the corporate cybersecurity business became WithSecure; Hyppönen continued as Chief Research Officer at WithSecure. In June 2025 he announced he was leaving after this long tenure to become Chief Research Officer and part-owner at Sensofusion, a Helsinki-based anti-drone detection company.</p><h2>Malware Research and Investigations</h2><p>During his time in malware research, Hyppönen and his teams investigated numerous major threats and outbreaks. He is particularly known for a widely publicized 2011 trip in which he tracked down and personally visited Basit and Amjad Farooq Alvi, the Pakistani brothers who wrote Brain, the first PC virus, at their business address in Lahore — the address had been embedded in the virus's own code. He also commented extensively in the press on state-linked malware such as Stuxnet, describing it as a turning point that marked the start of a new 'cyber arms race.'</p><h2>Public Speaking and Communication</h2><p>Hyppönen became known as a prominent public communicator on cybersecurity, delivering a widely viewed talk, 'Fighting Viruses, Defending the Net,' at TEDGlobal in 2011. He has also spoken at major security and technology conferences including Black Hat, DEF CON, and the RSA Conference, and founded 'News from the Lab,' one of the first antivirus-industry blogs, in 2004.</p><h2>Recognition and Legacy</h2><p>Hyppönen was named to PC World's list of the 50 most important people on the web (2007) and Foreign Policy's Top 100 Global Thinkers (2011), and was named CISO MAG's Cybersecurity Person of the Year in 2020. He is also known for coining 'Hyppönen's Law,' the observation that any device marketed as 'smart' is inherently vulnerable to attack, which became the title of his 2022 book.</p>"
   },
   "timeline": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "date": "2022",
-      "event": "F-Secure splits into F-Secure and WithSecure; Hypp\u00f6nen continues as Chief Research Officer at WithSecure."
+      "event": "F-Secure splits into F-Secure and WithSecure; Hyppönen continues as Chief Research Officer at WithSecure."
     },
     {
       "date": "2025-06-03",
@@ -58,7 +58,7 @@
   "relatedEvents": [],
   "sources": [
     {
-      "title": "Mikko Hypp\u00f6nen - Wikipedia",
+      "title": "Mikko Hyppönen - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Mikko_Hypp%C3%B6nen"
     },
     {
@@ -74,7 +74,7 @@
       "url": "https://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net"
     },
     {
-      "title": "Mikko Hypp\u00f6nen is CISO MAG Cybersecurity Person of the Year (2020)",
+      "title": "Mikko Hyppönen is CISO MAG Cybersecurity Person of the Year (2020)",
       "url": "https://cisomag.com/cybersecurity-person-of-the-year-2020/"
     }
   ],
@@ -83,9 +83,10 @@
     "sourcesCount": 5,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
-  "name": "Mikko Hypp\u00f6nen",
+  "name": "Mikko Hyppönen",
   "born": "1969-10-13",
   "died": null,
   "knownFor": [

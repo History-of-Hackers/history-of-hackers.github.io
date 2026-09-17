@@ -11,8 +11,8 @@
     "open source",
     "port scanning"
   ],
-  "summary": "Gordon Lyon, known by the handle 'Fyodor,' wrote and released the Nmap Security Scanner in 1997 and has remained its lead developer for nearly three decades, while also founding Insecure.Org, SecLists.Org, and SecTools.Org \u2014 long-running pieces of infrastructure that the security research community still relies on.",
-  "whyThisMatters": "Gordon Lyon, known by the handle 'Fyodor,' wrote and released the Nmap Security Scanner in 1997 and has remained its lead developer for nearly three decades, while also founding Insecure.Org, SecLists.Org, and SecTools.Org \u2014 long-running pieces of infrastructure that the security research community still relies on.",
+  "summary": "Gordon Lyon, known by the handle 'Fyodor,' wrote and released the Nmap Security Scanner in 1997 and has remained its lead developer for nearly three decades, while also founding Insecure.Org, SecLists.Org, and SecTools.Org — long-running pieces of infrastructure that the security research community still relies on.",
+  "whyThisMatters": "Gordon Lyon, known by the handle 'Fyodor,' wrote and released the Nmap Security Scanner in 1997 and has remained its lead developer for nearly three decades, while also founding Insecure.Org, SecLists.Org, and SecTools.Org — long-running pieces of infrastructure that the security research community still relies on.",
   "sections": {
     "overview": "<p>Gordon Lyon is an American computer security researcher and programmer better known within the hacking and infosec community by his long-standing handle, <strong>Fyodor</strong>. He adopted the pseudonym in the early 1990s after reading Fyodor Dostoevsky's <em>Notes from Underground</em>, first using it on a bulletin board system.</p><p>Lyon's defining contribution to computer security is the Nmap Security Scanner, which he wrote and released to the public in Phrack Magazine (Volume 7, Issue 51) in September 1997 under the title \"The Art of Port Scanning.\" That original release documented multiple TCP and UDP scanning techniques and shipped with complete C source code under the GNU General Public License.</p><h2>Decades of Stewardship</h2><p>Unlike many tools whose original authors move on, Lyon has remained the Nmap Project's lead maintainer continuously since 1997, guiding it from a Phrack-published proof of concept into one of the most widely used network discovery and security auditing utilities in the world. He built and maintains the organizational infrastructure around it: Insecure.Org as the project's original home, SecLists.Org as a real-time web archive of major security mailing lists, and SecTools.Org, which periodically surveys the security community to rank the most popular network security tools.</p><p>Lyon authored <em>Nmap Network Scanning</em>, the official reference guide to the scanner, self-published in 2008. He was a founding member of the Honeynet Project and co-authored that project's <em>Know Your Enemy</em> books, and he co-authored the hacker-fiction anthology <em>Stealing the Network: How to Own a Continent</em>. In 2011 he publicized CNET's Download.com bundling adware toolbars with Nmap and other open-source installers without developer consent, drawing wider press coverage of the practice.</p><h2>Legacy</h2><p>Lyon's legacy rests less on a single dramatic exploit than on sustained maintenance: keeping a foundational open-source security tool and its surrounding archives and communities online, current, and trusted by professionals for close to thirty years.</p>"
   },
@@ -62,7 +62,8 @@
     "sourcesCount": 4,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
   "name": "Gordon Lyon",
   "born": null,

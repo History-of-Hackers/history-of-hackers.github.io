@@ -4,25 +4,69 @@
   "title": "The Founding of the RSA Conference",
   "slug": "rsa-conference-founding",
   "era": "1991",
-  "tags": ["rsa conference", "cryptography", "security industry", "jim bidzos", "1990s", "information security", "conferences"],
+  "tags": [
+    "rsa conference",
+    "cryptography",
+    "security industry",
+    "jim bidzos",
+    "1990s",
+    "information security",
+    "conferences"
+  ],
   "summary": "The RSA Conference, now the world's largest information security industry gathering, began as a small, single-panel gathering convened by RSA Data Security in November 1991 to debate the U.S. government's proposed Digital Signature Standard.",
   "whyThisMatters": "What started as a modest afternoon session with fewer than 50 attendees grew into the security industry's largest annual trade show and policy forum, shaping public debate over cryptography export controls, the Clipper Chip, and government access to encrypted data throughout the 1990s and beyond. The conference's early cryptographers' panels brought together the field's founding figures and helped establish an annual venue where technical research, industry commerce, and public-policy fights over encryption converged. Its growth from a niche cryptography meeting to a multi-track, tens-of-thousands-attendee event mirrors the broader transformation of computer security from an academic and government niche into a global industry.",
   "sections": {
     "overview": "<h2>Background</h2><p>RSA Data Security, the company founded in 1982 by Ronald Rivest, Adi Shamir, and Leonard Adleman to commercialize the RSA public-key cryptosystem they had invented in 1977, spent much of the 1980s and early 1990s as a small but influential player in the emerging computer security industry. By the start of the 1990s, the company's business rested heavily on licensing RSA's patented algorithm, and it viewed competing cryptographic standards as commercial and technical threats. In 1991, the U.S. National Institute of Standards and Technology (NIST) proposed the Digital Signature Standard (DSS), a government-backed alternative to RSA's approach to digital signatures. RSA's then-president, Jim Bidzos, saw the proposal as a direct challenge to his company's market position.</p><h2>The First Conference</h2><p>According to contemporary industry accounts, the idea for a public forum grew out of a conversation between Bidzos and Marc Rotenberg, then executive director of the Electronic Privacy Information Center, who encouraged RSA to organize an educational event on the standards dispute. The result was a single-day gathering held on November 4, 1991, at the Hotel Sofitel in Redwood City, California, originally titled \"Cryptography, Standards & Public Policy: the Fall '91 Crypto Technology Update.\" The event ran from roughly 9 a.m. to 3 p.m. and drew fewer than 50 attendees. Its centerpiece was a single afternoon panel, \"DES and DSS: Standards of Choice?\", which brought together cryptography pioneers including Whitfield Diffie, Martin Hellman, Ronald Rivest, Jim Omura, Taher Elgamal, and Burt Kaliski to debate competing cryptographic standards.</p><h2>Early Growth</h2><p>The event, which came to be known as the RSA Data Security Conference and later simply the RSA Conference, was repeated annually and expanded steadily through the 1990s. Attendance grew from its original handful of participants to more than 200 by 1993 and roughly 2,500 by 1997, the year the conference proceedings were distributed on CD-ROM (a copy of which is preserved by the Internet Archive's CD-ROM Preservation Project). The conference became a recurring venue for the cryptology community and for the broader public debate over U.S. cryptography policy. In 1994 and 1995, the conference was a prominent stage for opposition to the Clipper Chip, the government-backed key-escrow encryption proposal, including a widely noted \"Sink Clipper\" campaign at the 1995 event.</p><h2>Expansion into a Global Industry Event</h2><p>Through the late 1990s and 2000s, the RSA Conference broadened beyond cryptography specifically into a general information-security industry trade show and policy forum. A European edition of the conference launched in Munich in 2000, and an Asia-Pacific edition followed in 2013. In 2005, Microsoft co-founder Bill Gates delivered a keynote address, a milestone commentators pointed to as evidence that the conference's focus had shifted from a narrow cryptography audience toward enterprise-wide security concerns. By 2008, the event drew roughly 17,000 attendees and 375 exhibiting vendors. The conference has also drawn political and celebrity keynote speakers, including U.S. Department of Homeland Security secretaries and, in 2011, invited a range of public figures alongside industry executives such as Cisco's John Chambers.</p><h2>Controversy and Later History</h2><p>The conference has periodically become a site of controversy over the security industry's relationship with government surveillance. In 2014, several prominent security researchers publicly boycotted the RSA Conference following revelations, based on documents leaked by Edward Snowden, that RSA Security had accepted payment from the National Security Agency to use a weakened cryptographic algorithm, Dual_EC_DRBG, as a default in one of its products. The conference nonetheless continued to grow, spawning offshoot and rival events such as the community-organized Security B-Sides conferences and helping launch industry initiatives like the Cloud Security Alliance in 2009.</p><h2>Ownership Changes and Legacy</h2><p>RSA Security itself changed ownership several times in the 2000s and 2010s, including its 2006 acquisition by EMC and a 2016 transfer to Dell as part of Dell's acquisition of EMC. In March 2022, RSA Security sold the RSA Conference business to a group of investors including Crosspoint Capital Partners, separating the conference from the company whose name it still carries. In early 2025, the event was rebranded as \"RSAC Conference.\" More than three decades after its origin as a single afternoon panel convened to contest a government cryptography standard, the RSA Conference remains one of the most closely watched annual gatherings in the information security industry, tracing a direct line from the cypherpunk-era cryptography debates of the early 1990s to the contemporary global cybersecurity business.</p>"
   },
   "timeline": [
-    { "date": "1982", "event": "RSA Data Security is founded by Ronald Rivest, Adi Shamir, and Leonard Adleman to commercialize the RSA public-key cryptosystem." },
-    { "date": "1991-11-04", "event": "The first RSA conference, \"Cryptography, Standards & Public Policy: the Fall '91 Crypto Technology Update,\" is held at the Hotel Sofitel in Redwood City, California, drawing fewer than 50 attendees to debate the proposed Digital Signature Standard." },
-    { "date": "1993", "event": "Conference attendance grows to more than 200 people." },
-    { "date": "1995", "event": "The conference becomes a platform for public opposition to the government's Clipper Chip key-escrow proposal, including a \"Sink Clipper\" campaign." },
-    { "date": "1997", "event": "Attendance reaches roughly 2,500; conference proceedings are distributed on CD-ROM." },
-    { "date": "2000-03", "event": "The first European RSA Conference is held in Munich, Germany." },
-    { "date": "2005", "event": "Microsoft's Bill Gates delivers a keynote, marking the conference's broader shift from cryptography specifically to general enterprise information security." },
-    { "date": "2008", "event": "The conference draws approximately 17,000 attendees and 375 exhibiting vendors." },
-    { "date": "2013", "event": "An Asia-Pacific edition of the RSA Conference is introduced." },
-    { "date": "2014", "event": "Several security researchers boycott the conference following revelations that RSA Security had accepted NSA payment tied to the Dual_EC_DRBG algorithm." },
-    { "date": "2022-03", "event": "RSA Security sells the RSA Conference business to a group of investors including Crosspoint Capital Partners." },
-    { "date": "2025", "event": "The event is rebranded as the \"RSAC Conference.\"" }
+    {
+      "date": "1982",
+      "event": "RSA Data Security is founded by Ronald Rivest, Adi Shamir, and Leonard Adleman to commercialize the RSA public-key cryptosystem."
+    },
+    {
+      "date": "1991-11-04",
+      "event": "The first RSA conference, \"Cryptography, Standards & Public Policy: the Fall '91 Crypto Technology Update,\" is held at the Hotel Sofitel in Redwood City, California, drawing fewer than 50 attendees to debate the proposed Digital Signature Standard."
+    },
+    {
+      "date": "1993",
+      "event": "Conference attendance grows to more than 200 people."
+    },
+    {
+      "date": "1995",
+      "event": "The conference becomes a platform for public opposition to the government's Clipper Chip key-escrow proposal, including a \"Sink Clipper\" campaign."
+    },
+    {
+      "date": "1997",
+      "event": "Attendance reaches roughly 2,500; conference proceedings are distributed on CD-ROM."
+    },
+    {
+      "date": "2000-03",
+      "event": "The first European RSA Conference is held in Munich, Germany."
+    },
+    {
+      "date": "2005",
+      "event": "Microsoft's Bill Gates delivers a keynote, marking the conference's broader shift from cryptography specifically to general enterprise information security."
+    },
+    {
+      "date": "2008",
+      "event": "The conference draws approximately 17,000 attendees and 375 exhibiting vendors."
+    },
+    {
+      "date": "2013",
+      "event": "An Asia-Pacific edition of the RSA Conference is introduced."
+    },
+    {
+      "date": "2014",
+      "event": "Several security researchers boycott the conference following revelations that RSA Security had accepted NSA payment tied to the Dual_EC_DRBG algorithm."
+    },
+    {
+      "date": "2022-03",
+      "event": "RSA Security sells the RSA Conference business to a group of investors including Crosspoint Capital Partners."
+    },
+    {
+      "date": "2025",
+      "event": "The event is rebranded as the \"RSAC Conference.\""
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -30,16 +74,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "RSA Conference - Wikipedia", "url": "https://en.wikipedia.org/wiki/RSA_Conference" },
-    { "title": "RSA Security - Wikipedia", "url": "https://en.wikipedia.org/wiki/RSA_Security" },
-    { "title": "From cloud and mobile security to encryption, security concerns abound as RSA turns 20 - Network World", "url": "https://www.networkworld.com/article/719323/security-from-cloud-and-mobile-security-to-encryption-security-concerns-abound-as-rsa-turns-20.html" },
-    { "title": "The 1997 RSA Data Security Conference Proceedings - Internet Archive", "url": "https://archive.org/details/The_1997_RSA_Data_Security_Conference_Proceedings_1997" }
+    {
+      "title": "RSA Conference - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RSA_Conference"
+    },
+    {
+      "title": "RSA Security - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RSA_Security"
+    },
+    {
+      "title": "From cloud and mobile security to encryption, security concerns abound as RSA turns 20 - Network World",
+      "url": "https://www.networkworld.com/article/719323/security-from-cloud-and-mobile-security-to-encryption-security-concerns-abound-as-rsa-turns-20.html"
+    },
+    {
+      "title": "The 1997 RSA Data Security Conference Proceedings - Internet Archive",
+      "url": "https://archive.org/details/The_1997_RSA_Data_Security_Conference_Proceedings_1997"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

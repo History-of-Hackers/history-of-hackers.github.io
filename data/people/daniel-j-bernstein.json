@@ -7,7 +7,16 @@
   "born": "1971-10-29",
   "died": null,
   "era": "1990s-Present",
-  "tags": ["cryptography", "software security", "export controls", "first amendment", "qmail", "djbdns", "elliptic curve cryptography", "post-quantum cryptography"],
+  "tags": [
+    "cryptography",
+    "software security",
+    "export controls",
+    "first amendment",
+    "qmail",
+    "djbdns",
+    "elliptic curve cryptography",
+    "post-quantum cryptography"
+  ],
   "summary": "Daniel J. Bernstein is an American mathematician, cryptologist, and computer scientist known for creating security-focused software such as qmail and djbdns, and for foundational cryptographic designs including Curve25519, Salsa20/ChaCha20, and Poly1305. He was the plaintiff in Bernstein v. United States, a landmark First Amendment case that established source code as protected speech and helped dismantle U.S. cryptography export controls.",
   "whyThisMatters": "Bernstein v. United States (1995-2003) established that publishing cryptographic source code is protected speech under the First Amendment, a ruling that undercut Cold War-era U.S. export controls treating strong encryption as a regulated munition and that has been cited in later disputes over code and compelled speech. Separately, Bernstein's cryptographic designs, including Curve25519, ChaCha20, Poly1305, and Ed25519, became widely deployed building blocks of modern secure systems such as OpenSSH, TLS libraries, Signal, WireGuard, and Tor. His qmail and djbdns software, offered with public security bug bounties, were also influential early examples of security-hardened, exploit-resistant server software design.",
   "knownFor": [
@@ -23,18 +32,54 @@
     "overview": "<h2>Background and Education</h2><p>Daniel Julius Bernstein was born on October 29, 1971, in East Patchogue, New York. He showed early academic aptitude, ranking fifth in the 1987 Westinghouse Science Talent Search and competing on Princeton University's second-place team at the William Lowell Putnam Mathematical Competition in 1988. He earned a B.A. in mathematics from New York University in 1991 and a Ph.D. in mathematics from the University of California, Berkeley in 1995, studying under Hendrik Lenstra. He later became a professor of computer science at the University of Illinois Chicago, while also holding visiting research and teaching positions at Eindhoven University of Technology in the Netherlands and Ruhr University Bochum in Germany.</p><h2>Bernstein v. United States</h2><p>While a Ph.D. student at Berkeley in the early 1990s, Bernstein developed an encryption algorithm called Snuffle and wished to publish its source code and an accompanying academic paper. Under the International Traffic in Arms Regulations then in force, cryptographic software was classified as a munition, meaning Bernstein would have needed to register as an arms dealer and obtain a government export license before publishing his work, even as an academic paper. With the support of the Electronic Frontier Foundation, Bernstein sued the U.S. government, arguing that requiring pre-approval to publish source code violated his First Amendment rights. The case, filed in 1995, proceeded through the U.S. District Court for the Northern District of California and then the Ninth Circuit Court of Appeals. In a decision issued May 6, 1999, a Ninth Circuit panel held that source code is expressive speech protected under the First Amendment, and that the export control regulations functioned as an unconstitutional prior restraint. The government subsequently revised its cryptography export regulations, and the case was ultimately dismissed in 2003 after further rule changes rendered it moot.</p><h2>Security Software</h2><p>In the mid-to-late 1990s, Bernstein wrote several widely used pieces of Unix server software designed with an emphasis on minimizing security vulnerabilities, including the qmail mail transfer agent, the djbdns DNS server, and the publicfile file-serving daemon. He publicly offered cash rewards to anyone who could demonstrate a security flaw in this software, a practice that was unusual at the time and is regarded as an early precursor to modern bug bounty programs. In 2009, for example, he paid a reward to a researcher who identified a flaw in djbdns. He also authored smaller but widely reused utilities such as the cdb constant database library and the djb2 string hash function.</p><h2>Cryptographic Design Work</h2><p>From the mid-2000s onward, Bernstein became a prominent designer of practical cryptographic primitives. In 2005 he proposed Curve25519, an elliptic curve for Diffie-Hellman key exchange chosen for both high performance and resistance to a range of implementation pitfalls; it later became one of the most widely deployed elliptic curves, used in protocols and products including OpenSSH, Signal, WireGuard, Tor, and Apple's iOS. He designed the Salsa20 stream cipher, which was selected for the eSTREAM portfolio of recommended ciphers in 2008, and its variant ChaCha20, which together with the Poly1305 message authentication code (co-designed by Bernstein) is now used in TLS and other widely deployed security protocols. With collaborators he also produced the Ed25519 digital signature scheme and, in 2005, described cache-timing side-channel attacks against common AES software implementations. Bernstein was part of the core team, alongside Tanja Lange and Peter Schwabe, that created the NaCl (Networking and Cryptography Library) cryptographic library; libsodium, a widely used portable fork of NaCl, is derived from this work.</p><h2>Standards, Post-Quantum Work, and Advocacy</h2><p>Bernstein has been an outspoken critic of opaque or government-influenced cryptographic standardization processes, particularly following revelations about NSA influence over NIST elliptic-curve standards. He co-founded the SafeCurves project to evaluate elliptic curves against a broader set of security criteria than official standards required. He has also worked extensively on post-quantum cryptography, co-authoring the SPHINCS stateless hash-based signature scheme in 2015; a successor, SPHINCS+, was selected in 2022 as one of the algorithms in the NIST Post-Quantum Cryptography Standardization project, the only hash-based signature scheme among the winners. In 2022, Bernstein filed a Freedom of Information Act lawsuit seeking records concerning the NSA's involvement in NIST's post-quantum cryptography standardization process.</p><h2>Significance and Legacy</h2><p>Bernstein v. United States is regarded as a foundational case establishing that computer source code can constitute protected speech, a principle that has been invoked in later legal disputes over compelled software modification and encryption policy. His cryptographic algorithms, released without patent encumbrances and designed for straightforward, misuse-resistant implementation, achieved broad real-world adoption across widely used security software. Combined with his early public bug-bounty practices for qmail and djbdns, Bernstein's career spans several distinct but related threads in the history of computer security: the legal status of cryptographic code as speech, the practical design of exploit-resistant server software, and the engineering of cryptographic primitives now embedded in much of the internet's security infrastructure.</p>"
   },
   "timeline": [
-    { "date": "1971-10-29", "event": "Born in East Patchogue, New York." },
-    { "date": "1991", "event": "Earns a B.A. in mathematics from New York University." },
-    { "date": "1995", "event": "Earns a Ph.D. in mathematics from the University of California, Berkeley, and files suit against the U.S. government over cryptography export restrictions." },
-    { "date": "1996-04-15", "event": "U.S. District Court for the Northern District of California issues its first ruling in Bernstein's case." },
-    { "date": "1999-05-06", "event": "Ninth Circuit Court of Appeals panel rules that software source code is protected speech under the First Amendment." },
-    { "date": "2003-10-15", "event": "Bernstein v. United States is dismissed after the government further revises its encryption export regulations." },
-    { "date": "2005", "event": "Proposes the Curve25519 elliptic curve and demonstrates cache-timing attacks against AES implementations; designs the Salsa20 stream cipher." },
-    { "date": "2008", "event": "Salsa20 is selected for the eSTREAM final portfolio; Bernstein publishes the ChaCha20 cipher variant." },
-    { "date": "2011", "event": "Co-creates the NaCl (Networking and Cryptography Library) cryptographic library." },
-    { "date": "2015-02", "event": "Co-authors the SPHINCS stateless hash-based signature scheme." },
-    { "date": "2022-07", "event": "SPHINCS+, a successor to SPHINCS co-designed with Bernstein's collaborators, is selected as a winning algorithm in NIST's Post-Quantum Cryptography Standardization project." },
-    { "date": "2022", "event": "Files a FOIA lawsuit seeking records on NSA involvement in NIST's post-quantum cryptography standards process." }
+    {
+      "date": "1971-10-29",
+      "event": "Born in East Patchogue, New York."
+    },
+    {
+      "date": "1991",
+      "event": "Earns a B.A. in mathematics from New York University."
+    },
+    {
+      "date": "1995",
+      "event": "Earns a Ph.D. in mathematics from the University of California, Berkeley, and files suit against the U.S. government over cryptography export restrictions."
+    },
+    {
+      "date": "1996-04-15",
+      "event": "U.S. District Court for the Northern District of California issues its first ruling in Bernstein's case."
+    },
+    {
+      "date": "1999-05-06",
+      "event": "Ninth Circuit Court of Appeals panel rules that software source code is protected speech under the First Amendment."
+    },
+    {
+      "date": "2003-10-15",
+      "event": "Bernstein v. United States is dismissed after the government further revises its encryption export regulations."
+    },
+    {
+      "date": "2005",
+      "event": "Proposes the Curve25519 elliptic curve and demonstrates cache-timing attacks against AES implementations; designs the Salsa20 stream cipher."
+    },
+    {
+      "date": "2008",
+      "event": "Salsa20 is selected for the eSTREAM final portfolio; Bernstein publishes the ChaCha20 cipher variant."
+    },
+    {
+      "date": "2011",
+      "event": "Co-creates the NaCl (Networking and Cryptography Library) cryptographic library."
+    },
+    {
+      "date": "2015-02",
+      "event": "Co-authors the SPHINCS stateless hash-based signature scheme."
+    },
+    {
+      "date": "2022-07",
+      "event": "SPHINCS+, a successor to SPHINCS co-designed with Bernstein's collaborators, is selected as a winning algorithm in NIST's Post-Quantum Cryptography Standardization project."
+    },
+    {
+      "date": "2022",
+      "event": "Files a FOIA lawsuit seeking records on NSA involvement in NIST's post-quantum cryptography standards process."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -42,18 +87,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Daniel J. Bernstein - Wikipedia", "url": "https://en.wikipedia.org/wiki/Daniel_J._Bernstein" },
-    { "title": "Bernstein v. United States - Wikipedia", "url": "https://en.wikipedia.org/wiki/Bernstein_v._United_States" },
-    { "title": "EFF at 25: Remembering the Case that Established Code as Speech", "url": "https://www.eff.org/deeplinks/2015/04/remembering-case-established-code-speech" },
-    { "title": "Bernstein v. US Department of Justice - Electronic Frontier Foundation case page", "url": "https://www.eff.org/cases/bernstein-v-us-dept-justice" },
-    { "title": "NaCl (software) / libsodium - Wikipedia", "url": "https://en.wikipedia.org/wiki/Libsodium" },
-    { "title": "Curve25519 - Wikipedia", "url": "https://en.wikipedia.org/wiki/Curve25519" }
+    {
+      "title": "Daniel J. Bernstein - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Daniel_J._Bernstein"
+    },
+    {
+      "title": "Bernstein v. United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bernstein_v._United_States"
+    },
+    {
+      "title": "EFF at 25: Remembering the Case that Established Code as Speech",
+      "url": "https://www.eff.org/deeplinks/2015/04/remembering-case-established-code-speech"
+    },
+    {
+      "title": "Bernstein v. US Department of Justice - Electronic Frontier Foundation case page",
+      "url": "https://www.eff.org/cases/bernstein-v-us-dept-justice"
+    },
+    {
+      "title": "NaCl (software) / libsodium - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Libsodium"
+    },
+    {
+      "title": "Curve25519 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Curve25519"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

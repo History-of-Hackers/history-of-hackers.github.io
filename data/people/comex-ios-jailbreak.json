@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2010s-Present",
-  "tags": ["ios", "jailbreak", "exploit development", "mobile security", "apple", "browser exploit", "pwnie award"],
+  "tags": [
+    "ios",
+    "jailbreak",
+    "exploit development",
+    "mobile security",
+    "apple",
+    "browser exploit",
+    "pwnie award"
+  ],
   "summary": "Nicholas Allegra, better known by the online handle \"comex,\" is an American security researcher who created the JailbreakMe 2.0 and 3.0 browser-based iOS jailbreak tools, which let users jailbreak an iPhone or iPad simply by visiting a website.",
   "whyThisMatters": "JailbreakMe demonstrated that a single maliciously crafted webpage could achieve full remote code execution and a kernel-level compromise on a fully patched iPhone, without any user action beyond loading the page. The work highlighted the real-world danger of browser and font/PDF-rendering vulnerabilities on mobile platforms years before mobile exploitation became a mainstream security concern, and it won a Pwnie Award for Best Client-Side Bug. Rather than pursue legal action, Apple hired comex as an intern in 2011, an early and widely cited example of a major tech company recruiting an independent hacker who had exploited its products.",
   "knownFor": [
@@ -20,10 +28,22 @@
     "overview": "<h2>Background</h2><p>Nicholas Allegra, widely known online as \"comex,\" is an American software developer and security researcher who became prominent within the iOS jailbreaking community in the late 2000s and early 2010s. He was reported to be 19 years old at the time his work drew national media attention in 2011. Like several other well-known jailbreak developers of the era, Allegra operated largely under his handle within the hobbyist and security-research communities that reverse-engineered Apple's mobile software.</p><h2>JailbreakMe</h2><p>Allegra is best known as the developer behind JailbreakMe 2.0, nicknamed \"Star,\" released on August 1, 2010. Unlike earlier jailbreak tools that required connecting a device to a computer, JailbreakMe worked entirely through the device's Safari browser: visiting the JailbreakMe website triggered a chain of vulnerabilities, including a flaw in the FreeType font-rendering library used in PDF processing, that allowed the site to gain code execution and jailbreak the device on the spot. JailbreakMe 2.0 was the first publicly available jailbreak for the iPhone 4 and supported a range of iOS versions on multiple device models.</p><p>In July 2011, Allegra released JailbreakMe 3.0, nicknamed \"Saffron,\" which again exploited a PDF-rendering flaw and became the first public jailbreak for the newly released iPad 2. The tool was reported to have been used to jailbreak millions of devices. Because the underlying vulnerabilities allowed arbitrary code execution simply by loading a webpage, security researchers and Apple itself treated the flaws as serious, and Apple issued software updates to patch them shortly after each release.</p><h2>Recognition and Apple internship</h2><p>For his work on JailbreakMe, Allegra received a Pwnie Award for \"Best Client-Side Bug\" at the Black Hat security conference in August 2011, an award given by the security research community to recognize particularly notable vulnerability discoveries. Later that same month, Allegra announced on Twitter that he would begin an internship at Apple. In comments to reporters at the time, he described the move toward defensive security work as \"kind of refreshing,\" framing his motivation as being driven by technical challenge rather than opposition to Apple. Apple's decision to hire Allegra, rather than pursue legal action, was widely contrasted in press coverage with Sony's contemporaneous lawsuit against hacker George Hotz over jailbreaking of the PlayStation 3.</p><h2>Significance and legacy</h2><p>JailbreakMe's browser-based, \"visit a webpage to jailbreak your phone\" model made mobile exploitation vastly more accessible to ordinary users than earlier tethered or semi-tethered jailbreak methods, and it briefly turned Safari's PDF and font-parsing code into one of the most consequential attack surfaces on iOS. The episode is frequently cited in the history of mobile security as an early, high-profile demonstration that a single malicious web page could fully compromise a modern smartphone, and as one of the clearer instances of a technology company absorbing an outside hacker into its own security organization rather than treating the disclosure purely as a legal or adversarial matter.</p>"
   },
   "timeline": [
-    { "date": "2010-08-01", "event": "Releases JailbreakMe 2.0 (\"Star\"), a browser-based jailbreak exploiting a FreeType PDF-rendering flaw and the first public jailbreak for the iPhone 4." },
-    { "date": "2011-07-06", "event": "Releases JailbreakMe 3.0 (\"Saffron\"), the first public jailbreak for the iPad 2, again using a browser-based PDF exploit." },
-    { "date": "2011-08-04", "event": "Receives a Pwnie Award for Best Client-Side Bug at Black Hat 2011 for the JailbreakMe exploit chain." },
-    { "date": "2011-08-26", "event": "Announces via Twitter that he will begin an internship at Apple, reported by Forbes as \"Apple Hacker Extraordinaire Comex Takes An Internship At Apple.\"" }
+    {
+      "date": "2010-08-01",
+      "event": "Releases JailbreakMe 2.0 (\"Star\"), a browser-based jailbreak exploiting a FreeType PDF-rendering flaw and the first public jailbreak for the iPhone 4."
+    },
+    {
+      "date": "2011-07-06",
+      "event": "Releases JailbreakMe 3.0 (\"Saffron\"), the first public jailbreak for the iPad 2, again using a browser-based PDF exploit."
+    },
+    {
+      "date": "2011-08-04",
+      "event": "Receives a Pwnie Award for Best Client-Side Bug at Black Hat 2011 for the JailbreakMe exploit chain."
+    },
+    {
+      "date": "2011-08-26",
+      "event": "Announces via Twitter that he will begin an internship at Apple, reported by Forbes as \"Apple Hacker Extraordinaire Comex Takes An Internship At Apple.\""
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -31,16 +51,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "JailbreakMe - Wikipedia", "url": "https://en.wikipedia.org/wiki/JailbreakMe" },
-    { "title": "Apple Hacker Extraordinaire Comex Takes An Internship At Apple (Forbes)", "url": "https://www.forbes.com/sites/andygreenberg/2011/08/26/apple-hacker-extraordinaire-comex-takes-an-internship-at-apple/" },
-    { "title": "Meet Comex, The iPhone Uber-Hacker Who Keeps Outsmarting Apple (Forbes)", "url": "https://www.forbes.com/sites/andygreenberg/2011/08/01/meet-comex-the-iphone-uber-hacker-who-keeps-outsmarting-apple/" },
-    { "title": "Official iPhone 4 jailbreak hits from iPhone Dev-Team (Engadget)", "url": "https://www.engadget.com/2010/08/01/official-iphone-4-jailbreak-hits-from-iphone-dev-team/" }
+    {
+      "title": "JailbreakMe - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/JailbreakMe"
+    },
+    {
+      "title": "Apple Hacker Extraordinaire Comex Takes An Internship At Apple (Forbes)",
+      "url": "https://www.forbes.com/sites/andygreenberg/2011/08/26/apple-hacker-extraordinaire-comex-takes-an-internship-at-apple/"
+    },
+    {
+      "title": "Meet Comex, The iPhone Uber-Hacker Who Keeps Outsmarting Apple (Forbes)",
+      "url": "https://www.forbes.com/sites/andygreenberg/2011/08/01/meet-comex-the-iphone-uber-hacker-who-keeps-outsmarting-apple/"
+    },
+    {
+      "title": "Official iPhone 4 jailbreak hits from iPhone Dev-Team (Engadget)",
+      "url": "https://www.engadget.com/2010/08/01/official-iphone-4-jailbreak-hits-from-iphone-dev-team/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

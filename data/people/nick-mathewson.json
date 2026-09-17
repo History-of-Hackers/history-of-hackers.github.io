@@ -1,0 +1,68 @@
+{
+  "id": "nick-mathewson",
+  "type": "person",
+  "title": "Nick Mathewson",
+  "slug": "nick-mathewson",
+  "name": "Nick Mathewson",
+  "born": null,
+  "died": null,
+  "era": "2000s-present",
+  "tags": [
+    "tor",
+    "anonymity",
+    "onion-routing",
+    "remailers",
+    "privacy"
+  ],
+  "summary": "American programmer who co-created Tor, co-founded The Tor Project, and served as its chief architect.",
+  "whyThisMatters": "Mathewson wrote much of the Tor codebase and its protocol specifications, the engineering behind the anonymity network's security properties.",
+  "knownFor": [
+    "Co-creating Tor",
+    "Mixminion remailer design",
+    "Chief architect of The Tor Project"
+  ],
+  "sections": {
+    "overview": "<p>Nick Mathewson is an American computer programmer and researcher. Before Tor, he co-designed Mixminion, a type III anonymous remailer protocol presented at the IEEE Symposium on Security and Privacy in 2003.</p><h2>Tor</h2><p>Mathewson co-authored the 2004 Tor design paper with Roger Dingledine and Paul Syverson and became the project's chief architect, writing large parts of the Tor daemon and its protocol specifications. He co-founded The Tor Project as a non-profit in 2006.</p><h2>Other work</h2><p>He is the primary author of Libevent, an event-notification library used by Tor and many other network programs, and co-authored the Pynchon Gate private information retrieval design with Len Sassaman and Bram Cohen.</p>"
+  },
+  "timeline": [
+    {
+      "date": "2003",
+      "event": "Co-presents the Mixminion type III remailer design at IEEE S&P."
+    },
+    {
+      "date": "2004-08",
+      "event": "Co-authors 'Tor: The Second-Generation Onion Router'."
+    },
+    {
+      "date": "2006",
+      "event": "Co-founds The Tor Project, Inc."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Danezis, Dingledine, Mathewson: Mixminion: Design of a Type III Anonymous Remailer Protocol (2003)",
+      "url": "https://www.mixminion.net/minion-design.pdf"
+    },
+    {
+      "title": "Dingledine, Mathewson, Syverson: Tor: The Second-Generation Onion Router (2004)",
+      "url": "https://www.usenix.org/legacy/events/sec04/tech/full_papers/dingledine/dingledine.pdf"
+    },
+    {
+      "title": "Wikipedia: Nick Mathewson",
+      "url": "https://en.wikipedia.org/wiki/Nick_Mathewson"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

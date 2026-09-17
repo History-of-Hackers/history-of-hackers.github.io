@@ -7,7 +7,15 @@
   "born": "1992-10-27",
   "died": null,
   "era": "2010s-Present",
-  "tags": ["lulzsec", "anonymous", "hacktivism", "ddos", "uk", "security-research", "bug-bounty"],
+  "tags": [
+    "lulzsec",
+    "anonymous",
+    "hacktivism",
+    "ddos",
+    "uk",
+    "security-research",
+    "bug-bounty"
+  ],
   "summary": "Jake Davis, known online as Topiary, is a British hacktivist who served as the public spokesman and Twitter operator for the hacking group LulzSec before his arrest in the Shetland Islands in July 2011.",
   "whyThisMatters": "Davis became one of the most publicly visible faces of the 2011 LulzSec hacking spree, using wit and provocative messaging on the group's Twitter account to draw global media attention to a series of high-profile breaches. His arrest and prosecution, alongside fellow LulzSec members, marked one of the first major law-enforcement crackdowns on the loosely organized Anonymous-affiliated hacktivist scene, illustrating both the reach and the operational vulnerabilities of anonymous online collectives. His later transition into legitimate security research and public speaking has also made him a frequently cited example of a hacker rehabilitating into the cybersecurity industry.",
   "knownFor": [
@@ -21,14 +29,38 @@
     "overview": "<h2>Background</h2><p>Jake Leslie Davis, born October 27, 1992, is a British hacktivist better known by his online alias \"Topiary.\" He grew up in Lerwick, in Scotland's remote Shetland Islands, and became involved as a teenager with the loosely organized online collective Anonymous before joining the more tightly knit splinter group LulzSec (Lulz Security) in 2011.</p><h2>Role in Anonymous and LulzSec</h2><p>Within Anonymous, Davis was associated with operations that included the breach of the security firm HBGary Federal and actions targeting the Westboro Baptist Church. When LulzSec formed in 2011, Davis became one of its most publicly recognizable members, largely because he operated the group's official Twitter account and authored many of its press releases and public statements. LulzSec pursued a short but highly publicized campaign of breaches and denial-of-service attacks against targets including Sony Pictures, the U.S. Central Intelligence Agency's public website, the UK's Serious Organised Crime Agency (SOCA), and other corporate and government entities, frequently publicizing stolen data and mocking victims through the Twitter feed Davis managed.</p><h2>Arrest and Prosecution</h2><p>On July 27, 2011, Metropolitan Police officers arrested an 18-year-old suspect during a raid on a home in the Shetland Islands; his identity was confirmed days later as Jake Davis when he appeared in a London court. He was charged with offenses including unauthorized access to a computer system, conspiracy to carry out a distributed denial-of-service attack against SOCA, and conspiracy to commit offenses under the UK's Computer Misuse Act 1990. He was released on bail with internet-use restrictions pending trial.</p><h2>Trial and Sentencing</h2><p>Davis pleaded guilty in 2012 to charges related to the SOCA DDoS attack while contesting other counts. In April 2013 he appeared in court alongside fellow LulzSec-linked hackers Ryan Ackroyd, Ryan Cleary, and Mustafa Al-Bassam, all of whom entered guilty pleas to related computer crime charges. Davis was sentenced on May 16, 2013 to 24 months in a young offenders' institution. Because time already spent under an electronically monitored curfew counted toward his sentence, he ultimately served only about 37 days in custody at Feltham Young Offenders' Institution.</p><h2>Later Life and Legacy</h2><p>Following his release, Davis stayed offline for an extended period as a condition of his sentence and subsequently wrote about his experiences, including reflections on his time in LulzSec and its aftermath. He has since worked as a security researcher, participating in corporate bug bounty programs, and has appeared publicly and in media interviews discussing hacktivism, online anonymity, and his path from prosecution to legitimate security work. Davis's case remains a frequently cited example in discussions of the 2011 crackdown on Anonymous-affiliated groups and of former hackers moving into professional cybersecurity roles.</p>"
   },
   "timeline": [
-    { "date": "1992-10-27", "event": "Jake Leslie Davis is born." },
-    { "date": "2011", "event": "Davis, using the alias Topiary, becomes the public spokesman and Twitter operator for the hacking group LulzSec." },
-    { "date": "2011-07-27", "event": "Metropolitan Police arrest an 18-year-old suspect at a home in the Shetland Islands, later confirmed to be Jake Davis." },
-    { "date": "2011-08-01", "event": "Davis appears in a London court and is charged with computer misuse and conspiracy offenses; he is released on bail with internet restrictions." },
-    { "date": "2012-06-25", "event": "Davis pleads guilty to charges related to the DDoS attack on the UK's Serious Organised Crime Agency." },
-    { "date": "2013-04-08", "event": "Davis appears in court alongside fellow LulzSec-linked hackers Ryan Ackroyd, Ryan Cleary, and Mustafa Al-Bassam." },
-    { "date": "2013-05-16", "event": "Davis is sentenced to 24 months in a young offenders' institution, serving approximately 37 days after credit for prior electronic monitoring." },
-    { "date": "2013", "event": "Davis is released from Feltham Young Offenders' Institution." }
+    {
+      "date": "1992-10-27",
+      "event": "Jake Leslie Davis is born."
+    },
+    {
+      "date": "2011",
+      "event": "Davis, using the alias Topiary, becomes the public spokesman and Twitter operator for the hacking group LulzSec."
+    },
+    {
+      "date": "2011-07-27",
+      "event": "Metropolitan Police arrest an 18-year-old suspect at a home in the Shetland Islands, later confirmed to be Jake Davis."
+    },
+    {
+      "date": "2011-08-01",
+      "event": "Davis appears in a London court and is charged with computer misuse and conspiracy offenses; he is released on bail with internet restrictions."
+    },
+    {
+      "date": "2012-06-25",
+      "event": "Davis pleads guilty to charges related to the DDoS attack on the UK's Serious Organised Crime Agency."
+    },
+    {
+      "date": "2013-04-08",
+      "event": "Davis appears in court alongside fellow LulzSec-linked hackers Ryan Ackroyd, Ryan Cleary, and Mustafa Al-Bassam."
+    },
+    {
+      "date": "2013-05-16",
+      "event": "Davis is sentenced to 24 months in a young offenders' institution, serving approximately 37 days after credit for prior electronic monitoring."
+    },
+    {
+      "date": "2013",
+      "event": "Davis is released from Feltham Young Offenders' Institution."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -36,19 +68,41 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Topiary (hacktivist) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Topiary_(hacktivist)" },
-    { "title": "Jake Davis (disambiguation) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Jake_Davis" },
-    { "title": "Shetland LulzSec hacker Jake Davis sentenced - The Scotsman", "url": "https://www.scotsman.com/news/shetland-lulzsec-hacker-jake-davis-sentenced-1574917" },
-    { "title": "LulzSec hackers plead guilty, admit attacks on CIA, SOCA, Sony and others - Graham Cluley", "url": "https://grahamcluley.com/lulzsec-topiary-jake-davis-tflow/" },
-    { "title": "Alleged LulzSec Frontman 'Topiary' Released On Bail - Forbes", "url": "https://www.forbes.com/sites/parmyolson/2011/08/01/lulzsec-frontman-topiary-appears-calm-in-court/" },
-    { "title": "Former LulzSec spokesman Davis released from jail - The Register", "url": "https://www.theregister.com/2013/06/25/former_lulzsec_spokesman_davis_released_from_jail/" },
-    { "title": "LulzSec 'spokesperson' arrested by Scotland Yard - TechRadar", "url": "https://techradar.com/news/internet/lulzsec-spokesperson-arrested-by-scotland-yard-984320" }
+    {
+      "title": "Topiary (hacktivist) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Topiary_(hacktivist)"
+    },
+    {
+      "title": "Jake Davis (disambiguation) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jake_Davis"
+    },
+    {
+      "title": "Shetland LulzSec hacker Jake Davis sentenced - The Scotsman",
+      "url": "https://www.scotsman.com/news/shetland-lulzsec-hacker-jake-davis-sentenced-1574917"
+    },
+    {
+      "title": "LulzSec hackers plead guilty, admit attacks on CIA, SOCA, Sony and others - Graham Cluley",
+      "url": "https://grahamcluley.com/lulzsec-topiary-jake-davis-tflow/"
+    },
+    {
+      "title": "Alleged LulzSec Frontman 'Topiary' Released On Bail - Forbes",
+      "url": "https://www.forbes.com/sites/parmyolson/2011/08/01/lulzsec-frontman-topiary-appears-calm-in-court/"
+    },
+    {
+      "title": "Former LulzSec spokesman Davis released from jail - The Register",
+      "url": "https://www.theregister.com/2013/06/25/former_lulzsec_spokesman_davis_released_from_jail/"
+    },
+    {
+      "title": "LulzSec 'spokesperson' arrested by Scotland Yard - TechRadar",
+      "url": "https://techradar.com/news/internet/lulzsec-spokesperson-arrested-by-scotland-yard-984320"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 7,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

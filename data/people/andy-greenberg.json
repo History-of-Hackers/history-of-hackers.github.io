@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["journalist", "wired", "cybersecurity", "sandworm", "notpetya", "cyberwar", "author", "cryptocurrency"],
+  "tags": [
+    "journalist",
+    "wired",
+    "cybersecurity",
+    "sandworm",
+    "notpetya",
+    "cyberwar",
+    "author",
+    "cryptocurrency"
+  ],
   "summary": "Andy Greenberg is a senior writer at Wired magazine covering cybersecurity, privacy, and hacker culture, and the author of Sandworm, an investigation into Russian state-linked hacking group Sandworm and the 2017 NotPetya cyberattack.",
   "whyThisMatters": "Greenberg's reporting has repeatedly moved cybersecurity issues from technical obscurity into mainstream public and policy debate, most notably his 2015 Jeep hacking demonstration, which prompted a 1.4 million vehicle recall by Fiat Chrysler, and his coverage of NotPetya, which helped document the most economically destructive cyberattack recorded to date. His books Sandworm and Tracers in the Dark are widely cited reference works for journalists, researchers, and policymakers studying state-sponsored hacking and cryptocurrency-enabled crime.",
   "knownFor": [
@@ -23,14 +32,38 @@
     "overview": "<h2>Background</h2><p>Andy Greenberg is an American technology journalist known for his reporting on cybersecurity, privacy, cryptocurrency, and hacker culture. He is a senior writer at Wired magazine, where he has worked since 2012, and previously worked as a staff writer and contributor for Forbes magazine. He studied at Haverford College and later completed a master's degree through New York University's Business and Economic Reporting program.</p><h2>Career at Forbes and Wired</h2><p>Before joining Wired, Greenberg covered security and technology for Forbes, where he reported on hacking, surveillance, and digital rights issues. Since moving to Wired, he has focused his reporting on cybersecurity, information freedom, and the culture surrounding hackers, producing long-form investigative journalism on state-sponsored hacking groups, malware outbreaks, cryptocurrency crime, and vulnerabilities in consumer devices.</p><h2>The Jeep Hack and Automotive Security</h2><p>In July 2015, Greenberg published a Wired article and accompanying video in which security researchers Charlie Miller and Chris Valasek remotely hacked into a Jeep Cherokee that Greenberg was driving on a highway, disabling its transmission and eventually its brakes from ten miles away. The demonstration led Fiat Chrysler Automobiles to issue a recall affecting approximately 1.4 million vehicles to patch the underlying vulnerability, and the story is widely cited as a turning point in public and industry attention to automotive cybersecurity.</p><h2>Sandworm and NotPetya</h2><p>Greenberg's 2019 book, \"Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers,\" chronicles the activities of a Russian military intelligence (GRU)-linked hacking group known as Sandworm, tracing its role in attacks on Ukraine's power grid and its authorship of the 2017 NotPetya malware outbreak. An excerpt from the book, published in Wired in August 2018 as \"The Untold Story of NotPetya, the Most Devastating Cyberattack in History,\" detailed how the malware spread globally from Ukraine to cause an estimated $10 billion in damages, crippling companies including Maersk, Merck, and FedEx, and disrupting government systems such as the city of Atlanta. Greenberg's NotPetya reporting received a Gerald Loeb Award for International Reporting in 2019.</p><h2>Later Work</h2><p>In 2022, Greenberg published \"Tracers in the Dark: The Global Hunt for the Crime Lords of Cryptocurrency,\" which examines how law enforcement agencies used blockchain analysis to trace and prosecute cryptocurrency-enabled crimes, including dark web marketplaces and child exploitation networks. His first book, \"This Machine Kills Secrets: How WikiLeakers, Cypherpunks, and Hacktivists Aim to Free the World's Information,\" was published in 2012 and examined the movements and individuals behind WikiLeaks and related information-freedom activism.</p><h2>Recognition and Legacy</h2><p>Greenberg's journalism has received numerous awards, including multiple Gerald Loeb Awards, a Sigma Delta Chi Award from the Society of Professional Journalists, Deadline Club Awards from the New York Society of Professional Journalists, and the Cornelius Ryan Citation for Excellence from the Overseas Press Club. He was also named a top cybersecurity journalist by the SANS Institute. His books and articles are frequently cited in academic, policy, and journalistic discussions of state-sponsored hacking, critical infrastructure security, and cryptocurrency investigations.</p>"
   },
   "timeline": [
-    { "date": "2012", "event": "Publishes his first book, This Machine Kills Secrets, examining WikiLeaks, cypherpunks, and hacktivism." },
-    { "date": "2012", "event": "Joins Wired magazine as a senior writer covering security and hacker culture, after previously working at Forbes." },
-    { "date": "2015-07", "event": "Publishes the Wired story and video 'Hackers Remotely Kill a Jeep on the Highway,' documenting researchers Charlie Miller and Chris Valasek remotely disabling a Jeep Cherokee he was driving; the report prompts a 1.4 million-vehicle recall by Fiat Chrysler." },
-    { "date": "2018-08", "event": "Publishes 'The Untold Story of NotPetya, the Most Devastating Cyberattack in History' in Wired, excerpted from his forthcoming book Sandworm." },
-    { "date": "2019", "event": "Publishes Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers, on the Russian GRU-linked hacking group and NotPetya." },
-    { "date": "2019", "event": "Receives the Gerald Loeb Award for International Reporting for his NotPetya coverage." },
-    { "date": "2022", "event": "Publishes Tracers in the Dark: The Global Hunt for the Crime Lords of Cryptocurrency, on blockchain forensics and cryptocurrency crime investigations." },
-    { "date": "2023", "event": "Receives a Gerald Loeb Award in the Feature category." }
+    {
+      "date": "2012",
+      "event": "Publishes his first book, This Machine Kills Secrets, examining WikiLeaks, cypherpunks, and hacktivism."
+    },
+    {
+      "date": "2012",
+      "event": "Joins Wired magazine as a senior writer covering security and hacker culture, after previously working at Forbes."
+    },
+    {
+      "date": "2015-07",
+      "event": "Publishes the Wired story and video 'Hackers Remotely Kill a Jeep on the Highway,' documenting researchers Charlie Miller and Chris Valasek remotely disabling a Jeep Cherokee he was driving; the report prompts a 1.4 million-vehicle recall by Fiat Chrysler."
+    },
+    {
+      "date": "2018-08",
+      "event": "Publishes 'The Untold Story of NotPetya, the Most Devastating Cyberattack in History' in Wired, excerpted from his forthcoming book Sandworm."
+    },
+    {
+      "date": "2019",
+      "event": "Publishes Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers, on the Russian GRU-linked hacking group and NotPetya."
+    },
+    {
+      "date": "2019",
+      "event": "Receives the Gerald Loeb Award for International Reporting for his NotPetya coverage."
+    },
+    {
+      "date": "2022",
+      "event": "Publishes Tracers in the Dark: The Global Hunt for the Crime Lords of Cryptocurrency, on blockchain forensics and cryptocurrency crime investigations."
+    },
+    {
+      "date": "2023",
+      "event": "Receives a Gerald Loeb Award in the Feature category."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,16 +71,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Andy Greenberg - Wikipedia", "url": "https://en.wikipedia.org/wiki/Andy_Greenberg" },
-    { "title": "About - Andy Greenberg", "url": "https://andygreenberg.net/about" },
-    { "title": "Hackers Remotely Kill a Jeep on the Highway - With Me in It (Wired)", "url": "https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/" },
-    { "title": "The Untold Story of NotPetya, the Most Devastating Cyberattack in History (Wired)", "url": "https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/" }
+    {
+      "title": "Andy Greenberg - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Andy_Greenberg"
+    },
+    {
+      "title": "About - Andy Greenberg",
+      "url": "https://andygreenberg.net/about"
+    },
+    {
+      "title": "Hackers Remotely Kill a Jeep on the Highway - With Me in It (Wired)",
+      "url": "https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/"
+    },
+    {
+      "title": "The Untold Story of NotPetya, the Most Devastating Cyberattack in History (Wired)",
+      "url": "https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

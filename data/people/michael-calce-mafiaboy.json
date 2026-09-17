@@ -7,7 +7,15 @@
   "born": "1984",
   "died": null,
   "era": "2000s-Present",
-  "tags": ["ddos", "mafiaboy", "canada", "1990s-2000s hacking", "juvenile hacker", "internet security", "botnet"],
+  "tags": [
+    "ddos",
+    "mafiaboy",
+    "canada",
+    "1990s-2000s hacking",
+    "juvenile hacker",
+    "internet security",
+    "botnet"
+  ],
   "summary": "Michael Demon Calce, known online as MafiaBoy, is a Canadian security consultant and former computer hacker who, at age 15 in February 2000, launched a series of distributed denial-of-service (DDoS) attacks that knocked Yahoo!, eBay, Amazon, CNN, Dell, E*TRADE, and other major websites offline.",
   "whyThisMatters": "The February 2000 attacks were among the first widely publicized DDoS incidents and briefly disabled some of the era's largest commercial websites, prompting U.S. congressional hearings and estimates of damages in the billions of dollars. The case demonstrated that a single teenager using freely available attack tools could disrupt major internet infrastructure, accelerating public and governmental attention to cybercrime legislation and network security defenses. Calce's prosecution as a young offender in Canada also became a landmark example of how legal systems grappled with juvenile computer crime in the early internet era.",
   "knownFor": [
@@ -20,12 +28,30 @@
     "overview": "<h2>Background</h2><p>Michael Demon Calce was born in 1984 and grew up in Île Bizard, Quebec, Canada. According to his own later accounts, he received his first computer around age six following his parents' separation and became deeply absorbed in exploring what it could do. By his early teens he was active in online hacker circles under the handle \"MafiaBoy,\" associating with a loose group he referred to as TNT.</p><h2>The February 2000 Attacks</h2><p>In February 2000, at age 15, Calce launched a campaign of distributed denial-of-service (DDoS) attacks that he called \"Rivolta\" (Italian for \"revolt\"). Using a network of compromised university and corporate computers, he flooded target servers with traffic. The first major target was Yahoo!, then the leading web portal, which was knocked offline for close to an hour on February 7, 2000. Over the following days he directed similar floods at other prominent commercial sites, including eBay, Amazon.com, CNN, Dell, E*TRADE, and FIFA.com. By his own account, his goal was to establish dominance and notoriety for himself and his associates within underground hacker culture rather than any financial motive.</p><h2>Investigation and Sentencing</h2><p>The scale of the disruption prompted an intensive investigation by Canadian and U.S. law enforcement, including the Royal Canadian Mounted Police and the FBI. Estimates presented to U.S. congressional committees placed the combined damages and mitigation costs from the attacks at over a billion dollars, figures cited in testimony before Congress on the state of internet security. Calce was identified and arrested in April 2000. Because he was a minor, he was tried in Montreal Youth Court and his identity was initially protected by publication bans applicable to young offenders. In September 2001, he pleaded guilty to 56 charges related to the attacks and was sentenced to eight months of \"open custody\" at a youth detention facility, one year of probation, restricted internet use, and a small fine.</p><h2>Aftermath and Later Career</h2><p>After completing his sentence, Calce moved away from unauthorized hacking and began working publicly in the security field, including writing a security column for the Montreal newspaper Le Journal de Montréal. In 2008 he co-authored a memoir, \"Mafiaboy: How I Cracked the Internet and Why It's Still Broken,\" with journalist Craig Silverman, describing his early life, the attacks, and his views on internet security. He has since worked as a security consultant, spoken publicly and in media interviews about cybersecurity trends, and founded a security consulting firm called Optimal Secure.</p><h2>Significance</h2><p>The 2000 attacks are frequently cited as one of the first cases to bring distributed denial-of-service attacks to mainstream public and governmental attention, in part because the targets were among the internet's most visible commercial brands at the time. The incident contributed to broader discussions in the United States and Canada about strengthening cybercrime law and improving the resilience of internet infrastructure, and it remains a commonly referenced early milestone in the history of DDoS attacks and juvenile cybercrime prosecutions.</p>"
   },
   "timeline": [
-    { "date": "1984", "event": "Michael Demon Calce is born in Île Bizard, Quebec, Canada." },
-    { "date": "2000-02-07", "event": "Using the handle MafiaBoy and the project name 'Rivolta,' Calce launches a DDoS attack that takes Yahoo! offline for nearly an hour." },
-    { "date": "2000-02", "event": "Follow-up DDoS attacks target eBay, Amazon, CNN, Dell, E*TRADE, and FIFA.com over the following days." },
-    { "date": "2000-04", "event": "Calce is arrested by Canadian authorities following a joint investigation with the FBI." },
-    { "date": "2001-09-12", "event": "Montreal Youth Court sentences Calce, after a guilty plea to 56 charges, to eight months of open custody, one year of probation, and restricted internet use." },
-    { "date": "2008", "event": "Calce co-authors the memoir 'Mafiaboy: How I Cracked the Internet and Why It's Still Broken' with journalist Craig Silverman." }
+    {
+      "date": "1984",
+      "event": "Michael Demon Calce is born in Île Bizard, Quebec, Canada."
+    },
+    {
+      "date": "2000-02-07",
+      "event": "Using the handle MafiaBoy and the project name 'Rivolta,' Calce launches a DDoS attack that takes Yahoo! offline for nearly an hour."
+    },
+    {
+      "date": "2000-02",
+      "event": "Follow-up DDoS attacks target eBay, Amazon, CNN, Dell, E*TRADE, and FIFA.com over the following days."
+    },
+    {
+      "date": "2000-04",
+      "event": "Calce is arrested by Canadian authorities following a joint investigation with the FBI."
+    },
+    {
+      "date": "2001-09-12",
+      "event": "Montreal Youth Court sentences Calce, after a guilty plea to 56 charges, to eight months of open custody, one year of probation, and restricted internet use."
+    },
+    {
+      "date": "2008",
+      "event": "Calce co-authors the memoir 'Mafiaboy: How I Cracked the Internet and Why It's Still Broken' with journalist Craig Silverman."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -33,16 +59,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Michael Calce - Wikipedia", "url": "https://en.wikipedia.org/wiki/Michael_Calce" },
-    { "title": "A Q&A with MafiaBoy - Infosecurity Magazine", "url": "https://www.infosecurity-magazine.com/news/a-qa-with-mafiaboy/" },
-    { "title": "Michael Calce - Computer Hope", "url": "https://www.computerhope.com/people/michael_calce.htm" },
-    { "title": "IT security faces huge challenge, says hacker 'Mafiaboy' - The Irish Times", "url": "https://www.irishtimes.com/business/technology/it-security-faces-huge-challenge-says-hacker-mafiaboy-1.3046238" }
+    {
+      "title": "Michael Calce - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michael_Calce"
+    },
+    {
+      "title": "A Q&A with MafiaBoy - Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/a-qa-with-mafiaboy/"
+    },
+    {
+      "title": "Michael Calce - Computer Hope",
+      "url": "https://www.computerhope.com/people/michael_calce.htm"
+    },
+    {
+      "title": "IT security faces huge challenge, says hacker 'Mafiaboy' - The Irish Times",
+      "url": "https://www.irishtimes.com/business/technology/it-security-faces-huge-challenge-says-hacker-mafiaboy-1.3046238"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

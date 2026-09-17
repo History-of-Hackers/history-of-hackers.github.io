@@ -7,7 +7,15 @@
   "born": "1975-09-03",
   "died": null,
   "era": "1990s-Present",
-  "tags": ["hardware hacking", "l0pht", "congressional testimony", "reverse engineering", "cryptocurrency recovery", "television host", "electrical engineering"],
+  "tags": [
+    "hardware hacking",
+    "l0pht",
+    "congressional testimony",
+    "reverse engineering",
+    "cryptocurrency recovery",
+    "television host",
+    "electrical engineering"
+  ],
   "summary": "Joe Grand, known by the handle Kingpin, is an American electrical engineer and hardware hacker who was a member of the Boston-based hacker collective L0pht Heavy Industries and later became a professional hardware security consultant, author, and television host.",
   "whyThisMatters": "As the youngest member of L0pht Heavy Industries, Grand took part in the group's landmark 1998 testimony before the U.S. Senate warning that major internet infrastructure was insecure, one of the earliest instances of hackers being treated as credible security experts by the U.S. government. He went on to help define hardware hacking as a distinct discipline, publishing widely used technical references and demonstrating physical-access attacks against consumer electronics, and later brought hacker culture to a mainstream television audience through Discovery Channel's Prototype This!. His later work recovering lost cryptocurrency from hardware wallets using fault-injection techniques has been widely cited as a demonstration of practical hardware security research.",
   "knownFor": [
@@ -23,14 +31,38 @@
     "overview": "<h2>Early Life and Background</h2><p>Joe Grand was born on September 3, 1975, in Boston, Massachusetts. According to his own accounts and profiles compiled about his career, he became interested in electronics around the age of seven and spent his teenage years exploring and modifying electronic devices. He went on to earn a Bachelor of Science degree in computer engineering from Boston University, and was later awarded an honorary Doctorate of Science in Technology from the University of Advancing Technology in Arizona.</p><h2>L0pht Heavy Industries</h2><p>Grand became a member of L0pht Heavy Industries, a Boston-based hacker collective active during the 1990s that operated out of a shared loft space and conducted some of the earliest widely publicized security research into commercial software and hardware. Within the group he used the handle \"Kingpin\" and was its youngest member. L0pht's roster during this period included figures such as Mudge (Peiter Zatko), Weld Pond (Chris Wysopal), Dildog (Christien Rioux), Space Rogue (Cris Thomas), Brian Oblivion, Silicosis, and John Tan. On May 19, 1998, seven L0pht members, including Grand, testified before the U.S. Senate Committee on Governmental Affairs about weaknesses in government and commercial computer security, stating that a small group of hackers could disrupt major portions of internet infrastructure in a short period of time. The testimony is frequently cited as an early moment in which hackers were treated as credible technical authorities by the U.S. government, and the group's warnings were later described by press coverage as having gone largely unheeded by policymakers.</p><h2>Hardware Hacking Career</h2><p>Following his time at L0pht, Grand focused his work specifically on hardware security, a field he helped popularize as distinct from purely software-based hacking. He founded Grand Idea Studio, a research and development firm based on the West Coast that licenses inventions and provides hardware security consulting and product design services. His research has included demonstrating vulnerabilities in embedded systems and consumer devices, including a widely reported 2009 demonstration of flaws in San Francisco's electronic parking meters. He also designed the official hardware badges distributed at the DEFCON hacker conference from 2006 through 2010, and has served as a judge for hardware badge-hacking contests at the conference. Grand co-authored and authored multiple technical books, including titles on hardware, wireless, and game console hacking, aimed at documenting reverse-engineering techniques for a technical audience.</p><h2>Television and Public Recognition</h2><p>Grand reached a mainstream audience through his role as a co-host of Prototype This!, a Discovery Channel television series that aired in 2007 and 2008, in which a team of engineers and hackers designed and built ambitious prototype devices for each episode. The show helped introduce his hacker background and hardware engineering skills to viewers outside the security industry.</p><h2>Cryptocurrency Wallet Recovery Work</h2><p>In the 2020s, Grand became known for applying hardware hacking techniques to recover access to cryptocurrency wallets whose owners had lost their PIN codes or passwords. In a case that received substantial media coverage, he used a fault injection attack, a technique that manipulates the voltage supplied to a chip to induce it into an unintended state, to extract the PIN and recovery phrase from a Trezor One hardware wallet on behalf of a client who had lost access to funds that had grown to roughly two million dollars in value. He later worked on a separate case recovering approximately three million dollars from a decade-old software wallet by exploiting a flaw related to the RoboForm password manager. Trezor's manufacturer stated the underlying vulnerability exploited in the fault injection attack had been fixed in newer devices.</p><h2>Legacy</h2><p>Grand's career spans several distinct eras of hacker history: the loosely organized research collectives of the 1990s that first drew serious government attention to computer security, the emergence of hardware hacking as a specialized professional discipline, and the mainstreaming of hacker culture through television and media. He continues to speak at security conferences such as Black Hat, produce educational content, and consult on hardware security matters through Grand Idea Studio.</p>"
   },
   "timeline": [
-    { "date": "1975-09-03", "event": "Born in Boston, Massachusetts." },
-    { "date": "1990s", "event": "Joins L0pht Heavy Industries under the handle Kingpin as its youngest member." },
-    { "date": "1998-05-19", "event": "Testifies before the U.S. Senate Committee on Governmental Affairs alongside fellow L0pht members about vulnerabilities in government and commercial computer systems." },
-    { "date": "2007", "event": "Begins co-hosting Discovery Channel's Prototype This!, which ran through 2008." },
-    { "date": "2009", "event": "Publicly demonstrates security vulnerabilities in San Francisco's electronic parking meters." },
-    { "date": "2006", "event": "Begins designing official electronic badges for DEFCON, a role he continued through 2010." },
-    { "date": "2022", "event": "Uses a fault injection attack to recover roughly $2 million in cryptocurrency from a locked Trezor One hardware wallet." },
-    { "date": "2024", "event": "Helps recover approximately $3 million from a decade-old software cryptocurrency wallet by exploiting a flaw related to the RoboForm password manager." }
+    {
+      "date": "1975-09-03",
+      "event": "Born in Boston, Massachusetts."
+    },
+    {
+      "date": "1990s",
+      "event": "Joins L0pht Heavy Industries under the handle Kingpin as its youngest member."
+    },
+    {
+      "date": "1998-05-19",
+      "event": "Testifies before the U.S. Senate Committee on Governmental Affairs alongside fellow L0pht members about vulnerabilities in government and commercial computer systems."
+    },
+    {
+      "date": "2007",
+      "event": "Begins co-hosting Discovery Channel's Prototype This!, which ran through 2008."
+    },
+    {
+      "date": "2009",
+      "event": "Publicly demonstrates security vulnerabilities in San Francisco's electronic parking meters."
+    },
+    {
+      "date": "2006",
+      "event": "Begins designing official electronic badges for DEFCON, a role he continued through 2010."
+    },
+    {
+      "date": "2022",
+      "event": "Uses a fault injection attack to recover roughly $2 million in cryptocurrency from a locked Trezor One hardware wallet."
+    },
+    {
+      "date": "2024",
+      "event": "Helps recover approximately $3 million from a decade-old software cryptocurrency wallet by exploiting a flaw related to the RoboForm password manager."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,18 +70,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Joe Grand - Wikipedia", "url": "https://en.wikipedia.org/wiki/Joe_Grand" },
-    { "title": "L0pht - Wikipedia", "url": "https://en.wikipedia.org/wiki/L0pht" },
-    { "title": "Kingpin - Darknet Diaries", "url": "https://darknetdiaries.com/episode/155/" },
-    { "title": "Engineer hacks Trezor wallet, recovers $2M in 'lost' crypto - Cointelegraph", "url": "https://cointelegraph.com/news/engineer-hacks-trezor-wallet-recovers-2m-in-lost-crypto" },
-    { "title": "Hackers Retrieve $3M from Decade-Old Bitcoin Wallet - Nasdaq", "url": "https://www.nasdaq.com/articles/hackers-retrieve-3m-decade-old-bitcoin-wallet" },
-    { "title": "Joe Grand (formally 'Kingpin' of L0pht) - Black Hat Arsenal", "url": "https://blackhat.com/us-14/arsenal/Joe-Grand.html" }
+    {
+      "title": "Joe Grand - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Joe_Grand"
+    },
+    {
+      "title": "L0pht - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/L0pht"
+    },
+    {
+      "title": "Kingpin - Darknet Diaries",
+      "url": "https://darknetdiaries.com/episode/155/"
+    },
+    {
+      "title": "Engineer hacks Trezor wallet, recovers $2M in 'lost' crypto - Cointelegraph",
+      "url": "https://cointelegraph.com/news/engineer-hacks-trezor-wallet-recovers-2m-in-lost-crypto"
+    },
+    {
+      "title": "Hackers Retrieve $3M from Decade-Old Bitcoin Wallet - Nasdaq",
+      "url": "https://www.nasdaq.com/articles/hackers-retrieve-3m-decade-old-bitcoin-wallet"
+    },
+    {
+      "title": "Joe Grand (formally 'Kingpin' of L0pht) - Black Hat Arsenal",
+      "url": "https://blackhat.com/us-14/arsenal/Joe-Grand.html"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

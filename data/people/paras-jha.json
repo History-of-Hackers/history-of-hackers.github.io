@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2010s-Present",
-  "tags": ["mirai", "botnet", "ddos", "iot-security", "cybercrime", "rutgers", "click-fraud"],
+  "tags": [
+    "mirai",
+    "botnet",
+    "ddos",
+    "iot-security",
+    "cybercrime",
+    "rutgers",
+    "click-fraud"
+  ],
   "summary": "Paras Jha is an American computer science student who, under the online alias \"Anna-senpai,\" co-authored the Mirai botnet malware and pleaded guilty in federal court in December 2017 to computer crimes related to Mirai and to a separate series of denial-of-service attacks against Rutgers University.",
   "whyThisMatters": "Mirai, the malware Jha co-created with Josiah White and Dalton Norman, was used to build one of the largest IoT-based botnets ever recorded and powered the October 2016 attack on DNS provider Dyn that knocked major sites such as Twitter, Netflix, and Reddit offline across the United States. The release of the Mirai source code online in 2016 seeded a wave of copycat IoT botnets that persist to this day, making the case a landmark in the history of Internet-of-Things security failures. Jha's prosecution and subsequent cooperation with the FBI also became a widely cited example of hackers being recruited to help federal law enforcement after conviction rather than serving significant prison time.",
   "knownFor": [
@@ -21,15 +29,42 @@
     "overview": "<h2>Background</h2><p>Paras Jha is a computer scientist from Fanwood, New Jersey, who enrolled at Rutgers University around 2015. He displayed early skill in programming languages including C#, Java, Golang, C, C++, and PHP, and was active on hacking forums such as Hack Forums under various pseudonyms, including \"dreadiscool.\" Jha co-founded ProTraf Solutions, a company that marketed itself as a DDoS protection and mitigation service, together with fellow student Josiah White.</p><h2>Creation of Mirai</h2><p>In the summer of 2016, Jha, along with Josiah White and Dalton Norman, developed the Mirai malware, which scanned the internet for insecure Internet-of-Things devices such as routers, DVRs, and IP cameras, logging into them using default or weak factory credentials to conscript them into a botnet capable of launching massive distributed denial-of-service (DDoS) attacks. The malware was initially built to give the trio an advantage in a Minecraft server hosting and DDoS-for-hire/protection racket: they would attack rival Minecraft servers and hosting providers, then sell their own DDoS protection services to victims. Jha operated online under the alias \"Anna-senpai,\" a name drawn from the anime series \"Mirai Nikki,\" which he had watched.</p><h2>The Dyn attack and public release of the source code</h2><p>In September and October 2016, Mirai was used to launch some of the largest DDoS attacks recorded up to that time, including an attack against the website of security journalist Brian Krebs and, on October 21, 2016, a major attack on Dyn, a company providing Domain Name System (DNS) services, which caused widespread outages for sites including Twitter, Netflix, Reddit, and others across parts of the United States. Shortly before the Dyn attack, the source code for Mirai was posted publicly on Hack Forums under the Anna-senpai alias, a move investigators believe was intended to make it harder to trace the botnet back to its original authors as more attackers began operating copies of it.</p><h2>Attacks on Rutgers University</h2><p>Separately from Mirai, Jha was linked to a series of disruptive DDoS attacks against Rutgers University's network between 2014 and 2016, timed to coincide with events such as course registration and exams. The attacker, using aliases including \"og_richard_stallman\" and \"exfocus,\" taunted university administrators online and mocked the school's cybersecurity spending. The attacks forced Rutgers to spend hundreds of thousands of dollars on outside consultants and additional security measures.</p><h2>Identification and investigation</h2><p>Journalist Brian Krebs, whose own website had been hit by a record-setting Mirai attack, published an investigative report in January 2017 identifying Paras Jha as the likely person behind the \"Anna-senpai\" alias, based on technical writing style, forum activity, and connections to ProTraf Solutions and Rutgers University. Jha initially denied the allegations publicly. The FBI's investigation, aided by this reporting, ultimately tied Jha, White, and Norman to both the Mirai botnet and a related click-fraud scheme that used compromised devices to generate fraudulent advertising revenue.</p><h2>Guilty plea and sentencing</h2><p>On December 13, 2017, Jha pleaded guilty in federal court in Alaska to charges related to the Mirai botnet, alongside co-defendants Josiah White and Dalton Norman, including conspiracy to violate the Computer Fraud and Abuse Act. Jha separately pleaded guilty to charges in the District of New Jersey stemming from the Rutgers University attacks. As part of their plea agreements, the three defendants cooperated extensively with FBI investigations into other cybercrime cases. On October 26, 2018, Jha was sentenced by the U.S. District Court for the District of New Jersey to six months of home incarceration, 2,500 hours of community service, and was ordered to pay $8.6 million in restitution to Rutgers University; he avoided a lengthier prison sentence in significant part due to his cooperation with authorities.</p><h2>Legacy</h2><p>The Mirai botnet and its public source code release are widely regarded as a turning point in Internet-of-Things security, exposing how large numbers of poorly secured consumer devices could be weaponized into some of the most powerful DDoS botnets ever seen. Variants and descendants of the Mirai codebase have continued to be used by other threat actors in the years since, and the case is frequently cited in discussions of IoT security policy, default-credential vulnerabilities, and the legal treatment of young hackers who cooperate with law enforcement after being caught.</p>"
   },
   "timeline": [
-    { "date": "2015", "event": "Paras Jha enrolls at Rutgers University and co-founds ProTraf Solutions, a DDoS mitigation company, with Josiah White." },
-    { "date": "2014", "event": "First in a series of DDoS attacks attributed to Jha begins disrupting Rutgers University's network, recurring through 2016." },
-    { "date": "2016-08", "event": "Jha, Josiah White, and Dalton Norman develop the Mirai malware to gain an advantage in a Minecraft server DDoS-for-hire and protection scheme." },
-    { "date": "2016-09-20", "event": "A Mirai-powered botnet launches a record-setting DDoS attack against the website of security journalist Brian Krebs." },
-    { "date": "2016-10-01", "event": "The Mirai source code is publicly posted on Hack Forums under the alias \"Anna-senpai.\"" },
-    { "date": "2016-10-21", "event": "A large-scale Mirai botnet attack against DNS provider Dyn disrupts access to major websites including Twitter, Netflix, and Reddit across parts of the United States." },
-    { "date": "2017-01-17", "event": "Journalist Brian Krebs publishes an investigation publicly identifying Paras Jha as the likely author behind the \"Anna-senpai\" alias." },
-    { "date": "2017-12-13", "event": "Jha pleads guilty in federal court in Alaska to Mirai-related computer crime charges alongside Josiah White and Dalton Norman, and separately pleads guilty to charges related to the Rutgers University attacks in New Jersey." },
-    { "date": "2018-10-26", "event": "Jha is sentenced to six months of home incarceration, 2,500 hours of community service, and ordered to pay $8.6 million in restitution for the Rutgers attacks." }
+    {
+      "date": "2015",
+      "event": "Paras Jha enrolls at Rutgers University and co-founds ProTraf Solutions, a DDoS mitigation company, with Josiah White."
+    },
+    {
+      "date": "2014",
+      "event": "First in a series of DDoS attacks attributed to Jha begins disrupting Rutgers University's network, recurring through 2016."
+    },
+    {
+      "date": "2016-08",
+      "event": "Jha, Josiah White, and Dalton Norman develop the Mirai malware to gain an advantage in a Minecraft server DDoS-for-hire and protection scheme."
+    },
+    {
+      "date": "2016-09-20",
+      "event": "A Mirai-powered botnet launches a record-setting DDoS attack against the website of security journalist Brian Krebs."
+    },
+    {
+      "date": "2016-10-01",
+      "event": "The Mirai source code is publicly posted on Hack Forums under the alias \"Anna-senpai.\""
+    },
+    {
+      "date": "2016-10-21",
+      "event": "A large-scale Mirai botnet attack against DNS provider Dyn disrupts access to major websites including Twitter, Netflix, and Reddit across parts of the United States."
+    },
+    {
+      "date": "2017-01-17",
+      "event": "Journalist Brian Krebs publishes an investigation publicly identifying Paras Jha as the likely author behind the \"Anna-senpai\" alias."
+    },
+    {
+      "date": "2017-12-13",
+      "event": "Jha pleads guilty in federal court in Alaska to Mirai-related computer crime charges alongside Josiah White and Dalton Norman, and separately pleads guilty to charges related to the Rutgers University attacks in New Jersey."
+    },
+    {
+      "date": "2018-10-26",
+      "event": "Jha is sentenced to six months of home incarceration, 2,500 hours of community service, and ordered to pay $8.6 million in restitution for the Rutgers attacks."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,16 +72,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Mirai (malware) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Mirai_(malware)" },
-    { "title": "Mirai IoT Botnet Co-Authors Plead Guilty - Krebs on Security", "url": "https://krebsonsecurity.com/2017/12/mirai-iot-botnet-co-authors-plead-guilty/" },
-    { "title": "Who is Anna-Senpai, the Mirai Worm Author? - Krebs on Security", "url": "https://krebsonsecurity.com/2017/01/who-is-anna-senpai-the-mirai-worm-author/" },
-    { "title": "Paras Jha - Wikipedia", "url": "https://en.wikipedia.org/wiki/Paras_Jha" }
+    {
+      "title": "Mirai (malware) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mirai_(malware)"
+    },
+    {
+      "title": "Mirai IoT Botnet Co-Authors Plead Guilty - Krebs on Security",
+      "url": "https://krebsonsecurity.com/2017/12/mirai-iot-botnet-co-authors-plead-guilty/"
+    },
+    {
+      "title": "Who is Anna-Senpai, the Mirai Worm Author? - Krebs on Security",
+      "url": "https://krebsonsecurity.com/2017/01/who-is-anna-senpai-the-mirai-worm-author/"
+    },
+    {
+      "title": "Paras Jha - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paras_Jha"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

@@ -4,17 +4,37 @@
   "title": "theHarvester",
   "slug": "theharvester",
   "era": "2011-Present",
-  "tags": ["osint", "reconnaissance", "penetration-testing", "subdomain-enumeration", "email-harvesting", "open-source", "kali-linux"],
+  "tags": [
+    "osint",
+    "reconnaissance",
+    "penetration-testing",
+    "subdomain-enumeration",
+    "email-harvesting",
+    "open-source",
+    "kali-linux"
+  ],
   "summary": "theHarvester is an open-source intelligence (OSINT) reconnaissance tool that gathers emails, subdomains, hostnames, employee names, and other public information about a target organization from search engines, DNS records, and other public sources. It was originally created by Christian Martorella of Edge-Security Research and is now bundled by default in Kali Linux.",
   "whyThisMatters": "theHarvester popularized the practice of automating passive information gathering as a distinct, repeatable first phase of a penetration test, rather than treating reconnaissance as manual, ad hoc research. By aggregating dozens of public data sources (search engines, certificate transparency logs, DNS datasets, Shodan, and code repositories) into a single command-line workflow, it lowered the barrier to systematic OSINT collection for both professional security testers and, more controversially, potential attackers performing target profiling. Its long-running inclusion in Kali Linux and continued active maintenance over more than a decade have made it one of the most widely used and referenced reconnaissance utilities in the security industry.",
   "sections": {
     "overview": "<h2>Background</h2><p>theHarvester is a command-line open-source intelligence (OSINT) tool designed to collect publicly available information about a target domain or organization. It was originally developed by security researcher Christian Martorella, who published the tool under his GitHub handle \"laramies\" and credited it to Edge-Security Research, a security consultancy he was affiliated with. The tool was created to address a specific need in the reconnaissance phase of penetration testing: automatically compiling emails, subdomains, hostnames, employee names, open ports, and banners from a wide array of public sources instead of requiring testers to query each source manually.</p><h2>Design and Functionality</h2><p>theHarvester works by querying a large and growing list of public data sources — including search engines such as Google, Bing, and DuckDuckGo; certificate transparency logs; DNS datasets; code-hosting platforms like GitHub; the Shodan and Censys internet-scanning services; PGP key servers; and archived web data such as the Wayback Machine. Results are aggregated and can be exported in formats including JSON, XML, and, in later versions, JSONL and SQLite. The tool supports both passive techniques (querying external services without directly touching the target) and active techniques, such as DNS brute-forcing, reverse DNS lookups, and subdomain-takeover checks.</p><h2>Adoption and Ecosystem</h2><p>theHarvester was written in Python and released under the GNU General Public License version 2 (GPLv2), making it freely available and modifiable. It was adopted early by the Kali Linux distribution, where it remains a default pre-installed tool in the information-gathering category, exposing it to a very wide audience of security practitioners, students, and, at times, malicious actors performing reconnaissance against targets. Its inclusion in a standard penetration-testing toolkit contributed significantly to its visibility and long-term use.</p><h2>Maintenance and Evolution</h2><p>After its initial release, theHarvester passed from being a single-author project to a community-maintained one. Later versions (from roughly version 3.0 onward) added features such as improved DNS dictionaries, subdomain-takeover detection, screenshot capture of resolved hosts, and a broader catalog of dozens of discovery sources. Contributors including Matthew Brown (NotoriousRebel1), Jay Townsend, Janos Zold, and Lee Baird took on significant maintenance responsibilities as the project matured, keeping it compatible with changing APIs of the search engines and services it depends on.</p><h2>Significance and Legacy</h2><p>theHarvester is frequently cited in penetration-testing methodology guides, security certifications, and OSINT training material as a canonical example of automated reconnaissance tooling. Its approach — treating passive information gathering as a scriptable, repeatable step rather than manual research — influenced the design of many later OSINT aggregation tools. Because the same capabilities that make it useful to authorized security assessors (rapid mapping of an organization's externally visible footprint) can also assist attackers performing target reconnaissance, its documentation explicitly states it is intended only for authorized security testing and educational use.</p>"
   },
   "timeline": [
-    { "date": "2011", "event": "Christian Martorella publishes theHarvester as an OSINT reconnaissance tool under Edge-Security Research, hosted on GitHub under the handle laramies." },
-    { "date": "2019-02", "event": "A packaged release of theHarvester is published to the Python Package Index (PyPI)." },
-    { "date": "2010s", "event": "theHarvester becomes a default pre-installed tool in the Kali Linux penetration-testing distribution's information-gathering category." },
-    { "date": "2020s", "event": "Maintenance of the project shifts to a group of community contributors, including Matthew Brown and Jay Townsend, who expand its data sources and add features such as subdomain-takeover checks and screenshot capture." }
+    {
+      "date": "2011",
+      "event": "Christian Martorella publishes theHarvester as an OSINT reconnaissance tool under Edge-Security Research, hosted on GitHub under the handle laramies."
+    },
+    {
+      "date": "2019-02",
+      "event": "A packaged release of theHarvester is published to the Python Package Index (PyPI)."
+    },
+    {
+      "date": "2010s",
+      "event": "theHarvester becomes a default pre-installed tool in the Kali Linux penetration-testing distribution's information-gathering category."
+    },
+    {
+      "date": "2020s",
+      "event": "Maintenance of the project shifts to a group of community contributors, including Matthew Brown and Jay Townsend, who expand its data sources and add features such as subdomain-takeover checks and screenshot capture."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -22,10 +42,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "theHarvester GitHub repository (laramies/theHarvester)", "url": "https://github.com/laramies/theHarvester" },
-    { "title": "theHarvester on Kali Linux Tools", "url": "https://www.kali.org/tools/theharvester/" },
-    { "title": "theHarvester on PyPI", "url": "https://pypi.org/project/theHarvester/" },
-    { "title": "GitHub profile of laramies (Christian Martorella)", "url": "https://github.com/laramies" }
+    {
+      "title": "theHarvester GitHub repository (laramies/theHarvester)",
+      "url": "https://github.com/laramies/theHarvester"
+    },
+    {
+      "title": "theHarvester on Kali Linux Tools",
+      "url": "https://www.kali.org/tools/theharvester/"
+    },
+    {
+      "title": "theHarvester on PyPI",
+      "url": "https://pypi.org/project/theHarvester/"
+    },
+    {
+      "title": "GitHub profile of laramies (Christian Martorella)",
+      "url": "https://github.com/laramies"
+    }
   ],
-  "editorial": { "verified": true, "sourcesCount": 4, "lastReviewed": "2026-08-29", "reviewStatus": "PUBLISHED", "reviewer": "claude-taskforce-2026-08-29" }
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-08-29",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
+  }
 }

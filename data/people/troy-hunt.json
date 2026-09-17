@@ -120,7 +120,8 @@
     "sourcesCount": 8,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "research-agent"
+    "reviewer": "research-agent",
+    "createdBy": "Joas A Santos"
   },
   "name": "Troy Hunt",
   "born": "1976",

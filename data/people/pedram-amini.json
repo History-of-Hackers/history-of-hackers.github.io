@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["fuzzing", "vulnerability research", "bug bounty", "reverse engineering", "zero day initiative", "malware research", "security tools"],
+  "tags": [
+    "fuzzing",
+    "vulnerability research",
+    "bug bounty",
+    "reverse engineering",
+    "zero day initiative",
+    "malware research",
+    "security tools"
+  ],
   "summary": "Pedram Amini is a computer security researcher known for co-founding the Zero Day Initiative bug bounty program at TippingPoint and for creating the Sulley fuzzing framework and the PaiMei reverse-engineering framework.",
   "whyThisMatters": "Amini helped establish one of the earliest and largest vendor-agnostic vulnerability purchase programs, the Zero Day Initiative, which formalized paying independent researchers for responsibly disclosed bugs and became a model widely copied across the industry. His Sulley fuzzing framework and PaiMei reverse-engineering toolkit were influential open-source contributions during a period when automated bug discovery tools were still maturing, and his co-authored book on fuzzing became a standard reference in the field.",
   "knownFor": [
@@ -23,13 +31,34 @@
     "overview": "<h2>Background</h2><p>Pedram Amini is a computer security researcher and software developer whose career has centered on vulnerability research, fuzzing, and reverse engineering. He holds a computer science degree from Tulane University. He began his professional security career in 2002 at iDEFENSE Labs, a vulnerability intelligence firm later acquired by VeriSign in 2005, where he served as a founding member and assistant director and helped build the company's Vulnerability Contributor Program (VCP), a network coordinating disclosure work from independent researchers.</p><h2>Zero Day Initiative</h2><p>In 2005, Amini moved to Austin, Texas, to help start the Zero Day Initiative (ZDI) at TippingPoint, a network security company that was then a division of 3Com. Launched on July 25, 2005, and initially led together with David Endler, ZDI paid independent researchers for privately disclosed software vulnerabilities, which TippingPoint then used to protect its intrusion-prevention products while coordinating disclosure with the affected vendors. The program is widely credited as one of the first large-scale vendor bug-bounty and disclosure-brokering efforts of its kind and has continued to operate for decades under subsequent owners of TippingPoint, including Hewlett-Packard and Trend Micro, eventually crediting patches for well over a thousand vulnerabilities contributed by thousands of researchers.</p><h2>Sulley and PaiMei</h2><p>Alongside his work at TippingPoint, Amini developed open-source tools for vulnerability discovery and reverse engineering. He created PaiMei, a modular reverse-engineering framework built around components for process control, memory inspection, and code-coverage analysis, designed to speed up the prototyping of analysis tools for platforms such as IDA Pro and OllyDbg. In 2007, together with Aaron Portnoy, he released the Sulley fuzzing framework at Black Hat USA. Sulley was an open-source, extensible fuzzing framework notable for combining data generation with network monitoring, target health instrumentation, automated crash detection and categorization, and support for running fuzzing sessions in parallel; it became a widely used and studied tool in the fuzzing community. Amini also founded OpenRCE.org, a community site dedicated to reverse-engineering research, and co-authored the 2007 book \"Fuzzing: Brute Force Vulnerability Discovery\" with Michael Sutton and Adam Greene.</p><h2>Later work</h2><p>Amini and fellow TippingPoint researcher Cody Pierce drew industry attention in 2008 for reverse-engineering the encryption used by the Kraken botnet's trojan, work that sparked debate over the ethics of researchers infiltrating live botnet command-and-control infrastructure. In 2010, Amini founded Jumpshot, a malware-removal product later acquired by Avast and rebranded as GrimeFighter, and he subsequently held a director role at Avast. He went on to become chief technology officer at InQuest, a threat-detection company where he developed technologies including Deep File Inspection and a retrospective threat-hunting method he called RetroHunting. InQuest was acquired by OPSWAT in 2024, after which Amini took on the role of Chief Scientist at OPSWAT. He has spoken at conferences including Black Hat, DEF CON, ToorCon, and REcon, and has held advisory roles with organizations such as Exodus Intelligence and Mozilla's GenAI bug bounty program.</p><h2>Significance</h2><p>Amini's contributions span three areas of lasting influence in computer security: institutionalizing paid vulnerability disclosure through the Zero Day Initiative, advancing publicly available fuzzing and reverse-engineering tooling through Sulley and PaiMei, and documenting fuzzing methodology through a widely cited technical book. His work helped shape both the practice and the business model of vulnerability research in the 2000s and 2010s.</p>"
   },
   "timeline": [
-    { "date": "2002", "event": "Joins iDEFENSE Labs, becoming a founding member and later assistant director; helps build the Vulnerability Contributor Program." },
-    { "date": "2005-07-25", "event": "Zero Day Initiative (ZDI) launches at TippingPoint, co-founded and initially led by Amini and David Endler." },
-    { "date": "2006", "event": "Speaks at the REcon reverse-engineering conference on PaiMei and related tooling." },
-    { "date": "2007", "event": "Releases the Sulley fuzzing framework with Aaron Portnoy at Black Hat USA; co-authors \"Fuzzing: Brute Force Vulnerability Discovery\" with Michael Sutton and Adam Greene." },
-    { "date": "2008", "event": "With Cody Pierce, reverse-engineers the encryption routines used by the Kraken botnet trojan, prompting debate over botnet-infiltration ethics." },
-    { "date": "2010", "event": "Founds Jumpshot, a malware-removal product later acquired by Avast and rebranded GrimeFighter." },
-    { "date": "2024", "event": "InQuest, where Amini served as CTO, is acquired by OPSWAT; Amini becomes Chief Scientist at OPSWAT." }
+    {
+      "date": "2002",
+      "event": "Joins iDEFENSE Labs, becoming a founding member and later assistant director; helps build the Vulnerability Contributor Program."
+    },
+    {
+      "date": "2005-07-25",
+      "event": "Zero Day Initiative (ZDI) launches at TippingPoint, co-founded and initially led by Amini and David Endler."
+    },
+    {
+      "date": "2006",
+      "event": "Speaks at the REcon reverse-engineering conference on PaiMei and related tooling."
+    },
+    {
+      "date": "2007",
+      "event": "Releases the Sulley fuzzing framework with Aaron Portnoy at Black Hat USA; co-authors \"Fuzzing: Brute Force Vulnerability Discovery\" with Michael Sutton and Adam Greene."
+    },
+    {
+      "date": "2008",
+      "event": "With Cody Pierce, reverse-engineers the encryption routines used by the Kraken botnet trojan, prompting debate over botnet-infiltration ethics."
+    },
+    {
+      "date": "2010",
+      "event": "Founds Jumpshot, a malware-removal product later acquired by Avast and rebranded GrimeFighter."
+    },
+    {
+      "date": "2024",
+      "event": "InQuest, where Amini served as CTO, is acquired by OPSWAT; Amini becomes Chief Scientist at OPSWAT."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -37,18 +66,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Zero Day Initiative - Wikipedia", "url": "https://en.wikipedia.org/wiki/Zero_Day_Initiative" },
-    { "title": "Fuzzing Frameworks (Black Hat USA 2007 whitepaper, Pedram Amini and Aaron Portnoy)", "url": "https://blackhat.com/presentations/bh-usa-07/Amini_and_Portnoy/Whitepaper/bh-usa-07-amini_and_portnoy-WP.pdf" },
-    { "title": "Pedram Amini - REcon 2006 speaker profile", "url": "https://recon.cx/2006/en/s/pamini.html" },
-    { "title": "Pedram Amini - SANS Institute profile", "url": "https://www.sans.org/profiles/pedram-amini" },
-    { "title": "Kraken Botnet Infiltration Triggers Ethics Debate - eWeek", "url": "https://www.eweek.com/security/kraken-botnet-infiltration-triggers-ethics-debate/" },
-    { "title": "Fuzzing: Brute Force Vulnerability Discovery - Amazon listing", "url": "https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119" }
+    {
+      "title": "Zero Day Initiative - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zero_Day_Initiative"
+    },
+    {
+      "title": "Fuzzing Frameworks (Black Hat USA 2007 whitepaper, Pedram Amini and Aaron Portnoy)",
+      "url": "https://blackhat.com/presentations/bh-usa-07/Amini_and_Portnoy/Whitepaper/bh-usa-07-amini_and_portnoy-WP.pdf"
+    },
+    {
+      "title": "Pedram Amini - REcon 2006 speaker profile",
+      "url": "https://recon.cx/2006/en/s/pamini.html"
+    },
+    {
+      "title": "Pedram Amini - SANS Institute profile",
+      "url": "https://www.sans.org/profiles/pedram-amini"
+    },
+    {
+      "title": "Kraken Botnet Infiltration Triggers Ethics Debate - eWeek",
+      "url": "https://www.eweek.com/security/kraken-botnet-infiltration-triggers-ethics-debate/"
+    },
+    {
+      "title": "Fuzzing: Brute Force Vulnerability Discovery - Amazon listing",
+      "url": "https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

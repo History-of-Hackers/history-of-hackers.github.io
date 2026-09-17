@@ -4,17 +4,38 @@
   "title": "Computer Underground Digest",
   "slug": "computer-underground-digest",
   "era": "1990-2000",
-  "tags": ["newsletter", "computer underground", "hacker culture", "digital rights", "usenet", "1990s", "policy", "phreaking"],
+  "tags": [
+    "newsletter",
+    "computer underground",
+    "hacker culture",
+    "digital rights",
+    "usenet",
+    "1990s",
+    "policy",
+    "phreaking"
+  ],
   "summary": "Computer Underground Digest (CuD) was a weekly electronic newsletter published from March 1990 to March 2000 that covered the legal, social, and cultural issues surrounding the early computer underground, edited by Jim Thomas with Gordon Meyer as news editor.",
   "whyThisMatters": "CuD was one of the earliest sustained journalistic and academic efforts to document, in near real time, the hacker crackdowns, prosecutions, and civil-liberties debates of the early 1990s, including the cases against Craig Neidorf and Leonard Rose. Distributed for free over USENET and email at a time before the World Wide Web was mainstream, it served as a primary-source record for researchers, journalists, and legal observers, and its decade-long archive remains a citable reference in later histories of computer crime and digital rights.",
   "sections": {
     "overview": "<h2>Background</h2><p>Computer Underground Digest (commonly abbreviated CuD) was an electronic newsletter that began publication on March 28, 1990. It was edited by Jim Thomas, a professor of criminal justice at Northern Illinois University, with Gordon Meyer serving as news editor; both had academic and personal interests in the emerging \"computer underground\" of hackers, phreakers, and bulletin-board-system (BBS) communities. The newsletter was created to provide a forum for discussion, news, and research on the cultural, social, and legal issues arising from the rapid growth of telecommunications networks and computer-mediated communication.</p><h2>Format and Distribution</h2><p>CuD was distributed free of charge as a more-or-less weekly digest, primarily through email mailing lists and USENET newsgroups, with plain-text issues later archived and mirrored on FTP sites and, eventually, the World Wide Web. Each issue compiled news items, reader submissions, legal documents, book reviews, and editorial commentary into a single text file identified by volume and issue number (for example, issue 2.04 or 12.01). A team of volunteer archivists helped maintain and mirror back issues across multiple sites, reflecting the decentralized, cooperative publishing norms of early internet culture.</p><h2>Coverage of Hacker Prosecutions</h2><p>CuD became particularly well known for its detailed coverage and legal commentary on the federal \"hacker crackdown\" prosecutions of the early 1990s, including the cases against Craig Neidorf (associated with the electronic publication Phrack) and Leonard Rose. Its issues discussed matters such as the disputed monetary valuation BellSouth placed on the E911 emergency-services document at the center of the Neidorf prosecution, providing a contemporaneous, detailed record that later researchers and legal historians have cited when reconstructing these events.</p><h2>Broader Editorial Scope</h2><p>Beyond individual prosecutions, CuD regularly addressed telecommunications and computer-crime law, encryption policy, free-speech and civil-liberties questions, and the workings of law enforcement operations targeting computer underground communities. It also published book reviews, reader debate, and occasional academic material, positioning itself as both a news digest and a discussion venue for people studying or participating in the computer underground.</p><h2>Decline and Legacy</h2><p>CuD continued publishing through the 1990s, reaching Volume 11 in 1999, before ceasing publication with its final issue, Volume 12, Number 1, on March 12, 2000, after almost exactly a decade of continuous operation. Its end coincided with the broader shift from email- and USENET-based publishing toward web-based forums and news sites. The full run of back issues has been preserved and mirrored by several archival sites, including the original hosting archive and text-file collections such as textfiles.com, and the newsletter continues to be cited as a primary source in academic and popular histories of 1990s hacker culture and computer-crime law.</p>"
   },
   "timeline": [
-    { "date": "1990-03-28", "event": "First issue of Computer Underground Digest is published, edited by Jim Thomas with Gordon Meyer as news editor." },
-    { "date": "1990-09-23", "event": "CuD issue 2.04 discusses the disputed valuation of the BellSouth E911 document central to the Craig Neidorf prosecution." },
-    { "date": "1999", "event": "CuD publishes its eleventh full volume of weekly issues." },
-    { "date": "2000-03-12", "event": "Final issue, Volume 12 Number 1, is published, ending nearly a decade of continuous publication." }
+    {
+      "date": "1990-03-28",
+      "event": "First issue of Computer Underground Digest is published, edited by Jim Thomas with Gordon Meyer as news editor."
+    },
+    {
+      "date": "1990-09-23",
+      "event": "CuD issue 2.04 discusses the disputed valuation of the BellSouth E911 document central to the Craig Neidorf prosecution."
+    },
+    {
+      "date": "1999",
+      "event": "CuD publishes its eleventh full volume of weekly issues."
+    },
+    {
+      "date": "2000-03-12",
+      "event": "Final issue, Volume 12 Number 1, is published, ending nearly a decade of continuous publication."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -22,16 +43,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Computer Underground Digest - Wikipedia", "url": "https://en.wikipedia.org/wiki/Computer_Underground_Digest" },
-    { "title": "Craig Neidorf - Wikipedia (cites CuD Vol. 2, No. 2.04, 1990-09-23)", "url": "https://en.wikipedia.org/wiki/Craig_Neidorf" },
-    { "title": "Computer Underground Digest archive index (CUDIND)", "url": "https://cu-digest.org/CUDIND/" },
-    { "title": "Electronic Magazines: CuD - textfiles.com archive", "url": "http://www.textfiles.com/magazines/CUD/" }
+    {
+      "title": "Computer Underground Digest - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Computer_Underground_Digest"
+    },
+    {
+      "title": "Craig Neidorf - Wikipedia (cites CuD Vol. 2, No. 2.04, 1990-09-23)",
+      "url": "https://en.wikipedia.org/wiki/Craig_Neidorf"
+    },
+    {
+      "title": "Computer Underground Digest archive index (CUDIND)",
+      "url": "https://cu-digest.org/CUDIND/"
+    },
+    {
+      "title": "Electronic Magazines: CuD - textfiles.com archive",
+      "url": "http://www.textfiles.com/magazines/CUD/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

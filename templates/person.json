@@ -31,7 +31,10 @@
     "legacy": ""
   },
   "timeline": [
-    { "year": "YYYY", "event": "Short factual event description" }
+    {
+      "year": "YYYY",
+      "event": "Short factual event description"
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -39,7 +42,12 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "images": [
-    { "url": "", "source": "", "author": "", "license": "" }
+    {
+      "url": "",
+      "source": "",
+      "author": "",
+      "license": ""
+    }
   ],
   "sources": [
     {
@@ -58,6 +66,7 @@
     "lastReviewed": null,
     "reviewStatus": "TODO | RESEARCHING | VERIFIED | ARTICLE_READY | PUBLISHED",
     "reviewer": null,
-    "impactLevel": "FOUNDATIONAL | MAJOR | NOTABLE"
+    "impactLevel": "FOUNDATIONAL | MAJOR | NOTABLE",
+    "createdBy": "Your Name (shown as 'Created by' on the page)"
   }
 }

@@ -1,0 +1,84 @@
+{
+  "id": "tim-may",
+  "type": "person",
+  "title": "Tim May",
+  "slug": "tim-may",
+  "name": "Tim May",
+  "born": 1951,
+  "died": 2018,
+  "era": "1980s-2010s",
+  "tags": [
+    "cypherpunks",
+    "crypto-anarchy",
+    "privacy",
+    "manifesto",
+    "intel"
+  ],
+  "summary": "American physicist and writer who authored 'The Crypto Anarchist Manifesto' and co-founded the cypherpunks mailing list.",
+  "whyThisMatters": "May's crypto-anarchist writing set the ideological agenda that produced remailers, digital cash, and much of the 1990s crypto-policy fight.",
+  "knownFor": [
+    "The Crypto Anarchist Manifesto (1988)",
+    "Co-founding the cypherpunks",
+    "The Cyphernomicon (1994)"
+  ],
+  "sections": {
+    "overview": "<p>Timothy C. May was an American physicist and technical writer. At Intel in the late 1970s he identified alpha-particle emission from chip packaging as the cause of soft errors in DRAM, work published in 1979 that changed how memory chips were packaged. He retired from Intel in 1986.</p><h2>Crypto anarchy</h2><p>In 1988 May wrote <em>The Crypto Anarchist Manifesto</em>, predicting that public-key cryptography and anonymous networks would let individuals transact and communicate beyond the reach of governments. In 1992 he co-founded the cypherpunks mailing list with Eric Hughes and John Gilmore, and in 1994 compiled <em>The Cyphernomicon</em>, an extensive FAQ on the movement's ideas.</p><h2>Later life</h2><p>May withdrew from the list in the 2000s and became critical of the commercialization of cryptocurrency. He died in December 2018 at his home in Corralitos, California.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1951-12-21",
+      "event": "Born in San Diego, California."
+    },
+    {
+      "date": "1979",
+      "event": "Publishes work at Intel identifying alpha particles as the cause of DRAM soft errors."
+    },
+    {
+      "date": "1988",
+      "event": "Writes 'The Crypto Anarchist Manifesto'."
+    },
+    {
+      "date": "1992-09",
+      "event": "Co-founds the cypherpunks mailing list with Eric Hughes and John Gilmore."
+    },
+    {
+      "date": "1994",
+      "event": "Publishes 'The Cyphernomicon'."
+    },
+    {
+      "date": "2018-12-13",
+      "event": "Dies in Corralitos, California."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "Timothy C. May, 'The Crypto Anarchist Manifesto' (1988)",
+      "url": "https://www.activism.net/cypherpunk/crypto-anarchy.html"
+    },
+    {
+      "title": "Timothy C. May, 'The Cyphernomicon' (1994)",
+      "url": "https://nakamotoinstitute.org/library/cyphernomicon/"
+    },
+    {
+      "title": "Reason: Tim May obituary (2018)",
+      "url": "https://reason.com/2018/12/16/tim-may-cryptography-and-the-future/"
+    },
+    {
+      "title": "Wikipedia: Timothy C. May",
+      "url": "https://en.wikipedia.org/wiki/Timothy_C._May"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

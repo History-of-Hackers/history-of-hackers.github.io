@@ -49,11 +49,11 @@
   "relatedEvents": [],
   "sources": [
     {
-      "title": "Zone-H \u2014 Wikipedia",
+      "title": "Zone-H — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Zone-H"
     },
     {
-      "title": "WabiSabiLabi \u2014 Wikipedia",
+      "title": "WabiSabiLabi — Wikipedia",
       "url": "https://en.wikipedia.org/wiki/WabiSabiLabi"
     },
     {
@@ -61,11 +61,11 @@
       "url": "https://www.computerworld.com/article/2539536/wabisabilabi-founder-arrested-in-italy.html"
     },
     {
-      "title": "Scandalo Telecom-Sismi \u2014 Wikipedia (Italian)",
+      "title": "Scandalo Telecom-Sismi — Wikipedia (Italian)",
       "url": "https://it.wikipedia.org/wiki/Scandalo_Telecom-Sismi"
     },
     {
-      "title": "Giuliano Tavaroli \u2014 Wikipedia (Italian)",
+      "title": "Giuliano Tavaroli — Wikipedia (Italian)",
       "url": "https://it.wikipedia.org/wiki/Giuliano_Tavaroli"
     }
   ],
@@ -74,7 +74,8 @@
     "sourcesCount": 5,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
   "name": "Roberto Preatoni",
   "born": null,

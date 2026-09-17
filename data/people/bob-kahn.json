@@ -1,0 +1,76 @@
+{
+  "id": "bob-kahn",
+  "type": "person",
+  "title": "Bob Kahn",
+  "slug": "bob-kahn",
+  "name": "Bob Kahn",
+  "born": 1938,
+  "died": null,
+  "era": "1970s-present",
+  "tags": [
+    "internet",
+    "tcp-ip",
+    "arpanet",
+    "protocols",
+    "networking"
+  ],
+  "summary": "American engineer who co-invented TCP/IP with Vint Cerf and organized the 1972 public demonstration of the ARPANET.",
+  "whyThisMatters": "Kahn's open-architecture networking principles defined how independent networks interconnect without trusting each other's internals.",
+  "knownFor": [
+    "Co-inventing TCP/IP",
+    "1972 ARPANET public demonstration",
+    "Founding CNRI"
+  ],
+  "sections": {
+    "overview": "<p>Robert Elliot Kahn is an American electrical engineer. At Bolt Beranek and Newman he worked on the design of the Interface Message Processor, the ARPANET's packet switch, and in October 1972 organized the first public demonstration of the ARPANET at the International Computer Communication Conference.</p><h2>Open-architecture networking</h2><p>After moving to DARPA's Information Processing Techniques Office, Kahn formulated the idea of open-architecture networking: each network could keep its own internal design, with gateways and an end-to-end protocol linking them. He recruited Vint Cerf, and their 1974 paper described the protocol that became TCP/IP.</p><h2>Later work</h2><p>In 1986 Kahn founded the Corporation for National Research Initiatives, where he developed the Digital Object Architecture and the Handle System. He shared the 2004 ACM Turing Award and the 2005 Presidential Medal of Freedom with Cerf.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1938-12-23",
+      "event": "Born in Brooklyn, New York."
+    },
+    {
+      "date": "1972-10",
+      "event": "Organizes the first public demonstration of the ARPANET at ICCC in Washington, D.C."
+    },
+    {
+      "date": "1974-05",
+      "event": "Co-authors the TCP paper with Vint Cerf."
+    },
+    {
+      "date": "1986",
+      "event": "Founds the Corporation for National Research Initiatives (CNRI)."
+    },
+    {
+      "date": "2004",
+      "event": "Receives the ACM Turing Award with Vint Cerf."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "ACM A.M. Turing Award: Robert E. Kahn",
+      "url": "https://amturing.acm.org/award_winners/kahn_4598637.cfm"
+    },
+    {
+      "title": "Internet Hall of Fame: Robert Kahn",
+      "url": "https://www.internethalloffame.org/inductee/robert-kahn/"
+    },
+    {
+      "title": "Wikipedia: Bob Kahn",
+      "url": "https://en.wikipedia.org/wiki/Bob_Kahn"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 3,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

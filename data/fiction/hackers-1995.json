@@ -35,7 +35,7 @@
       "description": "A hacker crew member known for his photographic (eidetic) memory, useful for recalling passwords and data."
     },
     {
-      "name": "Ram\u00f3n S\u00e1nchez",
+      "name": "Ramón Sánchez",
       "alias": "The Phantom Phreak",
       "actor": "Renoly Santiago",
       "description": "A hacker crew member who specializes in phone phreaking, manipulating telephone systems to aid the group's operations."
@@ -74,6 +74,7 @@
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
-    "reviewStatus": "PUBLISHED"
+    "reviewStatus": "PUBLISHED",
+    "createdBy": "Joas A Santos"
   }
 }

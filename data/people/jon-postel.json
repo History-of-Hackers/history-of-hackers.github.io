@@ -1,0 +1,80 @@
+{
+  "id": "jon-postel",
+  "type": "person",
+  "title": "Jon Postel",
+  "slug": "jon-postel",
+  "name": "Jon Postel",
+  "born": 1943,
+  "died": 1998,
+  "era": "1970s-1990s",
+  "tags": [
+    "internet",
+    "rfc",
+    "iana",
+    "dns",
+    "internet-governance"
+  ],
+  "summary": "American computer scientist who edited the RFC series for nearly three decades and administered Internet number and name assignments as IANA.",
+  "whyThisMatters": "Postel's robustness principle and his stewardship of IANA shaped both the interoperability and the trust assumptions of the early Internet.",
+  "knownFor": [
+    "RFC Editor",
+    "IANA",
+    "Postel's law (robustness principle)"
+  ],
+  "sections": {
+    "overview": "<p>Jonathan Bruce Postel was an American computer scientist who worked on the ARPANET as a UCLA graduate student and spent most of his career at the University of Southern California's Information Sciences Institute. He edited the Request for Comments series from 1969 until his death, and personally administered the assignment of Internet numbers and names, a function that became known as the Internet Assigned Numbers Authority.</p><h2>The robustness principle</h2><p>In RFC 761 (1980) Postel wrote that an implementation should \"be conservative in what you do, be liberal in what you accept from others.\" The principle became known as Postel's law; later security practitioners have debated its consequences, since liberal parsing of malformed input is a recurring source of vulnerabilities.</p><h2>The 1998 root server test</h2><p>In January 1998, during a dispute over control of the DNS root, Postel directed eight of the twelve non-government root server operators to take zone updates from his ISI server rather than the Network Solutions server. The test was reversed after government objection and became a reference point in the creation of ICANN later that year. Postel died in October 1998 following heart surgery; RFC 2468, \"I Remember IANA,\" was written by Vint Cerf in his memory.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1943-08-06",
+      "event": "Born in Altadena, California."
+    },
+    {
+      "date": "1969",
+      "event": "Begins editing the Request for Comments (RFC) series."
+    },
+    {
+      "date": "1980",
+      "event": "States the robustness principle in RFC 761."
+    },
+    {
+      "date": "1998-01",
+      "event": "Redirects most root servers to ISI in a DNS root test that is quickly reversed."
+    },
+    {
+      "date": "1998-10-16",
+      "event": "Dies in Los Angeles after heart surgery."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "RFC 2468: I Remember IANA (Vint Cerf)",
+      "url": "https://www.rfc-editor.org/rfc/rfc2468"
+    },
+    {
+      "title": "RFC 761: DoD Standard Transmission Control Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc761"
+    },
+    {
+      "title": "Internet Hall of Fame: Jon Postel",
+      "url": "https://www.internethalloffame.org/inductee/jon-postel/"
+    },
+    {
+      "title": "Wikipedia: Jon Postel",
+      "url": "https://en.wikipedia.org/wiki/Jon_Postel"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

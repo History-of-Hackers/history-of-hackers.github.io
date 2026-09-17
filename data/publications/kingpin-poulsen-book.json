@@ -4,19 +4,46 @@
   "title": "Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground",
   "slug": "kingpin-poulsen-book",
   "era": "2011",
-  "tags": ["carding", "cybercrime", "true-crime", "credit-card-fraud", "book", "iceman", "cardersmarket", "journalism"],
+  "tags": [
+    "carding",
+    "cybercrime",
+    "true-crime",
+    "credit-card-fraud",
+    "book",
+    "iceman",
+    "cardersmarket",
+    "journalism"
+  ],
   "summary": "\"Kingpin\" is a 2011 non-fiction book by journalist and former hacker Kevin Poulsen, published by Crown, that chronicles the rise and fall of Max Ray Butler (a.k.a. \"Max Vision\" and \"Iceman\"), a hacker who stole access to roughly 1.8 million credit card accounts and took over rival carding forums to build the unified marketplace CardersMarket.",
   "whyThisMatters": "The book is one of the most detailed narrative accounts of the underground carding economy of the 2000s, tracing how a single hacker consolidated competing criminal forums through both technical exploitation and social manipulation. Because author Kevin Poulsen is himself a former hacker turned investigative journalist, the work is frequently cited as a rare insider-informed account of cybercrime tradecraft and the law-enforcement operations used to dismantle it. It has been included in the Cybersecurity Canon, a curated list of books considered essential reading in the information-security field, and is commonly referenced in discussions of the history of financial cybercrime and the U.S. Secret Service's carding investigations.",
   "sections": {
     "overview": "<h2>Background</h2><p>\"Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground\" is a work of narrative non-fiction by Kevin Poulsen, published by Crown Publishers in 2011 (ISBN 978-0-307-58868-5). Poulsen, a former hacker who served federal prison time in the 1990s for computer intrusion offenses, reinvented himself as a technology journalist, working at SecurityFocus and later as a senior editor at Wired News, where he wrote the \"Threat Level\" security blog. His background as both a convicted hacker and an investigative reporter is frequently cited as giving the book unusual authority in describing both the technical mechanics and the psychology of the underground carding scene.</p><h2>Subject: Max Vision / Iceman</h2><p>The book centers on Max Ray Butler, who used the handles \"Max Vision\" and later \"Iceman.\" Butler was a computer security consultant and, earlier in his career, an informant for the FBI, before being convicted in 2000 for unauthorized intrusions into U.S. Department of Defense computers and serving roughly 18 months in prison. After his release, Butler moved deeper into cybercrime, specializing in the theft and resale of stolen credit card data (\"carding\"). Poulsen's account traces Butler's technical skill, his early legitimate security work, and his gradual descent into large-scale financial fraud.</p><h2>CardersMarket and the takeover of rival forums</h2><p>A central narrative thread of the book is Butler's creation of CardersMarket, an underground forum for buying and selling stolen financial data. According to the book and subsequent reporting, Butler used hacking techniques to compromise and absorb several competing carding forums, consolidating rival criminal marketplaces into his own platform under the \"Iceman\" persona -- effectively conducting a hostile takeover of the criminal underground's infrastructure. Poulsen describes this consolidation alongside the parallel efforts of federal law enforcement, including the U.S. Secret Service, to infiltrate and dismantle these networks.</p><h2>Arrest, prosecution, and sentencing</h2><p>Butler was arrested in September 2007 and pleaded guilty to wire fraud and other charges related to the operation. Prosecutors alleged that his scheme involved access to approximately 1.8 to 2 million credit card accounts and generated tens of millions of dollars in fraudulent transactions, with restitution ultimately set at $27.5 million. In February 2010, Butler was sentenced to 13 years in federal prison, which was, at the time, the longest sentence ever handed down in the United States for a hacking-related offense. Poulsen's book covers this investigation and prosecution in detail, drawing on court records, interviews, and his own reporting background covering the case for Wired.</p><h2>Critical reception</h2><p>\"Kingpin\" received generally positive reviews on publication. Critics praised Poulsen's ability to render complex technical material accessible and his pacing, with reviews describing it as a fast-moving, entertaining true-crime narrative; Publishers Weekly called it \"page-turning\" and noted Poulsen's dual ability to explain both the technical \"how\" and psychological \"why\" of the crimes. Some reviewers, including in the San Francisco Chronicle, praised the reporting and pacing while questioning whether certain claims about the scale of the fraud were somewhat exaggerated for narrative effect, and some reviews noted the book offered less psychological depth into Butler's motivations than into the mechanics of his crimes. The book was later included in the Cybersecurity Canon, a project recognizing notable books in the information security field, and a Polish translation (\"Haker: Prawdziwa historia szefa cybermafii\") was published by Znak in 2011.</p><h2>Significance and legacy</h2><p>\"Kingpin\" is frequently cited in discussions of the history of carding and financial cybercrime as one of the more thoroughly documented popular accounts of how underground criminal marketplaces for stolen financial data operated in the 2000s, and of the federal investigations that targeted them. Because it was written by a journalist with a personal history in computer intrusion, it is often referenced alongside other insider or journalist-authored accounts of hacker culture as a bridge between technical security reporting and mainstream true-crime writing. The book, and Butler's case more broadly, are commonly cited in later reporting and research on the evolution of carding forums and the law-enforcement strategies used against them.</p>"
   },
   "timeline": [
-    { "date": "2000", "event": "Max Ray Butler (\"Max Vision\") is convicted of unauthorized intrusions into U.S. Department of Defense computers and serves approximately 18 months in prison." },
-    { "date": "2006", "event": "Butler, operating as \"Iceman,\" builds CardersMarket by absorbing rival underground carding forums into a single marketplace." },
-    { "date": "2007-09", "event": "Butler is arrested and subsequently charged with wire fraud and related offenses connected to the theft of credit card data." },
-    { "date": "2010-02", "event": "Butler is sentenced to 13 years in federal prison and ordered to pay $27.5 million in restitution, at the time the longest sentence issued in the U.S. for a hacking-related crime." },
-    { "date": "2011-02", "event": "Kevin Poulsen's book \"Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground\" is published by Crown Publishers." },
-    { "date": "2021-04", "event": "Max Ray Butler is released from federal prison." }
+    {
+      "date": "2000",
+      "event": "Max Ray Butler (\"Max Vision\") is convicted of unauthorized intrusions into U.S. Department of Defense computers and serves approximately 18 months in prison."
+    },
+    {
+      "date": "2006",
+      "event": "Butler, operating as \"Iceman,\" builds CardersMarket by absorbing rival underground carding forums into a single marketplace."
+    },
+    {
+      "date": "2007-09",
+      "event": "Butler is arrested and subsequently charged with wire fraud and related offenses connected to the theft of credit card data."
+    },
+    {
+      "date": "2010-02",
+      "event": "Butler is sentenced to 13 years in federal prison and ordered to pay $27.5 million in restitution, at the time the longest sentence issued in the U.S. for a hacking-related crime."
+    },
+    {
+      "date": "2011-02",
+      "event": "Kevin Poulsen's book \"Kingpin: How One Hacker Took Over the Billion-Dollar Cybercrime Underground\" is published by Crown Publishers."
+    },
+    {
+      "date": "2021-04",
+      "event": "Max Ray Butler is released from federal prison."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -24,16 +51,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Kingpin (book) - Wikipedia", "url": "https://en.wikipedia.org/wiki/Kingpin_(book)" },
-    { "title": "Max Ray Butler - Wikipedia", "url": "https://en.wikipedia.org/wiki/Max_Ray_Butler" },
-    { "title": "Kevin Poulsen - Wikipedia", "url": "https://en.wikipedia.org/wiki/Kevin_Poulsen" },
-    { "title": "Publishers Weekly review: Kingpin by Kevin Poulsen", "url": "https://www.publishersweekly.com/978-0-307-58868-5" }
+    {
+      "title": "Kingpin (book) - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kingpin_(book)"
+    },
+    {
+      "title": "Max Ray Butler - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Max_Ray_Butler"
+    },
+    {
+      "title": "Kevin Poulsen - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kevin_Poulsen"
+    },
+    {
+      "title": "Publishers Weekly review: Kingpin by Kevin Poulsen",
+      "url": "https://www.publishersweekly.com/978-0-307-58868-5"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

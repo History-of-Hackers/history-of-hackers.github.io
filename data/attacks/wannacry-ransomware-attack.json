@@ -4,22 +4,58 @@
   "title": "The WannaCry Ransomware Attack",
   "slug": "wannacry-ransomware-attack",
   "era": "2017",
-  "tags": ["ransomware", "eternalblue", "nsa-exploit", "worm", "nhs", "marcus-hutchins", "shadow-brokers", "north-korea"],
+  "tags": [
+    "ransomware",
+    "eternalblue",
+    "nsa-exploit",
+    "worm",
+    "nhs",
+    "marcus-hutchins",
+    "shadow-brokers",
+    "north-korea"
+  ],
   "summary": "WannaCry was a fast-spreading ransomware worm that struck in May 2017, using the leaked NSA-developed EternalBlue exploit to infect hundreds of thousands of Windows computers across roughly 150 countries in a matter of days.",
   "whyThisMatters": "WannaCry demonstrated how a single leaked government cyberweapon could be weaponized into a self-propagating global crisis within hours, disrupting critical infrastructure such as the UK's National Health Service. It became a landmark case study in patch-management failure, the dangers of intelligence agencies stockpiling exploits, and the outsized role an individual researcher can play in blunting a global attack. The incident also led to formal U.S. and UK government attribution of a major cyberattack to a nation-state (North Korea), shaping subsequent cyber-diplomacy and sanctions policy.",
   "sections": {
     "overview": "<h2>Background</h2><p>WannaCry (also known as WannaCry, WCry, or Wanna Decryptor) was a ransomware cryptoworm that began spreading on 12 May 2017. It targeted computers running Microsoft Windows by encrypting data on the victim's hard drive and demanding a ransom payment, typically starting at $300 and rising to $600, payable in Bitcoin. What distinguished WannaCry from earlier ransomware families was its ability to propagate automatically across networks without any user interaction, behaving like a self-replicating worm rather than a conventional trojan spread through malicious email attachments alone.</p><h2>The EternalBlue Exploit</h2><p>WannaCry's propagation mechanism relied on EternalBlue, an exploit targeting a vulnerability in Microsoft's Server Message Block (SMB) protocol implementation. EternalBlue had reportedly been developed by the U.S. National Security Agency as part of its cyber-offensive toolkit and was leaked in April 2017 by a group calling itself the Shadow Brokers. Microsoft had already released a patch for the underlying vulnerability, designated MS17-010, on 14 March 2017, roughly two months before the outbreak, but a large number of organizations worldwide had not applied it, leaving them exposed.</p><h2>The Outbreak</h2><p>Beginning at approximately 07:45 UTC on 12 May 2017, WannaCry spread rapidly, infecting an estimated 230,000 or more computers across around 150 countries within its first day, with some estimates citing over 300,000 machines infected within 24 hours as the outbreak continued. The malware scanned for other vulnerable machines on local networks and the internet, exploiting EternalBlue to install itself and then encrypting files with extensions such as documents, images, and archives, appending a distinctive file extension and displaying a ransom note demanding payment.</p><h2>Impact on the NHS and Other Organizations</h2><p>The United Kingdom's National Health Service (NHS) was among the hardest-hit organizations, with reports indicating up to around 70,000 devices, including MRI scanners, blood-storage refrigerators, and computers, were affected across NHS England and NHS Scotland facilities, forcing hospitals to divert ambulances and cancel appointments. Other notable victims included Spain's Telefónica, Germany's Deutsche Bahn, delivery company FedEx, and automakers Nissan and Renault, which halted production at some plants. Total global damages from the attack have been estimated by various analysts to run into the billions of dollars, with figures as high as $4 billion cited.</p><h2>The Accidental Kill Switch</h2><p>The outbreak's rapid spread was significantly slowed on the same day it began, when British security researcher Marcus Hutchins, working for the firm Kryptos Logic and known online by the pseudonym MalwareTech, discovered that the malware's code queried an unregistered, oddly named domain before executing its encryption routine. Recognizing this domain as a potential kill switch, Hutchins registered it, which caused the malware to treat the domain's existence as a signal to halt further infection on machines that could reach it. Hutchins published his own account of the discovery on his MalwareTech blog shortly afterward. While the kill switch did not remove WannaCry from already-infected machines, it substantially curbed new infections and bought organizations and researchers critical time to patch systems and respond.</p><h2>Attribution and Aftermath</h2><p>In December 2017, the United States government formally attributed the WannaCry attack to North Korea, a position echoed by the United Kingdom and other allied governments, citing similarities in code and techniques to previous operations linked to the Lazarus Group, a hacking organization associated with North Korean state interests. North Korea denied involvement. In September 2018, the U.S. Department of Justice unsealed criminal charges against a North Korean programmer, Park Jin Hyok, in connection with WannaCry and other cyberattacks. Separately, Marcus Hutchins, hailed in the press as an accidental hero for stopping WannaCry, was arrested by the FBI in August 2017 on unrelated charges stemming from his earlier creation of the Kronos banking trojan; he later pleaded guilty and was sentenced to time served.</p><h2>Legacy</h2><p>WannaCry remains one of the most widely cited cyberattacks in the history of computer security, frequently referenced as a case study in the risks of unpatched software, the dangers of intelligence agencies stockpiling and losing control of offensive cyber tools, and the disproportionate impact ransomware worms can have on critical public infrastructure like healthcare systems. The attack accelerated corporate and government emphasis on timely patch management and contributed to broader public debate over vulnerability disclosure policy.</p>"
   },
   "timeline": [
-    { "date": "2017-03-14", "event": "Microsoft releases the MS17-010 security update patching the SMB vulnerability later exploited by EternalBlue." },
-    { "date": "2017-04-14", "event": "The Shadow Brokers publicly leak a set of NSA-linked exploit tools, including EternalBlue." },
-    { "date": "2017-05-12", "event": "WannaCry ransomware begins spreading globally, rapidly infecting computers in an estimated 150 countries, including major disruption to the UK's NHS." },
-    { "date": "2017-05-12", "event": "Security researcher Marcus Hutchins discovers and registers a hardcoded kill-switch domain in the WannaCry code, slowing the spread of new infections." },
-    { "date": "2017-05-15", "event": "The initial wave of the WannaCry outbreak is largely brought under control." },
-    { "date": "2017-08-03", "event": "Marcus Hutchins is arrested by the FBI in Las Vegas on charges unrelated to WannaCry, tied to his earlier development of the Kronos banking trojan." },
-    { "date": "2017-12", "event": "The United States and United Kingdom formally attribute the WannaCry attack to North Korea." },
-    { "date": "2018-09", "event": "The U.S. Department of Justice unseals charges against North Korean programmer Park Jin Hyok in connection with WannaCry and other cyberattacks." },
-    { "date": "2019-04-19", "event": "Marcus Hutchins pleads guilty to two charges related to the Kronos malware and is later sentenced to time served plus supervised release." }
+    {
+      "date": "2017-03-14",
+      "event": "Microsoft releases the MS17-010 security update patching the SMB vulnerability later exploited by EternalBlue."
+    },
+    {
+      "date": "2017-04-14",
+      "event": "The Shadow Brokers publicly leak a set of NSA-linked exploit tools, including EternalBlue."
+    },
+    {
+      "date": "2017-05-12",
+      "event": "WannaCry ransomware begins spreading globally, rapidly infecting computers in an estimated 150 countries, including major disruption to the UK's NHS."
+    },
+    {
+      "date": "2017-05-12",
+      "event": "Security researcher Marcus Hutchins discovers and registers a hardcoded kill-switch domain in the WannaCry code, slowing the spread of new infections."
+    },
+    {
+      "date": "2017-05-15",
+      "event": "The initial wave of the WannaCry outbreak is largely brought under control."
+    },
+    {
+      "date": "2017-08-03",
+      "event": "Marcus Hutchins is arrested by the FBI in Las Vegas on charges unrelated to WannaCry, tied to his earlier development of the Kronos banking trojan."
+    },
+    {
+      "date": "2017-12",
+      "event": "The United States and United Kingdom formally attribute the WannaCry attack to North Korea."
+    },
+    {
+      "date": "2018-09",
+      "event": "The U.S. Department of Justice unseals charges against North Korean programmer Park Jin Hyok in connection with WannaCry and other cyberattacks."
+    },
+    {
+      "date": "2019-04-19",
+      "event": "Marcus Hutchins pleads guilty to two charges related to the Kronos malware and is later sentenced to time served plus supervised release."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -27,16 +63,29 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "WannaCry ransomware attack - Wikipedia", "url": "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack" },
-    { "title": "Marcus Hutchins - Wikipedia", "url": "https://en.wikipedia.org/wiki/Marcus_Hutchins" },
-    { "title": "How to Accidentally Stop a Global Cyber Attacks - MalwareTech", "url": "https://www.malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-attacks.html" },
-    { "title": "WannaCry ransomware: all you need to know - Kaspersky", "url": "https://www.kaspersky.com/blog/wannacry-ransomware/17530/" }
+    {
+      "title": "WannaCry ransomware attack - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack"
+    },
+    {
+      "title": "Marcus Hutchins - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marcus_Hutchins"
+    },
+    {
+      "title": "How to Accidentally Stop a Global Cyber Attacks - MalwareTech",
+      "url": "https://www.malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-attacks.html"
+    },
+    {
+      "title": "WannaCry ransomware: all you need to know - Kaspersky",
+      "url": "https://www.kaspersky.com/blog/wannacry-ransomware/17530/"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 4,
     "lastReviewed": "2026-08-30",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

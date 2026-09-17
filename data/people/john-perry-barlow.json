@@ -1,0 +1,84 @@
+{
+  "id": "john-perry-barlow",
+  "type": "person",
+  "title": "John Perry Barlow",
+  "slug": "john-perry-barlow",
+  "name": "John Perry Barlow",
+  "born": 1947,
+  "died": 2018,
+  "era": "1990s-2010s",
+  "tags": [
+    "eff",
+    "civil-liberties",
+    "cyberspace",
+    "manifesto",
+    "internet-culture"
+  ],
+  "summary": "American writer and activist who co-founded the Electronic Frontier Foundation and wrote 'A Declaration of the Independence of Cyberspace'.",
+  "whyThisMatters": "Barlow framed the early Internet as a civil-liberties frontier and helped create the organization that has defended hackers and researchers in court ever since.",
+  "knownFor": [
+    "Co-founding the EFF",
+    "A Declaration of the Independence of Cyberspace (1996)",
+    "Grateful Dead lyricist"
+  ],
+  "sections": {
+    "overview": "<p>John Perry Barlow was an American poet, essayist, and activist, and a lyricist for the Grateful Dead. In 1990, after being questioned by the FBI during the investigations that followed Operation Sundevil, he wrote <em>Crime and Puzzlement</em>, describing how poorly law enforcement understood computer networks.</p><h2>The EFF</h2><p>That year he co-founded the Electronic Frontier Foundation with Mitch Kapor and John Gilmore to defend civil liberties online, beginning with support for hackers and companies swept up in the Sundevil raids. Barlow is credited with popularizing the term \"cyberspace\" for the Internet.</p><h2>The Declaration</h2><p>On 8 February 1996, responding to the U.S. Telecommunications Act, Barlow published <em>A Declaration of the Independence of Cyberspace</em> from Davos, declaring that governments had no sovereignty over the networked world. He was a fellow at Harvard's Berkman Center and co-founded the Freedom of the Press Foundation in 2012. He died in February 2018.</p>"
+  },
+  "timeline": [
+    {
+      "date": "1947-10-03",
+      "event": "Born in Jackson, Wyoming."
+    },
+    {
+      "date": "1990-06",
+      "event": "Publishes 'Crime and Puzzlement' after FBI questioning related to the Operation Sundevil era."
+    },
+    {
+      "date": "1990-07",
+      "event": "Co-founds the Electronic Frontier Foundation."
+    },
+    {
+      "date": "1996-02-08",
+      "event": "Publishes 'A Declaration of the Independence of Cyberspace'."
+    },
+    {
+      "date": "2012",
+      "event": "Co-founds the Freedom of the Press Foundation."
+    },
+    {
+      "date": "2018-02-07",
+      "event": "Dies in San Francisco."
+    }
+  ],
+  "relatedPeople": [],
+  "relatedGroups": [],
+  "relatedTools": [],
+  "relatedVulnerabilities": [],
+  "relatedEvents": [],
+  "sources": [
+    {
+      "title": "John Perry Barlow, 'A Declaration of the Independence of Cyberspace' (EFF)",
+      "url": "https://www.eff.org/cyberspace-independence"
+    },
+    {
+      "title": "John Perry Barlow, 'Crime and Puzzlement' (1990)",
+      "url": "https://www.eff.org/pages/crime-and-puzzlement"
+    },
+    {
+      "title": "EFF: 'John Perry Barlow, Internet Pioneer, 1947-2018'",
+      "url": "https://www.eff.org/deeplinks/2018/02/john-perry-barlow-internet-pioneer-1947-2018"
+    },
+    {
+      "title": "Wikipedia: John Perry Barlow",
+      "url": "https://en.wikipedia.org/wiki/John_Perry_Barlow"
+    }
+  ],
+  "editorial": {
+    "verified": true,
+    "sourcesCount": 4,
+    "lastReviewed": "2026-09-17",
+    "reviewStatus": "PUBLISHED",
+    "reviewer": "claude-2026-09-17",
+    "createdBy": "Joas A Santos"
+  }
+}

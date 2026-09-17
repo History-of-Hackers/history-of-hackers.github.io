@@ -13,7 +13,7 @@
   "summary": "The story of how hacker Richard Stallman launched the Free Software Movement and the GNU Project, creating the philosophical and legal foundations for open source.",
   "whyThisMatters": "The story of how hacker Richard Stallman launched the Free Software Movement and the GNU Project, creating the philosophical and legal foundations for open source.",
   "sections": {
-    "overview": "<p>A central figure in the hacker culture at MIT's AI Lab in the 1970s, <strong>Richard Stallman (rms)</strong> became disillusioned as proprietary software began to replace the lab's open, collaborative environment. In 1983, he announced the <strong>GNU Project</strong>, an ambitious plan to create a complete, Unix-compatible operating system composed entirely of 'free software'.</p>\n<p>'Free software', as defined by Stallman, is about liberty, not price. It centers on four essential freedoms for users: the freedom to run, copy, distribute, study, change, and improve the software. To legally enforce these freedoms, he authored the <strong>GNU General Public License (GPL)</strong>, an innovative legal framework that ensures software and its derivatives remain free.</p>\n<p>Over the next decade, Stallman and a community of volunteers built key components of the GNU system, including the GCC compiler, the GDB debugger, and the Emacs editor. The final missing piece \u2014 the kernel \u2014 was filled by Linus Torvalds' Linux kernel in the early 1990s, leading to the creation of the <strong>GNU/Linux</strong> operating system used by millions today.</p>"
+    "overview": "<p>A central figure in the hacker culture at MIT's AI Lab in the 1970s, <strong>Richard Stallman (rms)</strong> became disillusioned as proprietary software began to replace the lab's open, collaborative environment. In 1983, he announced the <strong>GNU Project</strong>, an ambitious plan to create a complete, Unix-compatible operating system composed entirely of 'free software'.</p>\n<p>'Free software', as defined by Stallman, is about liberty, not price. It centers on four essential freedoms for users: the freedom to run, copy, distribute, study, change, and improve the software. To legally enforce these freedoms, he authored the <strong>GNU General Public License (GPL)</strong>, an innovative legal framework that ensures software and its derivatives remain free.</p>\n<p>Over the next decade, Stallman and a community of volunteers built key components of the GNU system, including the GCC compiler, the GDB debugger, and the Emacs editor. The final missing piece — the kernel — was filled by Linus Torvalds' Linux kernel in the early 1990s, leading to the creation of the <strong>GNU/Linux</strong> operating system used by millions today.</p>"
   },
   "timeline": [
     {
@@ -48,7 +48,8 @@
     "sourcesCount": 3,
     "lastReviewed": "2026-08-28",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "migration-from-index.html"
+    "reviewer": "migration-from-index.html",
+    "createdBy": "Joas A Santos"
   },
   "name": "Richard Stallman, the GNU Project, and Free Software",
   "born": null,

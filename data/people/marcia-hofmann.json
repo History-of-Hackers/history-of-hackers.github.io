@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["digital rights", "cfaa", "eff", "privacy law", "security research", "free speech", "foia"],
+  "tags": [
+    "digital rights",
+    "cfaa",
+    "eff",
+    "privacy law",
+    "security research",
+    "free speech",
+    "foia"
+  ],
   "summary": "Marcia Clare Hofmann is an American attorney known for her work on electronic privacy, computer crime law and free expression, including years as a staff attorney and special counsel at the Electronic Frontier Foundation. She has defended programmers and security researchers in high-profile computer crime cases, among them the appeals of Andrew \"weev\" Auernheimer and the Lavabit encryption-key dispute.",
   "whyThisMatters": "Hofmann worked at the point where computer security research collides with criminal law, an area where broad statutes such as the Computer Fraud and Abuse Act have been used against researchers and journalists. Her litigation and advocacy helped establish arguments that visiting a publicly reachable web address is not, by itself, unauthorized access, and helped surface how far the government could go in demanding a service provider's private encryption keys. Her Freedom of Information Act work against federal agencies also contributed to public knowledge of surveillance practices. She is one of a small group of lawyers who made legal defense a routine part of the security research community's infrastructure.",
   "knownFor": [
@@ -22,15 +30,42 @@
     "overview": "<h2>Background and education</h2><p>Marcia Clare Hofmann is an American attorney whose practice centers on electronic privacy, computer crime law, copyright and free expression. She is a graduate of Mount Holyoke College and the University of Dayton School of Law, and has been named a US-UK Fulbright Scholar. Her early professional work was in Washington, D.C., in the open-government and privacy advocacy world rather than in private corporate practice.</p><p>From 2003 to 2006 Hofmann served as staff counsel and director of the Open Government Project at the Electronic Privacy Information Center (EPIC), where her work involved public records litigation and transparency advocacy directed at federal agencies.</p><h2>Electronic Frontier Foundation</h2><p>In 2006 Hofmann joined the Electronic Frontier Foundation as a staff attorney, later serving as senior staff attorney and then special counsel. At EFF she litigated numerous cases against federal agencies under the Freedom of Information Act, and became known for defending programmers and security researchers facing charges connected to the disclosure of security flaws.</p><p>That defense work placed her in the middle of a recurring problem in computer security: researchers who find and report vulnerabilities can be treated as intruders under statutes written decades earlier, most notably the Computer Fraud and Abuse Act. Hofmann argued publicly and in court for narrower readings of the statute, and wrote and spoke frequently on the legal exposure faced by people doing security work. Between 2010 and 2014 she was also a non-residential fellow with the Stanford Center for Internet and Society.</p><h2>United States v. Auernheimer</h2><p>Hofmann was part of the team that represented Andrew Auernheimer, known online as \"weev\", on appeal from his November 2012 conviction in federal court in New Jersey on charges of identity fraud and conspiracy to access a computer without authorization. The case grew out of the exposure of a flaw in an AT&T website that returned subscriber email addresses to anyone supplying a sequential identifier in a URL. Auernheimer was sentenced in March 2013 to 41 months in prison.</p><p>On appeal the defense argued, among other points, that retrieving information from a publicly reachable web address does not constitute unauthorized access under the Computer Fraud and Abuse Act, and that the prosecution had been brought in the wrong district: Auernheimer had been in Arkansas, while AT&T's servers were in Georgia and Texas. On April 11, 2014 the United States Court of Appeals for the Third Circuit vacated the conviction on venue grounds and ordered his release. EFF's announcement of the ruling named Hofmann, alongside EFF, Professor Orin Kerr of George Washington University and attorney Tor Ekeland, as counsel on the appeal.</p><h2>Lavabit and the encryption-key dispute</h2><p>Hofmann also represented the encrypted email provider Lavabit and its founder Ladar Levison in litigation, captioned in part under seal, arising from government demands for the company's private SSL keys. The underlying investigation was widely understood to concern Edward Snowden. Levison shut the service down in August 2013 rather than turn over keys that would have exposed all of the service's users, and was later held in contempt; the Fourth Circuit ruled against Lavabit in 2014 without resolving the central legal questions the case raised about compelled disclosure of encryption keys.</p><h2>Private practice and later work</h2><p>Hofmann left EFF in 2013 to start a private practice while continuing to serve as special counsel to the organization. In that period she helped represent the Freedom of the Press Foundation in litigation against the Justice Department, filed amicus briefs in Twitter's lawsuit over the right to publish details of government surveillance requests, submitted comments on behalf of EFF, the Internet Archive and Reddit to the New York State Department of Financial Services regarding the proposed BitLicense regulation, and commented to the United States Copyright Office in support of a security research exemption to the prohibition on circumventing technical protection measures in vehicles. She was part of the defense team for security researcher Marcus Hutchins. In 2020 she joined Twitter as product counsel.</p><h2>Teaching and legacy</h2><p>Hofmann has taught as an adjunct professor at the University of California Hastings College of the Law and the University of Colorado Law School, and has been a frequent speaker at security and privacy conferences, where her talks and clinics helped familiarize technical audiences with their legal exposure. Her career reflects a broader shift during the 2000s and 2010s in which digital civil liberties organizations became a standing legal counterweight in computer crime prosecutions, and in which questions about what counts as \"authorized access\" moved from obscure statutory argument to a mainstream policy debate.</p>"
   },
   "timeline": [
-    { "date": "2003", "event": "Becomes staff counsel and director of the Open Government Project at the Electronic Privacy Information Center." },
-    { "date": "2006", "event": "Joins the Electronic Frontier Foundation as a staff attorney." },
-    { "date": "2010", "event": "Begins a term as non-residential fellow at the Stanford Center for Internet and Society, continuing to 2014." },
-    { "date": "2013", "event": "Leaves EFF's staff to start a private practice, continuing as special counsel to the organization." },
-    { "date": "2013-08", "event": "Lavabit suspends operations rather than surrender its private SSL keys; Hofmann represents the company and founder Ladar Levison in the ensuing litigation." },
-    { "date": "2014-04-11", "event": "The Third Circuit vacates Andrew Auernheimer's conviction on venue grounds; EFF names Hofmann among his appellate counsel." },
-    { "date": "2014", "event": "Files comments with the New York State Department of Financial Services on the proposed BitLicense rules on behalf of EFF, the Internet Archive and Reddit." },
-    { "date": "2015", "event": "Comments to the U.S. Copyright Office supporting a security research exemption for circumvention of vehicle software protections." },
-    { "date": "2020", "event": "Joins Twitter as product counsel." }
+    {
+      "date": "2003",
+      "event": "Becomes staff counsel and director of the Open Government Project at the Electronic Privacy Information Center."
+    },
+    {
+      "date": "2006",
+      "event": "Joins the Electronic Frontier Foundation as a staff attorney."
+    },
+    {
+      "date": "2010",
+      "event": "Begins a term as non-residential fellow at the Stanford Center for Internet and Society, continuing to 2014."
+    },
+    {
+      "date": "2013",
+      "event": "Leaves EFF's staff to start a private practice, continuing as special counsel to the organization."
+    },
+    {
+      "date": "2013-08",
+      "event": "Lavabit suspends operations rather than surrender its private SSL keys; Hofmann represents the company and founder Ladar Levison in the ensuing litigation."
+    },
+    {
+      "date": "2014-04-11",
+      "event": "The Third Circuit vacates Andrew Auernheimer's conviction on venue grounds; EFF names Hofmann among his appellate counsel."
+    },
+    {
+      "date": "2014",
+      "event": "Files comments with the New York State Department of Financial Services on the proposed BitLicense rules on behalf of EFF, the Internet Archive and Reddit."
+    },
+    {
+      "date": "2015",
+      "event": "Comments to the U.S. Copyright Office supporting a security research exemption for circumvention of vehicle software protections."
+    },
+    {
+      "date": "2020",
+      "event": "Joins Twitter as product counsel."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -38,18 +73,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Marcia Hofmann - Wikipedia", "url": "https://en.wikipedia.org/wiki/Marcia_Hofmann" },
-    { "title": "Appeals Court Overturns Andrew \"weev\" Auernheimer Conviction - Electronic Frontier Foundation", "url": "https://www.eff.org/press/releases/appeals-court-overturns-andrew-weev-auernheimer-conviction" },
-    { "title": "Marcia Hofmann - Stanford Center for Internet and Society", "url": "http://cyberlaw.stanford.edu/about/people/marcia-hofmann" },
-    { "title": "Marcia Hofmann - Electronic Frontier Foundation staff page", "url": "https://www.eff.org/about/staff/marcia-hofmann" },
-    { "title": "United States v. Auernheimer - Wikipedia", "url": "https://en.wikipedia.org/wiki/United_States_v._Auernheimer" },
-    { "title": "Lavabit - Wikipedia", "url": "https://en.wikipedia.org/wiki/Lavabit" }
+    {
+      "title": "Marcia Hofmann - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marcia_Hofmann"
+    },
+    {
+      "title": "Appeals Court Overturns Andrew \"weev\" Auernheimer Conviction - Electronic Frontier Foundation",
+      "url": "https://www.eff.org/press/releases/appeals-court-overturns-andrew-weev-auernheimer-conviction"
+    },
+    {
+      "title": "Marcia Hofmann - Stanford Center for Internet and Society",
+      "url": "http://cyberlaw.stanford.edu/about/people/marcia-hofmann"
+    },
+    {
+      "title": "Marcia Hofmann - Electronic Frontier Foundation staff page",
+      "url": "https://www.eff.org/about/staff/marcia-hofmann"
+    },
+    {
+      "title": "United States v. Auernheimer - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/United_States_v._Auernheimer"
+    },
+    {
+      "title": "Lavabit - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lavabit"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-31",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-wave2-2026-08-31"
+    "reviewer": "claude-taskforce-wave2-2026-08-31",
+    "createdBy": "Joas A Santos"
   }
 }

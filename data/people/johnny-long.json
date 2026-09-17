@@ -7,7 +7,16 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["google hacking", "ghdb", "penetration testing", "osint", "author", "def con", "hackers for charity", "nonprofit"],
+  "tags": [
+    "google hacking",
+    "ghdb",
+    "penetration testing",
+    "osint",
+    "author",
+    "def con",
+    "hackers for charity",
+    "nonprofit"
+  ],
   "summary": "Johnny Long is an American security researcher and author who popularized \"Google hacking\" and created the Google Hacking Database (GHDB), later founding the nonprofit Hackers for Charity.",
   "whyThisMatters": "Long's cataloguing of search-engine queries that expose misconfigured systems established Google hacking (and later \"dorking\" on other platforms) as a standard, low-cost reconnaissance technique in penetration testing and OSINT. His book Google Hacking for Penetration Testers became a foundational reference in the field, and his later shift to founding Hackers for Charity demonstrated an unusual model of directing hacker community skills and resources toward humanitarian work in East Africa.",
   "knownFor": [
@@ -22,13 +31,34 @@
     "overview": "<h2>Background</h2><p>Johnny Long, also known by the handle \"j0hnny\" (or \"j0hnnyhax\"), is an American computer security researcher, author, and public speaker. He worked as a penetration tester for the commercial and government sectors, and early in his career joined Computer Sciences Corporation, where he helped form a vulnerability-assessment team. Long describes himself as a \"professional hacker by trade,\" a description also used in the author biography accompanying his published books.</p><h2>Google Hacking and the GHDB</h2><p>Around 2002, Long began collecting Google search queries capable of surfacing vulnerable systems, exposed login portals, and sensitive information unintentionally indexed by the search engine, terming the practice \"Google hacking\" and labeling individual queries \"Googledorks.\" These queries were organized into a public, categorized list known as the Google Hacking Database (GHDB), which grew through years of community submissions in addition to Long's own research. According to Offensive Security's own history of the database, the GHDB's growth was \"amplified by countless hours of community member effort,\" and the technique gained wide visibility through Long's conference talks, including a 2005 presentation at DEF CON 13.</p><p>In 2004, Long published <em>Google Hacking for Penetration Testers</em>, which systematized these search-based reconnaissance techniques for a professional audience and became a widely cited reference work on using search engines defensively and offensively during security assessments. He went on to write or contribute to additional security titles, including <em>No-Tech Hacking: A Guide to Social Engineering</em>, which examined non-technical intrusion methods such as social engineering, dumpster diving, and physical security bypass.</p><h2>Transfer of the GHDB to Offensive Security</h2><p>Long maintained the GHDB for roughly a decade before handing it over to Offensive Security, the organization behind Kali Linux and the OSCP certification, in November 2010. The database has since been maintained as an extension of Offensive Security's Exploit Database (Exploit-DB), where it continues to accept community-submitted dorks and has expanded to cover other search engines and platforms such as Bing and GitHub.</p><h2>Hackers for Charity</h2><p>Long's wife, Jen Long, took part in a 2006 mission trip to Jinja, Uganda, an experience that led Johnny to travel there himself the following year. Moved by what he saw, he founded Hackers for Charity (HFC) in 2007, an organization built on the premise of directing hacker skills toward charitable and humanitarian ends, popularized under the tagline \"I hack charities.\" In 2009, Long relocated with his wife and three children to Jinja, Uganda, where the family lived for approximately seven years while running HFC's on-the-ground programs, which included a computer training center, a hackerspace, a restaurant, and a leather-working program, largely sustained by donations from the broader hacker and security conference community.</p><h2>Significance and Legacy</h2><p>Long's work established search-engine query reconnaissance as a mainstream discipline within penetration testing and open-source intelligence gathering, and the GHDB he founded remains active today as a curated public resource under Offensive Security. His subsequent turn toward Hackers for Charity is frequently cited within the security community as an atypical example of technical security expertise redirected toward long-term humanitarian and community-development work rather than commercial security consulting alone.</p>"
   },
   "timeline": [
-    { "date": "2002", "event": "Johnny Long begins cataloguing Google search queries (\"Googledorks\") that expose vulnerable systems and sensitive data." },
-    { "date": "2004", "event": "The queries are organized into the original Google Hacking Database (GHDB)." },
-    { "date": "2004-12-17", "event": "First edition of Google Hacking for Penetration Testers is published." },
-    { "date": "2005", "event": "Long presents on Google Hacking for Penetration Testers at DEF CON 13." },
-    { "date": "2007", "event": "Long founds the nonprofit organization Hackers for Charity." },
-    { "date": "2009", "event": "Long and his family relocate to Jinja, Uganda, to run Hackers for Charity programs full-time." },
-    { "date": "2010-11", "event": "Long hands over maintenance of the GHDB to Offensive Security, which integrates it into Exploit-DB." }
+    {
+      "date": "2002",
+      "event": "Johnny Long begins cataloguing Google search queries (\"Googledorks\") that expose vulnerable systems and sensitive data."
+    },
+    {
+      "date": "2004",
+      "event": "The queries are organized into the original Google Hacking Database (GHDB)."
+    },
+    {
+      "date": "2004-12-17",
+      "event": "First edition of Google Hacking for Penetration Testers is published."
+    },
+    {
+      "date": "2005",
+      "event": "Long presents on Google Hacking for Penetration Testers at DEF CON 13."
+    },
+    {
+      "date": "2007",
+      "event": "Long founds the nonprofit organization Hackers for Charity."
+    },
+    {
+      "date": "2009",
+      "event": "Long and his family relocate to Jinja, Uganda, to run Hackers for Charity programs full-time."
+    },
+    {
+      "date": "2010-11",
+      "event": "Long hands over maintenance of the GHDB to Offensive Security, which integrates it into Exploit-DB."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -36,18 +66,37 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "Google hacking - Wikipedia", "url": "https://en.wikipedia.org/wiki/Google_hacking" },
-    { "title": "Hackers for Charity - Wikipedia", "url": "https://en.wikipedia.org/wiki/Hackers_for_Charity" },
-    { "title": "About Exploit-DB (Google Hacking Database history) - OffSec", "url": "https://www.exploit-db.com/about-exploit-db" },
-    { "title": "Why Johnny Long hacks stuff - CSO Online", "url": "https://www.csoonline.com/article/2121942/why-johnny-long-hacks-stuff.html" },
-    { "title": "Johnny Long / j0hnny - InfoCon Database", "url": "https://infocondb.org/presenter/johnny-long-j0hnny" },
-    { "title": "Google Hacking for Penetration Testers - Elsevier Shop", "url": "https://shop.elsevier.com/books/google-hacking-for-penetration-testers/long/978-1-931836-36-4" }
+    {
+      "title": "Google hacking - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Google_hacking"
+    },
+    {
+      "title": "Hackers for Charity - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hackers_for_Charity"
+    },
+    {
+      "title": "About Exploit-DB (Google Hacking Database history) - OffSec",
+      "url": "https://www.exploit-db.com/about-exploit-db"
+    },
+    {
+      "title": "Why Johnny Long hacks stuff - CSO Online",
+      "url": "https://www.csoonline.com/article/2121942/why-johnny-long-hacks-stuff.html"
+    },
+    {
+      "title": "Johnny Long / j0hnny - InfoCon Database",
+      "url": "https://infocondb.org/presenter/johnny-long-j0hnny"
+    },
+    {
+      "title": "Google Hacking for Penetration Testers - Elsevier Shop",
+      "url": "https://shop.elsevier.com/books/google-hacking-for-penetration-testers/long/978-1-931836-36-4"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 6,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }

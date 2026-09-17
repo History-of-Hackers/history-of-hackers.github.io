@@ -7,7 +7,15 @@
   "born": null,
   "died": null,
   "era": "2000s-Present",
-  "tags": ["physical penetration testing", "social engineering", "security awareness", "red team", "bank security", "author", "public speaker"],
+  "tags": [
+    "physical penetration testing",
+    "social engineering",
+    "security awareness",
+    "red team",
+    "bank security",
+    "author",
+    "public speaker"
+  ],
   "summary": "Jayson E. Street is an American security consultant and self-described \"hacker, helper, and human\" known for physical penetration testing of banks, government buildings, and other secured facilities, and for advocating an education-focused approach to red team engagements.",
   "whyThisMatters": "Street helped popularize physical penetration testing and social engineering as a visible, story-driven discipline within the infosec community through years of conference talks illustrating how simple pretexting and physical access tricks could defeat costly technical security controls. As DEF CON Groups Global Ambassador, he played a connective role between DEF CON's central organization and its many local chapters worldwide. His \"Dissecting the Hack\" book series brought technical hacking narratives into college-level information security curricula, extending his influence into security education beyond the conference circuit.",
   "knownFor": [
@@ -21,12 +29,30 @@
     "overview": "<h2>Background</h2><p>Jayson E. Street is an American information security consultant who has worked for more than two decades in the fields of physical penetration testing and social engineering. He is frequently described in media coverage using colorful labels, including a \"notorious hacker\" (FOX25 Boston), a \"World Class Hacker\" (National Geographic's Breakthrough series), and a \"paunchy hacker\" (Rolling Stone), though he generally prefers to describe himself simply as a \"hacker, helper, and human.\" According to his own account and multiple interviews, Street entered the security field around 2000, when a vice president at an internet bank hired him into a network security role. For roughly the first decade of his career he worked primarily in defensive, \"blue team\" security roles.</p><h2>Transition to Physical Penetration Testing</h2><p>Around 2010, while employed testing a bank's defenses, Street found that he was unusually effective at bypassing physical security controls to gain unauthorized access to secure areas -- work colloquially described as \"robbing banks\" in a testing context. He expanded this practice into a broader consulting career, conducting authorized physical penetration tests against banks, hotels, biochemical and research facilities, and government buildings across multiple continents. In interviews and talks, he has recounted specific engagements, including gaining access to a bank's internal network within roughly thirty seconds of walking through the front door during a lunch break by manipulating an employee, and using coordinated pretexting -- sometimes called a \"crosstalk\" technique involving multiple security guards and fabricated credentials -- to enter a high-security building near Ground Zero in New York City.</p><h2>Philosophy and Methodology</h2><p>Street has distinguished his approach from conventional red team engagements by emphasizing education over covert exploitation. He has stated in interviews that his goal is not simply to demonstrate that he can bypass an organization's defenses undetected, but to create what he calls \"teachable moments\" -- engagements structured so that client staff learn, in real time or shortly afterward, how the social engineering or physical bypass worked, so they can better recognize similar attempts in the future. He has summarized this philosophy in comments such as \"I don't do red team engagements, I create teachable moments,\" and has described his method as attacking \"how people operate\" rather than attacking people themselves. Around 2016 he began developing what has been described as a security awareness engagement methodology, applying red-team-style tactics in a way intended to reveal real-world weaknesses without leaving lasting negative effects on the people involved.</p><h2>Writing and Public Speaking</h2><p>Street is a co-author of the \"Dissecting the Hack\" series of technical/narrative hacking books, which combine a fictional storyline with real technical material and have been used as assigned reading in information security courses at multiple colleges in several countries. He has also contributed to multiple volumes of the \"Tribe of Hackers\" book series. As a speaker, he has appeared at DEF CON, DerbyCon, GrrCON, Black Hat, THOTCON, NolaCon, DefCamp, and numerous other security conferences and academic institutions internationally, including a long-running guest lecturer role at the Beijing Institute of Technology. His talks typically use narrative accounts of physical penetration tests and social engineering engagements to illustrate security awareness lessons for both technical and non-technical audiences.</p><h2>Roles and Affiliations</h2><p>Street has served as DEF CON Groups Global Ambassador, a role connecting DEF CON's central organization with its network of independently run local chapters ('DEF CON Groups') around the world. Over the course of his career he has held titles including VP of Information Security at SphereNY, Chief Adversarial Officer at Secure Yeti, and, beginning in February 2026, Swarm Fellow at CovertSwarm, where he advises ethical hacking teams on full-spectrum attack methodology and mentors on physical security and social engineering technique.</p><h2>Significance</h2><p>Within the information security community, Street is best known not for a single high-profile breach or vulnerability disclosure, but for a long, publicly documented career of authorized physical penetration testing and social engineering engagements, delivered through storytelling that made these often-overlooked attack vectors accessible to broad audiences. His emphasis on treating security testing as an educational exercise -- rather than solely an adversarial exploit-for-exploit's-sake exercise -- has been cited as an influence on how some organizations approach the framing and follow-up of red team engagements.</p>"
   },
   "timeline": [
-    { "date": "2000", "event": "Enters the information security field after being hired into a network security role by a vice president at an internet bank." },
-    { "date": "2010", "event": "While testing a bank's physical defenses, discovers a strong aptitude for bypassing physical security controls and begins shifting from defensive to offensive (red team) engagements." },
-    { "date": "2009", "event": "Begins a long-running series of appearances at DEF CON as a speaker." },
-    { "date": "2016", "event": "Develops a security awareness engagement methodology applying red-team tactics with an explicit focus on education over covert exploitation." },
-    { "date": "2020", "event": "Recounts an engagement in which a client's improved security training, badge/lanyard systems, and camera monitoring successfully stopped his physical penetration attempts." },
-    { "date": "2026-02", "event": "Joins CovertSwarm as Swarm Fellow, advising ethical hacking teams on full-spectrum attack methodology and mentoring on physical security and social engineering." }
+    {
+      "date": "2000",
+      "event": "Enters the information security field after being hired into a network security role by a vice president at an internet bank."
+    },
+    {
+      "date": "2010",
+      "event": "While testing a bank's physical defenses, discovers a strong aptitude for bypassing physical security controls and begins shifting from defensive to offensive (red team) engagements."
+    },
+    {
+      "date": "2009",
+      "event": "Begins a long-running series of appearances at DEF CON as a speaker."
+    },
+    {
+      "date": "2016",
+      "event": "Develops a security awareness engagement methodology applying red-team tactics with an explicit focus on education over covert exploitation."
+    },
+    {
+      "date": "2020",
+      "event": "Recounts an engagement in which a client's improved security training, badge/lanyard systems, and camera monitoring successfully stopped his physical penetration attempts."
+    },
+    {
+      "date": "2026-02",
+      "event": "Joins CovertSwarm as Swarm Fellow, advising ethical hacking teams on full-spectrum attack methodology and mentoring on physical security and social engineering."
+    }
   ],
   "relatedPeople": [],
   "relatedGroups": [],
@@ -34,17 +60,33 @@
   "relatedVulnerabilities": [],
   "relatedEvents": [],
   "sources": [
-    { "title": "How hacker and security consultant Jayson E. Street breaks into businesses (1Password blog)", "url": "https://1password.com/blog/social-engineering-hacker-jayson-e-street-interview" },
-    { "title": "Jayson E. Street | CovertSwarm", "url": "https://www.covertswarm.com/authors/jayson-e-street" },
-    { "title": "Jayson E. Street - presenter profile - InfoConDB", "url": "https://infocondb.org/presenter/jayson-e-street" },
-    { "title": "The New Gen of Social Engineering with Jayson E. Street - Infosecurity Magazine", "url": "https://www.infosecurity-magazine.com/interviews/infosec2025-social-engineering/" },
-    { "title": "Blending Awareness, Social Engineering, and Physical Penetration Testing -- A Conversation with Jayson E. Street (The CyberWire, 8th Layer Insights)", "url": "https://thecyberwire.com/podcasts/8th-layer-insights/36/notes" }
+    {
+      "title": "How hacker and security consultant Jayson E. Street breaks into businesses (1Password blog)",
+      "url": "https://1password.com/blog/social-engineering-hacker-jayson-e-street-interview"
+    },
+    {
+      "title": "Jayson E. Street | CovertSwarm",
+      "url": "https://www.covertswarm.com/authors/jayson-e-street"
+    },
+    {
+      "title": "Jayson E. Street - presenter profile - InfoConDB",
+      "url": "https://infocondb.org/presenter/jayson-e-street"
+    },
+    {
+      "title": "The New Gen of Social Engineering with Jayson E. Street - Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/interviews/infosec2025-social-engineering/"
+    },
+    {
+      "title": "Blending Awareness, Social Engineering, and Physical Penetration Testing -- A Conversation with Jayson E. Street (The CyberWire, 8th Layer Insights)",
+      "url": "https://thecyberwire.com/podcasts/8th-layer-insights/36/notes"
+    }
   ],
   "editorial": {
     "verified": true,
     "sourcesCount": 5,
     "lastReviewed": "2026-08-29",
     "reviewStatus": "PUBLISHED",
-    "reviewer": "claude-taskforce-2026-08-29"
+    "reviewer": "claude-taskforce-2026-08-29",
+    "createdBy": "Joas A Santos"
   }
 }
